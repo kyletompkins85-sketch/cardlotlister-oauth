@@ -24,12 +24,16 @@
         msg.textContent = text;
       }
 
-      function deepLink(params) {
-        const url = IOS_DEEPLINK + "?" + new URLSearchParams(params).toString();
-        // show it on the page so you can verify it without any dev tools
-        show("Deep link URL:\n" + url);
-        window.location.href = url;
-      }
+function deepLink(params) {
+  const url = IOS_DEEPLINK + "?" + new URLSearchParams(params).toString();
+
+  // Append instead of overwriting so we don't lose the Worker response
+  msg.textContent += "\n\nDeep link URL:\n" + url;
+
+  // IMPORTANT: disable auto-open while testing so you can read the page
+  // window.location.href = url;
+}
+
 
 
 
