@@ -8,6 +8,7 @@
   <body style="font-family: system-ui, -apple-system, sans-serif; padding: 24px;">
     <h1>eBay Login Callback</h1>
     <div id="msg">Loading…</div>
+    <div id="deeplinkArea" style="margin-top: 12px;"></div>
 
     <script>
       // TODO (later): replace with your Cloudflare Worker base URL
@@ -27,12 +28,43 @@
 function deepLink(params) {
   const url = IOS_DEEPLINK + "?" + new URLSearchParams(params).toString();
 
-  // Append instead of overwriting so we don't lose the Worker response
+  // Keep text for debugging
   msg.textContent += "\n\nDeep link URL:\n" + url;
 
-  // IMPORTANT: disable auto-open while testing so you can read the page
+  // Render a real clickable link + a copy button
+  const area = document.getElementById("deeplinkArea");
+  if (area) {
+    area.innerHTML = `
+      <a href="${url}"
+         style="display:inline-block;padding:12px 16px;border:1px solid #333;border-radius:10px;text-decoration:none;">
+        Open Card Lot Lister
+      </a>
+      <button id="copyDeepLink"
+              style="margin-left:10px;padding:12px 16px;border:1px solid #333;border-radius:10px;background:#fff;">
+        Copy link
+      </button>
+      <div style="margin-top:10px;word-break:break-all;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">
+        ${url}
+      </div>
+    `;
+
+    const btn = document.getElementById("copyDeepLink");
+    if (btn) {
+      btn.onclick = async () => {
+        try {
+          await navigator.clipboard.writeText(url);
+          msg.textContent += "\n\nDeep link copied.";
+        } catch {
+          window.prompt("Copy this deep link:", url);
+        }
+      };
+    }
+  }
+
+  // IMPORTANT: do NOT auto-open; iOS often blocks non-user-initiated opens
   // window.location.href = url;
 }
+
 
 
 
