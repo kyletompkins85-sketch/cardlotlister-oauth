@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>eBay Login Callback</title>
+  </head>
+  <body style="font-family: system-ui, -apple-system, sans-serif; padding: 24px;">
+    <h1>eBay Login Callback</h1>
+    <div id="msg">Loading…</div>
+
+    <script>
+      // TODO (later): replace with your Cloudflare Worker base URL
+      const WORKER_BASE = "https://REPLACE_ME.workers.dev";
+      const IOS_DEEPLINK = "cardlotlister://oauth";
+
+      const qs = new URLSearchParams(window.location.search);
+      const code = qs.get("code");
+      const state = qs.get("state");
+
+      const msg = document.getElementById("msg");
+
+      function show(text) {
+        msg.textContent = text;
+      }
+
+      function deepLink(params) {
+        const url = IOS_DEEPLINK + "?" + new URLSearchParams(params).toString();
+        window.location.href = url;
+      }
+
+      async function run() {
+        if (!code) {
+          show("No code found. User likely declined.");
+          deepLink({ result: "declined" });
+          return;
+        }
+
+        show("Got code. (Next step: exchange via Worker)");
+
+        // For now we just show the code/state so you can confirm eBay is redirecting correctly.
+        // We'll wire the Worker exchange after the Worker exists.
+        console.log("code:", code);
+        console.log("state:", state);
+      }
+
+      run();
+    </script>
+  </body>
+</html>
