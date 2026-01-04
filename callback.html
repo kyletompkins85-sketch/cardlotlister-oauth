@@ -26,9 +26,11 @@
 
       function deepLink(params) {
         const url = IOS_DEEPLINK + "?" + new URLSearchParams(params).toString();
-        console.log("DEEPLINK:", url);
+        // show it on the page so you can verify it without any dev tools
+        show("Deep link URL:\n" + url);
         window.location.href = url;
       }
+
 
 
       async function run() {
