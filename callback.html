@@ -11,7 +11,7 @@
 
     <script>
       // TODO (later): replace with your Cloudflare Worker base URL
-      const WORKER_BASE = "https://REPLACE_ME.workers.dev";
+      const WORKER_BASE = "https://cardlotlister-oauth.kyle-tompkins-85.workers.dev";
       const IOS_DEEPLINK = "cardlotlister://oauth";
 
       const qs = new URLSearchParams(window.location.search);
@@ -36,12 +36,28 @@
           return;
         }
 
-        show("Got code. (Next step: exchange via Worker)");
+        show("Got code. Exchanging via Worker…");
 
-        // For now we just show the code/state so you can confirm eBay is redirecting correctly.
-        // We'll wire the Worker exchange after the Worker exists.
-        console.log("code:", code);
-        console.log("state:", state);
+try {
+  const resp = await fetch(WORKER_BASE + "/oauth/exchange", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ code, state })
+  });
+
+  const data = await resp.json().catch(() => ({}));
+
+  show("Worker response: " + JSON.stringify(data));
+
+  if (data && data.ok) {
+    deepLink({ result: "success" });
+  } else {
+    deepLink({ result: "failure" });
+  }
+} catch (e) {
+  show("Worker call failed: " + String(e));
+  deepLink({ result: "failure" });
+}
       }
 
       run();
