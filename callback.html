@@ -50,10 +50,11 @@ try {
   show("Worker response: " + JSON.stringify(data));
 
   if (data && data.ok) {
-    deepLink({ result: "success" });
-  } else {
-    deepLink({ result: "failure" });
-  }
+  deepLink({ result: "success", userKey: data.userKey || "" });
+} else {
+  deepLink({ result: "failure" });
+}
+  
 } catch (e) {
   show("Worker call failed: " + String(e));
   deepLink({ result: "failure" });
