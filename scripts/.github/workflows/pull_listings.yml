@@ -1,0 +1,42 @@
+name: Pull Listings Dataset
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "Title filter (ilike). Example: 2025 Topps Update"
+        required: true
+        default: "2025 Topps Update"
+  schedule:
+    - cron: "0 12 * * *" # daily at 12:00 UTC (optional)
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pull dataset
+        env:
+          WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+          QUERY: ${{ github.event.inputs.query || '2025 Topps Update' }}
+          LIMIT: "1000"
+        run: node scripts/pull_listings.mjs
+
+      - name: Commit dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "Update listings dataset" || echo "No changes to commit"
+          git push
