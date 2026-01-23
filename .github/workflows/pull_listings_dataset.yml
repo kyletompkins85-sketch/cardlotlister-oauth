@@ -1,4 +1,3 @@
-# .github/workflows/pull_listings_dataset.yml
 name: Pull listings dataset
 
 on:
@@ -19,7 +18,7 @@ jobs:
     env:
       WORKER_URL: ${{ secrets.WORKER_URL }}
       INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
-      Q: ${{ github.event.inputs.q }}
+      Q: ${{ inputs.q }}
 
     steps:
       - name: Checkout repo
@@ -60,45 +59,45 @@ jobs:
           meta_json = f"data/listings_{slug}.meta.json"
 
           def fetch_page(offset):
-            url = f"{worker}/internal/listings/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
-            req = urllib.request.Request(url, headers={"x-internal-key": key, "accept": "application/json"})
-            try:
-              with urllib.request.urlopen(req, timeout=60) as r:
-                return json.loads(r.read().decode("utf-8"))
-            except urllib.error.HTTPError as e:
-              body = e.read().decode("utf-8", "replace")
-              print(f"HTTP {e.code} from Worker: {body}", file=sys.stderr)
-              raise
+              url = f"{worker}/internal/listings/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
+              req = urllib.request.Request(url, headers={"x-internal-key": key, "accept": "application/json"})
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return json.loads(r.read().decode("utf-8"))
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode("utf-8", "replace")
+                  print(f"HTTP {e.code} from Worker: {body}", file=sys.stderr)
+                  raise
 
           with open(out_jsonl, "w", encoding="utf-8") as f:
-            while True:
-              data = fetch_page(offset)
-              rows = data.get("rows", []) or []
-              returned = len(rows)
+              while True:
+                  data = fetch_page(offset)
+                  rows = data.get("rows", []) or []
+                  returned = len(rows)
 
-              for r in rows:
-                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+                  for r in rows:
+                      f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-              total += returned
-              print(f"offset={offset} returned={returned} total={total}")
+                  total += returned
+                  print(f"offset={offset} returned={returned} total={total}")
 
-              if returned == 0 or returned < limit:
-                break
+                  if returned == 0 or returned < limit:
+                      break
 
-              offset += returned
-              time.sleep(0.2)
+                  offset += returned
+                  time.sleep(0.2)
 
           meta = {
-            "q": q,
-            "worker_url": worker,
-            "total_rows": total,
-            "pulled_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
-            "format": "jsonl",
+              "q": q,
+              "worker_url": worker,
+              "total_rows": total,
+              "pulled_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+              "format": "jsonl",
           }
 
           with open(meta_json, "w", encoding="utf-8") as f:
-            json.dump(meta, f, ensure_ascii=False, indent=2)
-            f.write("\n")
+              json.dump(meta, f, ensure_ascii=False, indent=2)
+              f.write("\n")
 
           print(f"Wrote {total} rows -> {out_jsonl}")
           print(f"Wrote meta -> {meta_json}")
