@@ -1,74 +1,86 @@
-# Cmd+F: CL_ANCHOR_GHA_PULL_LISTINGS_DATASET_WORKFLOW_7C2A19D4
-name: pull-listings-dataset
+# Cmd+F: CL_ANCHOR_PULL_LISTINGS_DATASET_WORKFLOW_8F2C1A77
+name: Pull Listings Dataset
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *" # optional: daily
 
 permissions:
   contents: write
 
 jobs:
-  export:
+  pull:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        # Cmd+F: CL_ANCHOR_GHA_CHECKOUT_2F8B1A11
         uses: actions/checkout@v4
 
-      - name: Export listings dataset from Worker (paged) and commit to repo
-        # Cmd+F: CL_ANCHOR_GHA_EXPORT_AND_COMMIT_6B0A3C9D
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Pull dataset from Worker (Supabase) -> data/
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
           INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
           Q: "2025 Topps Update"
         run: |
           set -euo pipefail
+
           mkdir -p data
+          OUT="data/listings_2025_topps_update.jsonl"
+          : > "$OUT"
 
-          out="data/listings_2025_topps_update.jsonl"
-          : > "$out"
+          LIMIT=1000
+          OFFSET=0
 
-          limit=1000
-          offset=0
           while true; do
-            echo "Fetching offset=$offset limit=$limit"
-            resp="$(curl -sS "$WORKER_URL/internal/listings/search?q=$(python -c "import urllib.parse; print(urllib.parse.quote('''$Q'''))")&limit=$limit&offset=$offset" \
-              -H "x-internal-key: $INTERNAL_API_KEY")"
+            echo "Fetching offset=$OFFSET limit=$LIMIT"
 
-            # parse returned count
-            returned="$(python - << 'PY'
-import json,sys
-j=json.loads(sys.stdin.read())
-print(int(j.get("returned",0)))
-PY
-<<< "$resp")"
+            curl -sS -f \
+              "$WORKER_URL/internal/listings/search?q=$(python -c 'import urllib.parse; print(urllib.parse.quote("'"$Q"'"))')&limit=$LIMIT&offset=$OFFSET" \
+              -H "x-internal-key: $INTERNAL_API_KEY" \
+              -H "Accept: application/json" \
+              -o /tmp/resp.json
 
-            if [ "$returned" -le 0 ]; then
+            RETURNED="$(python -c 'import json; j=json.load(open("/tmp/resp.json")); print(int(j.get("returned", 0)))')"
+            echo "Returned=$RETURNED"
+
+            if [ "$RETURNED" -le 0 ]; then
               echo "Done (no more rows)."
               break
             fi
 
-            # append rows as JSONL
-            python - << 'PY'
-import json,sys
-j=json.loads(sys.stdin.read())
-for r in j.get("rows",[]):
-  print(json.dumps(r, ensure_ascii=False))
-PY
-<<< "$resp" >> "$out"
+            python -c 'import json; j=json.load(open("/tmp/resp.json")); 
+for r in (j.get("rows") or []):
+  print(json.dumps(r, ensure_ascii=False))' >> "$OUT"
 
-            offset=$((offset + returned))
-            if [ "$returned" -lt "$limit" ]; then
-              echo "Done (last page was partial)."
+            OFFSET=$((OFFSET + RETURNED))
+
+            # safety stop (optional)
+            if [ "$RETURNED" -lt "$LIMIT" ]; then
+              echo "Done (last page)."
               break
             fi
           done
 
-          echo "Wrote: $out"
-          wc -l "$out" || true
+          echo "Wrote $(wc -l < "$OUT") rows to $OUT"
 
+      - name: Commit dataset to repo (if changed)
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "$out"
-          git commit -m "Update listings dataset: 2025 Topps Update" || echo "No changes to commit"
+
+          git add data/*.jsonl || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update listings dataset (2025 Topps Update)"
           git push
