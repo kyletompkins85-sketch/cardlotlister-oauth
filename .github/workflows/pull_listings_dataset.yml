@@ -1,0 +1,74 @@
+# Cmd+F: CL_ANCHOR_GHA_PULL_LISTINGS_DATASET_WORKFLOW_7C2A19D4
+name: pull-listings-dataset
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        # Cmd+F: CL_ANCHOR_GHA_CHECKOUT_2F8B1A11
+        uses: actions/checkout@v4
+
+      - name: Export listings dataset from Worker (paged) and commit to repo
+        # Cmd+F: CL_ANCHOR_GHA_EXPORT_AND_COMMIT_6B0A3C9D
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+          Q: "2025 Topps Update"
+        run: |
+          set -euo pipefail
+          mkdir -p data
+
+          out="data/listings_2025_topps_update.jsonl"
+          : > "$out"
+
+          limit=1000
+          offset=0
+          while true; do
+            echo "Fetching offset=$offset limit=$limit"
+            resp="$(curl -sS "$WORKER_URL/internal/listings/search?q=$(python -c "import urllib.parse; print(urllib.parse.quote('''$Q'''))")&limit=$limit&offset=$offset" \
+              -H "x-internal-key: $INTERNAL_API_KEY")"
+
+            # parse returned count
+            returned="$(python - << 'PY'
+import json,sys
+j=json.loads(sys.stdin.read())
+print(int(j.get("returned",0)))
+PY
+<<< "$resp")"
+
+            if [ "$returned" -le 0 ]; then
+              echo "Done (no more rows)."
+              break
+            fi
+
+            # append rows as JSONL
+            python - << 'PY'
+import json,sys
+j=json.loads(sys.stdin.read())
+for r in j.get("rows",[]):
+  print(json.dumps(r, ensure_ascii=False))
+PY
+<<< "$resp" >> "$out"
+
+            offset=$((offset + returned))
+            if [ "$returned" -lt "$limit" ]; then
+              echo "Done (last page was partial)."
+              break
+            fi
+          done
+
+          echo "Wrote: $out"
+          wc -l "$out" || true
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$out"
+          git commit -m "Update listings dataset: 2025 Topps Update" || echo "No changes to commit"
+          git push
