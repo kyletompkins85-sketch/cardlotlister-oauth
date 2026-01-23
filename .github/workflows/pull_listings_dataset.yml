@@ -1,10 +1,13 @@
-# Cmd+F: CL_ANCHOR_PULL_LISTINGS_DATASET_WORKFLOW_8F2C1A77
-name: Pull Listings Dataset
+# .github/workflows/pull_listings_dataset.yml
+name: Pull listings dataset
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 6 * * *" # optional: daily
+    inputs:
+      q:
+        description: Search string (title contains)
+        required: true
+        default: "2025 Topps Update"
 
 permissions:
   contents: write
@@ -13,61 +16,93 @@ jobs:
   pull:
     runs-on: ubuntu-latest
 
+    env:
+      WORKER_URL: ${{ secrets.WORKER_URL }}
+      INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+      Q: ${{ github.event.inputs.q }}
+
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Pull dataset from Worker (Supabase) -> data/
-        env:
-          WORKER_URL: ${{ secrets.WORKER_URL }}
-          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
-          Q: "2025 Topps Update"
+      - name: Pull dataset from Worker into /data
         run: |
           set -euo pipefail
 
+          if [ -z "${WORKER_URL:-}" ]; then
+            echo "Missing WORKER_URL secret"
+            exit 1
+          fi
+          if [ -z "${INTERNAL_API_KEY:-}" ]; then
+            echo "Missing INTERNAL_API_KEY secret"
+            exit 1
+          fi
+          if [ -z "${Q:-}" ]; then
+            echo "Missing Q input"
+            exit 1
+          fi
+
           mkdir -p data
-          OUT="data/listings_2025_topps_update.jsonl"
-          : > "$OUT"
 
-          LIMIT=1000
-          OFFSET=0
+          python3 - <<'PY'
+          import os, sys, json, time, urllib.parse, urllib.request, datetime
 
-          while true; do
-            echo "Fetching offset=$OFFSET limit=$LIMIT"
+          worker = os.environ["WORKER_URL"].rstrip("/")
+          key = os.environ["INTERNAL_API_KEY"].strip()
+          q = os.environ["Q"].strip()
 
-            curl -sS -f \
-              "$WORKER_URL/internal/listings/search?q=$(python -c 'import urllib.parse; print(urllib.parse.quote("'"$Q"'"))')&limit=$LIMIT&offset=$OFFSET" \
-              -H "x-internal-key: $INTERNAL_API_KEY" \
-              -H "Accept: application/json" \
-              -o /tmp/resp.json
+          limit = 1000
+          offset = 0
+          total = 0
 
-            RETURNED="$(python -c 'import json; j=json.load(open("/tmp/resp.json")); print(int(j.get("returned", 0)))')"
-            echo "Returned=$RETURNED"
+          slug = "".join(c.lower() if c.isalnum() else "_" for c in q).strip("_")
+          out_jsonl = f"data/listings_{slug}.jsonl"
+          meta_json = f"data/listings_{slug}.meta.json"
 
-            if [ "$RETURNED" -le 0 ]; then
-              echo "Done (no more rows)."
-              break
-            fi
+          def fetch_page(offset):
+            url = f"{worker}/internal/listings/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
+            req = urllib.request.Request(url, headers={"x-internal-key": key, "accept": "application/json"})
+            try:
+              with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read().decode("utf-8"))
+            except urllib.error.HTTPError as e:
+              body = e.read().decode("utf-8", "replace")
+              print(f"HTTP {e.code} from Worker: {body}", file=sys.stderr)
+              raise
 
-            python -c 'import json; j=json.load(open("/tmp/resp.json")); 
-for r in (j.get("rows") or []):
-  print(json.dumps(r, ensure_ascii=False))' >> "$OUT"
+          with open(out_jsonl, "w", encoding="utf-8") as f:
+            while True:
+              data = fetch_page(offset)
+              rows = data.get("rows", []) or []
+              returned = len(rows)
 
-            OFFSET=$((OFFSET + RETURNED))
+              for r in rows:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-            # safety stop (optional)
-            if [ "$RETURNED" -lt "$LIMIT" ]; then
-              echo "Done (last page)."
-              break
-            fi
-          done
+              total += returned
+              print(f"offset={offset} returned={returned} total={total}")
 
-          echo "Wrote $(wc -l < "$OUT") rows to $OUT"
+              if returned == 0 or returned < limit:
+                break
+
+              offset += returned
+              time.sleep(0.2)
+
+          meta = {
+            "q": q,
+            "worker_url": worker,
+            "total_rows": total,
+            "pulled_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+            "format": "jsonl",
+          }
+
+          with open(meta_json, "w", encoding="utf-8") as f:
+            json.dump(meta, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+
+          print(f"Wrote {total} rows -> {out_jsonl}")
+          print(f"Wrote meta -> {meta_json}")
+          PY
 
       - name: Commit dataset to repo (if changed)
         run: |
@@ -75,12 +110,12 @@ for r in (j.get("rows") or []):
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*.jsonl || true
+          git add data/*.jsonl data/*.meta.json || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Update listings dataset (2025 Topps Update)"
+          git commit -m "Update listings dataset (${Q})"
           git push
