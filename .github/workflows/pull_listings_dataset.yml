@@ -55,11 +55,11 @@ jobs:
           total = 0
 
           slug = "".join(c.lower() if c.isalnum() else "_" for c in q).strip("_")
-          out_jsonl = f"data/listings_{slug}.jsonl"
-          meta_json = f"data/listings_{slug}.meta.json"
-
+          out_jsonl = f"data/term_search_items_{slug}.jsonl"
+          meta_json = f"data/term_search_items_{slug}.meta.json"
+          
           def fetch_page(offset):
-              url = f"{worker}/internal/listings/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
+              url = f"{worker}/internal/termSearchItems/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
               req = urllib.request.Request(url, headers={"x-internal-key": key, "accept": "application/json"})
               try:
                   with urllib.request.urlopen(req, timeout=60) as r:
@@ -68,6 +68,7 @@ jobs:
                   body = e.read().decode("utf-8", "replace")
                   print(f"HTTP {e.code} from Worker: {body}", file=sys.stderr)
                   raise
+
 
           with open(out_jsonl, "w", encoding="utf-8") as f:
               while True:
@@ -116,5 +117,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update listings dataset (${Q})"
+          git commit -m "Update term_search_items dataset (${Q})"
           git push
