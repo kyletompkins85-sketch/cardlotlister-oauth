@@ -64,10 +64,11 @@ RX_PHOTO_VARIATION = _re(r"\bphoto\s*variation\b|\bimage\s*variation\b|\bvariati
 RX_OWN_THE_NAME    = _re(r"\bown\s+the\s+name\b|\botn\b")
 RX_FOIL_FRACTOR = _re(r"\bfoil\s*[-\s]?\s*fractor\b|\bfoilfractor\b")
 RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
-RX_CANVAS_VARIANT = _re(r"\bcanva[si]s\b")
+RX_CANVAS_VARIANT = _re(r"(?:^|[^a-z])canva(?:s|i)s{0,2}(?:$|[^a-z])")
 RX_FIRST_CARD = _re(r"\bfirst\s+card\b")
 RX_PLATINUM   = _re(r"\bplatinum\b")
 RX_WOOD = _re(r"\bwood\b")
+RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
 
 
 
@@ -256,6 +257,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_first_card": _has(RX_FIRST_CARD, s),
         "WF_platinum": _has(RX_PLATINUM, s),
         "WF_wood": _has(RX_WOOD, s),
+        "WF_camo": _has(RX_CAMO, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -337,6 +339,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_canvas_50": bool(wf.get("WF_canvas", False) and wf.get("WF_outof_50", False)),
         "CT_wood_25": bool(wf.get("WF_wood", False) and wf.get("WF_outof_25", False)),
         "CT_holiday_witch_hat_5": bool(wf.get("WF_holiday_witch_hat", False) and wf.get("WF_outof_5", False)),
+        "CT_camo_25": bool(wf.get("WF_camo", False) and wf.get("WF_outof_25", False)),
+        "CT_holiday_mummy_50": bool(wf.get("WF_holiday_mummy", False) and wf.get("WF_outof_50", False)),
 
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
