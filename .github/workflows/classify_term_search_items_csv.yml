@@ -8,9 +8,9 @@ on:
         required: true
         default: "data/term_search_items_table.csv"
       max_out:
-        description: "If >0, stop after writing this many rows (0 = all)"
+        description: "Stop after writing this many rows (keeps GitHub view pretty). Use 0 for all."
         required: true
-        default: "0"
+        default: "1000"
       exclude_lots:
         description: "true = drop lot listings"
         required: true
