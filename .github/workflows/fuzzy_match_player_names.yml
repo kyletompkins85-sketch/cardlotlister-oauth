@@ -1,0 +1,107 @@
+name: Fuzzy match player names from titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Input CSV with a title column"
+        required: true
+        default: "data/unclassified_titles_canvas.csv"
+      players_csv:
+        description: "Players CSV path"
+        required: true
+        default: "data/2025_Topps_Update_player_list.csv"
+      max_rows:
+        description: "Max rows to process"
+        required: true
+        default: "1000"
+      min_score:
+        description: "Minimum match score to keep"
+        required: true
+        default: "86"
+      skip_lots:
+        description: "true to skip lot-ish titles"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run fuzzy matcher
+        env:
+          INPUT_CSV: ${{ github.event.inputs.input_csv }}
+          PLAYERS_CSV: ${{ github.event.inputs.players_csv }}
+          MAX_ROWS: ${{ github.event.inputs.max_rows }}
+          MIN_SCORE: ${{ github.event.inputs.min_score }}
+          SKIP_LOTS: ${{ github.event.inputs.skip_lots }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT_CSV}" ]; then
+            echo "Input CSV not found: ${INPUT_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          if [ ! -f "${PLAYERS_CSV}" ]; then
+            echo "Players CSV not found: ${PLAYERS_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT_CSV","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "input")
+          PY
+          )"
+
+          OUT="data/player_guesses_${SLUG}.csv"
+
+          EXTRA=""
+          if [ "${SKIP_LOTS}" = "true" ] || [ "${SKIP_LOTS}" = "True" ]; then
+            EXTRA="--skip-lots"
+          fi
+
+          python3 scripts/fuzzy_match_player_from_titles.py \
+            --input "${INPUT_CSV}" \
+            --players "${PLAYERS_CSV}" \
+            --out "${OUT}" \
+            --max-rows "${MAX_ROWS}" \
+            --min-score "${MIN_SCORE}" \
+            ${EXTRA}
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/player_guesses_*.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update player guesses (fuzzy match)"
+          git push
