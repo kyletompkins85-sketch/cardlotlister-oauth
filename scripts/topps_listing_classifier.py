@@ -269,7 +269,7 @@ def classify_title(title: str) -> Dict[str, Any]:
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
-        "WF_holiday_jackolantern": (_has(RX_HOLIDAY_JACKOLANTERN, s) or _has(RX_JACKOLANTERN_LANTERN, s)),
+        "WF_holiday_jackolantern": (_has(RX_HOLIDAY_JACKOLANTERN, s) or _has(RX_HOLIDAY_JACKOLANTERN_LANTERN, s)),
         "WF_holiday_ghost": _has(RX_HOLIDAY_GHOST, s),
         "WF_holiday_mummy": _has(RX_HOLIDAY_MUMMY, s),
         "WF_holiday_black_cat": _has(RX_HOLIDAY_BLACK_CAT, s),
