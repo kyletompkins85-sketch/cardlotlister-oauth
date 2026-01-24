@@ -50,8 +50,9 @@ def main() -> None:
         if not r.fieldnames:
             raise SystemExit("Input CSV has no header row")
 
-        # Output only: title + card types + word flags
-        out_cols = [title_col] + ct_cols + wf_cols
+        # title, then CT_any, then individual CT_*, then WF_*
+        out_cols = [title_col, "CT_any"] + ct_cols + wf_cols
+
 
 
         with open(out_path, "w", encoding="utf-8", newline="") as fout:
@@ -65,14 +66,25 @@ def main() -> None:
                 title = (row.get(title_col) or "").strip()
                 flags = classify_title(title)
 
-                # Only keep title + CT_* then WF_* booleans
+                # Only keep title + CT_any + CT_* then WF_* booleans
                 out_row = {title_col: title}
+
+                # Compute CT_* values first (loop), then CT_any is "any true"
+                ct_values = {}
                 for k in ct_cols:
-                    out_row[k] = bool(flags.get(k, False))
+                    ct_values[k] = bool(flags.get(k, False))
+
+                out_row["CT_any"] = any(ct_values.values())
+
+                # Write CT_* columns
+                out_row.update(ct_values)
+
+                # Write WF_* columns
                 for k in wf_cols:
                     out_row[k] = bool(flags.get(k, False))
 
                 w.writerow(out_row)
+
 
                 processed += 1
 
