@@ -103,10 +103,7 @@ RX_HOLIDAY_BLACK_CAT = _re(r"\bblack\s*cat\b|\bblackcat\b")
 RX_HOLIDAY_WITCH_HAT = _re(
     r"\b(?:witch|wich)(?:'s|es)?\s*hats?\b|\b(?:witch|wich)hat\b"
 )
-# bats / bat (prefer bats; allow bat only if you want it broader)
-RX_HOLIDAY_BATS = _re(r"\bbats\b")
-
-
+RX_HOLIDAY_BATS = _re(r"\bbats?\b")  # matches bat OR bats
 
 # Formats / selling style
 RX_COMPLETE_SET = _re(r"\bcomplete\s+set\b|\bset\s+complete\b")
@@ -159,6 +156,7 @@ RX_PICK_YOUR_CARD_EXTRA = [
     _re(r"\bpick\s+your\s+player\b"),
     _re(r"\bpick\s*-\s*a\s*-\s*card\b|\bpick\s*a\s*card\b"),
     _re(r"\bcomplete\s+base\s+set\b|\bstars\s+of\s+mlb\s+set\b"),
+    _re(r"\bcomplete\s+set\b.*#?\s*us\d+\s*[-–]\s*us\d+"),
 ]
 
 
