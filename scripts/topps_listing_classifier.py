@@ -83,6 +83,8 @@ RX_US_CARDNUM_2 = _re(r"\b(US\d{1,4})\b")              # "US175"
 # Serial / numbered detection
 #  - captures "12/99", "12 / 99", "#12/99", "No. 12/99"
 RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
+# Cmd+F: GH_ANCHOR_RX_SERIAL_BARE_DENOM_1C7A2D90
+RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)/\s*(\d{1,4})(?!\d)")  # matches "/250" (no numerator)
 #  - captures "out of 99", "outof 99"
 RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
 # Cmd+F: GH_ANCHOR_RX_OUTOF_250_8B1C2D3E
@@ -124,6 +126,13 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
         # and avoid absurd denominators.
         if 1 <= b <= 5000 and 0 <= a <= b:
             return True, a, b
+
+    # Bare denom form: "/250"
+    m = RX_SERIAL_BARE_DENOM.search(s)
+    if m:
+        b = int(m.group(1))
+        if 1 <= b <= 5000:
+            return True, None, b
 
     # Fallback: "out of 99"
     m = RX_SERIAL_OUTOF.search(s)
