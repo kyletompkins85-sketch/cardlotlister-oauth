@@ -1,0 +1,90 @@
+name: Extract player guesses from lot titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Input CSV in repo (must include a title column)"
+        required: true
+        default: "data/term_search_items_table.csv"
+      title_col:
+        description: "Title column name"
+        required: true
+        default: "title"
+      max_lots:
+        description: "Max lot rows to output"
+        required: true
+        default: "1000"
+      dict_max:
+        description: "Max non-lot titles to learn dictionary from"
+        required: true
+        default: "20000"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Extract player guesses
+        env:
+          INPUT_CSV: ${{ github.event.inputs.input_csv }}
+          TITLE_COL: ${{ github.event.inputs.title_col }}
+          MAX_LOTS: ${{ github.event.inputs.max_lots }}
+          DICT_MAX: ${{ github.event.inputs.dict_max }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT_CSV}" ]; then
+            echo "Input CSV not found: ${INPUT_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT_CSV","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "input")
+          PY
+          )"
+
+          OUT="data/lot_player_guesses_${SLUG}.csv"
+
+          python3 scripts/extract_player_guesses_from_lots.py \
+            --input "${INPUT_CSV}" \
+            --out "${OUT}" \
+            --title-col "${TITLE_COL}" \
+            --max-lots "${MAX_LOTS}" \
+            --dict-max "${DICT_MAX}"
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/lot_player_guesses_*.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update lot player guesses"
+          git push
