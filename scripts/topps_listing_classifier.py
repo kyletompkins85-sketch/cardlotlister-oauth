@@ -153,16 +153,13 @@ RX_US_CARDNUM_1 = _re(r"\bUS\s*[-#]?\s*(\d{1,4})\b")   # "US175", "US 175", "US-
 RX_US_CARDNUM_2 = _re(r"\b(US\d{1,4})\b")              # "US175"
 
 # Serial / numbered detection
-#  - captures "12/99", "12 / 99", "#12/99", "No. 12/99"
 RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
-# Cmd+F: GH_ANCHOR_RX_SERIAL_BARE_DENOM_1C7A2D90
 RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)/\s*(\d{1,4})(?!\d)")  # matches "/250" (no numerator)
-#  - captures "out of 99", "outof 99"
 RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
-# Cmd+F: GH_ANCHOR_RX_OUTOF_50_9D2A1C80
 RX_OUTOF_50 = _re(r"\b\d{1,4}\s*[\/／⁄]\s*50\b|(?<!\d)[\/／⁄]\s*50\b|\bout\s*of\s*50\b")
-# Cmd+F: GH_ANCHOR_RX_OUTOF_250_8B1C2D3E
 RX_OUTOF_250 = _re(r"(?<!\d)/\s*250\b|\bout\s*of\s*250\b")
+RX_SERIAL_N_OF_M = _re(r"\b(\d{1,4})\s*of\s*(\d{1,4})\b")
+
 
 
 def extract_card_number(title: str) -> Optional[str]:
@@ -207,6 +204,14 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
         b = int(m.group(1))
         if 1 <= b <= 5000:
             return True, None, b
+
+    # "1 of 1" form: 1 of 1, 12 of 50, etc.
+    m = RX_SERIAL_N_OF_M.search(s)
+    if m:
+        a = int(m.group(1))
+        b = int(m.group(2))
+        if 1 <= b <= 5000 and 0 <= a <= b:
+            return True, a, b
 
     # Fallback: "out of 99"
     m = RX_SERIAL_OUTOF.search(s)
