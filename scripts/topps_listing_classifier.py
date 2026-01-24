@@ -304,8 +304,10 @@ def classify_title(title: str) -> Dict[str, Any]:
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_99", False))
         ),
         "CT_gold_2025": bool(
-            wf.get("WF_color_gold", False) and
-            (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_2025", False))
+            wf.get("WF_color_gold", False) and wf.get("WF_outof_2025", False))
+        ),
+        "CT_gold_50": bool(
+            wf.get("WF_color_gold", False) and wf.get("WF_outof_50", False))
         ),
         "CT_black_10": bool(wf.get("WF_color_black", False) and wf.get("WF_outof_10", False)),
         "CT_clear_10": bool(wf.get("WF_clear", False) and wf.get("WF_outof_10", False)),
