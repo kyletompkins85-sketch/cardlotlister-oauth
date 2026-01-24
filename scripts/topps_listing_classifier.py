@@ -54,20 +54,18 @@ RX_FINISH = {
 RX_HOLIDAY     = _re(r"\bholiday\b")
 RX_SANDGLITTER = _re(r"\bsand\s*glitter\b|\bsandglitter\b")
 RX_DIAMANTE    = _re(r"\bdiamante\b")
-# Cmd+F: GH_ANCHOR_RX_XFRACTOR_2F7A1C90
 RX_XFRACTOR    = _re(r"\bx[\s-]?fractor\b")  # matches "X-Fractor", "X Fractor", "Xfractor"
 RX_PARALLEL    = _re(r"\bparallel\b")
-# Cmd+F: GH_ANCHOR_RX_GOLDEN_MIRROR_4C1A9D20
 RX_GOLDEN_MIRROR = _re(r"\bgolden\s+mirror\b(?:\s+ssp)?(?:\s+image\s+variation)?")
-# Cmd+F: GH_ANCHOR_RX_VARIANTS_INDY_CLEAR_VINTAGE_6D1A9C20
 RX_INDEPENDENCE_DAY = _re(r"\bindependence\s+day\b")
 RX_CLEAR_VARIANT    = _re(r"\bclear\b")     # avoids "clearance" because of word boundary
 RX_VINTAGE          = _re(r"\bvintage\b")
-# Cmd+F: GH_ANCHOR_RX_PHOTO_VARIATION_OWN_THE_NAME_1D7A2C90
 RX_PHOTO_VARIATION = _re(r"\bphoto\s*variation\b|\bimage\s*variation\b|\bvariation\s*photo\b")
 RX_OWN_THE_NAME    = _re(r"\bown\s+the\s+name\b|\botn\b")
-# Cmd+F: GH_ANCHOR_RX_FOIL_FRACTOR_1OF1_6C2A1D90
 RX_FOIL_FRACTOR = _re(r"\bfoil\s*[-\s]?\s*fractor\b|\bfoilfractor\b")
+RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
+RX_CANVAS_VARIANT = _re(r"\bcanva[si]s\b")  # matches canvas or canvis
+
 
 
 
@@ -248,6 +246,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_photo_variation": _has(RX_PHOTO_VARIATION, s),
         "WF_own_the_name": _has(RX_OWN_THE_NAME, s),
         "WF_foil_fractor": _has(RX_FOIL_FRACTOR, s),
+        "WF_printing_plate": _has(RX_PRINTING_PLATE, s),
+        "WF_canvas": _has(RX_CANVAS_VARIANT, s),
+
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -323,6 +324,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_orange_25": bool(wf.get("WF_color_orange", False) and wf.get("WF_outof_25", False)),
         "CT_independence_day_76": bool(wf.get("WF_independence_day", False) and wf.get("WF_outof_76", False)),
         "CT_vintage_99": bool(wf.get("WF_vintage", False) and wf.get("WF_outof_99", False)),
+        "CT_printing_plate_1of1": bool(wf.get("WF_printing_plate", False) and wf.get("WF_outof_1", False)),
+        "CT_canvas_50": bool(wf.get("WF_canvas", False) and wf.get("WF_outof_50", False)),
+
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
