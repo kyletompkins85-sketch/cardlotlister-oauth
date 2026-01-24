@@ -371,7 +371,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_black_10": bool(wf.get("WF_color_black", False) and wf.get("WF_outof_10", False)),
         "CT_clear_10": bool(wf.get("WF_clear", False) and wf.get("WF_outof_10", False)),
         "CT_orange_25": bool(wf.get("WF_color_orange", False) and wf.get("WF_outof_25", False)),
-        "CT_independence_day_76": bool(wf.get("WF_independence_day", False) and wf.get("WF_outof_76", False)),
+        "CT_independence_day_76": bool(
+            wf.get("WF_outof_76", False) or wf.get("WF_independence_day", False)
+        ),
         "CT_vintage_99": bool(wf.get("WF_vintage", False) and wf.get("WF_outof_99", False)),
         "CT_printing_plate_1of1": bool(wf.get("WF_printing_plate", False) and wf.get("WF_outof_1", False)),
         "CT_canvas_50": bool(wf.get("WF_canvas", False) and wf.get("WF_outof_50", False)),
