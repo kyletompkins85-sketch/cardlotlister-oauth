@@ -324,6 +324,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
         "CT_photo_variation": bool(wf.get("WF_photo_variation", False)),
         "CT_own_the_name": bool(wf.get("WF_own_the_name", False)),
+        "CT_ssp": bool(wf.get("WF_ssp", False)),
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_jackolantern", False)),
         "CT_holiday_ghost": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_ghost", False)),
