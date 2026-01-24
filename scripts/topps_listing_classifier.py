@@ -75,10 +75,17 @@ RX_REAL_ONE = _re(r"\breal\s*one\b")
 RX_PATCH = _re(r"\bpatch\b")
 RX_AUTO = _re(r"\bauto\b|\bautograph\b|\ba/u\b")
 RX_PATCH_AUTO = _re(
-    r"\bpatch\s*(?:&|\+|and)?\s*auto(?:graph)?\b|"
-    r"\bauto(?:graph)?\s*(?:&|\+|and)?\s*patch\b|"
-    r"\bpatch\s*(?:&|\+|and)?\s*autograph\b|"
-    r"\bautograph\s*(?:&|\+|and)?\s*patch\b"
+    r"\b("
+    # explicit slash forms first (your failing case)
+    r"auto\s*[\/\\]\s*patch|"
+    r"patch\s*[\/\\]\s*auto|"
+
+    # common word forms
+    r"patch\s*(?:&|\+|and)?\s*auto(?:graph)?|"
+    r"auto(?:graph)?\s*(?:&|\+|and)?\s*patch|"
+    r"patch\s*(?:&|\+|and)?\s*autograph|"
+    r"autograph\s*(?:&|\+|and)?\s*patch"
+    r")\b"
 )
 RX_SKETCH = _re(r"\bsketch\b")
 RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
