@@ -145,6 +145,8 @@ RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
 RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)/\s*(\d{1,4})(?!\d)")  # matches "/250" (no numerator)
 #  - captures "out of 99", "outof 99"
 RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
+# Cmd+F: GH_ANCHOR_RX_OUTOF_50_9D2A1C80
+RX_OUTOF_50 = _re(r"\b\d{1,4}\s*[\/／⁄]\s*50\b|(?<!\d)[\/／⁄]\s*50\b|\bout\s*of\s*50\b")
 # Cmd+F: GH_ANCHOR_RX_OUTOF_250_8B1C2D3E
 RX_OUTOF_250 = _re(r"(?<!\d)/\s*250\b|\bout\s*of\s*250\b")
 
@@ -262,7 +264,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
         "WF_outof_10": (serial_out_of == 10),
         "WF_outof_25": (serial_out_of == 25),
-        "WF_outof_50": (serial_out_of == 50),
+        # Cmd+F: GH_ANCHOR_WF_OUTOF_50_FALLBACK_5C1A9D20
+        "WF_outof_50": (serial_out_of == 50) or _has(RX_OUTOF_50, s),
         "WF_outof_76": (serial_out_of == 76),
         "WF_outof_99": (serial_out_of == 99),
         "WF_outof_150": (serial_out_of == 150),
