@@ -71,12 +71,8 @@ RX_WOOD = _re(r"\bwood\b")
 RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
 RX_FLAGSHIP = _re(r"\bflagship\b")
 RX_REAL_ONE = _re(r"\breal\s*one\b")
-
-
-
-
-
-
+RX_SKETCH = _re(r"\bsketch\b")
+RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
 
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
@@ -268,6 +264,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_camo": _has(RX_CAMO, s),
         "WF_flagship": _has(RX_FLAGSHIP, s),
         "WF_real_one": _has(RX_REAL_ONE, s),
+        "WF_sketch": _has(RX_SKETCH, s),
+        "WF_shaped_sketch": _has(RX_SHAPED_SKETCH, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -360,6 +358,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_ssp": bool(wf.get("WF_ssp", False)),
         "CT_flagship_real_one": bool(wf.get("WF_flagship", False) and wf.get("WF_real_one", False)),
         "CT_flagship_base": bool(wf.get("WF_flagship", False) and not wf.get("WF_real_one", False)),
+        "CT_shaped_sketch": bool(wf.get("WF_shaped_sketch", False)),
+        "CT_sketch": bool(wf.get("WF_sketch", False) and not wf.get("WF_shaped_sketch", False)),
 
         
         # Holiday card types (mutually exclusive by construction)
