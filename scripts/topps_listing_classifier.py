@@ -77,6 +77,9 @@ RX_REAL_ONE = _re(r"\breal\s*one\b")
 RX_PATCH = _re(r"\bpatch\b")
 RX_AUTO = _re(r"\bauto\b|\bautograph\b|\ba/u\b")
 RX_35TH_ANNIVERSARY = _re(r"\b35(?:st|nd|rd|th)?\s*anniversary\b|\b35th\s*anniv(?:ersary)?\b")
+RX_AS_HASH = _re(r"#\s*as(?:\d{1,4})?\b")          # matches "#AS", "#AS1", "#AS1234"
+RX_STITCHES = _re(r"\bstitch(?:es)?\b")            # matches "stitch" or "stitches"
+
 RX_PATCH_AUTO = _re(
     r"\b("
     # explicit slash forms first (your failing case)
@@ -304,6 +307,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_shaped_sketch": _has(RX_SHAPED_SKETCH, s),
         "WF_1990": _has(RX_1990, s),
         "WF_35th_anniversary": _has(RX_35TH_ANNIVERSARY, s),
+        "WF_as_stitches": (_has(RX_STITCHES, s) or _has(RX_AS_HASH, s)),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -431,6 +435,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_35th_anniversary", False)
             or wf.get("WF_1990", False)  # keep whatever you already use for 1990 if present
         ),
+        "CT_as_stitches": bool(wf.get("WF_as_stitches", False)),
         
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday_jackolantern", False)),
