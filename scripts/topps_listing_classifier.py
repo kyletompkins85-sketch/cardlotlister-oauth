@@ -24,6 +24,7 @@ def _clean(s: str) -> str:
 
 RX_ROOKIE = _re(r"\b(rookie\s*card|rookie|rc)\b")
 RX_DEBUT  = _re(r"\bdebut\b")
+RX_CHROME = _re(r"\bchrome\b")
 
 # Important: check SSP before SP so SSP doesn't accidentally trigger SP via sloppy patterns
 RX_SSP = _re(r"\bssp\b")
@@ -268,6 +269,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         # rookie / debut
         "WF_rookie": _has(RX_ROOKIE, s),
         "WF_debut": _has(RX_DEBUT, s),
+        "WF_chrome": _has(RX_CHROME, s),
 
         # SP / SSP (separate)
         "WF_ssp": _has(RX_SSP, s),
@@ -352,6 +354,7 @@ def classify_title(title: str) -> Dict[str, Any]:
     ct: Dict[str, Any] = {
         # Only requested card type variable:
         # Directly driven by word flag WF_diamante
+        "CT_chrome": bool(wf.get("WF_chrome", False)),
         "CT_diamante": bool(wf.get("WF_diamante", False)),
         "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
         "CT_pick_your_card": bool(wf.get("WF_pick_your_card", False)),
