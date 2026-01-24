@@ -1,0 +1,103 @@
+name: Classify term_search_items_table CSV (Topps classifier + player)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Input CSV already in repo (e.g. data/term_search_items_table.csv)"
+        required: true
+        default: "data/term_search_items_table.csv"
+      max_out:
+        description: "If >0, stop after writing this many rows (0 = all)"
+        required: true
+        default: "0"
+      exclude_lots:
+        description: "true = drop lot listings"
+        required: true
+        default: "true"
+      exclude_pick_your_card:
+        description: "true = drop pick-your-card listings"
+        required: true
+        default: "true"
+      min_player_score:
+        description: "Only keep player_guess if score >= this"
+        required: true
+        default: "86"
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Classify CSV -> CSV (streaming)
+        env:
+          INPUT_CSV: ${{ github.event.inputs.input_csv }}
+          MAX_OUT: ${{ github.event.inputs.max_out }}
+          EXCLUDE_LOTS: ${{ github.event.inputs.exclude_lots }}
+          EXCLUDE_PYC: ${{ github.event.inputs.exclude_pick_your_card }}
+          MIN_PLAYER_SCORE: ${{ github.event.inputs.min_player_score }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT_CSV}" ]; then
+            echo "Input CSV not found: ${INPUT_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT_CSV","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "term_search_items")
+          PY
+          )"
+
+          OUT="data/${SLUG}_classified.csv"
+
+          EXTRA=""
+          if [ "${EXCLUDE_LOTS}" = "true" ] || [ "${EXCLUDE_LOTS}" = "True" ]; then
+            EXTRA="${EXTRA} --exclude-lots"
+          fi
+          if [ "${EXCLUDE_PYC}" = "true" ] || [ "${EXCLUDE_PYC}" = "True" ]; then
+            EXTRA="${EXTRA} --exclude-pick-your-card"
+          fi
+
+          python3 scripts/classify_term_search_items_csv.py \
+            --input "${INPUT_CSV}" \
+            --out "${OUT}" \
+            --max-out "${MAX_OUT}" \
+            --min-player-score "${MIN_PLAYER_SCORE}" \
+            ${EXTRA}
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_classified.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update classified term search items CSV"
+          git push
