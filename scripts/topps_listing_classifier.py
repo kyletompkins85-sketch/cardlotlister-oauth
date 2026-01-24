@@ -92,8 +92,9 @@ RX_HOLIDAY_GHOST = _re(r"\bghost\b")
 RX_HOLIDAY_MUMMY = _re(r"\bmummy\b")
 # black cat / blackcat
 RX_HOLIDAY_BLACK_CAT = _re(r"\bblack\s*cat\b|\bblackcat\b")
-# witch's hat / witches hat / witch hat
-RX_HOLIDAY_WITCH_HAT = _re(r"\bwitch(?:'s|es)?\s*hat\b|\bwitchhat\b")
+RX_HOLIDAY_WITCH_HAT = _re(
+    r"\b(?:witch|wich)(?:'s|es)?\s*hats?\b|\b(?:witch|wich)hat\b"
+)
 # bats / bat (prefer bats; allow bat only if you want it broader)
 RX_HOLIDAY_BATS = _re(r"\bbats\b")
 
