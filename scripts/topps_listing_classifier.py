@@ -174,7 +174,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_lot": _has(RX_LOTS, s),
         "WF_presale": _has(RX_PRESALE, s),
         "WF_pick_your_card": _has(RX_PICK_YOUR_CARD, s),
-        "WF_outof_250": _has(RX_OUTOF_250, s),
+        # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
+        "WF_outof_250": (serial_out_of == 250),   
     }
 
     # Colors as WF_color_<name>
