@@ -86,14 +86,15 @@ def main() -> None:
     processed_in = 0
     written_out = 0
 
-        # Cmd+F: GH_ANCHOR_ALL_IN_PRICE_SORT_BLOCK_4B1F8A22
+    # Cmd+F: GH_ANCHOR_ALL_IN_PRICE_SORT_BLOCK_4B1F8A22
+    import heapq
+
     def _to_num(x):
         if x is None:
             return None
         s = str(x).strip()
         if not s:
             return None
-        # remove $, commas, etc.
         s = s.replace("$", "").replace(",", "")
         try:
             return float(s)
@@ -101,8 +102,11 @@ def main() -> None:
             return None
 
     processed_in = 0
-    written_out = 0
-    out_rows = []
+    kept_top_n = 0
+
+    # Min-heap of (all_in_price, seq, out_row) so we can keep top-N efficiently
+    top_heap = []
+    seq = 0
 
     header_seen = False
     for kind, payload in iter_source_rows():
@@ -128,38 +132,48 @@ def main() -> None:
 
         price = _to_num(row.get("price"))
         ship = _to_num(row.get("shipping_cost"))
+
         if price is None and ship is None:
-            all_in = None
-        else:
-            all_in = (price or 0.0) + (ship or 0.0)
+            # no usable price -> skip for "top priced"
+            continue
+
+        all_in = (price or 0.0) + (ship or 0.0)
 
         out_row = {title_col: title, "all_in_price": all_in, "CT_any": ct_any}
         out_row.update(ct_values)
-
         for k in wf_cols:
             out_row[k] = bool(flags.get(k, False))
 
-        out_rows.append(out_row)
-        written_out += 1
+        seq += 1
+        item = (all_in, seq, out_row)
 
-    # Sort descending by all_in_price (None goes last)
-    out_rows.sort(key=lambda r: (r["all_in_price"] is None, -(r["all_in_price"] or 0.0)))
+        if len(top_heap) < max_rows:
+            heapq.heappush(top_heap, item)
+        else:
+            # Keep only the largest all_in prices
+            if all_in > top_heap[0][0]:
+                heapq.heapreplace(top_heap, item)
+
+    # Extract and sort descending by all_in_price
+    top_rows = [t[2] for t in top_heap]
+    top_rows.sort(key=lambda r: (r["all_in_price"] is None, -(r["all_in_price"] or 0.0)))
 
     with open(out_path, "w", encoding="utf-8", newline="") as fout:
         w = csv.DictWriter(fout, fieldnames=out_cols, extrasaction="ignore")
         w.writeheader()
-        for r in out_rows:
+        for r in top_rows:
             w.writerow(r)
-            written_out += 1
+
+    kept_top_n = len(top_rows)
 
     print(f"INPUT={in_path}")
     print(f"OUTPUT={out_path}")
     print(f"WINDOW={window}")
     print(f"MAX_ROWS={max_rows}")
     print(f"ONLY_UNCLASSIFIED={only_unclassified}")
-    print(f"PROCESSED_ROWS_IN_WINDOW={processed_in}")
-    print(f"WROTE_ROWS={written_out}")
-    print(f"FLAG_COLUMNS={len(ct_cols) + len(wf_cols) + 1}")  # +1 for CT_any
+    print(f"PROCESSED_ROWS_TOTAL={processed_in}")
+    print(f"TOP_N_WRITTEN={kept_top_n}")
+
 
 
 
