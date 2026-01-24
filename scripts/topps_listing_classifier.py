@@ -80,6 +80,8 @@ RX_35TH_ANNIVERSARY = _re(r"\b35(?:st|nd|rd|th)?\s*anniversary\b|\b35th\s*anniv(
 RX_AS_HASH = _re(r"#\s*as(?:\d{1,4})?\b")          # matches "#AS", "#AS1", "#AS1234"
 RX_STITCHES = _re(r"\bstitch(?:es)?\b")            # matches "stitch" or "stitches"
 RX_MVP = _re(r"\bmvp\b|\bmost\s+valuable\s+player\b")
+RX_ASG = _re(r"\ball\s*[- ]?star\s*game\b|#\s*asg(?:\d{1,4})?\b")   # "All-Star game" OR "#ASG"
+RX_MYSTICAL = _re(r"\bmystical\b|#\s*mys(?:\d{1,4})?\b")          # "Mystical" OR "#MYS"
 
 RX_PATCH_AUTO = _re(
     r"\b("
@@ -310,6 +312,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_35th_anniversary": _has(RX_35TH_ANNIVERSARY, s),
         "WF_as_stitches": (_has(RX_STITCHES, s) or _has(RX_AS_HASH, s)),
         "WF_mvp": _has(RX_MVP, s),
+        "WF_all_star_game": _has(RX_ASG, s),
+        "WF_mystical": _has(RX_MYSTICAL, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -439,6 +443,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
         "CT_as_stitches": bool(wf.get("WF_as_stitches", False)),
         "CT_mvp": bool(wf.get("WF_mvp", False)),
+        "CT_all_star_game": bool(wf.get("WF_all_star_game", False)),
+        "CT_mystical": bool(wf.get("WF_mystical", False)),
         
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday_jackolantern", False)),
