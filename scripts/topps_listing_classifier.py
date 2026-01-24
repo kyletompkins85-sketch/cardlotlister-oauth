@@ -198,6 +198,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_presale": _has(RX_PRESALE, s),
         "WF_pick_your_card": _has(RX_PICK_YOUR_CARD, s),
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
+        "WF_outof_150": (serial_out_of == 150),
         "WF_outof_250": (serial_out_of == 250),   
     }
 
@@ -223,7 +224,10 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_purple", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_250", False))
         ),
-
+        "CT_blue_rainbow": bool(
+            wf.get("WF_color_blue", False) and
+            (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_150", False))
+        ),
     }
 
     # Non-word extraction fields (kept from previous requirements)
