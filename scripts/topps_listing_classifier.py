@@ -103,7 +103,16 @@ RX_PICK_YOUR_CARD = _re(
     r"cards?\s*\d{1,4}\s*[-–]\s*\d{1,4}|"
     r"buy\s*\"?any\"?\s*\d{1,3}\s*cards?"
     r")\b"
+)
 
+
+# ============================================================
+# Pick-Your-Card extra rules (append-only)
+# Add ONE new RX per example at the bottom of this list.
+# IMPORTANT: every line MUST end with a comma.
+# ============================================================
+# Cmd+F: GH_ANCHOR_PICK_YOUR_CARD_EXTRA_RULES_9A2C1D80
+RX_PICK_YOUR_CARD_EXTRA = [
     #overfit
     _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\d+"),          # BASE #US1-US350 style
     _re(r"\binserts?\s+and\s+parallels?\b"),              # INSERTS AND PARALLELS
@@ -114,7 +123,7 @@ RX_PICK_YOUR_CARD = _re(
     _re(r"\b\d{1,3}\s*card\s+minimum\b"),                 # 4 CARD MINIMUM
     _re(r"\bparallels?\s*&\s*inserts?\b"),                # Parallels & Inserts
     _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\b"),           # BASE #US1-US (truncated/short form)
-)
+]
 
 
 
