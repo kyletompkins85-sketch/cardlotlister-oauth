@@ -80,46 +80,76 @@ def main() -> None:
                 for row in buf:
                     yield ("row", row)
 
-    # Output only: title + CT_any + CT_* then WF_*
-    out_cols = [title_col, "CT_any"] + ct_cols + wf_cols
+    # Cmd+F: GH_ANCHOR_OUT_COLS_WITH_ALL_IN_7C2A1D90
+    out_cols = [title_col, "all_in_price", "CT_any"] + ct_cols + wf_cols
 
     processed_in = 0
     written_out = 0
 
+        # Cmd+F: GH_ANCHOR_ALL_IN_PRICE_SORT_BLOCK_4B1F8A22
+    def _to_num(x):
+        if x is None:
+            return None
+        s = str(x).strip()
+        if not s:
+            return None
+        # remove $, commas, etc.
+        s = s.replace("$", "").replace(",", "")
+        try:
+            return float(s)
+        except ValueError:
+            return None
+
+    processed_in = 0
+    written_out = 0
+    out_rows = []
+
+    header_seen = False
+    for kind, payload in iter_source_rows():
+        if kind == "__header__":
+            header_seen = True
+            continue
+        if not header_seen:
+            raise SystemExit("Missing CSV header")
+
+        row = payload
+        processed_in += 1
+
+        title = (row.get(title_col) or "").strip()
+        flags = classify_title(title)
+
+        # Compute CT_* values first (loop), then CT_any is "any true"
+        ct_values = {k: bool(flags.get(k, False)) for k in ct_cols}
+        ct_any = any(ct_values.values())
+
+        # Filter: keep only unclassified if requested
+        if only_unclassified and ct_any:
+            continue
+
+        price = _to_num(row.get("price"))
+        ship = _to_num(row.get("shipping_cost"))
+        if price is None and ship is None:
+            all_in = None
+        else:
+            all_in = (price or 0.0) + (ship or 0.0)
+
+        out_row = {title_col: title, "all_in_price": all_in, "CT_any": ct_any}
+        out_row.update(ct_values)
+
+        for k in wf_cols:
+            out_row[k] = bool(flags.get(k, False))
+
+        out_rows.append(out_row)
+        written_out += 1
+
+    # Sort descending by all_in_price (None goes last)
+    out_rows.sort(key=lambda r: (r["all_in_price"] is None, -(r["all_in_price"] or 0.0)))
+
     with open(out_path, "w", encoding="utf-8", newline="") as fout:
         w = csv.DictWriter(fout, fieldnames=out_cols, extrasaction="ignore")
         w.writeheader()
-
-        header_seen = False
-        for kind, payload in iter_source_rows():
-            if kind == "__header__":
-                header_seen = True
-                continue
-
-            if not header_seen:
-                raise SystemExit("Missing CSV header")
-
-            row = payload
-            processed_in += 1
-
-            title = (row.get(title_col) or "").strip()
-            flags = classify_title(title)
-
-            # Compute CT_* values first (loop), then CT_any is "any true"
-            ct_values = {k: bool(flags.get(k, False)) for k in ct_cols}
-            ct_any = any(ct_values.values())
-
-            # Filter: keep only unclassified if requested
-            if only_unclassified and ct_any:
-                continue
-
-            out_row = {title_col: title, "CT_any": ct_any}
-            out_row.update(ct_values)
-
-            for k in wf_cols:
-                out_row[k] = bool(flags.get(k, False))
-
-            w.writerow(out_row)
+        for r in out_rows:
+            w.writerow(r)
             written_out += 1
 
     print(f"INPUT={in_path}")
