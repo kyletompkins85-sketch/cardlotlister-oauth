@@ -27,6 +27,23 @@ def _to_float(v: Any) -> float:
 
 def _load_rows_from_json(path: str) -> List[Dict[str, Any]]:
     # Cmd+F: GH_ANCHOR_LOAD_ROWS_FROM_JSON_7A1B2C3D
+    # Supports:
+    #  - .json  (array or {"rows":[...]})
+    #  - .jsonl (one JSON object per line)
+    p = path.lower().strip()
+
+    if p.endswith(".jsonl"):
+        rows: List[Dict[str, Any]] = []
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                obj = json.loads(line)
+                if isinstance(obj, dict):
+                    rows.append(obj)
+        return rows
+
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
