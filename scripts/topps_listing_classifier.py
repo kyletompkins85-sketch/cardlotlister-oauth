@@ -66,6 +66,9 @@ RX_VINTAGE          = _re(r"\bvintage\b")
 # Cmd+F: GH_ANCHOR_RX_PHOTO_VARIATION_OWN_THE_NAME_1D7A2C90
 RX_PHOTO_VARIATION = _re(r"\bphoto\s*variation\b|\bimage\s*variation\b|\bvariation\s*photo\b")
 RX_OWN_THE_NAME    = _re(r"\bown\s+the\s+name\b|\botn\b")
+# Cmd+F: GH_ANCHOR_RX_FOIL_FRACTOR_1OF1_6C2A1D90
+RX_FOIL_FRACTOR = _re(r"\bfoil\s*[-\s]?\s*fractor\b|\bfoilfractor\b")
+
 
 
 
@@ -244,7 +247,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_vintage": _has(RX_VINTAGE, s),
         "WF_photo_variation": _has(RX_PHOTO_VARIATION, s),
         "WF_own_the_name": _has(RX_OWN_THE_NAME, s),
-
+        "WF_foil_fractor": _has(RX_FOIL_FRACTOR, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -269,10 +272,10 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
 
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
+        "WF_outof_1": (serial_out_of == 1),
         "WF_outof_5": (serial_out_of == 5),
         "WF_outof_10": (serial_out_of == 10),
         "WF_outof_25": (serial_out_of == 25),
-        # Cmd+F: GH_ANCHOR_WF_OUTOF_50_FALLBACK_5C1A9D20
         "WF_outof_50": (serial_out_of == 50) or _has(RX_OUTOF_50, s),
         "WF_outof_76": (serial_out_of == 76),
         "WF_outof_99": (serial_out_of == 99),
@@ -311,6 +314,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_green", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_99", False))
         ),
+        "CT_foil_fractor_1of1": bool(wf.get("WF_foil_fractor", False) and wf.get("WF_outof_1", False)),
         "CT_red_5": bool(wf.get("WF_color_red", False) and wf.get("WF_outof_5", False)),
         "CT_gold_2025": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_2025", False)), 
         "CT_gold_50": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_50", False)),
