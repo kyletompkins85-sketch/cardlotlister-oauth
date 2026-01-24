@@ -1,0 +1,89 @@
+name: Classify existing listings JSON (Topps classifier)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_json:
+        description: "Input JSON file already in repo (e.g. data/listings_2025_topps_update.json)"
+        required: true
+        default: "data/listings_2025_topps_update.json"
+      max_out:
+        description: "Max output rows (sorted by all_in_price desc)"
+        required: true
+        default: "1000"
+      only_unclassified:
+        description: "true = keep only CT_any=false rows"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Classify JSON -> CSV
+        env:
+          INPUT_JSON: ${{ github.event.inputs.input_json }}
+          MAX_OUT: ${{ github.event.inputs.max_out }}
+          ONLY_UNCLASSIFIED: ${{ github.event.inputs.only_unclassified }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT_JSON}" ]; then
+            echo "Input JSON not found: ${INPUT_JSON}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT_JSON","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.json$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "listings")
+          PY
+          )"
+
+          OUT="data/${SLUG}_classified.csv"
+
+          EXTRA=""
+          if [ "${ONLY_UNCLASSIFIED}" = "true" ] || [ "${ONLY_UNCLASSIFIED}" = "True" ]; then
+            EXTRA="--only-unclassified"
+          fi
+
+          python3 scripts/classify_existing_listings_json.py \
+            --input "${INPUT_JSON}" \
+            --out "${OUT}" \
+            --max-out "${MAX_OUT}" \
+            ${EXTRA}
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_classified.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update classified listings CSV"
+          git push
