@@ -91,6 +91,8 @@ RX_SKETCH = _re(r"\bsketch\b")
 RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
 RX_1990 = _re(r"\b1990\b|\b1990s\b")
 
+# Cmd+F: GH_ANCHOR_RX_OUTOF_2025_MARKED_6C2A1D90
+RX_OUTOF_2025_MARKED = _re(r"\b(?:sn|s\/n)\s*#?\s*2,?025\b|#\s*d\s*2,?025\b|#\s*2,?025\b")
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
 RX_HOLIDAY_WORD = _re(r"\bholiday\b")
@@ -167,9 +169,9 @@ RX_US_CARDNUM_1 = _re(r"\bUS\s*[-#]?\s*(\d{1,4})\b")   # "US175", "US 175", "US-
 RX_US_CARDNUM_2 = _re(r"\b(US\d{1,4})\b")              # "US175"
 
 # Serial / numbered detection
-RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
-RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)/\s*(\d{1,4})(?!\d)")  # matches "/250" (no numerator)
-RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
+RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*[\/／⁄]\s*(\d{1,4}(?:,\d{3})?)(?!\d)")
+RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)[\/／⁄]\s*(\d{1,4}(?:,\d{3})?)(?!\d)")
+RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4}(?:,\d{3})?)\b|\boutof\s*(\d{1,4}(?:,\d{3})?)\b")
 RX_OUTOF_1    = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*1|[\/／⁄]\s*1)(?:$|[^\d])|\bout\s*of\s*1\b")
 RX_OUTOF_5    = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*5|[\/／⁄]\s*5)(?:$|[^\d])|\bout\s*of\s*5\b")
 RX_OUTOF_10   = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*10|[\/／⁄]\s*10)(?:$|[^\d])|\bout\s*of\s*10\b")
@@ -213,8 +215,8 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
     # Prefer fraction form: 12/99
     m = RX_SERIAL_FRACTION.search(s)
     if m:
-        a = int(m.group(1))
-        b = int(m.group(2))
+        a = int(m.group(1).replace(",", ""))
+        b = int(m.group(2).replace(",", ""))
         # Heuristics to avoid grabbing years like 2025/2026 (rare but possible)
         # and avoid absurd denominators.
         if 1 <= b <= 5000 and 0 <= a <= b:
@@ -223,7 +225,7 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
     # Bare denom form: "/250"
     m = RX_SERIAL_BARE_DENOM.search(s)
     if m:
-        b = int(m.group(1))
+        b = int(m.group(1).replace(",", ""))
         if 1 <= b <= 5000:
             return True, None, b
 
@@ -240,7 +242,7 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
     if m:
         denom = m.group(1) or m.group(2)
         if denom:
-            b = int(denom)
+            b = int(denom.replace(",", ""))
             if 1 <= b <= 5000:
                 return True, None, b
 
@@ -331,7 +333,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_outof_99": (serial_out_of == 99) or _has(RX_OUTOF_99, s),
         "WF_outof_150": (serial_out_of == 150) or _has(RX_OUTOF_150, s),
         "WF_outof_250": (serial_out_of == 250) or _has(RX_OUTOF_250, s),
-        "WF_outof_2025": (serial_out_of == 2025) or _has(RX_OUTOF_2025, s),
+        "WF_outof_2025": (serial_out_of == 2025) or _has(RX_OUTOF_2025, s) or _has(RX_OUTOF_2025_MARKED, s),
     }
 
     # Colors as WF_color_<name>
