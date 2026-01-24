@@ -34,11 +34,11 @@ def main() -> None:
 
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
 
-    # Discover the classifier output columns deterministically.
-    # classify_title("") returns all keys (colors/finishes/etc.) with False/None values.
+    # Discover boolean flag columns deterministically.
+    # classify_title("") returns all keys; booleans are False, extracted fields are None.
     # Cmd+F: GH_ANCHOR_FLAG_COLUMNS_DISCOVERY_7A1B2C3D
     flag_template: Dict[str, object] = classify_title("")
-    flag_cols: List[str] = list(flag_template.keys())
+    bool_flag_cols: List[str] = [k for k, v in flag_template.items() if isinstance(v, bool)]
 
     processed = 0
 
@@ -47,8 +47,9 @@ def main() -> None:
         if not r.fieldnames:
             raise SystemExit("Input CSV has no header row")
 
-        base_cols = list(r.fieldnames)
-        out_cols = base_cols + [c for c in flag_cols if c not in base_cols]
+        # Output only: title + boolean flags (debug-friendly)
+        out_cols = [title_col] + bool_flag_cols
+
 
         with open(out_path, "w", encoding="utf-8", newline="") as fout:
             w = csv.DictWriter(fout, fieldnames=out_cols, extrasaction="ignore")
