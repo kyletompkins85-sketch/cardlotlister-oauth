@@ -106,8 +106,7 @@ def main() -> None:
             raise SystemExit("Input CSV has no header row")
 
         # Cmd+F: GH_ANCHOR_OUTPUT_COLUMNS_MINIMAL_9B1D2C34
-        out_cols = ["title", "all_in_price", "CT_list", "player_guess"]
-
+        out_cols = ["seller_username", "title", "all_in_price", "CT_list", "player_guess"]
 
         with open(out_path, "w", encoding="utf-8", newline="") as fout:
             w = csv.DictWriter(fout, fieldnames=out_cols)
@@ -151,13 +150,13 @@ def main() -> None:
 
                 # Cmd+F: GH_ANCHOR_BUILD_MINIMAL_OUT_ROW_7D2A1C91
                 out_row = {
+                    "seller_username": (row.get("seller_username") or "").strip(),
                     "title": title,
                     "all_in_price": round(all_in, 4),
                     "CT_list": ct_list,
                     "player_guess": player_guess,
                 }
-
-
+                
                 w.writerow(out_row)
                 wrote += 1
                 kept += 1
