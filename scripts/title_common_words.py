@@ -42,7 +42,7 @@ def tokenize_title(title: str) -> List[str]:
         out.append(t)
     return out
 
-def iter_titles_from_jsonl(paths: List[str], title_key: str) -> Iterable[str]:
+def iter_titles_from_jsonl(paths: List[str], title_key: str, ct_any_key: str, only_unclassified: bool) -> Iterable[str]:
     for p in paths:
         with open(p, "r", encoding="utf-8") as f:
             for line in f:
@@ -50,14 +50,36 @@ def iter_titles_from_jsonl(paths: List[str], title_key: str) -> Iterable[str]:
                 if not line:
                     continue
                 row = json.loads(line)
+
+                if only_unclassified:
+                    v = row.get(ct_any_key)
+                    if isinstance(v, str):
+                        vv = v.strip().lower()
+                        is_true = vv in ("true", "1", "yes", "y", "t")
+                    else:
+                        is_true = bool(v)
+                    if is_true:
+                        continue
+
                 title = row.get(title_key)
                 if isinstance(title, str) and title.strip():
                     yield title
 
-def iter_titles_from_csv(path: str, title_key: str) -> Iterable[str]:
+def iter_titles_from_csv(path: str, title_key: str, ct_any_key: str, only_unclassified: bool) -> Iterable[str]:
     with open(path, "r", encoding="utf-8", newline="") as f:
         r = csv.DictReader(f)
         for row in r:
+            if only_unclassified:
+                v = row.get(ct_any_key)
+                # treat missing as False; accept common truthy strings
+                if isinstance(v, str):
+                    vv = v.strip().lower()
+                    is_true = vv in ("true", "1", "yes", "y", "t")
+                else:
+                    is_true = bool(v)
+                if is_true:
+                    continue
+
             title = row.get(title_key)
             if isinstance(title, str) and title.strip():
                 yield title
@@ -109,11 +131,16 @@ def main():
     ap.add_argument("--title-key", default="title", help="Field/column name for title (default: title)")
     ap.add_argument("--top", type=int, default=200, help="How many words to output (default: 200)")
     ap.add_argument("--out", default="", help="Output base path without extension (default: data/common_words_<slug>)")
+    ap.add_argument("--ct-any-key", default="CT_any", help="Field/column name for CT_any (default: CT_any)")
+    ap.add_argument("--only-unclassified", action="store_true", help="If set, only include rows where CT_any is false")
+
     args = ap.parse_args()
 
     inp = args.input.strip()
     title_key = args.title_key.strip() or "title"
     top_n = max(1, int(args.top))
+    ct_any_key = args.ct_any_key.strip() or "CT_any"
+    only_unclassified = bool(args.only_unclassified)
 
     titles_iter: Iterable[str]
     out_base: str
@@ -121,7 +148,7 @@ def main():
     if inp.lower().endswith(".csv"):
         if not os.path.exists(inp):
             raise SystemExit(f"CSV not found: {inp}")
-        titles_iter = iter_titles_from_csv(inp, title_key)
+        titles_iter = iter_titles_from_jsonl(paths, title_key, ct_any_key, only_unclassified)
         out_base = args.out.strip() or f"data/common_words_{slugify(os.path.basename(inp))}"
     else:
         paths = sorted(glob.glob(inp))
