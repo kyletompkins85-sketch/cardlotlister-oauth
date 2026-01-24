@@ -41,6 +41,7 @@ RX_COLOR = {
     "green":  _re(r"\bgreen\b"),
     "silver": _re(r"\bsilver\b"),
     "red":    _re(r"\bred\b"),
+    "aqua":   _re(r"\baqua\b"),
 }
 
 # Finishes
@@ -354,6 +355,20 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_diamante": bool(wf.get("WF_diamante", False)),
         "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
         "CT_pick_your_card": bool(wf.get("WF_pick_your_card", False)),
+        "CT_base_rainbow": bool(
+            wf.get("WF_color_rainbow", False)
+            and not (
+                wf.get("WF_color_blue", False)
+                or wf.get("WF_color_pink", False)
+                or wf.get("WF_color_purple", False)
+                or wf.get("WF_color_aqua", False)
+                or wf.get("WF_color_green", False)
+                or wf.get("WF_color_gold", False)
+                or wf.get("WF_color_orange", False)
+                or wf.get("WF_color_black", False)
+                or wf.get("WF_color_red", False)
+            )
+        ),
         "CT_purple_rainbow": bool(
             wf.get("WF_color_purple", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_250", False))
