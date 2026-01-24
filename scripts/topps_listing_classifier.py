@@ -262,6 +262,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
 
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
+        "WF_outof_5": (serial_out_of == 5),
         "WF_outof_10": (serial_out_of == 10),
         "WF_outof_25": (serial_out_of == 25),
         # Cmd+F: GH_ANCHOR_WF_OUTOF_50_FALLBACK_5C1A9D20
@@ -303,6 +304,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_green", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_99", False))
         ),
+        "CT_red_5": bool(wf.get("WF_color_red", False) and wf.get("WF_outof_5", False)),
         "CT_gold_2025": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_2025", False)), 
         "CT_gold_50": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_50", False)),
         "CT_black_10": bool(wf.get("WF_color_black", False) and wf.get("WF_outof_10", False)),
