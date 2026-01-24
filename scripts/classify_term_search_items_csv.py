@@ -105,22 +105,9 @@ def main() -> None:
         if not r.fieldnames:
             raise SystemExit("Input CSV has no header row")
 
-        base_cols = list(r.fieldnames)
+        # Cmd+F: GH_ANCHOR_OUTPUT_COLUMNS_MINIMAL_9B1D2C34
+        out_cols = ["title", "all_in_price", "CT_list", "player_guess"]
 
-        # Extra output columns
-        extra_cols = [
-            "all_in_price",
-            "CT_any",
-            "CT_list",
-            "player_guess",
-            "player_score",
-            "player_window",
-            "card_number",
-            "is_numbered",
-            "serial_number",
-            "serial_out_of",
-        ]
-        out_cols = base_cols + [c for c in extra_cols if c not in base_cols]
 
         with open(out_path, "w", encoding="utf-8", newline="") as fout:
             w = csv.DictWriter(fout, fieldnames=out_cols)
@@ -162,19 +149,14 @@ def main() -> None:
                         player_score = sc
                         player_window = win
 
-                # Build output row: keep all original fields + add derived fields
-                out_row = dict(row)
-                out_row["all_in_price"] = round(all_in, 4)
-                out_row["CT_any"] = bool(ct_any)
-                out_row["CT_list"] = ct_list
-                out_row["player_guess"] = player_guess
-                out_row["player_score"] = round(float(player_score), 2) if player_guess else ""
-                out_row["player_window"] = player_window
+                # Cmd+F: GH_ANCHOR_BUILD_MINIMAL_OUT_ROW_7D2A1C91
+                out_row = {
+                    "title": title,
+                    "all_in_price": round(all_in, 4),
+                    "CT_list": ct_list,
+                    "player_guess": player_guess,
+                }
 
-                out_row["card_number"] = flags.get("card_number")
-                out_row["is_numbered"] = flags.get("is_numbered")
-                out_row["serial_number"] = flags.get("serial_number")
-                out_row["serial_out_of"] = flags.get("serial_out_of")
 
                 w.writerow(out_row)
                 wrote += 1
