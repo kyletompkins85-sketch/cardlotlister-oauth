@@ -94,6 +94,7 @@ RX_1990 = _re(r"\b1990\b|\b1990s\b")
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
 RX_HOLIDAY_WORD = _re(r"\bholiday\b")
+RX_HALLOWEEN_WORD = _re(r"\bhalloween\b")
 RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack(?:\s*[-']?\s*o\s*[-']?\s*)?lantern\b|\bjackolantern\b")
 RX_HOLIDAY_JACKOLANTERN_LANTERN = _re(r"\blantern\b")
 RX_HOLIDAY_GHOST = _re(r"\bghost\b")
@@ -299,6 +300,7 @@ def classify_title(title: str) -> Dict[str, Any]:
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
+        "WF_halloween": _has(RX_HALLOWEEN_WORD, s),
         "WF_holiday_jackolantern": (_has(RX_HOLIDAY_JACKOLANTERN, s) or _has(RX_HOLIDAY_JACKOLANTERN_LANTERN, s)),
         "WF_holiday_ghost": _has(RX_HOLIDAY_GHOST, s),
         "WF_holiday_mummy": _has(RX_HOLIDAY_MUMMY, s),
@@ -413,7 +415,9 @@ def classify_title(title: str) -> Dict[str, Any]:
             or (wf.get("WF_holiday_bats", False) and wf.get("WF_outof_1", False))
         ),
         "CT_orange_black": bool(
-            wf.get("WF_color_orange", False) and wf.get("WF_color_black", False)
+            (wf.get("WF_color_orange", False) and wf.get("WF_color_black", False))
+            or (wf.get("WF_color_orange", False) and wf.get("WF_holiday", False))
+            or (wf.get("WF_color_orange", False) and wf.get("WF_halloween", False))
         ),
         "CT_lot": bool(wf.get("WF_lot", False)),
     }
