@@ -145,16 +145,17 @@ def main():
     titles_iter: Iterable[str]
     out_base: str
 
+    # Cmd+F: GH_ANCHOR_INPUT_ROUTING_CSV_VS_JSONL_9D2A1C90
     if inp.lower().endswith(".csv"):
         if not os.path.exists(inp):
             raise SystemExit(f"CSV not found: {inp}")
-        titles_iter = iter_titles_from_jsonl(paths, title_key, ct_any_key, only_unclassified)
+        titles_iter = iter_titles_from_csv(inp, title_key, ct_any_key, only_unclassified)
         out_base = args.out.strip() or f"data/common_words_{slugify(os.path.basename(inp))}"
     else:
         paths = sorted(glob.glob(inp))
         if not paths:
             raise SystemExit(f"No JSONL files matched: {inp}")
-        titles_iter = iter_titles_from_jsonl(paths, title_key)
+        titles_iter = iter_titles_from_jsonl(paths, title_key, ct_any_key, only_unclassified)
         out_base = args.out.strip() or f"data/common_words_{slugify(inp)}"
 
     total_titles, docfreq = compute_docfreq(titles_iter)
