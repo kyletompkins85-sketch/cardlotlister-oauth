@@ -33,7 +33,8 @@ def main() -> None:
     out_path = args.out
     title_col = args.title_col
     max_rows = max(1, int(args.max_rows))
-    only_unclassified = bool(args.only_unclassified)
+    # Cmd+F: GH_ANCHOR_ALWAYS_FILTER_CT_ANY_FALSE_8C1A2D90
+    only_unclassified = True  # ALWAYS filter: only rows where CT_any == False
     window = (args.window or "first").strip().lower()
 
 
