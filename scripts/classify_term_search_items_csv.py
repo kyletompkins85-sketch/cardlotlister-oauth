@@ -133,6 +133,13 @@ def main() -> None:
                 price = _to_float(row.get(price_key))
                 ship = _to_float(row.get(shipping_key))
                 all_in = price + ship
+                
+                # Cmd+F: GH_ANCHOR_DROP_CALCULATED_SHIPPING_3C2A1D12
+                ship_type = (row.get("shipping_cost_type") or "").strip().lower()
+                if ship_type == "calculated":
+                    excluded += 1
+                    continue
+
 
                 flags = classify_title(title)
 
