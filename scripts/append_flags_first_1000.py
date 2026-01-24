@@ -73,7 +73,9 @@ def main() -> None:
     print(f"INPUT={in_path}")
     print(f"OUTPUT={out_path}")
     print(f"PROCESSED_ROWS={processed}")
-    print(f"FLAG_COLUMNS={len(flag_cols)}")
+    # Cmd+F: GH_ANCHOR_FLAG_COLUMNS_PRINT_FIX_4D2A1C90
+    print(f"FLAG_COLUMNS={len(bool_flag_cols)}")
+
 
 
 if __name__ == "__main__":
