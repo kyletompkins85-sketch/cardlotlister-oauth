@@ -158,6 +158,7 @@ RX_PICK_YOUR_CARD_EXTRA = [
     _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\b"),           # BASE #US1-US (truncated/short form)
     _re(r"\bpick\s+your\s+player\b"),
     _re(r"\bpick\s*-\s*a\s*-\s*card\b|\bpick\s*a\s*card\b"),
+    _re(r"\bcomplete\s+base\s+set\b|\bstars\s+of\s+mlb\s+set\b"),
 ]
 
 
