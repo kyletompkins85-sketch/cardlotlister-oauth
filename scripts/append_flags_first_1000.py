@@ -65,9 +65,12 @@ def main() -> None:
                 title = (row.get(title_col) or "").strip()
                 flags = classify_title(title)
 
-                # Only keep title + boolean flags
+                # Only keep title + CT_* then WF_* booleans
                 out_row = {title_col: title}
-                out_row.update({k: bool(flags.get(k, False)) for k in bool_flag_cols})
+                for k in ct_cols:
+                    out_row[k] = bool(flags.get(k, False))
+                for k in wf_cols:
+                    out_row[k] = bool(flags.get(k, False))
 
                 w.writerow(out_row)
 
@@ -77,7 +80,8 @@ def main() -> None:
     print(f"OUTPUT={out_path}")
     print(f"PROCESSED_ROWS={processed}")
     # Cmd+F: GH_ANCHOR_FLAG_COLUMNS_PRINT_FIX_4D2A1C90
-    print(f"FLAG_COLUMNS={len(bool_flag_cols)}")
+    print(f"FLAG_COLUMNS={len(ct_cols) + len(wf_cols)}")
+
 
 
 
