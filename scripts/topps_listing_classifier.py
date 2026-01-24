@@ -85,6 +85,8 @@ RX_US_CARDNUM_2 = _re(r"\b(US\d{1,4})\b")              # "US175"
 RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
 #  - captures "out of 99", "outof 99"
 RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
+# Cmd+F: GH_ANCHOR_RX_OUTOF_250_8B1C2D3E
+RX_OUTOF_250 = _re(r"(?<!\d)/\s*250\b|\bout\s*of\s*250\b")
 
 
 def extract_card_number(title: str) -> Optional[str]:
@@ -172,6 +174,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_lot": _has(RX_LOTS, s),
         "WF_presale": _has(RX_PRESALE, s),
         "WF_pick_your_card": _has(RX_PICK_YOUR_CARD, s),
+        "WF_outof_250": _has(RX_OUTOF_250, s),
     }
 
     # Colors as WF_color_<name>
@@ -192,7 +195,11 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_diamante": bool(wf.get("WF_diamante", False)),
         "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
         "CT_pick_your_card": bool(wf.get("WF_pick_your_card", False)),
-        "CT_purple_rainbow": bool(wf.get("WF_color_purple", False) and wf.get("WF_color_rainbow", False)),
+        "CT_purple_rainbow": bool(
+            wf.get("WF_color_purple", False) and
+            (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_250", False))
+        ),
+
     }
 
     # Non-word extraction fields (kept from previous requirements)
