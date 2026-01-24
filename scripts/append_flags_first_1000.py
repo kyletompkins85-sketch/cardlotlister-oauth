@@ -62,10 +62,12 @@ def main() -> None:
                 title = (row.get(title_col) or "").strip()
                 flags = classify_title(title)
 
-                out_row = dict(row)
-                out_row.update({k: flags.get(k) for k in flag_cols})
+                # Only keep title + boolean flags
+                out_row = {title_col: title}
+                out_row.update({k: bool(flags.get(k, False)) for k in bool_flag_cols})
 
                 w.writerow(out_row)
+
                 processed += 1
 
     print(f"INPUT={in_path}")
