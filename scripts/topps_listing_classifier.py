@@ -126,51 +126,70 @@ def classify_title(title: str) -> Dict[str, Any]:
     """
     Main entrypoint.
     """
-    s = _clean(title)
+        s = _clean(title)
 
     is_numbered, serial_number, serial_out_of = extract_serial(s)
     card_number = extract_card_number(s)
 
-    flags: Dict[str, Any] = {
-        # requested combined rookie flag
-        "is_rookie": _has(RX_ROOKIE, s),
+    # ============================================================
+    # WORD FLAGS (WF_*) — presence / keyword detection only
+    # ============================================================
+    # Cmd+F: GH_ANCHOR_WORD_FLAGS_SECTION_1A2B3C4D
+    wf: Dict[str, Any] = {
+        # rookie / debut
+        "WF_rookie": _has(RX_ROOKIE, s),
+        "WF_debut": _has(RX_DEBUT, s),
 
-        # separate debut flag
-        "is_debut": _has(RX_DEBUT, s),
+        # SP / SSP (separate)
+        "WF_ssp": _has(RX_SSP, s),
+        "WF_sp": (not _has(RX_SSP, s)) and _has(RX_SP, s),  # suppress SP if SSP present
 
-        # SP / SSP separate
-        "is_sp":  (not _has(RX_SSP, s)) and _has(RX_SP, s),  # don't double-trigger if "ssp" present
-        "is_ssp": _has(RX_SSP, s),
+        # variants / terms
+        "WF_parallel": _has(RX_PARALLEL, s),
+        "WF_holiday": _has(RX_HOLIDAY, s),
+        "WF_sandglitter": _has(RX_SANDGLITTER, s),
+        "WF_diamante": _has(RX_DIAMANTE, s),
 
-        # variants
-        "is_parallel": _has(RX_PARALLEL, s),
-        "is_holiday": _has(RX_HOLIDAY, s),
-        "is_sandglitter": _has(RX_SANDGLITTER, s),
-        "is_diamante": _has(RX_DIAMANTE, s),
+        # formats / selling style
+        "WF_complete_set": _has(RX_COMPLETE_SET, s),
+        "WF_singles": _has(RX_SINGLES, s),
+        "WF_pick": _has(RX_PICK, s),
+        "WF_lot": _has(RX_LOTS, s),
+        "WF_presale": _has(RX_PRESALE, s),
+    }
 
-        # formats
-        "is_complete_set": _has(RX_COMPLETE_SET, s),
-        "is_singles": _has(RX_SINGLES, s),
-        "is_pick": _has(RX_PICK, s),
-        "is_lot": _has(RX_LOTS, s),
-        "is_presale": _has(RX_PRESALE, s),
+    # Colors as WF_color_<name>
+    for color, rx in RX_COLOR.items():
+        wf[f"WF_color_{color}"] = _has(rx, s)
 
-        # extraction fields
+    # Finishes as WF_finish_<name>
+    for fin, rx in RX_FINISH.items():
+        wf[f"WF_finish_{fin}"] = _has(rx, s)
+
+    # ============================================================
+    # CARD TYPE (CT_*) — higher-level classifications
+    # ============================================================
+    # Cmd+F: GH_ANCHOR_CARD_TYPE_SECTION_5E6F7A8B
+    ct: Dict[str, Any] = {
+        # Only requested card type variable:
+        # Directly driven by word flag WF_diamante
+        "CT_diamante": bool(wf.get("WF_diamante", False)),
+    }
+
+    # Non-word extraction fields (kept from previous requirements)
+    extracted: Dict[str, Any] = {
         "card_number": card_number,
         "is_numbered": is_numbered,
         "serial_number": serial_number,
         "serial_out_of": serial_out_of,
     }
 
-    # Colors as booleans
-    for color, rx in RX_COLOR.items():
-        flags[f"is_{color}"] = _has(rx, s)
-
-    # Finishes as booleans
-    for fin, rx in RX_FINISH.items():
-        flags[f"is_{fin}"] = _has(rx, s)
-
-    return flags
+    # Final output: word flags first, then card type, then extracted fields
+    out: Dict[str, Any] = {}
+    out.update(wf)
+    out.update(ct)
+    out.update(extracted)
+    return out
 
 
 # Cmd+F: GH_ANCHOR_TOPPS_LISTING_CLASSIFIER_DEMO_5F1A3B8D
