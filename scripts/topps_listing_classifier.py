@@ -77,8 +77,7 @@ RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
 RX_HOLIDAY_WORD = _re(r"\bholiday\b")
-# Handle common punctuation/variants: jack-o'-lantern / jack o lantern / jackolantern
-RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack\s*[-o']?\s*lantern\b|\bjackolantern\b")
+RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack(?:\s*[-']?\s*o\s*[-']?\s*)?lantern\b|\bjackolantern\b")
 RX_HOLIDAY_GHOST = _re(r"\bghost\b")
 RX_HOLIDAY_MUMMY = _re(r"\bmummy\b")
 # black cat / blackcat
