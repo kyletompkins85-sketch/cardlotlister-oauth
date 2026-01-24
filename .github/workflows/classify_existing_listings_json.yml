@@ -6,7 +6,7 @@ on:
       input_json:
         description: "Input JSON file already in repo (e.g. data/listings_2025_topps_update.json)"
         required: true
-        default: "data/listings_2025_topps_update.json"
+        default: "data/listings_2025_topps_update.jsonl"
       max_out:
         description: "Max output rows (sorted by all_in_price desc)"
         required: true
