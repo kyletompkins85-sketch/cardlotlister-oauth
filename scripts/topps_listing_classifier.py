@@ -57,6 +57,9 @@ RX_DIAMANTE    = _re(r"\bdiamante\b")
 # Cmd+F: GH_ANCHOR_RX_XFRACTOR_2F7A1C90
 RX_XFRACTOR    = _re(r"\bx[\s-]?fractor\b")  # matches "X-Fractor", "X Fractor", "Xfractor"
 RX_PARALLEL    = _re(r"\bparallel\b")
+# Cmd+F: GH_ANCHOR_RX_GOLDEN_MIRROR_4C1A9D20
+RX_GOLDEN_MIRROR = _re(r"\bgolden\s+mirror\b(?:\s+ssp)?(?:\s+image\s+variation)?")
+
 
 # Formats / selling style
 RX_COMPLETE_SET = _re(r"\bcomplete\s+set\b|\bset\s+complete\b")
@@ -189,6 +192,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_sandglitter": _has(RX_SANDGLITTER, s),
         "WF_diamante": _has(RX_DIAMANTE, s),
         "WF_x_fractor": _has(RX_XFRACTOR, s),
+        "WF_golden_mirror": _has(RX_GOLDEN_MIRROR, s),
 
         # formats / selling style
         "WF_complete_set": _has(RX_COMPLETE_SET, s),
@@ -239,6 +243,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_2025", False))
         ),
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
+        "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
