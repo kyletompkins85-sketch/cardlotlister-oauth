@@ -233,6 +233,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_diamante": _has(RX_DIAMANTE, s),
         "WF_x_fractor": _has(RX_XFRACTOR, s),
         "WF_golden_mirror": _has(RX_GOLDEN_MIRROR, s),
+        "WF_independence_day": _has(RX_INDEPENDENCE_DAY, s),
+        "WF_clear": _has(RX_CLEAR_VARIANT, s),
+        "WF_vintage": _has(RX_VINTAGE, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
