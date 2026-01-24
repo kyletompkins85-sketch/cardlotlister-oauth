@@ -54,6 +54,8 @@ RX_FINISH = {
 RX_HOLIDAY     = _re(r"\bholiday\b")
 RX_SANDGLITTER = _re(r"\bsand\s*glitter\b|\bsandglitter\b")
 RX_DIAMANTE    = _re(r"\bdiamante\b")
+# Cmd+F: GH_ANCHOR_RX_XFRACTOR_2F7A1C90
+RX_XFRACTOR    = _re(r"\bx[\s-]?fractor\b")  # matches "X-Fractor", "X Fractor", "Xfractor"
 RX_PARALLEL    = _re(r"\bparallel\b")
 
 # Formats / selling style
@@ -150,6 +152,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_holiday": _has(RX_HOLIDAY, s),
         "WF_sandglitter": _has(RX_SANDGLITTER, s),
         "WF_diamante": _has(RX_DIAMANTE, s),
+        "WF_x_fractor": _has(RX_XFRACTOR, s),
 
         # formats / selling style
         "WF_complete_set": _has(RX_COMPLETE_SET, s),
@@ -175,6 +178,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         # Only requested card type variable:
         # Directly driven by word flag WF_diamante
         "CT_diamante": bool(wf.get("WF_diamante", False)),
+        "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
