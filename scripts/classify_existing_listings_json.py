@@ -49,6 +49,15 @@ def format_ct_name(ct_key: str) -> str:
             out_parts.append(p[:1].upper() + p[1:].lower())
     return " ".join(out_parts)
 
+# Cmd+F: GH_ANCHOR_LOT_FILTER_HELPER_6C2A1D95
+import re
+RX_LOT = re.compile(r"\blot\b|\blots\b|\bteam\s*lot\b|\bplayer\s*lot\b", re.IGNORECASE)
+
+def is_lot_title(title: str, flags: Dict[str, Any]) -> bool:
+    # Prefer classifier signal if present; fallback to regex.
+    if bool(flags.get("WF_lot", False)) or bool(flags.get("CT_lot", False)):
+        return True
+    return RX_LOT.search(title or "") is not None
 
 def _to_float(v: Any) -> float:
     try:
@@ -135,6 +144,8 @@ def main() -> None:
         all_in = price + ship
 
         flags = classify_title(title)
+        if is_lot_title(title, flags):
+            continue
         ct_values = {k: bool(flags.get(k, False)) for k in ct_cols}
         ct_any = any(ct_values.values())
         ct_true_names = [format_ct_name(k) for k, v in ct_values.items() if v]
