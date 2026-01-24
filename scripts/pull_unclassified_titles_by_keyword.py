@@ -127,4 +127,7 @@ def main() -> None:
     print(f"WROTE_ROWS={wrote}")
 
 
-if __name__ == "__ma
+# Cmd+F: GH_ANCHOR_PULL_UNCLASSIFIED_RUN_MAIN_6C2A1D92
+if __name__ == "__main__":
+    main()
+
