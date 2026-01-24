@@ -65,7 +65,6 @@ RX_PICK         = _re(r"\b(pick\s*your|you\s*pick|pick\s*one|pick)\b|\b(choose\s
 RX_LOTS         = _re(r"\blot\b|\blots\b|\blotting\b")  # "lotting" is rare; adjust/remove if noisy
 RX_PRESALE      = _re(r"\bpre[\s-]?sale\b|\bpre[\s-]?sell\b|\bpre[\s-]?order\b|\bpresale\b|\bpreorder\b")
 # Cmd+F: GH_ANCHOR_RX_PICK_YOUR_CARD_6C1A9D20
-# Cmd+F: GH_ANCHOR_RX_PICK_YOUR_CARD_6C1A9D20
 RX_PICK_YOUR_CARD = _re(
     r"\b("
     # pick/choose language
@@ -79,11 +78,16 @@ RX_PICK_YOUR_CARD = _re(
     r"set\s*builder|set\s*[-\s]?builder|"
     r"complete\s*your\s*set|complete\s*the\s*set|"
 
-    # explicit list callouts often used for pick-your-card listings
+    # explicit list callouts
     r"pick\s*from\s*(my\s*)?list|"
-    r"from\s*list\b"
+    r"from\s*list\b|"
+
+    # range + "buy any N cards" style (your example)
+    r"cards?\s*\d{1,4}\s*[-–]\s*\d{1,4}|"
+    r"buy\s*\"?any\"?\s*\d{1,3}\s*cards?"
     r")\b"
 )
+
 
 
 # Card number extraction
