@@ -1,0 +1,51 @@
+name: Analyze common title words
+
+on:
+  workflow_dispatch:
+    inputs:
+      input:
+        description: CSV path OR JSONL glob to analyze
+        required: true
+        default: "data/term_search_items_table.csv"
+      top:
+        description: How many words to output
+        required: true
+        default: "300"
+      out_base:
+        description: Output base path (no extension). Leave blank for default.
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Compute common words from titles
+        run: |
+          set -euo pipefail
+          python3 scripts/title_common_words.py \
+            --input "${{ inputs.input }}" \
+            --top "${{ inputs.top }}" \
+            $( [ -n "${{ inputs.out_base }}" ] && echo --out "${{ inputs.out_base }}" )
+
+      - name: Commit results (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/common_words_*.csv data/common_words_*.meta.json || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Analyze common title words"
+          git push
