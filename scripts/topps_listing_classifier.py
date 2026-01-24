@@ -67,7 +67,7 @@ RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 RX_CANVAS_VARIANT = _re(r"(?:^|[^a-z])canv(?:a|i)s{1,2}(?:$|[^a-z])")
 RX_FIRST_CARD = _re(r"\bfirst\s+card\b")
 RX_PLATINUM   = _re(r"\bplatinum\b")
-RX_WOOD = _re(r"\bwood\b")
+RX_WOOD = _re(r"\bwood\b|\bwood\s*grain\b|\bwoodgrain\b")
 RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
 RX_ACETATE = _re(r"\bacetate\b")
 RX_FLAGSHIP = _re(r"\bflagship\b")
@@ -89,6 +89,7 @@ RX_PATCH_AUTO = _re(
 )
 RX_SKETCH = _re(r"\bsketch\b")
 RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
+RX_1990 = _re(r"\b1990\b|\b1990s\b")
 
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
@@ -295,6 +296,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_patch_auto": _has(RX_PATCH_AUTO, s),
         "WF_sketch": _has(RX_SKETCH, s),
         "WF_shaped_sketch": _has(RX_SHAPED_SKETCH, s),
+        "WF_1990": _has(RX_1990, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -395,7 +397,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
         "CT_shaped_sketch": bool(wf.get("WF_shaped_sketch", False)),
         "CT_sketch": bool(wf.get("WF_sketch", False) and not wf.get("WF_shaped_sketch", False)),
-
+        "CT_1990": bool(wf.get("WF_1990", False)),
         
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday_jackolantern", False)),
