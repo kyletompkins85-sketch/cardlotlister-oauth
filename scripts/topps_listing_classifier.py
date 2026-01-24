@@ -64,6 +64,17 @@ RX_SINGLES      = _re(r"\bsingle\b|\bsingles\b")
 RX_PICK         = _re(r"\b(pick\s*your|you\s*pick|pick\s*one|pick)\b|\b(choose\s*your|choose\s*one|choose)\b")
 RX_LOTS         = _re(r"\blot\b|\blots\b|\blotting\b")  # "lotting" is rare; adjust/remove if noisy
 RX_PRESALE      = _re(r"\bpre[\s-]?sale\b|\bpre[\s-]?sell\b|\bpre[\s-]?order\b|\bpresale\b|\bpreorder\b")
+# Cmd+F: GH_ANCHOR_RX_PICK_YOUR_CARD_6C1A9D20
+RX_PICK_YOUR_CARD = _re(
+    r"\b("
+    r"pick\s*your\s*card|"
+    r"pick\s*a\s*card|"
+    r"you\s*pick|u\s*pick|"
+    r"pick\s*one|"
+    r"set\s*builder|set\s*[-\s]?builder|"
+    r"complete\s*your\s*set|complete\s*the\s*set"
+    r")\b"
+)
 
 # Card number extraction
 RX_US_CARDNUM_1 = _re(r"\bUS\s*[-#]?\s*(\d{1,4})\b")   # "US175", "US 175", "US-175", "US#175"
@@ -160,6 +171,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_pick": _has(RX_PICK, s),
         "WF_lot": _has(RX_LOTS, s),
         "WF_presale": _has(RX_PRESALE, s),
+        "WF_pick_your_card": _has(RX_PICK_YOUR_CARD, s),
     }
 
     # Colors as WF_color_<name>
@@ -179,6 +191,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         # Directly driven by word flag WF_diamante
         "CT_diamante": bool(wf.get("WF_diamante", False)),
         "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
+        "CT_pick_your_card": bool(wf.get("WF_pick_your_card", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
