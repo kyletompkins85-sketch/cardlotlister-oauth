@@ -63,6 +63,10 @@ RX_GOLDEN_MIRROR = _re(r"\bgolden\s+mirror\b(?:\s+ssp)?(?:\s+image\s+variation)?
 RX_INDEPENDENCE_DAY = _re(r"\bindependence\s+day\b")
 RX_CLEAR_VARIANT    = _re(r"\bclear\b")     # avoids "clearance" because of word boundary
 RX_VINTAGE          = _re(r"\bvintage\b")
+# Cmd+F: GH_ANCHOR_RX_PHOTO_VARIATION_OWN_THE_NAME_1D7A2C90
+RX_PHOTO_VARIATION = _re(r"\bphoto\s*variation\b|\bimage\s*variation\b|\bvariation\s*photo\b")
+RX_OWN_THE_NAME    = _re(r"\bown\s+the\s+name\b|\botn\b")
+
 
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
@@ -238,6 +242,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_independence_day": _has(RX_INDEPENDENCE_DAY, s),
         "WF_clear": _has(RX_CLEAR_VARIANT, s),
         "WF_vintage": _has(RX_VINTAGE, s),
+        "WF_photo_variation": _has(RX_PHOTO_VARIATION, s),
+        "WF_own_the_name": _has(RX_OWN_THE_NAME, s),
+
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -315,6 +322,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
+        "CT_photo_variation": bool(wf.get("WF_photo_variation", False)),
+        "CT_own_the_name": bool(wf.get("WF_own_the_name", False)),
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_jackolantern", False)),
         "CT_holiday_ghost": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_ghost", False)),
