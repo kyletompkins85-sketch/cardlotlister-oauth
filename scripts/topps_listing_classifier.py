@@ -103,6 +103,17 @@ RX_PICK_YOUR_CARD = _re(
     r"cards?\s*\d{1,4}\s*[-–]\s*\d{1,4}|"
     r"buy\s*\"?any\"?\s*\d{1,3}\s*cards?"
     r")\b"
+
+    #overfit
+    _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\d+"),          # BASE #US1-US350 style
+    _re(r"\binserts?\s+and\s+parallels?\b"),              # INSERTS AND PARALLELS
+    _re(r"\bsingles\b"),                                  # SINGLES
+    _re(r"\bpick\s+your\s+rainbow\s+foil\b"),             # Pick Your Rainbow Foil
+    _re(r"\bpick\s+list\b|\bpick\s+from\s+list\b"),       # Pick List / Pick From List
+    _re(r"\byou\s+choose\b"),                             # You Choose
+    _re(r"\b\d{1,3}\s*card\s+minimum\b"),                 # 4 CARD MINIMUM
+    _re(r"\bparallels?\s*&\s*inserts?\b"),                # Parallels & Inserts
+    _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\b"),           # BASE #US1-US (truncated/short form)
 )
 
 
@@ -223,7 +234,12 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_pick": _has(RX_PICK, s),
         "WF_lot": _has(RX_LOTS, s),
         "WF_presale": _has(RX_PRESALE, s),
-        "WF_pick_your_card": _has(RX_PICK_YOUR_CARD, s),
+        # Cmd+F: GH_ANCHOR_WF_PICK_YOUR_CARD_WITH_EXTRAS_3F7A1C20
+        "WF_pick_your_card": (
+            _has(RX_PICK_YOUR_CARD, s)
+            or any(_has(rx, s) for rx in RX_PICK_YOUR_CARD_EXTRA)
+        ),
+
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
         "WF_outof_50": (serial_out_of == 50),
         "WF_outof_99": (serial_out_of == 99),
