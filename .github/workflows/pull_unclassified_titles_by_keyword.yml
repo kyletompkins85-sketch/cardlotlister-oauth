@@ -1,0 +1,95 @@
+name: Pull unclassified titles by keyword
+
+on:
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: "Keyword to search for in title (case-insensitive substring)"
+        required: true
+        default: "canvas"
+      max_rows:
+        description: "Max rows to output"
+        required: true
+        default: "1000"
+      input_csv:
+        description: "Input CSV path in repo"
+        required: true
+        default: "data/term_search_items_table.csv"
+      dedupe:
+        description: "De-dupe identical titles (true/false)"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Pull up to N unclassified titles containing keyword
+        run: |
+          set -euo pipefail
+
+          INPUT="${{ github.event.inputs.input_csv }}"
+          KEYWORD="${{ github.event.inputs.keyword }}"
+          MAX_ROWS="${{ github.event.inputs.max_rows }}"
+          DEDUPE="${{ github.event.inputs.dedupe }}"
+
+          if [ ! -f "$INPUT" ]; then
+            echo "Input CSV not found: $INPUT"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          # slugify keyword for filename
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          s = os.environ.get("KEYWORD","").strip().lower()
+          s = re.sub(r"[^a-z0-9]+", "_", s).strip("_")
+          print(s or "all")
+          PY
+          )"
+
+          OUT="data/unclassified_titles_${SLUG}.csv"
+
+          EXTRA=""
+          if [ "${DEDUPE}" = "true" ] || [ "${DEDUPE}" = "True" ]; then
+            EXTRA="--dedupe"
+          fi
+
+          python3 scripts/pull_unclassified_titles_by_keyword.py \
+            --input "$INPUT" \
+            --keyword "$KEYWORD" \
+            --out "$OUT" \
+            --max-rows "$MAX_ROWS" \
+            $EXTRA
+
+          echo "WROTE=$OUT"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/unclassified_titles_*.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update unclassified titles (keyword=${{ github.event.inputs.keyword }})"
+          git push
