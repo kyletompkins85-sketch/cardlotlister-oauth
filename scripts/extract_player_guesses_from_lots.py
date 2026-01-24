@@ -144,8 +144,9 @@ def main() -> None:
 
     # First pass: collect non-lot titles for dictionary
     # Cmd+F: GH_ANCHOR_FIRST_PASS_COLLECT_NONLOTS_6C2A1D98
+        # Cmd+F: GH_ANCHOR_FIRST_PASS_COLLECT_NONLOTS_6C2A1D98
     nonlot_titles: List[str] = []
-    lot_titles: List[str] = []
+    target_titles: List[str] = []
 
     with open(in_path, "r", encoding="utf-8", newline="") as f:
         r = csv.DictReader(f)
@@ -158,11 +159,17 @@ def main() -> None:
             t = (row.get(title_col) or "").strip()
             if not t:
                 continue
+
+            # EXCLUDE lots entirely
             if is_lot_title(t):
-                lot_titles.append(t)
-            else:
-                if len(nonlot_titles) < dict_max:
-                    nonlot_titles.append(t)
+                continue
+
+            # use these to build dictionary
+            if len(nonlot_titles) < dict_max:
+                nonlot_titles.append(t)
+
+            # also process as target rows
+            target_titles.append(t)
 
     name_dict = build_name_dictionary(nonlot_titles)
 
@@ -175,7 +182,7 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=out_cols)
         w.writeheader()
 
-        for t in lot_titles:
+        for t in target_titles:
             best, conf, method, span_len, freq = pick_best_name_from_dict(t, name_dict)
             w.writerow({
                 "title": t,
@@ -194,8 +201,8 @@ def main() -> None:
     print(f"TITLE_COL={title_col}")
     print(f"NONLOT_TITLES_USED_FOR_DICT={len(nonlot_titles)}")
     print(f"UNIQUE_NAME_SPANS_IN_DICT={len(name_dict)}")
-    print(f"LOT_TITLES_FOUND={len(lot_titles)}")
-    print(f"WROTE_LOT_ROWS={wrote}")
+    print(f"TARGET_TITLES_FOUND={len(target_titles)}")
+    print(f"WROTE_ROWS={wrote}")
 
 if __name__ == "__main__":
     main()
