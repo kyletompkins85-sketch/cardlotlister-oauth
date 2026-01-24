@@ -60,6 +60,20 @@ RX_PARALLEL    = _re(r"\bparallel\b")
 # Cmd+F: GH_ANCHOR_RX_GOLDEN_MIRROR_4C1A9D20
 RX_GOLDEN_MIRROR = _re(r"\bgolden\s+mirror\b(?:\s+ssp)?(?:\s+image\s+variation)?")
 
+# Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
+RX_HOLIDAY_WORD = _re(r"\bholiday\b")
+# Handle common punctuation/variants: jack-o'-lantern / jack o lantern / jackolantern
+RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack\s*[-o']?\s*lantern\b|\bjackolantern\b")
+RX_HOLIDAY_GHOST = _re(r"\bghost\b")
+RX_HOLIDAY_MUMMY = _re(r"\bmummy\b")
+# black cat / blackcat
+RX_HOLIDAY_BLACK_CAT = _re(r"\bblack\s*cat\b|\bblackcat\b")
+# witch's hat / witches hat / witch hat
+RX_HOLIDAY_WITCH_HAT = _re(r"\bwitch(?:'s|es)?\s*hat\b|\bwitchhat\b")
+# bats / bat (prefer bats; allow bat only if you want it broader)
+RX_HOLIDAY_BATS = _re(r"\bbats\b")
+
+
 
 # Formats / selling style
 RX_COMPLETE_SET = _re(r"\bcomplete\s+set\b|\bset\s+complete\b")
@@ -188,11 +202,20 @@ def classify_title(title: str) -> Dict[str, Any]:
 
         # variants / terms
         "WF_parallel": _has(RX_PARALLEL, s),
-        "WF_holiday": _has(RX_HOLIDAY, s),
         "WF_sandglitter": _has(RX_SANDGLITTER, s),
         "WF_diamante": _has(RX_DIAMANTE, s),
         "WF_x_fractor": _has(RX_XFRACTOR, s),
         "WF_golden_mirror": _has(RX_GOLDEN_MIRROR, s),
+
+        # Holiday family (word flags)
+        "WF_holiday": _has(RX_HOLIDAY_WORD, s),
+        "WF_holiday_jackolantern": _has(RX_HOLIDAY_JACKOLANTERN, s),
+        "WF_holiday_ghost": _has(RX_HOLIDAY_GHOST, s),
+        "WF_holiday_mummy": _has(RX_HOLIDAY_MUMMY, s),
+        "WF_holiday_black_cat": _has(RX_HOLIDAY_BLACK_CAT, s),
+        "WF_holiday_witch_hat": _has(RX_HOLIDAY_WITCH_HAT, s),
+        "WF_holiday_bats": _has(RX_HOLIDAY_BATS, s),
+
 
         # formats / selling style
         "WF_complete_set": _has(RX_COMPLETE_SET, s),
@@ -244,6 +267,13 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
+        # Holiday card types (mutually exclusive by construction)
+        "CT_holiday_jackolantern": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_jackolantern", False)),
+        "CT_holiday_ghost": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_ghost", False)),
+        "CT_holiday_mummy": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_mummy", False)),
+        "CT_holiday_black_cat": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_black_cat", False)),
+        "CT_holiday_witch_hat": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_witch_hat", False)),
+        "CT_holiday_bats": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_bats", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
