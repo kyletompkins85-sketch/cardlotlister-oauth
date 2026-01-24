@@ -412,14 +412,8 @@ def classify_title(title: str) -> Dict[str, Any]:
             # Way 2: bats + 1/1 (even if "holiday" isn't present)
             or (wf.get("WF_holiday_bats", False) and wf.get("WF_outof_1", False))
         ),
-        "CT_holiday_base": bool(
-            wf.get("WF_holiday", False)
-            and not wf.get("WF_holiday_jackolantern", False)
-            and not wf.get("WF_holiday_ghost", False)
-            and not wf.get("WF_holiday_mummy", False)
-            and not wf.get("WF_holiday_black_cat", False)
-            and not wf.get("WF_holiday_witch_hat", False)
-            and not wf.get("WF_holiday_bats", False)
+        "CT_orange_black": bool(
+            wf.get("WF_color_orange", False) and wf.get("WF_color_black", False)
         ),
         "CT_lot": bool(wf.get("WF_lot", False)),
     }
