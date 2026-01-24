@@ -238,6 +238,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_gold", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_2025", False))
         ),
+        "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
