@@ -15,6 +15,40 @@ if HERE not in sys.path:
 
 from topps_listing_classifier import classify_title  # noqa: E402
 
+# Cmd+F: GH_ANCHOR_CT_NAME_FORMATTER_6C2A1D93
+def format_ct_name(ct_key: str) -> str:
+    """
+    Convert 'CT_chrome' -> 'Chrome'
+            'CT_base_rainbow' -> 'Base Rainbow'
+            'CT_x_fractor' -> 'X-Fractor'
+            'CT_ssp' -> 'SSP'
+    """
+    raw = (ct_key or "").strip()
+    if raw.startswith("CT_"):
+        raw = raw[3:]
+
+    specials = {
+        "ssp": "SSP",
+        "sp": "SP",
+        "rc": "RC",
+        "x_fractor": "X-Fractor",
+    }
+    if raw in specials:
+        return specials[raw]
+
+    parts = raw.split("_")
+    out_parts: List[str] = []
+    for p in parts:
+        if not p:
+            continue
+        if p.isdigit():
+            out_parts.append(p)
+        elif p in ("ssp", "sp", "rc"):
+            out_parts.append(p.upper())
+        else:
+            out_parts.append(p[:1].upper() + p[1:].lower())
+    return " ".join(out_parts)
+
 
 def _to_float(v: Any) -> float:
     try:
@@ -103,6 +137,9 @@ def main() -> None:
         flags = classify_title(title)
         ct_values = {k: bool(flags.get(k, False)) for k in ct_cols}
         ct_any = any(ct_values.values())
+        ct_true_names = [format_ct_name(k) for k, v in ct_values.items() if v]
+        ct_list = ", ".join(ct_true_names)
+
 
         if only_unclassified and ct_any:
             continue
@@ -111,14 +148,16 @@ def main() -> None:
             "title": title,
             "all_in_price": round(all_in, 4),
             "CT_any": ct_any,
+            "CT_list": ct_list,
         }
-        out_row.update(ct_values)
         classified.append(out_row)
 
     classified.sort(key=lambda x: _to_float(x.get("all_in_price")), reverse=True)
     classified = classified[:max_out]
 
-    out_cols = ["title", "all_in_price", "CT_any"] + ct_cols
+    # Output columns (keep it small): title + price + classification summary
+    out_cols = ["title", "all_in_price", "CT_any", "CT_list"]
+
 
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=out_cols)
