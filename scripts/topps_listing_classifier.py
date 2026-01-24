@@ -123,6 +123,8 @@ RX_PICK_YOUR_CARD_EXTRA = [
     _re(r"\b\d{1,3}\s*card\s+minimum\b"),                 # 4 CARD MINIMUM
     _re(r"\bparallels?\s*&\s*inserts?\b"),                # Parallels & Inserts
     _re(r"\bbase\b.*#?\s*us\d+\s*[-–]\s*us\b"),           # BASE #US1-US (truncated/short form)
+    _re(r"\bpick\s+your\s+player\b"),
+    _re(r"\bpick\s*-\s*a\s*-\s*card\b|\bpick\s*a\s*card\b"),
 ]
 
 
@@ -313,6 +315,7 @@ def classify_title(title: str) -> Dict[str, Any]:
             and not wf.get("WF_holiday_witch_hat", False)
             and not wf.get("WF_holiday_bats", False)
         ),
+        "CT_lot": bool(wf.get("WF_lot", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
