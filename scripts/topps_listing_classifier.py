@@ -78,6 +78,7 @@ RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
 RX_HOLIDAY_WORD = _re(r"\bholiday\b")
 RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack(?:\s*[-']?\s*o\s*[-']?\s*)?lantern\b|\bjackolantern\b")
+RX_HOLIDAY_JACKOLANTERN_LANTERN = _re(r"\blantern\b")
 RX_HOLIDAY_GHOST = _re(r"\bghost\b")
 RX_HOLIDAY_MUMMY = _re(r"\bmummy\b")
 # black cat / blackcat
@@ -268,7 +269,7 @@ def classify_title(title: str) -> Dict[str, Any]:
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
-        "WF_holiday_jackolantern": _has(RX_HOLIDAY_JACKOLANTERN, s),
+        "WF_holiday_jackolantern": (_has(RX_HOLIDAY_JACKOLANTERN, s) or _has(RX_HOLIDAY_JACKOLANTERN_LANTERN, s)),
         "WF_holiday_ghost": _has(RX_HOLIDAY_GHOST, s),
         "WF_holiday_mummy": _has(RX_HOLIDAY_MUMMY, s),
         "WF_holiday_black_cat": _has(RX_HOLIDAY_BLACK_CAT, s),
