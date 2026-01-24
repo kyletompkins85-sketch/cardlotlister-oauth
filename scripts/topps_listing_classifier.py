@@ -382,7 +382,6 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_wood_25": bool(wf.get("WF_wood", False) and wf.get("WF_outof_25", False)),
         "CT_holiday_witch_hat_5": bool(wf.get("WF_holiday_witch_hat", False) and wf.get("WF_outof_5", False)),
         "CT_camo_25": bool(wf.get("WF_camo", False) and wf.get("WF_outof_25", False)),
-        "CT_holiday_mummy": bool(wf.get("WF_holiday_mummy", False)),
         "CT_acetate_10": bool(wf.get("WF_acetate", False) and wf.get("WF_outof_10", False)),
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
@@ -405,7 +404,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday_jackolantern", False)),
         "CT_holiday_ghost": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_ghost", False)),
-        "CT_holiday_mummy": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_mummy", False)),
+        "CT_holiday_mummy": bool(wf.get("WF_holiday_mummy", False)),
         "CT_holiday_black_cat": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_black_cat", False)),
         "CT_holiday_witch_hat": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_witch_hat", False)),
         "CT_holiday_bats": bool(
