@@ -5,10 +5,12 @@ import csv
 import glob
 import json
 import os
-from typing import Any, Dict, Iterable, List, Set, Tuple
+from typing import Any, Dict, List, Set, Tuple
+
 
 def _is_scalar(x: Any) -> bool:
     return x is None or isinstance(x, (str, int, float, bool))
+
 
 def flatten(obj: Any, prefix: str = "", out: Dict[str, Any] | None = None) -> Dict[str, Any]:
     """
@@ -30,22 +32,20 @@ def flatten(obj: Any, prefix: str = "", out: Dict[str, Any] | None = None) -> Di
             if _is_scalar(v) or isinstance(v, dict):
                 flatten(v, key, out)
             else:
-                # list or other complex -> stringify
                 out[key] = json.dumps(v, ensure_ascii=False)
         return out
 
     if isinstance(obj, list):
-        # store list as JSON string
         if prefix:
             out[prefix] = json.dumps(obj, ensure_ascii=False)
         return out
 
-    # fallback
     if prefix:
         out[prefix] = str(obj)
     return out
 
-def iter_rows(paths: List[str]) -> Iterable[Dict[str, Any]]:
+
+def iter_rows(paths: List[str]):
     for p in paths:
         with open(p, "r", encoding="utf-8") as f:
             for line in f:
@@ -54,7 +54,9 @@ def iter_rows(paths: List[str]) -> Iterable[Dict[str, Any]]:
                     continue
                 yield json.loads(line)
 
+
 def discover_columns(paths: List[str], max_scan: int = 200_000) -> List[str]:
+    # Cmd+F: GH_ANCHOR_DISCOVER_COLUMNS_4B1F8A22
     cols: Set[str] = set()
     scanned = 0
     for row in iter_rows(paths):
@@ -65,7 +67,9 @@ def discover_columns(paths: List[str], max_scan: int = 200_000) -> List[str]:
             break
     return sorted(cols)
 
+
 def write_csv(paths: List[str], out_path: str, columns: List[str]) -> Tuple[int, int]:
+    # Cmd+F: GH_ANCHOR_WRITE_CSV_91A0D2C3
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     written = 0
     dropped = 0
@@ -85,13 +89,17 @@ def write_csv(paths: List[str], out_path: str, columns: List[str]) -> Tuple[int,
 
     return written, dropped
 
+
 def main():
     # Cmd+F: GH_ANCHOR_JSONL_TO_TABLE_MAIN_3F1B7C2A
     ap = argparse.ArgumentParser()
     ap.add_argument("input", help="Input JSONL path or glob (e.g. data/term_search_items_*.jsonl)")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/term_search_items.csv)")
-    ap.add_argument("--columns", default="ALL",
-                    help="Comma-separated columns OR ALL. Example: run_id,title,price,seller_username,shipping_cost,shipping_cost_type")
+    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/term_search_items_table.csv)")
+    ap.add_argument(
+        "--columns",
+        default="ALL",
+        help="Comma-separated columns OR ALL. Example: run_id,title,price,seller_username,shipping_cost,shipping_cost_type",
+    )
     ap.add_argument("--print-columns", action="store_true", help="Print discovered columns and exit")
     ap.add_argument("--max-scan", type=int, default=200000, help="Max rows to scan for column discovery")
     args = ap.parse_args()
@@ -110,7 +118,6 @@ def main():
         cols = all_cols
     else:
         wanted = [c.strip() for c in args.columns.split(",") if c.strip()]
-        # keep order user provided; include any missing wanted columns (even if absent in file)
         cols = wanted + [c for c in all_cols if c not in wanted]
 
     written, dropped = write_csv(paths, args.out, cols)
@@ -121,6 +128,7 @@ def main():
     print(f"WROTE_ROWS={written}")
     print(f"DROPPED_EMPTY_ROWS={dropped}")
     print(f"OUTPUT={args.out}")
+
 
 if __name__ == "__main__":
     main()
