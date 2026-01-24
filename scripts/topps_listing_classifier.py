@@ -369,6 +369,9 @@ def classify_title(title: str) -> Dict[str, Any]:
                 or wf.get("WF_color_red", False)
             )
         ),
+        "CT_aqua_rainbow": bool(
+            wf.get("WF_color_aqua", False) and wf.get("WF_color_rainbow", False)
+        ),
         "CT_purple_rainbow": bool(
             wf.get("WF_color_purple", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_250", False))
