@@ -65,6 +65,9 @@ RX_OWN_THE_NAME    = _re(r"\bown\s+the\s+name\b|\botn\b")
 RX_FOIL_FRACTOR = _re(r"\bfoil\s*[-\s]?\s*fractor\b|\bfoilfractor\b")
 RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 RX_CANVAS_VARIANT = _re(r"\bcanva[si]s\b")  # matches canvas or canvis
+RX_FIRST_CARD = _re(r"\bfirst\s+card\b")
+RX_PLATINUM   = _re(r"\bplatinum\b")
+
 
 
 
@@ -248,7 +251,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_foil_fractor": _has(RX_FOIL_FRACTOR, s),
         "WF_printing_plate": _has(RX_PRINTING_PLATE, s),
         "WF_canvas": _has(RX_CANVAS_VARIANT, s),
-
+        "WF_first_card": _has(RX_FIRST_CARD, s),
+        "WF_platinum": _has(RX_PLATINUM, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -316,6 +320,8 @@ def classify_title(title: str) -> Dict[str, Any]:
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_99", False))
         ),
         "CT_foil_fractor_1of1": bool(wf.get("WF_foil_fractor", False) and wf.get("WF_outof_1", False)),
+        "CT_first_card_1of1": bool(wf.get("WF_first_card", False) and wf.get("WF_outof_1", False)),
+        "CT_platinum_1of1": bool(wf.get("WF_platinum", False) and wf.get("WF_outof_1", False)),
         "CT_red_5": bool(wf.get("WF_color_red", False) and wf.get("WF_outof_5", False)),
         "CT_gold_2025": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_2025", False)), 
         "CT_gold_50": bool(wf.get("WF_color_gold", False) and wf.get("WF_outof_50", False)),
