@@ -72,6 +72,14 @@ RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
 RX_ACETATE = _re(r"\bacetate\b")
 RX_FLAGSHIP = _re(r"\bflagship\b")
 RX_REAL_ONE = _re(r"\breal\s*one\b")
+RX_PATCH = _re(r"\bpatch\b")
+RX_AUTO = _re(r"\bauto\b|\bautograph\b|\ba/u\b")
+RX_PATCH_AUTO = _re(
+    r"\bpatch\s*(?:&|\+|and)?\s*auto(?:graph)?\b|"
+    r"\bauto(?:graph)?\s*(?:&|\+|and)?\s*patch\b|"
+    r"\bpatch\s*(?:&|\+|and)?\s*autograph\b|"
+    r"\bautograph\s*(?:&|\+|and)?\s*patch\b"
+)
 RX_SKETCH = _re(r"\bsketch\b")
 RX_SHAPED_SKETCH = _re(r"\bshaped\s+sketch\b")
 
@@ -266,6 +274,9 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_acetate": _has(RX_ACETATE, s),
         "WF_flagship": _has(RX_FLAGSHIP, s),
         "WF_real_one": _has(RX_REAL_ONE, s),
+        "WF_patch": _has(RX_PATCH, s),
+        "WF_auto": _has(RX_AUTO, s),
+        "WF_patch_auto": _has(RX_PATCH_AUTO, s),
         "WF_sketch": _has(RX_SKETCH, s),
         "WF_shaped_sketch": _has(RX_SHAPED_SKETCH, s),
 
@@ -358,8 +369,14 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_photo_variation": bool(wf.get("WF_photo_variation", False)),
         "CT_own_the_name": bool(wf.get("WF_own_the_name", False)),
         "CT_ssp": bool(wf.get("WF_ssp", False)),
-        "CT_flagship_real_one": bool(wf.get("WF_flagship", False) and wf.get("WF_real_one", False)),
-        "CT_flagship_base": bool(wf.get("WF_flagship", False) and not wf.get("WF_real_one", False)),
+        "CT_flagship_real_one": bool(wf.get("WF_real_one", False)),
+        "CT_flagship_patch_auto": bool(
+            (
+                (wf.get("WF_flagship", False) and not wf.get("WF_real_one", False))  # what you used to call "base"
+                or wf.get("WF_patch_auto", False)  # patch auto even if it doesn't say flagship
+            )
+            and not wf.get("WF_real_one", False)
+        ),
         "CT_shaped_sketch": bool(wf.get("WF_shaped_sketch", False)),
         "CT_sketch": bool(wf.get("WF_sketch", False) and not wf.get("WF_shaped_sketch", False)),
 
