@@ -192,6 +192,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_diamante": bool(wf.get("WF_diamante", False)),
         "CT_x_fractor": bool(wf.get("WF_x_fractor", False)),
         "CT_pick_your_card": bool(wf.get("WF_pick_your_card", False)),
+        "CT_purple_rainbow": bool(wf.get("WF_color_purple", False) and wf.get("WF_color_rainbow", False)),
     }
 
     # Non-word extraction fields (kept from previous requirements)
