@@ -59,6 +59,11 @@ RX_XFRACTOR    = _re(r"\bx[\s-]?fractor\b")  # matches "X-Fractor", "X Fractor",
 RX_PARALLEL    = _re(r"\bparallel\b")
 # Cmd+F: GH_ANCHOR_RX_GOLDEN_MIRROR_4C1A9D20
 RX_GOLDEN_MIRROR = _re(r"\bgolden\s+mirror\b(?:\s+ssp)?(?:\s+image\s+variation)?")
+# Cmd+F: GH_ANCHOR_RX_VARIANTS_INDY_CLEAR_VINTAGE_6D1A9C20
+RX_INDEPENDENCE_DAY = _re(r"\bindependence\s+day\b")
+RX_CLEAR_VARIANT    = _re(r"\bclear\b")     # avoids "clearance" because of word boundary
+RX_VINTAGE          = _re(r"\bvintage\b")
+
 
 # Cmd+F: GH_ANCHOR_RX_HOLIDAY_VARIANTS_71C2A9D0
 RX_HOLIDAY_WORD = _re(r"\bholiday\b")
@@ -252,7 +257,10 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
 
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
+        "WF_outof_10": (serial_out_of == 10),
+        "WF_outof_25": (serial_out_of == 25),
         "WF_outof_50": (serial_out_of == 50),
+        "WF_outof_76": (serial_out_of == 76),
         "WF_outof_99": (serial_out_of == 99),
         "WF_outof_150": (serial_out_of == 150),
         "WF_outof_250": (serial_out_of == 250),
@@ -293,10 +301,12 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_gold", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_2025", False))
         ),
-        "CT_gold_50": bool(
-            wf.get("WF_color_gold", False) and
-            (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_50", False))
-        ),
+        "CT_black_10": bool(wf.get("WF_color_black", False) and wf.get("WF_outof_10", False)),
+        "CT_clear_10": bool(wf.get("WF_clear", False) and wf.get("WF_outof_10", False)),
+        "CT_orange_25": bool(wf.get("WF_color_orange", False) and (wf.get("WF_outof_25", False))),
+        "CT_independence_day_76": bool(wf.get("WF_independence_day", False) and wf.get("WF_outof_76", False)),
+        "CT_vintage_99": bool(wf.get("WF_vintage", False) and wf.get("WF_outof_99", False)),
+        
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
         # Holiday card types (mutually exclusive by construction)
