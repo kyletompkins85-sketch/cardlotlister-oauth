@@ -1,0 +1,51 @@
+name: Classify first 1000 term_search_items rows
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: Input CSV path
+        required: true
+        default: "data/term_search_items_table.csv"
+      out_csv:
+        description: Output CSV path
+        required: true
+        default: "data/term_search_items_table_classified_1000.csv"
+      max_rows:
+        description: Max rows to process
+        required: true
+        default: "1000"
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Append classification flags (first N rows)
+        run: |
+          set -euo pipefail
+          python3 scripts/append_flags_first_1000.py \
+            --input "${{ inputs.input_csv }}" \
+            --out "${{ inputs.out_csv }}" \
+            --max-rows "${{ inputs.max_rows }}"
+
+      - name: Commit output CSV (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ inputs.out_csv }}" || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Classify first ${{ inputs.max_rows }} rows (term_search_items)"
+          git push
