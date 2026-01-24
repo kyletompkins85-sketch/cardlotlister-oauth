@@ -69,6 +69,7 @@ RX_FIRST_CARD = _re(r"\bfirst\s+card\b")
 RX_PLATINUM   = _re(r"\bplatinum\b")
 RX_WOOD = _re(r"\bwood\b")
 RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
+RX_ACETATE = _re(r"\bacetate\b")
 RX_FLAGSHIP = _re(r"\bflagship\b")
 RX_REAL_ONE = _re(r"\breal\s*one\b")
 RX_SKETCH = _re(r"\bsketch\b")
@@ -262,6 +263,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_platinum": _has(RX_PLATINUM, s),
         "WF_wood": _has(RX_WOOD, s),
         "WF_camo": _has(RX_CAMO, s),
+        "WF_acetate": _has(RX_ACETATE, s),
         "WF_flagship": _has(RX_FLAGSHIP, s),
         "WF_real_one": _has(RX_REAL_ONE, s),
         "WF_sketch": _has(RX_SKETCH, s),
@@ -349,7 +351,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_holiday_witch_hat_5": bool(wf.get("WF_holiday_witch_hat", False) and wf.get("WF_outof_5", False)),
         "CT_camo_25": bool(wf.get("WF_camo", False) and wf.get("WF_outof_25", False)),
         "CT_holiday_mummy_50": bool(wf.get("WF_holiday_mummy", False) and wf.get("WF_outof_50", False)),
-
+        "CT_acetate_10": bool(wf.get("WF_acetate", False) and wf.get("WF_outof_10", False)),
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
         "CT_golden_mirror": bool(wf.get("WF_golden_mirror", False)),
