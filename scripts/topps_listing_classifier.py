@@ -98,7 +98,7 @@ RX_HALLOWEEN_WORD = _re(r"\bhalloween\b")
 RX_HOLIDAY_JACKOLANTERN = _re(r"\bjack(?:\s*[-']?\s*o\s*[-']?\s*)?lantern\b|\bjackolantern\b")
 RX_HOLIDAY_JACKOLANTERN_LANTERN = _re(r"\blantern\b")
 RX_HOLIDAY_GHOST = _re(r"\bghost\b")
-RX_HOLIDAY_MUMMY = _re(r"\bmummy\b")
+RX_HOLIDAY_MUMMY = _re(r"\b(mummy|skeleton|skull)\b")
 # black cat / blackcat
 RX_HOLIDAY_BLACK_CAT = _re(r"\bblack\s*cat\b|\bblackcat\b")
 RX_HOLIDAY_WITCH_HAT = _re(
@@ -382,7 +382,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_wood_25": bool(wf.get("WF_wood", False) and wf.get("WF_outof_25", False)),
         "CT_holiday_witch_hat_5": bool(wf.get("WF_holiday_witch_hat", False) and wf.get("WF_outof_5", False)),
         "CT_camo_25": bool(wf.get("WF_camo", False) and wf.get("WF_outof_25", False)),
-        "CT_holiday_mummy_50": bool(wf.get("WF_holiday_mummy", False) and wf.get("WF_outof_50", False)),
+        "CT_holiday_mummy": bool(wf.get("WF_holiday_mummy", False)),
         "CT_acetate_10": bool(wf.get("WF_acetate", False) and wf.get("WF_outof_10", False)),
         
         "CT_sandglitter": bool(wf.get("WF_sandglitter", False)),
