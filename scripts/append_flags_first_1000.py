@@ -80,7 +80,8 @@ def main() -> None:
                     yield ("row", row)
 
     # Cmd+F: GH_ANCHOR_OUT_COLS_WITH_ALL_IN_7C2A1D90
-    out_cols = [title_col, "all_in_price", "CT_any"] + ct_cols + wf_cols
+    out_cols = [title_col, "all_in_price", "CT_any"] + ct_cols
+
 
     processed_in = 0
     written_out = 0
@@ -140,8 +141,6 @@ def main() -> None:
 
         out_row = {title_col: title, "all_in_price": all_in, "CT_any": ct_any}
         out_row.update(ct_values)
-        for k in wf_cols:
-            out_row[k] = bool(flags.get(k, False))
 
         seq += 1
         item = (all_in, seq, out_row)
