@@ -64,12 +64,11 @@ def main() -> None:
             yield ("__header__", r.fieldnames)
 
             if window == "first":
-                n = 0
+                # Cmd+F: GH_ANCHOR_SCAN_ALL_ROWS_FOR_TOPN_8C1A2D90
+                # IMPORTANT: when doing "top N by price", we must scan ALL rows.
                 for row in r:
                     yield ("row", row)
-                    n += 1
-                    if n >= max_rows:
-                        break
+
             else:
                 # last N: keep a ring buffer
                 buf = []
