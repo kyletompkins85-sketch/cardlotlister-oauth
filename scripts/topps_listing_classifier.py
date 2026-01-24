@@ -364,6 +364,9 @@ def classify_title(title: str) -> Dict[str, Any]:
             wf.get("WF_color_green", False) and
             (wf.get("WF_color_rainbow", False) or wf.get("WF_outof_99", False))
         ),
+        "CT_black_gold": bool(
+            wf.get("WF_color_black", False) and wf.get("WF_color_gold", False)
+        ),
         "CT_foil_fractor_1of1": bool(wf.get("WF_foil_fractor", False) and wf.get("WF_outof_1", False)),
         "CT_first_card_1of1": bool(wf.get("WF_first_card", False) and wf.get("WF_outof_1", False)),
         "CT_platinum_1of1": bool(wf.get("WF_platinum", False) and wf.get("WF_outof_1", False)),
