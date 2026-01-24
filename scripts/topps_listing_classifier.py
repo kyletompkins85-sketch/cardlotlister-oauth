@@ -169,8 +169,16 @@ RX_US_CARDNUM_2 = _re(r"\b(US\d{1,4})\b")              # "US175"
 RX_SERIAL_FRACTION = _re(r"(?<!\d)(\d{1,4})\s*/\s*(\d{1,4})(?!\d)")
 RX_SERIAL_BARE_DENOM = _re(r"(?<!\d)/\s*(\d{1,4})(?!\d)")  # matches "/250" (no numerator)
 RX_SERIAL_OUTOF = _re(r"\bout\s*of\s*(\d{1,4})\b|\boutof\s*(\d{1,4})\b")
+RX_OUTOF_1    = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*1|[\/／⁄]\s*1)(?:$|[^\d])|\bout\s*of\s*1\b")
+RX_OUTOF_5    = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*5|[\/／⁄]\s*5)(?:$|[^\d])|\bout\s*of\s*5\b")
+RX_OUTOF_10   = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*10|[\/／⁄]\s*10)(?:$|[^\d])|\bout\s*of\s*10\b")
+RX_OUTOF_25   = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*25|[\/／⁄]\s*25)(?:$|[^\d])|\bout\s*of\s*25\b")
 RX_OUTOF_50 = _re(r"\b\d{1,4}\s*[\/／⁄]\s*50\b|(?<!\d)[\/／⁄]\s*50\b|\bout\s*of\s*50\b")
+RX_OUTOF_76 = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*76|[\/／⁄]\s*76)(?:$|[^\d])|\bout\s*of\s*76\b")
+RX_OUTOF_99   = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*99|[\/／⁄]\s*99)(?:$|[^\d])|\bout\s*of\s*99\b")
+RX_OUTOF_150  = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*150|[\/／⁄]\s*150)(?:$|[^\d])|\bout\s*of\s*150\b")
 RX_OUTOF_250 = _re(r"(?<!\d)/\s*250\b|\bout\s*of\s*250\b")
+RX_OUTOF_2025 = _re(r"(?:^|[^\d])(?:\d{1,4}\s*[\/／⁄]\s*2025|[\/／⁄]\s*2025)(?:$|[^\d])|\bout\s*of\s*2025\b")
 RX_SERIAL_N_OF_M = _re(r"\b(\d{1,4})\s*of\s*(\d{1,4})\b")
 
 
@@ -311,16 +319,16 @@ def classify_title(title: str) -> Dict[str, Any]:
         ),
 
         # Cmd+F: GH_ANCHOR_WF_OUTOF_250_FROM_SERIAL_2D7A1C90
-        "WF_outof_1": (serial_out_of == 1),
-        "WF_outof_5": (serial_out_of == 5),
-        "WF_outof_10": (serial_out_of == 10),
-        "WF_outof_25": (serial_out_of == 25),
+        "WF_outof_1": (serial_out_of == 1) or _has(RX_OUTOF_1, s),
+        "WF_outof_5": (serial_out_of == 5) or _has(RX_OUTOF_5, s),
+        "WF_outof_10": (serial_out_of == 10) or _has(RX_OUTOF_10, s),
+        "WF_outof_25": (serial_out_of == 25) or _has(RX_OUTOF_25, s),
         "WF_outof_50": (serial_out_of == 50) or _has(RX_OUTOF_50, s),
-        "WF_outof_76": (serial_out_of == 76),
-        "WF_outof_99": (serial_out_of == 99),
-        "WF_outof_150": (serial_out_of == 150),
-        "WF_outof_250": (serial_out_of == 250),
-        "WF_outof_2025": (serial_out_of == 2025),
+        "WF_outof_76": (serial_out_of == 76) or _has(RX_OUTOF_76, s),
+        "WF_outof_99": (serial_out_of == 99) or _has(RX_OUTOF_99, s),
+        "WF_outof_150": (serial_out_of == 150) or _has(RX_OUTOF_150, s),
+        "WF_outof_250": (serial_out_of == 250) or _has(RX_OUTOF_250, s),
+        "WF_outof_2025": (serial_out_of == 2025) or _has(RX_OUTOF_2025, s),
     }
 
     # Colors as WF_color_<name>
