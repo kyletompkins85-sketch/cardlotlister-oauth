@@ -35,10 +35,13 @@ def main() -> None:
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
 
     # Discover boolean flag columns deterministically.
-    # classify_title("") returns all keys; booleans are False, extracted fields are None.
+    # Output order requirement: title, then CT_*, then WF_*.
     # Cmd+F: GH_ANCHOR_FLAG_COLUMNS_DISCOVERY_7A1B2C3D
     flag_template: Dict[str, object] = classify_title("")
-    bool_flag_cols: List[str] = [k for k, v in flag_template.items() if isinstance(v, bool)]
+    bool_keys_in_order: List[str] = [k for k, v in flag_template.items() if isinstance(v, bool)]
+
+    ct_cols: List[str] = [k for k in bool_keys_in_order if k.startswith("CT_")]
+    wf_cols: List[str] = [k for k in bool_keys_in_order if k.startswith("WF_")]
 
     processed = 0
 
@@ -47,8 +50,8 @@ def main() -> None:
         if not r.fieldnames:
             raise SystemExit("Input CSV has no header row")
 
-        # Output only: title + boolean flags (debug-friendly)
-        out_cols = [title_col] + bool_flag_cols
+        # Output only: title + card types + word flags
+        out_cols = [title_col] + ct_cols + wf_cols
 
 
         with open(out_path, "w", encoding="utf-8", newline="") as fout:
