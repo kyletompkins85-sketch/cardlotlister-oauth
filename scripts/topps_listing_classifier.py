@@ -125,8 +125,9 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
 def classify_title(title: str) -> Dict[str, Any]:
     """
     Main entrypoint.
+    Output order is: WF_* (word flags), CT_* (card types), then extraction fields.
     """
-        s = _clean(title)
+    s = _clean(title)
 
     is_numbered, serial_number, serial_out_of = extract_serial(s)
     card_number = extract_card_number(s)
@@ -190,6 +191,7 @@ def classify_title(title: str) -> Dict[str, Any]:
     out.update(ct)
     out.update(extracted)
     return out
+
 
 
 # Cmd+F: GH_ANCHOR_TOPPS_LISTING_CLASSIFIER_DEMO_5F1A3B8D
