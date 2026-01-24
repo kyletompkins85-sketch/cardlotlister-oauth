@@ -69,6 +69,9 @@ RX_FIRST_CARD = _re(r"\bfirst\s+card\b")
 RX_PLATINUM   = _re(r"\bplatinum\b")
 RX_WOOD = _re(r"\bwood\b")
 RX_CAMO = _re(r"\bcamo\b|\bcamouflage\b")
+RX_FLAGSHIP = _re(r"\bflagship\b")
+RX_REAL_ONE = _re(r"\breal\s*one\b")
+
 
 
 
@@ -258,6 +261,8 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_platinum": _has(RX_PLATINUM, s),
         "WF_wood": _has(RX_WOOD, s),
         "WF_camo": _has(RX_CAMO, s),
+        "WF_flagship": _has(RX_FLAGSHIP, s),
+        "WF_real_one": _has(RX_REAL_ONE, s),
 
         # Holiday family (word flags)
         "WF_holiday": _has(RX_HOLIDAY_WORD, s),
@@ -348,6 +353,10 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_photo_variation": bool(wf.get("WF_photo_variation", False)),
         "CT_own_the_name": bool(wf.get("WF_own_the_name", False)),
         "CT_ssp": bool(wf.get("WF_ssp", False)),
+        "CT_flagship_real_one": bool(wf.get("WF_flagship", False) and wf.get("WF_real_one", False)),
+        "CT_flagship_base": bool(wf.get("WF_flagship", False) and not wf.get("WF_real_one", False)),
+
+        
         # Holiday card types (mutually exclusive by construction)
         "CT_holiday_jackolantern": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_jackolantern", False)),
         "CT_holiday_ghost": bool(wf.get("WF_holiday", False) and wf.get("WF_holiday_ghost", False)),
