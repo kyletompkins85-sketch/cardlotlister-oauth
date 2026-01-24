@@ -1,0 +1,77 @@
+name: Trim market listings to match dad (CT_list + player)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dad_csv:
+        description: "Dad classified CSV (has CT_list + player_guess)"
+        required: true
+        default: "data/listings_2025_topps_update_jsonl_classified.csv"
+      market_csv:
+        description: "Market classified CSV to trim"
+        required: true
+        default: "data/term_search_items_table_classified.csv"
+      out_csv:
+        description: "Output trimmed CSV"
+        required: true
+        default: "data/term_search_items_table_classified_trimmed_to_dad.csv"
+
+permissions:
+  contents: write
+
+jobs:
+  trim:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Trim market -> dad pairs
+        env:
+          DAD_CSV: ${{ github.event.inputs.dad_csv }}
+          MARKET_CSV: ${{ github.event.inputs.market_csv }}
+          OUT_CSV: ${{ github.event.inputs.out_csv }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${DAD_CSV}" ]; then
+            echo "Dad CSV not found: ${DAD_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          if [ ! -f "${MARKET_CSV}" ]; then
+            echo "Market CSV not found: ${MARKET_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          python3 scripts/trim_market_to_dad_pairs.py \
+            --dad-csv "${DAD_CSV}" \
+            --market-csv "${MARKET_CSV}" \
+            --out "${OUT_CSV}"
+
+          echo "WROTE=${OUT_CSV}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*trimmed_to_dad.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Trim market listings to dad CT+player pairs"
+          git push
