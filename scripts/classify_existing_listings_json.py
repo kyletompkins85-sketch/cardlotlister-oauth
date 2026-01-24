@@ -5,7 +5,7 @@ import csv
 import json
 import os
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, Tuple
 
 # Allow importing sibling script from scripts/
 # Cmd+F: GH_ANCHOR_IMPORT_CLASSIFIER_EXISTING_LISTINGS_2B7A1D91
