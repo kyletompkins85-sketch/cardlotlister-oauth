@@ -5,6 +5,15 @@ import csv
 import os
 from typing import Dict, Iterable, Set, Tuple
 
+# Cmd+F: GH_ANCHOR_TO_FLOAT_TRIM_1B7A1C90
+def _to_float(v: str) -> float:
+    try:
+        s = (v or "").strip()
+        if s == "":
+            return 0.0
+        return float(s)
+    except Exception:
+        return 0.0
 
 def _norm(s: str) -> str:
     return " ".join((s or "").strip().split()).lower()
@@ -74,30 +83,40 @@ def main() -> None:
     if not pairs:
         raise SystemExit("No (CT_list, player) pairs found in dad CSV (check column names / content).")
 
-    # Determine output header from market file
-    with open(market_csv, "r", encoding="utf-8", newline="") as f:
-        r = csv.DictReader(f)
-        if not r.fieldnames:
-            raise SystemExit("Market CSV has no header row")
-        out_cols = list(r.fieldnames)
+    # Cmd+F: GH_ANCHOR_OUTPUT_COLS_TRIMMED_FINAL_4D2A1C90
+    out_cols = ["player_name", "CT_list", "all_in_price", "seller", "title"]
 
-        # Cmd+F: GH_ANCHOR_SORT_TRIMMED_OUTPUT_2C7A1D21
-    rows = list(_iter_filtered_rows(market_csv, pairs, args.market_ct_col, args.market_player_col))
 
-    def _sort_key(row: Dict[str, str]) -> Tuple[str, str]:
-        pl = _norm(row.get(args.market_player_col, ""))
-        ct = _norm(row.get(args.market_ct_col, ""))
-        return (pl, ct)
+    # Cmd+F: GH_ANCHOR_SORT_TRIMMED_OUTPUT_2C7A1D21
+    rows_in = list(_iter_filtered_rows(market_csv, pairs, args.market_ct_col, args.market_player_col))
 
-    rows.sort(key=_sort_key)
+    rows_out = []
+    for row in rows_in:
+        rows_out.append({
+            "player_name": (row.get(args.market_player_col, "") or "").strip(),
+            "CT_list": (row.get(args.market_ct_col, "") or "").strip(),
+            "all_in_price": (row.get("all_in_price", "") or "").strip(),
+            "seller": (row.get("seller_username", "") or "").strip(),
+            "title": (row.get("title", "") or "").strip(),
+        })
+
+    def _sort_key(row: Dict[str, str]):
+        pl = _norm(row.get("player_name", ""))
+        ct = _norm(row.get("CT_list", ""))
+        price = _to_float(row.get("all_in_price", ""))
+        return (pl, ct, -price)
+
+    rows_out.sort(key=_sort_key)
 
     wrote = 0
+    
     with open(out_path, "w", encoding="utf-8", newline="") as fout:
         w = csv.DictWriter(fout, fieldnames=out_cols)
         w.writeheader()
-        for row in rows:
+        for row in rows_out:
             w.writerow(row)
             wrote += 1
+
 
     print(f"DAD_CSV={dad_csv}")
     print(f"MARKET_CSV={market_csv}")
