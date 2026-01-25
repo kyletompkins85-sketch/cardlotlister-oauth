@@ -1,0 +1,130 @@
+name: Score market listings and find underpriced cards
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Universe CSV to score"
+        required: true
+        default: "data/term_search_items_table_classified.csv"
+      model_dir:
+        description: "Model folder produced by training workflow (contains agModels/)"
+        required: true
+        default: "data/term_search_items_table_classified_trimmed_to_dad_ag_price_model"
+      ct_summary_csv:
+        description: "CT sim summary CSV"
+        required: true
+        default: "data/term_search_items_table_classified_ct_sim_summary.csv"
+      player_summary_csv:
+        description: "Player sim summary CSV"
+        required: true
+        default: "data/term_search_items_table_classified_player_sim_summary.csv"
+      min_diff:
+        description: "Keep rows where (pred - actual) >= this"
+        required: true
+        default: "0.50"
+      max_out:
+        description: "0 = all; otherwise top N underpriced"
+        required: true
+        default: "500"
+
+permissions:
+  contents: write
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install --upgrade setuptools wheel
+          pip install --upgrade typing_extensions
+          pip install pandas autogluon.tabular
+
+      - name: Score + filter underpriced
+        env:
+          INPUT: ${{ github.event.inputs.input_csv }}
+          MODEL_DIR: ${{ github.event.inputs.model_dir }}
+          CT_SUM: ${{ github.event.inputs.ct_summary_csv }}
+          PL_SUM: ${{ github.event.inputs.player_summary_csv }}
+          MIN_DIFF: ${{ github.event.inputs.min_diff }}
+          MAX_OUT: ${{ github.event.inputs.max_out }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT}" ]; then
+            echo "Missing input_csv: ${INPUT}"
+            ls -la data || true
+            exit 1
+          fi
+
+          MODEL_PATH="${MODEL_DIR}/agModels"
+          if [ ! -d "${MODEL_PATH}" ]; then
+            echo "Missing model path: ${MODEL_PATH}"
+            ls -la "${MODEL_DIR}" || true
+            exit 1
+          fi
+
+          if [ ! -f "${CT_SUM}" ]; then
+            echo "Missing ct_summary_csv: ${CT_SUM}"
+            ls -la data || true
+            exit 1
+          fi
+
+          if [ ! -f "${PL_SUM}" ]; then
+            echo "Missing player_summary_csv: ${PL_SUM}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "market")
+          PY
+          )"
+
+          OUT="data/${SLUG}_underpriced_vs_model.csv"
+
+          python3 scripts/score_market_underpriced.py \
+            --input-csv "${INPUT}" \
+            --model-path "${MODEL_PATH}" \
+            --ct-summary-csv "${CT_SUM}" \
+            --player-summary-csv "${PL_SUM}" \
+            --out-csv "${OUT}" \
+            --min-diff "${MIN_DIFF}" \
+            --max-out "${MAX_OUT}" \
+            --drop-multi-ct "true"
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit outputs (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_underpriced_vs_model.csv data/*_underpriced_vs_model_meta.json || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update underpriced listings vs model"
+          git push
