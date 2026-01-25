@@ -22,12 +22,12 @@ from classify_existing_listings_json import (  # noqa: E402
 )
 
 # Cmd+F: GH_ANCHOR_PLAYER_ALLOWLIST_4F2A1D77
-PLAYER_ALLOWLIST = {
-    "Gage Workman",
-    "Maverick Handley",
-    "Curtis Mead",
-    "Patrick Monteverde",
-}
+# PLAYER_ALLOWLIST = {
+#     "Gage Workman",
+#     "Maverick Handley",
+#     "Curtis Mead",
+#     "Patrick Monteverde",
+# }
 
 # Cmd+F: GH_ANCHOR_TO_FLOAT_HELPER_19A2CC40
 def _to_float(v: Any) -> float:
@@ -157,9 +157,9 @@ def main() -> None:
                         player_window = win
 
                 # Cmd+F: GH_ANCHOR_FILTER_TO_PLAYER_ALLOWLIST_8A2C1D55
-                if PLAYER_ALLOWLIST and player_guess not in PLAYER_ALLOWLIST:
-                    excluded += 1
-                    continue
+                # if PLAYER_ALLOWLIST and player_guess not in PLAYER_ALLOWLIST:
+                #     excluded += 1
+                #     continue
 
                 # Cmd+F: GH_ANCHOR_BUILD_MINIMAL_OUT_ROW_7D2A1C91
                 out_row = {
