@@ -69,6 +69,15 @@ def main() -> None:
     if "player_name" not in pl_df.columns or "win_rate" not in pl_df.columns:
         raise SystemExit("player-summary-csv must have columns: player_name, win_rate")
 
+    # Cmd+F: GH_ANCHOR_REQUIRE_CT_LIST_NONNULL_TRAIN_8B1C2D3E
+    # Hard requirement: no CT_list => do not train / do not predict.
+    df[ct_col] = df[ct_col].astype(str)
+    df = df[df[ct_col].str.strip() != ""].copy()
+    df = df[~df[ct_col].str.lower().isin(["nan", "none", "null"])].copy()
+
+    # Cmd+F: GH_ANCHOR_DROP_MULTI_CT_LIST_TRAIN_19A2BC3D
+    df = df[~df[ct_col].astype(str).str.contains(",", na=False)].copy()
+    
     # -----------------------------
     # Build indices from simulation outputs
     # ct_index = CT win_rate
