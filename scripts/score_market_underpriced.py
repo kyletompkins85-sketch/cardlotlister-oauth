@@ -96,6 +96,12 @@ def main() -> None:
         if str(r.get("player_name", "")).strip() != ""
     }
 
+    # Cmd+F: GH_ANCHOR_REQUIRE_CT_LIST_NONNULL_1F2A3B4C
+    # Hard requirement: no CT_list => no prediction, no reporting.
+    df[ct_col] = df[ct_col].astype(str)
+    df = df[df[ct_col].str.strip() != ""].copy()
+    df = df[~df[ct_col].str.lower().isin(["nan", "none", "null"])].copy()
+
     # Make ct_index + player_index (same as training)
     df["_ct_key"] = df[ct_col].astype(str).map(_norm)
     df["_pl_key"] = df[player_col].astype(str).map(_norm)
