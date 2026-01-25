@@ -1,0 +1,11 @@
+{
+  "ct_summary_csv": "data/term_search_items_table_classified_ct_sim_summary.csv",
+  "drop_multi_ct": true,
+  "input_csv": "data/term_search_items_table_classified.csv",
+  "max_out": 500,
+  "min_diff": 0.5,
+  "model_path": "data/term_search_items_table_classified_trimmed_to_dad_ag_price_model/agModels",
+  "player_summary_csv": "data/term_search_items_table_classified_player_sim_summary.csv",
+  "rows_out": 500,
+  "rows_scored": 19415
+}
