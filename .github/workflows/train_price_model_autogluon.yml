@@ -53,7 +53,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade setuptools wheel
           pip install --upgrade typing_extensions
-          pip install pandas autogluon.tabular
+          pip install pandas matplotlib autogluon.tabular
 
 
       - name: Train model
