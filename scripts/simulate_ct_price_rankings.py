@@ -79,6 +79,9 @@ def main() -> None:
         for row in r:
             player = _norm(row.get(player_col, ""))
             ct = _norm(row.get(ct_col, ""))
+            # Cmd+F: GH_ANCHOR_DROP_MULTI_CT_LIST_6C2A1D12
+            if "," in ct:
+                continue
             price = _to_float(row.get(price_col))
             if not player or not ct or price is None:
                 continue
