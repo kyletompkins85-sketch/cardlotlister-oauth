@@ -81,11 +81,21 @@ def main() -> None:
             raise SystemExit("Market CSV has no header row")
         out_cols = list(r.fieldnames)
 
+        # Cmd+F: GH_ANCHOR_SORT_TRIMMED_OUTPUT_2C7A1D21
+    rows = list(_iter_filtered_rows(market_csv, pairs, args.market_ct_col, args.market_player_col))
+
+    def _sort_key(row: Dict[str, str]) -> Tuple[str, str]:
+        pl = _norm(row.get(args.market_player_col, ""))
+        ct = _norm(row.get(args.market_ct_col, ""))
+        return (pl, ct)
+
+    rows.sort(key=_sort_key)
+
     wrote = 0
     with open(out_path, "w", encoding="utf-8", newline="") as fout:
         w = csv.DictWriter(fout, fieldnames=out_cols)
         w.writeheader()
-        for row in _iter_filtered_rows(market_csv, pairs, args.market_ct_col, args.market_player_col):
+        for row in rows:
             w.writerow(row)
             wrote += 1
 
