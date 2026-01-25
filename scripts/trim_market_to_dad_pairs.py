@@ -152,6 +152,7 @@ def main() -> None:
     print(f"MARKET_CSV={market_csv}")
     print(f"OUT={out_path}")
     print(f"PAIRS={len(pairs)}")
+    print(f"DAD_PRICE_MAP={len(dad_price_map)}")
     print(f"WROTE={wrote}")
 
 
