@@ -1,0 +1,124 @@
+name: Train price model (AutoGluon) using ct_index + player_index
+
+on:
+  workflow_dispatch:
+    inputs:
+      data_csv:
+        description: "Dataset CSV (e.g. your final trimmed report)"
+        required: true
+        default: "data/term_search_items_table_classified_trimmed_to_dad.csv"
+      ct_summary_csv:
+        description: "CT simulation summary CSV"
+        required: true
+        default: "data/term_search_items_table_classified_ct_sim_summary.csv"
+      player_summary_csv:
+        description: "Player simulation summary CSV"
+        required: true
+        default: "data/term_search_items_table_classified_player_sim_summary.csv"
+      target_col:
+        description: "Target column in data_csv"
+        required: true
+        default: "market_all_in_price"
+      presets:
+        description: "AutoGluon presets"
+        required: true
+        default: "medium_quality_faster_train"
+      time_limit_sec:
+        description: "Training time limit (seconds)"
+        required: true
+        default: "120"
+      seed:
+        description: "Seed"
+        required: true
+        default: "42"
+
+permissions:
+  contents: write
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install autogluon.tabular pandas
+
+      - name: Train model
+        env:
+          DATA_CSV: ${{ github.event.inputs.data_csv }}
+          CT_SUM: ${{ github.event.inputs.ct_summary_csv }}
+          PL_SUM: ${{ github.event.inputs.player_summary_csv }}
+          TARGET: ${{ github.event.inputs.target_col }}
+          PRESETS: ${{ github.event.inputs.presets }}
+          TL: ${{ github.event.inputs.time_limit_sec }}
+          SEED: ${{ github.event.inputs.seed }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${DATA_CSV}" ]; then
+            echo "Missing data_csv: ${DATA_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+          if [ ! -f "${CT_SUM}" ]; then
+            echo "Missing ct_summary_csv: ${CT_SUM}"
+            ls -la data || true
+            exit 1
+          fi
+          if [ ! -f "${PL_SUM}" ]; then
+            echo "Missing player_summary_csv: ${PL_SUM}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("DATA_CSV","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "dataset")
+          PY
+          )"
+
+          OUT_DIR="data/${SLUG}_ag_price_model"
+
+          python3 scripts/train_price_model_autogluon.py \
+            --data-csv "${DATA_CSV}" \
+            --ct-summary-csv "${CT_SUM}" \
+            --player-summary-csv "${PL_SUM}" \
+            --out-dir "${OUT_DIR}" \
+            --target-col "${TARGET}" \
+            --presets "${PRESETS}" \
+            --time-limit "${TL}" \
+            --seed "${SEED}"
+
+          echo "WROTE=${OUT_DIR}"
+
+      - name: Commit outputs (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_ag_price_model/* || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update AutoGluon price model outputs"
+          git push
