@@ -1,0 +1,104 @@
+name: Simulate CT price rankings (pairwise matchups)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Market classified CSV (needs player_guess, CT_list, all_in_price)"
+        required: true
+        default: "data/term_search_items_table_classified.csv"
+      iterations:
+        description: "Number of matchups to simulate"
+        required: true
+        default: "50000"
+      seed:
+        description: "Random seed"
+        required: true
+        default: "42"
+      write_matches:
+        description: "true = also output a matches sample CSV"
+        required: true
+        default: "true"
+      max_match_log:
+        description: "Max match rows to log (only if write_matches=true)"
+        required: true
+        default: "2000"
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run simulation
+        env:
+          INPUT_CSV: ${{ github.event.inputs.input_csv }}
+          ITERS: ${{ github.event.inputs.iterations }}
+          SEED: ${{ github.event.inputs.seed }}
+          WRITE_MATCHES: ${{ github.event.inputs.write_matches }}
+          MAX_MATCH_LOG: ${{ github.event.inputs.max_match_log }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT_CSV}" ]; then
+            echo "Input CSV not found: ${INPUT_CSV}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT_CSV","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "market")
+          PY
+          )"
+
+          OUT_SUM="data/${SLUG}_ct_sim_summary.csv"
+          OUT_MATCH="data/${SLUG}_ct_sim_matches.csv"
+
+          MATCH_ARG=""
+          if [ "${WRITE_MATCHES}" = "true" ] || [ "${WRITE_MATCHES}" = "True" ]; then
+            MATCH_ARG="--out-matches ${OUT_MATCH} --max-match-log ${MAX_MATCH_LOG}"
+          fi
+
+          python3 scripts/simulate_ct_price_rankings.py \
+            --input "${INPUT_CSV}" \
+            --out-summary "${OUT_SUM}" \
+            --iterations "${ITERS}" \
+            --seed "${SEED}" \
+            ${MATCH_ARG}
+
+          echo "WROTE=${OUT_SUM}"
+          if [ -f "${OUT_MATCH}" ]; then
+            echo "WROTE=${OUT_MATCH}"
+          fi
+
+      - name: Commit outputs (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_ct_sim_*.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update CT price simulation outputs"
+          git push
