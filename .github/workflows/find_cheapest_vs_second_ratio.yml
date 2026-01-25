@@ -1,0 +1,108 @@
+name: Find lowest vs second-lowest ratio by (player, CT_list)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_csv:
+        description: "Market CSV (classified) to analyze"
+        required: true
+        default: "data/term_search_items_table_classified.csv"
+      price_col:
+        description: "All-in price column"
+        required: true
+        default: "all_in_price"
+      player_col:
+        description: "Player column"
+        required: true
+        default: "player_guess"
+      ct_col:
+        description: "CT_list column"
+        required: true
+        default: "CT_list"
+      max_out:
+        description: "Top N to keep (0 = all)"
+        required: true
+        default: "1000"
+      drop_multi_ct:
+        description: "true = drop comma CT_list"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Compute ratios
+        env:
+          INPUT: ${{ github.event.inputs.input_csv }}
+          PRICE_COL: ${{ github.event.inputs.price_col }}
+          PLAYER_COL: ${{ github.event.inputs.player_col }}
+          CT_COL: ${{ github.event.inputs.ct_col }}
+          MAX_OUT: ${{ github.event.inputs.max_out }}
+          DROP_MULTI_CT: ${{ github.event.inputs.drop_multi_ct }}
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "${INPUT}" ]; then
+            echo "Missing input_csv: ${INPUT}"
+            ls -la data || true
+            exit 1
+          fi
+
+          mkdir -p data
+
+          SLUG="$(python3 - <<'PY'
+          import os, re
+          p = (os.environ.get("INPUT","") or "").strip()
+          b = os.path.basename(p)
+          s = re.sub(r"\.csv$", "", b, flags=re.I)
+          s = re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+          print(s or "market")
+          PY
+          )"
+
+          OUT="data/${SLUG}_lowest_vs_second_ratio.csv"
+
+          python3 scripts/find_cheapest_vs_second_ratio.py \
+            --input-csv "${INPUT}" \
+            --out-csv "${OUT}" \
+            --price-col "${PRICE_COL}" \
+            --player-col "${PLAYER_COL}" \
+            --ct-col "${CT_COL}" \
+            --max-out "${MAX_OUT}" \
+            --drop-multi-ct "${DROP_MULTI_CT}"
+
+          echo "WROTE=${OUT}"
+
+      - name: Commit output (if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*_lowest_vs_second_ratio.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update lowest vs second-lowest ratio report"
+          git push
