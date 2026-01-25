@@ -4,6 +4,8 @@ import argparse
 import json
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 from autogluon.tabular import TabularPredictor  # pip install autogluon.tabular
 
@@ -138,6 +140,58 @@ def main() -> None:
     out_preds = model_df.copy()
     out_preds["pred"] = preds
     out_preds.to_csv(pred_path, index=False)
+
+        # Cmd+F: GH_ANCHOR_BUILD_LIFT_TABLE_6C2A1D51
+    # Lift table: sort by prediction, bucket into (up to) 20 quantiles, compare avg pred vs avg actual
+    lift_df = out_preds[[target_col, "pred"]].copy()
+    lift_df["pred"] = pd.to_numeric(lift_df["pred"], errors="coerce")
+    lift_df[target_col] = pd.to_numeric(lift_df[target_col], errors="coerce")
+    lift_df = lift_df.dropna(subset=["pred", target_col])
+
+    # qcut can drop bins when there are many identical preds
+    lift_df["bin"] = pd.qcut(lift_df["pred"], q=20, labels=False, duplicates="drop")
+    lift_df["bin"] = lift_df["bin"].astype(int)
+
+    lift_table = (
+        lift_df.groupby("bin", as_index=False)
+        .agg(
+            n=("pred", "size"),
+            avg_pred=("pred", "mean"),
+            avg_actual=(target_col, "mean"),
+            min_pred=("pred", "min"),
+            max_pred=("pred", "max"),
+        )
+        .sort_values("bin")
+        .reset_index(drop=True)
+    )
+
+    # 1-based bin index for readability
+    lift_table["bin"] = lift_table["bin"] + 1
+
+    lift_table_path = os.path.join(out_dir, "lift_table.csv")
+    lift_table.to_csv(lift_table_path, index=False)
+
+    # Cmd+F: GH_ANCHOR_SAVE_LIFT_PLOT_6C2A1D52
+    # Lift chart PNG: avg_pred vs avg_actual by bin
+    fig = plt.figure()
+    x = lift_table["bin"]
+    y_pred = lift_table["avg_pred"]
+    y_act = lift_table["avg_actual"]
+
+    plt.plot(x, y_pred, marker="o")
+    plt.plot(x, y_act, marker="o")
+    plt.xlabel("Predicted-score quantile bin (1=lowest pred)")
+    plt.ylabel("Price")
+    plt.title("Lift chart: mean prediction vs mean actual by predicted quantile")
+    plt.legend(["Mean prediction", "Mean actual"], loc="best")
+
+    lift_png_path = os.path.join(out_dir, "lift_chart.png")
+    plt.tight_layout()
+    plt.savefig(lift_png_path, dpi=160)
+    plt.close(fig)
+
+    print(f"LIFT_TABLE={lift_table_path}")
+    print(f"LIFT_CHART={lift_png_path}")
 
     print(f"DATA={data_csv}")
     print(f"CT_SUMMARY={ct_sum_csv}")
