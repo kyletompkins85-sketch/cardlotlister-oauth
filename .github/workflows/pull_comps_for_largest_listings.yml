@@ -79,6 +79,13 @@ jobs:
         run: |
           python workflows/pull_comps_for_largest_listings/03_export_term_search_items_by_run.py
 
+      - name: Upload outputs (Step 03)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pull_comps_for_largest_listings_outputs
+          path: workflows/pull_comps_for_largest_listings/data/**
+          if-no-files-found: warn
+
       # ----------------------------
       # STEP 03 — placeholder
       # ----------------------------
