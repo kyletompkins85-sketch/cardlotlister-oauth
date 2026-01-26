@@ -15,6 +15,10 @@ on:
         description: "If true, run only Step 01"
         required: false
         default: "true"
+      top_n:
+        description: "number of listings to return"
+        required: false
+        default: "3"
 
 permissions:
   contents: write
@@ -29,6 +33,7 @@ jobs:
       QUERY: ${{ github.event.inputs.query }}
       LIMIT: ${{ github.event.inputs.limit }}
       RUN_ID: ${{ github.run_id }}
+      TOP_N: ${{ github.event.inputs.top_n }}
 
     steps:
       - name: Checkout repo
