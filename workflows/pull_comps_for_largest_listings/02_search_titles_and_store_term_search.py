@@ -1,37 +1,13 @@
 # workflows/pull_comps_for_largest_listings/02_search_titles_and_store_term_search.py
-"""
-Step 02 — For each listing row produced by Step 01, take the listing title and:
-  - call Worker POST /comps/searchTerm
-  - request top 200 results (limit=200, offset=0)
-  - let the Worker store results into Supabase:
-      term_search_runs + term_search_items
-
-Outputs written to:
-  workflows/pull_comps_for_largest_listings/data/<RUN_ID>/
-    - term_search_calls_summary.csv
-    - term_search_calls_summary.json
-
-Env vars required:
-  WORKER_BASE_URL
-  INTERNAL_API_KEY
-  RUN_ID  (must match Step 01)
-Optional:
-  EBAY_LIMIT  (default 200)
-  EBAY_OFFSET (default 0)
-  SLEEP_MS    (default 250)
-"""
 
 from __future__ import annotations
 
 import csv
-import glob
 import json
 import os
 import sys
-import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional
-from urllib.parse import urljoin
+from typing import Dict, Any, List, Optional
 
 import requests
 
@@ -43,143 +19,184 @@ def _require_env(name: str) -> str:
     return v.strip()
 
 
-def _int_env(name: str, default: int) -> int:
-    v = (os.getenv(name) or "").strip()
+def _env_bool(name: str, default: bool = False) -> bool:
+    v = (os.getenv(name) or "").strip().lower()
     if not v:
         return default
+    return v in ("1", "true", "yes", "y", "on")
+
+
+def _find_step01_listings_csv(run_dir: Path) -> Path:
+    # Prefer your known file name if present
+    preferred = run_dir / "listings_all_sorted_top.csv"
+    if preferred.exists():
+        return preferred
+
+    # Otherwise auto-detect: any csv containing 'listings' and 'sorted'
+    candidates = sorted(run_dir.glob("*.csv"))
+    for p in candidates:
+        n = p.name.lower()
+        if "listings" in n and "sorted" in n:
+            return p
+    raise RuntimeError(
+        f"Could not find Step 01 listings CSV in {run_dir}. "
+        f"Expected listings_all_sorted_top.csv or a filename containing 'listings' and 'sorted'."
+    )
+
+
+def _read_csv_as_dicts(path: Path) -> List[Dict[str, Any]]:
+    with path.open("r", newline="", encoding="utf-8") as f:
+        r = csv.DictReader(f)
+        return [dict(row) for row in r]
+
+
+def _worker_get_json(url: str, key: str, params: Dict[str, str]) -> Dict[str, Any]:
+    resp = requests.get(url, headers={"x-internal-key": key}, params=params, timeout=60)
+    text = resp.text
     try:
-        return int(v)
-    except ValueError:
-        return default
+        data = resp.json()
+    except Exception:
+        data = {"raw": text}
+
+    if not resp.ok:
+        raise RuntimeError(f"Worker GET failed {resp.status_code}: {text}")
+    return data
 
 
-def _find_step01_sorted_json(run_dir: Path) -> Path:
-    # Step 01 writes: listings_<something>_sorted.json
-    matches = sorted(run_dir.glob("listings_*_sorted.json"))
-    if not matches:
-        raise RuntimeError(f"No Step 01 sorted JSON found in: {run_dir}")
-    if len(matches) > 1:
-        # pick the newest by mtime
-        matches.sort(key=lambda p: p.stat().st_mtime, reverse=True)
-    return matches[0]
+def _worker_post_json(url: str, key: str, body: Dict[str, Any]) -> Dict[str, Any]:
+    resp = requests.post(url, headers={"x-internal-key": key, "Content-Type": "application/json"},
+                         data=json.dumps(body), timeout=120)
+    text = resp.text
+    try:
+        data = resp.json()
+    except Exception:
+        data = {"raw": text}
 
-
-def _post_with_retry(url: str, headers: Dict[str, str], payload: Dict[str, Any], max_tries: int = 5) -> Dict[str, Any]:
-    last_err: Optional[str] = None
-    for attempt in range(1, max_tries + 1):
-        try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=90)
-            text = resp.text
-            try:
-                data = resp.json()
-            except Exception:
-                data = {"raw": text}
-
-            if resp.status_code in (429, 500, 502, 503, 504):
-                last_err = f"retryable_status={resp.status_code} body={text[:300]}"
-                # backoff
-                time.sleep(min(2 ** attempt, 10))
-                continue
-
-            if not resp.ok:
-                raise RuntimeError(f"Worker POST failed {resp.status_code}: {text}")
-
-            if not isinstance(data, dict):
-                raise RuntimeError(f"Unexpected JSON type: {type(data)}")
-
-            return data
-
-        except Exception as e:
-            last_err = str(e)
-            time.sleep(min(2 ** attempt, 10))
-
-    raise RuntimeError(f"POST failed after retries: {last_err}")
+    if not resp.ok:
+        raise RuntimeError(f"Worker POST failed {resp.status_code}: {text}")
+    return data
 
 
 def main() -> None:
-    base = _require_env("WORKER_BASE_URL")
-    key = _require_env("INTERNAL_API_KEY")
+    base = _require_env("WORKER_BASE_URL").rstrip("/")
+    key = _require_env("INTERNAL_API_KEY").strip()
     run_id = _require_env("RUN_ID")
+    force_refresh = _env_bool("FORCE_REFRESH", default=False)
 
-    ebay_limit = max(1, min(200, _int_env("EBAY_LIMIT", 200)))  # your Worker caps at 200 already
-    ebay_offset = max(0, _int_env("EBAY_OFFSET", 0))
-    sleep_ms = max(0, _int_env("SLEEP_MS", 250))
-
-    workflow_root = Path(__file__).resolve().parent  # .../workflows/pull_comps_for_largest_listings
+    workflow_root = Path(__file__).resolve().parent
     run_dir = workflow_root / "data" / run_id
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    step01_json_path = _find_step01_sorted_json(run_dir)
-    step01 = json.loads(step01_json_path.read_text(encoding="utf-8"))
+    listings_csv = _find_step01_listings_csv(run_dir)
+    listings = _read_csv_as_dicts(listings_csv)
 
-    rows = step01.get("rows") or []
-    if not isinstance(rows, list) or not rows:
-        raise RuntimeError("Step 01 JSON had no rows")
+    # Output: summary of what we did (cache hit vs called eBay)
+    out_summary = run_dir / "term_search_calls_summary.csv"
 
-    endpoint = urljoin(base.rstrip("/") + "/", "comps/searchTerm")
-    headers = {"x-internal-key": key, "Content-Type": "application/json"}
+    # Endpoints
+    lookup_url = f"{base}/internal/termSearchRuns/lookupToday"
+    search_url = f"{base}/comps/searchTerm"
 
-    summaries: List[Dict[str, Any]] = []
+    fieldnames = [
+        "ok",
+        "cache_hit",
+        "query",
+        "run_id",
+        "returned",
+        "inserted_items",
+        "total",
+        "error",
+    ]
 
-    for idx, r in enumerate(rows, start=1):
-        if not isinstance(r, dict):
-            continue
-        title = (r.get("title") or "").strip()
-        ebay_listing_id = (r.get("ebay_listing_id") or "").strip()
+    rows_out: List[Dict[str, Any]] = []
 
-        if not title:
-            summaries.append({
-                "idx": idx,
-                "ebay_listing_id": ebay_listing_id or None,
-                "query": None,
-                "ok": False,
-                "error": "missing_title",
+    for l in listings:
+        query = (l.get("title") or "").strip()
+        if not query:
+            rows_out.append({
+                "ok": "false",
+                "cache_hit": "",
+                "query": "",
+                "run_id": "",
+                "returned": "",
+                "inserted_items": "",
+                "total": "",
+                "error": "missing_title_in_listings_csv",
             })
             continue
 
-        payload = {
-            "query": title,
-            "limit": ebay_limit,
-            "offset": ebay_offset,
-        }
+        try:
+            # 1) lookup cache (unless force_refresh)
+            existing_run_id: Optional[str] = None
+            if not force_refresh:
+                lookup = _worker_get_json(lookup_url, key, {"q": query})
+                existing_run_id = lookup.get("run_id") or None
 
-        data = _post_with_retry(endpoint, headers, payload)
+            if existing_run_id:
+                # cache hit: DO NOT call eBay
+                rows_out.append({
+                    "ok": "true",
+                    "cache_hit": "true",
+                    "query": query,
+                    "run_id": existing_run_id,
+                    "returned": "",
+                    "inserted_items": "",
+                    "total": "",
+                    "error": "",
+                })
+                continue
 
-        summaries.append({
-            "idx": idx,
-            "ebay_listing_id": ebay_listing_id or None,
-            "query": title,
-            "ok": bool(data.get("ok")),
-            "run_id": data.get("run_id"),
-            "returned": data.get("returned"),
-            "inserted_items": data.get("inserted_items"),
-            "total": data.get("total"),
-        })
+            # 2) cache miss: call eBay through worker, which inserts into Supabase
+            resp = _worker_post_json(search_url, key, {
+                "query": query,
+                "limit": 200,
+                "offset": 0
+            })
 
-        if sleep_ms:
-            time.sleep(sleep_ms / 1000.0)
+            if not resp.get("ok"):
+                rows_out.append({
+                    "ok": "false",
+                    "cache_hit": "false",
+                    "query": query,
+                    "run_id": "",
+                    "returned": "",
+                    "inserted_items": "",
+                    "total": "",
+                    "error": str(resp.get("error") or "unknown_worker_error"),
+                })
+                continue
 
-    # Write summary outputs
-    out_csv = run_dir / "term_search_calls_summary.csv"
-    out_json = run_dir / "term_search_calls_summary.json"
+            rows_out.append({
+                "ok": "true",
+                "cache_hit": "false",
+                "query": query,
+                "run_id": str(resp.get("run_id") or ""),
+                "returned": str(resp.get("returned") or ""),
+                "inserted_items": str(resp.get("inserted_items") or ""),
+                "total": str(resp.get("total") or ""),
+                "error": "",
+            })
 
-    out_json.write_text(json.dumps({
-        "run_id": run_id,
-        "count": len(summaries),
-        "summaries": summaries
-    }, indent=2), encoding="utf-8")
+        except Exception as e:
+            rows_out.append({
+                "ok": "false",
+                "cache_hit": "",
+                "query": query,
+                "run_id": "",
+                "returned": "",
+                "inserted_items": "",
+                "total": "",
+                "error": str(e),
+            })
 
-    fieldnames = ["idx", "ebay_listing_id", "query", "ok", "run_id", "returned", "inserted_items", "total"]
-    with out_csv.open("w", newline="", encoding="utf-8") as f:
+    with out_summary.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
-        for s in summaries:
-            w.writerow({k: s.get(k) for k in fieldnames})
+        w.writerows(rows_out)
 
-    print(f"Loaded Step 01 file: {step01_json_path}")
-    print(f"Called /comps/searchTerm for {len(summaries)} listings")
-    print(f"Wrote summary CSV: {out_csv}")
-    print(f"Wrote summary JSON: {out_json}")
+    print(f"Wrote Step 02 summary: {out_summary}")
+    print(f"Force refresh: {force_refresh}")
+    print(f"Used listings CSV: {listings_csv.name}")
 
 
 if __name__ == "__main__":
