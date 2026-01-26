@@ -6,7 +6,7 @@ on:
       query:
         description: "Listings filter (passed to Worker as q)"
         required: false
-        default: "2025 Topps Update"
+        default: ""
       limit:
         description: "Worker page size (LIMIT env var)"
         required: false
