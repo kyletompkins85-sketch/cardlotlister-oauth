@@ -125,7 +125,7 @@ def _collect_all_keys(rows: List[Dict[str, Any]]) -> List[str]:
 def main() -> None:
     base = _require_env("WORKER_BASE_URL")
     key = _require_env("INTERNAL_API_KEY")
-    query = os.getenv("QUERY", "2025 Topps Update")
+    query = os.getenv("QUERY", "")
     limit = int(os.getenv("LIMIT", "1000"))
 
     default_run_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%SZ")
