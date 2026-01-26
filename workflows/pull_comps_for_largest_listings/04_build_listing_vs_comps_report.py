@@ -154,11 +154,8 @@ def main() -> None:
             comp_rows = run_to_comps.get(rid, [])
             for c in comp_rows:
                 w.writerow({
-                    "my_listing_idx": listing_idx,
-                    "my_ebay_listing_id": my_ebay_id or None,
                     "my_title": my_title or None,
                     "my_price": my_price,
-
                     "comp_run_id": rid,
                     "comp_item_id": (c.get("item_id") or "").strip() or None,
                     "comp_title": (c.get("title") or "").strip() or None,
@@ -166,6 +163,7 @@ def main() -> None:
                     "comp_seller_username": (c.get("seller_username") or "").strip() or None,
                     "comp_item_web_url": (c.get("item_web_url") or "").strip() or None,
                 })
+
 
     print(f"Wrote report CSV: {out_csv}")
     print(f"Used Step 01 listings CSV: {listings_csv.name}")
