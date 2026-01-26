@@ -90,6 +90,14 @@ def main() -> None:
     comps = _read_csv_as_dicts(comps_csv)
     listings = _read_csv_as_dicts(listings_csv)
 
+    # Sort dad listings: most expensive -> cheapest (blank/invalid prices go last)
+    listings = sorted(
+        listings,
+        key=lambda r: (_to_float(r.get("price")) is None, _to_float(r.get("price")) or 0.0, (r.get("title") or "").strip()),
+        reverse=True
+    )
+
+
       # Build: listing_title -> run_id
     # Step 02 uses listing title as the search query
     title_to_run_id: Dict[str, str] = {}
@@ -150,6 +158,12 @@ def main() -> None:
                 continue
 
             comp_rows = run_to_comps.get(rid, [])
+            # Sort comps: cheapest -> most expensive (blank/invalid prices go last)
+            comp_rows = sorted(
+                comp_rows,
+                key=lambda r: (_to_float(r.get("price")) is None, _to_float(r.get("price")) if _to_float(r.get("price")) is not None else 1e18, (r.get("title") or "").strip())
+            )
+
             for c in comp_rows:
                 w.writerow({
                     "my_title": my_title or None,
