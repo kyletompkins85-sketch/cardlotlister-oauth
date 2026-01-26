@@ -90,22 +90,25 @@ def main() -> None:
     comps = _read_csv_as_dicts(comps_csv)
     listings = _read_csv_as_dicts(listings_csv)
 
-    # Build: listing_idx -> run_id
-    # We rely on Step 02 writing 'listing_idx' and 'run_id' columns.
-    listing_idx_to_run_id: Dict[str, str] = {}
+      # Build: listing_title -> run_id
+    # Step 02 uses listing title as the search query
+    title_to_run_id: Dict[str, str] = {}
+
     for row in calls:
         ok = (row.get("ok") or "").strip().lower()
         if ok not in ("true", "1", "yes"):
             continue
-        listing_idx = str(row.get("listing_idx") or "").strip()
-        rid = str(row.get("run_id") or "").strip()
-        if listing_idx and rid:
-            listing_idx_to_run_id[listing_idx] = rid
 
-    if not listing_idx_to_run_id:
+        query = (row.get("query") or "").strip()
+        rid = (row.get("run_id") or "").strip()
+
+        if query and rid:
+            title_to_run_id[query] = rid
+
+    if not title_to_run_id:
         raise RuntimeError(
-            "No (listing_idx -> run_id) mappings found in term_search_calls_summary.csv. "
-            "Make sure Step 02 writes columns: listing_idx, ok, run_id."
+            "No (title -> run_id) mappings found in term_search_calls_summary.csv. "
+            "Expected columns: query, run_id, ok."
         )
 
     # Build: run_id -> list of comps
