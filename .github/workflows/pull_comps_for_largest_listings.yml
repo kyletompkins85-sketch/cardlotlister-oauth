@@ -72,6 +72,11 @@ jobs:
         run: |
           python workflows/pull_comps_for_largest_listings/03_export_term_search_items_by_run.py
 
+      - name: Step 04 - Build listing vs comps report CSV
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          python workflows/pull_comps_for_largest_listings/04_build_listing_vs_comps_report.py
+
       # ----------------------------
       # STEP 03 — placeholder
       # ----------------------------
