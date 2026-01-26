@@ -1,0 +1,103 @@
+# .github/workflows/pull_comps_for_largest_listings.yml
+name: Pull comps for largest listings
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "Listings filter (passed to Worker as q)"
+        required: false
+        default: "2025 Topps Update"
+      limit:
+        description: "Worker page size (LIMIT env var)"
+        required: false
+        default: "1000"
+      dry_run:
+        description: "If true, run only Step 01"
+        required: false
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    env:
+      WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+      INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+      QUERY: ${{ github.event.inputs.query }}
+      LIMIT: ${{ github.event.inputs.limit }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ----------------------------
+      # Setup
+      # ----------------------------
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # ----------------------------
+      # STEP 01 — Pull + sort listings
+      # Comment this whole step out if you want to skip it.
+      # ----------------------------
+      - name: Step 01 - Pull and sort listings
+        run: |
+          python workflows/pull_comps_for_largest_listings/01_pull_and_sort_listings.py
+
+      - name: Upload listings artifact (Step 01 output)
+        uses: actions/upload-artifact@v4
+        with:
+          name: listings_sorted_json
+          path: data/*sorted.json
+          if-no-files-found: warn
+
+      # ----------------------------
+      # STEP 02 — Build search queries for each of top N listings
+      # (placeholder: add your 02_*.py later)
+      #
+      # To test Step 01 only, either:
+      #   A) set input dry_run=true (keeps Step 02+ gated), OR
+      #   B) comment out everything below.
+      # ----------------------------
+      - name: Step 02 - (placeholder) Build comparable-search queries
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          echo "TODO: python workflows/pull_comps_for_largest_listings/02_build_queries.py"
+
+      # ----------------------------
+      # STEP 03 — Call eBay via Worker for comparables; store raw into Supabase
+      # (placeholder)
+      # ----------------------------
+      - name: Step 03 - (placeholder) Pull comparables and persist raw results
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          echo "TODO: python workflows/pull_comps_for_largest_listings/03_pull_comps_and_store_raw.py"
+
+      # ----------------------------
+      # STEP 04 — Similarity scoring + threshold filtering
+      # (placeholder)
+      # ----------------------------
+      - name: Step 04 - (placeholder) Score + filter comparables
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          echo "TODO: python workflows/pull_comps_for_largest_listings/04_score_and_filter.py"
+
+      # ----------------------------
+      # STEP 05 — Persist final results + optional report artifact
+      # (placeholder)
+      # ----------------------------
+      - name: Step 05 - (placeholder) Persist final results + publish report
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          echo "TODO: python workflows/pull_comps_for_largest_listings/05_persist_and_report.py"
