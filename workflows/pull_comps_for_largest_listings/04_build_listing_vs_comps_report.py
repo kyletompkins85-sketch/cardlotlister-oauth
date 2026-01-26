@@ -123,12 +123,8 @@ def main() -> None:
     out_csv = run_dir / "report_listing_vs_comps.csv"
 
     fieldnames = [
-        # your listing
-        "my_listing_idx",
-        "my_ebay_listing_id",
         "my_title",
         "my_price",
-        # comparable
         "comp_run_id",
         "comp_item_id",
         "comp_title",
@@ -145,20 +141,14 @@ def main() -> None:
         # We also try to pick up 'ebay_listing_id' if present.
         for i, l in enumerate(listings):
             # Step 01 should have listing_idx; if not, fall back to row index
-            listing_idx = str(l.get("listing_idx") or l.get("idx") or i).strip()
 
             my_title = (l.get("title") or "").strip()
             my_price = _to_float(l.get("price"))
             my_ebay_id = (l.get("ebay_listing_id") or "").strip()
-
-            rid = listing_idx_to_run_id.get(listing_idx)
+    
+            # Join on title == query
+            rid = title_to_run_id.get(my_title)
             if not rid:
-                # If Step 01 didn't write listing_idx, Step 02 might have used row index.
-                # Try fallback: use i as key
-                rid = listing_idx_to_run_id.get(str(i))
-
-            if not rid:
-                # No comps run for this listing; skip
                 continue
 
             comp_rows = run_to_comps.get(rid, [])
