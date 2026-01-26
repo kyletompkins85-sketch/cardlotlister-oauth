@@ -1,4 +1,3 @@
-# .github/workflows/pull_comps_for_largest_listings.yml
 name: Pull comps for largest listings
 
 on:
@@ -50,56 +49,46 @@ jobs:
 
       # ----------------------------
       # STEP 01 — Pull + sort listings
-      # Comment this whole step out if you want to skip it.
       # ----------------------------
       - name: Step 01 - Pull and sort listings
         run: |
           python workflows/pull_comps_for_largest_listings/01_pull_and_sort_listings.py
 
-        - name: Upload listings artifact (Step 01 output)
+      - name: Upload outputs (Step 01)
         uses: actions/upload-artifact@v4
         with:
           name: pull_comps_for_largest_listings_outputs
           path: workflows/pull_comps_for_largest_listings/data/**
           if-no-files-found: warn
 
-
       # ----------------------------
-      # STEP 02 — Build search queries for each of top N listings
-      # (placeholder: add your 02_*.py later)
-      #
-      # To test Step 01 only, either:
-      #   A) set input dry_run=true (keeps Step 02+ gated), OR
-      #   B) comment out everything below.
+      # STEP 02 — placeholder
       # ----------------------------
       - name: Step 02 - (placeholder) Build comparable-search queries
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: github.event.inputs.dry_run != 'true'
         run: |
           echo "TODO: python workflows/pull_comps_for_largest_listings/02_build_queries.py"
 
       # ----------------------------
-      # STEP 03 — Call eBay via Worker for comparables; store raw into Supabase
-      # (placeholder)
+      # STEP 03 — placeholder
       # ----------------------------
       - name: Step 03 - (placeholder) Pull comparables and persist raw results
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: github.event.inputs.dry_run != 'true'
         run: |
           echo "TODO: python workflows/pull_comps_for_largest_listings/03_pull_comps_and_store_raw.py"
 
       # ----------------------------
-      # STEP 04 — Similarity scoring + threshold filtering
-      # (placeholder)
+      # STEP 04 — placeholder
       # ----------------------------
       - name: Step 04 - (placeholder) Score + filter comparables
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: github.event.inputs.dry_run != 'true'
         run: |
           echo "TODO: python workflows/pull_comps_for_largest_listings/04_score_and_filter.py"
 
       # ----------------------------
-      # STEP 05 — Persist final results + optional report artifact
-      # (placeholder)
+      # STEP 05 — placeholder
       # ----------------------------
       - name: Step 05 - (placeholder) Persist final results + publish report
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: github.event.inputs.dry_run != 'true'
         run: |
           echo "TODO: python workflows/pull_comps_for_largest_listings/05_persist_and_report.py"
