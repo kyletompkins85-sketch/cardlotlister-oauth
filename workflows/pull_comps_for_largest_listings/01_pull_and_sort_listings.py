@@ -156,6 +156,10 @@ def main() -> None:
         r["all_in"] = compute_all_in(r)
 
     rows_sorted = sorted(rows, key=lambda r: _to_number(r.get("all_in")), reverse=True)
+    # Keep only the top N (for quick testing)
+    top_n = int(os.getenv("TOP_N", "1000000"))
+    rows_sorted = rows_sorted[:top_n]
+
 
     workflow_root = Path(__file__).resolve().parent  # .../workflows/pull_comps_for_largest_listings
     out_dir = workflow_root / "data" / cfg.run_id
