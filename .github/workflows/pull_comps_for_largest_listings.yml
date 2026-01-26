@@ -69,10 +69,10 @@ jobs:
       # ----------------------------
       # STEP 02 — placeholder
       # ----------------------------
-      - name: Step 02 - (placeholder) Build comparable-search queries
+      - name: Step 02 - Search listing titles on eBay + store in Supabase
         if: github.event.inputs.dry_run != 'true'
         run: |
-          echo "TODO: python workflows/pull_comps_for_largest_listings/02_build_queries.py"
+          python workflows/pull_comps_for_largest_listings/02_search_titles_and_store_term_search.py
 
       # ----------------------------
       # STEP 03 — placeholder
