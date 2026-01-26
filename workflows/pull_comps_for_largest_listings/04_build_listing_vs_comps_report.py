@@ -167,7 +167,6 @@ def main() -> None:
 
     print(f"Wrote report CSV: {out_csv}")
     print(f"Used Step 01 listings CSV: {listings_csv.name}")
-    print(f"Listings mapped to runs: {len(listing_idx_to_run_id)}")
 
 
 if __name__ == "__main__":
