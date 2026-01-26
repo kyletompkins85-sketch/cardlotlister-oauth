@@ -125,8 +125,6 @@ def main() -> None:
     fieldnames = [
         "my_title",
         "my_price",
-        "comp_run_id",
-        "comp_item_id",
         "comp_title",
         "comp_price",
         "comp_seller_username",
@@ -156,8 +154,6 @@ def main() -> None:
                 w.writerow({
                     "my_title": my_title or None,
                     "my_price": my_price,
-                    "comp_run_id": rid,
-                    "comp_item_id": (c.get("item_id") or "").strip() or None,
                     "comp_title": (c.get("title") or "").strip() or None,
                     "comp_price": _to_float(c.get("price")),
                     "comp_seller_username": (c.get("seller_username") or "").strip() or None,
