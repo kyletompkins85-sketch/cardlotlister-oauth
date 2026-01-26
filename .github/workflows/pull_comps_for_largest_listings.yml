@@ -74,6 +74,11 @@ jobs:
         run: |
           python workflows/pull_comps_for_largest_listings/02_search_titles_and_store_term_search.py
 
+      - name: Step 03 - Export term_search_items (by run_id) to CSV artifact
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          python workflows/pull_comps_for_largest_listings/03_export_term_search_items_by_run.py
+
       # ----------------------------
       # STEP 03 — placeholder
       # ----------------------------
