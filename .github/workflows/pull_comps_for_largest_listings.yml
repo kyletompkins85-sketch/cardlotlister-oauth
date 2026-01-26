@@ -14,7 +14,7 @@ on:
       dry_run:
         description: "If true, run only Step 01"
         required: false
-        default: "true"
+        default: "false"
       top_n:
         description: "number of listings to return"
         required: false
@@ -59,13 +59,6 @@ jobs:
         run: |
           python workflows/pull_comps_for_largest_listings/01_pull_and_sort_listings.py
 
-      - name: Upload outputs (Step 01)
-        uses: actions/upload-artifact@v4
-        with:
-          name: pull_comps_for_largest_listings_outputs
-          path: workflows/pull_comps_for_largest_listings/data/**
-          if-no-files-found: warn
-
       # ----------------------------
       # STEP 02 — placeholder
       # ----------------------------
@@ -78,13 +71,6 @@ jobs:
         if: github.event.inputs.dry_run != 'true'
         run: |
           python workflows/pull_comps_for_largest_listings/03_export_term_search_items_by_run.py
-
-      - name: Upload outputs (Step 03)
-        uses: actions/upload-artifact@v4
-        with:
-          name: pull_comps_for_largest_listings_outputs
-          path: workflows/pull_comps_for_largest_listings/data/**
-          if-no-files-found: warn
 
       # ----------------------------
       # STEP 03 — placeholder
@@ -109,3 +95,11 @@ jobs:
         if: github.event.inputs.dry_run != 'true'
         run: |
           echo "TODO: python workflows/pull_comps_for_largest_listings/05_persist_and_report.py"
+
+      - name: Upload outputs (final)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pull_comps_for_largest_listings_outputs
+          path: workflows/pull_comps_for_largest_listings/data/**
+          if-no-files-found: warn
+
