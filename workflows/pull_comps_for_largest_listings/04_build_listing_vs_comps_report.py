@@ -18,6 +18,7 @@ import os
 import sys
 from pathlib import Path
 from typing import Dict, Any, List, Optional
+from .99_title_features import is_numbered
 
 
 def _require_env(name: str) -> str:
@@ -172,6 +173,11 @@ def main() -> None:
                 continue
 
             comp_rows = run_to_comps.get(rid, [])
+            my_is_numbered = is_numbered(my_title)
+            # If MY listing is numbered, exclude competitor comps that are NOT numbered.
+            if my_is_numbered:
+                comp_rows = [c for c in comp_rows if is_numbered((c.get("title") or "").strip())]
+
             # Sort comps: cheapest -> most expensive (blank/invalid prices go last)
             comp_rows = sorted(
                 comp_rows,
