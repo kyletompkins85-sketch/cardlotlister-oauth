@@ -142,7 +142,7 @@ def main() -> None:
 
     rows_out: List[Dict[str, Any]] = []
 
-        for l in listings:
+    for l in listings:
         query = (l.get("title") or "").strip()
 
         if not query:
