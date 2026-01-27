@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import time
+import re
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 
@@ -26,6 +27,17 @@ def _env_bool(name: str, default: bool = False) -> bool:
         return default
     return v in ("1", "true", "yes", "y", "on")
 
+def _should_skip_title(title: str) -> Optional[str]:
+    t = (title or "").strip()
+    if not t:
+        return None
+
+    # skip anything that looks like a "lot"
+    # matches: "lot", "lot..", "lot,", "player lot", "card lot", etc.
+    if re.search(r"\blot\b", t, flags=re.IGNORECASE):
+        return "excluded_contains_lot"
+
+    return None
 
 def _find_step01_listings_csv(run_dir: Path) -> Path:
     # Prefer your known file name if present
@@ -116,30 +128,51 @@ def main() -> None:
     search_url = f"{base}/comps/searchTerm"
 
     fieldnames = [
-        "ok",
-        "cache_hit",
-        "query",
-        "run_id",
-        "returned",
-        "inserted_items",
-        "total",
-        "error",
+    "ok",
+    "cache_hit",
+    "skipped",
+    "skip_reason",
+    "query",
+    "run_id",
+    "returned",
+    "inserted_items",
+    "total",
+    "error",
     ]
 
     rows_out: List[Dict[str, Any]] = []
 
-    for l in listings:
+        for l in listings:
         query = (l.get("title") or "").strip()
+
         if not query:
             rows_out.append({
                 "ok": "false",
                 "cache_hit": "",
+                "skipped": "false",
+                "skip_reason": "",
                 "query": "",
                 "run_id": "",
                 "returned": "",
                 "inserted_items": "",
                 "total": "",
                 "error": "missing_title_in_listings_csv",
+            })
+            continue
+
+        skip_reason = _should_skip_title(query)
+        if skip_reason:
+            rows_out.append({
+                "ok": "true",
+                "cache_hit": "",
+                "skipped": "true",
+                "skip_reason": skip_reason,
+                "query": query,
+                "run_id": "",
+                "returned": "",
+                "inserted_items": "",
+                "total": "",
+                "error": "",
             })
             continue
 
@@ -155,6 +188,8 @@ def main() -> None:
                 rows_out.append({
                     "ok": "true",
                     "cache_hit": "true",
+                    "skipped": "false",
+                    "skip_reason": "",
                     "query": query,
                     "run_id": existing_run_id,
                     "returned": "",
@@ -176,6 +211,8 @@ def main() -> None:
                 rows_out.append({
                     "ok": "false",
                     "cache_hit": "false",
+                    "skipped": "false",
+                    "skip_reason": "",
                     "query": query,
                     "run_id": "",
                     "returned": "",
@@ -188,6 +225,8 @@ def main() -> None:
             rows_out.append({
                 "ok": "true",
                 "cache_hit": "false",
+                "skipped": "false",
+                "skip_reason": "",
                 "query": query,
                 "run_id": str(resp.get("run_id") or ""),
                 "returned": str(resp.get("returned") or ""),
@@ -200,6 +239,8 @@ def main() -> None:
             rows_out.append({
                 "ok": "false",
                 "cache_hit": "",
+                "skipped": "false",
+                "skip_reason": "",
                 "query": query,
                 "run_id": "",
                 "returned": "",
