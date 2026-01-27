@@ -18,7 +18,7 @@ import os
 import sys
 from pathlib import Path
 from typing import Dict, Any, List, Optional
-from .99_title_features import is_numbered
+from z99_title_features import is_numbered
 
 
 def _require_env(name: str) -> str:
