@@ -140,6 +140,9 @@ def main() -> None:
 
     # Output report
     out_csv = run_dir / "report_listing_vs_comps.csv"
+    removed_csv = run_dir / "removed_comp_listing_titles.csv"
+
+    removed_rows: List[Dict[str, Any]] = []
 
     fieldnames = [
         "my_title",
@@ -174,9 +177,28 @@ def main() -> None:
 
             comp_rows = run_to_comps.get(rid, [])
             my_is_numbered = is_numbered(my_title)
-            # If MY listing is numbered, exclude competitor comps that are NOT numbered.
+
+            # If MY listing is numbered, exclude competitor comps that are NOT numbered,
+            # and record what we removed.
             if my_is_numbered:
-                comp_rows = [c for c in comp_rows if is_numbered((c.get("title") or "").strip())]
+                kept: List[Dict[str, Any]] = []
+                for c in comp_rows:
+                    comp_title = (c.get("title") or "").strip()
+                    comp_is_numbered = is_numbered(comp_title)
+                    if comp_is_numbered:
+                        kept.append(c)
+                    else:
+                        removed_rows.append({
+                            "reason": "removed_comp_not_numbered_but_my_listing_is_numbered",
+                            "my_title": my_title or None,
+                            "my_price": my_price,
+                            "comp_price": _to_float(c.get("price")),
+                            "comp_title": comp_title or None,
+                            "comp_seller_username": (c.get("seller_username") or "").strip() or None,
+                            "comp_item_web_url": (c.get("item_web_url") or "").strip() or None,
+                        })
+                comp_rows = kept
+
 
             # Sort comps: cheapest -> most expensive (blank/invalid prices go last)
             comp_rows = sorted(
@@ -195,6 +217,22 @@ def main() -> None:
                 })
 
 
+    removed_fieldnames = [
+        "reason",
+        "my_title",
+        "my_price",
+        "comp_price",
+        "comp_title",
+        "comp_seller_username",
+        "comp_item_web_url",
+    ]
+    
+    with removed_csv.open("w", newline="", encoding="utf-8") as f_removed:
+        w_removed = csv.DictWriter(f_removed, fieldnames=removed_fieldnames)
+        w_removed.writeheader()
+        w_removed.writerows(removed_rows)
+    
+    print(f"Wrote removed comps CSV: {removed_csv}")
     print(f"Wrote report CSV: {out_csv}")
     print(f"Used Step 01 listings CSV: {listings_csv.name}")
 
