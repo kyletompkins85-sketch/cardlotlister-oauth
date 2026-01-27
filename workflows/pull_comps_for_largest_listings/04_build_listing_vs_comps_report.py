@@ -63,6 +63,16 @@ def _to_float(x: Any) -> Optional[float]:
     except Exception:
         return None
 
+def _to_int(x: Any) -> Optional[int]:
+    if x is None:
+        return None
+    s = str(x).strip()
+    if not s:
+        return None
+    try:
+        return int(float(s))
+    except Exception:
+        return None
 
 def main() -> None:
     run_id = _require_env("RUN_ID")
@@ -133,8 +143,8 @@ def main() -> None:
     fieldnames = [
         "my_title",
         "my_price",
-        "comp_title",
         "comp_price",
+        "comp_title",
         "comp_seller_username",
         "comp_item_web_url",
     ]
@@ -151,6 +161,10 @@ def main() -> None:
             my_title = (l.get("title") or "").strip()
             my_price = _to_float(l.get("price"))
             my_ebay_id = (l.get("ebay_listing_id") or "").strip()
+            qty = _to_int(l.get("quantity"))
+            if qty == 0:
+                continue
+
     
             # Join on title == query
             rid = title_to_run_id.get(my_title)
@@ -168,8 +182,8 @@ def main() -> None:
                 w.writerow({
                     "my_title": my_title or None,
                     "my_price": my_price,
-                    "comp_title": (c.get("title") or "").strip() or None,
                     "comp_price": _to_float(c.get("price")),
+                    "comp_title": (c.get("title") or "").strip() or None,
                     "comp_seller_username": (c.get("seller_username") or "").strip() or None,
                     "comp_item_web_url": (c.get("item_web_url") or "").strip() or None,
                 })
