@@ -14,7 +14,7 @@ _NUMBERED_RE = re.compile(
     |
     (?:\b\d{1,5}\s*/\s*\d{1,5}\b)     # "12/25" or "12 / 25"
     |
-    (?:\b/\s*\d{1,5}\b)              # "/99" (standalone slash form)
+    (?:/\s*\d{1,5}\b)                # "/99" (standalone slash form)
     """,
     re.VERBOSE | re.IGNORECASE,
 )
