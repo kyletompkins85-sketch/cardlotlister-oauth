@@ -6,6 +6,7 @@ import csv
 import json
 import os
 import sys
+import time
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 
@@ -64,24 +65,41 @@ def _worker_get_json(url: str, key: str, params: Dict[str, str]) -> Dict[str, An
 
 
 def _worker_post_json(url: str, key: str, body: Dict[str, Any]) -> Dict[str, Any]:
-    resp = requests.post(url, headers={"x-internal-key": key, "Content-Type": "application/json"},
-                         data=json.dumps(body), timeout=120)
-    text = resp.text
-    try:
-        data = resp.json()
-    except Exception:
-        data = {"raw": text}
+    max_retries_429 = int(os.getenv("MAX_RETRIES_429", "3"))
+    backoffs_s = [2, 5, 10]  # retry delays for 429s
 
-    if not resp.ok:
-        raise RuntimeError(f"Worker POST failed {resp.status_code}: {text}")
-    return data
+    attempt = 0
+    while True:
+        resp = requests.post(
+            url,
+            headers={"x-internal-key": key, "Content-Type": "application/json"},
+            data=json.dumps(body),
+            timeout=120,
+        )
 
+        text = resp.text
+        try:
+            data = resp.json()
+        except Exception:
+            data = {"raw": text}
+
+        # If rate-limited, back off and retry a few times
+        if resp.status_code == 429 and attempt < max_retries_429:
+            wait_s = backoffs_s[min(attempt, len(backoffs_s) - 1)]
+            time.sleep(wait_s)
+            attempt += 1
+            continue
+
+        if not resp.ok:
+            raise RuntimeError(f"Worker POST failed {resp.status_code}: {text}")
+        return data
 
 def main() -> None:
     base = _require_env("WORKER_BASE_URL").rstrip("/")
     key = _require_env("INTERNAL_API_KEY").strip()
     run_id = _require_env("RUN_ID")
     force_refresh = _env_bool("FORCE_REFRESH", default=False)
+    pause_ms = int(os.getenv("EBAY_PAUSE_MS", "250"))  # pause after each cache-miss POST
 
     workflow_root = Path(__file__).resolve().parent
     run_dir = workflow_root / "data" / run_id
@@ -152,6 +170,7 @@ def main() -> None:
                 "limit": 200,
                 "offset": 0
             })
+            time.sleep(pause_ms / 1000.0)
 
             if not resp.get("ok"):
                 rows_out.append({
