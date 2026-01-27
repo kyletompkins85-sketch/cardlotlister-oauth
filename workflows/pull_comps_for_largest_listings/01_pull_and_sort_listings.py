@@ -87,39 +87,30 @@ def _parse_iso_dt(s: str):
 
 
 def _keep_latest_snapshot(rows):
-    """
-    Keep only rows from the latest snapshot (max last_seen_at).
-    Assumes each snapshot uses the same last_seen_at across all rows.
-    """
-    if not rows:
-        return rows
-
     dts = []
     for r in rows:
-        dt = _parse_iso_dt((r.get("last_seen_at") or "").strip())
+        dt = _parse_iso_dt(r.get("last_seen_at"))
         if dt is not None:
-            # normalize to UTC-aware for comparisons
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
             dts.append(dt)
 
     if not dts:
         return rows
 
-    latest = max(dts)
-    latest_iso = latest.isoformat()
+    max_dt = max(dts)
 
-    # keep rows whose last_seen_at matches latest (string-compare via parsed dt)
+    # keep anything within the last 10 minutes of the newest timestamp
+    window_minutes = int(os.getenv("SNAPSHOT_WINDOW_MINUTES", "10"))
+    cutoff = max_dt - timedelta(minutes=window_minutes)
+
     kept = []
     for r in rows:
-        dt = _parse_iso_dt((r.get("last_seen_at") or "").strip())
+        dt = _parse_iso_dt(r.get("last_seen_at"))
         if dt is None:
             continue
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        if dt == latest:
+        if dt >= cutoff:
             kept.append(r)
 
+    print("DEBUG snapshot window minutes:", window_minutes, "max_dt:", max_dt.isoformat(), "cutoff:", cutoff.isoformat())
     return kept
 
 def fetch_page(cfg: Config, offset: int) -> Dict[str, Any]:
