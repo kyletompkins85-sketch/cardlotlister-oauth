@@ -39,6 +39,8 @@ jobs:
       RUN_ID: ${{ github.run_id }}
       TOP_N: ${{ github.event.inputs.top_n }}
       FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+      EBAY_PAUSE_MS: "250"
+      MAX_RETRIES_429: "3"
 
     steps:
       - name: Checkout repo
