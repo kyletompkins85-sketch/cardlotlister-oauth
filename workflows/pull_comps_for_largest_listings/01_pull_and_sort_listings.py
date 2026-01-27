@@ -71,6 +71,57 @@ def _to_number(x: Any) -> float:
     return 0.0
 
 
+def _parse_iso_dt(s: str):
+    if not s:
+        return None
+    t = str(s).strip()
+    if not t:
+        return None
+    # handle "Z"
+    if t.endswith("Z"):
+        t = t[:-1] + "+00:00"
+    try:
+        return datetime.fromisoformat(t)
+    except Exception:
+        return None
+
+
+def _keep_latest_snapshot(rows):
+    """
+    Keep only rows from the latest snapshot (max last_seen_at).
+    Assumes each snapshot uses the same last_seen_at across all rows.
+    """
+    if not rows:
+        return rows
+
+    dts = []
+    for r in rows:
+        dt = _parse_iso_dt((r.get("last_seen_at") or "").strip())
+        if dt is not None:
+            # normalize to UTC-aware for comparisons
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            dts.append(dt)
+
+    if not dts:
+        return rows
+
+    latest = max(dts)
+    latest_iso = latest.isoformat()
+
+    # keep rows whose last_seen_at matches latest (string-compare via parsed dt)
+    kept = []
+    for r in rows:
+        dt = _parse_iso_dt((r.get("last_seen_at") or "").strip())
+        if dt is None:
+            continue
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if dt == latest:
+            kept.append(r)
+
+    return kept
+
 def fetch_page(cfg: Config, offset: int) -> Dict[str, Any]:
     params = {"limit": str(cfg.limit), "offset": str(offset)}
     if cfg.query and cfg.query.strip():
@@ -155,11 +206,13 @@ def main() -> None:
     for r in rows:
         r["all_in"] = compute_all_in(r)
 
+    rows = _keep_latest_snapshot(rows)
+
     rows_sorted = sorted(rows, key=lambda r: _to_number(r.get("all_in")), reverse=True)
+    
     # Keep only the top N (for quick testing)
     top_n = int(os.getenv("TOP_N", "1000000"))
     rows_sorted = rows_sorted[:top_n]
-
 
     workflow_root = Path(__file__).resolve().parent  # .../workflows/pull_comps_for_largest_listings
     out_dir = workflow_root / "data" / cfg.run_id
