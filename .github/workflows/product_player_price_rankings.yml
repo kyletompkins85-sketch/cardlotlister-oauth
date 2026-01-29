@@ -68,9 +68,6 @@ jobs:
       EBAY_PAUSE_MS: "250"
       MAX_RETRIES_429: "3"
 
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-
       PLAYER_COL: "playerName"
 
 
@@ -122,9 +119,10 @@ jobs:
           print("PLAYERS_TABLE:", os.getenv("PLAYERS_TABLE"))
           PY
 
-      - name: Step 00 - Export players list from Supabase (NO eBay)
+      - name: Step 00 - Export players list (via Worker, NO eBay)
         run: |
-          python workflows/product_player_price_rankings/00_export_players_from_supabase.py
+          python workflows/product_player_price_rankings/00_export_players_from_worker.py
+
 
       - name: Step 02.7 - Simulate player rankings (Bowman, no eBay)
         run: |
