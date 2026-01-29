@@ -38,6 +38,14 @@ def _truthy(v: Any) -> bool:
     return bool(v)
 
 
+def _passes_require_all(title: str, require_all_csv: str) -> bool:
+    # Cmd+F: GH_ANCHOR_PASSES_REQUIRE_ALL_2B7D1C90
+    words = [w.strip().lower() for w in (require_all_csv or "").split(",") if w.strip()]
+    if not words:
+        return True
+    t = (title or "").lower()
+    return all(w in t for w in words)
+
 def _require_env(name: str) -> str:
     v = os.getenv(name)
     if not v or not v.strip():
@@ -124,6 +132,12 @@ def main() -> None:
     ap.add_argument("--title-col", default="title", help="Title column in export CSV (default: title)")
     ap.add_argument("--max-rows", type=int, default=0, help="If >0, stop after this many titles")
     ap.add_argument("--samples-per-ct", type=int, default=5, help="Sample titles per CT (default: 5)")
+      # Cmd+F: GH_ANCHOR_REQUIRE_WORDS_FILTER_1A7C9D20
+    ap.add_argument(
+        "--require-all",
+        default="bowman,draft",
+        help="Comma-separated words that MUST appear in title (case-insensitive). Default: bowman,draft",
+    )
     args = ap.parse_args()
 
     workflow_root = Path(__file__).resolve().parent
@@ -176,6 +190,9 @@ def main() -> None:
     # Cmd+F: GH_ANCHOR_COUNT_AND_SAMPLE_LOOP_BOWMAN_88AA10F1
     for title in titles_iter:
         scanned += 1
+        # Cmd+F: GH_ANCHOR_APPLY_REQUIRE_ALL_FILTER_3C8F0B2A
+        if not _passes_require_all(title, args.require_all):
+            continue
         flags = classify_title(title)
 
         for k in ct_keys:
@@ -212,6 +229,7 @@ def main() -> None:
     print(f"OUT_COUNTS={out_counts}")
     print(f"OUT_SAMPLES={out_samples}")
     print(f"CT_KEYS_TOTAL={len(ct_keys)}")
+    print(f"REQUIRE_ALL={args.require_all}")
 
 
 if __name__ == "__main__":
