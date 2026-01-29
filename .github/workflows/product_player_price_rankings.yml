@@ -106,6 +106,16 @@ jobs:
         run: |
           python workflows/product_player_price_rankings/91_common_words_unclassified_titles.py --run-id "$RUN_ID"
 
+      - name: Step 02.7 - Simulate player rankings (Bowman, no eBay)
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          python workflows/product_player_price_rankings/92_simulate_player_rankings.py \
+            --run-id "$RUN_ID" \
+            --iterations "500000" \
+            --min-player-score "95" \
+            --product-prefix "2025 Bowman Draft"
+
+
 
       # ----------------------------
       # STEP 03 — Placeholder ranking report (replace methodology later)
