@@ -181,24 +181,12 @@ def main() -> None:
     except Exception:
         pass
 
-    # Optional: force-show a few common color CTs if you intentionally created them via dynamic keys.
-    # (If they don't exist in your classifier, they'll still show 0, which is what you want.)
-    # Cmd+F: GH_ANCHOR_FORCE_CT_KEYS_COLOR_SET_2A7D1C91
-    FORCE_CT_KEYS = {
-        "CT_color_blue",
-        "CT_color_green",
-        "CT_color_red",
-        "CT_color_gold",
-        "CT_color_orange",
-        "CT_color_purple",
-        "CT_color_black",
-        "CT_color_silver",
-        "CT_color_pink",
-        "CT_color_aqua",
-        "CT_color_rainbow",
-    }
+    all_ct = set().union(ct_from_template, ct_from_source)
 
-    ct_keys: List[str] = sorted(set().union(ct_from_template, ct_from_source, FORCE_CT_KEYS))
+    # NEVER include these
+    all_ct = {k for k in all_ct if k != "CT_list" and not k.startswith("CT_color_")}
+    
+    ct_keys: List[str] = sorted(all_ct)
 
     counts = Counter({k: 0 for k in ct_keys})
     samples: Dict[str, List[str]] = defaultdict(list)
