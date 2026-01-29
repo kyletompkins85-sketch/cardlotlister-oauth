@@ -49,6 +49,19 @@ RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 # Grading
 RX_GRADED = _re(r"\bpsa\b|\bbgs\b|\bsgc\b|\bcgc\b|\bgem\s*mint\b")
 
+# Prized Prospects (Bowman insert)
+# Matches:
+#  - "Prized Prospects", "Prized Prospect"
+#  - "#PP", "# PP"
+#  - "PP-12", "PP12", "PP 12"
+#  - "prized" (you explicitly asked for this)
+RX_PRIZED_PROSPECT = _re(
+    r"\bprized\s+prospects?\b"          # prized prospects / prized prospect
+    r"|#\s*pp\b"                        # #PP / # PP
+    r"|\bpp\s*[- ]?\s*\d{1,4}\b"        # PP-12 / PP 12 / PP12
+    r"|\bprized\b"                      # prized (broad, per request)
+)
+
 
 # -----------------------------
 # Serial / numbered detection
@@ -113,6 +126,8 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     stock = "chrome" if wf.get("WF_chrome") else ("paper" if wf.get("WF_paper") else "unknown_stock")
     first = "first" if wf.get("WF_first") else "not_first"
     auto = "auto" if wf.get("WF_auto") else "no_auto"
+    if wf.get("WF_prized_prospect"):
+        return "prized_prospect"
 
     if wf.get("WF_mojo"):
         par = "mojo"
@@ -158,6 +173,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_wave": _has(RX_WAVE, s),
         "WF_mojo": _has(RX_MOJO, s),
         "WF_lava": _has(RX_LAVA, s),
+        "WF_prized_prospect": _has(RX_PRIZED_PROSPECT, s),
 
         "WF_printing_plate": _has(RX_PRINTING_PLATE, s),
         "WF_graded": _has(RX_GRADED, s),
@@ -175,6 +191,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_shimmer": bool(wf["WF_shimmer"]),
         "CT_speckle": bool(wf["WF_speckle"]),
         "CT_wave": bool(wf["WF_wave"]),
+        "CT_prized_prospect": bool(wf["WF_prized_prospect"]),
         "CT_lot": bool(wf["WF_lot"]),
         "CT_pick_your_card": bool(wf["WF_pick"] or wf["WF_set_builder"]),
         "CT_complete_set": bool(wf["WF_complete_set"]),
