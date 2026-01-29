@@ -43,12 +43,10 @@ RX_AUTO = _re(r"\bauto\b|\bautograph\b|\ba/u\b|\bon-card\b")
 # Bowman-ish refractor family
 RX_REFRACTOR = _re(r"\brefractor\b")
 RX_SUPERFRACTOR = _re(r"\bsuper\s*fractor\b|\bsuperfractor\b|\b1\/1\b.*\bsuper\b|\bsuper\b.*\b1\/1\b")
-RX_ATOMIC = _re(r"\batomic\b")
 RX_SHIMMER = _re(r"\bshimmer\b")
 RX_SPECKLE = _re(r"\bspeckle\b")
 RX_WAVE = _re(r"\bwave\b|\bray\s*wave\b|\braywave\b")
 RX_MOJO = _re(r"\bmojo\b")
-RX_SAPPHIRE = _re(r"\bsapphire\b")
 RX_LAVA = _re(r"\blava\b")
 RX_TRUE_BLUE = _re(r"\btrue\s+blue\b")
 RX_SKY_BLUE = _re(r"\bsky\s+blue\b")
@@ -57,19 +55,11 @@ RX_NEON_GREEN = _re(r"\bneon\s+green\b")
 # Printing plate / 1/1
 RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 
-# Color words (Bowman parallels often use these)
-RX_COLOR = {
-    "red": _re(r"\bred\b"),
-    "orange": _re(r"\borange\b"),
-    "gold": _re(r"\bgold\b"),
-    "yellow": _re(r"\byellow\b"),
-    "green": _re(r"\bgreen\b"),
-    "blue": _re(r"\bblue\b"),
-    "purple": _re(r"\bpurple\b"),
-    "pink": _re(r"\bpink\b"),
-    "black": _re(r"\bblack\b"),
-    "aqua": _re(r"\baqua\b"),
-}
+# Cmd+F: GH_ANCHOR_BOWMAN_RX_COLOR_DISABLED_2A7D1C90
+# Colors intentionally DISABLED for Bowman classifier per workflow needs.
+# Removed: atomic, aqua, black, blue, gold, green, orange, pink, purple, rainbow, red, silver, sapphire
+RX_COLOR = {}
+
 
 # Grading (optional bucket)
 RX_GRADED = _re(r"\bpsa\b|\bbgs\b|\bsgc\b|\bcgc\b|\b10\b|\b9\.5\b|\bgem\s*mint\b")
@@ -154,10 +144,6 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     # Parallel / finish family (priority order)
     if wf.get("WF_mojo"):
         par = "mojo"
-    elif wf.get("WF_sapphire"):
-        par = "sapphire"
-    elif wf.get("WF_atomic"):
-        par = "atomic"
     elif wf.get("WF_shimmer"):
         par = "shimmer"
     elif wf.get("WF_speckle"):
@@ -246,8 +232,6 @@ def classify_title(title: str) -> Dict[str, Any]:
         "CT_superfractor_1of1": bool(wf["WF_superfractor"]) or (serial_out_of == 1 and _has(_re(r"\bsuper\b"), s)),
         "CT_printing_plate_1of1": bool(wf["WF_printing_plate"]) or (serial_out_of == 1 and _has(_re(r"\bplate\b"), s)),
         "CT_mojo": bool(wf["WF_mojo"]),
-        "CT_sapphire": bool(wf["WF_sapphire"]),
-        "CT_atomic": bool(wf["WF_atomic"]),
         "CT_shimmer": bool(wf["WF_shimmer"]),
         "CT_speckle": bool(wf["WF_speckle"]),
         "CT_wave": bool(wf["WF_wave"]),
