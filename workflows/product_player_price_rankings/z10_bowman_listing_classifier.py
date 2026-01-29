@@ -48,18 +48,15 @@ RX_SPECKLE = _re(r"\bspeckle\b")
 RX_WAVE = _re(r"\bwave\b|\bray\s*wave\b|\braywave\b")
 RX_MOJO = _re(r"\bmojo\b")
 RX_LAVA = _re(r"\blava\b")
-RX_TRUE_BLUE = _re(r"\btrue\s+blue\b")
-RX_SKY_BLUE = _re(r"\bsky\s+blue\b")
-RX_NEON_GREEN = _re(r"\bneon\s+green\b")
 
 # Printing plate / 1/1
 RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 
-# Cmd+F: GH_ANCHOR_BOWMAN_RX_COLOR_DISABLED_2A7D1C90
-# Colors intentionally DISABLED for Bowman classifier per workflow needs.
-# Removed: atomic, aqua, black, blue, gold, green, orange, pink, purple, rainbow, red, silver, sapphire
-RX_COLOR = {}
-
+# Cmd+F: GH_ANCHOR_BOWMAN_COLORS_REMOVED_2A7D1C90
+# Colors REMOVED entirely per requirements:
+# remove atomic, aqua, black, blue, gold, green, orange, pink, purple, rainbow, red, silver, sapphire
+# (No RX_COLOR, no WF_color, no CT_color, no color-derived logic anywhere.)
+# ---------------------------------------------------------------
 
 # Grading (optional bucket)
 RX_GRADED = _re(r"\bpsa\b|\bbgs\b|\bsgc\b|\bcgc\b|\b10\b|\b9\.5\b|\bgem\s*mint\b")
@@ -132,7 +129,6 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     # 1/1 special
     if wf.get("WF_printing_plate"):
         return "printing_plate_1of1"
-
     if wf.get("WF_superfractor"):
         return "superfractor_1of1"
 
@@ -153,13 +149,11 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     elif wf.get("WF_refractor"):
         par = "refractor"
     else:
-        # color-only parallel or just base
-        color = wf.get("WF_color") or ""
-        par = f"{color}_parallel" if color else "base"
+        # Cmd+F: GH_ANCHOR_BOWMAN_NO_COLOR_PARALLEL_FALLBACK_6C2A1D12
+        # Colors removed => no "{color}_parallel" output. If no refractor-family hit, call it base.
+        par = "base"
 
     outof = f"outof_{int(serial_out_of)}" if serial_out_of else "unnumbered"
-
-    # Example: chrome_first_auto_refractor_outof_150
     return f"{stock}_{first}_{auto}_{par}_{outof}"
 
 
@@ -170,6 +164,8 @@ def classify_title(title: str) -> Dict[str, Any]:
       - CT_* booleans
       - extracted: is_numbered, serial_number, serial_out_of
       - CT_list: single label string for simulation grouping (no commas)
+
+    NOTE: Colors removed entirely (no WF_color / CT_color / RX_COLOR usage).
     """
     s = _clean(title)
 
@@ -199,9 +195,6 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_wave": _has(RX_WAVE, s),
         "WF_mojo": _has(RX_MOJO, s),
         "WF_lava": _has(RX_LAVA, s),
-        "WF_true_blue": _has(RX_TRUE_BLUE, s),
-        "WF_sky_blue": _has(RX_SKY_BLUE, s),
-        "WF_neon_green": _has(RX_NEON_GREEN, s),
 
         # 1/1 plates
         "WF_printing_plate": _has(RX_PRINTING_PLATE, s),
@@ -210,17 +203,7 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_graded": _has(RX_GRADED, s),
     }
 
-    # Choose a single “dominant” color (if any) for CT_list label
-    # Priority: more “signal” colors first
-    color_priority = ["black", "red", "orange", "gold", "purple", "blue", "green", "pink", "aqua", "yellow"]
-    picked_color = ""
-    for c in color_priority:
-        if _has(RX_COLOR[c], s):
-            picked_color = c
-            break
-    wf["WF_color"] = picked_color  # empty string if none
-
-    # CT booleans (you can expand later)
+    # CT booleans
     ct: Dict[str, Any] = {
         "CT_chrome": bool(wf["WF_chrome"]),
         "CT_paper": bool(wf["WF_paper"]),
