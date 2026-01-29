@@ -68,6 +68,11 @@ jobs:
       EBAY_PAUSE_MS: "250"
       MAX_RETRIES_429: "3"
 
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      PLAYER_COL: "playerName"
+
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -106,8 +111,11 @@ jobs:
         run: |
           python workflows/product_player_price_rankings/91_common_words_unclassified_titles.py --run-id "$RUN_ID"
 
+      - name: Step 00 - Export players list from Supabase (NO eBay)
+        run: |
+          python workflows/product_player_price_rankings/00_export_players_from_supabase.py
+
       - name: Step 02.7 - Simulate player rankings (Bowman, no eBay)
-        if: github.event.inputs.dry_run != 'true'
         run: |
           python workflows/product_player_price_rankings/92_simulate_player_rankings.py \
             --run-id "$RUN_ID" \
