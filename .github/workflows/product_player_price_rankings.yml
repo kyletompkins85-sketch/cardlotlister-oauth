@@ -98,9 +98,9 @@ jobs:
         run: |
           python workflows/product_player_price_rankings/02_export_term_search_items.py
 
-      - name: Step 02.5 - Diagnostic CT counts (Topps classifier)
+      - name: Step 02.5 - Diagnostic CT counts (Bowman classifier)
         run: |
-          python workflows/product_player_price_rankings/90_ct_counts_from_term_search_export.py --q "${PREFIX}"
+          python workflows/product_player_price_rankings/90_ct_counts_from_term_search_export.py --run-id "$RUN_ID"
 
       # ----------------------------
       # STEP 03 — Placeholder ranking report (replace methodology later)
