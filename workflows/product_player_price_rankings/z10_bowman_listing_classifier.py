@@ -194,12 +194,10 @@ def classify_title(title: str) -> Dict[str, Any]:
         # refractor families
         "WF_refractor": _has(RX_REFRACTOR, s),
         "WF_superfractor": _has(RX_SUPERFRACTOR, s),
-        "WF_atomic": _has(RX_ATOMIC, s),
         "WF_shimmer": _has(RX_SHIMMER, s),
         "WF_speckle": _has(RX_SPECKLE, s),
         "WF_wave": _has(RX_WAVE, s),
         "WF_mojo": _has(RX_MOJO, s),
-        "WF_sapphire": _has(RX_SAPPHIRE, s),
         "WF_lava": _has(RX_LAVA, s),
         "WF_true_blue": _has(RX_TRUE_BLUE, s),
         "WF_sky_blue": _has(RX_SKY_BLUE, s),
