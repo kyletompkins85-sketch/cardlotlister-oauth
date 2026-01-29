@@ -61,6 +61,31 @@ def _load_players_from_step01_csv(path: Path) -> List[str]:
 
     return out
 
+def _detect_step00_players_export_csv(run_dir: Path) -> Optional[Path]:
+    p = run_dir / "players_export.csv"
+    return p if p.exists() else None
+
+def _load_players_from_step00_export(path: Path) -> List[str]:
+    players: List[str] = []
+    with path.open("r", encoding="utf-8", newline="") as f:
+        r = csv.DictReader(f)
+        # supports header "playerName"
+        for row in r:
+            nm = (row.get("playerName") or "").strip()
+            if nm:
+                players.append(nm)
+
+    # de-dupe preserving order
+    seen = set()
+    out: List[str] = []
+    for p in players:
+        k = p.lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(p)
+    return out
+
 def _worker_get_json(url: str, key: str) -> Dict[str, Any]:
     resp = requests.get(url, headers={"x-internal-key": key}, timeout=90)
     text = resp.text
@@ -430,14 +455,39 @@ def main() -> None:
 
     export_csv = run_dir / "term_search_items_export.csv"
 
-    # players list from Step 01 output in run folder (already pulled from Supabase via Worker)
-    summary_csv = _detect_step01_players_csv(run_dir)  # product_players_search_summary_*.csv
-    players = _load_players_from_step01_csv(summary_csv)  # reads playerName column
+    # players list:
+    # 1) prefer Step 01 CSV if it exists (when eBay path ran)
+    # 2) fallback to Step 00 export (skip-eBay path)
+    players: List[str] = []
+    players_source = ""
+    
+    step01_csv = None
+    try:
+        step01_csv = _detect_step01_players_csv(run_dir)  # product_players_search_summary_*.csv
+    except Exception:
+        step01_csv = None
+    
+    if step01_csv and step01_csv.exists():
+        players = _load_players_from_step01_csv(step01_csv)
+        players_source = step01_csv.name
+    else:
+        step00_csv = _detect_step00_players_export_csv(run_dir)
+        if step00_csv:
+            players = _load_players_from_step00_export(step00_csv)
+            players_source = step00_csv.name
+        else:
+            raise SystemExit(
+                "No players list found.\n"
+                f"- Expected Step 01 output: product_players_search_summary_*.csv in {run_dir}\n"
+                f"- OR Step 00 output: players_export.csv in {run_dir}\n"
+                "Run Step 00 (export players) or Step 01 (eBay path) first."
+            )
     
     if len(players) < 2:
-        raise SystemExit(f"Too few players in {summary_csv.name}: {len(players)}")
+        raise SystemExit(f"Too few players in {players_source}: {len(players)}")
     
     last_idx = _build_lastname_index(players)
+
 
 
     classify_title = _load_bowman_classifier()
@@ -555,7 +605,7 @@ def main() -> None:
 
     print(f"SOURCE={source}")
     print(f"RUN_ID={run_id}")
-    print(f"PLAYERS_SOURCE={summary_csv.name}")
+    print(f"PLAYERS_SOURCE={players_source}")
     print(f"PLAYERS_LOADED={len(players)}")
     print(f"PLAYERS_DERIVED={len(players)}")
     print(f"ROWS_FOR_SIM={len(rows_for_sim)}")
