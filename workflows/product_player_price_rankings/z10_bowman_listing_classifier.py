@@ -5,9 +5,6 @@ import re
 from typing import Any, Dict, Optional, Tuple
 
 
-# -----------------------------
-# Regex helpers
-# -----------------------------
 def _re(pat: str) -> re.Pattern:
     return re.compile(pat, re.IGNORECASE)
 
@@ -18,48 +15,39 @@ def _clean(s: str) -> str:
     return (s or "").strip()
 
 
-# -----------------------------
-# Core patterns (Bowman-focused)
-# -----------------------------
 # Cmd+F: GH_ANCHOR_BOWMAN_PATTERNS_9C21A0B3
 
-# Selling formats (exclude/bucket)
+# Selling formats
 RX_COMPLETE_SET = _re(r"\bcomplete\s+set\b|\bset\s+complete\b")
 RX_PICK         = _re(r"\b(pick\s*your|you\s*pick|pick\s*one|pick)\b|\b(choose\s*your|choose\s*one|choose)\b")
 RX_LOT          = _re(r"\blot\b|\blots\b")
 RX_SET_BUILDER  = _re(r"\bset\s*builder\b|\bcomplete\s+your\s+set\b")
 RX_PRESALE      = _re(r"\bpre[\s-]?sale\b|\bpre[\s-]?order\b|\bpresale\b|\bpreorder\b")
 
-# Bowman / card stock cues
+# Stock
 RX_CHROME = _re(r"\bchrome\b")
-RX_PAPER  = _re(r"\bpaper\b|\bbase\b")  # Bowman listings often omit "paper"; base can help
+RX_PAPER  = _re(r"\bpaper\b|\bbase\b")
 
-# Bowman “1st”
+# “1st”
 RX_FIRST = _re(r"\b1st\b|\bfirst\b")
 
 # Autos
 RX_AUTO = _re(r"\bauto\b|\bautograph\b|\ba/u\b|\bon-card\b")
 
-# Bowman-ish refractor family
-RX_REFRACTOR = _re(r"\brefractor\b")
-RX_SUPERFRACTOR = _re(r"\bsuper\s*fractor\b|\bsuperfractor\b|\b1\/1\b.*\bsuper\b|\bsuper\b.*\b1\/1\b")
-RX_SHIMMER = _re(r"\bshimmer\b")
-RX_SPECKLE = _re(r"\bspeckle\b")
-RX_WAVE = _re(r"\bwave\b|\bray\s*wave\b|\braywave\b")
-RX_MOJO = _re(r"\bmojo\b")
-RX_LAVA = _re(r"\blava\b")
+# Refractor family
+RX_REFRACTOR     = _re(r"\brefractor\b")
+RX_SUPERFRACTOR  = _re(r"\bsuper\s*fractor\b|\bsuperfractor\b|\b1\/1\b.*\bsuper\b|\bsuper\b.*\b1\/1\b")
+RX_SHIMMER       = _re(r"\bshimmer\b")
+RX_SPECKLE       = _re(r"\bspeckle\b")
+RX_WAVE          = _re(r"\bwave\b|\bray\s*wave\b|\braywave\b")
+RX_MOJO          = _re(r"\bmojo\b")
+RX_LAVA          = _re(r"\blava\b")
 
-# Printing plate / 1/1
+# 1/1 plates
 RX_PRINTING_PLATE = _re(r"\bprinting\s*plate\b|\bplate\b")
 
-# Cmd+F: GH_ANCHOR_BOWMAN_COLORS_REMOVED_2A7D1C90
-# Colors REMOVED entirely per requirements:
-# remove atomic, aqua, black, blue, gold, green, orange, pink, purple, rainbow, red, silver, sapphire
-# (No RX_COLOR, no WF_color, no CT_color, no color-derived logic anywhere.)
-# ---------------------------------------------------------------
-
-# Grading (optional bucket)
-RX_GRADED = _re(r"\bpsa\b|\bbgs\b|\bsgc\b|\bcgc\b|\b10\b|\b9\.5\b|\bgem\s*mint\b")
+# Grading
+RX_GRADED = _re(r"\bpsa\b|\bbgs\b|\bsgc\b|\bcgc\b|\bgem\s*mint\b")
 
 
 # -----------------------------
@@ -72,9 +60,6 @@ RX_SERIAL_N_OF_M = _re(r"\b(\d{1,4})\s*of\s*(\d{1,4})\b")
 
 
 def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
-    """
-    Returns: (is_numbered, serial_number, serial_out_of)
-    """
     s = _clean(title)
 
     m = RX_SERIAL_FRACTION.search(s)
@@ -108,15 +93,8 @@ def extract_serial(title: str) -> Tuple[bool, Optional[int], Optional[int]]:
     return False, None, None
 
 
-# -----------------------------
-# CT_list builder (single label)
-# -----------------------------
 def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
-    """
-    Deterministic single label for simulation grouping.
-    IMPORTANT: must NOT contain commas.
-    """
-    # Selling formats take precedence (we want to exclude/bucket these)
+    # Selling formats first
     if wf.get("WF_lot"):
         return "lot"
     if wf.get("WF_pick") or wf.get("WF_set_builder"):
@@ -132,12 +110,10 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     if wf.get("WF_superfractor"):
         return "superfractor_1of1"
 
-    # Base type
     stock = "chrome" if wf.get("WF_chrome") else ("paper" if wf.get("WF_paper") else "unknown_stock")
     first = "first" if wf.get("WF_first") else "not_first"
     auto = "auto" if wf.get("WF_auto") else "no_auto"
 
-    # Parallel / finish family (priority order)
     if wf.get("WF_mojo"):
         par = "mojo"
     elif wf.get("WF_shimmer"):
@@ -149,8 +125,6 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
     elif wf.get("WF_refractor"):
         par = "refractor"
     else:
-        # Cmd+F: GH_ANCHOR_BOWMAN_NO_COLOR_PARALLEL_FALLBACK_6C2A1D12
-        # Colors removed => no "{color}_parallel" output. If no refractor-family hit, call it base.
         par = "base"
 
     outof = f"outof_{int(serial_out_of)}" if serial_out_of else "unnumbered"
@@ -159,35 +133,24 @@ def _ct_list_label(wf: Dict[str, Any], serial_out_of: Optional[int]) -> str:
 
 def classify_title(title: str) -> Dict[str, Any]:
     """
-    Bowman classifier output modeled after your Topps classifier:
-      - WF_* word flags
-      - CT_* booleans
-      - extracted: is_numbered, serial_number, serial_out_of
-      - CT_list: single label string for simulation grouping (no commas)
-
-    NOTE: Colors removed entirely (no WF_color / CT_color / RX_COLOR usage).
+    NO COLORS. No CT_color_* keys. No WF_color. Nothing.
     """
     s = _clean(title)
-
     is_numbered, serial_number, serial_out_of = extract_serial(s)
 
     wf: Dict[str, Any] = {
-        # selling formats
         "WF_complete_set": _has(RX_COMPLETE_SET, s),
         "WF_pick": _has(RX_PICK, s),
         "WF_lot": _has(RX_LOT, s),
         "WF_set_builder": _has(RX_SET_BUILDER, s),
         "WF_presale": _has(RX_PRESALE, s),
 
-        # stock / core
         "WF_chrome": _has(RX_CHROME, s),
         "WF_paper": _has(RX_PAPER, s),
         "WF_first": _has(RX_FIRST, s),
 
-        # auto
         "WF_auto": _has(RX_AUTO, s),
 
-        # refractor families
         "WF_refractor": _has(RX_REFRACTOR, s),
         "WF_superfractor": _has(RX_SUPERFRACTOR, s),
         "WF_shimmer": _has(RX_SHIMMER, s),
@@ -196,14 +159,10 @@ def classify_title(title: str) -> Dict[str, Any]:
         "WF_mojo": _has(RX_MOJO, s),
         "WF_lava": _has(RX_LAVA, s),
 
-        # 1/1 plates
         "WF_printing_plate": _has(RX_PRINTING_PLATE, s),
-
-        # graded bucket
         "WF_graded": _has(RX_GRADED, s),
     }
 
-    # CT booleans
     ct: Dict[str, Any] = {
         "CT_chrome": bool(wf["WF_chrome"]),
         "CT_paper": bool(wf["WF_paper"]),
