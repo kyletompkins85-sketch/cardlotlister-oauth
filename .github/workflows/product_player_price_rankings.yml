@@ -106,10 +106,12 @@ jobs:
       # STEP 03 — Placeholder ranking report (replace methodology later)
       # ----------------------------
       - name: Step 03 - Rank players for product (placeholder)
+        if: false
         run: |
           python workflows/product_player_price_rankings/03_rank_players_placeholder.py
 
       - name: Upload outputs
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: product_player_price_rankings_outputs
