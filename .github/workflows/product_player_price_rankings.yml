@@ -100,7 +100,7 @@ jobs:
 
       - name: Step 02.5 - Diagnostic CT counts (Bowman classifier)
         run: |
-          python workflows/product_player_price_rankings/90_ct_counts_from_term_search_export.py --run-id "$RUN_ID"
+          python workflows/product_player_price_rankings/90_ct_counts_from_term_search_export.py --run-id "$RUN_ID" --q "${PREFIX}"
 
       # ----------------------------
       # STEP 03 — Placeholder ranking report (replace methodology later)
