@@ -157,10 +157,48 @@ def main() -> None:
 
     classify_title = _load_bowman_classifier()
 
-    # Discover all CT_* keys (so we can output zeros too)
+    # Discover all CT_* keys (INCLUDING ones that never hit)
     # Cmd+F: GH_ANCHOR_DISCOVER_ALL_CT_KEYS_BOWMAN_2C7B9D10
+    import re
+
     tmpl: Dict[str, object] = classify_title("")
-    ct_keys: List[str] = sorted([k for k, v in tmpl.items() if k.startswith("CT_") and isinstance(v, bool)])
+    ct_from_template = {k for k, v in tmpl.items() if k.startswith("CT_") and isinstance(v, bool)}
+
+    # Scan the classifier source for quoted CT_* keys so we include "never-hit" card types as zeros.
+    # This handles classifiers that only emit CT keys when True (sparse output).
+    # Cmd+F: GH_ANCHOR_SCAN_CLASSIFIER_SOURCE_FOR_CT_KEYS_6C2A1D14
+    ct_from_source = set()
+    try:
+        # We imported z10_bowman_listing_classifier via sys.path; import it to get __file__
+        import z10_bowman_listing_classifier as bowman_mod  # type: ignore
+        src_path = getattr(bowman_mod, "__file__", "") or ""
+        if src_path and os.path.exists(src_path):
+            src = Path(src_path).read_text(encoding="utf-8", errors="ignore")
+
+            # capture CT keys that appear as quoted dict keys: "CT_xxx" or 'CT_xxx'
+            for m in re.finditer(r"""["'](CT_[A-Za-z0-9_]+)["']""", src):
+                ct_from_source.add(m.group(1))
+    except Exception:
+        pass
+
+    # Optional: force-show a few common color CTs if you intentionally created them via dynamic keys.
+    # (If they don't exist in your classifier, they'll still show 0, which is what you want.)
+    # Cmd+F: GH_ANCHOR_FORCE_CT_KEYS_COLOR_SET_2A7D1C91
+    FORCE_CT_KEYS = {
+        "CT_color_blue",
+        "CT_color_green",
+        "CT_color_red",
+        "CT_color_gold",
+        "CT_color_orange",
+        "CT_color_purple",
+        "CT_color_black",
+        "CT_color_silver",
+        "CT_color_pink",
+        "CT_color_aqua",
+        "CT_color_rainbow",
+    }
+
+    ct_keys: List[str] = sorted(set().union(ct_from_template, ct_from_source, FORCE_CT_KEYS))
 
     counts = Counter({k: 0 for k in ct_keys})
     samples: Dict[str, List[str]] = defaultdict(list)
