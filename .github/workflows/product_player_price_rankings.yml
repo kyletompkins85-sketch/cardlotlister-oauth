@@ -111,9 +111,11 @@ jobs:
         run: |
           python workflows/product_player_price_rankings/92_simulate_player_rankings.py \
             --run-id "$RUN_ID" \
+            --q "${PREFIX}" \
+            --require-all "bowman,draft" \
+            --product-prefix "2025 Bowman Draft" \
             --iterations "500000" \
-            --min-player-score "95" \
-            --product-prefix "2025 Bowman Draft"
+            --min-player-score "95"
 
 
 
