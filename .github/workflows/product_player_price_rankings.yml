@@ -3,6 +3,11 @@ name: Product player price rankings (placeholder)
 on:
   workflow_dispatch:
     inputs:
+      skip_ebay:
+        description: "If true, skip Step 01 (no eBay calls). Runs export + diagnostics only."
+        required: false
+        default: "true"
+
       product_name:
         description: "Label for this product (used in output filenames)"
         required: false
@@ -81,6 +86,7 @@ jobs:
       # STEP 01 — Pull players for product + search eBay (via Worker)
       # ----------------------------
       - name: Step 01 - Search player comps for product (via Worker)
+        if: github.event.inputs.skip_ebay != 'true'
         run: |
           python workflows/product_player_price_rankings/01_search_product_players.py
 
@@ -88,8 +94,13 @@ jobs:
       # STEP 02 — Export term_search_items by run_id
       # ----------------------------
       - name: Step 02 - Export term_search_items for this run
+        if: github.event.inputs.skip_ebay != 'true'
         run: |
           python workflows/product_player_price_rankings/02_export_term_search_items.py
+
+      - name: Step 02.5 - Diagnostic CT counts (Topps classifier)
+        run: |
+          python workflows/product_player_price_rankings/90_ct_counts_from_term_search_export.py --run-id "$RUN_ID"
 
       # ----------------------------
       # STEP 03 — Placeholder ranking report (replace methodology later)
