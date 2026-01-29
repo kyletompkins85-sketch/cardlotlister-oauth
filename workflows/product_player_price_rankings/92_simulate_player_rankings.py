@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
 # Cmd+F: GH_ANCHOR_SIMULATE_PLAYER_RANKINGS_BOWMAN_92A1C7D0
 """
-Build player price rankings for a product by simulating head-to-head matchups
-while holding CT_list constant.
+Simulate player price rankings by holding CT_list constant.
 
-Inputs (in workflows/product_player_price_rankings/data/<RUN_ID>/):
-  - term_search_items_export.csv   (from your Step 02 export)
-  - Step 01 summary CSV that contains column 'query' (used to derive player list)
-    We auto-detect it in the run folder.
+Sources (in order):
+  1) If present: workflows/product_player_price_rankings/data/<RUN_ID>/term_search_items_export.csv
+  2) Fallback: Worker -> GET /internal/termSearchItems/search?q=... (SUPABASE ONLY, NO EBAY)
 
-NO EBAY CALLS. Reads local export CSV only.
+Also derives player list from Step 01 summary CSV in the same run folder (any CSV with 'query' column).
+Queries are assumed like: "<product-prefix> <player name>"
 
 Outputs (same run folder):
   - player_rankings_simulation.csv
-  - player_rankings_simulation_matches_sample.csv  (optional sample)
-  - player_rankings_simulation_debug_rows.csv      (optional debug, small)
+  - player_rankings_simulation_matches_sample.csv
 """
 
 from __future__ import annotations
@@ -24,14 +22,18 @@ import csv
 import os
 import random
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
+from urllib.parse import urlencode, urljoin
+
+import requests
+
 
 # -----------------------------
-# Helpers
+# Basics
 # -----------------------------
-
 def _norm(s: str) -> str:
     return " ".join((s or "").strip().split())
 
@@ -52,35 +54,40 @@ def _tokenize(s: str) -> List[str]:
     toks = [t for t in s.split() if t]
     return toks
 
-def _require_run_dir(run_id: str) -> Path:
-    workflow_root = Path(__file__).resolve().parent
-    run_dir = workflow_root / "data" / run_id
-    run_dir.mkdir(parents=True, exist_ok=True)
-    return run_dir
+def _passes_require_all(title: str, require_all_csv: str) -> bool:
+    words = [w.strip().lower() for w in (require_all_csv or "").split(",") if w.strip()]
+    if not words:
+        return True
+    t = (title or "").lower()
+    return all(w in t for w in words)
+
+def _require_env(name: str) -> str:
+    v = os.getenv(name)
+    if not v or not v.strip():
+        raise RuntimeError(f"Missing {name}")
+    return v.strip()
+
 
 # -----------------------------
 # Import Bowman classifier
 # -----------------------------
-
 def _load_bowman_classifier():
     here = Path(__file__).resolve().parent
-    if str(here) not in os.sys.path:
-        os.sys.path.insert(0, str(here))
+    if str(here) not in sys.path:
+        sys.path.insert(0, str(here))
     from z10_bowman_listing_classifier import classify_title  # type: ignore
     return classify_title
 
-# -----------------------------
-# Player list derivation (from Step 01 summary)
-# -----------------------------
 
+# -----------------------------
+# Step01 summary -> derive players
+# -----------------------------
 def _detect_step01_summary_csv(run_dir: Path) -> Optional[Path]:
     """
-    Find a CSV in the run folder with a 'query' column.
-    We'll use it to derive the searched player names.
+    Find any CSV in the run folder that contains a 'query' column.
+    That is your Step 01 summary.
     """
-    candidates = sorted(run_dir.glob("*.csv"))
-    for p in candidates:
-        # skip the export itself
+    for p in sorted(run_dir.glob("*.csv")):
         if p.name == "term_search_items_export.csv":
             continue
         try:
@@ -93,13 +100,8 @@ def _detect_step01_summary_csv(run_dir: Path) -> Optional[Path]:
     return None
 
 def _derive_players_from_queries(summary_csv: Path, product_prefix: str) -> List[str]:
-    """
-    Extract player names from query strings like:
-      "2025 Bowman Draft Dylan Crews"
-    by removing the prefix.
-    """
     prefix = _norm(product_prefix).lower()
-    players = []
+    players: List[str] = []
     with summary_csv.open("r", encoding="utf-8", newline="") as f:
         r = csv.DictReader(f)
         for row in r:
@@ -110,81 +112,63 @@ def _derive_players_from_queries(summary_csv: Path, product_prefix: str) -> List
             if prefix and ql.startswith(prefix):
                 name = _norm(q[len(product_prefix):])
             else:
-                # fallback: remove prefix words anywhere
-                name = q
-                if prefix:
-                    name = _norm(re.sub(re.escape(prefix), "", ql, flags=re.IGNORECASE))
+                name = q  # fallback: use whole query
             name = _norm(name)
-            # basic cleanup
-            name = re.sub(r"\s+mlb\s*$", "", name, flags=re.IGNORECASE).strip()
             if name and len(name.split()) >= 2:
                 players.append(name)
 
-    # dedupe preserve order
     seen = set()
-    out = []
+    out: List[str] = []
     for p in players:
-        key = p.lower()
-        if key in seen:
+        k = p.lower()
+        if k in seen:
             continue
-        seen.add(key)
+        seen.add(k)
         out.append(p)
     return out
 
-# -----------------------------
-# Player matching (title -> best player)
-# -----------------------------
 
+# -----------------------------
+# Player matching (title -> player)
+# -----------------------------
 def _build_lastname_index(players: List[str]) -> Dict[str, List[str]]:
     idx: Dict[str, List[str]] = defaultdict(list)
     for full in players:
         parts = _tokenize(full)
-        if not parts:
-            continue
-        last = parts[-1]
-        idx[last].append(full)
+        if parts:
+            idx[parts[-1]].append(full)
     return idx
 
-def guess_player_from_title(title: str, players: List[str], last_idx: Dict[str, List[str]]) -> Tuple[str, float]:
+def guess_player_from_title(title: str, last_idx: Dict[str, List[str]]) -> Tuple[str, float]:
     """
-    Returns (player_name, score). score is a rough heuristic:
-      - 100: all name tokens in title
-      - 95: first+last present
-      - 90: last + first-initial present
-      - 80: last present
-      - 0: no match
+    Heuristic scoring:
+      100: all name tokens present
+      95 : first+last present
+      80 : last present
     """
     t_toks = _tokenize(title)
     if not t_toks:
         return "", 0.0
     t_set = set(t_toks)
 
-    # quick candidate discovery by last name
     best_name = ""
     best_score = 0.0
 
-    # scan last names present in title tokens
-    last_names_in_title = [ln for ln in last_idx.keys() if ln in t_set]
-    if not last_names_in_title:
-        return "", 0.0
-
-    for ln in last_names_in_title:
-        for full in last_idx.get(ln, []):
-            name_toks = _tokenize(full)
-            if not name_toks:
+    for last, candidates in last_idx.items():
+        if last not in t_set:
+            continue
+        for full in candidates:
+            ntoks = _tokenize(full)
+            if not ntoks:
                 continue
-            first = name_toks[0]
-            last = name_toks[-1]
-
-            all_in = all(tok in t_set for tok in name_toks)
+            first = ntoks[0]
+            all_in = all(tok in t_set for tok in ntoks)
             if all_in:
                 score = 100.0
             elif first in t_set and last in t_set:
                 score = 95.0
             else:
-                # first initial
-                fi = first[:1]
-                score = 90.0 if (last in t_set and any(tok == fi for tok in t_set)) else 80.0
+                score = 80.0
 
             if score > best_score:
                 best_score = score
@@ -192,29 +176,65 @@ def guess_player_from_title(title: str, players: List[str], last_idx: Dict[str, 
 
     return best_name, best_score
 
-# -----------------------------
-# Core simulation
-# -----------------------------
 
+# -----------------------------
+# Worker fallback (SUPABASE ONLY)
+# -----------------------------
+def _worker_get_json(url: str, key: str) -> Dict[str, Any]:
+    resp = requests.get(url, headers={"x-internal-key": key}, timeout=90)
+    text = resp.text
+    try:
+        data = resp.json()
+    except Exception:
+        data = {"raw": text}
+    if not resp.ok:
+        raise RuntimeError(f"Worker GET failed {resp.status_code}: {text}")
+    if not isinstance(data, dict):
+        raise RuntimeError(f"Unexpected response type: {type(data)}")
+    return data
+
+def _iter_rows_from_worker(base_url: str, api_key: str, q: str) -> Iterable[Dict[str, Any]]:
+    """
+    Reads from /internal/termSearchItems/search (NO EBAY)
+    Must return rows with at least: title, price, shipping_cost, seller_username
+    """
+    limit = 1000
+    offset = 0
+    while True:
+        params = {"q": q, "limit": str(limit), "offset": str(offset)}
+        endpoint = urljoin(base_url.rstrip("/") + "/", "internal/termSearchItems/search")
+        url = f"{endpoint}?{urlencode(params)}"
+
+        data = _worker_get_json(url, api_key)
+        rows = data.get("rows") or []
+        if not isinstance(rows, list):
+            raise RuntimeError("Worker returned rows that were not a list")
+
+        for row in rows:
+            if isinstance(row, dict):
+                yield row
+
+        next_offset = data.get("next_offset")
+        if not next_offset:
+            break
+        offset = int(next_offset)
+
+
+# -----------------------------
+# Simulation
+# -----------------------------
 def simulate(rows: List[Tuple[str, str, float, str, str]],
              iterations: int,
              seed: int,
-             max_match_log: int = 2000,
-             write_match_log: bool = True) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    """
-    rows: (player, ct, price, seller, title)
-    Returns: (summary_rows, match_log_rows)
-    """
+             max_match_log: int) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     random.seed(seed)
 
     by_ct: Dict[str, List[int]] = defaultdict(list)
     by_ct_player: Dict[Tuple[str, str], List[int]] = defaultdict(list)
-
     for idx, (player, ct, price, seller, title) in enumerate(rows):
         by_ct[ct].append(idx)
         by_ct_player[(ct, player)].append(idx)
 
-    # eligible CTs must have >=2 distinct players
     ct_players: Dict[str, List[str]] = {}
     eligible_cts: List[str] = []
     for ct, idxs in by_ct.items():
@@ -282,7 +302,7 @@ def simulate(rows: List[Tuple[str, str, float, str, str]],
         losses[l_player] += 1
         margin_sum[w_player] += (w_price - l_price)
 
-        if write_match_log and len(match_log) < max_match_log:
+        if len(match_log) < max_match_log:
             match_log.append({
                 "CT_list": a_ct,
                 "winner_player": w_player,
@@ -318,112 +338,127 @@ def simulate(rows: List[Tuple[str, str, float, str, str]],
     summary_rows.sort(key=lambda x: (x["win_rate"], x["wins"] + x["losses"]), reverse=True)
     return summary_rows, match_log
 
+
 # -----------------------------
 # Main
 # -----------------------------
-
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--run-id", required=True, help="RUN_ID folder under workflows/product_player_price_rankings/data/")
-    ap.add_argument("--product-prefix", default="2025 Bowman Draft", help="Prefix used in Step 01 queries (default: 2025 Bowman Draft)")
-    ap.add_argument("--require-all", default="bowman,draft", help="Comma-separated words required in title (default: bowman,draft)")
-    ap.add_argument("--min-player-score", type=float, default=95.0, help="Min score to keep player_guess (default: 95)")
-    ap.add_argument("--iterations", type=int, default=500000, help="Simulation iterations (default: 500000)")
-    ap.add_argument("--seed", type=int, default=42, help="RNG seed")
-    ap.add_argument("--max-rows", type=int, default=0, help="If >0, limit titles processed (debug)")
-    ap.add_argument("--max-match-log", type=int, default=2000, help="Max rows for match sample CSV")
-    ap.add_argument("--write-debug-rows", action="store_true", help="If set, write a small debug rows CSV")
+    ap.add_argument("--run-id", required=True)
+    ap.add_argument("--product-prefix", default="2025 Bowman Draft")
+    ap.add_argument("--require-all", default="bowman,draft")
+    ap.add_argument("--min-player-score", type=float, default=95.0)
+    ap.add_argument("--iterations", type=int, default=500000)
+    ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--max-match-log", type=int, default=2000)
+
+    # fallback inputs
+    ap.add_argument("--q", default="", help="Worker fallback q (e.g. '2025 Bowman Draft')")
     args = ap.parse_args()
 
     run_id = args.run_id.strip()
-    run_dir = _require_run_dir(run_id)
+    workflow_root = Path(__file__).resolve().parent
+    run_dir = workflow_root / "data" / run_id
+    run_dir.mkdir(parents=True, exist_ok=True)
 
     export_csv = run_dir / "term_search_items_export.csv"
-    if not export_csv.exists():
-        raise SystemExit(f"Missing input CSV: {export_csv}")
 
-    # Step 01 summary -> derive player list
+    # players list from Step 01 summary in run folder
     summary_csv = _detect_step01_summary_csv(run_dir)
     if not summary_csv:
         raise SystemExit(
-            f"Could not find a Step 01 summary CSV with a 'query' column in {run_dir}.\n"
-            "Expected Step 01 to write a CSV (any name) with at least a 'query' column."
+            f"Could not find Step 01 summary CSV (needs a 'query' column) in: {run_dir}\n"
+            "Make sure Step 01 writes a CSV summary into the same RUN_ID folder."
         )
 
     players = _derive_players_from_queries(summary_csv, args.product_prefix)
     if len(players) < 2:
         raise SystemExit(f"Derived too few players from {summary_csv.name}: {len(players)}")
-
     last_idx = _build_lastname_index(players)
 
     classify_title = _load_bowman_classifier()
 
-    def passes_require_all(title: str) -> bool:
-        words = [w.strip().lower() for w in (args.require_all or "").split(",") if w.strip()]
-        if not words:
-            return True
-        t = (title or "").lower()
-        return all(w in t for w in words)
-
     rows_for_sim: List[Tuple[str, str, float, str, str]] = []
 
-    debug_rows: List[Dict[str, Any]] = []
-    max_rows = int(args.max_rows or 0)
+    source = ""
+    if export_csv.exists():
+        source = f"csv:{export_csv}"
+        with export_csv.open("r", encoding="utf-8", newline="") as f:
+            r = csv.DictReader(f)
+            for row in r:
+                title = (row.get("title") or "").strip()
+                if not title:
+                    continue
+                if not _passes_require_all(title, args.require_all):
+                    continue
 
-    with export_csv.open("r", encoding="utf-8", newline="") as f:
-        r = csv.DictReader(f)
-        for i, row in enumerate(r):
+                price = _to_float(row.get("price"))
+                ship = _to_float(row.get("shipping_cost")) or 0.0
+                if price is None:
+                    continue
+                all_in = float(price) + float(ship)
+
+                flags = classify_title(title)
+                ct_list = _norm(str(flags.get("CT_list") or "")).strip()
+                if not ct_list:
+                    continue
+
+                # drop the “formats”
+                if ct_list in ("lot", "pick_your_card", "complete_set", "presale"):
+                    continue
+
+                player, score = guess_player_from_title(title, last_idx)
+                if not player or score < float(args.min_player_score):
+                    continue
+
+                seller = (row.get("seller_username") or "").strip()
+                rows_for_sim.append((player, ct_list, all_in, seller, title))
+    else:
+        # Worker fallback (SUPABASE ONLY; NO EBAY)
+        base = _require_env("WORKER_BASE_URL")
+        key = _require_env("INTERNAL_API_KEY")
+        q = (args.q or os.getenv("PREFIX") or "").strip()
+        if not q:
+            raise SystemExit(
+                f"Missing input CSV: {export_csv}\n"
+                "Provide --q or set env PREFIX for Worker fallback."
+            )
+        source = f"worker:/internal/termSearchItems/search?q={q}"
+        for row in _iter_rows_from_worker(base, key, q):
             title = (row.get("title") or "").strip()
             if not title:
                 continue
-            if not passes_require_all(title):
+            if not _passes_require_all(title, args.require_all):
                 continue
 
             price = _to_float(row.get("price"))
-            ship = _to_float(row.get("shipping_cost"))
+            ship = _to_float(row.get("shipping_cost")) or 0.0
             if price is None:
                 continue
-            ship = ship or 0.0
             all_in = float(price) + float(ship)
 
             flags = classify_title(title)
             ct_list = _norm(str(flags.get("CT_list") or "")).strip()
             if not ct_list:
                 continue
-
-            # Drop “formats” you usually don’t want in pricing comps
             if ct_list in ("lot", "pick_your_card", "complete_set", "presale"):
                 continue
 
-            player, score = guess_player_from_title(title, players, last_idx)
+            player, score = guess_player_from_title(title, last_idx)
             if not player or score < float(args.min_player_score):
                 continue
 
             seller = (row.get("seller_username") or "").strip()
             rows_for_sim.append((player, ct_list, all_in, seller, title))
 
-            if args.write_debug_rows and len(debug_rows) < 2000:
-                debug_rows.append({
-                    "player_guess": player,
-                    "player_score": score,
-                    "CT_list": ct_list,
-                    "all_in_price": round(all_in, 4),
-                    "seller_username": seller,
-                    "title": title,
-                })
-
-            if max_rows > 0 and i >= max_rows:
-                break
-
     if len(rows_for_sim) < 2:
-        raise SystemExit("Not enough usable rows after filtering (need >= 2).")
+        raise SystemExit("Not enough usable rows after filtering for simulation (need >=2).")
 
     summary_rows, match_log = simulate(
         rows_for_sim,
         iterations=int(args.iterations),
         seed=int(args.seed),
         max_match_log=int(args.max_match_log),
-        write_match_log=True,
     )
 
     out_summary = run_dir / "player_rankings_simulation.csv"
@@ -454,21 +489,15 @@ def main() -> None:
         for row in match_log:
             w.writerow(row)
 
-    if args.write_debug_rows:
-        out_debug = run_dir / "player_rankings_simulation_debug_rows.csv"
-        with out_debug.open("w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=["player_guess", "player_score", "CT_list", "all_in_price", "seller_username", "title"])
-            w.writeheader()
-            w.writerows(debug_rows)
-
+    print(f"SOURCE={source}")
     print(f"RUN_ID={run_id}")
-    print(f"SOURCE_EXPORT={export_csv}")
-    print(f"PLAYERS_SOURCE={summary_csv}")
+    print(f"PLAYERS_SOURCE={summary_csv.name}")
     print(f"PLAYERS_DERIVED={len(players)}")
     print(f"ROWS_FOR_SIM={len(rows_for_sim)}")
     print(f"ITERATIONS={args.iterations}")
     print(f"OUT_SUMMARY={out_summary}")
     print(f"OUT_MATCHES={out_matches}")
+
 
 if __name__ == "__main__":
     main()
