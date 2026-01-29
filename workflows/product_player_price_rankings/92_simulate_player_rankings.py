@@ -455,40 +455,24 @@ def main() -> None:
 
     export_csv = run_dir / "term_search_items_export.csv"
 
-    # players list:
-    # 1) prefer Step 01 CSV if it exists (when eBay path ran)
-    # 2) fallback to Step 00 export (skip-eBay path)
-    players: List[str] = []
-    players_source = ""
-    
-    step01_csv = None
-    try:
-        step01_csv = _detect_step01_players_csv(run_dir)  # product_players_search_summary_*.csv
-    except Exception:
-        step01_csv = None
-    
-    if step01_csv and step01_csv.exists():
-        players = _load_players_from_step01_csv(step01_csv)
-        players_source = step01_csv.name
+        # players list source:
+    #   - Step 01 CSV (eBay path)
+    #   - else Step 00 players_export.csv (no-eBay path)
+    players_csv_step00 = run_dir / "players_export.csv"
+
+    if (run_dir.glob("product_players_search_summary_*.csv")):
+        summary_csv = _detect_step01_players_csv(run_dir)
+        players = _load_players_from_step01_csv(summary_csv)
+        players_source = summary_csv.name
+    elif players_csv_step00.exists():
+        players = _load_players_from_step01_csv(players_csv_step00)  # same reader works if col is playerName
+        players_source = players_csv_step00.name
     else:
-        step00_csv = _detect_step00_players_export_csv(run_dir)
-        if step00_csv:
-            players = _load_players_from_step00_export(step00_csv)
-            players_source = step00_csv.name
-        else:
-            raise SystemExit(
-                "No players list found.\n"
-                f"- Expected Step 01 output: product_players_search_summary_*.csv in {run_dir}\n"
-                f"- OR Step 00 output: players_export.csv in {run_dir}\n"
-                "Run Step 00 (export players) or Step 01 (eBay path) first."
-            )
-    
-    if len(players) < 2:
-        raise SystemExit(f"Too few players in {players_source}: {len(players)}")
-    
-    last_idx = _build_lastname_index(players)
-
-
+        raise SystemExit(
+            f"No players list found.\n"
+            f"Expected Step01 summary CSV OR {players_csv_step00}\n"
+            f"(For skip_ebay=true runs, run Step 00 to generate players_export.csv.)"
+        )
 
     classify_title = _load_bowman_classifier()
 
