@@ -30,6 +30,73 @@ from urllib.parse import urlencode, urljoin
 
 import requests
 
+def _detect_step01_players_csv(run_dir: Path) -> Path:
+    # Step 01 writes: product_players_search_summary_<safe_product>.csv
+    hits = sorted(run_dir.glob("product_players_search_summary_*.csv"))
+    if hits:
+        return hits[0]
+    raise SystemExit(
+        f"Could not find Step 01 players CSV in: {run_dir}\n"
+        "Expected: product_players_search_summary_*.csv (written by Step 01)"
+    )
+
+def _load_players_from_step01_csv(path: Path) -> List[str]:
+    players: List[str] = []
+    with path.open("r", encoding="utf-8", newline="") as f:
+        r = csv.DictReader(f)
+        for row in r:
+            nm = (row.get("playerName") or "").strip()
+            if nm:
+                players.append(nm)
+
+    # de-dupe preserving order
+    seen = set()
+    out: List[str] = []
+    for p in players:
+        k = p.lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(p)
+
+    return out
+
+def _worker_get_json(url: str, key: str) -> Dict[str, Any]:
+    resp = requests.get(url, headers={"x-internal-key": key}, timeout=90)
+    text = resp.text
+    try:
+        data = resp.json()
+    except Exception:
+        data = {"raw": text}
+    if not resp.ok:
+        raise RuntimeError(f"Worker GET failed {resp.status_code}: {text}")
+    return data
+
+def _iter_titles_rows_from_export_csv(csv_path: Path) -> Iterable[Dict[str, Any]]:
+    with csv_path.open("r", encoding="utf-8", newline="") as f:
+        r = csv.DictReader(f)
+        for row in r:
+            yield row
+
+def _iter_titles_rows_from_worker(base_url: str, api_key: str, q: str) -> Iterable[Dict[str, Any]]:
+    limit = 1000
+    offset = 0
+    while True:
+        params = {"q": q, "limit": str(limit), "offset": str(offset)}
+        endpoint = urljoin(base_url.rstrip("/") + "/", "internal/termSearchItems/search")
+        url = f"{endpoint}?{urlencode(params)}"
+        data = _worker_get_json(url, api_key)
+        rows = data.get("rows") or []
+        if not isinstance(rows, list):
+            raise RuntimeError("Worker returned rows that were not a list")
+        for row in rows:
+            if isinstance(row, dict):
+                yield row
+        next_offset = data.get("next_offset")
+        if not next_offset:
+            break
+        offset = int(next_offset)
+
 
 # -----------------------------
 # Basics
@@ -363,18 +430,15 @@ def main() -> None:
 
     export_csv = run_dir / "term_search_items_export.csv"
 
-    # players list from Step 01 summary in run folder
-    summary_csv = _detect_step01_summary_csv(run_dir)
-    if not summary_csv:
-        raise SystemExit(
-            f"Could not find Step 01 summary CSV (needs a 'query' column) in: {run_dir}\n"
-            "Make sure Step 01 writes a CSV summary into the same RUN_ID folder."
-        )
-
-    players = _derive_players_from_queries(summary_csv, args.product_prefix)
+    # players list from Step 01 output in run folder (already pulled from Supabase via Worker)
+    summary_csv = _detect_step01_players_csv(run_dir)  # product_players_search_summary_*.csv
+    players = _load_players_from_step01_csv(summary_csv)  # reads playerName column
+    
     if len(players) < 2:
-        raise SystemExit(f"Derived too few players from {summary_csv.name}: {len(players)}")
+        raise SystemExit(f"Too few players in {summary_csv.name}: {len(players)}")
+    
     last_idx = _build_lastname_index(players)
+
 
     classify_title = _load_bowman_classifier()
 
@@ -492,6 +556,7 @@ def main() -> None:
     print(f"SOURCE={source}")
     print(f"RUN_ID={run_id}")
     print(f"PLAYERS_SOURCE={summary_csv.name}")
+    print(f"PLAYERS_LOADED={len(players)}")
     print(f"PLAYERS_DERIVED={len(players)}")
     print(f"ROWS_FOR_SIM={len(rows_for_sim)}")
     print(f"ITERATIONS={args.iterations}")
