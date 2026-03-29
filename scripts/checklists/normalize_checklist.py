@@ -1,15 +1,19 @@
+import argparse
 import csv
 import re
 from pathlib import Path
 
 
-RAW_FILE = Path("data/checklists/raw/2025_Bowman_Draft_Raw.txt")
-OUTPUT_FILE = Path("data/checklists/normalized/2025_Bowman_Draft_Normalized.csv")
 
-SET_KEY = "2025_bowman_draft"
-YEAR = 2025
-BRAND = "Bowman"
-PRODUCT = "Draft"
+def build_parser() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--raw-file", required=True)
+    parser.add_argument("--output-file", required=True)
+    parser.add_argument("--set-key", required=True)
+    parser.add_argument("--year", required=True, type=int)
+    parser.add_argument("--brand", required=True)
+    parser.add_argument("--product", required=True)
+    return parser.parse_args()
 
 
 CARD_COUNT_PATTERN = re.compile(r"^(\d+)\s+cards?$", re.IGNORECASE)
@@ -26,7 +30,13 @@ def is_likely_section_header(line: str) -> bool:
     return True
 
 
-def parse_checklist_file(raw_file: Path) -> list[dict]:
+def parse_checklist_file(
+    raw_file: Path,
+    set_key: str,
+    year: int,
+    brand: str,
+    product: str,
+) -> list[dict]:
     rows = []
     current_section = None
     current_section_card_count = None
@@ -51,10 +61,10 @@ def parse_checklist_file(raw_file: Path) -> list[dict]:
 
                 rows.append(
                     {
-                        "set_key": SET_KEY,
-                        "year": YEAR,
-                        "brand": BRAND,
-                        "product": PRODUCT,
+                        "set_key": set_key,
+                        "year": year,
+                        "brand": brand,
+                        "product": product,
                         "section": current_section,
                         "section_card_count": current_section_card_count,
                         "card_number": card_number,
@@ -97,9 +107,21 @@ def write_csv(rows: list[dict], output_file: Path) -> None:
 
 
 def main() -> None:
-    rows = parse_checklist_file(RAW_FILE)
-    write_csv(rows, OUTPUT_FILE)
-    print(f"Wrote {len(rows)} rows to {OUTPUT_FILE}")
+    args = build_parser()
+
+    raw_file = Path(args.raw_file)
+    output_file = Path(args.output_file)
+
+    rows = parse_checklist_file(
+        raw_file=raw_file,
+        set_key=args.set_key,
+        year=args.year,
+        brand=args.brand,
+        product=args.product,
+    )
+
+    write_csv(rows, output_file)
+    print(f"Wrote {len(rows)} rows to {output_file}")
 
 
 if __name__ == "__main__":
