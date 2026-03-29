@@ -1,0 +1,858 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_name_raw,affiliation_raw,raw_line,is_multi_player
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-1,"Eli Willits,",Washington Nationals,"BD-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-2,"Xavier Neyens,",Houston Astros,"BD-2	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-3,"Kade Anderson,",Seattle Mariners,"BD-3	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-4,"Gage Wood,",Philadelphia Phillies,"BD-4	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-5,"Max Belyeu,",Colorado Rockies,"BD-5	Max Belyeu,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-6,"Aidan West,",Los Angeles Dodgers,"BD-6	Aidan West,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-7,"Taitn Gray,",Tampa Bay Rays,"BD-7	Taitn Gray,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-8,"JoJo Parker,",Toronto Blue Jays,"BD-8	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-9,"Spencer Jones,",New York Yankees,"BD-9	Spencer Jones,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-10,"Billy Carlson,",Chicago White Sox,"BD-10	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-11,"Mike Sirota,",Los Angeles Dodgers,"BD-11	Mike Sirota,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-12,"Liam Doyle,",St. Louis Cardinals,"BD-12	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-13,"Franklin Arias,",Boston Red Sox,"BD-13	Franklin Arias,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-14,"J.D. Thompson,",Milwaukee Brewers,"BD-14	J.D. Thompson,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-15,"Gavin Fien,",Texas Rangers,"BD-15	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-16,"Ike Irish,",Baltimore Orioles,"BD-16	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-17,"Ethan Conrad,",Chicago Cubs,"BD-17	Ethan Conrad,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-18,"Braden Montgomery,",Chicago White Sox,"BD-18	Braden Montgomery,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-19,"Roc Riggio,",Colorado Rockies,"BD-19	Roc Riggio,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-20,"Steele Hall,",Cincinnati Reds,"BD-20	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-21,"Josiah Hartshorn,",Chicago Cubs,"BD-21	Josiah Hartshorn,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-22,"Zach Root,",Los Angeles Dodgers,"BD-22	Zach Root,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-23,"Riley Quick,",Minnesota Twins,"BD-23	Riley Quick,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-24,"Joswa Lugo,",Los Angeles Angels,"BD-24	Joswa Lugo,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-25,"Seth Hernandez,",Pittsburgh Pirates,"BD-25	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-26,"Thomas White,",Miami Marlins,"BD-26	Thomas White,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-27,"Mason Peters,",Seattle Mariners,"BD-27	Mason Peters,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-28,"Gavin Turley,",Athletics,"BD-28	Gavin Turley,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-29,"Kyson Witherspoon,",Boston Red Sox,"BD-29	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-30,"Jamie Arnold,",Athletics,"BD-30	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-31,"Yandel Ricardo,",Kansas City Royals,"BD-31	Yandel Ricardo,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-32,"Tyson Lewis,",Cincinnati Reds,"BD-32	Tyson Lewis,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-33,"Dante Nori,",Philadelphia Phillies,"BD-33	Dante Nori,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-34,"Andrew Salas,",Miami Marlins,"BD-34	Andrew Salas,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-35,"Arjun Nimmala,",Toronto Blue Jays,"BD-35	Arjun Nimmala,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-36,"Tommy Troy,",Arizona Diamondbacks,"BD-36	Tommy Troy,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-37,"Tyler Bremner,",Los Angeles Angels,"BD-37	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-38,"Nate Snead,",Los Angeles Angels,"BD-38	Nate Snead,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-39,"Eduardo Tait,",Minnesota Twins,"BD-39	Eduardo Tait,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-40,"Gavin Kilen,",San Francisco Giants,"BD-40	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-41,"Ryan Waldschmidt,",Arizona Diamondbacks,"BD-41	Ryan Waldschmidt,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-42,"Jacob Morrison,",Milwaukee Brewers,"BD-42	Jacob Morrison,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-43,"George Lombard Jr.,",New York Yankees,"BD-43	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-44,"Landon Harmon,",Washington Nationals,"BD-44	Landon Harmon,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-45,"Walker Janek,",Houston Astros,"BD-45	Walker Janek,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-46,"Trevor Cohen,",San Francisco Giants,"BD-46	Trevor Cohen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-47,"Colin Yeaman,",Baltimore Orioles,"BD-47	Colin Yeaman,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-48,"Max Clark,",Detroit Tigers,"BD-48	Max Clark,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-49,"Travis Bazzana,",Cleveland Guardians,"BD-49	Travis Bazzana,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-50,"Easton Carmichael,",Pittsburgh Pirates,"BD-50	Easton Carmichael,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-51,"AJ Russell,",Texas Rangers,"BD-51	AJ Russell,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-52,"Pico Kohn,",New York Yankees,"BD-52	Pico Kohn,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-53,"Dominick Reid,",Chicago Cubs,"BD-53	Dominick Reid,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-54,"Marcus Phillips,",Boston Red Sox,"BD-54	Marcus Phillips,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-55,"Jhonny Level,",San Francisco Giants,"BD-55	Jhonny Level,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-56,"Antonio Jimenez,",New York Mets,"BD-56	Antonio Jimenez,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-57,"Matthew Miura,",St. Louis Cardinals,"BD-57	Matthew Miura,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-58,"Ty Harvey,",San Diego Padres,"BD-58	Ty Harvey,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-59,"Kevin McGonigle,",Detroit Tigers,"BD-59	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-60,"Josue Briceño,",Detroit Tigers,"BD-60	Josue Briceño,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-61,"Luke Dickerson,",Washington Nationals,"BD-61	Luke Dickerson,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-62,"Justin Lamkin,",Kansas City Royals,"BD-62	Justin Lamkin,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-63,"Caden Bodine,",Baltimore Orioles,"BD-63	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-64,"Brandon Compton,",Miami Marlins,"BD-64	Brandon Compton,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-65,"Kaeden Kent,",New York Yankees,"BD-65	Kaeden Kent,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-66,"Mason Morris,",Cincinnati Reds,"BD-66	Mason Morris,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-67,"Ethan Frey,",Houston Astros,"BD-67	Ethan Frey,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-68,"Max Williams,",Miami Marlins,"BD-68	Max Williams,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-69,"Korbyn Dickerson,",Seattle Mariners,"BD-69	Korbyn Dickerson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-70,"Tate Southisene,",Atlanta Braves,"BD-70	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-71,"Mitch Voit,",New York Mets,"BD-71	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-72,"Rainiel Rodriguez,",St. Louis Cardinals,"BD-72	Rainiel Rodriguez,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-73,"Tim Piasentin,",Toronto Blue Jays,"BD-73	Tim Piasentin,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-74,"James Tibbs III,",Los Angeles Dodgers,"BD-74	James Tibbs III,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-75,"Jefferson Rojas,",Chicago Cubs,"BD-75	Jefferson Rojas,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-76,"Michael Salina,",San Diego Padres,"BD-76	Michael Salina,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-77,"Ryan Mitchell,",St. Louis Cardinals,"BD-77	Ryan Mitchell,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-78,"JB Middleton,",Colorado Rockies,"BD-78	JB Middleton,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-79,"Riley Kelly,",Colorado Rockies,"BD-79	Riley Kelly,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-80,"Cade Obermueller,",Philadelphia Phillies,"BD-80	Cade Obermueller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-81,"Briggs McKenzie,",Atlanta Braves,"BD-81	Briggs McKenzie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-82,"Joshua Flores,",Milwaukee Brewers,"BD-82	Joshua Flores,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-83,"Gabe Davis,",Chicago White Sox,"BD-83	Gabe Davis,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-84,"Kayson Cunningham,",Arizona Diamondbacks,"BD-84	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-85,"JT Quinn,",Baltimore Orioles,"BD-85	JT Quinn,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-86,"Nolan Sailors,",Kansas City Royals,"BD-86	Nolan Sailors,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-87,"Leo De Vries,",Athletics,"BD-87	Leo De Vries,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-88,"Tommy White,",Athletics,"BD-88	Tommy White,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-89,"Patrick Forbes,",Arizona Diamondbacks,"BD-89	Patrick Forbes,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-90,"Tanner Franklin,",St. Louis Cardinals,"BD-90	Tanner Franklin,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-91,"Cody Miller,",Atlanta Braves,"BD-91	Cody Miller,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-92,"Quentin Young,",Minnesota Twins,"BD-92	Quentin Young,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-93,"Landon Hodge,",Chicago White Sox,"BD-93	Landon Hodge,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-94,"Ryan Sloan,",Seattle Mariners,"BD-94	Ryan Sloan,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-95,"Kash Mayfield,",San Diego Padres,"BD-95	Kash Mayfield,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-96,"Charles Davalan,",Los Angeles Dodgers,"BD-96	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-97,"Jake Cook,",Toronto Blue Jays,"BD-97	Jake Cook,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-98,"Aroon Escobar,",Philadelphia Phillies,"BD-98	Aroon Escobar,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-99,"Cameron Maldonado,",San Francisco Giants,"BD-99	Cameron Maldonado,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-100,"Nick Becker,",Seattle Mariners,"BD-100	Nick Becker,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-101,"Griffin Hugus,",Seattle Mariners,"BD-101	Griffin Hugus,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-102,"Konnor Griffin,",Pittsburgh Pirates,"BD-102	Konnor Griffin,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-103,"Felnin Celesten,",Seattle Mariners,"BD-103	Felnin Celesten,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-104,"Sean Youngerman,",Philadelphia Phillies,"BD-104	Sean Youngerman,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-105,"Luis Peña,",Milwaukee Brewers,"BD-105	Luis Peña,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-106,"Matthew Fisher,",Philadelphia Phillies,"BD-106	Matthew Fisher,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-107,"Yolfran Castillo,",Texas Rangers,"BD-107	Yolfran Castillo,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-108,"Murf Gray,",Pittsburgh Pirates,"BD-108	Murf Gray,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-109,"Mason Neville,",Cincinnati Reds,"BD-109	Mason Neville,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-110,"Esmerlyn Valdez,",Pittsburgh Pirates,"BD-110	Esmerlyn Valdez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-111,"Eduardo Quintero,",Los Angeles Dodgers,"BD-111	Eduardo Quintero,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-112,"Gustavo Melendez,",Pittsburgh Pirates,"BD-112	Gustavo Melendez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-113,"Nate George,",Baltimore Orioles,"BD-113	Nate George,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-114,"Dean Moss,",Tampa Bay Rays,"BD-114	Dean Moss,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-115,"Elian Peña,",New York Mets,"BD-115	Elian Peña,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-116,"Anthony Eyanson,",Boston Red Sox,"BD-116	Anthony Eyanson,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-117,"Mason McConnaughey,",Texas Rangers,"BD-117	Mason McConnaughey,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-118,"Michael Lombardi,",Kansas City Royals,"BD-118	Michael Lombardi,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-119,"Josh Owens,",Texas Rangers,"BD-119	Josh Owens,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-120,"Kaelen Culpepper,",Minnesota Twins,"BD-120	Kaelen Culpepper,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-121,"Theo Gillen,",Tampa Bay Rays,"BD-121	Theo Gillen,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-122,"Cam Caminiti,",Atlanta Braves,"BD-122	Cam Caminiti,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-123,"Luke Lacourse,",Los Angeles Angels,"BD-123	Luke Lacourse,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-124,"Conor Essenburg,",Atlanta Braves,"BD-124	Conor Essenburg,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-125,"Joshua Kuroda-Grauer,",Athletics,"BD-125	Joshua Kuroda-Grauer,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-126,"Adonys Guzman,",Pittsburgh Pirates,"BD-126	Adonys Guzman,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-127,"Christian Foutch,",Boston Red Sox,"BD-127	Christian Foutch,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-128,"Jake Munroe,",Los Angeles Angels,"BD-128	Jake Munroe,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-129,"Dean Curley,",Cleveland Guardians,"BD-129	Dean Curley,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-130,"Cameron Nelson,",Colorado Rockies,"BD-130	Cameron Nelson,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-131,"Kaleb Wing,",Chicago Cubs,"BD-131	Kaleb Wing,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-132,"Carlos Lagrange,",New York Yankees,"BD-132	Carlos Lagrange,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-133,"Alfredo Duno,",Cincinnati Reds,"BD-133	Alfredo Duno,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-134,"Aaron Walton,",Cleveland Guardians,"BD-134	Aaron Walton,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-135,"Devin Taylor,",Athletics,"BD-135	Devin Taylor,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-136,"Charlie Condon,",Colorado Rockies,"BD-136	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-137,"Travis Sykora,",Washington Nationals,"BD-137	Travis Sykora,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-138,"Carson Benge,",New York Mets,"BD-138	Carson Benge,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-139,"Dakota Jordan,",San Francisco Giants,"BD-139	Dakota Jordan,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-140,"Cody Bowker,",Philadelphia Phillies,"BD-140	Cody Bowker,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-141,"Ben Jacobs,",Detroit Tigers,"BD-141	Ben Jacobs,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-142,"Chase Shores,",Los Angeles Angels,"BD-142	Chase Shores,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-143,"Brody Brecht,",Colorado Rockies,"BD-143	Brody Brecht,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-144,"Kyle Lodise,",Chicago White Sox,"BD-144	Kyle Lodise,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-145,"JJ Wetherholt,",St. Louis Cardinals,"BD-145	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-146,"Dax Kilby,",New York Yankees,"BD-146	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-147,"Jared Thomas,",Colorado Rockies,"BD-147	Jared Thomas,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-148,"Ethan Hedges,",Colorado Rockies,"BD-148	Ethan Hedges,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-149,"Sean Episcope,",Milwaukee Brewers,"BD-149	Sean Episcope,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-150,"Jack Gurevitch,",St. Louis Cardinals,"BD-150	Jack Gurevitch,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-151,"Ethan Petry,",Washington Nationals,"BD-151	Ethan Petry,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-152,"Slade Caldwell,",Arizona Diamondbacks,"BD-152	Slade Caldwell,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-153,"Johnny Slawinski,",Los Angeles Angels,"BD-153	Johnny Slawinski,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-154,"Matt Barr,",Minnesota Twins,"BD-154	Matt Barr,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-155,"Bryce Cunningham,",New York Yankees,"BD-155	Bryce Cunningham,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-156,"Michael Oliveto,",Detroit Tigers,"BD-156	Michael Oliveto,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-157,"Cooper Pratt,",Milwaukee Brewers,"BD-157	Cooper Pratt,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-158,"Landyn Vidourek,",Los Angeles Dodgers,"BD-158	Landyn Vidourek,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-159,"Walker Jenkins,",Minnesota Twins,"BD-159	Walker Jenkins,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-160,"Blake Mitchell,",Kansas City Royals,"BD-160	Blake Mitchell,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-161,"JD Dix,",Arizona Diamondbacks,"BD-161	JD Dix,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-162,"Jordan Yost,",Detroit Tigers,"BD-162	Jordan Yost,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-163,"Jonny Farmelo,",Seattle Mariners,"BD-163	Jonny Farmelo,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-164,"James Ellwanger,",Minnesota Twins,"BD-164	James Ellwanger,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-165,"Ching-Hsien Ko,",Los Angeles Dodgers,"BD-165	Ching-Hsien Ko,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-166,"Cooper Flemming,",Tampa Bay Rays,"BD-166	Cooper Flemming,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-167,"Hagen Smith,",Chicago White Sox,"BD-167	Hagen Smith,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-168,"Thayron Liranzo,",Detroit Tigers,"BD-168	Thayron Liranzo,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-169,"Sebastian Walcott,",Texas Rangers,"BD-169	Sebastian Walcott,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-170,"Brian Curley,",Arizona Diamondbacks,"BD-170	Brian Curley,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-171,"Grant Richardson,",Athletics,"BD-171	Grant Richardson,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-172,"Malachi Witherspoon,",Detroit Tigers,"BD-172	Malachi Witherspoon,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-173,"Jaxon Wiggins,",Chicago Cubs,"BD-173	Jaxon Wiggins,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-174,"Shotaro Morii,",Athletics,"BD-174	Shotaro Morii,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-175,"Dean Livingston,",Arizona Diamondbacks,"BD-175	Dean Livingston,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-176,"Cameron Millar,",Kansas City Royals,"BD-176	Cameron Millar,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-177,"Yohandy Morales,",Washington Nationals,"BD-177	Yohandy Morales,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-178,"Sean Gamble,",Kansas City Royals,"BD-178	Sean Gamble,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-179,"Peter Kussow,",New York Mets,"BD-179	Peter Kussow,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-180,"Aidan Miller,",Philadelphia Phillies,"BD-180	Aidan Miller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-181,"Miguel Sime Jr.,",Washington Nationals,"BD-181	Miguel Sime Jr.,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-182,"Josuar Gonzalez,",San Francisco Giants,"BD-182	Josuar Gonzalez,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-183,"Cade Crossland,",St. Louis Cardinals,"BD-183	Cade Crossland,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-184,"Caleb Bonemer,",Chicago White Sox,"BD-184	Caleb Bonemer,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-185,"Josh Hammond,",Kansas City Royals,"BD-185	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-186,"Joseph Dzierwa,",Baltimore Orioles,"BD-186	Joseph Dzierwa,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-187,"Sammy Stafura,",Pittsburgh Pirates,"BD-187	Sammy Stafura,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-188,"Jacob Reimer,",New York Mets,"BD-188	Jacob Reimer,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-189,"Dominic Fritton,",Tampa Bay Rays,"BD-189	Dominic Fritton,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-190,"Ryan Wideman,",San Diego Padres,"BD-190	Ryan Wideman,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-191,"Malcolm Moore,",Texas Rangers,"BD-191	Malcolm Moore,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-192,"Nolan Schubart,",Cleveland Guardians,"BD-192	Nolan Schubart,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-193,"Aaron Watson,",Cincinnati Reds,"BD-193	Aaron Watson,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-194,"Brady Ebel,",Milwaukee Brewers,"BD-194	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-195,"Caleb Leys,",Detroit Tigers,"BD-195	Caleb Leys,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-196,"Jesús Made,",Milwaukee Brewers,"BD-196	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-197,"CJ Gray,",Los Angeles Angels,"BD-197	CJ Gray,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-198,"Enrique Bradfield Jr.,",Baltimore Orioles,"BD-198	Enrique Bradfield Jr.,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-199,"JR Ritchie,",Atlanta Braves,"BD-199	JR Ritchie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set,200,BD-200,"Kane Kepley,",Chicago Cubs,"BD-200	Kane Kepley,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-1,"Eli Willits,",Washington Nationals,"BDC-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-2,"Xavier Neyens,",Houston Astros,"BDC-2	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-3,"Kade Anderson,",Seattle Mariners,"BDC-3	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-4,"Gage Wood,",Philadelphia Phillies,"BDC-4	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-5,"Max Belyeu,",Colorado Rockies,"BDC-5	Max Belyeu,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-6,"Aidan West,",Los Angeles Dodgers,"BDC-6	Aidan West,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-7,"Taitn Gray,",Tampa Bay Rays,"BDC-7	Taitn Gray,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-8,"JoJo Parker,",Toronto Blue Jays,"BDC-8	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-9,"Spencer Jones,",New York Yankees,"BDC-9	Spencer Jones,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-10,"Billy Carlson,",Chicago White Sox,"BDC-10	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-11,"Mike Sirota,",Los Angeles Dodgers,"BDC-11	Mike Sirota,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-12,"Liam Doyle,",St. Louis Cardinals,"BDC-12	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-13,"Franklin Arias,",Boston Red Sox,"BDC-13	Franklin Arias,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-14,"J.D. Thompson,",Milwaukee Brewers,"BDC-14	J.D. Thompson,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-15,"Gavin Fien,",Texas Rangers,"BDC-15	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-16,"Ike Irish,",Baltimore Orioles,"BDC-16	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-17,"Ethan Conrad,",Chicago Cubs,"BDC-17	Ethan Conrad,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-18,"Braden Montgomery,",Chicago White Sox,"BDC-18	Braden Montgomery,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-19,"Roc Riggio,",Colorado Rockies,"BDC-19	Roc Riggio,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-20,"Steele Hall,",Cincinnati Reds,"BDC-20	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-21,"Josiah Hartshorn,",Chicago Cubs,"BDC-21	Josiah Hartshorn,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-22,"Zach Root,",Los Angeles Dodgers,"BDC-22	Zach Root,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-23,"Riley Quick,",Minnesota Twins,"BDC-23	Riley Quick,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-24,"Joswa Lugo,",Los Angeles Angels,"BDC-24	Joswa Lugo,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-25,"Seth Hernandez,",Pittsburgh Pirates,"BDC-25	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-26,"Thomas White,",Miami Marlins,"BDC-26	Thomas White,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-27,"Mason Peters,",Seattle Mariners,"BDC-27	Mason Peters,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-28,"Gavin Turley,",Athletics,"BDC-28	Gavin Turley,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-29,"Kyson Witherspoon,",Boston Red Sox,"BDC-29	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-30,"Jamie Arnold,",Athletics,"BDC-30	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-31,"Yandel Ricardo,",Kansas City Royals,"BDC-31	Yandel Ricardo,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-32,"Tyson Lewis,",Cincinnati Reds,"BDC-32	Tyson Lewis,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-33,"Dante Nori,",Philadelphia Phillies,"BDC-33	Dante Nori,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-34,"Andrew Salas,",Miami Marlins,"BDC-34	Andrew Salas,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-35,"Arjun Nimmala,",Toronto Blue Jays,"BDC-35	Arjun Nimmala,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-36,"Tommy Troy,",Arizona Diamondbacks,"BDC-36	Tommy Troy,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-37,"Tyler Bremner,",Los Angeles Angels,"BDC-37	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-38,"Nate Snead,",Los Angeles Angels,"BDC-38	Nate Snead,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-39,"Eduardo Tait,",Minnesota Twins,"BDC-39	Eduardo Tait,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-40,"Gavin Kilen,",San Francisco Giants,"BDC-40	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-41,"Ryan Waldschmidt,",Arizona Diamondbacks,"BDC-41	Ryan Waldschmidt,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-42,"Jacob Morrison,",Milwaukee Brewers,"BDC-42	Jacob Morrison,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-43,"George Lombard Jr.,",New York Yankees,"BDC-43	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-44,"Landon Harmon,",Washington Nationals,"BDC-44	Landon Harmon,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-45,"Walker Janek,",Houston Astros,"BDC-45	Walker Janek,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-46,"Trevor Cohen,",San Francisco Giants,"BDC-46	Trevor Cohen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-47,"Colin Yeaman,",Baltimore Orioles,"BDC-47	Colin Yeaman,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-48,"Max Clark,",Detroit Tigers,"BDC-48	Max Clark,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-49,"Travis Bazzana,",Cleveland Guardians,"BDC-49	Travis Bazzana,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-50,"Easton Carmichael,",Pittsburgh Pirates,"BDC-50	Easton Carmichael,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-51,"AJ Russell,",Texas Rangers,"BDC-51	AJ Russell,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-52,"Pico Kohn,",New York Yankees,"BDC-52	Pico Kohn,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-53,"Dominick Reid,",Chicago Cubs,"BDC-53	Dominick Reid,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-54,"Marcus Phillips,",Boston Red Sox,"BDC-54	Marcus Phillips,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-55,"Jhonny Level,",San Francisco Giants,"BDC-55	Jhonny Level,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-56,"Antonio Jimenez,",New York Mets,"BDC-56	Antonio Jimenez,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-57,"Matthew Miura,",St. Louis Cardinals,"BDC-57	Matthew Miura,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-58,"Ty Harvey,",San Diego Padres,"BDC-58	Ty Harvey,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-59,"Kevin McGonigle,",Detroit Tigers,"BDC-59	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-60,"Josue Briceño,",Detroit Tigers,"BDC-60	Josue Briceño,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-61,"Luke Dickerson,",Washington Nationals,"BDC-61	Luke Dickerson,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-62,"Justin Lamkin,",Kansas City Royals,"BDC-62	Justin Lamkin,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-63,"Caden Bodine,",Baltimore Orioles,"BDC-63	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-64,"Brandon Compton,",Miami Marlins,"BDC-64	Brandon Compton,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-65,"Kaeden Kent,",New York Yankees,"BDC-65	Kaeden Kent,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-66,"Mason Morris,",Cincinnati Reds,"BDC-66	Mason Morris,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-67,"Ethan Frey,",Houston Astros,"BDC-67	Ethan Frey,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-68,"Max Williams,",Miami Marlins,"BDC-68	Max Williams,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-69,"Korbyn Dickerson,",Seattle Mariners,"BDC-69	Korbyn Dickerson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-70,"Tate Southisene,",Atlanta Braves,"BDC-70	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-71,"Mitch Voit,",New York Mets,"BDC-71	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-72,"Rainiel Rodriguez,",St. Louis Cardinals,"BDC-72	Rainiel Rodriguez,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-73,"Tim Piasentin,",Toronto Blue Jays,"BDC-73	Tim Piasentin,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-74,"James Tibbs III,",Los Angeles Dodgers,"BDC-74	James Tibbs III,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-75,"Jefferson Rojas,",Chicago Cubs,"BDC-75	Jefferson Rojas,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-76,"Michael Salina,",San Diego Padres,"BDC-76	Michael Salina,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-77,"Ryan Mitchell,",St. Louis Cardinals,"BDC-77	Ryan Mitchell,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-78,"JB Middleton,",Colorado Rockies,"BDC-78	JB Middleton,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-79,"Riley Kelly,",Colorado Rockies,"BDC-79	Riley Kelly,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-80,"Cade Obermueller,",Philadelphia Phillies,"BDC-80	Cade Obermueller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-81,"Briggs McKenzie,",Atlanta Braves,"BDC-81	Briggs McKenzie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-82,"Joshua Flores,",Milwaukee Brewers,"BDC-82	Joshua Flores,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-83,"Gabe Davis,",Chicago White Sox,"BDC-83	Gabe Davis,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-84,"Kayson Cunningham,",Arizona Diamondbacks,"BDC-84	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-85,"JT Quinn,",Baltimore Orioles,"BDC-85	JT Quinn,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-86,"Nolan Sailors,",Kansas City Royals,"BDC-86	Nolan Sailors,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-87,"Leo De Vries,",Athletics,"BDC-87	Leo De Vries,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-88,"Tommy White,",Athletics,"BDC-88	Tommy White,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-89,"Patrick Forbes,",Arizona Diamondbacks,"BDC-89	Patrick Forbes,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-90,"Tanner Franklin,",St. Louis Cardinals,"BDC-90	Tanner Franklin,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-91,"Cody Miller,",Atlanta Braves,"BDC-91	Cody Miller,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-92,"Quentin Young,",Minnesota Twins,"BDC-92	Quentin Young,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-93,"Landon Hodge,",Chicago White Sox,"BDC-93	Landon Hodge,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-94,"Ryan Sloan,",Seattle Mariners,"BDC-94	Ryan Sloan,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-95,"Kash Mayfield,",San Diego Padres,"BDC-95	Kash Mayfield,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-96,"Charles Davalan,",Los Angeles Dodgers,"BDC-96	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-97,"Jake Cook,",Toronto Blue Jays,"BDC-97	Jake Cook,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-98,"Aroon Escobar,",Philadelphia Phillies,"BDC-98	Aroon Escobar,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-99,"Cameron Maldonado,",San Francisco Giants,"BDC-99	Cameron Maldonado,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-100,"Nick Becker,",Seattle Mariners,"BDC-100	Nick Becker,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-101,"Griffin Hugus,",Seattle Mariners,"BDC-101	Griffin Hugus,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-102,"Konnor Griffin,",Pittsburgh Pirates,"BDC-102	Konnor Griffin,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-103,"Felnin Celesten,",Seattle Mariners,"BDC-103	Felnin Celesten,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-104,"Sean Youngerman,",Philadelphia Phillies,"BDC-104	Sean Youngerman,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-105,"Luis Peña,",Milwaukee Brewers,"BDC-105	Luis Peña,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-106,"Matthew Fisher,",Philadelphia Phillies,"BDC-106	Matthew Fisher,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-107,"Yolfran Castillo,",Texas Rangers,"BDC-107	Yolfran Castillo,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-108,"Murf Gray,",Pittsburgh Pirates,"BDC-108	Murf Gray,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-109,"Mason Neville,",Cincinnati Reds,"BDC-109	Mason Neville,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-110,"Esmerlyn Valdez,",Pittsburgh Pirates,"BDC-110	Esmerlyn Valdez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-111,"Eduardo Quintero,",Los Angeles Dodgers,"BDC-111	Eduardo Quintero,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-112,"Gustavo Melendez,",Pittsburgh Pirates,"BDC-112	Gustavo Melendez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-113,"Nate George,",Baltimore Orioles,"BDC-113	Nate George,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-114,"Dean Moss,",Tampa Bay Rays,"BDC-114	Dean Moss,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-115,"Elian Peña,",New York Mets,"BDC-115	Elian Peña,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-116,"Anthony Eyanson,",Boston Red Sox,"BDC-116	Anthony Eyanson,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-117,"Mason McConnaughey,",Texas Rangers,"BDC-117	Mason McConnaughey,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-118,"Michael Lombardi,",Kansas City Royals,"BDC-118	Michael Lombardi,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-119,"Josh Owens,",Texas Rangers,"BDC-119	Josh Owens,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-120,"Kaelen Culpepper,",Minnesota Twins,"BDC-120	Kaelen Culpepper,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-121,"Theo Gillen,",Tampa Bay Rays,"BDC-121	Theo Gillen,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-122,"Cam Caminiti,",Atlanta Braves,"BDC-122	Cam Caminiti,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-123,"Luke Lacourse,",Los Angeles Angels,"BDC-123	Luke Lacourse,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-124,"Conor Essenburg,",Atlanta Braves,"BDC-124	Conor Essenburg,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-125,"Joshua Kuroda-Grauer,",Athletics,"BDC-125	Joshua Kuroda-Grauer,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-126,"Adonys Guzman,",Pittsburgh Pirates,"BDC-126	Adonys Guzman,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-127,"Christian Foutch,",Boston Red Sox,"BDC-127	Christian Foutch,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-128,"Jake Munroe,",Los Angeles Angels,"BDC-128	Jake Munroe,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-129,"Dean Curley,",Cleveland Guardians,"BDC-129	Dean Curley,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-130,"Cameron Nelson,",Colorado Rockies,"BDC-130	Cameron Nelson,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-131,"Kaleb Wing,",Chicago Cubs,"BDC-131	Kaleb Wing,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-132,"Carlos Lagrange,",New York Yankees,"BDC-132	Carlos Lagrange,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-133,"Alfredo Duno,",Cincinnati Reds,"BDC-133	Alfredo Duno,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-134,"Aaron Walton,",Cleveland Guardians,"BDC-134	Aaron Walton,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-135,"Devin Taylor,",Athletics,"BDC-135	Devin Taylor,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-136,"Charlie Condon,",Colorado Rockies,"BDC-136	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-137,"Travis Sykora,",Washington Nationals,"BDC-137	Travis Sykora,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-138,"Carson Benge,",New York Mets,"BDC-138	Carson Benge,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-139,"Dakota Jordan,",San Francisco Giants,"BDC-139	Dakota Jordan,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-140,"Cody Bowker,",Philadelphia Phillies,"BDC-140	Cody Bowker,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-141,"Ben Jacobs,",Detroit Tigers,"BDC-141	Ben Jacobs,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-142,"Chase Shores,",Los Angeles Angels,"BDC-142	Chase Shores,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-143,"Brody Brecht,",Colorado Rockies,"BDC-143	Brody Brecht,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-144,"Kyle Lodise,",Chicago White Sox,"BDC-144	Kyle Lodise,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-145,"JJ Wetherholt,",St. Louis Cardinals,"BDC-145	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-146,"Dax Kilby,",New York Yankees,"BDC-146	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-147,"Jared Thomas,",Colorado Rockies,"BDC-147	Jared Thomas,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-148,"Ethan Hedges,",Colorado Rockies,"BDC-148	Ethan Hedges,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-149,"Sean Episcope,",Milwaukee Brewers,"BDC-149	Sean Episcope,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-150,"Jack Gurevitch,",St. Louis Cardinals,"BDC-150	Jack Gurevitch,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-151,"Ethan Petry,",Washington Nationals,"BDC-151	Ethan Petry,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-152,"Slade Caldwell,",Arizona Diamondbacks,"BDC-152	Slade Caldwell,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-153,"Johnny Slawinski,",Los Angeles Angels,"BDC-153	Johnny Slawinski,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-154,"Matt Barr,",Minnesota Twins,"BDC-154	Matt Barr,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-155,"Bryce Cunningham,",New York Yankees,"BDC-155	Bryce Cunningham,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-156,"Michael Oliveto,",Detroit Tigers,"BDC-156	Michael Oliveto,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-157,"Cooper Pratt,",Milwaukee Brewers,"BDC-157	Cooper Pratt,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-158,"Landyn Vidourek,",Los Angeles Dodgers,"BDC-158	Landyn Vidourek,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-159,"Walker Jenkins,",Minnesota Twins,"BDC-159	Walker Jenkins,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-160,"Blake Mitchell,",Kansas City Royals,"BDC-160	Blake Mitchell,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-161,"JD Dix,",Arizona Diamondbacks,"BDC-161	JD Dix,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-162,"Jordan Yost,",Detroit Tigers,"BDC-162	Jordan Yost,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-163,"Jonny Farmelo,",Seattle Mariners,"BDC-163	Jonny Farmelo,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-164,"James Ellwanger,",Minnesota Twins,"BDC-164	James Ellwanger,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-165,"Ching-Hsien Ko,",Los Angeles Dodgers,"BDC-165	Ching-Hsien Ko,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-166,"Cooper Flemming,",Tampa Bay Rays,"BDC-166	Cooper Flemming,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-167,"Hagen Smith,",Chicago White Sox,"BDC-167	Hagen Smith,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-168,"Thayron Liranzo,",Detroit Tigers,"BDC-168	Thayron Liranzo,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-169,"Sebastian Walcott,",Texas Rangers,"BDC-169	Sebastian Walcott,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-170,"Brian Curley,",Arizona Diamondbacks,"BDC-170	Brian Curley,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-171,"Grant Richardson,",Athletics,"BDC-171	Grant Richardson,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-172,"Malachi Witherspoon,",Detroit Tigers,"BDC-172	Malachi Witherspoon,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-173,"Jaxon Wiggins,",Chicago Cubs,"BDC-173	Jaxon Wiggins,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-174,"Shotaro Morii,",Athletics,"BDC-174	Shotaro Morii,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-175,"Dean Livingston,",Arizona Diamondbacks,"BDC-175	Dean Livingston,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-176,"Cameron Millar,",Kansas City Royals,"BDC-176	Cameron Millar,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-177,"Yohandy Morales,",Washington Nationals,"BDC-177	Yohandy Morales,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-178,"Sean Gamble,",Kansas City Royals,"BDC-178	Sean Gamble,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-179,"Peter Kussow,",New York Mets,"BDC-179	Peter Kussow,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-180,"Aidan Miller,",Philadelphia Phillies,"BDC-180	Aidan Miller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-181,"Miguel Sime Jr.,",Washington Nationals,"BDC-181	Miguel Sime Jr.,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-182,"Josuar Gonzalez,",San Francisco Giants,"BDC-182	Josuar Gonzalez,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-183,"Cade Crossland,",St. Louis Cardinals,"BDC-183	Cade Crossland,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-184,"Caleb Bonemer,",Chicago White Sox,"BDC-184	Caleb Bonemer,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-185,"Josh Hammond,",Kansas City Royals,"BDC-185	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-186,"Joseph Dzierwa,",Baltimore Orioles,"BDC-186	Joseph Dzierwa,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-187,"Sammy Stafura,",Pittsburgh Pirates,"BDC-187	Sammy Stafura,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-188,"Jacob Reimer,",New York Mets,"BDC-188	Jacob Reimer,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-189,"Dominic Fritton,",Tampa Bay Rays,"BDC-189	Dominic Fritton,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-190,"Ryan Wideman,",San Diego Padres,"BDC-190	Ryan Wideman,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-191,"Malcolm Moore,",Texas Rangers,"BDC-191	Malcolm Moore,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-192,"Nolan Schubart,",Cleveland Guardians,"BDC-192	Nolan Schubart,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-193,"Aaron Watson,",Cincinnati Reds,"BDC-193	Aaron Watson,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-194,"Brady Ebel,",Milwaukee Brewers,"BDC-194	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-195,"Caleb Leys,",Detroit Tigers,"BDC-195	Caleb Leys,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-196,"Jesús Made,",Milwaukee Brewers,"BDC-196	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-197,"CJ Gray,",Los Angeles Angels,"BDC-197	CJ Gray,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-198,"Enrique Bradfield Jr.,",Baltimore Orioles,"BDC-198	Enrique Bradfield Jr.,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-199,"JR Ritchie,",Atlanta Braves,"BDC-199	JR Ritchie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Chrome,200,BDC-200,"Kane Kepley,",Chicago Cubs,"BDC-200	Kane Kepley,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-1,"Eli Willits,",Washington Nationals,"BDC-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-2,"Xavier Neyens,",Houston Astros,"BDC-2	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-3,"Kade Anderson,",Seattle Mariners,"BDC-3	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-4,"Gage Wood,",Philadelphia Phillies,"BDC-4	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-8,"JoJo Parker,",Toronto Blue Jays,"BDC-8	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-10,"Billy Carlson,",Chicago White Sox,"BDC-10	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-12,"Liam Doyle,",St. Louis Cardinals,"BDC-12	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-15,"Gavin Fien,",Texas Rangers,"BDC-15	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-16,"Ike Irish,",Baltimore Orioles,"BDC-16	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-17,"Ethan Conrad,",Chicago Cubs,"BDC-17	Ethan Conrad,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-20,"Steele Hall,",Cincinnati Reds,"BDC-20	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-25,"Seth Hernandez,",Pittsburgh Pirates,"BDC-25	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-29,"Kyson Witherspoon,",Boston Red Sox,"BDC-29	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-30,"Jamie Arnold,",Athletics,"BDC-30	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-37,"Tyler Bremner,",Los Angeles Angels,"BDC-37	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-40,"Gavin Kilen,",San Francisco Giants,"BDC-40	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-70,"Tate Southisene,",Atlanta Braves,"BDC-70	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-84,"Kayson Cunningham,",Arizona Diamondbacks,"BDC-84	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-96,"Charles Davalan,",Los Angeles Dodgers,"BDC-96	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Etched In Glass Variations,20,BDC-185,"Josh Hammond,",Kansas City Royals,"BDC-185	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-1,"Eli Willits,",Washington Nationals,"BDC-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-3,"Kade Anderson,",Seattle Mariners,"BDC-3	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-4,"Gage Wood,",Philadelphia Phillies,"BDC-4	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-8,"JoJo Parker,",Toronto Blue Jays,"BDC-8	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-10,"Billy Carlson,",Chicago White Sox,"BDC-10	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-12,"Liam Doyle,",St. Louis Cardinals,"BDC-12	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-16,"Ike Irish,",Baltimore Orioles,"BDC-16	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-25,"Seth Hernandez,",Pittsburgh Pirates,"BDC-25	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-30,"Jamie Arnold,",Athletics,"BDC-30	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Base Set - Image Variations,10,BDC-37,"Tyler Bremner,",Los Angeles Angels,"BDC-37	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-3,"Kade Anderson,",LSU,"BDC-3	Kade Anderson,	LSU",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-4,"Gage Wood,",Arkansas,"BDC-4	Gage Wood,	Arkansas",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-12,"Liam Doyle,",Tennessee,"BDC-12	Liam Doyle,	Tennessee",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-16,"Ike Irish,",Auburn,"BDC-16	Ike Irish,	Auburn",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-29,"Kyson Witherspoon,",Oklahoma,"BDC-29	Kyson Witherspoon,	Oklahoma",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-30,"Jamie Arnold,",Florida State,"BDC-30	Jamie Arnold,	Florida State",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-37,"Tyler Bremner,",UC Santa Barbara,"BDC-37	Tyler Bremner,	UC Santa Barbara",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-40,"Gavin Kilen,",Tennessee,"BDC-40	Gavin Kilen,	Tennessee",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-96,"Charles Davalan,",Arkansas,"BDC-96	Charles Davalan,	Arkansas",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Chrome Prospects - College Variations,10,BDC-129,"Dean Curley,",Tennessee,"BDC-129	Dean Curley,	Tennessee",False
+2025_bowman_draft,2025,Bowman,Draft,Base - Retrofractor Variation,2,BD-201,"Sadaharu Oh,",Yomiuri Giants,"BD-201	Sadaharu Oh,	Yomiuri Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Base - Retrofractor Variation,2,BD-202,"Lou Brock,",Chicago Cubs,"BD-202	Lou Brock,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AE,"Anthony Eyanson,",Boston Red Sox,"CPA-AE	Anthony Eyanson,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AG,"Adonys Guzman,",Pittsburgh Pirates,"CPA-AG	Adonys Guzman,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AJ,"Antonio Jimenez,",New York Mets,"CPA-AJ	Antonio Jimenez,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AR,"AJ Russell,",Texas Rangers,"CPA-AR	AJ Russell,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AW,"Aaron Watson,",Cincinnati Reds,"CPA-AW	Aaron Watson,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AWA,"Aaron Walton,",Cleveland Guardians,"CPA-AWA	Aaron Walton,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-AWE,"Aidan West,",Los Angeles Dodgers,"CPA-AWE	Aidan West,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-BC,"Billy Carlson,",Chicago White Sox,"CPA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-BCO,"Brandon Compton,",Miami Marlins,"CPA-BCO	Brandon Compton,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-BE,"Brady Ebel,",Milwaukee Brewers,"CPA-BE	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-BM,"Briggs McKenzie,",Atlanta Braves,"CPA-BM	Briggs McKenzie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CB,"Caden Bodine,",Baltimore Orioles,"CPA-CB	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CD,"Charles Davalan,",Los Angeles Dodgers,"CPA-CD	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CE,"Conor Essenburg,",Atlanta Braves,"CPA-CE	Conor Essenburg,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CF,"Cooper Flemming,",Tampa Bay Rays,"CPA-CF	Cooper Flemming,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CM,"Cody Miller,",Atlanta Braves,"CPA-CM	Cody Miller,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CMA,"Cameron Maldonado,",San Francisco Giants,"CPA-CMA	Cameron Maldonado,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CMI,"Cameron Millar,",Kansas City Royals,"CPA-CMI	Cameron Millar,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CN,"Cameron Nelson,",Colorado Rockies,"CPA-CN	Cameron Nelson,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CO,"Cade Obermueller,",Philadelphia Phillies,"CPA-CO	Cade Obermueller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CS,"Chase Shores,",Los Angeles Angels,"CPA-CS	Chase Shores,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-CY,"Colin Yeaman,",Baltimore Orioles,"CPA-CY	Colin Yeaman,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-DC,"Dean Curley,",Cleveland Guardians,"CPA-DC	Dean Curley,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-DK,"Dax Kilby,",New York Yankees,"CPA-DK	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-DL,"Dean Livingston,",Arizona Diamondbacks,"CPA-DL	Dean Livingston,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-DM,"Dean Moss,",Tampa Bay Rays,"CPA-DM	Dean Moss,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-DT,"Devin Taylor,",Athletics,"CPA-DT	Devin Taylor,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-EC,"Ethan Conrad,",Chicago Cubs,"CPA-EC	Ethan Conrad,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-ECA,"Easton Carmichael,",Pittsburgh Pirates,"CPA-ECA	Easton Carmichael,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-EF,"Ethan Frey,",Houston Astros,"CPA-EF	Ethan Frey,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-EHE,"Ethan Hedges,",Colorado Rockies,"CPA-EHE	Ethan Hedges,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-EP,"Ethan Petry,",Washington Nationals,"CPA-EP	Ethan Petry,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-EW,"Eli Willits,",Washington Nationals,"CPA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-GF,"Gavin Fien,",Texas Rangers,"CPA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-GH,"Griffin Hugus,",Seattle Mariners,"CPA-GH	Griffin Hugus,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-GK,"Gavin Kilen,",San Francisco Giants,"CPA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-GM,"Gustavo Melendez,",Pittsburgh Pirates,"CPA-GM	Gustavo Melendez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-GW,"Gage Wood,",Philadelphia Phillies,"CPA-GW	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-II,"Ike Irish,",Baltimore Orioles,"CPA-II	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JA,"Jamie Arnold,",Athletics,"CPA-JA	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JC,"Jake Cook,",Toronto Blue Jays,"CPA-JC	Jake Cook,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JD,"Joseph Dzierwa,",Baltimore Orioles,"CPA-JD	Joseph Dzierwa,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JG,"Jack Gurevitch,",St. Louis Cardinals,"CPA-JG	Jack Gurevitch,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JH,"Josh Hammond,",Kansas City Royals,"CPA-JH	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JHA,"Josiah Hartshorn,",Chicago Cubs,"CPA-JHA	Josiah Hartshorn,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JLA,"Justin Lamkin,",Kansas City Royals,"CPA-JLA	Justin Lamkin,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JM,"JB Middleton,",Colorado Rockies,"CPA-JM	JB Middleton,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JMO,"Jacob Morrison,",Milwaukee Brewers,"CPA-JMO	Jacob Morrison,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JMU,"Jake Munroe,",Los Angeles Angels,"CPA-JMU	Jake Munroe,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JO,"Josh Owens,",Texas Rangers,"CPA-JO	Josh Owens,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JP,"JoJo Parker,",Toronto Blue Jays,"CPA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JQ,"JT Quinn,",Baltimore Orioles,"CPA-JQ	JT Quinn,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JS,"Johnny Slawinski,",Los Angeles Angels,"CPA-JS	Johnny Slawinski,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JT,"J.D. Thompson,",Milwaukee Brewers,"CPA-JT	J.D. Thompson,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-JY,"Jordan Yost,",Detroit Tigers,"CPA-JY	Jordan Yost,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KA,"Kade Anderson,",Seattle Mariners,"CPA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KC,"Kayson Cunningham,",Arizona Diamondbacks,"CPA-KC	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KK,"Kane Kepley,",Chicago Cubs,"CPA-KK	Kane Kepley,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KKE,"Kaeden Kent,",New York Yankees,"CPA-KKE	Kaeden Kent,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KL,"Kyle Lodise,",Chicago White Sox,"CPA-KL	Kyle Lodise,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-KW,"Kyson Witherspoon,",Boston Red Sox,"CPA-KW	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-LD,"Liam Doyle,",St. Louis Cardinals,"CPA-LD	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-LH,"Landon Harmon,",Washington Nationals,"CPA-LH	Landon Harmon,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-LHO,"Landon Hodge,",Chicago White Sox,"CPA-LHO	Landon Hodge,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-LV,"Landyn Vidourek,",Los Angeles Dodgers,"CPA-LV	Landyn Vidourek,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MB,"Max Belyeu,",Colorado Rockies,"CPA-MB	Max Belyeu,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MF,"Matthew Fisher,",Philadelphia Phillies,"CPA-MF	Matthew Fisher,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MG,"Murf Gray,",Pittsburgh Pirates,"CPA-MG	Murf Gray,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-ML,"Michael Lombardi,",Kansas City Royals,"CPA-ML	Michael Lombardi,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MM,"Mason Morris,",Cincinnati Reds,"CPA-MM	Mason Morris,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MMI,"Matthew Miura,",St. Louis Cardinals,"CPA-MMI	Matthew Miura,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MN,"Mason Neville,",Cincinnati Reds,"CPA-MN	Mason Neville,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MO,"Michael Oliveto,",Detroit Tigers,"CPA-MO	Michael Oliveto,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MP,"Marcus Phillips,",Boston Red Sox,"CPA-MP	Marcus Phillips,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MS,"Miguel Sime Jr.,",Washington Nationals,"CPA-MS	Miguel Sime Jr.,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MV,"Mitch Voit,",New York Mets,"CPA-MV	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MW,"Malachi Witherspoon,",Detroit Tigers,"CPA-MW	Malachi Witherspoon,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-MWI,"Max Williams,",Miami Marlins,"CPA-MWI	Max Williams,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-NB,"Nick Becker,",Seattle Mariners,"CPA-NB	Nick Becker,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-NS,"Nolan Schubart,",Cleveland Guardians,"CPA-NS	Nolan Schubart,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-NSA,"Nolan Sailors,",Kansas City Royals,"CPA-NSA	Nolan Sailors,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-NSN,"Nate Snead,",Los Angeles Angels,"CPA-NSN	Nate Snead,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-PF,"Patrick Forbes,",Arizona Diamondbacks,"CPA-PF	Patrick Forbes,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-PK,"Peter Kussow,",New York Mets,"CPA-PK	Peter Kussow,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-PKO,"Pico Kohn,",New York Yankees,"CPA-PKO	Pico Kohn,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-QY,"Quentin Young,",Minnesota Twins,"CPA-QY	Quentin Young,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-RK,"Riley Kelly,",Colorado Rockies,"CPA-RK	Riley Kelly,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-RM,"Ryan Mitchell,",St. Louis Cardinals,"CPA-RM	Ryan Mitchell,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-RQ,"Riley Quick,",Minnesota Twins,"CPA-RQ	Riley Quick,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-RW,"Ryan Wideman,",San Diego Padres,"CPA-RW	Ryan Wideman,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-SG,"Sean Gamble,",Kansas City Royals,"CPA-SG	Sean Gamble,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-SH,"Seth Hernandez,",Pittsburgh Pirates,"CPA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-SHA,"Steele Hall,",Cincinnati Reds,"CPA-SHA	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TB,"Tyler Bremner,",Los Angeles Angels,"CPA-TB	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TC,"Trevor Cohen,",San Francisco Giants,"CPA-TC	Trevor Cohen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TF,"Tanner Franklin,",St. Louis Cardinals,"CPA-TF	Tanner Franklin,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TG,"Taitn Gray,",Tampa Bay Rays,"CPA-TG	Taitn Gray,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TH,"Ty Harvey,",San Diego Padres,"CPA-TH	Ty Harvey,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TP,"Tim Piasentin,",Toronto Blue Jays,"CPA-TP	Tim Piasentin,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-TS,"Tate Southisene,",Atlanta Braves,"CPA-TS	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-XN,"Xavier Neyens,",Houston Astros,"CPA-XN	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs,102,CPA-ZR,"Zach Root,",Los Angeles Dodgers,"CPA-ZR	Zach Root,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-AE,"Anthony Eyanson,",Boston Red Sox,"CPA-AE	Anthony Eyanson,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-AJ,"Antonio Jimenez,",New York Mets,"CPA-AJ	Antonio Jimenez,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-AR,"AJ Russell,",Texas Rangers,"CPA-AR	AJ Russell,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-AW,"Aaron Watson,",Cincinnati Reds,"CPA-AW	Aaron Watson,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-AWA,"Aaron Walton,",Cleveland Guardians,"CPA-AWA	Aaron Walton,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-BC,"Billy Carlson,",Chicago White Sox,"CPA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-BCO,"Brandon Compton,",Miami Marlins,"CPA-BCO	Brandon Compton,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-BE,"Brady Ebel,",Milwaukee Brewers,"CPA-BE	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-BM,"Briggs McKenzie,",Atlanta Braves,"CPA-BM	Briggs McKenzie,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CB,"Caden Bodine,",Baltimore Orioles,"CPA-CB	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CD,"Charles Davalan,",Los Angeles Dodgers,"CPA-CD	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CF,"Cooper Flemming,",Tampa Bay Rays,"CPA-CF	Cooper Flemming,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CM,"Cody Miller,",Atlanta Braves,"CPA-CM	Cody Miller,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CO,"Cade Obermueller,",Philadelphia Phillies,"CPA-CO	Cade Obermueller,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-CS,"Chase Shores,",Los Angeles Angels,"CPA-CS	Chase Shores,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-DC,"Dean Curley,",Cleveland Guardians,"CPA-DC	Dean Curley,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-DK,"Dax Kilby,",New York Yankees,"CPA-DK	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-DT,"Devin Taylor,",Athletics,"CPA-DT	Devin Taylor,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-EC,"Ethan Conrad,",Chicago Cubs,"CPA-EC	Ethan Conrad,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-ECA,"Easton Carmichael,",Pittsburgh Pirates,"CPA-ECA	Easton Carmichael,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-EF,"Ethan Frey,",Houston Astros,"CPA-EF	Ethan Frey,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-EP,"Ethan Petry,",Washington Nationals,"CPA-EP	Ethan Petry,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-EW,"Eli Willits,",Washington Nationals,"CPA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-GF,"Gavin Fien,",Texas Rangers,"CPA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-GH,"Griffin Hugus,",Seattle Mariners,"CPA-GH	Griffin Hugus,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-GK,"Gavin Kilen,",San Francisco Giants,"CPA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-GW,"Gage Wood,",Philadelphia Phillies,"CPA-GW	Gage Wood,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-II,"Ike Irish,",Baltimore Orioles,"CPA-II	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JA,"Jamie Arnold,",Athletics,"CPA-JA	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JC,"Jake Cook,",Toronto Blue Jays,"CPA-JC	Jake Cook,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JD,"Joseph Dzierwa,",Baltimore Orioles,"CPA-JD	Joseph Dzierwa,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JG,"Jack Gurevitch,",St. Louis Cardinals,"CPA-JG	Jack Gurevitch,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JH,"Josh Hammond,",Kansas City Royals,"CPA-JH	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JLA,"Justin Lamkin,",Kansas City Royals,"CPA-JLA	Justin Lamkin,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JM,"JB Middleton,",Colorado Rockies,"CPA-JM	JB Middleton,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JMO,"Jacob Morrison,",Milwaukee Brewers,"CPA-JMO	Jacob Morrison,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JO,"Josh Owens,",Texas Rangers,"CPA-JO	Josh Owens,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JP,"JoJo Parker,",Toronto Blue Jays,"CPA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JQ,"JT Quinn,",Baltimore Orioles,"CPA-JQ	JT Quinn,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JS,"Johnny Slawinski,",Los Angeles Angels,"CPA-JS	Johnny Slawinski,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-JT,"J.D. Thompson,",Milwaukee Brewers,"CPA-JT	J.D. Thompson,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KA,"Kade Anderson,",Seattle Mariners,"CPA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KC,"Kayson Cunningham,",Arizona Diamondbacks,"CPA-KC	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KK,"Kane Kepley,",Chicago Cubs,"CPA-KK	Kane Kepley,	Chicago Cubs",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KKE,"Kaeden Kent,",New York Yankees,"CPA-KKE	Kaeden Kent,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KL,"Kyle Lodise,",Chicago White Sox,"CPA-KL	Kyle Lodise,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-KW,"Kyson Witherspoon,",Boston Red Sox,"CPA-KW	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-LD,"Liam Doyle,",St. Louis Cardinals,"CPA-LD	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-LV,"Landyn Vidourek,",Los Angeles Dodgers,"CPA-LV	Landyn Vidourek,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MB,"Max Belyeu,",Colorado Rockies,"CPA-MB	Max Belyeu,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MF,"Matthew Fisher,",Philadelphia Phillies,"CPA-MF	Matthew Fisher,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MG,"Murf Gray,",Pittsburgh Pirates,"CPA-MG	Murf Gray,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-ML,"Michael Lombardi,",Kansas City Royals,"CPA-ML	Michael Lombardi,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MM,"Mason Morris,",Cincinnati Reds,"CPA-MM	Mason Morris,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MO,"Michael Oliveto,",Detroit Tigers,"CPA-MO	Michael Oliveto,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MP,"Marcus Phillips,",Boston Red Sox,"CPA-MP	Marcus Phillips,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MS,"Miguel Sime Jr.,",Washington Nationals,"CPA-MS	Miguel Sime Jr.,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MV,"Mitch Voit,",New York Mets,"CPA-MV	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MW,"Malachi Witherspoon,",Detroit Tigers,"CPA-MW	Malachi Witherspoon,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-MWI,"Max Williams,",Miami Marlins,"CPA-MWI	Max Williams,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-NB,"Nick Becker,",Seattle Mariners,"CPA-NB	Nick Becker,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-PF,"Patrick Forbes,",Arizona Diamondbacks,"CPA-PF	Patrick Forbes,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-RM,"Ryan Mitchell,",St. Louis Cardinals,"CPA-RM	Ryan Mitchell,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-RQ,"Riley Quick,",Minnesota Twins,"CPA-RQ	Riley Quick,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-RW,"Ryan Wideman,",San Diego Padres,"CPA-RW	Ryan Wideman,	San Diego Padres",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-SG,"Sean Gamble,",Kansas City Royals,"CPA-SG	Sean Gamble,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-SH,"Seth Hernandez,",Pittsburgh Pirates,"CPA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-SHA,"Steele Hall,",Cincinnati Reds,"CPA-SHA	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-TB,"Tyler Bremner,",Los Angeles Angels,"CPA-TB	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-TC,"Trevor Cohen,",San Francisco Giants,"CPA-TC	Trevor Cohen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-TF,"Tanner Franklin,",St. Louis Cardinals,"CPA-TF	Tanner Franklin,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-TG,"Taitn Gray,",Tampa Bay Rays,"CPA-TG	Taitn Gray,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-TS,"Tate Southisene,",Atlanta Braves,"CPA-TS	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-XN,"Xavier Neyens,",Houston Astros,"CPA-XN	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Chrome Prospect Autographs - Gold Ink,75,CPA-ZR,"Zach Root,",Los Angeles Dodgers,"CPA-ZR	Zach Root,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-AE,"Anthony Eyanson,",Boston Red Sox,"DPPA-AE	Anthony Eyanson,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-BC,"Billy Carlson,",Chicago White Sox,"DPPA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-BCO,"Brandon Compton,",Miami Marlins,"DPPA-BCO	Brandon Compton,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-BE,"Brady Ebel,",Milwaukee Brewers,"DPPA-BE	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-CB,"Caden Bodine,",Baltimore Orioles,"DPPA-CB	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-CD,"Charles Davalan,",Los Angeles Dodgers,"DPPA-CD	Charles Davalan,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-CS,"Chase Shores,",Los Angeles Angels,"DPPA-CS	Chase Shores,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-DC,"Dean Curley,",Cleveland Guardians,"DPPA-DC	Dean Curley,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-DK,"Dax Kilby,",New York Yankees,"DPPA-DK	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-DT,"Devin Taylor,",Athletics,"DPPA-DT	Devin Taylor,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-EP,"Ethan Petry,",Washington Nationals,"DPPA-EP	Ethan Petry,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-EW,"Eli Willits,",Washington Nationals,"DPPA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-GF,"Gavin Fien,",Texas Rangers,"DPPA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-GK,"Gavin Kilen,",San Francisco Giants,"DPPA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-II,"Ike Irish,",Baltimore Orioles,"DPPA-II	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-JA,"Jamie Arnold,",Athletics,"DPPA-JA	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-JH,"Josh Hammond,",Kansas City Royals,"DPPA-JH	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-JM,"JB Middleton,",Colorado Rockies,"DPPA-JM	JB Middleton,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-JP,"JoJo Parker,",Toronto Blue Jays,"DPPA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-KA,"Kade Anderson,",Seattle Mariners,"DPPA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-KC,"Kayson Cunningham,",Arizona Diamondbacks,"DPPA-KC	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-KW,"Kyson Witherspoon,",Boston Red Sox,"DPPA-KW	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-LD,"Liam Doyle,",St. Louis Cardinals,"DPPA-LD	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MB,"Max Belyeu,",Colorado Rockies,"DPPA-MB	Max Belyeu,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MF,"Matthew Fisher,",Philadelphia Phillies,"DPPA-MF	Matthew Fisher,	Philadelphia Phillies",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MN,"Mason Neville,",Cincinnati Reds,"DPPA-MN	Mason Neville,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MO,"Michael Oliveto,",Detroit Tigers,"DPPA-MO	Michael Oliveto,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MP,"Marcus Phillips,",Boston Red Sox,"DPPA-MP	Marcus Phillips,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MS,"Miguel Sime Jr.,",Washington Nationals,"DPPA-MS	Miguel Sime Jr.,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-MV,"Mitch Voit,",New York Mets,"DPPA-MV	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-NB,"Nick Becker,",Seattle Mariners,"DPPA-NB	Nick Becker,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-PF,"Patrick Forbes,",Arizona Diamondbacks,"DPPA-PF	Patrick Forbes,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-QY,"Quentin Young,",Minnesota Twins,"DPPA-QY	Quentin Young,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-RQ,"Riley Quick,",Minnesota Twins,"DPPA-RQ	Riley Quick,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-SG,"Sean Gamble,",Kansas City Royals,"DPPA-SG	Sean Gamble,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-SH,"Seth Hernandez,",Pittsburgh Pirates,"DPPA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-SHA,"Steele Hall,",Cincinnati Reds,"DPPA-SHA	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-TB,"Tyler Bremner,",Los Angeles Angels,"DPPA-TB	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-TS,"Tate Southisene,",Atlanta Braves,"DPPA-TS	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-XN,"Xavier Neyens,",Houston Astros,"DPPA-XN	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Draft Prospect Portrait Autographs,41,DPPA-ZR,"Zach Root,",Los Angeles Dodgers,"DPPA-ZR	Zach Root,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-AS,"Andrew Salas,",Miami Marlins,"AA-AS	Andrew Salas,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-BM,"Braden Montgomery,",Chicago White Sox,"AA-BM	Braden Montgomery,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-BR,"Bryce Rainer,",Detroit Tigers,"AA-BR	Bryce Rainer,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-CC,"Charlie Condon,",Colorado Rockies,"AA-CC	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-CCA,"Cam Caminiti,",Atlanta Braves,"AA-CCA	Cam Caminiti,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-CW,"Carson Williams,",Tampa Bay Rays,"AA-CW	Carson Williams,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-EP,"Elian Peña,",New York Mets,"AA-EP	Elian Peña,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-EQ,"Eduardo Quintero,",Los Angeles Dodgers,"AA-EQ	Eduardo Quintero,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-EW,"Eli Willits,",Washington Nationals,"AA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-FA,"Franklin Arias,",Boston Red Sox,"AA-FA	Franklin Arias,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-GF,"Gavin Fien,",Texas Rangers,"AA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-GK,"Gavin Kilen,",San Francisco Giants,"AA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-GLJ,"George Lombard Jr.,",New York Yankees,"AA-GLJ	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-II,"Ike Irish,",Baltimore Orioles,"AA-II	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-JG,"Josuar Gonzalez,",San Francisco Giants,"AA-JG	Josuar Gonzalez,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-JM,"Jesús Made,",Milwaukee Brewers,"AA-JM	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-JP,"JoJo Parker,",Toronto Blue Jays,"AA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-JW,"JJ Wetherholt,",St. Louis Cardinals,"AA-JW	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-KA,"Kade Anderson,",Seattle Mariners,"AA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-KG,"Konnor Griffin,",Pittsburgh Pirates,"AA-KG	Konnor Griffin,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-KM,"Kevin McGonigle,",Detroit Tigers,"AA-KM	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-LDV,"Leo De Vries,",Athletics,"AA-LDV	Leo De Vries,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-LP,"Luis Peña,",Milwaukee Brewers,"AA-LP	Luis Peña,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-SC,"Slade Caldwell,",Arizona Diamondbacks,"AA-SC	Slade Caldwell,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-SH,"Steele Hall,",Cincinnati Reds,"AA-SH	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-TB,"Travis Bazzana,",Cleveland Guardians,"AA-TB	Travis Bazzana,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-TBR,"Tyler Bremner,",Los Angeles Angels,"AA-TBR	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Achromatic Autographs,28,AA-XN,"Xavier Neyens,",Houston Astros,"AA-XN	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-AD,Liam Doyle/Kade Anderson,St. Louis Cardinals/Seattle Mariners,PDA-AD	Liam Doyle/Kade Anderson	St. Louis Cardinals/Seattle Mariners,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-BW,Travis Bazzana/Eli Willits,Cleveland Guardians/Washington Nationals,PDA-BW	Travis Bazzana/Eli Willits	Cleveland Guardians/Washington Nationals,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-CE,Billy Carlson/Brady Ebel,Chicago White Sox/Milwaukee Brewers,PDA-CE	Billy Carlson/Brady Ebel	Chicago White Sox/Milwaukee Brewers,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-CH,Seth Hernandez/Bubba Chandler,Pittsburgh Pirates,PDA-CH	Seth Hernandez/Bubba Chandler	Pittsburgh Pirates,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-DM,Leo De Vries/Jesús Made,Athletics/Milwaukee Brewers,PDA-DM	Leo De Vries/Jesús Made	Athletics/Milwaukee Brewers,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-GHE,Konnor Griffin/Seth Hernandez,Pittsburgh Pirates,PDA-GHE	Konnor Griffin/Seth Hernandez	Pittsburgh Pirates,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-HC,Billy Carlson/Seth Hernandez,Chicago White Sox/Pittsburgh Pirates,PDA-HC	Billy Carlson/Seth Hernandez	Chicago White Sox/Pittsburgh Pirates,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-IB,Caden Bodine/Ike Irish,Baltimore Orioles,PDA-IB	Caden Bodine/Ike Irish	Baltimore Orioles,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-MP,Jesús Made/Luis Peña,Milwaukee Brewers,PDA-MP	Jesús Made/Luis Peña	Milwaukee Brewers,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-PH,Jo Jo Parker/Steele Hall,Toronto Blue Jays/Cincinnati Reds,PDA-PH	Jo Jo Parker/Steele Hall	Toronto Blue Jays/Cincinnati Reds,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-SS,Tate Southisene/Ty Southisene,Atlanta Braves/Chicago Cubs,PDA-SS	Tate Southisene/Ty Southisene	Atlanta Braves/Chicago Cubs,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-WB,Tyler Bremner/Eli Willits,Los Angeles Angels/Washington Nationals,PDA-WB	Tyler Bremner/Eli Willits	Los Angeles Angels/Washington Nationals,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-WC,Billy Carlson/Eli Willits,Chicago White Sox/Washington Nationals,PDA-WC	Billy Carlson/Eli Willits	Chicago White Sox/Washington Nationals,True
+2025_bowman_draft,2025,Bowman,Draft,Prospect Dual Autographs,14,PDA-WW,Malachi Witherspoon/Kyson Witherspoon,Detroit Tigers/Boston Red Sox,PDA-WW	Malachi Witherspoon/Kyson Witherspoon	Detroit Tigers/Boston Red Sox,True
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-BC,"Billy Carlson,",Chicago White Sox,"BIA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-CC,"Charlie Condon,",Colorado Rockies,"BIA-CC	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-EW,"Eli Willits,",Washington Nationals,"BIA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-GF,"Gavin Fien,",Texas Rangers,"BIA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-GK,"Gavin Kilen,",San Francisco Giants,"BIA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-GL,"George Lombard Jr.,",New York Yankees,"BIA-GL	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-JH,"Josh Hammond,",Kansas City Royals,"BIA-JH	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-JM,"Jesús Made,",Milwaukee Brewers,"BIA-JM	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-JP,"JoJo Parker,",Toronto Blue Jays,"BIA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-JW,"JJ Wetherholt,",St. Louis Cardinals,"BIA-JW	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-KA,"Kade Anderson,",Seattle Mariners,"BIA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-KM,"Kevin McGonigle,",Detroit Tigers,"BIA-KM	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-KW,"Kyson Witherspoon,",Boston Red Sox,"BIA-KW	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-SH,"Steele Hall,",Cincinnati Reds,"BIA-SH	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action Autographs,15,BIA-TB,"Tyler Bremner,",Los Angeles Angels,"BIA-TB	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Retrofractor Autograph,1,BD-201,"Sadaharu Oh,",Yomiuri Giants,"BD-201	Sadaharu Oh,	Yomiuri Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Image Variation Autographs,5,CPA-BC,"Billy Carlson,",Chicago White Sox,"CPA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Image Variation Autographs,5,CPA-EW,"Eli Willits,",Washington Nationals,"CPA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Image Variation Autographs,5,CPA-JP,"JoJo Parker,",Toronto Blue Jays,"CPA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Image Variation Autographs,5,CPA-KA,"Kade Anderson,",Seattle Mariners,"CPA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Image Variation Autographs,5,CPA-SH,"Seth Hernandez,",Pittsburgh Pirates,"CPA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-BC,"Billy Carlson,",Chicago White Sox,"PPA-BC	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-EW,"Eli Willits,",Washington Nationals,"PPA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-GL,"George Lombard Jr.,",New York Yankees,"PPA-GL	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-JM,"Jesús Made,",Milwaukee Brewers,"PPA-JM	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-JP,"JoJo Parker,",Toronto Blue Jays,"PPA-JP	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-JW,"JJ Wetherholt,",St. Louis Cardinals,"PPA-JW	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-KA,"Kade Anderson,",Seattle Mariners,"PPA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-KG,"Konnor Griffin,",Pittsburgh Pirates,"PPA-KG	Konnor Griffin,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects Autographs,9,PPA-KM,"Kevin McGonigle,",Detroit Tigers,"PPA-KM	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Nights Autographs,5,BDNA-EW,"Eli Willits,",Washington Nationals,"BDNA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Nights Autographs,5,BDNA-GF,"Gavin Fien,",Texas Rangers,"BDNA-GF	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Nights Autographs,5,BDNA-KA,"Kade Anderson,",Seattle Mariners,"BDNA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Nights Autographs,5,BDNA-SH,"Seth Hernandez,",Pittsburgh Pirates,"BDNA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Nights Autographs,5,BDNA-XN,"Xavier Neyens,",Houston Astros,"BDNA-XN	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-EW,"Eli Willits,",Washington Nationals,"DPPBA-EW	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-GK,"Gavin Kilen,",San Francisco Giants,"DPPBA-GK	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-KA,"Kade Anderson,",Seattle Mariners,"DPPBA-KA	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-LD,"Liam Doyle,",St. Louis Cardinals,"DPPBA-LD	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-SH,"Seth Hernandez,",Pittsburgh Pirates,"DPPBA-SH	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-SHA,"Steele Hall,",Cincinnati Reds,"DPPBA-SHA	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,2025 Draft Lottery Ping Pong Ball Autographs,7,DPPBA-TB,"Tyler Bremner,",Los Angeles Angels,"DPPBA-TB	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-1,"Franklin Arias,",Boston Red Sox,"FD-1	Franklin Arias,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-2,"Charlie Condon,",Colorado Rockies,"FD-2	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-3,"Josue De Paula,",Los Angeles Dodgers,"FD-3	Josue De Paula,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-4,"Jesús Made,",Milwaukee Brewers,"FD-4	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-5,"Josuar Gonzalez,",San Francisco Giants,"FD-5	Josuar Gonzalez,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-6,"Shotaro Morii,",Athletics,"FD-6	Shotaro Morii,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-7,"Seth Hernandez,",Pittsburgh Pirates,"FD-7	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-8,"Sebastian Walcott,",Texas Rangers,"FD-8	Sebastian Walcott,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-9,"Elian Peña,",New York Mets,"FD-9	Elian Peña,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-10,"Zyhir Hope,",Los Angeles Dodgers,"FD-10	Zyhir Hope,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-11,"Eli Willits,",Washington Nationals,"FD-11	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-12,"Tyler Bremner,",Los Angeles Angels,"FD-12	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-13,"Kade Anderson,",Seattle Mariners,"FD-13	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-14,"JoJo Parker,",Toronto Blue Jays,"FD-14	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-15,"Steele Hall,",Cincinnati Reds,"FD-15	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-16,"Billy Carlson,",Chicago White Sox,"FD-16	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-17,"Gavin Fien,",Texas Rangers,"FD-17	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-18,"Gavin Kilen,",San Francisco Giants,"FD-18	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-19,"Liam Doyle,",St. Louis Cardinals,"FD-19	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Final Draft,20,FD-20,"Kayson Cunningham,",Arizona Diamondbacks,"FD-20	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-1,"Eli Willits,",Washington Nationals,"PP-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-2,"Kevin McGonigle,",Detroit Tigers,"PP-2	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-3,"George Lombard Jr.,",New York Yankees,"PP-3	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-4,"Liam Doyle,",St. Louis Cardinals,"PP-4	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-5,"Shotaro Morii,",Athletics,"PP-5	Shotaro Morii,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-6,"Billy Carlson,",Chicago White Sox,"PP-6	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-7,"Luis Peña,",Milwaukee Brewers,"PP-7	Luis Peña,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-8,"Ike Irish,",Baltimore Orioles,"PP-8	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-9,"JoJo Parker,",Toronto Blue Jays,"PP-9	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-10,"Mitch Voit,",New York Mets,"PP-10	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-11,"Jamie Arnold,",Athletics,"PP-11	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-12,"Dax Kilby,",New York Yankees,"PP-12	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-13,"Travis Bazzana,",Cleveland Guardians,"PP-13	Travis Bazzana,	Cleveland Guardians",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-14,"Gavin Kilen,",San Francisco Giants,"PP-14	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-15,"Kade Anderson,",Seattle Mariners,"PP-15	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-16,"Jesús Made,",Milwaukee Brewers,"PP-16	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-17,"Konnor Griffin,",Pittsburgh Pirates,"PP-17	Konnor Griffin,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-18,"JJ Wetherholt,",St. Louis Cardinals,"PP-18	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-19,"Brady Ebel,",Milwaukee Brewers,"PP-19	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Prized Prospects,20,PP-20,"Charlie Condon,",Colorado Rockies,"PP-20	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-1,"Eli Willits,",Washington Nationals,"A-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-2,"JoJo Parker,",Toronto Blue Jays,"A-2	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-3,"Steele Hall,",Cincinnati Reds,"A-3	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-4,"Billy Carlson,",Chicago White Sox,"A-4	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-5,"Gavin Kilen,",San Francisco Giants,"A-5	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-6,"Caden Bodine,",Baltimore Orioles,"A-6	Caden Bodine,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-7,"Quentin Young,",Minnesota Twins,"A-7	Quentin Young,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-8,"Kayson Cunningham,",Arizona Diamondbacks,"A-8	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-9,"Ike Irish,",Baltimore Orioles,"A-9	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-10,"Xavier Neyens,",Houston Astros,"A-10	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-11,"Jesús Made,",Milwaukee Brewers,"A-11	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-12,"JJ Wetherholt,",St. Louis Cardinals,"A-12	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-13,"Kevin McGonigle,",Detroit Tigers,"A-13	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-14,"Walker Jenkins,",Minnesota Twins,"A-14	Walker Jenkins,	Minnesota Twins",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-15,"Zyhir Hope,",Los Angeles Dodgers,"A-15	Zyhir Hope,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-16,"Andrew Salas,",Miami Marlins,"A-16	Andrew Salas,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-17,"Josuar Gonzalez,",San Francisco Giants,"A-17	Josuar Gonzalez,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-18,"Shotaro Morii,",Athletics,"A-18	Shotaro Morii,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-19,"Leo De Vries,",Athletics,"A-19	Leo De Vries,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Axis,20,A-20,"Arjun Nimmala,",Toronto Blue Jays,"A-20	Arjun Nimmala,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-1,"Eli Willits,",Washington Nationals,"BIA-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-2,"Steele Hall,",Cincinnati Reds,"BIA-2	Steele Hall,	Cincinnati Reds",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-3,"Jamie Arnold,",Athletics,"BIA-3	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-4,"Charlie Condon,",Colorado Rockies,"BIA-4	Charlie Condon,	Colorado Rockies",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-5,"Jesús Made,",Milwaukee Brewers,"BIA-5	Jesús Made,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-6,"Carson Benge,",New York Mets,"BIA-6	Carson Benge,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-7,"Kyson Witherspoon,",Boston Red Sox,"BIA-7	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-8,"Kade Anderson,",Seattle Mariners,"BIA-8	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-9,"Josh Hammond,",Kansas City Royals,"BIA-9	Josh Hammond,	Kansas City Royals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-10,"Kevin McGonigle,",Detroit Tigers,"BIA-10	Kevin McGonigle,	Detroit Tigers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-11,"Zyhir Hope,",Los Angeles Dodgers,"BIA-11	Zyhir Hope,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-12,"Tyler Bremner,",Los Angeles Angels,"BIA-12	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-13,"Gavin Kilen,",San Francisco Giants,"BIA-13	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-14,"Xavier Neyens,",Houston Astros,"BIA-14	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-15,"George Lombard Jr.,",New York Yankees,"BIA-15	George Lombard Jr.,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-16,"Gavin Fien,",Texas Rangers,"BIA-16	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-17,"Ike Irish,",Baltimore Orioles,"BIA-17	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-18,"Dax Kilby,",New York Yankees,"BIA-18	Dax Kilby,	New York Yankees",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-19,"Billy Carlson,",Chicago White Sox,"BIA-19	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-20,"Brady Ebel,",Milwaukee Brewers,"BIA-20	Brady Ebel,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-21,"Seth Hernandez,",Pittsburgh Pirates,"BIA-21	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-22,"Liam Doyle,",St. Louis Cardinals,"BIA-22	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-23,"JoJo Parker,",Toronto Blue Jays,"BIA-23	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-24,"Theo Gillen,",Tampa Bay Rays,"BIA-24	Theo Gillen,	Tampa Bay Rays",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-25,"JJ Wetherholt,",St. Louis Cardinals,"BIA-25	JJ Wetherholt,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-26,"Franklin Arias,",Boston Red Sox,"BIA-26	Franklin Arias,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-27,"Eduardo Quintero,",Los Angeles Dodgers,"BIA-27	Eduardo Quintero,	Los Angeles Dodgers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman In Action,28,BIA-28,"Andrew Salas,",Miami Marlins,"BIA-28	Andrew Salas,	Miami Marlins",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-1,"Eli Willits,",Washington Nationals,"BDN-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-2,"Kayson Cunningham,",Arizona Diamondbacks,"BDN-2	Kayson Cunningham,	Arizona Diamondbacks",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-3,"Kade Anderson,",Seattle Mariners,"BDN-3	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-4,"Mitch Voit,",New York Mets,"BDN-4	Mitch Voit,	New York Mets",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-5,"Seth Hernandez,",Pittsburgh Pirates,"BDN-5	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-6,"Ike Irish,",Baltimore Orioles,"BDN-6	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-7,"Tate Southisene,",Atlanta Braves,"BDN-7	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-8,"Xavier Neyens,",Houston Astros,"BDN-8	Xavier Neyens,	Houston Astros",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-9,"Jamie Arnold,",Athletics,"BDN-9	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Draft Night,10,BDN-10,"Gavin Fien,",Texas Rangers,"BDN-10	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-1,"Eli Willits,",Washington Nationals,"BS-1	Eli Willits,	Washington Nationals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-2,"Gavin Kilen,",San Francisco Giants,"BS-2	Gavin Kilen,	San Francisco Giants",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-3,"Ike Irish,",Baltimore Orioles,"BS-3	Ike Irish,	Baltimore Orioles",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-4,"Gavin Fien,",Texas Rangers,"BS-4	Gavin Fien,	Texas Rangers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-5,"Seth Hernandez,",Pittsburgh Pirates,"BS-5	Seth Hernandez,	Pittsburgh Pirates",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-6,"JoJo Parker,",Toronto Blue Jays,"BS-6	JoJo Parker,	Toronto Blue Jays",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-7,"Tate Southisene,",Atlanta Braves,"BS-7	Tate Southisene,	Atlanta Braves",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-8,"Billy Carlson,",Chicago White Sox,"BS-8	Billy Carlson,	Chicago White Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-9,"Luis Peña,",Milwaukee Brewers,"BS-9	Luis Peña,	Milwaukee Brewers",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-10,"Liam Doyle,",St. Louis Cardinals,"BS-10	Liam Doyle,	St. Louis Cardinals",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-11,"Kyson Witherspoon,",Boston Red Sox,"BS-11	Kyson Witherspoon,	Boston Red Sox",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-12,"Tyler Bremner,",Los Angeles Angels,"BS-12	Tyler Bremner,	Los Angeles Angels",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-13,"Jamie Arnold,",Athletics,"BS-13	Jamie Arnold,	Athletics",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-14,"Kade Anderson,",Seattle Mariners,"BS-14	Kade Anderson,	Seattle Mariners",False
+2025_bowman_draft,2025,Bowman,Draft,Bowman Spotlights,15,BS-15,"Steele Hall,",Cincinnati Reds,"BS-15	Steele Hall,	Cincinnati Reds",False
