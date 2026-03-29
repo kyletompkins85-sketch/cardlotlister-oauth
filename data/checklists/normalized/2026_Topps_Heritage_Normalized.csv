@@ -1,0 +1,969 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_name_raw,affiliation_raw,raw_line,is_multi_player
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,1,Aaron Judge/Trea Turner,New York Yankees/Philadelphia Phillies	(League Leaders),1	Aaron Judge/Trea Turner	New York Yankees/Philadelphia Phillies	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,2,Kyle Schwarber/Cal Raleigh,Philadelphia Phillies/Seattle Mariners	(League Leaders),2	Kyle Schwarber/Cal Raleigh	Philadelphia Phillies/Seattle Mariners	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,3,Kyle Schwarber/Cal Raleigh,Philadelphia Phillies/Seattle Mariners	(League Leaders),3	Kyle Schwarber/Cal Raleigh	Philadelphia Phillies/Seattle Mariners	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,4,Oneil Cruz/José Caballero,Pittsburgh Pirates/New York Yankees	(League Leaders),4	Oneil Cruz/José Caballero	Pittsburgh Pirates/New York Yankees	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,5,Freddy Peralta/Max Fried,Milwaukee Brewers/New York Yankees	(League Leaders),5	Freddy Peralta/Max Fried	Milwaukee Brewers/New York Yankees	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,6,Logan Webb/Garrett Crochet,San Francisco Giants/Boston Red Sox	(League Leaders),6	Logan Webb/Garrett Crochet	San Francisco Giants/Boston Red Sox	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,7,Paul Skenes/Tarik Skubal,Pittsburgh Pirates/Detroit Tigers	(League Leaders),7	Paul Skenes/Tarik Skubal	Pittsburgh Pirates/Detroit Tigers	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,8,Robert Suarez/Carlos Estevéz,San Diego Padres/Kansas City Royals	(League Leaders),8	Robert Suarez/Carlos Estevéz	San Diego Padres/Kansas City Royals	(League Leaders),True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,9,"Josh Hader,",Houston Astros,"9	Josh Hader,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,10,"Aaron Judge,",New York Yankees,"10	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,11,"Jose Altuve,",Houston Astros,"11	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,12,"Mookie Betts,",Los Angeles Dodgers,"12	Mookie Betts,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,13,"Agustín Ramírez,",Miami Marlins,"13	Agustín Ramírez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,14,"Jhoan Duran,",Philadelphia Phillies,"14	Jhoan Duran,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,15,"Jarren Duran,",Boston Red Sox,"15	Jarren Duran,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,16,"Kyle Bradish,",Baltimore Orioles,"16	Kyle Bradish,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,17,"Jacob Wilson,",Athletics,"17	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,18,"Eury Pérez,",Miami Marlins,"18	Eury Pérez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,19,"Brett Baty,",New York Mets,"19	Brett Baty,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,20,"Jonathan Aranda,",Tampa Bay Rays,"20	Jonathan Aranda,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,21,"Ernie Clement,",Toronto Blue Jays,"21	Ernie Clement,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,22,"Kris Bryant,",Colorado Rockies,"22	Kris Bryant,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,23,"Garrett Crochet,",Boston Red Sox,"23	Garrett Crochet,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,24,"Luis Castillo,",Seattle Mariners,"24	Luis Castillo,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,25,"Yordan Alvarez,",Houston Astros,"25	Yordan Alvarez,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,26,"Jaden Hill,",Colorado Rockies,"26	Jaden Hill,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,27,"Casey Schmitt,",San Francisco Giants,"27	Casey Schmitt,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,28,"Nico Hoerner,",Chicago Cubs,"28	Nico Hoerner,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,29,"Eugenio Suárez,",Seattle Mariners,"29	Eugenio Suárez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,30,"Connor Norby,",Miami Marlins,"30	Connor Norby,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,31,"Andrew Abbott,",Cincinnati Reds,"31	Andrew Abbott,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,32,"Andre Granillo,",St. Louis Cardinals	RC,"32	Andre Granillo,	St. Louis Cardinals	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,33,"Paul Skenes,",Pittsburgh Pirates,"33	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,34,"Ryan Pepiot,",Tampa Bay Rays,"34	Ryan Pepiot,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,35,"Yoán Moncada,",Angels,"35	Yoán Moncada,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,36,"Edwin Díaz,",Los Angeles Dodgers,"36	Edwin Díaz,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,37,"Jorge Soler,",Angels,"37	Jorge Soler,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,38,"Taj Bradley,",Minnesota Twins,"38	Taj Bradley,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,39,"Roki Sasaki,",Los Angeles Dodgers,"39	Roki Sasaki,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,40,"Nathan Eovaldi,",Texas Rangers,"40	Nathan Eovaldi,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,41,"Spencer Strider,",Atlanta Braves,"41	Spencer Strider,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,42,"Jo Adell,",Angels,"42	Jo Adell,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,43,"Luis García Jr.,",Washington Nationals,"43	Luis García Jr.,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,44,"Austin Martin,",Minnesota Twins,"44	Austin Martin,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,45,"Michael A. Taylor,",Chicago White Sox,"45	Michael A. Taylor,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,46,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"46	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,47,"Yandy Díaz,",Tampa Bay Rays,"47	Yandy Díaz,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,48,"Dylan Beavers,",Baltimore Orioles	RC,"48	Dylan Beavers,	Baltimore Orioles	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,49,"Coby Mayo,",Baltimore Orioles,"49	Coby Mayo,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,50,"Robert Hassell III,",Washington Nationals,"50	Robert Hassell III,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,51,"Jurickson Profar,",Atlanta Braves,"51	Jurickson Profar,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,52,"José Ramírez,",Cleveland Guardians,"52	José Ramírez,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,53,"Hunter Greene,",Cincinnati Reds,"53	Hunter Greene,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,54,"Jeff McNeil,",New York Mets,"54	Jeff McNeil,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,55,"Ronald Acuña Jr.,",Atlanta Braves,"55	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,56,"José Berríos,",Toronto Blue Jays,"56	José Berríos,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,57,"Patrick Bailey,",San Francisco Giants,"57	Patrick Bailey,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,58,"Chandler Simpson,",Tampa Bay Rays,"58	Chandler Simpson,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,59,"Harry Ford,",Seattle Mariners	RC,"59	Harry Ford,	Seattle Mariners	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,60,"Brooks Lee,",Minnesota Twins,"60	Brooks Lee,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,61,"Miguel Vargas,",Chicago White Sox,"61	Miguel Vargas,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,62,"Rafael Devers,",San Francisco Giants,"62	Rafael Devers,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,63,"Mike Yastrzemski,",Kansas City Royals,"63	Mike Yastrzemski,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,64,"Mitch Keller,",Pittsburgh Pirates,"64	Mitch Keller,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,65,"Mason Miller,",San Diego Padres,"65	Mason Miller,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,66,"Darell Hernaiz,",Athletics,"66	Darell Hernaiz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,67,"Luis Morales,",Athletics	RC,"67	Luis Morales,	Athletics	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,68,"Cade Cavalli,",Washington Nationals,"68	Cade Cavalli,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,69,"Cam Smith,",Houston Astros,"69	Cam Smith,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,70,"Elly De La Cruz,",Cincinnati Reds	RC,"70	Elly De La Cruz,	Cincinnati Reds	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,71,"Reese Olson,",Detroit Tigers,"71	Reese Olson,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,72,"Bryce Harper,",Philadelphia Phillies,"72	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,73,"Dillon Dingler,",Detroit Tigers,"73	Dillon Dingler,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,74,"Tanner Bibee,",Cleveland Guardians	RC,"74	Tanner Bibee,	Cleveland Guardians	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,75,"Dane Myers,",Miami Marlins,"75	Dane Myers,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,76,"Sandy Alcantara,",Miami Marlins,"76	Sandy Alcantara,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,77,"Mark Vientos,",New York Mets,"77	Mark Vientos,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,78,"Noah Cameron,",Kansas City Royals,"78	Noah Cameron,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,79,"Carson Whisenhunt,",San Francisco Giants	RC,"79	Carson Whisenhunt,	San Francisco Giants	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,80,"Austin Hays,",Cincinnati Reds,"80	Austin Hays,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,81,"Alec Bohm,",Philadelphia Phillies,"81	Alec Bohm,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,82,"Logan Webb,",San Francisco Giants,"82	Logan Webb,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,83,"Bradley Blalock,",Colorado Rockies,"83	Bradley Blalock,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,84,"Maikel Garcia,",Kansas City Royals,"84	Maikel Garcia,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,85,"Royce Lewis,",Minnesota Twins,"85	Royce Lewis,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,86,"Roman Anthony,",Boston Red Sox	RC,"86	Roman Anthony,	Boston Red Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,87,"Slade Cecconi,",Cleveland Guardians,"87	Slade Cecconi,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,88,"Owen Caissie,",Chicago Cubs	RC,"88	Owen Caissie,	Chicago Cubs	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,89,"Ramón Laureano,",San Diego Padres,"89	Ramón Laureano,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,90,"Mike Tauchman,",Chicago White Sox,"90	Mike Tauchman,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,91,"Chase Dollander,",Colorado Rockies,"91	Chase Dollander,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,92,"Kyle Freeland,",Colorado Rockies,"92	Kyle Freeland,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,93,"Teoscar Hernández,",Los Angeles Dodgers,"93	Teoscar Hernández,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,94,"Lawrence Butler,",Athletics,"94	Lawrence Butler,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,95,"Brendan Donovan,",St. Louis Cardinals,"95	Brendan Donovan,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,96,"Mike Burrows,",Pittsburgh Pirates,"96	Mike Burrows,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,97,"Dansby Swanson,",Chicago Cubs,"97	Dansby Swanson,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,98,"Jacob deGrom,",Texas Rangers,"98	Jacob deGrom,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,99,"Bryan Woo,",Seattle Mariners,"99	Bryan Woo,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,100,"Noelvi Marte,",Cincinnati Reds,"100	Noelvi Marte,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,101,"Tyler Soderstrom,",Athletics,"101	Tyler Soderstrom,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,102,"Isaac Collins,",Milwaukee Brewers,"102	Isaac Collins,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,103,"Brent Rooker,",Athletics,"103	Brent Rooker,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,104,"Jasson Domínguez,",New York Yankees,"104	Jasson Domínguez,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,105,"Max Muncy,",Athletics,"105	Max Muncy,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,106,"Spencer Torkelson,",Detroit Tigers,"106	Spencer Torkelson,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,107,"Javier Báez,",Detroit Tigers,"107	Javier Báez,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,108,"George Springer,",Toronto Blue Jays,"108	George Springer,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,109,"Caleb Durbin,",Milwaukee Brewers,"109	Caleb Durbin,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,110,"Cristopher Sánchez,",Philadelphia Phillies,"110	Cristopher Sánchez,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,111,"Robbie Ray,",San Francisco Giants,"111	Robbie Ray,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,112,"Jhostynxon Garcia,",Boston Red Sox	RC,"112	Jhostynxon Garcia,	Boston Red Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,113,"Cole Ragans,",Kansas City Royals,"113	Cole Ragans,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,114,"Matt Chapman,",San Francisco Giants,"114	Matt Chapman,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,115,"Jack Dreyer,",Los Angeles Dodgers,"115	Jack Dreyer,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,116,"Luke Keaschall,",Minnesota Twins,"116	Luke Keaschall,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,117,"Nolan Schanuel,",Angels,"117	Nolan Schanuel,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,118,"Brandon Sproat,",New York Mets	RC,"118	Brandon Sproat,	New York Mets	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,119,"Brandon Nimmo,",Texas Rangers,"119	Brandon Nimmo,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,120,"Yu Darvish,",San Diego Padres,"120	Yu Darvish,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,121,"Caden Dana,",Angels,"121	Caden Dana,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,122,"Bo Bichette,",Toronto Blue Jays,"122	Bo Bichette,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,123,"Luis Gil,",New York Yankees,"123	Luis Gil,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,124,"Daylen Lile,",Washington Nationals,"124	Daylen Lile,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,125,"Ha-Seong Kim,",Atlanta Braves,"125	Ha-Seong Kim,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,126,"Brandon Pfaadt,",Arizona Diamondbacks,"126	Brandon Pfaadt,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,127,"Gavin Sheets,",San Diego Padres,"127	Gavin Sheets,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,128,"Anthony Seigler,",Milwaukee Brewers	RC,"128	Anthony Seigler,	Milwaukee Brewers	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,129,"Josh Naylor,",Seattle Mariners,"129	Josh Naylor,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,130,"Max Fried,",New York Yankees,"130	Max Fried,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,131,"Ryan Mountcastle,",Baltimore Orioles,"131	Ryan Mountcastle,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,132,"Luisangel Acuña,",New York Mets,"132	Luisangel Acuña,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,133,"Kyle Manzardo,",Cleveland Guardians,"133	Kyle Manzardo,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,134,"Braxton Ashcraft,",Pittsburgh Pirates,"134	Braxton Ashcraft,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,135,"Jorge Polanco,",Seattle Mariners,"135	Jorge Polanco,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,136,"Jac Caglianone,",Kansas City Royals	RC,"136	Jac Caglianone,	Kansas City Royals	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,137,"Jonah Tong,",New York Mets	RC,"137	Jonah Tong,	New York Mets	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,138,"Tyler Stephenson,",Cincinnati Reds,"138	Tyler Stephenson,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,139,"Steven Kwan,",Cleveland Guardians,"139	Steven Kwan,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,140,"Victor Robles,",Seattle Mariners,"140	Victor Robles,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,141,"Jared Jones,",Pittsburgh Pirates,"141	Jared Jones,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,142,"Cole Young,",Seattle Mariners	RC,"142	Cole Young,	Seattle Mariners	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,143,"Manny Machado,",San Diego Padres,"143	Manny Machado,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,144,"Jacob Misiorowski,",Milwaukee Brewers	RC,"144	Jacob Misiorowski,	Milwaukee Brewers	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,145,"Hurston Waldrep,",Atlanta Braves,"145	Hurston Waldrep,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,146,"Francisco Lindor,",New York Mets,"146	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,147,"Jordan Beck,",Colorado Rockies,"147	Jordan Beck,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,148,"Bradgley Rodríguez,",San Diego Padres	RC,"148	Bradgley Rodríguez,	San Diego Padres	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,149,"Luis Rengifo,",Angels,"149	Luis Rengifo,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,150,"Nolan McLean,",New York Mets	RC,"150	Nolan McLean,	New York Mets	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,151,"Ke'Bryan Hayes,",Cincinnati Reds,"151	Ke'Bryan Hayes,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,152,"Riley Greene,",Detroit Tigers,"152	Riley Greene,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,153,"Brady House,",Washington Nationals	RC,"153	Brady House,	Washington Nationals	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,154,"Carlos Correa,",Houston Astros,"154	Carlos Correa,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,155,"Cole Wilcox,",Seattle Mariners	RC,"155	Cole Wilcox,	Seattle Mariners	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,156,"Willson Contreras,",St. Louis Cardinals,"156	Willson Contreras,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,157,"Kevin Alcántara,",Chicago Cubs,"157	Kevin Alcántara,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,158,"Max Muncy,",Los Angeles Dodgers,"158	Max Muncy,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,159,"Kyle Schwarber,",Philadelphia Phillies,"159	Kyle Schwarber,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,160,"Bobby Witt Jr.,",Kansas City Royals,"160	Bobby Witt Jr.,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,161,"Carson Williams,",Tampa Bay Rays	RC,"161	Carson Williams,	Tampa Bay Rays	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,162,"Sonny Gray,",Boston Red Sox,"162	Sonny Gray,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,163,"Mike Trout,",Angels,"163	Mike Trout,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,164,"Jackson Jobe,",Detroit Tigers,"164	Jackson Jobe,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,165,"Alec Burleson,",St. Louis Cardinals,"165	Alec Burleson,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,166,"Luis Robert Jr.,",Chicago White Sox,"166	Luis Robert Jr.,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,167,"Yusei Kikuchi,",Angels,"167	Yusei Kikuchi,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,168,"Jesús Luzardo,",Philadelphia Phillies,"168	Jesús Luzardo,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,169,"Edward Cabrera,",Miami Marlins,"169	Edward Cabrera,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,170,"Hunter Brown,",Houston Astros,"170	Hunter Brown,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,171,"Jung Hoo Lee,",San Francisco Giants,"171	Jung Hoo Lee,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,172,"Jordan Lawlar,",Arizona Diamondbacks,"172	Jordan Lawlar,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,173,"Bryan Reynolds,",Pittsburgh Pirates,"173	Bryan Reynolds,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,174,"Robert Suarez,",San Diego Padres,"174	Robert Suarez,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,175,"Samuel Basallo,",Baltimore Orioles	RC,"175	Samuel Basallo,	Baltimore Orioles	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,176,"Jesús Sánchez,",Houston Astros,"176	Jesús Sánchez,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,177,"Angel Martínez,",Cleveland Guardians,"177	Angel Martínez,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,178,"Emmet Sheehan,",Los Angeles Dodgers,"178	Emmet Sheehan,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,179,"Ezequiel Tovar,",Colorado Rockies,"179	Ezequiel Tovar,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,180,"Adley Rutschman,",Baltimore Orioles,"180	Adley Rutschman,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,181,"Ian Seymour,",Tampa Bay Rays	RC,"181	Ian Seymour,	Tampa Bay Rays	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,182,"Kyle Teel,",Chicago White Sox	RC,"182	Kyle Teel,	Chicago White Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,183,"Trea Turner,",Philadelphia Phillies,"183	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,184,"Jordan Westburg,",Baltimore Orioles,"184	Jordan Westburg,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,185,"Ronel Blanco,",Houston Astros,"185	Ronel Blanco,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,186,"Zack Gelof,",Athletics,"186	Zack Gelof,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,187,"Kyle Tucker,",Chicago Cubs,"187	Kyle Tucker,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,188,"Zach Neto,",Angels,"188	Zach Neto,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,189,"Ben Rice,",New York Yankees,"189	Ben Rice,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,190,"Clayton Kershaw,",Los Angeles Dodgers,"190	Clayton Kershaw,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,191,"Josh Jung,",Texas Rangers,"191	Josh Jung,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,192,"Seth Lugo,",Kansas City Royals,"192	Seth Lugo,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,193,"Matt Strahm,",Philadelphia Phillies,"193	Matt Strahm,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,194,"Matt Olson,",Atlanta Braves,"194	Matt Olson,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,195,"Sal Frelick,",Milwaukee Brewers,"195	Sal Frelick,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,196,"Jazz Chisholm Jr.,",New York Yankees,"196	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,197,"Jhonkensy Noel,",Cleveland Guardians,"197	Jhonkensy Noel,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,198,"Lars Nootbaar,",St. Louis Cardinals,"198	Lars Nootbaar,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,199,"Carter Jensen,",Kansas City Royals	RC,"199	Carter Jensen,	Kansas City Royals	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,200,"Simeon Woods Richardson,",Minnesota Twins,"200	Simeon Woods Richardson,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,201,"Keibert Ruiz,",Washington Nationals,"201	Keibert Ruiz,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,202,"Shota Imanaga,",Chicago Cubs,"202	Shota Imanaga,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,203,"Trey Sweeney,",Detroit Tigers,"203	Trey Sweeney,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,204,"Jack Flaherty,",Detroit Tigers	RC,"204	Jack Flaherty,	Detroit Tigers	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,205,"Christian Montes De Oca,",Arizona Diamondbacks	RC,"205	Christian Montes De Oca,	Arizona Diamondbacks	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,206,"Luis Severino,",Athletics,"206	Luis Severino,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,207,"David Bednar,",New York Yankees,"207	David Bednar,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,208,"Parker Meadows,",Detroit Tigers,"208	Parker Meadows,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,209,"Drake Baldwin,",Atlanta Braves,"209	Drake Baldwin,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,210,"Shane Bieber,",Toronto Blue Jays,"210	Shane Bieber,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,211,"Andrew Hoffman,",Arizona Diamondbacks	RC,"211	Andrew Hoffman,	Arizona Diamondbacks	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,212,"Chase Burns,",Cincinnati Reds	RC,"212	Chase Burns,	Cincinnati Reds	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,213,"Starling Marte,",New York Mets,"213	Starling Marte,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,214,"William Contreras,",Milwaukee Brewers,"214	William Contreras,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,215,"Ryan O'Hearn,",San Diego Padres,"215	Ryan O'Hearn,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,216,"Geraldo Perdomo,",Arizona Diamondbacks,"216	Geraldo Perdomo,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,217,"Christian Walker,",Houston Astros,"217	Christian Walker,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,218,"Jackson Holliday,",Baltimore Orioles,"218	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,219,"Yainer Diaz,",Houston Astros,"219	Yainer Diaz,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,220,"Ketel Marte,",Arizona Diamondbacks,"220	Ketel Marte,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,221,"Sal Stewart,",Cincinnati Reds	RC,"221	Sal Stewart,	Cincinnati Reds	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,222,"Cam Schlittler,",New York Yankees	RC,"222	Cam Schlittler,	New York Yankees	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,223,"Daulton Varsho,",Toronto Blue Jays,"223	Daulton Varsho,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,224,"Davis Schneider,",Toronto Blue Jays,"224	Davis Schneider,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,225,"Dominic Smith,",San Francisco Giants,"225	Dominic Smith,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,226,"Ryan Jeffers,",Minnesota Twins,"226	Ryan Jeffers,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,227,"Jake Mangum,",Tampa Bay Rays,"227	Jake Mangum,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,228,"Connelly Early,",Boston Red Sox	RC,"228	Connelly Early,	Boston Red Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,229,"Kenley Jansen,",Angels,"229	Kenley Jansen,	Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,230,"Thomas Saggese,",St. Louis Cardinals,"230	Thomas Saggese,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,231,"Cal Raleigh,",Seattle Mariners	(Record Breakers),"231	Cal Raleigh,	Seattle Mariners	(Record Breakers)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,232,"Pete Alonso,",New York Mets	(Record Breakers),"232	Pete Alonso,	New York Mets	(Record Breakers)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,233,"Elly De La Cruz,",Cincinnati Reds	(Record Breakers),"233	Elly De La Cruz,	Cincinnati Reds	(Record Breakers)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,234,"Riley Greene,",Detroit Tigers	(Record Breakers),"234	Riley Greene,	Detroit Tigers	(Record Breakers)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,235,"Andy Pages,",Los Angeles Dodgers,"235	Andy Pages,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,236,"JJ Bleday,",Athletics,"236	JJ Bleday,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,237,"Trevor Rogers,",Baltimore Orioles,"237	Trevor Rogers,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,238,"Corbin Burnes,",Arizona Diamondbacks,"238	Corbin Burnes,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,239,"Edgar Quero,",Chicago White Sox,"239	Edgar Quero,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,240,"Julio Rodríguez,",Seattle Mariners,"240	Julio Rodríguez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,241,"Seiya Suzuki,",Chicago Cubs,"241	Seiya Suzuki,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,242,"Parker Messick,",Cleveland Guardians	RC,"242	Parker Messick,	Cleveland Guardians	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,243,"Gleyber Torres,",Detroit Tigers,"243	Gleyber Torres,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,244,"Evan Carter,",Texas Rangers,"244	Evan Carter,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,245,"Trey Yesavage,",Toronto Blue Jays	RC,"245	Trey Yesavage,	Toronto Blue Jays	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,246,"Dalton Rushing,",Los Angeles Dodgers,"246	Dalton Rushing,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,247,"Moisés Ballesteros,",Chicago Cubs,"247	Moisés Ballesteros,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,248,"Carlos Narváez,",Boston Red Sox,"248	Carlos Narváez,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,249,"Christian Moore,",Angels	RC,"249	Christian Moore,	Angels	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,250,"Giancarlo Stanton,",New York Yankees,"250	Giancarlo Stanton,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,251,"Joey Cantillo,",Cleveland Guardians,"251	Joey Cantillo,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,252,"Matt McLain,",Cincinnati Reds,"252	Matt McLain,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,253,"Byron Buxton,",Minnesota Twins,"253	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,254,"Zac Gallen,",Arizona Diamondbacks,"254	Zac Gallen,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,255,"Joe Ryan,",Minnesota Twins,"255	Joe Ryan,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,256,"Bo Naylor,",Cleveland Guardians,"256	Bo Naylor,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,257,"Victor Mesa Jr.,",Miami Marlins,"257	Victor Mesa Jr.,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,258,"Taylor Ward,",Baltimore Orioles,"258	Taylor Ward,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,259,"Miguel Andujar,",Cincinnati Reds,"259	Miguel Andujar,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,260,"Dylan Cease,",Toronto Blue Jays,"260	Dylan Cease,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,261,"Pete Crow-Armstrong,",Chicago Cubs,"261	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,262,"Adam Frazier,",Kansas City Royals,"262	Adam Frazier,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,263,"Justin Martinez,",Arizona Diamondbacks,"263	Justin Martinez,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,264,"Ozzie Albies,",Atlanta Braves,"264	Ozzie Albies,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,265,"Bubba Chandler,",Pittsburgh Pirates	RC,"265	Bubba Chandler,	Pittsburgh Pirates	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,266,"Spencer Horwitz,",Pittsburgh Pirates,"266	Spencer Horwitz,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,267,"Jorge Mateo,",Baltimore Orioles,"267	Jorge Mateo,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,268,"Hyeseong Kim,",Los Angeles Dodgers,"268	Hyeseong Kim,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,269,"Cal Raleigh,",Seattle Mariners,"269	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,270,"Andrew McCutchen,",Pittsburgh Pirates,"270	Andrew McCutchen,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,271,"Austin Riley,",Atlanta Braves,"271	Austin Riley,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,272,"Jackson Chourio,",Milwaukee Brewers,"272	Jackson Chourio,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,273,"Sean Murphy,",Atlanta Braves,"273	Sean Murphy,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,274,"Brooks Baldwin,",Chicago White Sox,"274	Brooks Baldwin,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,275,"Nick Kurtz,",Athletics,"275	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,276,"Toronto Blue Jays,",Toronto Blue Jays	(AL Champions),"276	Toronto Blue Jays,	Toronto Blue Jays	(AL Champions)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,277,"Los Angeles Dodgers,",Los Angeles Dodgers	(NL Champions),"277	Los Angeles Dodgers,	Los Angeles Dodgers	(NL Champions)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,278,"Chris Sale,",Atlanta Braves,"278	Chris Sale,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,279,"Jacob Young,",Washington Nationals,"279	Jacob Young,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,280,"Trevor Larnach,",Minnesota Twins,"280	Trevor Larnach,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,281,"Tarik Skubal,",Detroit Tigers,"281	Tarik Skubal,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,282,"Will Smith,",Los Angeles Dodgers,"282	Will Smith,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,283,"Jeremy Peña,",Houston Astros,"283	Jeremy Peña,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,284,"Cedric Mullins,",Tampa Bay Rays,"284	Cedric Mullins,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,285,"Lane Thomas,",Cleveland Guardians,"285	Lane Thomas,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,286,"Randy Arozarena,",Seattle Mariners,"286	Randy Arozarena,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,287,"Gunnar Henderson,",Baltimore Orioles,"287	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,288,"Eduardo Rodriguez,",Arizona Diamondbacks,"288	Eduardo Rodriguez,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,289,"J.P. Crawford,",Seattle Mariners,"289	J.P. Crawford,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,290,"Shohei Ohtani,",Los Angeles Dodgers,"290	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,291,"Freddy Peralta,",Milwaukee Brewers,"291	Freddy Peralta,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,292,"Mick Abel,",Minnesota Twins,"292	Mick Abel,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,293,"Luis Arraez,",San Diego Padres,"293	Luis Arraez,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,294,"MacKenzie Gore,",Washington Nationals,"294	MacKenzie Gore,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,295,"James Wood,",Washington Nationals,"295	James Wood,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,296,"TJ Friedl,",Cincinnati Reds,"296	TJ Friedl,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,297,"Anthony Volpe,",New York Yankees,"297	Anthony Volpe,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,298,"Chase Meidroth,",Chicago White Sox,"298	Chase Meidroth,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,299,"Matt Shaw,",Chicago Cubs,"299	Matt Shaw,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,300,"Orion Kerkering,",Philadelphia Phillies,"300	Orion Kerkering,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,301,"Josh Smith,",Texas Rangers,"301	Josh Smith,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,302,"Corey Seager,",Texas Rangers,"302	Corey Seager,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,303,"Curtis Mead,",Chicago White Sox,"303	Curtis Mead,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,304,"Jack Leiter,",Texas Rangers,"304	Jack Leiter,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,305,"Michael Busch,",Chicago Cubs,"305	Michael Busch,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,306,"Juan Soto,",New York Mets,"306	Juan Soto,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,307,"Ryan Weathers,",Miami Marlins,"307	Ryan Weathers,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,308,"Oneil Cruz,",Pittsburgh Pirates,"308	Oneil Cruz,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,309,"Andrew Vaughn,",Milwaukee Brewers,"309	Andrew Vaughn,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,310,"Bryce Eldridge,",San Francisco Giants	RC,"310	Bryce Eldridge,	San Francisco Giants	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,311,"Los Angeles Dodgers,",Los Angeles Dodgers	(World Series Highlights),"311	Los Angeles Dodgers,	Los Angeles Dodgers	(World Series Highlights)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,312,"Toronto Blue Jays,",Toronto Blue Jays	(World Series Highlights),"312	Toronto Blue Jays,	Toronto Blue Jays	(World Series Highlights)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,313,"Los Angeles Dodgers,",Los Angeles Dodgers	(World Series Highlights),"313	Los Angeles Dodgers,	Los Angeles Dodgers	(World Series Highlights)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,314,"Carlos Estévez,",Kansas City Royals,"314	Carlos Estévez,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,315,"Robinson Piña,",Toronto Blue Jays	RC,"315	Robinson Piña,	Toronto Blue Jays	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,316,"Merrill Kelly,",Texas Rangers,"316	Merrill Kelly,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,317,"Kodai Senga,",New York Mets,"317	Kodai Senga,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,318,"Victor Scott II,",St. Louis Cardinals,"318	Victor Scott II,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,319,"Matt Wallner,",Minnesota Twins,"319	Matt Wallner,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,320,"Salvador Perez,",Kansas City Royals,"320	Salvador Perez,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,321,"Kody Clemens,",Minnesota Twins,"321	Kody Clemens,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,322,"Fernando Tatis Jr.,",San Diego Padres,"322	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,323,"Heriberto Hernández,",Miami Marlins	RC,"323	Heriberto Hernández,	Miami Marlins	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,324,"Denzel Clarke,",Athletics,"324	Denzel Clarke,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,325,"Brice Turang,",Milwaukee Brewers,"325	Brice Turang,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,326,"Carson Kelly,",Chicago Cubs,"326	Carson Kelly,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,327,"Willy Adames,",San Francisco Giants,"327	Willy Adames,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,328,"José Caballero,",New York Yankees,"328	José Caballero,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,329,"Grant Taylor,",Chicago White Sox	RC,"329	Grant Taylor,	Chicago White Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,330,"Cristian Javier,",Houston Astros,"330	Cristian Javier,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,331,"Rhys Hoskins,",Milwaukee Brewers,"331	Rhys Hoskins,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,332,"Christian Yelich,",Milwaukee Brewers,"332	Christian Yelich,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,333,"Miguel Cabrera,",Detroit Tigers	(Turn Back The Clock),"333	Miguel Cabrera,	Detroit Tigers	(Turn Back The Clock)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,334,"Carlos Beltrán,",New York Yankees	(Turn Back The Clock),"334	Carlos Beltrán,	New York Yankees	(Turn Back The Clock)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,335,"Derek Jeter,",New York Yankees	(Turn Back The Clock),"335	Derek Jeter,	New York Yankees	(Turn Back The Clock)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,336,"Mike Piazza,",San Diego Padres	(Turn Back The Clock),"336	Mike Piazza,	San Diego Padres	(Turn Back The Clock)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,337,"Ichiro,",Seattle Mariners	(Turn Back The Clock),"337	Ichiro,	Seattle Mariners	(Turn Back The Clock)",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,338,"Colton Cowser,",Baltimore Orioles,"338	Colton Cowser,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,339,"Lenyn Sosa,",Chicago White Sox,"339	Lenyn Sosa,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,340,"Wyatt Langford,",Texas Rangers,"340	Wyatt Langford,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,341,"Alejandro Kirk,",Toronto Blue Jays,"341	Alejandro Kirk,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,342,"Michael Harris II,",Atlanta Braves,"342	Michael Harris II,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,343,"Kerry Carpenter,",Detroit Tigers,"343	Kerry Carpenter,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,344,"David Hamilton,",Boston Red Sox,"344	David Hamilton,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,345,"Otto Lopez,",Miami Marlins,"345	Otto Lopez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,346,"Hunter Goodman,",Colorado Rockies,"346	Hunter Goodman,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,347,"Danny Jansen,",Milwaukee Brewers,"347	Danny Jansen,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,348,"Shane Baz,",Tampa Bay Rays,"348	Shane Baz,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,349,"CJ Abrams,",Washington Nationals,"349	CJ Abrams,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,350,"Freddie Freeman,",Los Angeles Dodgers,"350	Freddie Freeman,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,351,"Jackson Merrill,",San Diego Padres,"351	Jackson Merrill,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,352,"Gavin Lux,",Cincinnati Reds,"352	Gavin Lux,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,353,"Shane Smith,",Chicago White Sox,"353	Shane Smith,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,354,"Joey Loperfido,",Toronto Blue Jays,"354	Joey Loperfido,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,355,"Brenton Doyle,",Colorado Rockies,"355	Brenton Doyle,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,356,"Marcelo Mayer,",Boston Red Sox,"356	Marcelo Mayer,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,357,"Harrison Bader,",Philadelphia Phillies,"357	Harrison Bader,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,358,"Masyn Winn,",St. Louis Cardinals,"358	Masyn Winn,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,359,"Aroldis Chapman,",Boston Red Sox	RC,"359	Aroldis Chapman,	Boston Red Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,360,"Owen Caissie,",Chicago Cubs	RC,"360	Owen Caissie,	Chicago Cubs	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,361,"Gabriel Moreno,",Arizona Diamondbacks,"361	Gabriel Moreno,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,362,"Wilyer Abreu,",Boston Red Sox,"362	Wilyer Abreu,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,363,"Nick Castellanos,",Philadelphia Phillies,"363	Nick Castellanos,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,364,"C.J. Kayfus,",Cleveland Guardians	RC,"364	C.J. Kayfus,	Cleveland Guardians	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,365,"Kyle Isbel,",Kansas City Royals,"365	Kyle Isbel,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,366,"Marcus Semien,",Texas Rangers,"366	Marcus Semien,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,367,"Kristian Campbell,",Boston Red Sox,"367	Kristian Campbell,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,368,"Brayan Rocchio,",Cleveland Guardians,"368	Brayan Rocchio,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,369,"Brandon Lowe,",Tampa Bay Rays,"369	Brandon Lowe,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,370,"Addison Barger,",Toronto Blue Jays,"370	Addison Barger,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,371,"Yoshinobu Yamamoto,",Los Angeles Dodgers,"371	Yoshinobu Yamamoto,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,372,"Philip Abner/Eduarniel Núñez/Didier Fuentes/Jonathan Pintaro,",Arizona Diamondbacks/Athletics/Atlanta Braves/New York Mets RC,"372	Philip Abner/Eduarniel Núñez/Didier Fuentes/Jonathan Pintaro,	Arizona Diamondbacks/Athletics/Atlanta Braves/New York Mets RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,373,"Nathan Church/Troy Johnston/Jacob Melton/Carlos Cortes,",St. Louis Cardinals/Miami Marlins/Houston Astros/Athletics RC,"373	Nathan Church/Troy Johnston/Jacob Melton/Carlos Cortes,	St. Louis Cardinals/Miami Marlins/Houston Astros/Athletics RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,374,"Cam Devanney/Chad Stevens/Brice Matthews/Ryan Ritter,",Pittsburgh Pirates/Angels/Houston Astros/Colorado Rockies RC,"374	Cam Devanney/Chad Stevens/Brice Matthews/Ryan Ritter,	Pittsburgh Pirates/Angels/Houston Astros/Colorado Rockies RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,375,"Zachary Maxwell/Dylan Smith/Paul Gervase/Jack Perkins,",Cincinnati Reds/Detroit Tigers/Los Angeles Dodgers/Athletics RC,"375	Zachary Maxwell/Dylan Smith/Paul Gervase/Jack Perkins,	Cincinnati Reds/Detroit Tigers/Los Angeles Dodgers/Athletics RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,376,"Will Banfield/C.J. Stubbs/Jimmy Crooks/Rafael Flores,",Cincinnati Reds/Washington Nationals/St. Louis Cardinals/Pittsburgh Pirates RC,"376	Will Banfield/C.J. Stubbs/Jimmy Crooks/Rafael Flores,	Cincinnati Reds/Washington Nationals/St. Louis Cardinals/Pittsburgh Pirates RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,377,"Cody Freeman/Otto Kemp/Jeremiah Jackson/Bob Seymour,",Texas Rangers/Philadelphia Phillies/Baltimore Orioles/Tampa Bay Rays RC,"377	Cody Freeman/Otto Kemp/Jeremiah Jackson/Bob Seymour,	Texas Rangers/Philadelphia Phillies/Baltimore Orioles/Tampa Bay Rays RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,378,"Andry Lara/Wikelman González/Juan Burgos/Jacob Palisch,",Washington Nationals/Chicago White Sox/Arizona Diamondbacks RC,"378	Andry Lara/Wikelman González/Juan Burgos/Jacob Palisch,	Washington Nationals/Chicago White Sox/Arizona Diamondbacks RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,379,"George Valera/Will Robertson/Colby Thomas/Tristin English,",Cleveland Guardians/Pittsburgh Pirates/Athletics/Arizona Diamondbacks RC,"379	George Valera/Will Robertson/Colby Thomas/Tristin English,	Cleveland Guardians/Pittsburgh Pirates/Athletics/Arizona Diamondbacks RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,380,"Junior Caminero,",Tampa Bay Rays,"380	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,381,"Ryan McMahon,",New York Yankees,"381	Ryan McMahon,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,382,"Bryson Stott,",Philadelphia Phillies,"382	Bryson Stott,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,383,"Corbin Carroll,",Arizona Diamondbacks,"383	Corbin Carroll,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,384,"Adolis García,",Texas Rangers,"384	Adolis García,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,385,"Carlos Rodón,",New York Yankees,"385	Carlos Rodón,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,386,"Payton Tolle,",Boston Red Sox	RC,"386	Payton Tolle,	Boston Red Sox	RC",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,387,"Dugan Darnell/Nick Raquet/Troy Melton/Jack Little,",Colorado Rockies/St. Louis Cardinals/Detroit Tigers/Los Angeles Dodgers RC,"387	Dugan Darnell/Nick Raquet/Troy Melton/Jack Little,	Colorado Rockies/St. Louis Cardinals/Detroit Tigers/Los Angeles Dodgers RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,388,"Justin Dean/Tristan Peters/Kenedy Corona/Drew Gilbert,",Los Angeles Dodgers/Tampa Bay Rays/Houston Astros/San Francisco Giants RC,"388	Justin Dean/Tristan Peters/Kenedy Corona/Drew Gilbert,	Los Angeles Dodgers/Tampa Bay Rays/Houston Astros/San Francisco Giants RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,389,"Alan Rangel/Elvis Alvarado/Carson Seymour/Joe Rock,",Philadelphia Phillies/Athletics/San Francisco Giants/Tampa Bay Rays RC,"389	Alan Rangel/Elvis Alvarado/Carson Seymour/Joe Rock,	Philadelphia Phillies/Athletics/San Francisco Giants/Tampa Bay Rays RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,390,"Denzer Guzman/Maximo Acosta/Alex Freeland/Colson Montgomery,",Angels/Miami Marlins/Los Angeles Dodgers/Chicago White Sox RC,"390	Denzer Guzman/Maximo Acosta/Alex Freeland/Colson Montgomery,	Angels/Miami Marlins/Los Angeles Dodgers/Chicago White Sox RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,391,"Taylor Rashi/Shinnosuke Ogasawara/Luinder Avila/PJ Poulin,",Arizona Diamondbacks/Washington Nationals/Kansas City Royals RC,"391	Taylor Rashi/Shinnosuke Ogasawara/Luinder Avila/PJ Poulin,	Arizona Diamondbacks/Washington Nationals/Kansas City Royals RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,392,"Zach Cole/Jakob Marsee/Yanquiel Fernández/Petey Halpin,",Houston Astros/Miami Marlins/Colorado Rockies/Cleveland Guardians RC,"392	Zach Cole/Jakob Marsee/Yanquiel Fernández/Petey Halpin,	Houston Astros/Miami Marlins/Colorado Rockies/Cleveland Guardians RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,393,"Mitch Farris/Andrew Alvarez/Joel Peguero/Kyle Backhus,",Angels/Washington Nationals/San Francisco Giants/Arizona Diamondbacks RC,"393	Mitch Farris/Andrew Alvarez/Joel Peguero/Kyle Backhus,	Angels/Washington Nationals/San Francisco Giants/Arizona Diamondbacks RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,394,"Jack Winkler/Warming Bernabel/Kyle Karros/César Prieto,",Miami Marlins/Colorado Rockies/St. Louis Cardinals RC,"394	Jack Winkler/Warming Bernabel/Kyle Karros/César Prieto,	Miami Marlins/Colorado Rockies/St. Louis Cardinals RC",True
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,395,"Kyle Stowers,",Miami Marlins,"395	Kyle Stowers,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,396,"Cade Horton,",Chicago Cubs,"396	Cade Horton,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,397,"Ceddanne Rafaela,",Boston Red Sox,"397	Ceddanne Rafaela,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,398,"Zach McKinstry,",Detroit Tigers,"398	Zach McKinstry,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,399,"Jordan Walker,",St. Louis Cardinals,"399	Jordan Walker,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Chrome,,400,"Mickey Moniak,",Colorado Rockies,"400	Mickey Moniak,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,10,"Aaron Judge,",New York Yankees,"10	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,17,"Jacob Wilson,",Athletics,"17	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,33,"Paul Skenes,",Pittsburgh Pirates,"33	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,46,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"46	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,55,"Ronald Acuña Jr.,",Atlanta Braves,"55	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,107,"Javier Báez,",Detroit Tigers,"107	Javier Báez,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,143,"Manny Machado,",San Diego Padres,"143	Manny Machado,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,146,"Francisco Lindor,",New York Mets,"146	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,152,"Riley Greene,",Detroit Tigers,"152	Riley Greene,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,187,"Kyle Tucker,",Chicago Cubs,"187	Kyle Tucker,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,215,"Ryan O'Hearn,",San Diego Padres,"215	Ryan O'Hearn,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,220,"Ketel Marte,",Arizona Diamondbacks,"220	Ketel Marte,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,243,"Gleyber Torres,",Detroit Tigers,"243	Gleyber Torres,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,261,"Pete Crow-Armstrong,",Chicago Cubs,"261	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,269,"Cal Raleigh,",Seattle Mariners,"269	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,281,"Tarik Skubal,",Detroit Tigers,"281	Tarik Skubal,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,282,"Will Smith,",Los Angeles Dodgers,"282	Will Smith,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,290,"Shohei Ohtani,",Los Angeles Dodgers,"290	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,350,"Freddie Freeman,",Los Angeles Dodgers,"350	Freddie Freeman,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,All-Star Logo Variations,20,380,"Junior Caminero,",Tampa Bay Rays,"380	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,10,"Aaron Judge,",New York Yankees,"10	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,11,"Jose Altuve,",Houston Astros,"11	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,12,"Mookie Betts,",Los Angeles Dodgers,"12	Mookie Betts,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,18,"Eury Pérez,",Miami Marlins,"18	Eury Pérez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,33,"Paul Skenes,",Pittsburgh Pirates,"33	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,46,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"46	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,52,"José Ramírez,",Cleveland Guardians,"52	José Ramírez,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,55,"Ronald Acuña Jr.,",Atlanta Braves,"55	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,62,"Rafael Devers,",San Francisco Giants,"62	Rafael Devers,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,70,"Elly De La Cruz,",Cincinnati Reds,"70	Elly De La Cruz,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,72,"Bryce Harper,",Philadelphia Phillies,"72	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,86,"Roman Anthony,",Boston Red Sox,"86	Roman Anthony,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,136,"Jac Caglianone,",Kansas City Royals,"136	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,137,"Jonah Tong,",New York Mets,"137	Jonah Tong,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,143,"Manny Machado,",San Diego Padres,"143	Manny Machado,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,144,"Jacob Misiorowski,",Milwaukee Brewers,"144	Jacob Misiorowski,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,146,"Francisco Lindor,",New York Mets,"146	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,150,"Nolan McLean,",New York Mets,"150	Nolan McLean,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,159,"Kyle Schwarber,",Philadelphia Phillies,"159	Kyle Schwarber,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,160,"Bobby Witt Jr.,",Kansas City Royals,"160	Bobby Witt Jr.,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,163,"Mike Trout,",Los Angeles Angels,"163	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,175,"Samuel Basallo,",Baltimore Orioles,"175	Samuel Basallo,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,182,"Kyle Teel,",Chicago White Sox,"182	Kyle Teel,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,190,"Clayton Kershaw,",Los Angeles Dodgers,"190	Clayton Kershaw,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,212,"Chase Burns,",Cincinnati Reds,"212	Chase Burns,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,240,"Julio Rodríguez,",Seattle Mariners,"240	Julio Rodríguez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,250,"Giancarlo Stanton,",New York Yankees,"250	Giancarlo Stanton,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,253,"Byron Buxton,",Minnesota Twins,"253	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,261,"Pete Crow-Armstrong,",Chicago Cubs,"261	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,265,"Bubba Chandler,",Pittsburgh Pirates,"265	Bubba Chandler,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,270,"Andrew McCutchen,",Pittsburgh Pirates,"270	Andrew McCutchen,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,272,"Jackson Chourio,",Milwaukee Brewers,"272	Jackson Chourio,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,275,"Nick Kurtz,",Athletics,"275	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,281,"Tarik Skubal,",Detroit Tigers,"281	Tarik Skubal,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,286,"Randy Arozarena,",Seattle Mariners,"286	Randy Arozarena,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,287,"Gunnar Henderson,",Baltimore Orioles,"287	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,290,"Shohei Ohtani,",Los Angeles Dodgers,"290	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,295,"James Wood,",Washington Nationals,"295	James Wood,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,302,"Corey Seager,",Texas Rangers,"302	Corey Seager,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,306,"Juan Soto,",New York Mets,"306	Juan Soto,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,322,"Fernando Tatis Jr.,",San Diego Padres,"322	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,332,"Christian Yelich,",Milwaukee Brewers,"332	Christian Yelich,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,340,"Wyatt Langford,",Texas Rangers,"340	Wyatt Langford,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,349,"CJ Abrams,",Washington Nationals,"349	CJ Abrams,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,350,"Freddie Freeman,",Los Angeles Dodgers,"350	Freddie Freeman,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,358,"Masyn Winn,",St. Louis Cardinals,"358	Masyn Winn,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,371,"Yoshinobu Yamamoto,",Los Angeles Dodgers,"371	Yoshinobu Yamamoto,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,380,"Junior Caminero,",Tampa Bay Rays,"380	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,383,"Corbin Carroll,",Arizona Diamondbacks,"383	Corbin Carroll,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Image Variations,50,396,"Cade Horton,",Chicago Cubs,"396	Cade Horton,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,13,"Agustín Ramírez,",Miami Marlins,"13	Agustín Ramírez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,25,"Yordan Alvarez,",Houston Astros,"25	Yordan Alvarez,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,39,"Roki Sasaki,",Los Angeles Dodgers,"39	Roki Sasaki,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,53,"Hunter Greene,",Cincinnati Reds,"53	Hunter Greene,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,65,"Mason Miller,",San Diego Padres,"65	Mason Miller,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,98,"Jacob DeGrom,",Texas Rangers,"98	Jacob DeGrom,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,108,"George Springer,",Toronto Blue Jays,"108	George Springer,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,116,"Luke Keaschall,",Minnesota Twins,"116	Luke Keaschall,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,130,"Max Fried,",New York Yankees,"130	Max Fried,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,152,"Riley Greene,",Detroit Tigers,"152	Riley Greene,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,153,"Brady House,",Washington Nationals,"153	Brady House,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,161,"Carson Williams,",Tampa Bay Rays,"161	Carson Williams,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,171,"Jung Hoo Lee,",San Francisco Giants,"171	Jung Hoo Lee,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,183,"Trea Turner,",Philadelphia Phillies,"183	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,209,"Drake Baldwin,",Atlanta Braves,"209	Drake Baldwin,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,218,"Jackson Holliday,",Baltimore Orioles,"218	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,269,"Cal Raleigh,",Seattle Mariners,"269	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,291,"Freddy Peralta,",Milwaukee Brewers,"291	Freddy Peralta,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,308,"Oneil Cruz,",Pittsburgh Pirates,"308	Oneil Cruz,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Alternate Banner Variations,20,396,"Cade Horton,",Chicago Cubs,"396	Cade Horton,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,20,"Jonathan Aranda,",Tampa Bay Rays,"20	Jonathan Aranda,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,58,"Chandler Simpson,",Tampa Bay Rays,"58	Chandler Simpson,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,72,"Bryce Harper,",Philadelphia Phillies,"72	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,117,"Nolan Schanuel,",Los Angeles Angels,"117	Nolan Schanuel,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,159,"Kyle Schwarber,",Philadelphia Phillies,"159	Kyle Schwarber,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,163,"Mike Trout,",Los Angeles Angels,"163	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,168,"Jesús Luzardo,",Philadelphia Phillies,"168	Jesús Luzardo,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,183,"Trea Turner,",Philadelphia Phillies,"183	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,188,"Zach Neto,",Los Angeles Angels,"188	Zach Neto,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Throwback Jerseys Variations,10,380,"Junior Caminero,",Tampa Bay Rays,"380	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,13,"Agustín Ramírez,",Miami Marlins,"13	Agustín Ramírez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,28,"Nico Hoerner,",Chicago Cubs,"28	Nico Hoerner,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,29,"Eugenio Suárez,",Seattle Mariners,"29	Eugenio Suárez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,31,"Andrew Abbott,",Cincinnati Reds,"31	Andrew Abbott,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,36,"Edwin Díaz,",Los Angeles Dodgers,"36	Edwin Díaz,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,59,"Harry Ford,",Seattle Mariners,"59	Harry Ford,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,60,"Brooks Lee,",Minnesota Twins,"60	Brooks Lee,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,73,"Dillon Dingler,",Detroit Tigers,"73	Dillon Dingler,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,81,"Alec Bohm,",Philadelphia Phillies,"81	Alec Bohm,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,82,"Logan Webb,",San Francisco Giants,"82	Logan Webb,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,91,"Chase Dollander,",Colorado Rockies,"91	Chase Dollander,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,98,"Jacob DeGrom,",Texas Rangers,"98	Jacob DeGrom,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,100,"Noelvi Marte,",Cincinnati Reds,"100	Noelvi Marte,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,103,"Brent Rooker,",Athletics,"103	Brent Rooker,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,112,"Jhostynxon Garcia,",Boston Red Sox,"112	Jhostynxon Garcia,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,124,"Daylen Lile,",Washington Nationals,"124	Daylen Lile,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,133,"Kyle Manzardo,",Cleveland Guardians,"133	Kyle Manzardo,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,139,"Steven Kwan,",Cleveland Guardians,"139	Steven Kwan,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,154,"Carlos Correa,",Houston Astros,"154	Carlos Correa,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,170,"Hunter Brown,",Houston Astros,"170	Hunter Brown,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,172,"Jordan Lawlar,",Arizona Diamondbacks,"172	Jordan Lawlar,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,173,"Bryan Reynolds,",Pittsburgh Pirates,"173	Bryan Reynolds,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,174,"Robert Suarez,",San Diego Padres,"174	Robert Suarez,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,178,"Emmet Sheehan,",Los Angeles Dodgers,"178	Emmet Sheehan,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,180,"Adley Rutschman,",Baltimore Orioles,"180	Adley Rutschman,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,194,"Matt Olson,",Atlanta Braves,"194	Matt Olson,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,196,"Jazz Chisholm Jr.,",New York Yankees,"196	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,210,"Shane Bieber,",Toronto Blue Jays,"210	Shane Bieber,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,241,"Seiya Suzuki,",Chicago Cubs,"241	Seiya Suzuki,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,258,"Taylor Ward,",Baltimore Orioles,"258	Taylor Ward,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,301,"Josh Smith,",Texas Rangers,"301	Josh Smith,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,310,"Bryce Eldridge,",San Francisco Giants,"310	Bryce Eldridge,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,314,"Carlos Estévez,",Kansas City Royals,"314	Carlos Estévez,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,318,"Victor Scott II,",St. Louis Cardinals,"318	Victor Scott II,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,320,"Salvador Perez,",Kansas City Royals,"320	Salvador Perez,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,323,"Heriberto Hernández,",Miami Marlins,"323	Heriberto Hernández,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,325,"Brice Turang,",Milwaukee Brewers,"325	Brice Turang,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,339,"Lenyn Sosa,",Chicago White Sox,"339	Lenyn Sosa,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,359,"Aroldis Chapman,",Boston Red Sox,"359	Aroldis Chapman,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Black And White Image Variations,40,369,"Brandon Lowe,",Tampa Bay Rays,"369	Brandon Lowe,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-AD,"Andre Dawson,",Montréal Expos,"77RO-AD	Andre Dawson,	Montréal Expos",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-DM,"Dale Murphy,",Atlanta Braves,"77RO-DM	Dale Murphy,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-FL,"Fred Lynn,",Boston Red Sox,"77RO-FL	Fred Lynn,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-GB,"George Brett,",Kansas City Royals,"77RO-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-GF,"George Foster,",Cincinnati Reds,"77RO-GF	George Foster,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-JB,"Johnny Bench,",Cincinnati Reds,"77RO-JB	Johnny Bench,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-JP,"Jim Palmer,",Baltimore Orioles,"77RO-JP	Jim Palmer,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-JR,"Jim Rice,",Boston Red Sox,"77RO-JR	Jim Rice,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-MS,"Mike Schmidt,",Philadelphia Phillies,"77RO-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-RF,"Rollie Fingers,",Oakland Athletics,"77RO-RF	Rollie Fingers,	Oakland Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-RJ,"Reggie Jackson,",New York Yankees,"77RO-RJ	Reggie Jackson,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-SC,"Steve Carlton,",Philadelphia Phillies,"77RO-SC	Steve Carlton,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,77RO-WR,"Willie Randolph,",New York Yankees,"77RO-WR	Willie Randolph,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AB,"Addison Barger,",Toronto Blue Jays,"ROA-AB	Addison Barger,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AF,"Alex Freeland,",Los Angeles Dodgers,"ROA-AF	Alex Freeland,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AJ,"Aaron Judge,",New York Yankees,"ROA-AJ	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AMC,"Andrew McCutchen,",Pittsburgh Pirates,"ROA-AMC	Andrew McCutchen,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AR,"Agustín Ramírez,",Miami Marlins,"ROA-AR	Agustín Ramírez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-AV,"Anthony Volpe,",New York Yankees,"ROA-AV	Anthony Volpe,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BB,"Bert Blyleven,",Texas Rangers,"ROA-BB	Bert Blyleven,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BBU,"Byron Buxton,",Minnesota Twins,"ROA-BBU	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BC,"Bubba Chandler,",Pittsburgh Pirates,"ROA-BC	Bubba Chandler,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BD,"Brendan Donovan,",St. Louis Cardinals,"ROA-BD	Brendan Donovan,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BE,"Bryce Eldridge,",San Francisco Giants,"ROA-BE	Bryce Eldridge,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BM,"Brice Matthews,",Houston Astros,"ROA-BM	Brice Matthews,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BR,"Ben Rice,",New York Yankees,"ROA-BR	Ben Rice,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BRO,"Brent Rooker,",Athletics,"ROA-BRO	Brent Rooker,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BST,"Bryson Stott,",Philadelphia Phillies,"ROA-BST	Bryson Stott,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-BT,"Brice Turang,",Milwaukee Brewers,"ROA-BT	Brice Turang,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CBU,"Chase Burns,",Cincinnati Reds,"ROA-CBU	Chase Burns,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CE,"Connelly Early,",Boston Red Sox,"ROA-CE	Connelly Early,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CF,"Carlton Fisk,",Boston Red Sox,"ROA-CF	Carlton Fisk,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CJ,"Carter Jensen,",Kansas City Royals,"ROA-CJ	Carter Jensen,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CJK,"C.J. Kayfus,",Cleveland Guardians,"ROA-CJK	C.J. Kayfus,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CME,"Chase Meidroth,",Chicago White Sox,"ROA-CME	Chase Meidroth,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CMO,"Christian Moore,",Los Angeles Angels,"ROA-CMO	Christian Moore,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CMON,"Colson Montgomery,",Chicago White Sox,"ROA-CMON	Colson Montgomery,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CS,"Chandler Simpson,",Tampa Bay Rays,"ROA-CS	Chandler Simpson,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CSC,"Cam Schlittler,",New York Yankees,"ROA-CSC	Cam Schlittler,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CT,"Colby Thomas,",Athletics,"ROA-CT	Colby Thomas,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CW,"Carson Williams,",Tampa Bay Rays,"ROA-CW	Carson Williams,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-CWH,"Carson Whisenhunt,",San Francisco Giants,"ROA-CWH	Carson Whisenhunt,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-DBA,"Drake Baldwin,",Atlanta Braves,"ROA-DBA	Drake Baldwin,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-DE,"Dennis Eckersley,",Cleveland,"ROA-DE	Dennis Eckersley,	Cleveland",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-DF,"Didier Fuentes,",Atlanta Braves,"ROA-DF	Didier Fuentes,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-DG,"Drew Gilbert,",San Francisco Giants,"ROA-DG	Drew Gilbert,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-DW,"Dave Winfield,",San Diego Padres,"ROA-DW	Dave Winfield,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-EQ,"Edgar Quero,",Chicago White Sox,"ROA-EQ	Edgar Quero,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-FJ,"Fergie Jenkins,",Boston Red Sox,"ROA-FJ	Fergie Jenkins,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-FTJ,"Fernando Tatis Jr.,",San Diego Padres,"ROA-FTJ	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-GC,"Garrett Crochet,",Boston Red Sox,"ROA-GC	Garrett Crochet,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-GH,"Gunnar Henderson,",Baltimore Orioles,"ROA-GH	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-GT,"Grant Taylor,",Chicago White Sox,"ROA-GT	Grant Taylor,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-GV,"George Valera,",Cleveland Guardians,"ROA-GV	George Valera,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-HF,"Harry Ford,",Seattle Mariners,"ROA-HF	Harry Ford,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-HH,"Heriberto Hernández,",Miami Marlins,"ROA-HH	Heriberto Hernández,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-HK,"Hyeseong Kim,",Los Angeles Dodgers,"ROA-HK	Hyeseong Kim,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-IS,"Ian Seymour,",Tampa Bay Rays,"ROA-IS	Ian Seymour,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JA,"Jose Altuve,",Houston Astros,"ROA-JA	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JCA,"Junior Caminero,",Tampa Bay Rays,"ROA-JCA	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JCAG,"Jac Caglianone,",Kansas City Royals,"ROA-JCAG	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JCJ,"Jazz Chisholm Jr.,",New York Yankees,"ROA-JCJ	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JH,"Jackson Holliday,",Baltimore Orioles,"ROA-JH	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JHG,"Jhostynxon Garcia,",Boston Red Sox,"ROA-JHG	Jhostynxon Garcia,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JK,"Jim Kaat,",Philadelphia Phillies,"ROA-JK	Jim Kaat,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JM,"Jacob Misiorowski,",Milwaukee Brewers,"ROA-JM	Jacob Misiorowski,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JMA,"Jakob Marsee,",Miami Marlins,"ROA-JMA	Jakob Marsee,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JME,"Jacob Melton,",Houston Astros,"ROA-JME	Jacob Melton,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JP,"Jack Perkins,",Athletics,"ROA-JP	Jack Perkins,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JTO,"Jonah Tong,",New York Mets,"ROA-JTO	Jonah Tong,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JTR,"J.T. Realmuto,",Philadelphia Phillies,"ROA-JTR	J.T. Realmuto,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-JWI,"Jacob Wilson,",Athletics,"ROA-JWI	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-KC,"Kerry Carpenter,",Detroit Tigers,"ROA-KC	Kerry Carpenter,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-KCA,"Kristian Campbell,",Boston Red Sox,"ROA-KCA	Kristian Campbell,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-KGS,"Ken Griffey,",Cincinnati Reds,"ROA-KGS	Ken Griffey,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-KK,"Kyle Karros,",Colorado Rockies,"ROA-KK	Kyle Karros,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-KT,"Kyle Teel,",Chicago White Sox,"ROA-KT	Kyle Teel,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-LP,"Lou Piniella,",New York Yankees,"ROA-LP	Lou Piniella,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-MA,"Maximo Acosta,",Miami Marlins,"ROA-MA	Maximo Acosta,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-MH,"Michael Harris II,",Atlanta Braves,"ROA-MH	Michael Harris II,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-MM,"Mason Miller,",San Diego Padres,"ROA-MM	Mason Miller,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-MSH,"Matt Shaw,",Chicago Cubs,"ROA-MSH	Matt Shaw,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-MT,"Mike Trout,",Los Angeles Angels,"ROA-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-NH,"Nico Hoerner,",Chicago Cubs,"ROA-NH	Nico Hoerner,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-NK,"Nick Kurtz,",Athletics,"ROA-NK	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-NM,"Noelvi Marte,",Cincinnati Reds,"ROA-NM	Noelvi Marte,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-NMC,"Nolan McLean,",New York Mets,"ROA-NMC	Nolan McLean,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-OC,"Owen Caissie,",Chicago Cubs,"ROA-OC	Owen Caissie,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-OK,"Otto Kemp,",Philadelphia Phillies,"ROA-OK	Otto Kemp,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-PS,"Paul Skenes,",Pittsburgh Pirates,"ROA-PS	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-PT,"Payton Tolle,",Boston Red Sox,"ROA-PT	Payton Tolle,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RAN,"Roman Anthony,",Boston Red Sox,"ROA-RAN	Roman Anthony,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RC,"Rod Carew,",Minnesota Twins,"ROA-RC	Rod Carew,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RE,"Rawly Eastwick,",Cincinnati Reds,"ROA-RE	Rawly Eastwick,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RG,"Ron Guidry,",New York Yankees,"ROA-RG	Ron Guidry,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RGO,"Rich Gossage,",Chicago White Sox,"ROA-RGO	Rich Gossage,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RH,"Robert Hassell III,",Washington Nationals,"ROA-RH	Robert Hassell III,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RL,"Royce Lewis,",Minnesota Twins,"ROA-RL	Royce Lewis,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RR,"Ryan Ritter,",Colorado Rockies,"ROA-RR	Ryan Ritter,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RS,"Roki Sasaki,",Los Angeles Dodgers,"ROA-RS	Roki Sasaki,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-RY,"Robin Yount,",Milwaukee Brewers,"ROA-RY	Robin Yount,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SBA,"Samuel Basallo,",Baltimore Orioles,"ROA-SBA	Samuel Basallo,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SF,"Sal Frelick,",Milwaukee Brewers,"ROA-SF	Sal Frelick,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SG,"Steve Garvey,",Los Angeles Dodgers,"ROA-SG	Steve Garvey,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SK,"Steven Kwan,",Cleveland Guardians,"ROA-SK	Steven Kwan,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SO,"Shohei Ohtani,",Los Angeles Dodgers,"ROA-SO	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-SST,"Sal Stewart,",Cincinnati Reds,"ROA-SST	Sal Stewart,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-TJ,"Troy Johnston,",Miami Marlins,"ROA-TJ	Troy Johnston,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-TP,"Tony Perez,",Cincinnati Reds,"ROA-TP	Tony Perez,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-VGJ,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"ROA-VGJ	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-WB,"Warming Bernabel,",Colorado Rockies,"ROA-WB	Warming Bernabel,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-WS,"Will Smith,",Los Angeles Dodgers,"ROA-WS	Will Smith,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-YF,"Yanquiel Fernández,",Colorado Rockies,"ROA-YF	Yanquiel Fernández,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Autographs,114,ROA-YY,"Yoshinobu Yamamoto,",Los Angeles Dodgers,"ROA-YY	Yoshinobu Yamamoto,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Dual Autographs,4,RODA-BC,"Jac Caglianone/George Brett,",Kansas City Royals,"RODA-BC	Jac Caglianone/George Brett,	Kansas City Royals",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Dual Autographs,4,RODA-CF,"George Foster/Rod Carew,",Cincinnati Reds/Minnesota Twins,"RODA-CF	George Foster/Rod Carew,	Cincinnati Reds/Minnesota Twins",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Dual Autographs,4,RODA-LA,"Roman Anthony/Fred Lynn,",Boston Red Sox,"RODA-LA	Roman Anthony/Fred Lynn,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Dual Autographs,4,RODA-RS,"Paul Skenes/Nolan Ryan,",Pittsburgh Pirates/California Angels,"RODA-RS	Paul Skenes/Nolan Ryan,	Pittsburgh Pirates/California Angels",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Quad Autographs,3,ROQA-BWCW,"Jac Caglianone/Frank White/George Brett/Bobby Witt Jr.,",Kansas City Royals,"ROQA-BWCW	Jac Caglianone/Frank White/George Brett/Bobby Witt Jr.,	Kansas City Royals",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Quad Autographs,3,ROQA-FYRL,"Fred Lynn/Jim Rice/Carl Yastrzemski/Carlton Fisk,",Boston Red Sox,"ROQA-FYRL	Fred Lynn/Jim Rice/Carl Yastrzemski/Carlton Fisk,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Real One Quad Autographs,3,ROQA-YYCM,"Jacob Misiorowski/Jackson Chourio/Christian Yelich/Robin Yount,",Milwaukee Brewers,"ROQA-YYCM	Jacob Misiorowski/Jackson Chourio/Christian Yelich/Robin Yount,	Milwaukee Brewers",True
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-AW,"Al Woods,",Toronto Blue Jays,"EA-AW	Al Woods,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-DL,"Dave Lemanczyk,",Toronto Blue Jays,"EA-DL	Dave Lemanczyk,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-DR,"Doug Rader,",Toronto Blue Jays,"EA-DR	Doug Rader,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-GA,"Glenn Abbott,",Seattle Mariners,"EA-GA	Glenn Abbott,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-GW,"Gary Wheelock,",Seattle Mariners,"EA-GW	Gary Wheelock,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-OV,"Otto Vélez,",Toronto Blue Jays,"EA-OV	Otto Vélez,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-RH,"Roy Howell,",Toronto Blue Jays,"EA-RH	Roy Howell,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Expansion Autographs,8,EA-SB,"Steve Braun,",Seattle Mariners,"EA-SB	Steve Braun,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-BC,"Bubba Chandler,",Pittsburgh Pirates,"ROAC-BC	Bubba Chandler,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-BE,"Bryce Eldridge,",San Francisco Giants,"ROAC-BE	Bryce Eldridge,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-CB,"Chase Burns,",Cincinnati Reds,"ROAC-CB	Chase Burns,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-CMO,"Colson Montgomery,",Chicago White Sox,"ROAC-CMO	Colson Montgomery,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-FTJ,"Fernando Tatis Jr.,",San Diego Padres,"ROAC-FTJ	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-JCA,"Jac Caglianone,",Kansas City Royals,"ROAC-JCA	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-JM,"Jacob Misiorowski,",Milwaukee Brewers,"ROAC-JM	Jacob Misiorowski,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-MT,"Mike Trout,",Los Angeles Angels,"ROAC-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-NK,"Nick Kurtz,",Athletics,"ROAC-NK	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-NM,"Nolan McLean,",New York Mets,"ROAC-NM	Nolan McLean,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-PS,"Paul Skenes,",Pittsburgh Pirates,"ROAC-PS	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-RA,"Roman Anthony,",Boston Red Sox,"ROAC-RA	Roman Anthony,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Base Chrome Autographs,13,ROAC-SO,"Shohei Ohtani,",Los Angeles Dodgers,"ROAC-SO	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-BB,"Byron Buxton,",Minnesota Twins,"CCAR-BB	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-CH,"Cade Horton,",Chicago Cubs,"CCAR-CH	Cade Horton,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-CJA,"CJ Abrams,",Washington Nationals,"CCAR-CJA	CJ Abrams,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-CY,"Christian Yelich,",Milwaukee Brewers,"CCAR-CY	Christian Yelich,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-FTJ,"Fernando Tatis Jr.,",San Diego Padres,"CCAR-FTJ	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-GB,"George Brett,",Kansas City Royals,"CCAR-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-GH,"Gunnar Henderson,",Baltimore Orioles,"CCAR-GH	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-JA,"Jose Altuve,",Houston Astros,"CCAR-JA	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-JB,"Johnny Bench,",Cincinnati Reds,"CCAR-JB	Johnny Bench,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-JCA,"Jac Caglianone,",Kansas City Royals,"CCAR-JCA	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-JCJ,"Jazz Chisholm Jr.,",New York Yankees,"CCAR-JCJ	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-JW,"Jacob Wilson,",Athletics,"CCAR-JW	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-KTE,"Kyle Teel,",Chicago White Sox,"CCAR-KTE	Kyle Teel,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-MS,"Mike Schmidt,",Philadelphia Phillies,"CCAR-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-MT,"Mike Trout,",Los Angeles Angels,"CCAR-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-NA,"Nolan Arenado,",St. Louis Cardinals,"CCAR-NA	Nolan Arenado,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-PS,"Paul Skenes,",Pittsburgh Pirates,"CCAR-PS	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-RC,"Rod Carew,",Minnesota Twins,"CCAR-RC	Rod Carew,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-RJ,"Reggie Jackson,",New York Yankees,"CCAR-RJ	Reggie Jackson,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-RS,"Roki Sasaki,",Los Angeles Dodgers,"CCAR-RS	Roki Sasaki,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-SC,"Steve Carlton,",Philadelphia Phillies,"CCAR-SC	Steve Carlton,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-TT,"Trea Turner,",Philadelphia Phillies,"CCAR-TT	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Autographed Relics,23,CCAR-VGJ,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"CCAR-VGJ	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Autographed Relics,2,CCDR-JJ,"Aaron Judge/Reggie Jackson,",New York Yankees,"CCDR-JJ	Aaron Judge/Reggie Jackson,	New York Yankees",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Autographed Relics,2,CCDR-YC,"Jackson Chourio/Robin Yount,",Milwaukee Brewers,"CCDR-YC	Jackson Chourio/Robin Yount,	Milwaukee Brewers",True
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-CY,"Carl Yastrzemski,",Boston Red Sox,"FAR-CY	Carl Yastrzemski,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-GB,"George Brett,",Kansas City Royals,"FAR-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-MS,"Mike Schmidt,",Philadelphia Phillies,"FAR-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-RJ,"Reggie Jackson,",New York Yankees,"FAR-RJ	Reggie Jackson,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-RY,"Robin Yount,",Milwaukee Brewers,"FAR-RY	Robin Yount,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Flashbacks Autographed Relics,6,FAR-SC,"Steve Carlton,",Philadelphia Phillies,"FAR-SC	Steve Carlton,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-CF,"Carlton Fisk,",Boston Red Sox,"TMA-CF	Carlton Fisk,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-GB,"George Brett,",Kansas City Royals,"TMA-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-MS,"Mike Schmidt,",Philadelphia Phillies,"TMA-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-RJ,"Reggie Jackson,",Oakland Athletics,"TMA-RJ	Reggie Jackson,	Oakland Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-RY,"Robin Yount,",Milwaukee Brewers,"TMA-RY	Robin Yount,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,There Once Was A Man Autographed Relics,6,TMA-SC,"Steve Carlton,",Philadelphia Phillies,"TMA-SC	Steve Carlton,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AA,"Andrew Abbott,",Cincinnati Reds,"CCR-AA	Andrew Abbott,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AB,"Alex Bregman,",Boston Red Sox,"CCR-AB	Alex Bregman,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AG,"Adolis García,",Texas Rangers,"CCR-AG	Adolis García,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AJ,"Aaron Judge,",New York Yankees,"CCR-AJ	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AM,"Andrew McCutchen,",Pittsburgh Pirates,"CCR-AM	Andrew McCutchen,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-AR,"Agustín Ramírez,",Miami Marlins,"CCR-AR	Agustín Ramírez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-ARI,"Austin Riley,",Atlanta Braves,"CCR-ARI	Austin Riley,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-ARU,"Adley Rutschman,",Baltimore Orioles,"CCR-ARU	Adley Rutschman,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BB,"Bo Bichette,",Toronto Blue Jays,"CCR-BB	Bo Bichette,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BBU,"Byron Buxton,",Minnesota Twins,"CCR-BBU	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BH,"Bryce Harper,",Philadelphia Phillies,"CCR-BH	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BL,"Brooks Lee,",Minnesota Twins,"CCR-BL	Brooks Lee,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BLO,"Brandon Lowe,",Tampa Bay Rays,"CCR-BLO	Brandon Lowe,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BN,"Brandon Nimmo,",New York Mets,"CCR-BN	Brandon Nimmo,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BR,"Ben Rice,",New York Yankees,"CCR-BR	Ben Rice,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BW,"Bryan Woo,",Seattle Mariners,"CCR-BW	Bryan Woo,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-BWI,"Bobby Witt Jr.,",Kansas City Royals,"CCR-BWI	Bobby Witt Jr.,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CA,"CJ Abrams,",Washington Nationals,"CCR-CA	CJ Abrams,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CB,"Cody Bellinger,",New York Yankees,"CCR-CB	Cody Bellinger,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CC,"Carlos Correa,",Houston Astros,"CCR-CC	Carlos Correa,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CCA,"Corbin Carroll,",Arizona Diamondbacks,"CCR-CCA	Corbin Carroll,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CH,"Cade Horton,",Chicago Cubs,"CCR-CH	Cade Horton,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CM,"Colson Montgomery,",Chicago White Sox,"CCR-CM	Colson Montgomery,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CR,"Cal Raleigh,",Seattle Mariners,"CCR-CR	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CSE,"Corey Seager,",Texas Rangers,"CCR-CSE	Corey Seager,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-CY,"Christian Yelich,",Milwaukee Brewers,"CCR-CY	Christian Yelich,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-DB,"Drake Baldwin,",Atlanta Braves,"CCR-DB	Drake Baldwin,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-DC,"Dylan Crews,",Washington Nationals,"CCR-DC	Dylan Crews,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-DCE,"Dylan Cease,",San Diego Padres,"CCR-DCE	Dylan Cease,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-EP,"Eury Pérez,",Miami Marlins,"CCR-EP	Eury Pérez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-ET,"Ezequiel Tovar,",Colorado Rockies,"CCR-ET	Ezequiel Tovar,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-FF,"Freddie Freeman,",Los Angeles Dodgers,"CCR-FF	Freddie Freeman,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-FL,"Francisco Lindor,",New York Mets,"CCR-FL	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-FT,"Fernando Tatis Jr.,",San Diego Padres,"CCR-FT	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-GC,"Garrett Crochet,",Boston Red Sox,"CCR-GC	Garrett Crochet,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-GH,"Gunnar Henderson,",Baltimore Orioles,"CCR-GH	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-GS,"George Springer,",Toronto Blue Jays,"CCR-GS	George Springer,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-HG,"Hunter Goodman,",Colorado Rockies,"CCR-HG	Hunter Goodman,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JA,"Jose Altuve,",Houston Astros,"CCR-JA	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JB,"Jordan Beck,",Colorado Rockies,"CCR-JB	Jordan Beck,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JC,"Junior Caminero,",Tampa Bay Rays,"CCR-JC	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JCA,"Jac Caglianone,",Kansas City Royals,"CCR-JCA	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JCH,"Jackson Chourio,",Milwaukee Brewers,"CCR-JCH	Jackson Chourio,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JCJ,"Jazz Chisholm Jr.,",New York Yankees,"CCR-JCJ	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JD,"Jarren Duran,",Boston Red Sox,"CCR-JD	Jarren Duran,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JH,"Jackson Holliday,",Baltimore Orioles,"CCR-JH	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JL,"Jung Hoo Lee,",San Francisco Giants,"CCR-JL	Jung Hoo Lee,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JLA,"Jordan Lawlar,",Arizona Diamondbacks,"CCR-JLA	Jordan Lawlar,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JM,"Jeff McNeil,",New York Mets,"CCR-JM	Jeff McNeil,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JME,"Jackson Merrill,",San Diego Padres,"CCR-JME	Jackson Merrill,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JP,"Jeremy Peña,",Houston Astros,"CCR-JP	Jeremy Peña,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JR,"Julio Rodríguez,",Seattle Mariners,"CCR-JR	Julio Rodríguez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JRA,"José Ramírez,",Cleveland Guardians,"CCR-JRA	José Ramírez,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JRE,"J.T. Realmuto,",Philadelphia Phillies,"CCR-JRE	J.T. Realmuto,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JS,"Juan Soto,",New York Mets,"CCR-JS	Juan Soto,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JW,"James Wood,",Washington Nationals,"CCR-JW	James Wood,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-JWI,"Jacob Wilson,",Athletics,"CCR-JWI	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-KM,"Ketel Marte,",Arizona Diamondbacks,"CCR-KM	Ketel Marte,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-KS,"Kyle Schwarber,",Philadelphia Phillies,"CCR-KS	Kyle Schwarber,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-LA,"Luis Arraez,",San Diego Padres,"CCR-LA	Luis Arraez,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-LB,"Lawrence Butler,",Athletics,"CCR-LB	Lawrence Butler,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-LR,"Luis Robert Jr.,",Chicago White Sox,"CCR-LR	Luis Robert Jr.,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MB,"Mookie Betts,",Los Angeles Dodgers,"CCR-MB	Mookie Betts,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MC,"Matt Chapman,",San Francisco Giants,"CCR-MC	Matt Chapman,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MM,"Manny Machado,",San Diego Padres,"CCR-MM	Manny Machado,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MO,"Matt Olson,",Atlanta Braves,"CCR-MO	Matt Olson,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MS,"Marcus Semien,",Texas Rangers,"CCR-MS	Marcus Semien,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MSH,"Matt Shaw,",Chicago Cubs,"CCR-MSH	Matt Shaw,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MT,"Mike Trout,",Los Angeles Angels,"CCR-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-MW,"Masyn Winn,",St. Louis Cardinals,"CCR-MW	Masyn Winn,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-NA,"Nolan Arenado,",St. Louis Cardinals,"CCR-NA	Nolan Arenado,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-NC,"Nick Castellanos,",Philadelphia Phillies,"CCR-NC	Nick Castellanos,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-NE,"Nathan Eovaldi,",Texas Rangers,"CCR-NE	Nathan Eovaldi,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-NK,"Nick Kurtz,",Athletics,"CCR-NK	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-OA,"Ozzie Albies,",Atlanta Braves,"CCR-OA	Ozzie Albies,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-OC,"Oneil Cruz,",Pittsburgh Pirates,"CCR-OC	Oneil Cruz,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-PA,"Pete Alonso,",New York Mets,"CCR-PA	Pete Alonso,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-PC,"Pete Crow-Armstrong,",Chicago Cubs,"CCR-PC	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-PG,"Paul Goldschmidt,",New York Yankees,"CCR-PG	Paul Goldschmidt,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-PL,"Pablo López,",Minnesota Twins,"CCR-PL	Pablo López,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-PS,"Paul Skenes,",Pittsburgh Pirates,"CCR-PS	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-RA,"Ronald Acuña Jr.,",Atlanta Braves,"CCR-RA	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-RAR,"Randy Arozarena,",Seattle Mariners,"CCR-RAR	Randy Arozarena,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-RG,"Riley Greene,",Detroit Tigers,"CCR-RG	Riley Greene,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-RL,"Royce Lewis,",Minnesota Twins,"CCR-RL	Royce Lewis,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-SF,"Sal Frelick,",Milwaukee Brewers,"CCR-SF	Sal Frelick,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-SP,"Salvador Perez,",Kansas City Royals,"CCR-SP	Salvador Perez,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-SS,"Seiya Suzuki,",Chicago Cubs,"CCR-SS	Seiya Suzuki,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-ST,"Spencer Torkelson,",Detroit Tigers,"CCR-ST	Spencer Torkelson,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-TS,"Tarik Skubal,",Detroit Tigers,"CCR-TS	Tarik Skubal,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-TSO,"Tyler Soderstrom,",Athletics,"CCR-TSO	Tyler Soderstrom,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-TT,"Trea Turner,",Philadelphia Phillies,"CCR-TT	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-VG,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"CCR-VG	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-WA,"Willy Adames,",San Francisco Giants,"CCR-WA	Willy Adames,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-WC,"William Contreras,",Milwaukee Brewers,"CCR-WC	William Contreras,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-WS,"Will Smith,",Los Angeles Dodgers,"CCR-WS	Will Smith,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-YA,"Yordan Alvarez,",Houston Astros,"CCR-YA	Yordan Alvarez,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Relics,98,CCR-ZN,"Zach Neto,",Los Angeles Angels,"CCR-ZN	Zach Neto,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-AJ,"Aaron Judge,",New York Yankees,"ROR-AJ	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-AM,"Andrew McCutchen,",Pittsburgh Pirates,"ROR-AM	Andrew McCutchen,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-BB,"Bo Bichette,",Toronto Blue Jays,"ROR-BB	Bo Bichette,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-BBU,"Byron Buxton,",Minnesota Twins,"ROR-BBU	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-BH,"Bryce Harper,",Philadelphia Phillies,"ROR-BH	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-BS,"Bryson Stott,",Philadelphia Phillies,"ROR-BS	Bryson Stott,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-BW,"Bobby Witt Jr.,",Kansas City Royals,"ROR-BW	Bobby Witt Jr.,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-CC,"Corbin Carroll,",Arizona Diamondbacks,"ROR-CC	Corbin Carroll,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-CK,"Clayton Kershaw,",Los Angeles Dodgers,"ROR-CK	Clayton Kershaw,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-CR,"Cal Raleigh,",Seattle Mariners,"ROR-CR	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-CS,"Chris Sale,",Atlanta Braves,"ROR-CS	Chris Sale,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-DB,"Drake Baldwin,",Atlanta Braves,"ROR-DB	Drake Baldwin,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-FL,"Francisco Lindor,",New York Mets,"ROR-FL	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-FT,"Fernando Tatis Jr.,",San Diego Padres,"ROR-FT	Fernando Tatis Jr.,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-GC,"Garrett Crochet,",Boston Red Sox,"ROR-GC	Garrett Crochet,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-HG,"Hunter Greene,",Cincinnati Reds,"ROR-HG	Hunter Greene,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-IH,"Ian Happ,",Chicago Cubs,"ROR-IH	Ian Happ,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JA,"Jose Altuve,",Houston Astros,"ROR-JA	Jose Altuve,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JC,"Junior Caminero,",Tampa Bay Rays,"ROR-JC	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JCH,"Jackson Chourio,",Milwaukee Brewers,"ROR-JCH	Jackson Chourio,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JCJ,"Jazz Chisholm Jr.,",New York Yankees,"ROR-JCJ	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JH,"Jackson Holliday,",Baltimore Orioles,"ROR-JH	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JM,"Jackson Merrill,",San Diego Padres,"ROR-JM	Jackson Merrill,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JR,"José Ramírez,",Cleveland Guardians,"ROR-JR	José Ramírez,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JRO,"Julio Rodríguez,",Seattle Mariners,"ROR-JRO	Julio Rodríguez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JS,"Juan Soto,",New York Mets,"ROR-JS	Juan Soto,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JW,"James Wood,",Washington Nationals,"ROR-JW	James Wood,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-JWI,"Jacob Wilson,",Athletics,"ROR-JWI	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-KM,"Ketel Marte,",Arizona Diamondbacks,"ROR-KM	Ketel Marte,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-LA,"Luis Arraez,",San Diego Padres,"ROR-LA	Luis Arraez,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-LK,"Luke Keaschall,",Minnesota Twins,"ROR-LK	Luke Keaschall,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MB,"Mookie Betts,",Los Angeles Dodgers,"ROR-MB	Mookie Betts,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MF,"Max Fried,",New York Yankees,"ROR-MF	Max Fried,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MO,"Matt Olson,",Atlanta Braves,"ROR-MO	Matt Olson,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MS,"Matt Shaw,",Chicago Cubs,"ROR-MS	Matt Shaw,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MT,"Mike Trout,",Los Angeles Angels,"ROR-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-MW,"Masyn Winn,",St. Louis Cardinals,"ROR-MW	Masyn Winn,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-NA,"Nolan Arenado,",St. Louis Cardinals,"ROR-NA	Nolan Arenado,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-OA,"Ozzie Albies,",Atlanta Braves,"ROR-OA	Ozzie Albies,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-OC,"Oneil Cruz,",Pittsburgh Pirates,"ROR-OC	Oneil Cruz,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-PA,"Pete Alonso,",New York Mets,"ROR-PA	Pete Alonso,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-PC,"Pete Crow-Armstrong,",Chicago Cubs,"ROR-PC	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-RA,"Ronald Acuña Jr.,",Atlanta Braves,"ROR-RA	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-RL,"Royce Lewis,",Minnesota Twins,"ROR-RL	Royce Lewis,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-TS,"Tarik Skubal,",Detroit Tigers,"ROR-TS	Tarik Skubal,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-TT,"Trea Turner,",Philadelphia Phillies,"ROR-TT	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-VG,"Vladimir Guerrero Jr.,",Toronto Blue Jays,"ROR-VG	Vladimir Guerrero Jr.,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-WS,"Will Smith,",Los Angeles Dodgers,"ROR-WS	Will Smith,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-YY,"Yoshinobu Yamamoto,",Los Angeles Dodgers,"ROR-YY	Yoshinobu Yamamoto,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Real One Relics,50,ROR-ZN,"Zach Neto,",Los Angeles Angels,"ROR-ZN	Zach Neto,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-AD,"Andre Dawson,",Montréal Expos,"FBR-AD	Andre Dawson,	Montréal Expos",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-CY,"Carl Yastrzemski,",Boston Red Sox,"FBR-CY	Carl Yastrzemski,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-DW,"Dave Winfield,",San Diego Padres,"FBR-DW	Dave Winfield,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-GB,"George Brett,",Kansas City Royals,"FBR-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-GF,"George Foster,",Cincinnati Reds,"FBR-GF	George Foster,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-JR,"Jim Rice,",Boston Red Sox,"FBR-JR	Jim Rice,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-KG,"Ken Griffey,",Cincinnati Reds,"FBR-KG	Ken Griffey,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-KH,"Keith Hernandez,",St. Louis Cardinals,"FBR-KH	Keith Hernandez,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-MS,"Mike Schmidt,",Philadelphia Phillies,"FBR-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-RC,"Rod Carew,",Minnesota Twins,"FBR-RC	Rod Carew,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-RJ,"Reggie Jackson,",New York Yankees,"FBR-RJ	Reggie Jackson,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-RY,"Robin Yount,",Milwaukee Brewers,"FBR-RY	Robin Yount,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-SC,"Steve Carlton,",Philadelphia Phillies,"FBR-SC	Steve Carlton,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-SG,"Steve Garvey,",Los Angeles Dodgers,"FBR-SG	Steve Garvey,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-TP,"Tony Perez,",Montréal Expos,"FBR-TP	Tony Perez,	Montréal Expos",False
+2026_topps_heritage,2026,Topps,Heritage,Flashback Relics,16,FBR-TS,"Ted Simmons,",St. Louis Cardinals,"FBR-TS	Ted Simmons,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-BW,"George Brett/Bobby Witt Jr.,",Kansas City Royals,"CCDR-BW	George Brett/Bobby Witt Jr.,	Kansas City Royals",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-CB,"Rod Carew/Byron Buxton,",Minnesota Twins,"CCDR-CB	Rod Carew/Byron Buxton,	Minnesota Twins",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-CW,"Zack Wheeler/Steve Carlton,",Philadelphia Phillies,"CCDR-CW	Zack Wheeler/Steve Carlton,	Philadelphia Phillies",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-DW,"Andre Dawson/James Wood,",Washington Nationals,"CCDR-DW	Andre Dawson/James Wood,	Washington Nationals",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-GS,"Steve Garvey/Will Smith,",Los Angeles Dodgers,"CCDR-GS	Steve Garvey/Will Smith,	Los Angeles Dodgers",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-HA,"Keith Hernandez/Nolan Arenado,",St. Louis Cardinals,"CCDR-HA	Keith Hernandez/Nolan Arenado,	St. Louis Cardinals",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-JJ,"Aaron Judge/Reggie Jackson,",New York Yankees,"CCDR-JJ	Aaron Judge/Reggie Jackson,	New York Yankees",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-LA,"Roman Anthony/Fred Lynn,",Boston Red Sox,"CCDR-LA	Roman Anthony/Fred Lynn,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-MO,"Dale Murphy/Matt Olson,",Atlanta Braves,"CCDR-MO	Dale Murphy/Matt Olson,	Atlanta Braves",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-RR,"Ceddanne Rafaela/Jim Rice,",Boston Red Sox,"CCDR-RR	Ceddanne Rafaela/Jim Rice,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-SH,"Mike Schmidt/Bryce Harper,",Philadelphia Phillies,"CCDR-SH	Mike Schmidt/Bryce Harper,	Philadelphia Phillies",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-TA,"Joe Torre/Pete Alonso,",New York Mets,"CCDR-TA	Joe Torre/Pete Alonso,	New York Mets",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-WT,"Dave Winfield/Fernando Tatis Jr.,",San Diego Padres,"CCDR-WT	Dave Winfield/Fernando Tatis Jr.,	San Diego Padres",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-YB,"Alex Bregman/Carl Yastrzemski,",Boston Red Sox,"CCDR-YB	Alex Bregman/Carl Yastrzemski,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,15,CCDR-YY,"Robin Yount/Christian Yelich,",Milwaukee Brewers,"CCDR-YY	Robin Yount/Christian Yelich,	Milwaukee Brewers",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,5,CCQR-BWPC,"George Brett/Salvador Perez/Jac Caglianone/Bobby Witt Jr.,",Kansas City Royals,"CCQR-BWPC	George Brett/Salvador Perez/Jac Caglianone/Bobby Witt Jr.,	Kansas City Royals",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,5,CCQR-DWCH,"Andre Dawson/Dylan Crews/James Wood/Brady House,",Washington Nationals,"CCQR-DWCH	Andre Dawson/Dylan Crews/James Wood/Brady House,	Washington Nationals",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,5,CCQR-JJSB,"Giancarlo Stanton/Cody Bellinger/Aaron Judge/Reggie Jackson,",New York Yankees,"CCQR-JJSB	Giancarlo Stanton/Cody Bellinger/Aaron Judge/Reggie Jackson,	New York Yankees",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,5,CCQR-RLAM,"Marcelo Mayer/Jim Rice/Fred Lynn/Roman Anthony,",Boston Red Sox,"CCQR-RLAM	Marcelo Mayer/Jim Rice/Fred Lynn/Roman Anthony,	Boston Red Sox",True
+2026_topps_heritage,2026,Topps,Heritage,Clubhouse Collection Dual Player Relics,5,CCQR-SHCW,"Bryce Harper/Mike Schmidt/Steve Carlton/Zack Wheeler,",Philadelphia Phillies,"CCQR-SHCW	Bryce Harper/Mike Schmidt/Steve Carlton/Zack Wheeler,	Philadelphia Phillies",True
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-AJ,"Aaron Judge,",New York Yankees,"RA-AJ	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-BC,"Bubba Chandler,",Pittsburgh Pirates,"RA-BC	Bubba Chandler,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-BH,"Bryce Harper,",Philadelphia Phillies,"RA-BH	Bryce Harper,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-BW,"Bobby Witt Jr.,",Kansas City Royals,"RA-BW	Bobby Witt Jr.,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-CY,"Carl Yastrzemski,",Boston Red Sox,"RA-CY	Carl Yastrzemski,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-DP,"Dave Parker,",Pittsburgh Pirates,"RA-DP	Dave Parker,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-ED,"Elly De La Cruz,",Cincinnati Reds,"RA-ED	Elly De La Cruz,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-FL,"Francisco Lindor,",New York Mets,"RA-FL	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-GB,"George Brett,",Kansas City Royals,"RA-GB	George Brett,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-GF,"George Foster,",Cincinnati Reds,"RA-GF	George Foster,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-GH,"Gunnar Henderson,",Baltimore Orioles,"RA-GH	Gunnar Henderson,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-JB,"Johnny Bench,",Cincinnati Reds,"RA-JB	Johnny Bench,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-KT,"Kyle Teel,",Chicago White Sox,"RA-KT	Kyle Teel,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-MM,"Manny Machado,",San Diego Padres,"RA-MM	Manny Machado,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-MS,"Mike Schmidt,",Philadelphia Phillies,"RA-MS	Mike Schmidt,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-MT,"Mike Trout,",Los Angeles Angels,"RA-MT	Mike Trout,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-NM,"Nolan McLean,",New York Mets,"RA-NM	Nolan McLean,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-NR,"Nolan Ryan,",California Angels,"RA-NR	Nolan Ryan,	California Angels",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-OC,"Owen Caissie,",Chicago Cubs,"RA-OC	Owen Caissie,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-PC,"Pete Crow-Armstrong,",Chicago Cubs,"RA-PC	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-RC,"Rod Carew,",Minnesota Twins,"RA-RC	Rod Carew,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-RJ,"Reggie Jackson,",New York Yankees,"RA-RJ	Reggie Jackson,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-SB,"Samuel Basallo,",Baltimore Orioles,"RA-SB	Samuel Basallo,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-SO,"Shohei Ohtani,",Los Angeles Dodgers,"RA-SO	Shohei Ohtani,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,Ready And Action,25,RA-WM,"Willie McCovey,",San Francisco Giants,"RA-WM	Willie McCovey,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-BB,"Bo Bichette,",Toronto Blue Jays,"TE-BB	Bo Bichette,	Toronto Blue Jays",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-BBU,"Byron Buxton,",Minnesota Twins,"TE-BBU	Byron Buxton,	Minnesota Twins",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-BH,"Brady House,",Washington Nationals,"TE-BH	Brady House,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-CB,"Chase Burns,",Cincinnati Reds,"TE-CB	Chase Burns,	Cincinnati Reds",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-CK,"C.J. Kayfus,",Cleveland Guardians,"TE-CK	C.J. Kayfus,	Cleveland Guardians",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-CM,"Colson Montgomery,",Chicago White Sox,"TE-CM	Colson Montgomery,	Chicago White Sox",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-CMO,"Christian Moore,",Los Angeles Angels,"TE-CMO	Christian Moore,	Los Angeles Angels",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-EP,"Eury Pérez,",Miami Marlins,"TE-EP	Eury Pérez,	Miami Marlins",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-ET,"Ezequiel Tovar,",Colorado Rockies,"TE-ET	Ezequiel Tovar,	Colorado Rockies",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-FL,"Francisco Lindor,",New York Mets,"TE-FL	Francisco Lindor,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JC,"Junior Caminero,",Tampa Bay Rays,"TE-JC	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JCA,"Jac Caglianone,",Kansas City Royals,"TE-JCA	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JCJ,"Jazz Chisholm Jr.,",New York Yankees,"TE-JCJ	Jazz Chisholm Jr.,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JH,"Jackson Holliday,",Baltimore Orioles,"TE-JH	Jackson Holliday,	Baltimore Orioles",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JM,"Jackson Merrill,",San Diego Padres,"TE-JM	Jackson Merrill,	San Diego Padres",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JMI,"Jacob Misiorowski,",Milwaukee Brewers,"TE-JMI	Jacob Misiorowski,	Milwaukee Brewers",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JR,"Julio Rodríguez,",Seattle Mariners,"TE-JR	Julio Rodríguez,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-JW,"Jacob Wilson,",Athletics,"TE-JW	Jacob Wilson,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-KM,"Ketel Marte,",Arizona Diamondbacks,"TE-KM	Ketel Marte,	Arizona Diamondbacks",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-MB,"Mookie Betts,",Los Angeles Dodgers,"TE-MB	Mookie Betts,	Los Angeles Dodgers",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-MC,"Matt Chapman,",San Francisco Giants,"TE-MC	Matt Chapman,	San Francisco Giants",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-MW,"Masyn Winn,",St. Louis Cardinals,"TE-MW	Masyn Winn,	St. Louis Cardinals",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-PC,"Pete Crow-Armstrong,",Chicago Cubs,"TE-PC	Pete Crow-Armstrong,	Chicago Cubs",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-PS,"Paul Skenes,",Pittsburgh Pirates,"TE-PS	Paul Skenes,	Pittsburgh Pirates",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-RA,"Roman Anthony,",Boston Red Sox,"TE-RA	Roman Anthony,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-RAJ,"Ronald Acuña Jr.,",Atlanta Braves,"TE-RAJ	Ronald Acuña Jr.,	Atlanta Braves",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-RG,"Riley Greene,",Detroit Tigers,"TE-RG	Riley Greene,	Detroit Tigers",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-TT,"Trea Turner,",Philadelphia Phillies,"TE-TT	Trea Turner,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-WL,"Wyatt Langford,",Texas Rangers,"TE-WL	Wyatt Langford,	Texas Rangers",False
+2026_topps_heritage,2026,Topps,Heritage,The Enterprise,30,TE-YA,"Yordan Alvarez,",Houston Astros,"TE-YA	Yordan Alvarez,	Houston Astros",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-AJ,"Aaron Judge,",New York Yankees,"RP-AJ	Aaron Judge,	New York Yankees",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-CR,"Cal Raleigh,",Seattle Mariners,"RP-CR	Cal Raleigh,	Seattle Mariners",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-JC,"Jac Caglianone,",Kansas City Royals,"RP-JC	Jac Caglianone,	Kansas City Royals",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-JCA,"Junior Caminero,",Tampa Bay Rays,"RP-JCA	Junior Caminero,	Tampa Bay Rays",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-JW,"James Wood,",Washington Nationals,"RP-JW	James Wood,	Washington Nationals",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-KS,"Kyle Schwarber,",Philadelphia Phillies,"RP-KS	Kyle Schwarber,	Philadelphia Phillies",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-NK,"Nick Kurtz,",Athletics,"RP-NK	Nick Kurtz,	Athletics",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-PA,"Pete Alonso,",New York Mets,"RP-PA	Pete Alonso,	New York Mets",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-RA,"Roman Anthony,",Boston Red Sox,"RP-RA	Roman Anthony,	Boston Red Sox",False
+2026_topps_heritage,2026,Topps,Heritage,Raw Power,10,RP-SO,"Shohei Ohtani,",Los Angeles Dodgers,"RP-SO	Shohei Ohtani,	Los Angeles Dodgers",False
