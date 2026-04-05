@@ -1,0 +1,962 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_slot,player_name_raw,affiliation_raw,is_multi_player,raw_line
+2024_topps_chrome,2024,Topps,Chrome,Base,,1,1,Shohei Ohtani,Los Angeles Dodgers,False,Base	1	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,2,1,Colt Keith,Detroit Tigers	RC,False,Base	2	Colt Keith	Detroit Tigers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,3,1,Corbin Burnes,Baltimore Orioles,False,Base	3	Corbin Burnes	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,4,1,Freddie Freeman,Los Angeles Dodgers,False,Base	4	Freddie Freeman	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,5,1,Lawrence Butler,Oakland Athletics	RC,False,Base	5	Lawrence Butler	Oakland Athletics	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,6,1,Eury Pérez,Miami Marlins,False,Base	6	Eury Pérez	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Base,,7,1,MJ Melendez,Kansas City Royals,False,Base	7	MJ Melendez	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,8,1,Tristan Gray,Tampa Bay Rays	RC,False,Base	8	Tristan Gray	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,9,1,Ozzie Albies,Atlanta Braves,False,Base	9	Ozzie Albies	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,10,1,Byron Buxton,Minnesota Twins,False,Base	10	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Base,,11,1,Alex Verdugo,New York Yankees,False,Base	11	Alex Verdugo	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,12,1,Manny Machado,San Diego Padres,False,Base	12	Manny Machado	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,13,1,Seiya Suzuki,Chicago Cubs,False,Base	13	Seiya Suzuki	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,14,1,J.P. Crawford,Seattle Mariners,False,Base	14	J.P. Crawford	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Base,,15,1,Gavin Williams,Cleveland Guardians	RC,False,Base	15	Gavin Williams	Cleveland Guardians	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,16,1,Pete Crow-Armstrong,Chicago Cubs	RC,False,Base	16	Pete Crow-Armstrong	Chicago Cubs	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,17,1,Brett Baty,New York Mets,False,Base	17	Brett Baty	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,18,1,Yoshinobu Yamamoto,Los Angeles Dodgers	RC,False,Base	18	Yoshinobu Yamamoto	Los Angeles Dodgers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,19,1,AJ Smith-Shawver,Atlanta Braves	RC,False,Base	19	AJ Smith-Shawver	Atlanta Braves	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,20,1,Connor Phillips,Cincinnati Reds	RC,False,Base	20	Connor Phillips	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,21,1,Gabriel Moreno,Arizona Diamondbacks,False,Base	21	Gabriel Moreno	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,22,1,Wade Meckler,San Francisco Giants	RC,False,Base	22	Wade Meckler	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,23,1,Matt Olson,Atlanta Braves,False,Base	23	Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,24,1,William Contreras,Milwaukee Brewers,False,Base	24	William Contreras	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Base,,25,1,Zack Wheeler,Philadelphia Phillies,False,Base	25	Zack Wheeler	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,26,1,Spencer Horwitz,Toronto Blue Jays	RC,False,Base	26	Spencer Horwitz	Toronto Blue Jays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,27,1,Bo Bichette,Toronto Blue Jays,False,Base	27	Bo Bichette	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,28,1,Ronny Mauricio,New York Mets	RC,False,Base	28	Ronny Mauricio	New York Mets	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,29,1,José Tena,Cleveland Guardians	RC,False,Base	29	José Tena	Cleveland Guardians	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,30,1,Steven Kwan,Cleveland Guardians,False,Base	30	Steven Kwan	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,31,1,Kodai Senga,New York Mets,False,Base	31	Kodai Senga	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,32,1,Xander Bogaerts,San Diego Padres,False,Base	32	Xander Bogaerts	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,33,1,Andrew Benintendi,Chicago White Sox,False,Base	33	Andrew Benintendi	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,34,1,Alika Williams,Pittsburgh Pirates	RC,False,Base	34	Alika Williams	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,35,1,Ketel Marte,Arizona Diamondbacks,False,Base	35	Ketel Marte	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,36,1,Gunnar Henderson,Baltimore Orioles,False,Base	36	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,37,1,Max Scherzer,Texas Rangers,False,Base	37	Max Scherzer	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,38,1,Triston Casas,Boston Red Sox,False,Base	38	Triston Casas	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,39,1,Sal Frelick,Milwaukee Brewers	(RC),False,Base	39	Sal Frelick	Milwaukee Brewers	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,40,1,Reese Olson,Detroit Tigers	RC,False,Base	40	Reese Olson	Detroit Tigers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,41,1,Osleivis Basabe,Tampa Bay Rays	RC,False,Base	41	Osleivis Basabe	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,42,1,Jackson Rutledge,Washington Nationals	RC,False,Base	42	Jackson Rutledge	Washington Nationals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,43,1,Paul Blackburn,Oakland Athletics,False,Base	43	Paul Blackburn	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Base,,44,1,Elly De La Cruz,Cincinnati Reds	RC,False,Base	44	Elly De La Cruz	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,45,1,Grant Hartwig,New York Mets	RC,False,Base	45	Grant Hartwig	New York Mets	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,46,1,Dane Myers,Miami Marlins	RC,False,Base	46	Dane Myers	Miami Marlins	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,47,1,Chris Murphy,Boston Red Sox	RC,False,Base	47	Chris Murphy	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,48,1,Matt McLain,Cincinnati Reds,False,Base	48	Matt McLain	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Base,,49,1,David Hamilton,Boston Red Sox	RC,False,Base	49	David Hamilton	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,50,1,Aaron Judge,New York Yankees,False,Base	50	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,51,1,Mickey Moniak,Los Angeles Angels,False,Base	51	Mickey Moniak	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Base,,52,1,Michael Harris II,Atlanta Braves,False,Base	52	Michael Harris II	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,53,1,Alex Bregman,Houston Astros,False,Base	53	Alex Bregman	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,54,1,Tyler Glasnow,Los Angeles Dodgers,False,Base	54	Tyler Glasnow	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,55,1,Quinn Priester,Pittsburgh Pirates	RC,False,Base	55	Quinn Priester	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,56,1,Jack Flaherty,Detroit Tigers,False,Base	56	Jack Flaherty	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Base,,57,1,Teoscar Hernández,Los Angeles Dodgers,False,Base	57	Teoscar Hernández	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,58,1,Jose Altuve,Houston Astros,False,Base	58	Jose Altuve	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,59,1,Lourdes Gurriel Jr.,Arizona Diamondbacks,False,Base	59	Lourdes Gurriel Jr.	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,60,1,David Bednar,Pittsburgh Pirates,False,Base	60	David Bednar	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Base,,61,1,Anthony Rendon,Los Angeles Angels,False,Base	61	Anthony Rendon	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Base,,62,1,Bryce Harper,Philadelphia Phillies,False,Base	62	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,63,1,Masataka Yoshida,Boston Red Sox,False,Base	63	Masataka Yoshida	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,64,1,Keibert Ruiz,Washington Nationals,False,Base	64	Keibert Ruiz	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Base,,65,1,Christian Encarnacion-Stra,Cincinnati Reds	RC,False,Base	65	Christian Encarnacion-Stra	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,66,1,Lane Thomas,Washington Nationals,False,Base	66	Lane Thomas	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Base,,67,1,Jordan Wicks,Chicago Cubs	RC,False,Base	67	Jordan Wicks	Chicago Cubs	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,68,1,James Outman,Los Angeles Dodgers,False,Base	68	James Outman	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,69,1,Kyle Bradish,Baltimore Orioles,False,Base	69	Kyle Bradish	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,70,1,Jazz Chisholm Jr.,Miami Marlins,False,Base	70	Jazz Chisholm Jr.	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Base,,71,1,Kyle Schwarber,Philadelphia Phillies,False,Base	71	Kyle Schwarber	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,72,1,Nick Gonzales,Pittsburgh Pirates	RC,False,Base	72	Nick Gonzales	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,73,1,Spencer Torkelson,Detroit Tigers,False,Base	73	Spencer Torkelson	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Base,,74,1,Jonathan Ornelas,Texas Rangers	RC,False,Base	74	Jonathan Ornelas	Texas Rangers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,75,1,Bryce Jarvis,Arizona Diamondbacks	RC,False,Base	75	Bryce Jarvis	Arizona Diamondbacks	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,76,1,Isaiah Campbell,Boston Red Sox	RC,False,Base	76	Isaiah Campbell	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,77,1,Slade Cecconi,Arizona Diamondbacks	RC,False,Base	77	Slade Cecconi	Arizona Diamondbacks	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,78,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Base	78	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,79,1,Jared Triolo,Pittsburgh Pirates	RC,False,Base	79	Jared Triolo	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,80,1,Adley Rutschman,Baltimore Orioles,False,Base	80	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,81,1,Matt Chapman,San Francisco Giants,False,Base	81	Matt Chapman	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,82,1,Cedric Mullins,Baltimore Orioles,False,Base	82	Cedric Mullins	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,83,1,Taj Bradley,Tampa Bay Rays,False,Base	83	Taj Bradley	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,84,1,Austin Riley,Atlanta Braves,False,Base	84	Austin Riley	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,85,1,Drew Millas,Washington Nationals	RC,False,Base	85	Drew Millas	Washington Nationals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,86,1,Luis Robert Jr.,Chicago White Sox,False,Base	86	Luis Robert Jr.	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,87,1,Mike Yastrzemski,San Francisco Giants,False,Base	87	Mike Yastrzemski	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,88,1,Jackson Holliday,Baltimore Orioles	RC,False,Base	88	Jackson Holliday	Baltimore Orioles	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,89,1,Jasson Domínguez,New York Yankees	(RC),False,Base	89	Jasson Domínguez	New York Yankees	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,90,1,Paul Goldschmidt,St. Louis Cardinals,False,Base	90	Paul Goldschmidt	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,91,1,Joe Boyle,Oakland Athletics	RC,False,Base	91	Joe Boyle	Oakland Athletics	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,92,1,Jacob Amaya,Miami Marlins	RC,False,Base	92	Jacob Amaya	Miami Marlins	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,93,1,Rafael Devers,Boston Red Sox,False,Base	93	Rafael Devers	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,94,1,MacKenzie Gore,Washington Nationals,False,Base	94	MacKenzie Gore	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Base,,95,1,Irving Lopez,St. Louis Cardinals	RC,False,Base	95	Irving Lopez	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,96,1,Jared Jones,Pittsburgh Pirates	RC,False,Base	96	Jared Jones	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,97,1,Nolan Gorman,St. Louis Cardinals,False,Base	97	Nolan Gorman	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,98,1,Oneil Cruz,Pittsburgh Pirates,False,Base	98	Oneil Cruz	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Base,,99,1,Hunter Goodman,Colorado Rockies	RC,False,Base	99	Hunter Goodman	Colorado Rockies	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,100,1,Corey Seager,Texas Rangers,False,Base	100	Corey Seager	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,101,1,Riley Greene,Detroit Tigers,False,Base	101	Riley Greene	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Base,,102,1,Marcus Semien,Texas Rangers,False,Base	102	Marcus Semien	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,103,1,Devin Williams,Milwaukee Brewers,False,Base	103	Devin Williams	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Base,,104,1,Spencer Steer,Cincinnati Reds,False,Base	104	Spencer Steer	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Base,,105,1,Ezequiel Tovar,Colorado Rockies,False,Base	105	Ezequiel Tovar	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,106,1,Robbie Ray,San Francisco Giants,False,Base	106	Robbie Ray	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,107,1,Yandy Díaz,Tampa Bay Rays,False,Base	107	Yandy Díaz	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,108,1,Jake Burger,Miami Marlins,False,Base	108	Jake Burger	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Base,,109,1,Javier Báez,Detroit Tigers,False,Base	109	Javier Báez	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Base,,110,1,Clayton Kershaw,Los Angeles Dodgers,False,Base	110	Clayton Kershaw	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,111,1,Jack Leiter,Texas Rangers	RC,False,Base	111	Jack Leiter	Texas Rangers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,112,1,Kyle Tucker,Houston Astros,False,Base	112	Kyle Tucker	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,113,1,Brayan Rocchio,Cleveland Guardians,False,Base	113	Brayan Rocchio	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,114,1,Adolis García,Texas Rangers,False,Base	114	Adolis García	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,115,1,José Rodríguez,Chicago White Sox	RC,False,Base	115	José Rodríguez	Chicago White Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,116,1,Yuki Matsui,San Diego Padres	RC,False,Base	116	Yuki Matsui	San Diego Padres	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,117,1,Salvador Perez,Kansas City Royals,False,Base	117	Salvador Perez	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,118,1,Ceddanne Rafaela,Boston Red Sox	RC,False,Base	118	Ceddanne Rafaela	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,119,1,Cal Raleigh,Seattle Mariners,False,Base	119	Cal Raleigh	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Base,,120,1,Bobby Witt Jr.,Kansas City Royals,False,Base	120	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,121,1,Shota Imanaga,Chicago Cubs	RC,False,Base	121	Shota Imanaga	Chicago Cubs	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,122,1,Wyatt Langford,Texas Rangers	RC,False,Base	122	Wyatt Langford	Texas Rangers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,123,1,Zach Neto,Los Angeles Angels,False,Base	123	Zach Neto	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Base,,124,1,Andrew McCutchen,Pittsburgh Pirates,False,Base	124	Andrew McCutchen	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Base,,125,1,Eloy Jiménez,Chicago White Sox,False,Base	125	Eloy Jiménez	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,126,1,Willy Adames,Milwaukee Brewers,False,Base	126	Willy Adames	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Base,,127,1,Anthony Rizzo,New York Yankees,False,Base	127	Anthony Rizzo	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,128,1,Ryan Pepiot,Tampa Bay Rays,False,Base	128	Ryan Pepiot	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,129,1,Luis Castillo,Seattle Mariners,False,Base	129	Luis Castillo	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Base,,130,1,Yennier Cano,Baltimore Orioles,False,Base	130	Yennier Cano	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,131,1,Tyler Fitzgerald,San Francisco Giants	RC,False,Base	131	Tyler Fitzgerald	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,132,1,Luken Baker,St. Louis Cardinals	RC,False,Base	132	Luken Baker	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,133,1,Dominic Canzone,Seattle Mariners	RC,False,Base	133	Dominic Canzone	Seattle Mariners	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,134,1,George Springer,Toronto Blue Jays,False,Base	134	George Springer	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,135,1,Shane McClanahan,Tampa Bay Rays,False,Base	135	Shane McClanahan	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,136,1,Evan Carter,Texas Rangers	RC,False,Base	136	Evan Carter	Texas Rangers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,137,1,Francisco Lindor,New York Mets,False,Base	137	Francisco Lindor	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,138,1,Sandy Alcantara,Miami Marlins,False,Base	138	Sandy Alcantara	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Base,,139,1,Brenton Doyle,Colorado Rockies,False,Base	139	Brenton Doyle	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,140,1,Daulton Varsho,Toronto Blue Jays,False,Base	140	Daulton Varsho	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,141,1,Nico Hoerner,Chicago Cubs,False,Base	141	Nico Hoerner	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,142,1,Heston Kjerstad,Baltimore Orioles	RC,False,Base	142	Heston Kjerstad	Baltimore Orioles	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,143,1,Sonny Gray,St. Louis Cardinals,False,Base	143	Sonny Gray	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,144,1,Chris Sale,Atlanta Braves,False,Base	144	Chris Sale	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,145,1,Jordyn Adams,Los Angeles Angels	RC,False,Base	145	Jordyn Adams	Los Angeles Angels	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,146,1,Bryan Reynolds,Pittsburgh Pirates,False,Base	146	Bryan Reynolds	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Base,,147,1,Zac Gallen,Arizona Diamondbacks,False,Base	147	Zac Gallen	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,148,1,Tyler Cropley,Kansas City Royals	RC,False,Base	148	Tyler Cropley	Kansas City Royals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,149,1,Shane Bieber,Cleveland Guardians,False,Base	149	Shane Bieber	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,150,1,Juan Soto,New York Yankees,False,Base	150	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,151,1,Kyren Paris,Los Angeles Angels	RC,False,Base	151	Kyren Paris	Los Angeles Angels	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,152,1,Edouard Julien,Minnesota Twins,False,Base	152	Edouard Julien	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Base,,153,1,Randy Arozarena,Tampa Bay Rays,False,Base	153	Randy Arozarena	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,154,1,Andrew Abbott,Cincinnati Reds	RC,False,Base	154	Andrew Abbott	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,155,1,Zach Remillard,Chicago White Sox	RC,False,Base	155	Zach Remillard	Chicago White Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,156,1,Carlos Correa,Minnesota Twins,False,Base	156	Carlos Correa	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Base,,157,1,Charlie Blackmon,Colorado Rockies,False,Base	157	Charlie Blackmon	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,158,1,Bo Naylor,Cleveland Guardians,False,Base	158	Bo Naylor	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,159,1,Justin Martinez,Arizona Diamondbacks	RC,False,Base	159	Justin Martinez	Arizona Diamondbacks	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,160,1,Yoendrys Gómez,New York Yankees	RC,False,Base	160	Yoendrys Gómez	New York Yankees	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,161,1,Jackson Chourio,Milwaukee Brewers	RC,False,Base	161	Jackson Chourio	Milwaukee Brewers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,162,1,Josh Hader,Houston Astros,False,Base	162	Josh Hader	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,163,1,Jonny Deluca,Tampa Bay Rays	RC,False,Base	163	Jonny Deluca	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,164,1,Gerrit Cole,New York Yankees,False,Base	164	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,165,1,Wilyer Abreu,Boston Red Sox	RC,False,Base	165	Wilyer Abreu	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,166,1,Emmanuel Clase,Cleveland Guardians,False,Base	166	Emmanuel Clase	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,167,1,Carson Spiers,Cincinnati Reds	RC,False,Base	167	Carson Spiers	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,168,1,Logan Webb,San Francisco Giants,False,Base	168	Logan Webb	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,169,1,Trea Turner,Philadelphia Phillies,False,Base	169	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,170,1,Yordan Alvarez,Houston Astros,False,Base	170	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,171,1,Joey Votto,Toronto Blue Jays,False,Base	171	Joey Votto	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,172,1,Bryan Woo,Seattle Mariners	RC,False,Base	172	Bryan Woo	Seattle Mariners	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,173,1,José Ramírez,Cleveland Guardians,False,Base	173	José Ramírez	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,174,1,Alexander Canario,Chicago Cubs	RC,False,Base	174	Alexander Canario	Chicago Cubs	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,175,1,José Fermín,St. Louis Cardinals	RC,False,Base	175	José Fermín	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,176,1,Forrest Wall,Atlanta Braves	RC,False,Base	176	Forrest Wall	Atlanta Braves	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,177,1,Noelvi Marte,Cincinnati Reds	RC,False,Base	177	Noelvi Marte	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,178,1,Andrew Saalfrank,Arizona Diamondbacks	RC,False,Base	178	Andrew Saalfrank	Arizona Diamondbacks	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,179,1,Kris Bryant,Colorado Rockies,False,Base	179	Kris Bryant	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,180,1,Orion Kerkering,Philadelphia Phillies	RC,False,Base	180	Orion Kerkering	Philadelphia Phillies	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,181,1,Seth Lugo,Kansas City Royals,False,Base	181	Seth Lugo	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,182,1,Coco Montes,Colorado Rockies	RC,False,Base	182	Coco Montes	Colorado Rockies	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,183,1,Nick Loftin,Kansas City Royals	RC,False,Base	183	Nick Loftin	Kansas City Royals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,184,1,Ian Happ,Chicago Cubs,False,Base	184	Ian Happ	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,185,1,Jonathan India,Cincinnati Reds,False,Base	185	Jonathan India	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Base,,186,1,Cole Ragans,Kansas City Royals,False,Base	186	Cole Ragans	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,187,1,Steven Cruz,Kansas City Royals	RC,False,Base	187	Steven Cruz	Kansas City Royals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,188,1,Francisco Alvarez,New York Mets,False,Base	188	Francisco Alvarez	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,189,1,Masyn Winn,St. Louis Cardinals	RC,False,Base	189	Masyn Winn	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,190,1,JJ Bleday,Oakland Athletics,False,Base	190	JJ Bleday	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Base,,191,1,Kyle Harrison,San Francisco Giants	RC,False,Base	191	Kyle Harrison	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,192,1,Joe Musgrove,San Diego Padres,False,Base	192	Joe Musgrove	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,193,1,Grae Kessinger,Houston Astros	RC,False,Base	193	Grae Kessinger	Houston Astros	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,194,1,Patrick Bailey,San Francisco Giants,False,Base	194	Patrick Bailey	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,195,1,Drew Rom,St. Louis Cardinals	RC,False,Base	195	Drew Rom	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,196,1,Kerry Carpenter,Detroit Tigers,False,Base	196	Kerry Carpenter	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Base,,197,1,Darius Vines,Atlanta Braves	RC,False,Base	197	Darius Vines	Atlanta Braves	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,198,1,Jordan Balazovic,Minnesota Twins	RC,False,Base	198	Jordan Balazovic	Minnesota Twins	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,199,1,Logan O'Hoppe,Los Angeles Angels,False,Base	199	Logan O'Hoppe	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Base,,200,1,Mike Trout,Los Angeles Angels,False,Base	200	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Base,,201,1,Jung Hoo Lee,San Francisco Giants	RC,False,Base	201	Jung Hoo Lee	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,202,1,Zack Greinke,Kansas City Royals,False,Base	202	Zack Greinke	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,203,1,Yainer Díaz,Houston Astros,False,Base	203	Yainer Díaz	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,204,1,Tim Anderson,Miami Marlins,False,Base	204	Tim Anderson	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Base,,205,1,Shea Langeliers,Oakland Athletics,False,Base	205	Shea Langeliers	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Base,,206,1,Alex Kirilloff,Minnesota Twins,False,Base	206	Alex Kirilloff	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Base,,207,1,Jackson Merrill,San Diego Padres	RC,False,Base	207	Jackson Merrill	San Diego Padres	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,208,1,Keaton Winn,San Francisco Giants	RC,False,Base	208	Keaton Winn	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,209,1,Curtis Mead,Tampa Bay Rays	RC,False,Base	209	Curtis Mead	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,210,1,Marco Luciano,San Francisco Giants	(RC),False,Base	210	Marco Luciano	San Francisco Giants	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,211,1,Owen White,Texas Rangers	RC,False,Base	211	Owen White	Texas Rangers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,212,1,Jordan Walker,St. Louis Cardinals,False,Base	212	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,213,1,Junior Caminero,Tampa Bay Rays	RC,False,Base	213	Junior Caminero	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,214,1,Josh Jung,Texas Rangers,False,Base	214	Josh Jung	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,215,1,Nolan Arenado,St. Louis Cardinals,False,Base	215	Nolan Arenado	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,216,1,Luis Arraez,San Diego Padres,False,Base	216	Luis Arraez	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,217,1,Royce Lewis,Minnesota Twins,False,Base	217	Royce Lewis	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Base,,218,1,Blake Snell,San Francisco Giants,False,Base	218	Blake Snell	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,219,1,Nick Castellanos,Philadelphia Phillies,False,Base	219	Nick Castellanos	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,220,1,Casey Schmitt,San Francisco Giants,False,Base	220	Casey Schmitt	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,221,1,Emmet Sheehan,Los Angeles Dodgers	RC,False,Base	221	Emmet Sheehan	Los Angeles Dodgers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,222,1,LaMonte Wade Jr.,San Francisco Giants,False,Base	222	LaMonte Wade Jr.	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,223,1,Jorge Soler,San Francisco Giants,False,Base	223	Jorge Soler	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,224,1,Dylan Cease,San Diego Padres,False,Base	224	Dylan Cease	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,225,1,Jacob Lopez,Tampa Bay Rays	RC,False,Base	225	Jacob Lopez	Tampa Bay Rays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,226,1,Trey Cabbage,Los Angeles Angels	RC,False,Base	226	Trey Cabbage	Los Angeles Angels	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,227,1,Andre Lipcius,Detroit Tigers	RC,False,Base	227	Andre Lipcius	Detroit Tigers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,228,1,Jacob deGrom,Texas Rangers,False,Base	228	Jacob deGrom	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,229,1,Jordan Lawlar,Arizona Diamondbacks	(RC),False,Base	229	Jordan Lawlar	Arizona Diamondbacks	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,230,1,Lyon Richardson,Cincinnati Reds	RC,False,Base	230	Lyon Richardson	Cincinnati Reds	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,231,1,Dansby Swanson,Chicago Cubs,False,Base	231	Dansby Swanson	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,232,1,Cody Bellinger,Chicago Cubs,False,Base	232	Cody Bellinger	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,233,1,Brandon Nimmo,New York Mets,False,Base	233	Brandon Nimmo	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,234,1,Willson Contreras,St. Louis Cardinals,False,Base	234	Willson Contreras	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Base,,235,1,Eduardo Rodriguez,Arizona Diamondbacks,False,Base	235	Eduardo Rodriguez	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,236,1,Anthony Volpe,New York Yankees,False,Base	236	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,237,1,Yu Darvish,San Diego Padres,False,Base	237	Yu Darvish	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,238,1,Everson Pereira,New York Yankees	RC,False,Base	238	Everson Pereira	New York Yankees	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,239,1,Jeimer Candelario,Cincinnati Reds,False,Base	239	Jeimer Candelario	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Base,,240,1,Nolan Jones,Colorado Rockies,False,Base	240	Nolan Jones	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,241,1,Esteury Ruiz,Oakland Athletics,False,Base	241	Esteury Ruiz	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Base,,242,1,Joey Meneses,Washington Nationals,False,Base	242	Joey Meneses	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Base,,243,1,Samad Taylor,Kansas City Royals	RC,False,Base	243	Samad Taylor	Kansas City Royals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,244,1,Jeremy Peña,Houston Astros,False,Base	244	Jeremy Peña	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,245,1,Emerson Hancock,Seattle Mariners	RC,False,Base	245	Emerson Hancock	Seattle Mariners	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,246,1,Maikel Garcia,Kansas City Royals,False,Base	246	Maikel Garcia	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Base,,247,1,CJ Abrams,Washington Nationals,False,Base	247	CJ Abrams	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Base,,248,1,Justin Turner,Toronto Blue Jays,False,Base	248	Justin Turner	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Base,,249,1,Allan Winans,Atlanta Braves	RC,False,Base	249	Allan Winans	Atlanta Braves	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,250,1,Ronald Acuña Jr.,Atlanta Braves,False,Base	250	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,251,1,Victor Scott,St. Louis Cardinals	RC,False,Base	251	Victor Scott	St. Louis Cardinals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,252,1,Nathaniel Lowe,Texas Rangers,False,Base	252	Nathaniel Lowe	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,253,1,Christian Yelich,Milwaukee Brewers,False,Base	253	Christian Yelich	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Base,,254,1,Brandon Walter,Boston Red Sox	RC,False,Base	254	Brandon Walter	Boston Red Sox	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,255,1,Sean Murphy,Atlanta Braves,False,Base	255	Sean Murphy	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Base,,256,1,Michael Conforto,San Francisco Giants,False,Base	256	Michael Conforto	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Base,,257,1,Starling Marte,New York Mets,False,Base	257	Starling Marte	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,258,1,Justin Steele,Chicago Cubs,False,Base	258	Justin Steele	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,259,1,Andrés Giménez,Cleveland Guardians,False,Base	259	Andrés Giménez	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Base,,260,1,Henry Davis,Pittsburgh Pirates	(RC),False,Base	260	Henry Davis	Pittsburgh Pirates	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,261,1,J.T. Realmuto,Philadelphia Phillies,False,Base	261	J.T. Realmuto	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,262,1,Aaron Nola,Philadelphia Phillies,False,Base	262	Aaron Nola	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Base,,263,1,Fernando Tatis Jr.,San Diego Padres,False,Base	263	Fernando Tatis Jr.	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Base,,264,1,Jacob Young,Washington Nationals	RC,False,Base	264	Jacob Young	Washington Nationals	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,265,1,Ryan Mountcastle,Baltimore Orioles,False,Base	265	Ryan Mountcastle	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,266,1,Cade Marlowe,Seattle Mariners	RC,False,Base	266	Cade Marlowe	Seattle Mariners	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,267,1,Corbin Carroll,Arizona Diamondbacks,False,Base	267	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,268,1,Grayson Rodriguez,Baltimore Orioles,False,Base	268	Grayson Rodriguez	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Base,,269,1,Pete Alonso,New York Mets,False,Base	269	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,270,1,Luis Matos,San Francisco Giants	RC,False,Base	270	Luis Matos	San Francisco Giants	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,271,1,Parker Meadows,Detroit Tigers	RC,False,Base	271	Parker Meadows	Detroit Tigers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,272,1,Brice Turang,Milwaukee Brewers,False,Base	272	Brice Turang	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Base,,273,1,Johan Rojas,Philadelphia Phillies	RC,False,Base	273	Johan Rojas	Philadelphia Phillies	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,274,1,Nolan Schanuel,Los Angeles Angels	RC,False,Base	274	Nolan Schanuel	Los Angeles Angels	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,275,1,Giancarlo Stanton,New York Yankees,False,Base	275	Giancarlo Stanton	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,276,1,Abner Uribe,Milwaukee Brewers	RC,False,Base	276	Abner Uribe	Milwaukee Brewers	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,277,1,Jordan Westburg,Baltimore Orioles	RC,False,Base	277	Jordan Westburg	Baltimore Orioles	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,278,1,Colton Cowser,Baltimore Orioles	(RC),False,Base	278	Colton Cowser	Baltimore Orioles	(RC)
+2024_topps_chrome,2024,Topps,Chrome,Base,,279,1,Trevor Story,Boston Red Sox,False,Base	279	Trevor Story	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Base,,280,1,Gleyber Torres,New York Yankees,False,Base	280	Gleyber Torres	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Base,,281,1,Austin Wells,New York Yankees	RC,False,Base	281	Austin Wells	New York Yankees	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,282,1,Zack Gelof,Oakland Athletics	RC,False,Base	282	Zack Gelof	Oakland Athletics	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,283,1,Nathan Eovaldi,Texas Rangers,False,Base	283	Nathan Eovaldi	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Base,,284,1,Ryan Noda,Oakland Athletics,False,Base	284	Ryan Noda	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Base,,285,1,Ke'Bryan Hayes,Pittsburgh Pirates,False,Base	285	Ke'Bryan Hayes	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Base,,286,1,Brandon Lowe,Tampa Bay Rays,False,Base	286	Brandon Lowe	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Base,,287,1,Elias Díaz,Colorado Rockies,False,Base	287	Elias Díaz	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,288,1,Geraldo Perdomo,Arizona Diamondbacks,False,Base	288	Geraldo Perdomo	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Base,,289,1,Jeff McNeil,New York Mets,False,Base	289	Jeff McNeil	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Base,,290,1,Davis Schneider,Toronto Blue Jays	RC,False,Base	290	Davis Schneider	Toronto Blue Jays	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,291,1,Justin Verlander,Houston Astros,False,Base	291	Justin Verlander	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Base,,292,1,Christopher Morel,Chicago Cubs,False,Base	292	Christopher Morel	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Base,,293,1,Will Smith,Los Angeles Dodgers,False,Base	293	Will Smith	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,294,1,J.P. Martínez,Atlanta Braves	RC,False,Base	294	J.P. Martínez	Atlanta Braves	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,295,1,Endy Rodríguez,Pittsburgh Pirates	RC,False,Base	295	Endy Rodríguez	Pittsburgh Pirates	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,296,1,Mookie Betts,Los Angeles Dodgers,False,Base	296	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Base,,297,1,Kody Funderburk,Minnesota Twins	RC,False,Base	297	Kody Funderburk	Minnesota Twins	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,298,1,Tyler Soderstrom,Oakland Athletics	RC,False,Base	298	Tyler Soderstrom	Oakland Athletics	RC
+2024_topps_chrome,2024,Topps,Chrome,Base,,299,1,Ryan McMahon,Colorado Rockies,False,Base	299	Ryan McMahon	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Base,,300,1,Julio Rodríguez,Seattle Mariners,False,Base	300	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-1,1,Mike Trout,Los Angeles Angels,False,1989 Topps Baseball	89CB-1	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-2,1,Aaron Judge,New York Yankees,False,1989 Topps Baseball	89CB-2	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-3,1,Ronald Acuña Jr.,Atlanta Braves,False,1989 Topps Baseball	89CB-3	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-4,1,Mookie Betts,Los Angeles Dodgers,False,1989 Topps Baseball	89CB-4	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-5,1,Shohei Ohtani,Los Angeles Dodgers,False,1989 Topps Baseball	89CB-5	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-6,1,Julio Rodríguez,Seattle Mariners,False,1989 Topps Baseball	89CB-6	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-7,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,1989 Topps Baseball	89CB-7	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-8,1,Pete Alonso,New York Mets,False,1989 Topps Baseball	89CB-8	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-9,1,Juan Soto,New York Yankees,False,1989 Topps Baseball	89CB-9	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-10,1,Bryce Harper,Philadelphia Phillies,False,1989 Topps Baseball	89CB-10	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-11,1,Elly De La Cruz,Cincinnati Reds,False,1989 Topps Baseball	89CB-11	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-12,1,Jasson Domínguez,New York Yankees,False,1989 Topps Baseball	89CB-12	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-13,1,Evan Carter,Texas Rangers,False,1989 Topps Baseball	89CB-13	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-14,1,Jordan Lawlar,Arizona Diamondbacks,False,1989 Topps Baseball	89CB-14	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-15,1,Junior Caminero,Tampa Bay Rays,False,1989 Topps Baseball	89CB-15	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-16,1,Noelvi Marte,Cincinnati Reds,False,1989 Topps Baseball	89CB-16	Noelvi Marte	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-17,1,Masyn Winn,St. Louis Cardinals,False,1989 Topps Baseball	89CB-17	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-18,1,Heston Kjerstad,Baltimore Orioles,False,1989 Topps Baseball	89CB-18	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-19,1,Pete Crow-Armstrong,Chicago Cubs,False,1989 Topps Baseball	89CB-19	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball,,89CB-20,1,Curtis Mead,Tampa Bay Rays,False,1989 Topps Baseball	89CB-20	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-AV,1,Anthony Volpe,New York Yankees,False,1989 Topps Baseball Autographs	89CBA-AV	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-BB,1,Byron Buxton,Minnesota Twins,False,1989 Topps Baseball Autographs	89CBA-BB	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-JROD,1,Julio Rodríguez,Seattle Mariners,False,1989 Topps Baseball Autographs	89CBA-JROD	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-MM,1,Max Muncy,Los Angeles Dodgers,False,1989 Topps Baseball Autographs	89CBA-MM	Max Muncy	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-MO,1,Matt Olson,Atlanta Braves,False,1989 Topps Baseball Autographs	89CBA-MO	Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-MY,1,Masataka Yoshida,Boston Red Sox,False,1989 Topps Baseball Autographs	89CBA-MY	Masataka Yoshida	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-TT,1,Trea Turner,Philadelphia Phillies,False,1989 Topps Baseball Autographs	89CBA-TT	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Autographs,,89CBA-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,1989 Topps Baseball Autographs	89CBA-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-1,1,Mike Trout,Los Angeles Angels,False,1989 Topps Baseball Chrome Layer Variations	89BCL-1	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-2,1,Aaron Judge,New York Yankees,False,1989 Topps Baseball Chrome Layer Variations	89BCL-2	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-3,1,Ronald Acuña Jr.,Atlanta Braves,False,1989 Topps Baseball Chrome Layer Variations	89BCL-3	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-4,1,Mookie Betts,Los Angeles Dodgers,False,1989 Topps Baseball Chrome Layer Variations	89BCL-4	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-5,1,Shohei Ohtani,Los Angeles Dodgers,False,1989 Topps Baseball Chrome Layer Variations	89BCL-5	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-6,1,Julio Rodríguez,Seattle Mariners,False,1989 Topps Baseball Chrome Layer Variations	89BCL-6	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-7,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,1989 Topps Baseball Chrome Layer Variations	89BCL-7	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-8,1,Pete Alonso,New York Mets,False,1989 Topps Baseball Chrome Layer Variations	89BCL-8	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-9,1,Juan Soto,New York Yankees,False,1989 Topps Baseball Chrome Layer Variations	89BCL-9	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-10,1,Bryce Harper,Philadelphia Phillies,False,1989 Topps Baseball Chrome Layer Variations	89BCL-10	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-11,1,Elly De La Cruz,Cincinnati Reds	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-11	Elly De La Cruz	Cincinnati Reds	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-12,1,Jasson Domínguez,New York Yankees	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-12	Jasson Domínguez	New York Yankees	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-13,1,Evan Carter,Texas Rangers	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-13	Evan Carter	Texas Rangers	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-14,1,Jordan Lawlar,Arizona Diamondbacks	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-14	Jordan Lawlar	Arizona Diamondbacks	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-15,1,Junior Caminero,Tampa Bay Rays	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-15	Junior Caminero	Tampa Bay Rays	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-16,1,Noelvi Marte,Cincinnati Reds	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-16	Noelvi Marte	Cincinnati Reds	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-17,1,Masyn Winn,St. Louis Cardinals	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-17	Masyn Winn	St. Louis Cardinals	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-18,1,Heston Kjerstad,Baltimore Orioles	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-18	Heston Kjerstad	Baltimore Orioles	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-19,1,Pete Crow-Armstrong,Chicago Cubs	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-19	Pete Crow-Armstrong	Chicago Cubs	Rookie
+2024_topps_chrome,2024,Topps,Chrome,1989 Topps Baseball Chrome Layer Variations,,89BCL-20,1,Curtis Mead,Tampa Bay Rays	Rookie,False,1989 Topps Baseball Chrome Layer Variations	89BCL-20	Curtis Mead	Tampa Bay Rays	Rookie
+2024_topps_chrome,2024,Topps,Chrome,2023 Topps Chrome MVP Buyback Autographs,,39,1,Ronald Acuña Jr.,Atlanta Braves,False,2023 Topps Chrome MVP Buyback Autographs	39	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,2023 Topps Chrome MVP Buybacks,,17,1,Shohei Ohtani,Los Angeles Angels,False,2023 Topps Chrome MVP Buybacks	17	Shohei Ohtani	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,2023 Topps Chrome MVP Buybacks,,39,1,Ronald Acuña Jr.,Atlanta Braves,False,2023 Topps Chrome MVP Buybacks	39	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,1,1,Shohei Ohtani,Los Angeles Angels,False,Award Winners Variations	1	Shohei Ohtani	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,36,1,Gunnar Henderson,Baltimore Orioles,False,Award Winners Variations	36	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,164,1,Gerrit Cole,New York Yankees,False,Award Winners Variations	164	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,218,1,Blake Snell,San Diego Padres,False,Award Winners Variations	218	Blake Snell	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,250,1,Ronald Acuña Jr.,Atlanta Braves,False,Award Winners Variations	250	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Award Winners Variations,,267,1,Corbin Carroll,Arizona Diamondbacks,False,Award Winners Variations	267	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-1,1,Shohei Ohtani,Los Angeles Dodgers,False,Chrome All Etch	CAE-1	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-2,1,Mike Trout,Los Angeles Angels,False,Chrome All Etch	CAE-2	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-3,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Chrome All Etch	CAE-3	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-4,1,Gerrit Cole,New York Yankees,False,Chrome All Etch	CAE-4	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-5,1,Rafael Devers,Boston Red Sox,False,Chrome All Etch	CAE-5	Rafael Devers	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-6,1,Aaron Judge,New York Yankees,False,Chrome All Etch	CAE-6	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-7,1,Julio Rodríguez,Seattle Mariners,False,Chrome All Etch	CAE-7	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-8,1,Austin Riley,Atlanta Braves,False,Chrome All Etch	CAE-8	Austin Riley	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-9,1,Corey Seager,Texas Rangers,False,Chrome All Etch	CAE-9	Corey Seager	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-10,1,Adley Rutschman,Baltimore Orioles,False,Chrome All Etch	CAE-10	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-11,1,Trea Turner,Philadelphia Phillies,False,Chrome All Etch	CAE-11	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-12,1,Justin Verlander,Houston Astros,False,Chrome All Etch	CAE-12	Justin Verlander	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-13,1,Mookie Betts,Los Angeles Dodgers,False,Chrome All Etch	CAE-13	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-14,1,Juan Soto,New York Yankees,False,Chrome All Etch	CAE-14	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-15,1,Corbin Carroll,Arizona Diamondbacks,False,Chrome All Etch	CAE-15	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-16,1,Luis Robert Jr.,Chicago White Sox,False,Chrome All Etch	CAE-16	Luis Robert Jr.	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-17,1,José Ramírez,Cleveland Guardians,False,Chrome All Etch	CAE-17	José Ramírez	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-18,1,Dansby Swanson,Chicago Cubs,False,Chrome All Etch	CAE-18	Dansby Swanson	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-19,1,Clayton Kershaw,Los Angeles Dodgers,False,Chrome All Etch	CAE-19	Clayton Kershaw	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-20,1,Christian Yelich,Milwaukee Brewers,False,Chrome All Etch	CAE-20	Christian Yelich	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-21,1,Randy Arozarena,Tampa Bay Rays,False,Chrome All Etch	CAE-21	Randy Arozarena	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-22,1,Jazz Chisholm Jr.,Miami Marlins,False,Chrome All Etch	CAE-22	Jazz Chisholm Jr.	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-23,1,Jordan Walker,St. Louis Cardinals,False,Chrome All Etch	CAE-23	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-24,1,Byron Buxton,Minnesota Twins,False,Chrome All Etch	CAE-24	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch,,CAE-25,1,Bobby Witt Jr.,Kansas City Royals,False,Chrome All Etch	CAE-25	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Autographs,,CEA-DO,1,David Ortiz,Boston Red Sox,False,Chrome All Etch Autographs	CEA-DO	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Autographs,,CEA-JR,1,Julio Rodríguez,Seattle Mariners,False,Chrome All Etch Autographs	CEA-JR	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Autographs,,CEA-MT,1,Mike Trout,Los Angeles Angels,False,Chrome All Etch Autographs	CEA-MT	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Autographs,,CEA-TT,1,Trea Turner,Philadelphia Phillies,False,Chrome All Etch Autographs	CEA-TT	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Autographs,,CEA-WB,1,Wade Boggs,Boston Red Sox,False,Chrome All Etch Autographs	CEA-WB	Wade Boggs	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-1,1,Elly De La Cruz,Cincinnati Reds,False,Chrome All Etch Rookie Rush	CERR-1	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-2,1,Sal Frelick,Milwaukee Brewers,False,Chrome All Etch Rookie Rush	CERR-2	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-3,1,Zack Gelof,Oakland Athletics,False,Chrome All Etch Rookie Rush	CERR-3	Zack Gelof	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-4,1,Colton Cowser,Baltimore Orioles,False,Chrome All Etch Rookie Rush	CERR-4	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-5,1,Marco Luciano,San Francisco Giants,False,Chrome All Etch Rookie Rush	CERR-5	Marco Luciano	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-6,1,Curtis Mead,Tampa Bay Rays,False,Chrome All Etch Rookie Rush	CERR-6	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-7,1,Pete Crow-Armstrong,Chicago Cubs,False,Chrome All Etch Rookie Rush	CERR-7	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-8,1,Noelvi Marte,Cincinnati Reds,False,Chrome All Etch Rookie Rush	CERR-8	Noelvi Marte	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-9,1,Masyn Winn,St. Louis Cardinals,False,Chrome All Etch Rookie Rush	CERR-9	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-10,1,Jasson Domínguez,New York Yankees,False,Chrome All Etch Rookie Rush	CERR-10	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-11,1,Ronny Mauricio,New York Mets,False,Chrome All Etch Rookie Rush	CERR-11	Ronny Mauricio	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-12,1,Junior Caminero,Tampa Bay Rays,False,Chrome All Etch Rookie Rush	CERR-12	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-13,1,Jordan Lawlar,Arizona Diamondbacks,False,Chrome All Etch Rookie Rush	CERR-13	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-14,1,Evan Carter,Texas Rangers,False,Chrome All Etch Rookie Rush	CERR-14	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-15,1,Heston Kjerstad,Baltimore Orioles,False,Chrome All Etch Rookie Rush	CERR-15	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-16,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,Chrome All Etch Rookie Rush	CERR-16	Yoshinobu Yamamoto	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-17,1,Jung Hoo Lee,San Francisco Giants,False,Chrome All Etch Rookie Rush	CERR-17	Jung Hoo Lee	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-18,1,Shota Imanaga,Chicago Cubs,False,Chrome All Etch Rookie Rush	CERR-18	Shota Imanaga	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-19,1,Ceddanne Rafaela,Boston Red Sox,False,Chrome All Etch Rookie Rush	CERR-19	Ceddanne Rafaela	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush,,CERR-20,1,Tyler Soderstrom,Oakland Athletics,False,Chrome All Etch Rookie Rush	CERR-20	Tyler Soderstrom	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-CC,1,Colton Cowser,Baltimore Orioles,False,Chrome All Etch Rookie Rush Autographs	CERA-CC	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-CM,1,Curtis Mead,Tampa Bay Rays,False,Chrome All Etch Rookie Rush Autographs	CERA-CM	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-EVA,1,Evan Carter,Texas Rangers,False,Chrome All Etch Rookie Rush Autographs	CERA-EVA	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-JDO,1,Jasson Domínguez,New York Yankees,False,Chrome All Etch Rookie Rush Autographs	CERA-JDO	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-JOL,1,Jordan Lawlar,Arizona Diamondbacks,False,Chrome All Etch Rookie Rush Autographs	CERA-JOL	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-JUC,1,Junior Caminero,Tampa Bay Rays,False,Chrome All Etch Rookie Rush Autographs	CERA-JUC	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome All Etch Rookie Rush Autographs,,CERA-SF,1,Sal Frelick,Milwaukee Brewers,False,Chrome All Etch Rookie Rush Autographs	CERA-SF	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-AB,1,Adrián Beltré,Texas Rangers,False,Chrome Legend Autographs	CLA-AB	Adrián Beltré	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-AD,1,Andre Dawson,Montréal Expos,False,Chrome Legend Autographs	CLA-AD	Andre Dawson	Montréal Expos
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-AP,1,Albert Pujols,St. Louis Cardinals,False,Chrome Legend Autographs	CLA-AP	Albert Pujols	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-APE,1,Andy Pettitte,New York Yankees,False,Chrome Legend Autographs	CLA-APE	Andy Pettitte	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-BJ,1,Bo Jackson,Kansas City Royals,False,Chrome Legend Autographs	CLA-BJ	Bo Jackson	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-BW,1,Billy Williams,Chicago Cubs,False,Chrome Legend Autographs	CLA-BW	Billy Williams	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-CBI,1,Craig Biggio,Houston Astros,False,Chrome Legend Autographs	CLA-CBI	Craig Biggio	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-CU,1,Chase Utley,Philadelphia Phillies,False,Chrome Legend Autographs	CLA-CU	Chase Utley	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-DJ,1,Derek Jeter,New York Yankees,False,Chrome Legend Autographs	CLA-DJ	Derek Jeter	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-DO,1,David Ortiz,Boston Red Sox,False,Chrome Legend Autographs	CLA-DO	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-DP,1,Dustin Pedroia,Boston Red Sox,False,Chrome Legend Autographs	CLA-DP	Dustin Pedroia	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-DW,1,Dave Winfield,San Diego Padres,False,Chrome Legend Autographs	CLA-DW	Dave Winfield	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-EM,1,Eddie Murray,Baltimore Orioles,False,Chrome Legend Autographs	CLA-EM	Eddie Murray	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-EMA,1,Edgar Martinez,Seattle Mariners,False,Chrome Legend Autographs	CLA-EMA	Edgar Martinez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-FM,1,Fred McGriff,Tampa Bay Devil Rays,False,Chrome Legend Autographs	CLA-FM	Fred McGriff	Tampa Bay Devil Rays
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-FT,1,Frank Thomas,Chicago White Sox,False,Chrome Legend Autographs	CLA-FT	Frank Thomas	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-FV,1,Fernando Valenzuela,Los Angeles Dodgers,False,Chrome Legend Autographs	CLA-FV	Fernando Valenzuela	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-GB,1,George Brett,Kansas City Royals,False,Chrome Legend Autographs	CLA-GB	George Brett	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-GM,1,Greg Maddux,Atlanta Braves,False,Chrome Legend Autographs	CLA-GM	Greg Maddux	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-HM,1,Hideki Matsui,New York Yankees,False,Chrome Legend Autographs	CLA-HM	Hideki Matsui	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-I,1,Ichiro,Seattle Mariners,False,Chrome Legend Autographs	CLA-I	Ichiro	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-IR,1,Ivan Rodriguez,Texas Rangers,False,Chrome Legend Autographs	CLA-IR	Ivan Rodriguez	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-JB,1,Johnny Bench,Cincinnati Reds,False,Chrome Legend Autographs	CLA-JB	Johnny Bench	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-JBA,1,Jeff Bagwell,Houston Astros,False,Chrome Legend Autographs	CLA-JBA	Jeff Bagwell	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-JR,1,Jimmy Rollins,Philadelphia Phillies,False,Chrome Legend Autographs	CLA-JR	Jimmy Rollins	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-JS,1,John Smoltz,Atlanta Braves,False,Chrome Legend Autographs	CLA-JS	John Smoltz	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-KG,1,Ken Griffey Jr.,Seattle Mariners,False,Chrome Legend Autographs	CLA-KG	Ken Griffey Jr.	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-MM,1,Mark McGwire,Oakland Athletics,False,Chrome Legend Autographs	CLA-MM	Mark McGwire	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-MR,1,Mariano Rivera,New York Yankees,False,Chrome Legend Autographs	CLA-MR	Mariano Rivera	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-NG,1,Nomar Garciaparra,Boston Red Sox,False,Chrome Legend Autographs	CLA-NG	Nomar Garciaparra	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-NR,1,Nolan Ryan,California Angels,False,Chrome Legend Autographs	CLA-NR	Nolan Ryan	California Angels
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-RC,1,Roger Clemens,Houston Astros,False,Chrome Legend Autographs	CLA-RC	Roger Clemens	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-RJ,1,Randy Johnson,Arizona Diamondbacks,False,Chrome Legend Autographs	CLA-RJ	Randy Johnson	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-RS,1,Ryne Sandberg,Chicago Cubs,False,Chrome Legend Autographs	CLA-RS	Ryne Sandberg	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-RY,1,Robin Yount,Milwaukee Brewers,False,Chrome Legend Autographs	CLA-RY	Robin Yount	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-SK,1,Sandy Koufax,Brooklyn Dodgers,False,Chrome Legend Autographs	CLA-SK	Sandy Koufax	Brooklyn Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-SS,1,Sammy Sosa,Chicago Cubs,False,Chrome Legend Autographs	CLA-SS	Sammy Sosa	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Chrome Legend Autographs,,CLA-TG,1,Tom Glavine,Atlanta Braves,False,Chrome Legend Autographs	CLA-TG	Tom Glavine	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-BWJ,1,George Brett,Kansas City Royals,True,Dual Autographs	DA-BWJ	George Brett / Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-BWJ,2,Bobby Witt Jr.,Kansas City Royals,True,Dual Autographs	DA-BWJ	George Brett / Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-FRS,1,Christian Yelich,Milwaukee Brewers,True,Dual Autographs	DA-FRS	Christian Yelich / Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-FRS,2,Sal Frelick,Milwaukee Brewers,True,Dual Autographs	DA-FRS	Christian Yelich / Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-KV,1,Clayton Kershaw,Los Angeles Dodgers,True,Dual Autographs	DA-KV	Clayton Kershaw / Fernando Valenzuela	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-KV,2,Fernando Valenzuela,Los Angeles Dodgers,True,Dual Autographs	DA-KV	Clayton Kershaw / Fernando Valenzuela	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-RH,1,Ryan Howard,Philadelphia Phillies,True,Dual Autographs	DA-RH	Ryan Howard / Jimmy Rollins	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-RH,2,Jimmy Rollins,Philadelphia Phillies,True,Dual Autographs	DA-RH	Ryan Howard / Jimmy Rollins	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-RIO,1,Austin Riley,Atlanta Braves,True,Dual Autographs	DA-RIO	Austin Riley / Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-RIO,2,Matt Olson,Atlanta Braves,True,Dual Autographs	DA-RIO	Austin Riley / Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-TM,1,Fernando Tatis Jr.,San Diego Padres,True,Dual Autographs	DA-TM	Fernando Tatis Jr. / Manny Machado	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-TM,2,Manny Machado,San Diego Padres,True,Dual Autographs	DA-TM	Fernando Tatis Jr. / Manny Machado	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-TRG,1,Vladimir Guerrero,Los Angeles Angels,True,Dual Autographs	DA-TRG	Vladimir Guerrero / Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Dual Autographs,,DA-TRG,2,Mike Trout,Los Angeles Angels,True,Dual Autographs	DA-TRG	Vladimir Guerrero / Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-1,1,Shohei Ohtani,Los Angeles Dodgers,False,Exposé	TCE-1	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-2,1,Mike Trout,Los Angeles Angels,False,Exposé	TCE-2	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-3,1,Aaron Judge,New York Yankees,False,Exposé	TCE-3	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-4,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Exposé	TCE-4	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-5,1,Bryce Harper,Philadelphia Phillies,False,Exposé	TCE-5	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-6,1,Julio Rodríguez,Seattle Mariners,False,Exposé	TCE-6	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-7,1,Mookie Betts,Los Angeles Dodgers,False,Exposé	TCE-7	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-8,1,Freddie Freeman,Los Angeles Dodgers,False,Exposé	TCE-8	Freddie Freeman	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-9,1,Yordan Alvarez,Houston Astros,False,Exposé	TCE-9	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-10,1,Gunnar Henderson,Baltimore Orioles,False,Exposé	TCE-10	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-11,1,Adley Rutschman,Baltimore Orioles,False,Exposé	TCE-11	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-12,1,Juan Soto,New York Yankees,False,Exposé	TCE-12	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-13,1,Fernando Tatis Jr.,San Diego Padres,False,Exposé	TCE-13	Fernando Tatis Jr.	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-14,1,Ronald Acuña Jr.,Atlanta Braves,False,Exposé	TCE-14	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-15,1,Corbin Carroll,Arizona Diamondbacks,False,Exposé	TCE-15	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-16,1,Matt Olson,Atlanta Braves,False,Exposé	TCE-16	Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-17,1,Pete Alonso,New York Mets,False,Exposé	TCE-17	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-18,1,Max Scherzer,Texas Rangers,False,Exposé	TCE-18	Max Scherzer	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-19,1,Corey Seager,Texas Rangers,False,Exposé	TCE-19	Corey Seager	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-20,1,Elly De La Cruz,Cincinnati Reds,False,Exposé	TCE-20	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-21,1,Jasson Domínguez,New York Yankees,False,Exposé	TCE-21	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-22,1,Evan Carter,Texas Rangers,False,Exposé	TCE-22	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-23,1,Junior Caminero,Tampa Bay Rays,False,Exposé	TCE-23	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-24,1,Colton Cowser,Baltimore Orioles,False,Exposé	TCE-24	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-25,1,Heston Kjerstad,Baltimore Orioles,False,Exposé	TCE-25	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-26,1,Pete Crow-Armstrong,Chicago Cubs,False,Exposé	TCE-26	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-27,1,Jordan Lawlar,Arizona Diamondbacks,False,Exposé	TCE-27	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-28,1,Curtis Mead,Tampa Bay Rays,False,Exposé	TCE-28	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-29,1,Sal Frelick,Milwaukee Brewers,False,Exposé	TCE-29	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-30,1,Noelvi Marte,Cincinnati Reds,False,Exposé	TCE-30	Noelvi Marte	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-31,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,Exposé	TCE-31	Yoshinobu Yamamoto	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-32,1,Jung Hoo Lee,San Francisco Giants,False,Exposé	TCE-32	Jung Hoo Lee	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-33,1,Gerrit Cole,New York Yankees,False,Exposé	TCE-33	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Exposé,,TCE-34,1,Luis Robert Jr.,Chicago White Sox,False,Exposé	TCE-34	Luis Robert Jr.	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-1,1,Ronald Acuña Jr.,Atlanta Braves,False,Fanatical	FAN-1	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-2,1,Jazz Chisholm Jr.,Miami Marlins,False,Fanatical	FAN-2	Jazz Chisholm Jr.	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-3,1,Julio Rodríguez,Seattle Mariners,False,Fanatical	FAN-3	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-4,1,Gunnar Henderson,Baltimore Orioles,False,Fanatical	FAN-4	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-5,1,Rafael Devers,Boston Red Sox,False,Fanatical	FAN-5	Rafael Devers	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-6,1,Bobby Witt Jr.,Kansas City Royals,False,Fanatical	FAN-6	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-7,1,Yordan Alvarez,Houston Astros,False,Fanatical	FAN-7	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-8,1,Luis Robert Jr.,Chicago White Sox,False,Fanatical	FAN-8	Luis Robert Jr.	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-9,1,Elly De La Cruz,Cincinnati Reds,False,Fanatical	FAN-9	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-10,1,Henry Davis,Pittsburgh Pirates,False,Fanatical	FAN-10	Henry Davis	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-11,1,Mike Trout,Los Angeles Angels,False,Fanatical	FAN-11	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-12,1,Corey Seager,Texas Rangers,False,Fanatical	FAN-12	Corey Seager	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-13,1,Kris Bryant,Colorado Rockies,False,Fanatical	FAN-13	Kris Bryant	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-14,1,Manny Machado,San Diego Padres,False,Fanatical	FAN-14	Manny Machado	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Fanatical,,FAN-15,1,Corbin Carroll,Arizona Diamondbacks,False,Fanatical	FAN-15	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-1,1,Adley Rutschman,Baltimore Orioles,False,Future Stars	FS-1	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-2,1,Gunnar Henderson,Baltimore Orioles,False,Future Stars	FS-2	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-3,1,Corbin Carroll,Arizona Diamondbacks,False,Future Stars	FS-3	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-4,1,Gabriel Moreno,Arizona Diamondbacks,False,Future Stars	FS-4	Gabriel Moreno	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-5,1,Anthony Volpe,New York Yankees,False,Future Stars	FS-5	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-6,1,Jordan Walker,St. Louis Cardinals,False,Future Stars	FS-6	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-7,1,Francisco Alvarez,New York Mets,False,Future Stars	FS-7	Francisco Alvarez	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-8,1,Justin Steele,Chicago Cubs,False,Future Stars	FS-8	Justin Steele	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-9,1,Kodai Senga,New York Mets,False,Future Stars	FS-9	Kodai Senga	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-10,1,Michael Harris II,Atlanta Braves,False,Future Stars	FS-10	Michael Harris II	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-11,1,Eury Pérez,Miami Marlins,False,Future Stars	FS-11	Eury Pérez	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-12,1,Christopher Morel,Chicago Cubs,False,Future Stars	FS-12	Christopher Morel	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-13,1,Josh Jung,Texas Rangers,False,Future Stars	FS-13	Josh Jung	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-14,1,Matt McLain,Cincinnati Reds,False,Future Stars	FS-14	Matt McLain	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-15,1,Masataka Yoshida,Boston Red Sox,False,Future Stars	FS-15	Masataka Yoshida	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-16,1,Riley Greene,Detroit Tigers,False,Future Stars	FS-16	Riley Greene	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-17,1,Triston Casas,Boston Red Sox,False,Future Stars	FS-17	Triston Casas	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-18,1,Yainer Diaz,Houston Astros,False,Future Stars	FS-18	Yainer Diaz	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-19,1,Ezequiel Tovar,Colorado Rockies,False,Future Stars	FS-19	Ezequiel Tovar	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Future Stars,,FS-20,1,Brayan Rocchio,Cleveland Guardians,False,Future Stars	FS-20	Brayan Rocchio	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-AR,1,Adley Rutschman,Baltimore Orioles,False,Future Stars Autographs	FSA-AR	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-AV,1,Anthony Volpe,New York Yankees,False,Future Stars Autographs	FSA-AV	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-FA,1,Francisco Alvarez,New York Mets,False,Future Stars Autographs	FSA-FA	Francisco Alvarez	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-JW,1,Jordan Walker,St. Louis Cardinals,False,Future Stars Autographs	FSA-JW	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-MY,1,Masataka Yoshida,Boston Red Sox,False,Future Stars Autographs	FSA-MY	Masataka Yoshida	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Future Stars Autographs,,FSA-TC,1,Triston Casas,Boston Red Sox,False,Future Stars Autographs	FSA-TC	Triston Casas	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-1,1,Shohei Ohtani,Los Angeles Dodgers,False,Helix	HX-1	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-2,1,Mike Trout,Los Angeles Angels,False,Helix	HX-2	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-3,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Helix	HX-3	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-4,1,Bryce Harper,Philadelphia Phillies,False,Helix	HX-4	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-5,1,Gerrit Cole,New York Yankees,False,Helix	HX-5	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-6,1,Corey Seager,Texas Rangers,False,Helix	HX-6	Corey Seager	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-7,1,Jose Altuve,Houston Astros,False,Helix	HX-7	Jose Altuve	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-8,1,Mookie Betts,Los Angeles Dodgers,False,Helix	HX-8	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-9,1,Gunnar Henderson,Baltimore Orioles,False,Helix	HX-9	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-10,1,Juan Soto,New York Yankees,False,Helix	HX-10	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-11,1,Elly De La Cruz,Cincinnati Reds,False,Helix	HX-11	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-12,1,Jasson Domínguez,New York Yankees,False,Helix	HX-12	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-13,1,Evan Carter,Texas Rangers,False,Helix	HX-13	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-14,1,Jordan Lawlar,Arizona Diamondbacks,False,Helix	HX-14	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Helix,,HX-15,1,Pete Crow-Armstrong,Chicago Cubs,False,Helix	HX-15	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-26,1,Juan Soto,New York Yankees,False,Let's Go	LGC-26	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-27,1,Austin Riley,Atlanta Braves,False,Let's Go	LGC-27	Austin Riley	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-28,1,Gerrit Cole,New York Yankees,False,Let's Go	LGC-28	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-29,1,Corbin Carroll,Arizona Diamondbacks,False,Let's Go	LGC-29	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-30,1,Adley Rutschman,Baltimore Orioles,False,Let's Go	LGC-30	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-31,1,Fernando Tatis Jr.,San Diego Padres,False,Let's Go	LGC-31	Fernando Tatis Jr.	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-32,1,Alex Bregman,Houston Astros,False,Let's Go	LGC-32	Alex Bregman	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-33,1,Bryce Harper,Philadelphia Phillies,False,Let's Go	LGC-33	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-34,1,Trea Turner,Philadelphia Phillies,False,Let's Go	LGC-34	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-35,1,Nolan Arenado,St. Louis Cardinals,False,Let's Go	LGC-35	Nolan Arenado	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-36,1,Pete Crow-Armstrong,Chicago Cubs,False,Let's Go	LGC-36	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-37,1,Jasson Domínguez,New York Yankees,False,Let's Go	LGC-37	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-38,1,Evan Carter,Texas Rangers,False,Let's Go	LGC-38	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-39,1,Zack Gelof,Oakland Athletics,False,Let's Go	LGC-39	Zack Gelof	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Let's Go,,LGC-40,1,Heston Kjerstad,Baltimore Orioles,False,Let's Go	LGC-40	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-AD,1,Andre Dawson,Montréal Expos,False,On the Spot Die-Cut Autographs	OSA-AD	Andre Dawson	Montréal Expos
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-AH,1,Austin Hays,Baltimore Orioles,False,On the Spot Die-Cut Autographs	OSA-AH	Austin Hays	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-AR,1,Adley Rutschman,Baltimore Orioles,False,On the Spot Die-Cut Autographs	OSA-AR	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-AV,1,Anthony Volpe,New York Yankees,False,On the Spot Die-Cut Autographs	OSA-AV	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-BBX,1,Byron Buxton,Minnesota Twins,False,On the Spot Die-Cut Autographs	OSA-BBX	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-BW,1,Bobby Witt Jr.,Kansas City Royals,False,On the Spot Die-Cut Autographs	OSA-BW	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-CK,1,Clayton Kershaw,Los Angeles Dodgers,False,On the Spot Die-Cut Autographs	OSA-CK	Clayton Kershaw	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-CM,1,Christopher Morel,Chicago Cubs,False,On the Spot Die-Cut Autographs	OSA-CM	Christopher Morel	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-DP,1,Dustin Pedroia,Boston Red Sox,False,On the Spot Die-Cut Autographs	OSA-DP	Dustin Pedroia	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-GH,1,Gunnar Henderson,Baltimore Orioles,False,On the Spot Die-Cut Autographs	OSA-GH	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-JB,1,Jeff Bagwell,Houston Astros,False,On the Spot Die-Cut Autographs	OSA-JB	Jeff Bagwell	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-JR,1,Jimmy Rollins,Philadelphia Phillies,False,On the Spot Die-Cut Autographs	OSA-JR	Jimmy Rollins	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-JS,1,Juan Soto,New York Yankees,False,On the Spot Die-Cut Autographs	OSA-JS	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-JW,1,Jordan Walker,St. Louis Cardinals,False,On the Spot Die-Cut Autographs	OSA-JW	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-MT,1,Mike Trout,Los Angeles Angels,False,On the Spot Die-Cut Autographs	OSA-MT	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-NE,1,Nathan Eovaldi,Texas Rangers,False,On the Spot Die-Cut Autographs	OSA-NE	Nathan Eovaldi	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-NG,1,Nomar Garciaparra,Boston Red Sox,False,On the Spot Die-Cut Autographs	OSA-NG	Nomar Garciaparra	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-PF,1,Prince Fielder,Milwaukee Brewers,False,On the Spot Die-Cut Autographs	OSA-PF	Prince Fielder	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-RY,1,Robin Yount,Milwaukee Brewers,False,On the Spot Die-Cut Autographs	OSA-RY	Robin Yount	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-SR,1,Scott Rolen,Cincinnati Reds,False,On the Spot Die-Cut Autographs	OSA-SR	Scott Rolen	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-TT,1,Trea Turner,Philadelphia Phillies,False,On the Spot Die-Cut Autographs	OSA-TT	Trea Turner	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,On the Spot Die-Cut Autographs,,OSA-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,On the Spot Die-Cut Autographs	OSA-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-1,1,Elly De La Cruz,Cincinnati Reds,False,Radiating Rookies	RR-1	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-2,1,Sal Frelick,Milwaukee Brewers,False,Radiating Rookies	RR-2	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-3,1,Zack Gelof,Oakland Athletics,False,Radiating Rookies	RR-3	Zack Gelof	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-4,1,Colton Cowser,Baltimore Orioles,False,Radiating Rookies	RR-4	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-5,1,Marco Luciano,San Francisco Giants,False,Radiating Rookies	RR-5	Marco Luciano	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-6,1,Colt Keith,Detroit Tigers,False,Radiating Rookies	RR-6	Colt Keith	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-7,1,Pete Crow-Armstrong,Chicago Cubs,False,Radiating Rookies	RR-7	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-8,1,Jackson Chourio,Milwaukee Brewers,False,Radiating Rookies	RR-8	Jackson Chourio	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-9,1,Masyn Winn,St. Louis Cardinals,False,Radiating Rookies	RR-9	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-10,1,Jasson Domínguez,New York Yankees,False,Radiating Rookies	RR-10	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-11,1,Wyatt Langford,Texas Rangers,False,Radiating Rookies	RR-11	Wyatt Langford	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-12,1,Junior Caminero,Tampa Bay Rays,False,Radiating Rookies	RR-12	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-13,1,Jordan Lawlar,Arizona Diamondbacks,False,Radiating Rookies	RR-13	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-14,1,Evan Carter,Texas Rangers,False,Radiating Rookies	RR-14	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-15,1,Heston Kjerstad,Baltimore Orioles,False,Radiating Rookies	RR-15	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-16,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,Radiating Rookies	RR-16	Yoshinobu Yamamoto	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-17,1,Jung Hoo Lee,San Francisco Giants,False,Radiating Rookies	RR-17	Jung Hoo Lee	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-18,1,Nolan Schanuel,Los Angeles Angels,False,Radiating Rookies	RR-18	Nolan Schanuel	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-19,1,Jackson Holliday,Baltimore Orioles,False,Radiating Rookies	RR-19	Jackson Holliday	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies,,RR-20,1,Jackson Merrill,San Diego Padres,False,Radiating Rookies	RR-20	Jackson Merrill	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-CC,1,Colton Cowser,Baltimore Orioles,False,Radiating Rookies Autographs	RRA-CC	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-CE,1,Christian Encarnacion-Stra,Cincinnati Reds,False,Radiating Rookies Autographs	RRA-CE	Christian Encarnacion-Stra	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-CK,1,Colt Keith,Detroit Tigers,False,Radiating Rookies Autographs	RRA-CK	Colt Keith	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-CM,1,Curtis Mead,Tampa Bay Rays,False,Radiating Rookies Autographs	RRA-CM	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-CR,1,Ceddanne Rafaela,Boston Red Sox,False,Radiating Rookies Autographs	RRA-CR	Ceddanne Rafaela	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-ED,1,Elly De La Cruz,Cincinnati Reds,False,Radiating Rookies Autographs	RRA-ED	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-ER,1,Endy Rodríguez,Pittsburgh Pirates,False,Radiating Rookies Autographs	RRA-ER	Endy Rodríguez	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-EVA,1,Evan Carter,Texas Rangers,False,Radiating Rookies Autographs	RRA-EVA	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-HEK,1,Heston Kjerstad,Baltimore Orioles,False,Radiating Rookies Autographs	RRA-HEK	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-JAD,1,Jasson Domínguez,New York Yankees,False,Radiating Rookies Autographs	RRA-JAD	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-JC,1,Jackson Chourio,Milwaukee Brewers,False,Radiating Rookies Autographs	RRA-JC	Jackson Chourio	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-JH,1,Jackson Holliday,Baltimore Orioles,False,Radiating Rookies Autographs	RRA-JH	Jackson Holliday	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-JOL,1,Jordan Lawlar,Arizona Diamondbacks,False,Radiating Rookies Autographs	RRA-JOL	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-JUC,1,Junior Caminero,Tampa Bay Rays,False,Radiating Rookies Autographs	RRA-JUC	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-MAW,1,Masyn Winn,St. Louis Cardinals,False,Radiating Rookies Autographs	RRA-MAW	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-NG,1,Nick Gonzales,Pittsburgh Pirates,False,Radiating Rookies Autographs	RRA-NG	Nick Gonzales	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-NOM,1,Noelvi Marte,Cincinnati Reds,False,Radiating Rookies Autographs	RRA-NOM	Noelvi Marte	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-PC,1,Pete Crow-Armstrong,Chicago Cubs,False,Radiating Rookies Autographs	RRA-PC	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-SF,1,Sal Frelick,Milwaukee Brewers,False,Radiating Rookies Autographs	RRA-SF	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Radiating Rookies Autographs,,RRA-WL,1,Wyatt Langford,Texas Rangers,False,Radiating Rookies Autographs	RRA-WL	Wyatt Langford	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AA,1,Andrew Abbott,Cincinnati Reds,False,Rookie Autographs	RA-AA	Andrew Abbott	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AC,1,Alexander Canario,Chicago Cubs,False,Rookie Autographs	RA-AC	Alexander Canario	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AF,1,Angel Felipe,Oakland Athletics,False,Rookie Autographs	RA-AF	Angel Felipe	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AJ,1,Alek Jacob,San Diego Padres,False,Rookie Autographs	RA-AJ	Alek Jacob	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AJS,1,AJ Smith-Shawver,Atlanta Braves,False,Rookie Autographs	RA-AJS	AJ Smith-Shawver	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AL,1,Andre Lipcius,Detroit Tigers,False,Rookie Autographs	RA-AL	Andre Lipcius	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AMA,1,Alec Marsh,Kansas City Royals,False,Rookie Autographs	RA-AMA	Alec Marsh	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AMW,1,Amos Willingham,Washington Nationals,False,Rookie Autographs	RA-AMW	Amos Willingham	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ASP,1,Alex Speas,Texas Rangers,False,Rookie Autographs	RA-ASP	Alex Speas	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AV,1,Anthony Veneziano,Kansas City Royals,False,Rookie Autographs	RA-AV	Anthony Veneziano	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AW,1,Austin Wells,New York Yankees,False,Rookie Autographs	RA-AW	Austin Wells	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AWI,1,Alika Williams,Pittsburgh Pirates,False,Rookie Autographs	RA-AWI	Alika Williams	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-AWS,1,Allan Winans,Atlanta Braves,False,Rookie Autographs	RA-AWS	Allan Winans	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BHU,1,Bryan Hudson,Los Angeles Dodgers,False,Rookie Autographs	RA-BHU	Bryan Hudson	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BJ,1,Bryce Jarvis,Arizona Diamondbacks,False,Rookie Autographs	RA-BJ	Bryce Jarvis	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BR,1,Blake Rutherford,Washington Nationals,False,Rookie Autographs	RA-BR	Blake Rutherford	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BW,1,Brendan White,Detroit Tigers,False,Rookie Autographs	RA-BW	Brendan White	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BWA,1,Brandon Walter,Boston Red Sox,False,Rookie Autographs	RA-BWA	Brandon Walter	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-BWO,1,Bryan Woo,Seattle Mariners,False,Rookie Autographs	RA-BWO	Bryan Woo	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CA,1,Clayton Andrews,Milwaukee Brewers,False,Rookie Autographs	RA-CA	Clayton Andrews	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CAM,1,Carmen Mlodzinski,Pittsburgh Pirates,False,Rookie Autographs	RA-CAM	Carmen Mlodzinski	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CB,1,Caleb Boushley,Milwaukee Brewers,False,Rookie Autographs	RA-CB	Caleb Boushley	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CC,1,Colton Cowser,Baltimore Orioles,False,Rookie Autographs	RA-CC	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CE,1,Cam Eden,Toronto Blue Jays,False,Rookie Autographs	RA-CE	Cam Eden	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CEN,1,Christian Encarnacion-Stra,Cincinnati Reds,False,Rookie Autographs	RA-CEN	Christian Encarnacion-Stra	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CHS,1,Chandler Seagle,San Diego Padres,False,Rookie Autographs	RA-CHS	Chandler Seagle	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CK,1,Connor Kaiser,Colorado Rockies,False,Rookie Autographs	RA-CK	Connor Kaiser	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CKE,1,Colt Keith,Detroit Tigers,False,Rookie Autographs	RA-CKE	Colt Keith	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CMA,1,Cade Marlowe,Seattle Mariners,False,Rookie Autographs	RA-CMA	Cade Marlowe	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CME,1,Curtis Mead,Tampa Bay Rays,False,Rookie Autographs	RA-CME	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CMO,1,Coco Montes,Colorado Rockies,False,Rookie Autographs	RA-CMO	Coco Montes	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CMU,1,Chris Murphy,Boston Red Sox,False,Rookie Autographs	RA-CMU	Chris Murphy	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CP,1,Connor Phillips,Cincinnati Reds,False,Rookie Autographs	RA-CP	Connor Phillips	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CR,1,Ceddanne Rafaela,Boston Red Sox,False,Rookie Autographs	RA-CR	Ceddanne Rafaela	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CS,1,Colin Selby,Pittsburgh Pirates,False,Rookie Autographs	RA-CS	Colin Selby	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CSP,1,Carson Spiers,Cincinnati Reds,False,Rookie Autographs	RA-CSP	Carson Spiers	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-CV,1,Chris Vallimont,Baltimore Orioles,False,Rookie Autographs	RA-CV	Chris Vallimont	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DC,1,Dominic Canzone,Seattle Mariners,False,Rookie Autographs	RA-DC	Dominic Canzone	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DCR,1,Declan Cronin,Chicago White Sox,False,Rookie Autographs	RA-DCR	Declan Cronin	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DD,1,Davis Daniel,Los Angeles Angels,False,Rookie Autographs	RA-DD	Davis Daniel	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DHA,1,David Hamilton,Boston Red Sox,False,Rookie Autographs	RA-DHA	David Hamilton	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DM,1,Drew Millas,Washington Nationals,False,Rookie Autographs	RA-DM	Drew Millas	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DMY,1,Dane Myers,Miami Marlins,False,Rookie Autographs	RA-DMY	Dane Myers	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DP,1,Daniel Palencia,Chicago Cubs,False,Rookie Autographs	RA-DP	Daniel Palencia	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DSC,1,Davis Schneider,Toronto Blue Jays,False,Rookie Autographs	RA-DSC	Davis Schneider	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-DV,1,Darius Vines,Atlanta Braves,False,Rookie Autographs	RA-DV	Darius Vines	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EC,1,Evan Carter,Texas Rangers,False,Rookie Autographs	RA-EC	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EDLC,1,Elly De La Cruz,Cincinnati Reds,False,Rookie Autographs	RA-EDLC	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EH,1,Emerson Hancock,Seattle Mariners,False,Rookie Autographs	RA-EH	Emerson Hancock	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EJ,1,Evan Justice,Colorado Rockies,False,Rookie Autographs	RA-EJ	Evan Justice	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EL,1,Easton Lucas,Oakland Athletics,False,Rookie Autographs	RA-EL	Easton Lucas	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EN,1,Edgar Navarro,Chicago White Sox,False,Rookie Autographs	RA-EN	Edgar Navarro	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-EP,1,Everson Pereira,New York Yankees,False,Rookie Autographs	RA-EP	Everson Pereira	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ER,1,Endy Rodríguez,Pittsburgh Pirates,False,Rookie Autographs	RA-ER	Endy Rodríguez	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-FW,1,Forrest Wall,Atlanta Braves,False,Rookie Autographs	RA-FW	Forrest Wall	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-GH,1,Grant Hartwig,New York Mets,False,Rookie Autographs	RA-GH	Grant Hartwig	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-GK,1,Grae Kessinger,Houston Astros,False,Rookie Autographs	RA-GK	Grae Kessinger	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-GW,1,Gavin Williams,Cleveland Guardians,False,Rookie Autographs	RA-GW	Gavin Williams	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-HAD,1,Henry Davis,Pittsburgh Pirates,False,Rookie Autographs	RA-HAD	Henry Davis	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-HD,1,Hagen Danner,Toronto Blue Jays,False,Rookie Autographs	RA-HD	Hagen Danner	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-HG,1,Hunter Goodman,Colorado Rockies,False,Rookie Autographs	RA-HG	Hunter Goodman	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-HK,1,Heston Kjerstad,Baltimore Orioles,False,Rookie Autographs	RA-HK	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-HS,1,Hunter Stratton,Pittsburgh Pirates,False,Rookie Autographs	RA-HS	Hunter Stratton	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-IC,1,Isaiah Campbell,Seattle Mariners,False,Rookie Autographs	RA-IC	Isaiah Campbell	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JA,1,Jordyn Adams,Los Angeles Angels,False,Rookie Autographs	RA-JA	Jordyn Adams	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JAM,1,Jacob Amaya,Miami Marlins,False,Rookie Autographs	RA-JAM	Jacob Amaya	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JAW,1,Jake Wong,Cincinnati Reds,False,Rookie Autographs	RA-JAW	Jake Wong	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JB,1,Jonathan Bowlan,Kansas City Royals,False,Rookie Autographs	RA-JB	Jonathan Bowlan	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JC,1,Jackson Chourio,Milwaukee Brewers,False,Rookie Autographs	RA-JC	Jackson Chourio	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JCA,1,Junior Caminero,Tampa Bay Rays,False,Rookie Autographs	RA-JCA	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JDE,1,Jonny Deluca,Tampa Bay Rays,False,Rookie Autographs	RA-JDE	Jonny Deluca	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JDZ,1,Jasson Domínguez,New York Yankees,False,Rookie Autographs	RA-JDZ	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JE,1,Jose Espada,San Diego Padres,False,Rookie Autographs	RA-JE	Jose Espada	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JES,1,Joey Estes,Oakland Athletics,False,Rookie Autographs	RA-JES	Joey Estes	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JF,1,Justin Foscue,Texas Rangers,False,Rookie Autographs	RA-JF	Justin Foscue	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JFE,1,José Fermín,St. Louis Cardinals,False,Rookie Autographs	RA-JFE	José Fermín	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JH,1,Jackson Holliday,Baltimore Orioles,False,Rookie Autographs	RA-JH	Jackson Holliday	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JHL,1,Jung-Hoo Lee,San Francisco Giants,False,Rookie Autographs	RA-JHL	Jung-Hoo Lee	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JJQ,1,Joe Jacques,Boston Red Sox,False,Rookie Autographs	RA-JJQ	Joe Jacques	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JLA,1,Jordan Lawlar,Arizona Diamondbacks,False,Rookie Autographs	RA-JLA	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JM,1,James McArthur,Kansas City Royals,False,Rookie Autographs	RA-JM	James McArthur	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JMA,1,Justin Martinez,Arizona Diamondbacks,False,Rookie Autographs	RA-JMA	Justin Martinez	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JMC,1,John McMillon,Kansas City Royals,False,Rookie Autographs	RA-JMC	John McMillon	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JME,1,Jackson Merrill,San Diego Padres,False,Rookie Autographs	RA-JME	Jackson Merrill	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JO,1,Jonathan Ornelas,Texas Rangers,False,Rookie Autographs	RA-JO	Jonathan Ornelas	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JP,1,J.P. Martinez,Texas Rangers,False,Rookie Autographs	RA-JP	J.P. Martinez	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JRU,1,Jackson Rutledge,Washington Nationals,False,Rookie Autographs	RA-JRU	Jackson Rutledge	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JS,1,José Soriano,Los Angeles Angels,False,Rookie Autographs	RA-JS	José Soriano	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JT,1,José Tena,Cleveland Guardians,False,Rookie Autographs	RA-JT	José Tena	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JTR,1,Jared Triolo,Pittsburgh Pirates,False,Rookie Autographs	RA-JTR	Jared Triolo	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JWE,1,Jordan Westburg,Baltimore Orioles,False,Rookie Autographs	RA-JWE	Jordan Westburg	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JWO,1,Jackson Wolf,Pittsburgh Pirates,False,Rookie Autographs	RA-JWO	Jackson Wolf	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-JWS,1,Jordan Wicks,Chicago Cubs,False,Rookie Autographs	RA-JWS	Jordan Wicks	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KC,1,Kelvin Caceres,Los Angeles Angels,False,Rookie Autographs	RA-KC	Kelvin Caceres	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KF,1,Kody Funderburk,Minnesota Twins,False,Rookie Autographs	RA-KF	Kody Funderburk	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KH,1,Kyle Harrison,San Francisco Giants,False,Rookie Autographs	RA-KH	Kyle Harrison	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KHU,1,Kyle Hurt,Los Angeles Dodgers,False,Rookie Autographs	RA-KHU	Kyle Hurt	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KL,1,Kyle Leahy,St. Louis Cardinals,False,Rookie Autographs	RA-KL	Kyle Leahy	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KN,1,Kyle Nicolas,Pittsburgh Pirates,False,Rookie Autographs	RA-KN	Kyle Nicolas	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-KP,1,Kyren Paris,Los Angeles Angels,False,Rookie Autographs	RA-KP	Kyren Paris	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LB,1,Luken Baker,St. Louis Cardinals,False,Rookie Autographs	RA-LB	Luken Baker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LBU,1,Lawrence Butler,Oakland Athletics,False,Rookie Autographs	RA-LBU	Lawrence Butler	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LL,1,Luke Little,Chicago Cubs,False,Rookie Autographs	RA-LL	Luke Little	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LM,1,Luis Matos,San Francisco Giants,False,Rookie Autographs	RA-LM	Luis Matos	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LP,1,Logan Porter,Kansas City Royals,False,Rookie Autographs	RA-LP	Logan Porter	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LR,1,Lyon Richardson,Cincinnati Reds,False,Rookie Autographs	RA-LR	Lyon Richardson	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-LRA,1,Lane Ramsey,Chicago White Sox,False,Rookie Autographs	RA-LRA	Lane Ramsey	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-MCC,1,Mason McCoy,San Diego Padres,False,Rookie Autographs	RA-MCC	Mason McCoy	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-MK,1,Matt Krook,New York Yankees,False,Rookie Autographs	RA-MK	Matt Krook	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ML,1,Marco Luciano,San Francisco Giants,False,Rookie Autographs	RA-ML	Marco Luciano	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-MW,1,Masyn Winn,St. Louis Cardinals,False,Rookie Autographs	RA-MW	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NG,1,Nick Gonzales,Pittsburgh Pirates,False,Rookie Autographs	RA-NG	Nick Gonzales	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NH,1,Nick Hernandez,San Diego Padres,False,Rookie Autographs	RA-NH	Nick Hernandez	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NL,1,Nick Loftin,Kansas City Royals,False,Rookie Autographs	RA-NL	Nick Loftin	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NM,1,Noelvi Marte,Cincinnati Reds,False,Rookie Autographs	RA-NM	Noelvi Marte	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NR,1,Nick Robertson,Boston Red Sox,False,Rookie Autographs	RA-NR	Nick Robertson	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-NS,1,Nolan Schanuel,Los Angeles Angels,False,Rookie Autographs	RA-NS	Nolan Schanuel	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-OB,1,Osleivis Basabe,Tampa Bay Rays,False,Rookie Autographs	RA-OB	Osleivis Basabe	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-OBI,1,Osvaldo Bido,Oakland Athletics,False,Rookie Autographs	RA-OBI	Osvaldo Bido	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-OK,1,Orion Kerkering,Philadelphia Phillies,False,Rookie Autographs	RA-OK	Orion Kerkering	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-OW,1,Owen White,Texas Rangers,False,Rookie Autographs	RA-OW	Owen White	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-PB,1,Prelander Berroa,Seattle Mariners,False,Rookie Autographs	RA-PB	Prelander Berroa	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-PC,1,Pete Crow-Armstrong,Chicago Cubs,False,Rookie Autographs	RA-PC	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-PM,1,Parker Meadows,Detroit Tigers,False,Rookie Autographs	RA-PM	Parker Meadows	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-QP,1,Quinn Priester,Pittsburgh Pirates,False,Rookie Autographs	RA-QP	Quinn Priester	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-RGA,1,Robert Garcia,Washington Nationals,False,Rookie Autographs	RA-RGA	Robert Garcia	Washington Nationals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-RM,1,Ronny Mauricio,New York Mets,False,Rookie Autographs	RA-RM	Ronny Mauricio	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-RO,1,Reese Olson,Detroit Tigers,False,Rookie Autographs	RA-RO	Reese Olson	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-RR,1,Ryder Ryan,Seattle Mariners,False,Rookie Autographs	RA-RR	Ryder Ryan	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-RW,1,Randy Wynne,Cincinnati Reds,False,Rookie Autographs	RA-RW	Randy Wynne	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SC,1,Steven Cruz,Kansas City Royals,False,Rookie Autographs	RA-SC	Steven Cruz	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SCE,1,Slade Cecconi,Arizona Diamondbacks,False,Rookie Autographs	RA-SCE	Slade Cecconi	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SF,1,Sal Frelick,Milwaukee Brewers,False,Rookie Autographs	RA-SF	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SG,1,Sawyer Gipson-Long,Detroit Tigers,False,Rookie Autographs	RA-SG	Sawyer Gipson-Long	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SH,1,Spencer Horwitz,Toronto Blue Jays,False,Rookie Autographs	RA-SH	Spencer Horwitz	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-SI,1,Shōta Imanaga,Chicago Cubs,False,Rookie Autographs	RA-SI	Shōta Imanaga	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ST,1,Samad Taylor,Kansas City Royals,False,Rookie Autographs	RA-ST	Samad Taylor	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TA,1,Ty Adcock,Seattle Mariners,False,Rookie Autographs	RA-TA	Ty Adcock	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TC,1,Tyler Cropley,Kansas City Royals,False,Rookie Autographs	RA-TC	Tyler Cropley	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TCA,1,Trey Cabbage,Los Angeles Angels,False,Rookie Autographs	RA-TCA	Trey Cabbage	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TF,1,Tyler Fitzgerald,San Francisco Giants,False,Rookie Autographs	RA-TF	Tyler Fitzgerald	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TGR,1,Tristan Gray,Tampa Bay Rays,False,Rookie Autographs	RA-TGR	Tristan Gray	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TH,1,TJ Hopkins,Cincinnati Reds,False,Rookie Autographs	RA-TH	TJ Hopkins	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TK,1,Taylor Kohlwey,New York Mets,False,Rookie Autographs	RA-TK	Taylor Kohlwey	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-TSO,1,Tyler Soderstrom,Oakland Athletics,False,Rookie Autographs	RA-TSO	Tyler Soderstrom	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-VV,1,Victor Vodnik,Colorado Rockies,False,Rookie Autographs	RA-VV	Victor Vodnik	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-WA,1,Wilyer Abreu,Boston Red Sox,False,Rookie Autographs	RA-WA	Wilyer Abreu	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-WL,1,Wyatt Langford,Texas Rangers,False,Rookie Autographs	RA-WL	Wyatt Langford	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-WM,1,Wade Meckler,San Francisco Giants,False,Rookie Autographs	RA-WM	Wade Meckler	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-WWI,1,Weston Wilson,Philadelphia Phillies,False,Rookie Autographs	RA-WWI	Weston Wilson	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-YM,1,Yuki Matsui,San Diego Padres,False,Rookie Autographs	RA-YM	Yuki Matsui	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-YY,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,Rookie Autographs	RA-YY	Yoshinobu Yamamoto	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ZG,1,Zack Gelof,Oakland Athletics,False,Rookie Autographs	RA-ZG	Zack Gelof	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Rookie Autographs,,RA-ZR,1,Zach Remillard,Chicago White Sox,False,Rookie Autographs	RA-ZR	Zach Remillard	Chicago White Sox
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-1,1,Mike Trout,Los Angeles Angels,False,Strokes	S-1	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-2,1,Shohei Ohtani,Los Angeles Dodgers,False,Strokes	S-2	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-3,1,Mookie Betts,Los Angeles Dodgers,False,Strokes	S-3	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-4,1,Freddie Freeman,Los Angeles Dodgers,False,Strokes	S-4	Freddie Freeman	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-5,1,Aaron Judge,New York Yankees,False,Strokes	S-5	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-6,1,Bryce Harper,Philadelphia Phillies,False,Strokes	S-6	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-7,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Strokes	S-7	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-8,1,Gunnar Henderson,Baltimore Orioles,False,Strokes	S-8	Gunnar Henderson	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-9,1,Corbin Carroll,Arizona Diamondbacks,False,Strokes	S-9	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-10,1,Yordan Alvarez,Houston Astros,False,Strokes	S-10	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-11,1,Luis Arraez,Miami Marlins,False,Strokes	S-11	Luis Arraez	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-12,1,Ronald Acuña Jr.,Atlanta Braves,False,Strokes	S-12	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-13,1,Matt Olson,Atlanta Braves,False,Strokes	S-13	Matt Olson	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-14,1,Juan Soto,New York Yankees,False,Strokes	S-14	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-15,1,Cody Bellinger,Chicago Cubs,False,Strokes	S-15	Cody Bellinger	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-16,1,Rafael Devers,Boston Red Sox,False,Strokes	S-16	Rafael Devers	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-17,1,Pete Alonso,New York Mets,False,Strokes	S-17	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-18,1,Julio Rodríguez,Seattle Mariners,False,Strokes	S-18	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-19,1,Salvador Perez,Kansas City Royals,False,Strokes	S-19	Salvador Perez	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-20,1,Paul Goldschmidt,St. Louis Cardinals,False,Strokes	S-20	Paul Goldschmidt	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-21,1,Jasson Domínguez,New York Yankees,False,Strokes	S-21	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-22,1,Elly De La Cruz,Cincinnati Reds,False,Strokes	S-22	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-23,1,Evan Carter,Texas Rangers,False,Strokes	S-23	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-24,1,Junior Caminero,Tampa Bay Rays,False,Strokes	S-24	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Strokes,,S-25,1,Jordan Lawlar,Arizona Diamondbacks,False,Strokes	S-25	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-1,1,Mookie Betts,Los Angeles Dodgers,False,Summertime in the Park	SITP-1	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-2,1,Francisco Lindor,New York Mets,False,Summertime in the Park	SITP-2	Francisco Lindor	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-3,1,Aaron Judge,New York Yankees,False,Summertime in the Park	SITP-3	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-4,1,Elly De La Cruz,Cincinnati Reds,False,Summertime in the Park	SITP-4	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-5,1,Ronald Acuña Jr.,Atlanta Braves,False,Summertime in the Park	SITP-5	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-6,1,Bo Bichette,Toronto Blue Jays,False,Summertime in the Park	SITP-6	Bo Bichette	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-7,1,Julio Rodríguez,Seattle Mariners,False,Summertime in the Park	SITP-7	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-8,1,Jackson Holliday,Baltimore Orioles,False,Summertime in the Park	SITP-8	Jackson Holliday	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-9,1,Juan Soto,New York Yankees,False,Summertime in the Park	SITP-9	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Summertime in the Park,,SITP-10,1,Mike Trout,Los Angeles Angels,False,Summertime in the Park	SITP-10	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-AB,1,Alex Bregman,Houston Astros,False,Topps Chrome Authentics	TCA-AB	Alex Bregman	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-AJ,1,Aaron Judge,New York Yankees,False,Topps Chrome Authentics	TCA-AJ	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-ARI,1,Austin Riley,Atlanta Braves,False,Topps Chrome Authentics	TCA-ARI	Austin Riley	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-ARU,1,Adley Rutschman,Baltimore Orioles,False,Topps Chrome Authentics	TCA-ARU	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-BB,1,Byron Buxton,Minnesota Twins,False,Topps Chrome Authentics	TCA-BB	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-BN,1,Brandon Nimmo,New York Mets,False,Topps Chrome Authentics	TCA-BN	Brandon Nimmo	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-BR,1,Bryan Reynolds,Pittsburgh Pirates,False,Topps Chrome Authentics	TCA-BR	Bryan Reynolds	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-BS,1,Blake Snell,San Diego Padres,False,Topps Chrome Authentics	TCA-BS	Blake Snell	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-BW,1,Bobby Witt Jr.,Kansas City Royals,False,Topps Chrome Authentics	TCA-BW	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-CCO,1,Carlos Correa,Minnesota Twins,False,Topps Chrome Authentics	TCA-CCO	Carlos Correa	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-CM,1,Cedric Mullins,Baltimore Orioles,False,Topps Chrome Authentics	TCA-CM	Cedric Mullins	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-CY,1,Christian Yelich,Milwaukee Brewers,False,Topps Chrome Authentics	TCA-CY	Christian Yelich	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-DO,1,David Ortiz,Boston Red Sox,False,Topps Chrome Authentics	TCA-DO	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-DP,1,Dustin Pedroia,Boston Red Sox,False,Topps Chrome Authentics	TCA-DP	Dustin Pedroia	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-FL,1,Francisco Lindor,New York Mets,False,Topps Chrome Authentics	TCA-FL	Francisco Lindor	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-GC,1,Gerrit Cole,New York Yankees,False,Topps Chrome Authentics	TCA-GC	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-GM,1,Gabriel Moreno,Arizona Diamondbacks,False,Topps Chrome Authentics	TCA-GM	Gabriel Moreno	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-GS,1,Giancarlo Stanton,New York Yankees,False,Topps Chrome Authentics	TCA-GS	Giancarlo Stanton	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-GSP,1,George Springer,Toronto Blue Jays,False,Topps Chrome Authentics	TCA-GSP	George Springer	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JA,1,Jose Altuve,Houston Astros,False,Topps Chrome Authentics	TCA-JA	Jose Altuve	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JB,1,Javier Báez,Detroit Tigers,False,Topps Chrome Authentics	TCA-JB	Javier Báez	Detroit Tigers
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JM,1,Joe Musgrove,San Diego Padres,False,Topps Chrome Authentics	TCA-JM	Joe Musgrove	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JR,1,J.T. Realmuto,Philadelphia Phillies,False,Topps Chrome Authentics	TCA-JR	J.T. Realmuto	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JROD,1,Julio Rodríguez,Seattle Mariners,False,Topps Chrome Authentics	TCA-JROD	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-JV,1,Joey Votto,Cincinnati Reds,False,Topps Chrome Authentics	TCA-JV	Joey Votto	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-KB,1,Kris Bryant,Colorado Rockies,False,Topps Chrome Authentics	TCA-KB	Kris Bryant	Colorado Rockies
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-KM,1,Ketel Marte,Arizona Diamondbacks,False,Topps Chrome Authentics	TCA-KM	Ketel Marte	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-KT,1,Kyle Tucker,Houston Astros,False,Topps Chrome Authentics	TCA-KT	Kyle Tucker	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-LA,1,Luis Arraez,Miami Marlins,False,Topps Chrome Authentics	TCA-LA	Luis Arraez	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-LC,1,Luis Castillo,Seattle Mariners,False,Topps Chrome Authentics	TCA-LC	Luis Castillo	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-LW,1,Logan Webb,San Francisco Giants,False,Topps Chrome Authentics	TCA-LW	Logan Webb	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-MB,1,Mookie Betts,Los Angeles Dodgers,False,Topps Chrome Authentics	TCA-MB	Mookie Betts	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-MM,1,Manny Machado,San Diego Padres,False,Topps Chrome Authentics	TCA-MM	Manny Machado	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-MT,1,Mike Trout,Los Angeles Angels,False,Topps Chrome Authentics	TCA-MT	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-MY,1,Masataka Yoshida,Boston Red Sox,False,Topps Chrome Authentics	TCA-MY	Masataka Yoshida	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-NA,1,Nolan Arenado,St. Louis Cardinals,False,Topps Chrome Authentics	TCA-NA	Nolan Arenado	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-NC,1,Nick Castellanos,Philadelphia Phillies,False,Topps Chrome Authentics	TCA-NC	Nick Castellanos	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-NCJ,1,Nestor Cortes Jr.,New York Yankees,False,Topps Chrome Authentics	TCA-NCJ	Nestor Cortes Jr.	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-PA,1,Pete Alonso,New York Mets,False,Topps Chrome Authentics	TCA-PA	Pete Alonso	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-PG,1,Paul Goldschmidt,St. Louis Cardinals,False,Topps Chrome Authentics	TCA-PG	Paul Goldschmidt	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-RA,1,Ronald Acuña Jr.,Atlanta Braves,False,Topps Chrome Authentics	TCA-RA	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-RM,1,Ryan Mountcastle,Baltimore Orioles,False,Topps Chrome Authentics	TCA-RM	Ryan Mountcastle	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-SA,1,Sandy Alcantara,Miami Marlins,False,Topps Chrome Authentics	TCA-SA	Sandy Alcantara	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-SK,1,Steven Kwan,Cleveland Guardians,False,Topps Chrome Authentics	TCA-SK	Steven Kwan	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-SP,1,Salvador Perez,Kansas City Royals,False,Topps Chrome Authentics	TCA-SP	Salvador Perez	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-TS,1,Trevor Story,Boston Red Sox,False,Topps Chrome Authentics	TCA-TS	Trevor Story	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Topps Chrome Authentics	TCA-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-WS,1,Will Smith,Los Angeles Dodgers,False,Topps Chrome Authentics	TCA-WS	Will Smith	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-XB,1,Xander Bogaerts,San Diego Padres,False,Topps Chrome Authentics	TCA-XB	Xander Bogaerts	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics,,TCA-YA,1,Yordan Alvarez,Houston Astros,False,Topps Chrome Authentics	TCA-YA	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-AB,1,Alex Bregman,Houston Astros,False,Topps Chrome Authentics Autographs	TCAA-AB	Alex Bregman	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-AJ,1,Aaron Judge,New York Yankees,False,Topps Chrome Authentics Autographs	TCAA-AJ	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-ARI,1,Austin Riley,Atlanta Braves,False,Topps Chrome Authentics Autographs	TCAA-ARI	Austin Riley	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-ARU,1,Adley Rutschman,Baltimore Orioles,False,Topps Chrome Authentics Autographs	TCAA-ARU	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-BB,1,Byron Buxton,Minnesota Twins,False,Topps Chrome Authentics Autographs	TCAA-BB	Byron Buxton	Minnesota Twins
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-BN,1,Brandon Nimmo,New York Mets,False,Topps Chrome Authentics Autographs	TCAA-BN	Brandon Nimmo	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-BW,1,Bobby Witt Jr.,Kansas City Royals,False,Topps Chrome Authentics Autographs	TCAA-BW	Bobby Witt Jr.	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-DO,1,David Ortiz,Boston Red Sox,False,Topps Chrome Authentics Autographs	TCAA-DO	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-GC,1,Gerrit Cole,New York Yankees,False,Topps Chrome Authentics Autographs	TCAA-GC	Gerrit Cole	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-GM,1,Gabriel Moreno,Arizona Diamondbacks,False,Topps Chrome Authentics Autographs	TCAA-GM	Gabriel Moreno	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-JROD,1,Julio Rodríguez,Seattle Mariners,False,Topps Chrome Authentics Autographs	TCAA-JROD	Julio Rodríguez	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-KT,1,Kyle Tucker,Houston Astros,False,Topps Chrome Authentics Autographs	TCAA-KT	Kyle Tucker	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-MT,1,Mike Trout,Los Angeles Angels,False,Topps Chrome Authentics Autographs	TCAA-MT	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-NC,1,Nestor Cortes Jr.,New York Yankees,False,Topps Chrome Authentics Autographs	TCAA-NC	Nestor Cortes Jr.	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-RA,1,Ronald Acuña Jr.,Atlanta Braves,False,Topps Chrome Authentics Autographs	TCAA-RA	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-SK,1,Steven Kwan,Cleveland Guardians,False,Topps Chrome Authentics Autographs	TCAA-SK	Steven Kwan	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Topps Chrome Authentics Autographs,,TCAA-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,Topps Chrome Authentics Autographs	TCAA-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-1,1,Elly De La Cruz,Cincinnati Reds,False,Ultraviolet All-Stars	UV-1	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-2,1,Corbin Carroll,Arizona Diamondbacks,False,Ultraviolet All-Stars	UV-2	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-3,1,Mike Trout,Los Angeles Angels,False,Ultraviolet All-Stars	UV-3	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-4,1,Aaron Judge,New York Yankees,False,Ultraviolet All-Stars	UV-4	Aaron Judge	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-5,1,Ichiro,Seattle Mariners,False,Ultraviolet All-Stars	UV-5	Ichiro	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-6,1,Yordan Alvarez,Houston Astros,False,Ultraviolet All-Stars	UV-6	Yordan Alvarez	Houston Astros
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-7,1,Bryce Harper,Philadelphia Phillies,False,Ultraviolet All-Stars	UV-7	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-8,1,Jasson Domínguez,New York Yankees,False,Ultraviolet All-Stars	UV-8	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-9,1,Shohei Ohtani,Los Angeles Dodgers,False,Ultraviolet All-Stars	UV-9	Shohei Ohtani	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-10,1,George Brett,Kansas City Royals,False,Ultraviolet All-Stars	UV-10	George Brett	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-11,1,Nolan Ryan,Texas Rangers,False,Ultraviolet All-Stars	UV-11	Nolan Ryan	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-12,1,Ronald Acuña Jr.,Atlanta Braves,False,Ultraviolet All-Stars	UV-12	Ronald Acuña Jr.	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-13,1,Juan Soto,New York Yankees,False,Ultraviolet All-Stars	UV-13	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-14,1,David Ortiz,Boston Red Sox,False,Ultraviolet All-Stars	UV-14	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars,,UV-15,1,Ken Griffey Jr.,Seattle Mariners,False,Ultraviolet All-Stars	UV-15	Ken Griffey Jr.	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-BH,1,Bryce Harper,Philadelphia Phillies,False,Ultraviolet All-Stars Autographs	UVA-BH	Bryce Harper	Philadelphia Phillies
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-DO,1,David Ortiz,Boston Red Sox,False,Ultraviolet All-Stars Autographs	UVA-DO	David Ortiz	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-GB,1,George Brett,Kansas City Royals,False,Ultraviolet All-Stars Autographs	UVA-GB	George Brett	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-I,1,Ichiro,Seattle Mariners,False,Ultraviolet All-Stars Autographs	UVA-I	Ichiro	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-JAD,1,Jasson Domínguez,New York Yankees,False,Ultraviolet All-Stars Autographs	UVA-JAD	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-JS,1,Juan Soto,New York Yankees,False,Ultraviolet All-Stars Autographs	UVA-JS	Juan Soto	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Ultraviolet All-Stars Autographs,,UVA-MT,1,Mike Trout,Los Angeles Angels,False,Ultraviolet All-Stars Autographs	UVA-MT	Mike Trout	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-1,1,Elly De La Cruz,Cincinnati Reds,False,Youthquake	YQ-1	Elly De La Cruz	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-2,1,Sal Frelick,Milwaukee Brewers,False,Youthquake	YQ-2	Sal Frelick	Milwaukee Brewers
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-3,1,Zack Gelof,Oakland Athletics,False,Youthquake	YQ-3	Zack Gelof	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-4,1,Colton Cowser,Baltimore Orioles,False,Youthquake	YQ-4	Colton Cowser	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-5,1,Marco Luciano,San Francisco Giants,False,Youthquake	YQ-5	Marco Luciano	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-6,1,Curtis Mead,Tampa Bay Rays,False,Youthquake	YQ-6	Curtis Mead	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-7,1,Pete Crow-Armstrong,Chicago Cubs,False,Youthquake	YQ-7	Pete Crow-Armstrong	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-8,1,Jackson Merrill,San Diego Padres,False,Youthquake	YQ-8	Jackson Merrill	San Diego Padres
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-9,1,Masyn Winn,St. Louis Cardinals,False,Youthquake	YQ-9	Masyn Winn	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-10,1,Jasson Domínguez,New York Yankees,False,Youthquake	YQ-10	Jasson Domínguez	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-11,1,Ronny Mauricio,New York Mets,False,Youthquake	YQ-11	Ronny Mauricio	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-12,1,Junior Caminero,Tampa Bay Rays,False,Youthquake	YQ-12	Junior Caminero	Tampa Bay Rays
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-13,1,Jordan Lawlar,Arizona Diamondbacks,False,Youthquake	YQ-13	Jordan Lawlar	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-14,1,Evan Carter,Texas Rangers,False,Youthquake	YQ-14	Evan Carter	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-15,1,Heston Kjerstad,Baltimore Orioles,False,Youthquake	YQ-15	Heston Kjerstad	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-16,1,Tyler Soderstrom,Oakland Athletics,False,Youthquake	YQ-16	Tyler Soderstrom	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-17,1,Austin Wells,New York Yankees,False,Youthquake	YQ-17	Austin Wells	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-18,1,Endy Rodríguez,Pittsburgh Pirates,False,Youthquake	YQ-18	Endy Rodríguez	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-19,1,Henry Davis,Pittsburgh Pirates,False,Youthquake	YQ-19	Henry Davis	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-20,1,Nick Gonzales,Pittsburgh Pirates,False,Youthquake	YQ-20	Nick Gonzales	Pittsburgh Pirates
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-21,1,Andrew Abbott,Cincinnati Reds,False,Youthquake	YQ-21	Andrew Abbott	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-22,1,Christian Encarnacion-Stra,Cincinnati Reds,False,Youthquake	YQ-22	Christian Encarnacion-Stra	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-23,1,Gavin Williams,Cleveland Guardians,False,Youthquake	YQ-23	Gavin Williams	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-24,1,Owen White,Texas Rangers,False,Youthquake	YQ-24	Owen White	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-25,1,Luis Matos,San Francisco Giants,False,Youthquake	YQ-25	Luis Matos	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-26,1,Emmet Sheehan,Los Angeles Dodgers,False,Youthquake	YQ-26	Emmet Sheehan	Los Angeles Dodgers
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-27,1,Jacob Amaya,Miami Marlins,False,Youthquake	YQ-27	Jacob Amaya	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-28,1,Lawrence Butler,Oakland Athletics,False,Youthquake	YQ-28	Lawrence Butler	Oakland Athletics
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-29,1,J.P. Martinez,Atlanta Braves,False,Youthquake	YQ-29	J.P. Martinez	Atlanta Braves
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-30,1,Nolan Schanuel,Los Angeles Angels,False,Youthquake	YQ-30	Nolan Schanuel	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-31,1,Emerson Hancock,Seattle Mariners,False,Youthquake	YQ-31	Emerson Hancock	Seattle Mariners
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-32,1,Kyle Harrison,San Francisco Giants,False,Youthquake	YQ-32	Kyle Harrison	San Francisco Giants
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-33,1,Ceddanne Rafaela,Boston Red Sox,False,Youthquake	YQ-33	Ceddanne Rafaela	Boston Red Sox
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-34,1,Kyren Paris,Los Angeles Angels,False,Youthquake	YQ-34	Kyren Paris	Los Angeles Angels
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-35,1,Alexander Canario,Chicago Cubs,False,Youthquake	YQ-35	Alexander Canario	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-36,1,Adley Rutschman,Baltimore Orioles,False,Youthquake	YQ-36	Adley Rutschman	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-37,1,Francisco Alvarez,New York Mets,False,Youthquake	YQ-37	Francisco Alvarez	New York Mets
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-38,1,Anthony Volpe,New York Yankees,False,Youthquake	YQ-38	Anthony Volpe	New York Yankees
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-39,1,Grayson Rodriguez,Baltimore Orioles,False,Youthquake	YQ-39	Grayson Rodriguez	Baltimore Orioles
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-40,1,Eury Pérez,Miami Marlins,False,Youthquake	YQ-40	Eury Pérez	Miami Marlins
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-41,1,Gabriel Moreno,Arizona Diamondbacks,False,Youthquake	YQ-41	Gabriel Moreno	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-42,1,Corbin Carroll,Arizona Diamondbacks,False,Youthquake	YQ-42	Corbin Carroll	Arizona Diamondbacks
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-43,1,Josh Jung,Texas Rangers,False,Youthquake	YQ-43	Josh Jung	Texas Rangers
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-44,1,Jordan Walker,St. Louis Cardinals,False,Youthquake	YQ-44	Jordan Walker	St. Louis Cardinals
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-45,1,Christopher Morel,Chicago Cubs,False,Youthquake	YQ-45	Christopher Morel	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-46,1,Matt McLain,Cincinnati Reds,False,Youthquake	YQ-46	Matt McLain	Cincinnati Reds
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-47,1,Brayan Rocchio,Cleveland Guardians,False,Youthquake	YQ-47	Brayan Rocchio	Cleveland Guardians
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-48,1,Cole Ragans,Kansas City Royals,False,Youthquake	YQ-48	Cole Ragans	Kansas City Royals
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-49,1,Justin Steele,Chicago Cubs,False,Youthquake	YQ-49	Justin Steele	Chicago Cubs
+2024_topps_chrome,2024,Topps,Chrome,Youthquake,,YQ-50,1,Patrick Bailey,San Francisco Giants,False,Youthquake	YQ-50	Patrick Bailey	San Francisco Giants

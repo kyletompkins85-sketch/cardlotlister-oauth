@@ -1,0 +1,859 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_slot,player_name_raw,affiliation_raw,is_multi_player,raw_line
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,4,1,Matt Olson,Atlanta Braves,False,4	Matt Olson	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,5,1,Yusei Kikuchi,Los Angeles Angels,False,5	Yusei Kikuchi	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,6,1,Manny Machado,San Diego Padres,False,6	Manny Machado	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,7,1,Bobby Witt Jr.,Kansas City Royals,False,7	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,8,1,Fernando Tatis Jr.,San Diego Padres,False,8	Fernando Tatis Jr.	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,9,1,Logan Gilbert,Seattle Mariners,False,9	Logan Gilbert	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,10,1,Cade Horton,Chicago Cubs	Rookie,False,10	Cade Horton	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,11,1,Mick Abel,Philadelphia Phillies	Rookie,False,11	Mick Abel	Philadelphia Phillies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,13,1,Ronald Acuña Jr.,Atlanta Braves,False,13	Ronald Acuña Jr.	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,14,1,Willy Adames,San Francisco Giants,False,14	Willy Adames	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,15,1,Alex Bregman,Boston Red Sox,False,15	Alex Bregman	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,16,1,Jackson Holliday,Baltimore Orioles,False,16	Jackson Holliday	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,17,1,Shohei Ohtani,Los Angeles Dodgers,False,17	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,18,1,Chandler Simpson,Tampa Bay Rays	Rookie,False,18	Chandler Simpson	Tampa Bay Rays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,19,1,Shota Imanaga,Chicago Cubs®,False,19	Shota Imanaga	Chicago Cubs®
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,20,1,CJ Abrams,Washington Nationals,False,20	CJ Abrams	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,21,1,José Ramírez,Cleveland Guardians,False,21	José Ramírez	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,22,1,Juan Soto,New York Mets,False,22	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,23,1,Salvador Perez,Kansas City Royals,False,23	Salvador Perez	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,24,1,Andrew McCutchen,Pittsburgh Pirates,False,24	Andrew McCutchen	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,25,1,Trey Sweeney,Detroit Tigers	Rookie,False,25	Trey Sweeney	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,26,1,Mookie Betts,Los Angeles Dodgers,False,26	Mookie Betts	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,27,1,Mike Trout,Los Angeles Angels,False,27	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,28,1,Chad Patrick,Milwaukee Brewers	Rookie,False,28	Chad Patrick	Milwaukee Brewers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,30,1,Paul Skenes,Pittsburgh Pirates,False,30	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,31,1,Blake Snell,Los Angeles Dodgers,False,31	Blake Snell	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,33,1,Freddie Freeman,Los Angeles Dodgers,False,33	Freddie Freeman	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,34,1,Jazz Chisholm Jr.,New York Yankees,False,34	Jazz Chisholm Jr.	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,35,1,Randy Arozarena,Seattle Mariners,False,35	Randy Arozarena	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,36,1,Wyatt Langford,Texas Rangers,False,36	Wyatt Langford	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,37,1,Bryce Harper,Philadelphia Phillies,False,37	Bryce Harper	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,38,1,Jackson Merrill,San Diego Padres,False,38	Jackson Merrill	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,39,1,Marcelo Mayer,Boston Red Sox	Rookie,False,39	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,40,1,Jackson Chourio,Milwaukee Brewers,False,40	Jackson Chourio	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,41,1,Dillon Dingler,Detroit Tigers	Rookie,False,41	Dillon Dingler	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,42,1,Moisés Ballesteros,Chicago Cubs	Rookie,False,42	Moisés Ballesteros	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,43,1,Yandy Díaz,Tampa Bay Rays,False,43	Yandy Díaz	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,44,1,Kevin Alcántara,Chicago Cubs	Rookie,False,44	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,45,1,Corey Seager,Texas Rangers,False,45	Corey Seager	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,47,1,Jacob deGrom,Texas Rangers,False,47	Jacob deGrom	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,48,1,Sandy Alcantara,Miami Marlins,False,48	Sandy Alcantara	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,49,1,Matt Chapman,San Francisco Giants,False,49	Matt Chapman	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,50,1,Jake Mangum,Tampa Bay Rays	Rookie,False,50	Jake Mangum	Tampa Bay Rays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,51,1,Ketel Marte,Arizona Diamondbacks,False,51	Ketel Marte	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,52,1,Shane Smith,Chicago White Sox	Rookie,False,52	Shane Smith	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,53,1,Walker Buehler,Boston Red Sox,False,53	Walker Buehler	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,54,1,Carlos Correa,Minnesota Twins,False,54	Carlos Correa	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,55,1,Zach Neto,Los Angeles Angels,False,55	Zach Neto	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,56,1,Bo Bichette,Toronto Blue Jays,False,56	Bo Bichette	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,57,1,Kyle Tucker,Chicago Cubs,False,57	Kyle Tucker	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,59,1,Francisco Lindor,New York Mets,False,59	Francisco Lindor	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,60,1,Seiya Suzuki,Chicago Cubs,False,60	Seiya Suzuki	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,61,1,Luke Keaschall,Minnesota Twins	Rookie,False,61	Luke Keaschall	Minnesota Twins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,62,1,Chase Dollander,Colorado Rockies	Rookie,False,62	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,63,1,Hayden Birdsong,San Francisco Giants	Rookie,False,63	Hayden Birdsong	San Francisco Giants	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,64,1,Masyn Winn,St. Louis Cardinals,False,64	Masyn Winn	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,65,1,Lawrence Butler,Athletics,False,65	Lawrence Butler	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,66,1,Julio Rodríguez,Seattle Mariners,False,66	Julio Rodríguez	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,67,1,Noah Cameron,Kansas City Royals	Rookie,False,67	Noah Cameron	Kansas City Royals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,68,1,Angel Martínez,Cleveland Guardians	Rookie,False,68	Angel Martínez	Cleveland Guardians	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,69,1,Zac Veen,Colorado Rockies	Rookie,False,69	Zac Veen	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,70,1,Christian Yelich,Milwaukee Brewers,False,70	Christian Yelich	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,71,1,Chase Meidroth,Chicago White Sox	Rookie,False,71	Chase Meidroth	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,72,1,Zack Wheeler,Philadelphia Phillies,False,72	Zack Wheeler	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,73,1,Sean Burke,Chicago White Sox	Rookie,False,73	Sean Burke	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,74,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,74	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,75,1,Drake Baldwin,Atlanta Braves	Rookie,False,75	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,76,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,76	Yoshinobu Yamamoto	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,78,1,Cody Bellinger,New York Yankees,False,78	Cody Bellinger	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,79,1,Will Warren,New York Yankees	Rookie,False,79	Will Warren	New York Yankees	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,80,1,Junior Caminero,Tampa Bay Rays,False,80	Junior Caminero	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,81,1,Yordan Alvarez,Houston Astros,False,81	Yordan Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,82,1,Trea Turner,Philadelphia Phillies,False,82	Trea Turner	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,83,1,Coby Mayo,Baltimore Orioles	Rookie,False,83	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,84,1,Spencer Schwellenbach,Atlanta Braves	Rookie,False,84	Spencer Schwellenbach	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,85,1,Corbin Carroll,Arizona Diamondbacks,False,85	Corbin Carroll	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,86,1,Tsung-Che Cheng,Pittsburgh Pirates	Rookie,False,86	Tsung-Che Cheng	Pittsburgh Pirates	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,87,1,Ezequiel Tovar,Colorado Rockies,False,87	Ezequiel Tovar	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,88,1,Edgar Quero,Chicago White Sox	Rookie,False,88	Edgar Quero	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,89,1,Elly De La Cruz,Cincinnati Reds,False,89	Elly De La Cruz	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,90,1,Max Muncy,Athletics	Rookie,False,90	Max Muncy	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,91,1,Agustín Ramírez,Miami Marlins	Rookie,False,91	Agustín Ramírez	Miami Marlins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,92,1,Logan Henderson,Milwaukee Brewers	Rookie,False,92	Logan Henderson	Milwaukee Brewers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,93,1,Nick Kurtz,Athletics	Rookie,False,93	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,94,1,Corbin Burnes,Arizona Diamondbacks,False,94	Corbin Burnes	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,95,1,Tarik Skubal,Detroit Tigers,False,95	Tarik Skubal	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,96,1,Gunnar Henderson,Baltimore Orioles,False,96	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,97,1,Royce Lewis,Minnesota Twins,False,97	Royce Lewis	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,98,1,Kumar Rocker,Texas Rangers	Rookie,False,98	Kumar Rocker	Texas Rangers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,99,1,Aaron Judge,New York Yankees,False,99	Aaron Judge	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS,,100,1,Dalton Rushing,Los Angeles Dodgers	Rookie,False,100	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,10,1,Cade Horton,Chicago Cubs	Rookie,False,10	Cade Horton	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,11,1,Mick Abel,Philadelphia Phillies	Rookie,False,11	Mick Abel	Philadelphia Phillies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,18,1,Chandler Simpson,Tampa Bay Rays	Rookie,False,18	Chandler Simpson	Tampa Bay Rays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,25,1,Trey Sweeney,Detroit Tigers	Rookie,False,25	Trey Sweeney	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,28,1,Chad Patrick,Milwaukee Brewers	Rookie,False,28	Chad Patrick	Milwaukee Brewers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,39,1,Marcelo Mayer,Boston Red Sox	Rookie,False,39	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,41,1,Dillon Dingler,Detroit Tigers	Rookie,False,41	Dillon Dingler	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,42,1,Moisés Ballesteros,Chicago Cubs	Rookie,False,42	Moisés Ballesteros	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,44,1,Kevin Alcántara,Chicago Cubs	Rookie,False,44	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,50,1,Jake Mangum,Tampa Bay Rays	Rookie,False,50	Jake Mangum	Tampa Bay Rays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,52,1,Shane Smith,Chicago White Sox	Rookie,False,52	Shane Smith	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,61,1,Luke Keaschall,Minnesota Twins	Rookie,False,61	Luke Keaschall	Minnesota Twins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,62,1,Chase Dollander,Colorado Rockies	Rookie,False,62	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,63,1,Hayden Birdsong,San Francisco Giants	Rookie,False,63	Hayden Birdsong	San Francisco Giants	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,67,1,Noah Cameron,Kansas City Royals	Rookie,False,67	Noah Cameron	Kansas City Royals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,68,1,Angel Martínez,Cleveland Guardians	Rookie,False,68	Angel Martínez	Cleveland Guardians	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,69,1,Zac Veen,Colorado Rockies	Rookie,False,69	Zac Veen	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,71,1,Chase Meidroth,Chicago White Sox	Rookie,False,71	Chase Meidroth	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,73,1,Sean Burke,Chicago White Sox	Rookie,False,73	Sean Burke	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,75,1,Drake Baldwin,Atlanta Braves	Rookie,False,75	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,79,1,Will Warren,New York Yankees	Rookie,False,79	Will Warren	New York Yankees	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,83,1,Coby Mayo,Baltimore Orioles	Rookie,False,83	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,84,1,Spencer Schwellenbach,Atlanta Braves	Rookie,False,84	Spencer Schwellenbach	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,86,1,Tsung-Che Cheng,Pittsburgh Pirates	Rookie,False,86	Tsung-Che Cheng	Pittsburgh Pirates	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,88,1,Edgar Quero,Chicago White Sox	Rookie,False,88	Edgar Quero	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,90,1,Max Muncy,Athletics	Rookie,False,90	Max Muncy	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,91,1,Agustín Ramírez,Miami Marlins	Rookie,False,91	Agustín Ramírez	Miami Marlins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,92,1,Logan Henderson,Milwaukee Brewers	Rookie,False,92	Logan Henderson	Milwaukee Brewers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,93,1,Nick Kurtz,Athletics	Rookie,False,93	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,98,1,Kumar Rocker,Texas Rangers	Rookie,False,98	Kumar Rocker	Texas Rangers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS CHROME ROOKIE RED RC VARIATION,,100,1,Dalton Rushing,Los Angeles Dodgers	Rookie,False,100	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-153,1,Josuar Gonzalez,San Francisco Giants,False,BCP-153	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-154,1,Jac Caglianone,Kansas City Royals,False,BCP-154	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-155,1,Elian Peña,New York Mets,False,BCP-155	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-156,1,Andrew Salas,Miami Marlins,False,BCP-156	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-157,1,Jakob Christian,San Francisco Giants,False,BCP-157	Jakob Christian	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-158,1,Devin Fitz-Gerald,Texas Rangers,False,BCP-158	Devin Fitz-Gerald	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-159,1,Kendry Martínez,Seattle Mariners,False,BCP-159	Kendry Martínez	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-160,1,Jirvin Morillo,Cincinnati Reds,False,BCP-160	Jirvin Morillo	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-161,1,Haritzon Castillo,Minnesota Twins,False,BCP-161	Haritzon Castillo	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-162,1,Cristopher Polanco,Toronto Blue Jays,False,BCP-162	Cristopher Polanco	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-163,1,Johan De Los Santos,Pittsburgh Pirates,False,BCP-163	Johan De Los Santos	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-164,1,George Lombard Jr.,New York Yankees,False,BCP-164	George Lombard Jr.	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-165,1,Spencer Giesting,Arizona Diamondbacks,False,BCP-165	Spencer Giesting	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-166,1,Cam Schlittler,New York Yankees,False,BCP-166	Cam Schlittler	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-167,1,Roman Anthony,Boston Red Sox,False,BCP-167	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-168,1,Enry Torres,Cincinnati Reds,False,BCP-168	Enry Torres	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-169,1,Ethan Salas,San Diego Padres,False,BCP-169	Ethan Salas	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-170,1,Shotaro Morii,Athletics,False,BCP-170	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-171,1,Bubba Chandler,Pittsburgh Pirates,False,BCP-171	Bubba Chandler	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-172,1,John Gil,Atlanta Braves,False,BCP-172	John Gil	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-173,1,Deivid Coronil,San Diego Padres,False,BCP-173	Deivid Coronil	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-174,1,Liberts Aponte,Cincinnati Reds,False,BCP-174	Liberts Aponte	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-175,1,Raymer Medina,Tampa Bay Rays,False,BCP-175	Raymer Medina	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-176,1,Cristopher Acosta,Milwaukee Brewers,False,BCP-176	Cristopher Acosta	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-177,1,Noah Schultz,Chicago White Sox,False,BCP-177	Noah Schultz	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-178,1,Gabriel Davalillo,Los Angeles Angels,False,BCP-178	Gabriel Davalillo	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-179,1,Will Taylor,Pittsburgh Pirates,False,BCP-179	Will Taylor	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-180,1,Bryce Eldridge,San Francisco Giants,False,BCP-180	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-181,1,RJ Schreck,Toronto Blue Jays,False,BCP-181	RJ Schreck	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-182,1,Kai Roberts,San Diego Padres,False,BCP-182	Kai Roberts	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-183,1,Marco Dinges,Milwaukee Brewers,False,BCP-183	Marco Dinges	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-184,1,Nate George,Baltimore Orioles,False,BCP-184	Nate George	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-185,1,Warren Calcaño,Kansas City Royals,False,BCP-185	Warren Calcaño	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-186,1,Elorky Rodriguez,Texas Rangers,False,BCP-186	Elorky Rodriguez	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-187,1,Ramcell Medina,Kansas City Royals,False,BCP-187	Ramcell Medina	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-188,1,Teilon Serrano,Minnesota Twins,False,BCP-188	Teilon Serrano	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-189,1,Stiven Marinez,New York Yankees,False,BCP-189	Stiven Marinez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-190,1,Kenny Fenelon,Milwaukee Brewers,False,BCP-190	Kenny Fenelon	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-191,1,Christopher Suero,New York Mets,False,BCP-191	Christopher Suero	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-192,1,Nathan Church,St. Louis Cardinals,False,BCP-192	Nathan Church	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-193,1,Jose Anderson,Milwaukee Brewers,False,BCP-193	Jose Anderson	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-194,1,Yorger Bautista,Seattle Mariners,False,BCP-194	Yorger Bautista	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-195,1,David Sandlin,Boston Red Sox,False,BCP-195	David Sandlin	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-196,1,Hiverson López,Cleveland Guardians,False,BCP-196	Hiverson López	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-197,1,Ayden Johnson,Athletics,False,BCP-197	Ayden Johnson	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-198,1,Alirio Ferrebus,Philadelphia Phillies,False,BCP-198	Alirio Ferrebus	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-199,1,Mani Cedeno,New York Yankees,False,BCP-199	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-200,1,Rainiel Rodriguez,St. Louis Cardinals,False,BCP-200	Rainiel Rodriguez	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-201,1,Anyelo Marquez,Los Angeles Angels,False,BCP-201	Anyelo Marquez	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-202,1,Carlos Lagrange,New York Yankees,False,BCP-202	Carlos Lagrange	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-203,1,Heins Brito,Cleveland Guardians,False,BCP-203	Heins Brito	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-204,1,Leo De Vries,San Diego Padres,False,BCP-204	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-205,1,Kevin Defrank,Miami Marlins,False,BCP-205	Kevin Defrank	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-206,1,Bo Davidson,San Francisco Giants,False,BCP-206	Bo Davidson	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-207,1,Juan Cabada,Chicago Cubs,False,BCP-207	Juan Cabada	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-208,1,Jordan Sanchez,Baltimore Orioles,False,BCP-208	Jordan Sanchez	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-209,1,Wilfri De La Cruz,Chicago Cubs,False,BCP-209	Wilfri De La Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-210,1,Pedro Catuy,Arizona Diamondbacks,False,BCP-210	Pedro Catuy	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-211,1,Brayan Cortesia,Washington Nationals,False,BCP-211	Brayan Cortesia	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-212,1,Caden Powell,Houston Astros,False,BCP-212	Caden Powell	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-213,1,Ronny Cruz,Chicago Cubs,False,BCP-213	Ronny Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-214,1,Diego Tornes,Atlanta Braves,False,BCP-214	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-215,1,Justice Bigbie,Detroit Tigers,False,BCP-215	Justice Bigbie	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-216,1,Harold Rivas,Boston Red Sox,False,BCP-216	Harold Rivas	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-217,1,Nestor Miranda,Detroit Tigers,False,BCP-217	Nestor Miranda	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-218,1,Luke Dickerson,Washington Nationals,False,BCP-218	Luke Dickerson	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-219,1,Alessander De La Cruz,Colorado Rockies,False,BCP-219	Alessander De La Cruz	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-220,1,Cristian Arguelles,Colorado Rockies,False,BCP-220	Cristian Arguelles	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-221,1,Royelny Strop,St. Louis Cardinals,False,BCP-221	Royelny Strop	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-222,1,Yahil Melendez,Chicago Cubs,False,BCP-222	Yahil Melendez	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-223,1,Jhoan De La Cruz,San Diego Padres,False,BCP-223	Jhoan De La Cruz	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-224,1,Ching-Hsien Ko,Los Angeles Dodgers,False,BCP-224	Ching-Hsien Ko	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-225,1,Warel Solano,Tampa Bay Rays,False,BCP-225	Warel Solano	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-226,1,Brett Bateman,Chicago Cubs,False,BCP-226	Brett Bateman	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-227,1,Kevin Alvarez,Houston Astros,False,BCP-227	Kevin Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-228,1,Arjun Nimmala,Toronto Blue Jays,False,BCP-228	Arjun Nimmala	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-229,1,Yulian Barreto,San Francisco Giants,False,BCP-229	Yulian Barreto	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-230,1,Juan Tomas,Chicago Cubs,False,BCP-230	Juan Tomas	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-231,1,Juneiker Caceres,Cleveland Guardians,False,BCP-231	Juneiker Caceres	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-232,1,Nieves Izaguirre,Philadelphia Phillies,False,BCP-232	Nieves Izaguirre	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-233,1,Jhonny Severino,Pittsburgh Pirates,False,BCP-233	Jhonny Severino	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-234,1,Carson Williams,Tampa Bay Rays,False,BCP-234	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-235,1,Sadbiel Delzine,Boston Red Sox,False,BCP-235	Sadbiel Delzine	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-236,1,Yairo Padilla,St. Louis Cardinals,False,BCP-236	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-237,1,Djean Macares,San Francisco Giants,False,BCP-237	Djean Macares	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-238,1,Robert Hipwell,San Francisco Giants,False,BCP-238	Robert Hipwell	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-239,1,Luis Peña,Milwaukee Brewers,False,BCP-239	Luis Peña	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-240,1,Maykel Coret,Tampa Bay Rays,False,BCP-240	Maykel Coret	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-241,1,JJ Wetherholt,St. Louis Cardinals,False,BCP-241	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-242,1,Moises Marchán,Kansas City Royals,False,BCP-242	Moises Marchán	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-243,1,Bryce Boettcher,Houston Astros,False,BCP-243	Bryce Boettcher	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-244,1,Zach Cole,Houston Astros,False,BCP-244	Zach Cole	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-245,1,Jesus Made,Milwaukee Brewers,False,BCP-245	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-246,1,Kale Fountain,San Diego Padres,False,BCP-246	Kale Fountain	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-247,1,Santiago Leon,Minnesota Twins,False,BCP-247	Santiago Leon	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-248,1,Charlie Condon,Colorado Rockies,False,BCP-248	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-249,1,Elian De La Cruz,Arizona Diamondbacks,False,BCP-249	Elian De La Cruz	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-250,1,Cris Rodriguez,Detroit Tigers,False,BCP-250	Cris Rodriguez	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-251,1,Tommy White,Athletics,False,BCP-251	Tommy White	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECTS,,BCP-252,1,DJ Layton,Baltimore Orioles,False,BCP-252	DJ Layton	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,39,1,Marcelo Mayer,Boston Red Sox	Rookie,False,39	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,62,1,Chase Dollander,Colorado Rockies	Rookie,False,62	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-153,1,Josuar Gonzalez,San Francisco Giants,False,BCP-153	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-154,1,Jac Caglianone,Kansas City Royals,False,BCP-154	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-155,1,Elian Peña,New York Mets,False,BCP-155	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-156,1,Andrew Salas,Miami Marlins,False,BCP-156	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-167,1,Roman Anthony,Boston Red Sox,False,BCP-167	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-170,1,Shotaro Morii,Athletics,False,BCP-170	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-214,1,Diego Tornes,Atlanta Braves,False,BCP-214	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-245,1,Jesus Made,Milwaukee Brewers,False,BCP-245	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BASE CARDS IMAGE VARIATIONS,,BCP-251,1,Tommy White,Athletics,False,BCP-251	Tommy White	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-1,1,Elian Peña,New York Mets,False,BA-1	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-2,1,Matt Shaw,Chicago Cubs	Rookie,False,BA-2	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-3,1,JJ Wetherholt,St. Louis Cardinals,False,BA-3	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-4,1,Coby Mayo,Baltimore Orioles	Rookie,False,BA-4	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-5,1,Aaron Judge,New York Yankees,False,BA-5	Aaron Judge	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-6,1,Kristian Campbell,Boston Red Sox	Rookie,False,BA-6	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-7,1,Jackson Jobe,Detroit Tigers	Rookie,False,BA-7	Jackson Jobe	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-8,1,Walker Jenkins,Minnesota Twins,False,BA-8	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-9,1,Travis Bazzana,Cleveland Guardians,False,BA-9	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-10,1,Dylan Crews,Washington Nationals	Rookie,False,BA-10	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-11,1,Jac Caglianone,Kansas City Royals,False,BA-11	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-12,1,Konnor Griffin,Pittsburgh Pirates,False,BA-12	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-13,1,Juan Soto,New York Mets,False,BA-13	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-14,1,Roman Anthony,Boston Red Sox,False,BA-14	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-15,1,Paul Skenes,Pittsburgh Pirates,False,BA-15	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-16,1,Shohei Ohtani,Los Angeles Dodgers,False,BA-16	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-17,1,James Wood,Washington Nationals	Rookie,False,BA-17	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-18,1,Elly De La Cruz,Cincinnati Reds,False,BA-18	Elly De La Cruz	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-19,1,Bobby Witt Jr.,Kansas City Royals,False,BA-19	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-20,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,BA-20	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-21,1,Mike Trout,Los Angeles Angels,False,BA-21	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-22,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,BA-22	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-23,1,Josuar Gonzalez,San Francisco Giants,False,BA-23	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-24,1,Luisangel Acuña,New York Mets	Rookie,False,BA-24	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSIONS,,BA-25,1,Gunnar Henderson,Baltimore Orioles,False,BA-25	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-1,1,Mike Trout,Los Angeles Angels,False,BGP-1	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-2,1,Christian Moore,Los Angeles Angels,False,BGP-2	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-3,1,Nick Kurtz,Athletics	Rookie,False,BGP-3	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-4,1,Ronald Acuña Jr.,Atlanta Braves,False,BGP-4	Ronald Acuña Jr.	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-5,1,Samuel Basallo,Baltimore Orioles,False,BGP-5	Samuel Basallo	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-6,1,Coby Mayo,Baltimore Orioles	Rookie,False,BGP-6	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-7,1,Gunnar Henderson,Baltimore Orioles,False,BGP-7	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-8,1,David Ortiz,Boston Red Sox,False,BGP-8	David Ortiz	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-9,1,Roman Anthony,Boston Red Sox,False,BGP-9	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-10,1,Rafael Devers,Boston Red Sox,False,BGP-10	Rafael Devers	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-11,1,Cam Smith,Houston Astros	Rookie,False,BGP-11	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-12,1,Shota Imanaga,Chicago Cubs,False,BGP-12	Shota Imanaga	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-13,1,Sammy Sosa,Chicago Cubs,False,BGP-13	Sammy Sosa	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-14,1,Chase Burns,Cincinnati Reds,False,BGP-14	Chase Burns	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-15,1,Colson Montgomery,Chicago White Sox,False,BGP-15	Colson Montgomery	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-16,1,Elly De La Cruz,Cincinnati Reds,False,BGP-16	Elly De La Cruz	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-17,1,Kristian Campbell,Boston Red Sox	Rookie,False,BGP-17	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-18,1,Travis Bazzana,Cleveland Guardians,False,BGP-18	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-19,1,Charlie Condon,Colorado Rockies,False,BGP-19	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-20,1,Jackson Jobe,Detroit Tigers	Rookie,False,BGP-20	Jackson Jobe	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-21,1,Matt Shaw,Chicago Cubs	Rookie,False,BGP-21	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-22,1,Jac Caglianone,Kansas City Royals,False,BGP-22	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-23,1,Bobby Witt Jr.,Kansas City Royals,False,BGP-23	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-24,1,Shohei Ohtani,Los Angeles Dodgers,False,BGP-24	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-25,1,Jackson Chourio,Milwaukee Brewers,False,BGP-25	Jackson Chourio	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-26,1,Walker Jenkins,Minnesota Twins,False,BGP-26	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-27,1,Luisangel Acuña,New York Mets	Rookie,False,BGP-27	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-28,1,Juan Soto,New York Mets,False,BGP-28	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-29,1,Francisco Lindor,New York Mets,False,BGP-29	Francisco Lindor	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-30,1,Aaron Judge,New York Yankees,False,BGP-30	Aaron Judge	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-31,1,Derek Jeter,New York Yankees,False,BGP-31	Derek Jeter	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-32,1,Bryce Harper,Philadelphia Phillies,False,BGP-32	Bryce Harper	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-33,1,Andrew Painter,Philadelphia Phillies,False,BGP-33	Andrew Painter	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-34,1,Konnor Griffin,Pittsburgh Pirates,False,BGP-34	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-35,1,Paul Skenes,Pittsburgh Pirates,False,BGP-35	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-36,1,Leo De Vries,San Diego Padres,False,BGP-36	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-37,1,Fernando Tatis Jr.,San Diego Padres,False,BGP-37	Fernando Tatis Jr.	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-38,1,Jackson Merrill,San Diego Padres,False,BGP-38	Jackson Merrill	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-39,1,Miguel Cabrera,Detroit Tigers,False,BGP-39	Miguel Cabrera	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-40,1,Bryce Eldridge,San Francisco Giants,False,BGP-40	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-41,1,Ichiro,Seattle Mariners,False,BGP-41	Ichiro	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-42,1,Ken Griffey Jr.,Seattle Mariners,False,BGP-42	Ken Griffey Jr.	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-43,1,Albert Pujols,St. Louis Cardinals,False,BGP-43	Albert Pujols	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-44,1,JJ Wetherholt,St. Louis Cardinals,False,BGP-44	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-45,1,Carson Williams,Tampa Bay Rays,False,BGP-45	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-46,1,Corey Seager,Texas Rangers,False,BGP-46	Corey Seager	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-47,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,BGP-47	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-48,1,Dylan Crews,Washington Nationals	Rookie,False,BGP-48	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-49,1,James Wood,Washington Nationals	Rookie,False,BGP-49	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN GPK,,BGP-50,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,BGP-50	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-1,1,Roman Anthony,Boston Red Sox,False,BWS-1	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-2,1,Bubba Chandler,Pittsburgh Pirates,False,BWS-2	Bubba Chandler	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-3,1,Slade Caldwell,Arizona Diamondbacks,False,BWS-3	Slade Caldwell	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-4,1,Braden Montgomery,Chicago White Sox,False,BWS-4	Braden Montgomery	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-5,1,Josuar Gonzalez,San Francisco Giants,False,BWS-5	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-6,1,Zyhir Hope,Los Angeles Dodgers,False,BWS-6	Zyhir Hope	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-7,1,Elian Peña,New York Mets,False,BWS-7	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-8,1,Konnor Griffin,Pittsburgh Pirates,False,BWS-8	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-9,1,Bryce Rainer,Detroit Tigers,False,BWS-9	Bryce Rainer	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-10,1,Andrew Salas,Miami Marlins,False,BWS-10	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-11,1,Matt Shaw,Chicago Cubs	Rookie,False,BWS-11	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-12,1,Drake Baldwin,Atlanta Braves	Rookie,False,BWS-12	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-13,1,Cam Smith,Houston Astros	Rookie,False,BWS-13	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-14,1,Marcelo Mayer,Boston Red Sox	Rookie,False,BWS-14	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN SPOTLIGHTS,,BWS-15,1,Kristian Campbell,Boston Red Sox	Rookie,False,BWS-15	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,39,1,Marcelo Mayer,Boston Red Sox	Rookie,False,39	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,75,1,Drake Baldwin,Atlanta Braves	Rookie,False,75	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-153,1,Josuar Gonzalez,San Francisco Giants,False,BCP-153	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-155,1,Elian Peña,New York Mets,False,BCP-155	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-156,1,Andrew Salas,Miami Marlins,False,BCP-156	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-170,1,Shotaro Morii,Athletics,False,BCP-170	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-199,1,Mani Cedeno,New York Yankees,False,BCP-199	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-214,1,Diego Tornes,Atlanta Braves,False,BCP-214	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-236,1,Yairo Padilla,St. Louis Cardinals,False,BCP-236	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-250,1,Cris Rodriguez,Detroit Tigers,False,BCP-250	Cris Rodriguez	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,ETCHED IN GLASS VARIATION,,BCP-251,1,Tommy White,Athletics,False,BCP-251	Tommy White	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,39,1,Marcelo Mayer,Boston Red Sox	Rookie,False,39	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE COLOR RUN VARIATION,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-153,1,Josuar Gonzalez,San Francisco Giants,False,BCP-153	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-155,1,Elian Peña,New York Mets,False,BCP-155	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-156,1,Andrew Salas,Miami Marlins,False,BCP-156	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-159,1,Kendry Martínez,Seattle Mariners,False,BCP-159	Kendry Martínez	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-161,1,Haritzon Castillo,Minnesota Twins,False,BCP-161	Haritzon Castillo	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-162,1,Cristopher Polanco,Toronto Blue Jays,False,BCP-162	Cristopher Polanco	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-163,1,Johan De Los Santos,Pittsburgh Pirates,False,BCP-163	Johan De Los Santos	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-169,1,Ethan Salas,San Diego Padres,False,BCP-169	Ethan Salas	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-170,1,Shotaro Morii,Athletics,False,BCP-170	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-173,1,Deivid Coronil,San Diego Padres,False,BCP-173	Deivid Coronil	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-174,1,Liberts Aponte,Cincinnati Reds,False,BCP-174	Liberts Aponte	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-175,1,Raymer Medina,Tampa Bay Rays,False,BCP-175	Raymer Medina	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-176,1,Cristopher Acosta,Milwaukee Brewers,False,BCP-176	Cristopher Acosta	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-178,1,Gabriel Davalillo,Los Angeles Angels,False,BCP-178	Gabriel Davalillo	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-185,1,Warren Calcaño,Kansas City Royals,False,BCP-185	Warren Calcaño	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-186,1,Elorky Rodriguez,Texas Rangers,False,BCP-186	Elorky Rodriguez	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-187,1,Ramcell Medina,Kansas City Royals,False,BCP-187	Ramcell Medina	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-188,1,Teilon Serrano,Minnesota Twins,False,BCP-188	Teilon Serrano	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-189,1,Stiven Marinez,New York Yankees,False,BCP-189	Stiven Marinez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-190,1,Kenny Fenelon,Milwaukee Brewers,False,BCP-190	Kenny Fenelon	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-194,1,Yorger Bautista,Seattle Mariners,False,BCP-194	Yorger Bautista	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-196,1,Hiverson López,Cleveland Guardians,False,BCP-196	Hiverson López	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-197,1,Ayden Johnson,Athletics,False,BCP-197	Ayden Johnson	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-198,1,Alirio Ferrebus,Philadelphia Phillies,False,BCP-198	Alirio Ferrebus	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-199,1,Mani Cedeno,New York Yankees,False,BCP-199	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-200,1,Rainiel Rodriguez,St. Louis Cardinals,False,BCP-200	Rainiel Rodriguez	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-205,1,Kevin Defrank,Miami Marlins,False,BCP-205	Kevin Defrank	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-207,1,Juan Cabada,Chicago Cubs,False,BCP-207	Juan Cabada	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-209,1,Wilfri De La Cruz,Chicago Cubs,False,BCP-209	Wilfri De La Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-211,1,Brayan Cortesia,Washington Nationals,False,BCP-211	Brayan Cortesia	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-214,1,Diego Tornes,Atlanta Braves,False,BCP-214	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-216,1,Harold Rivas,Boston Red Sox,False,BCP-216	Harold Rivas	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-217,1,Nestor Miranda,Detroit Tigers,False,BCP-217	Nestor Miranda	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-221,1,Royelny Strop,St. Louis Cardinals,False,BCP-221	Royelny Strop	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-222,1,Yahil Melendez,Chicago Cubs,False,BCP-222	Yahil Melendez	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-223,1,Jhoan De La Cruz,San Diego Padres,False,BCP-223	Jhoan De La Cruz	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-225,1,Warel Solano,Tampa Bay Rays,False,BCP-225	Warel Solano	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-227,1,Kevin Alvarez,Houston Astros,False,BCP-227	Kevin Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-230,1,Juan Tomas,Chicago Cubs,False,BCP-230	Juan Tomas	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-232,1,Nieves Izaguirre,Philadelphia Phillies,False,BCP-232	Nieves Izaguirre	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-233,1,Jhonny Severino,Pittsburgh Pirates,False,BCP-233	Jhonny Severino	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-235,1,Sadbiel Delzine,Boston Red Sox,False,BCP-235	Sadbiel Delzine	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-236,1,Yairo Padilla,St. Louis Cardinals,False,BCP-236	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-237,1,Djean Macares,San Francisco Giants,False,BCP-237	Djean Macares	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-240,1,Maykel Coret,Tampa Bay Rays,False,BCP-240	Maykel Coret	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-242,1,Moises Marchán,Kansas City Royals,False,BCP-242	Moises Marchán	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-245,1,Jesus Made,Milwaukee Brewers,False,BCP-245	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-247,1,Santiago Leon,Minnesota Twins,False,BCP-247	Santiago Leon	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-249,1,Elian De La Cruz,Arizona Diamondbacks,False,BCP-249	Elian De La Cruz	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR VARIATION,,BCP-250,1,Cris Rodriguez,Detroit Tigers,False,BCP-250	Cris Rodriguez	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,RETROFRACTOR VARIATION,,BCP-254,1,Tony Pérez,Cincinnati Reds,False,BCP-254	Tony Pérez	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,1,1,Jacob Wilson,Athletics	Rookie,False,1	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,2,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,2	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,3,1,Dylan Crews,Washington Nationals	Rookie,False,3	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,12,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,12	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,29,1,James Wood,Washington Nationals	Rookie,False,29	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,32,1,Luisangel Acuña,New York Mets	Rookie,False,32	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,44,1,Kevin Alcántara,Chicago Cubs	Rookie,False,44	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,46,1,Matt Shaw,Chicago Cubs	Rookie,False,46	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,58,1,Kristian Campbell,Boston Red Sox	Rookie,False,58	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,62,1,Chase Dollander,Colorado Rockies	Rookie,False,62	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,75,1,Drake Baldwin,Atlanta Braves	Rookie,False,75	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,77,1,Cam Smith,Houston Astros	Rookie,False,77	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,83,1,Coby Mayo,Baltimore Orioles	Rookie,False,83	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,88,1,Edgar Quero,Chicago White Sox	Rookie,False,88	Edgar Quero	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ROOKIE SHORT PRINT IMAGE VARIATIONS,,98,1,Kumar Rocker,Texas Rangers	Rookie,False,98	Kumar Rocker	Texas Rangers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-1,1,Sebastian Walcott,Texas Rangers,False,IT-1	Sebastian Walcott	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-2,1,JJ Wetherholt,St. Louis Cardinals,False,IT-2	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-3,1,Kristian Campbell,Boston Red Sox	Rookie,False,IT-3	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-4,1,Jac Caglianone,Kansas City Royals,False,IT-4	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-5,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,IT-5	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-6,1,Christian Moore,Los Angeles Angels,False,IT-6	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-7,1,Charlie Condon,Colorado Rockies,False,IT-7	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-8,1,Konnor Griffin,Pittsburgh Pirates,False,IT-8	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-9,1,Cam Smith,Houston Astros	Rookie,False,IT-9	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-10,1,Marcelo Mayer,Boston Red Sox	Rookie,False,IT-10	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-11,1,Matt Shaw,Chicago Cubs	Rookie,False,IT-11	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-12,1,Max Clark,Detroit Tigers,False,IT-12	Max Clark	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-13,1,Dylan Crews,Washington Nationals	Rookie,False,IT-13	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-14,1,Jesus Made,Milwaukee Brewers,False,IT-14	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-15,1,James Wood,Washington Nationals	Rookie,False,IT-15	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-16,1,Nick Kurtz,Athletics	Rookie,False,IT-16	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-17,1,Leo De Vries,San Diego Padres,False,IT-17	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-18,1,Luisangel Acuña,New York Mets	Rookie,False,IT-18	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-19,1,Roman Anthony,Boston Red Sox,False,IT-19	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,IT CAME TO THE LEAGUE,,IT-20,1,Travis Bazzana,Cleveland Guardians,False,IT-20	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-1,1,Bryce Eldridge,San Francisco Giants,False,MR-1	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-2,1,Mike Trout,Los Angeles Angels,False,MR-2	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-3,1,Jesus Made,Milwaukee Brewers,False,MR-3	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-4,1,Aaron Judge,New York Yankees,False,MR-4	Aaron Judge	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-5,1,James Wood,Washington Nationals	Rookie,False,MR-5	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-6,1,Walker Jenkins,Minnesota Twins,False,MR-6	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-7,1,Nick Kurtz,Athletics	Rookie,False,MR-7	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-8,1,Charlie Condon,Colorado Rockies,False,MR-8	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-9,1,Matt Shaw,Chicago Cubs	Rookie,False,MR-9	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-10,1,Dylan Crews,Washington Nationals	Rookie,False,MR-10	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-11,1,Bobby Witt Jr.,Kansas City Royals,False,MR-11	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-12,1,Shohei Ohtani,Los Angeles Dodgers,False,MR-12	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-13,1,Rafael Devers,San Francisco Giants,False,MR-13	Rafael Devers	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-14,1,Bryce Harper,Philadelphia Phillies,False,MR-14	Bryce Harper	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,METEORIC RISE,,MR-15,1,Juan Soto,New York Mets,False,MR-15	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-1,1,Arjun Nimmala,Toronto Blue Jays,False,MM-1	Arjun Nimmala	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-2,1,Kristian Campbell,Boston Red Sox	Rookie,False,MM-2	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-3,1,Christian Moore,Los Angeles Angels,False,MM-3	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-4,1,James Wood,Washington Nationals	Rookie,False,MM-4	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-5,1,Adael Amador,Colorado Rockies	Rookie,False,MM-5	Adael Amador	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-6,1,Hyeseong Kim,Los Angeles Dodgers	Rookie,False,MM-6	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-7,1,Jacob Wilson,Athletics	Rookie,False,MM-7	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-8,1,Leo De Vries,San Diego Padres,False,MM-8	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-9,1,Cooper Pratt,Milwaukee Brewers,False,MM-9	Cooper Pratt	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-10,1,Zac Veen,Colorado Rockies	Rookie,False,MM-10	Zac Veen	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-11,1,Charlie Condon,Colorado Rockies,False,MM-11	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-12,1,Samuel Basallo,Baltimore Orioles,False,MM-12	Samuel Basallo	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-13,1,Roman Anthony,Boston Red Sox,False,MM-13	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-14,1,Franklin Arias,Boston Red Sox,False,MM-14	Franklin Arias	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-15,1,Bryce Eldridge,San Francisco Giants,False,MM-15	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-16,1,Jesus Made,Milwaukee Brewers,False,MM-16	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-17,1,Andrew Salas,Miami Marlins,False,MM-17	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-18,1,Max Clark,Detroit Tigers,False,MM-18	Max Clark	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-19,1,Drake Baldwin,Atlanta Braves	Rookie,False,MM-19	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-20,1,George Lombard Jr.,New York Yankees,False,MM-20	George Lombard Jr.	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-21,1,Kevin Alcántara,Chicago Cubs	Rookie,False,MM-21	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-22,1,Cam Smith,Houston Astros	Rookie,False,MM-22	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-23,1,Zyhir Hope,Los Angeles Dodgers,False,MM-23	Zyhir Hope	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-24,1,Jac Caglianone,Kansas City Royals,False,MM-24	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS,,MM-25,1,Nick Kurtz,Athletics	Rookie,False,MM-25	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-1,1,Roki Sasaki,Los Angeles Dodgers	Rookie,False,MV-1	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-2,1,Kyle Teel,Chicago White Sox,False,MV-2	Kyle Teel	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-3,1,Matt Shaw,Chicago Cubs	Rookie,False,MV-3	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-4,1,Walker Jenkins,Minnesota Twins,False,MV-4	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-5,1,Carson Williams,Tampa Bay Rays,False,MV-5	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-6,1,JJ Wetherholt,St. Louis Cardinals,False,MV-6	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-7,1,Kristian Campbell,Boston Red Sox	Rookie,False,MV-7	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-8,1,Roman Anthony,Boston Red Sox,False,MV-8	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-9,1,Dylan Crews,Washington Nationals	Rookie,False,MV-9	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-10,1,Quinn Mathews,St. Louis Cardinals,False,MV-10	Quinn Mathews	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-11,1,Nick Kurtz,Athletics	Rookie,False,MV-11	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-12,1,Travis Bazzana,Cleveland Guardians,False,MV-12	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-13,1,Coby Mayo,Baltimore Orioles	Rookie,False,MV-13	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-14,1,Dalton Rushing,Los Angeles Dodgers	Rookie,False,MV-14	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MAX VOLUME,,MV-15,1,Charlie Condon,Colorado Rockies,False,MV-15	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-1,1,José Ramírez,Cleveland Guardians,False,AD-1	José Ramírez	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-2,1,Marcelo Mayer,Boston Red Sox	Rookie,False,AD-2	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-3,1,Jac Caglianone,Kansas City Royals,False,AD-3	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-4,1,James Wood,Washington Nationals	Rookie,False,AD-4	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-5,1,Dylan Crews,Washington Nationals	Rookie,False,AD-5	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-6,1,Juan Soto,New York Mets,False,AD-6	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-7,1,Fernando Tatis Jr.,San Diego Padres,False,AD-7	Fernando Tatis Jr.	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-8,1,Kristian Campbell,Boston Red Sox	Rookie,False,AD-8	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-9,1,Gunnar Henderson,Baltimore Orioles,False,AD-9	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-10,1,Bryce Eldridge,San Francisco Giants,False,AD-10	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-11,1,Wyatt Langford,Texas Rangers,False,AD-11	Wyatt Langford	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-12,1,Travis Bazzana,Cleveland Guardians,False,AD-12	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-13,1,Walker Jenkins,Minnesota Twins,False,AD-13	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-14,1,Ronald Acuña Jr.,Atlanta Braves,False,AD-14	Ronald Acuña Jr.	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-15,1,Mookie Betts,Los Angeles Dodgers,False,AD-15	Mookie Betts	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-16,1,Charlie Condon,Colorado Rockies,False,AD-16	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-17,1,Shohei Ohtani,Los Angeles Dodgers,False,AD-17	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-18,1,Cam Smith,Houston Astros	Rookie,False,AD-18	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-19,1,Christian Moore,Los Angeles Angels,False,AD-19	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-20,1,Max Clark,Detroit Tigers,False,AD-20	Max Clark	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-21,1,Carson Williams,Tampa Bay Rays,False,AD-21	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-22,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,AD-22	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-23,1,Nick Kurtz,Athletics	Rookie,False,AD-23	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-24,1,JJ Wetherholt,St. Louis Cardinals,False,AD-24	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS,,AD-25,1,Bobby Witt Jr.,Kansas City Royals,False,AD-25	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AC,1,Angel Cepeda,Chicago Cubs,False,CPA-AC	Angel Cepeda	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AD,1,Alessander De La Cruz,Colorado Rockies,False,CPA-AD	Alessander De La Cruz	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AF,1,Alirio Ferrebus,Philadelphia Phillies,False,CPA-AF	Alirio Ferrebus	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AG,1,Asbel Gonzalez,Kansas City Royals,False,CPA-AG	Asbel Gonzalez	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AJ,1,Ayden Johnson,Athletics,False,CPA-AJ	Ayden Johnson	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AM,1,Anyelo Marquez,Los Angeles Angels,False,CPA-AM	Anyelo Marquez	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ARO,1,Alejandro Rosario,Texas Rangers,False,CPA-ARO	Alejandro Rosario	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-AS,1,Andrew Salas,Miami Marlins,False,CPA-AS	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BB,1,Bryce Boettcher,Houston Astros,False,CPA-BB	Bryce Boettcher	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BBA,1,Brett Bateman,Chicago Cubs,False,CPA-BBA	Brett Bateman	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BC,1,Brayan Cortesia,Washington Nationals,False,CPA-BC	Brayan Cortesia	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BD,1,Bo Davidson,San Francisco Giants,False,CPA-BD	Bo Davidson	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BP,1,Braylon Payne,Milwaukee Brewers,False,CPA-BP	Braylon Payne	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-BW,1,Blake Wolters,Kansas City Royals,False,CPA-BW	Blake Wolters	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CAC,1,Cristopher Acosta,Milwaukee Brewers,False,CPA-CAC	Cristopher Acosta	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CAR,1,Cristian Arguelles,Colorado Rockies,False,CPA-CAR	Cristian Arguelles	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CCO,1,Corey Cousin,Kansas City Royals,False,CPA-CCO	Corey Cousin	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CHA,1,Chase Hampton,New York Yankees,False,CPA-CHA	Chase Hampton	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CK,1,Ching-Hsien Ko,Los Angeles Dodgers,False,CPA-CK	Ching-Hsien Ko	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CL,1,Carlos Lagrange,New York Yankees,False,CPA-CL	Carlos Lagrange	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CPO,1,Caden Powell,Houston Astros,False,CPA-CPO	Caden Powell	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CR,1,Cris Rodriguez,Detroit Tigers,False,CPA-CR	Cris Rodriguez	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CS,1,Cade Smith,New York Yankees,False,CPA-CS	Cade Smith	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CSC,1,Cam Schlittler,New York Yankees,False,CPA-CSC	Cam Schlittler	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CSU,1,Christopher Suero,New York Mets,False,CPA-CSU	Christopher Suero	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-CT,1,Carlos Tavares,Washington Nationals,False,CPA-CT	Carlos Tavares	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DF,1,Devin Fitz-Gerald,Texas Rangers,False,CPA-DF	Devin Fitz-Gerald	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DG,1,Darison Garcia,Kansas City Royals,False,CPA-DG	Darison Garcia	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DL,1,DJ Layton,Baltimore Orioles,False,CPA-DL	DJ Layton	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DM,1,Djean Macares,San Francisco Giants,False,CPA-DM	Djean Macares	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DOR,1,David Ortiz Jr.,Texas Rangers,False,CPA-DOR	David Ortiz Jr.	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DSA,1,David Sandlin,Boston Red Sox,False,CPA-DSA	David Sandlin	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-DT,1,Diego Tornes,Atlanta Braves,False,CPA-DT	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ED,1,Elian De La Cruz,Arizona Diamondbacks,False,CPA-ED	Elian De La Cruz	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-EG,1,Elvin Garcia,Baltimore Orioles,False,CPA-EG	Elvin Garcia	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-EMO,1,Emil Morales,Los Angeles Dodgers,False,CPA-EMO	Emil Morales	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-EP,1,Elian Peña,New York Mets,False,CPA-EP	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-EPE,1,Ethan Pecko,Houston Astros,False,CPA-EPE	Ethan Pecko	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ER,1,Elorky Rodriguez,Texas Rangers,False,CPA-ER	Elorky Rodriguez	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ET,1,Enry Torres,Cincinnati Reds,False,CPA-ET	Enry Torres	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-GD,1,Gabriel Davalillo,Los Angeles Angels,False,CPA-GD	Gabriel Davalillo	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HB,1,Heins Brito,Cleveland Guardians,False,CPA-HB	Heins Brito	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HBA,1,Henry Baez,San Diego Padres,False,CPA-HBA	Henry Baez	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HC,1,Haritzon Castillo,Minnesota Twins,False,CPA-HC	Haritzon Castillo	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HL,1,Hiverson López,Cleveland Guardians,False,CPA-HL	Hiverson López	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HR,1,Harold Rivas,Boston Red Sox,False,CPA-HR	Harold Rivas	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-HS,1,Hagen Smith,Chicago White Sox,False,CPA-HS	Hagen Smith	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JA,1,Jose Anderson,Milwaukee Brewers,False,CPA-JA	Jose Anderson	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JB,1,Justice Bigbie,Detroit Tigers,False,CPA-JB	Justice Bigbie	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JC,1,Juan Cabada,Chicago Cubs,False,CPA-JC	Juan Cabada	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JCH,1,Jakob Christian,San Francisco Giants,False,CPA-JCH	Jakob Christian	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JD,1,Josuar Gonzalez,San Francisco Giants,False,CPA-JD	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JDL,1,Jhoan De La Cruz,San Diego Padres,False,CPA-JDL	Jhoan De La Cruz	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JDLS,1,Johan De Los Santos,Pittsburgh Pirates,False,CPA-JDLS	Johan De Los Santos	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JG,1,John Gil,Atlanta Braves,False,CPA-JG	John Gil	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JOS,1,Jordan Sanchez,Baltimore Orioles,False,CPA-JOS	Jordan Sanchez	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JS,1,Jhonny Severino,Pittsburgh Pirates,False,CPA-JS	Jhonny Severino	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JT,1,Juan Tomas,Chicago Cubs,False,CPA-JT	Juan Tomas	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-JUC,1,Juneiker Caceres,Cleveland Guardians,False,CPA-JUC	Juneiker Caceres	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KA,1,Kevin Alvarez,Houston Astros,False,CPA-KA	Kevin Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KD,1,Kevin Defrank,Miami Marlins,False,CPA-KD	Kevin Defrank	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KF,1,Kenny Fenelon,Milwaukee Brewers,False,CPA-KF	Kenny Fenelon	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KFO,1,Kale Fountain,San Diego Padres,False,CPA-KFO	Kale Fountain	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KK,1,Kyle Karros,Colorado Rockies,False,CPA-KK	Kyle Karros	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-KR,1,Kai Roberts,San Diego Padres,False,CPA-KR	Kai Roberts	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-LA,1,Liberts Aponte,Cincinnati Reds,False,CPA-LA	Liberts Aponte	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-LDI,1,Luke Dickerson,Washington Nationals,False,CPA-LDI	Luke Dickerson	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MC,1,Maykel Coret,Tampa Bay Rays,False,CPA-MC	Maykel Coret	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MCE,1,Mani Cedeno,New York Yankees,False,CPA-MCE	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MD,1,Marco Dinges,Milwaukee Brewers,False,CPA-MD	Marco Dinges	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ME,1,Matthew Etzel,Tampa Bay Rays,False,CPA-ME	Matthew Etzel	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MG,1,Mavis Graves,Philadelphia Phillies,False,CPA-MG	Mavis Graves	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MM,1,Moises Marchán,Kansas City Royals,False,CPA-MM	Moises Marchán	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-MU,1,Miguel Ullola,Houston Astros,False,CPA-MU	Miguel Ullola	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NCH,1,Nathan Church,St. Louis Cardinals,False,CPA-NCH	Nathan Church	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NG,1,Nate George,Baltimore Orioles,False,CPA-NG	Nate George	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NI,1,Nieves Izaguirre,Philadelphia Phillies,False,CPA-NI	Nieves Izaguirre	Philadelphia Phillies
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NL,1,Nick Lorusso,New York Mets,False,CPA-NL	Nick Lorusso	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NM,1,Nestor Miranda,Detroit Tigers,False,CPA-NM	Nestor Miranda	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-NY,1,Natanael Yuten,Boston Red Sox,False,CPA-NY	Natanael Yuten	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-PC,1,Pedro Catuy,Arizona Diamondbacks,False,CPA-PC	Pedro Catuy	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RA,1,Ramcell Medina,Kansas City Royals,False,CPA-RA	Ramcell Medina	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RCR,1,Ronny Cruz,Chicago Cubs,False,CPA-RCR	Ronny Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RH,1,Robert Hipwell,San Francisco Giants,False,CPA-RH	Robert Hipwell	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RM,1,Raymer Medina,Tampa Bay Rays,False,CPA-RM	Raymer Medina	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RR,1,Rainiel Rodriguez,St. Louis Cardinals,False,CPA-RR	Rainiel Rodriguez	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-RSC,1,RJ Schreck,Toronto Blue Jays,False,CPA-RSC	RJ Schreck	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SD,1,Sadbiel Delzine,Boston Red Sox,False,CPA-SD	Sadbiel Delzine	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SG,1,Spencer Giesting,Arizona Diamondbacks,False,CPA-SG	Spencer Giesting	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SH,1,Sammy Hernandez,St. Louis Cardinals,False,CPA-SH	Sammy Hernandez	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SL,1,Santiago Leon,Minnesota Twins,False,CPA-SL	Santiago Leon	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SM,1,Shotaro Morii,Athletics,False,CPA-SM	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SM,1,Sabier Marte,New York Yankees,False,CPA-SM	Sabier Marte	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-SMA,1,Stiven Marinez,New York Yankees,False,CPA-SMA	Stiven Marinez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-THA,1,Trevor Harrison,Tampa Bay Rays,False,CPA-THA	Trevor Harrison	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-TS,1,Teilon Serrano,Minnesota Twins,False,CPA-TS	Teilon Serrano	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-TWH,1,Tommy White,Athletics,False,CPA-TWH	Tommy White	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-WC,1,Warren Calcaño,Kansas City Royals,False,CPA-WC	Warren Calcaño	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-WD,1,Wilfri De La Cruz,Chicago Cubs,False,CPA-WD	Wilfri De La Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-WS,1,Warel Solano,Tampa Bay Rays,False,CPA-WS	Warel Solano	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-WT,1,Will Taylor,Pittsburgh Pirates,False,CPA-WT	Will Taylor	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-YB,1,Yorger Bautista,Seattle Mariners,False,CPA-YB	Yorger Bautista	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-YL,1,Yu-Min Lin,Arizona Diamondbacks,False,CPA-YL	Yu-Min Lin	Arizona Diamondbacks
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-YM,1,Yahil Melendez,Chicago Cubs,False,CPA-YM	Yahil Melendez	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-YP,1,Yairo Padilla,St. Louis Cardinals,False,CPA-YP	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-YU,1,Yulian Barreto,San Francisco Giants,False,CPA-YU	Yulian Barreto	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ZC,1,Zach Cole,Houston Astros,False,CPA-ZC	Zach Cole	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN CHROME PROSPECT AUTOGRAPHS,,CPA-ZD,1,Zander Darby,San Francisco Giants,False,CPA-ZD	Zander Darby	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-AM,,Angel Martínez,1,Cleveland Guardians,Rookie,False,CRA-AM	Angel Martínez	Cleveland Guardians	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-BL,,Brooks Lee,1,Minnesota Twins,Rookie,False,CRA-BL	Brooks Lee	Minnesota Twins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-BR,,Ben Rice,1,New York Yankees,Rookie,False,CRA-BR	Ben Rice	New York Yankees	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CD,,Chase Dollander,1,Colorado Rockies,Rookie,False,CRA-CD	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CH,,Cade Horton,1,Chicago Cubs,Rookie,False,CRA-CH	Cade Horton	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,CRA-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CN,,Connor Norby,1,Miami Marlins,Rookie,False,CRA-CN	Connor Norby	Miami Marlins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CS,,Chandler Simpson,1,Tampa Bay Rays,Rookie,False,CRA-CS	Chandler Simpson	Tampa Bay Rays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CSM,,Cam Smith,1,Houston Astros,Rookie,False,CRA-CSM	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DB,,Drake Baldwin,1,Atlanta Braves,Rookie,False,CRA-DB	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DC,,Dylan Crews,1,Washington Nationals,Rookie,False,CRA-DC	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DD,,Dillon Dingler,1,Detroit Tigers,Rookie,False,CRA-DD	Dillon Dingler	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DR,,Dalton Rushing,1,Los Angeles Dodgers,Rookie,False,CRA-DR	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DT,,Drew Thorpe,1,Chicago White Sox,Rookie,False,CRA-DT	Drew Thorpe	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-EQ,,Edgar Quero,1,Chicago White Sox,Rookie,False,CRA-EQ	Edgar Quero	Chicago White Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-HK,,Hyeseong Kim,1,Los Angeles Dodgers,Rookie,False,CRA-HK	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-HW,,Hurston Waldrep,1,Atlanta Braves,Rookie,False,CRA-HW	Hurston Waldrep	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JN,,Jhonkensy Noel,1,Cleveland Guardians,Rookie,False,CRA-JN	Jhonkensy Noel	Cleveland Guardians	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JWI,,Jacob Wilson,1,Athletics,Rookie,False,CRA-JWI	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JWO,,James Wood,1,Washington Nationals,Rookie,False,CRA-JWO	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-KC,,Kristian Campbell,1,Boston Red Sox,Rookie,False,CRA-KC	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-MB,,Moises Ballesteros,1,Chicago Cubs,Rookie,False,CRA-MB	Moises Ballesteros	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-MM,,Marcelo Mayer,1,Boston Red Sox,Rookie,False,CRA-MM	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-MS,,Matt Shaw,1,Chicago Cubs,Rookie,False,CRA-MS	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-NK,,Nick Kurtz,1,Athletics,Rookie,False,CRA-NK	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-RH,,Rece Hinds,1,Cincinnati Reds,Rookie,False,CRA-RH	Rece Hinds	Cincinnati Reds	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-RR,,River Ryan,1,Los Angeles Dodgers,Rookie,False,CRA-RR	River Ryan	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,CRA-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-SA,,Sam Aldegheri,1,Los Angeles Angels,Rookie,False,CRA-SA	Sam Aldegheri	Los Angeles Angels	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-TL,,Tyler Locklear,1,Seattle Mariners,Rookie,False,CRA-TL	Tyler Locklear	Seattle Mariners	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-TOS,,Thomas Saggese,1,St. Louis Cardinals,Rookie,False,CRA-TOS	Thomas Saggese	St. Louis Cardinals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-TS,,Trey Sweeney,1,Detroit Tigers,Rookie,False,CRA-TS	Trey Sweeney	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-WW,,Will Wagner,1,Toronto Blue Jays,Rookie,False,CRA-WW	Will Wagner	Toronto Blue Jays	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-ZD,,Zach Dezenzo,1,Houston Astros,Rookie,False,CRA-ZD	Zach Dezenzo	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,RETROFRACTOR AUTOGRAPH VARIATION,,BRA-TP,1,Tony Pérez,Cincinnati Reds,False,BRA-TP	Tony Pérez	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-AS,1,Andrew Salas,Miami Marlins,False,PCS-AS	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-CC,1,Charlie Condon,Colorado Rockies,False,PCS-CC	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-DT,1,Diego Tornes,Atlanta Braves,False,PCS-DT	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-EP,1,Elian Peña,New York Mets,False,PCS-EP	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-JC,1,Juan Cabada,Chicago Cubs,False,PCS-JC	Juan Cabada	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-JD,1,Josuar Gonzalez,San Francisco Giants,False,PCS-JD	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-JM,1,Jesus Made,Milwaukee Brewers,False,PCS-JM	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-JS,1,Juan Soto,New York Mets,False,PCS-JS	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-JW,1,JJ Wetherholt,St. Louis Cardinals,False,PCS-JW	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-KA,1,Kevin Alvarez,Houston Astros,False,PCS-KA	Kevin Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-KM,1,Kevin McGonigle,Detroit Tigers,False,PCS-KM	Kevin McGonigle	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-KG,1,Konnor Griffin,Pittsburgh Pirates,False,PCS-KG	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-KT,1,Kyle Teel,Chicago White Sox,False,PCS-KT	Kyle Teel	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-LD,1,Leo De Vries,San Diego Padres,False,PCS-LD	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-MCE,1,Mani Cedeno,New York Yankees,False,PCS-MCE	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-MCL,1,Max Clark,Detroit Tigers,False,PCS-MCL	Max Clark	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-MT,1,Mike Trout,Los Angeles Angels,False,PCS-MT	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-PS,1,Paul Skenes,Pittsburgh Pirates,False,PCS-PS	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,PCS-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,PCS-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-SM,1,Shotaro Morii,Athletics,False,PCS-SM	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-SMA,1,Stiven Marinez,New York Yankees,False,PCS-SMA	Stiven Marinez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-SO,1,Shohei Ohtani,Los Angeles Dodgers,False,PCS-SO	Shohei Ohtani	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-YB,1,Yorger Bautista,Seattle Mariners,False,PCS-YB	Yorger Bautista	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,PCS-YP,1,Yairo Padilla,St. Louis Cardinals,False,PCS-YP	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,,1,MAX VOLUME,AUTOGRAPH VARIATION,False,MAX VOLUME	AUTOGRAPH VARIATION
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-CC,1,Charlie Condon,Colorado Rockies,False,MVA-CC	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,MVA-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,MVA-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-CW,1,Carson Williams,Tampa Bay Rays,False,MVA-CW	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,MVA-DR,,Dalton Rushing,1,Los Angeles Dodgers,Rookie,False,MVA-DR	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-JW,1,JJ Wetherholt,St. Louis Cardinals,False,MVA-JW	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-KT,1,Kyle Teel,Chicago White Sox,False,MVA-KT	Kyle Teel	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MVA-MS,,Matt Shaw,1,Chicago Cubs,Rookie,False,MVA-MS	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MVA-NK,,Nick Kurtz,1,Athletics,Rookie,False,MVA-NK	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-RA,1,Roman Anthony,Boston Red Sox,False,MVA-RA	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MVA-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,MVA-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-TB,1,Travis Bazzana,Cleveland Guardians,False,MVA-TB	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,PRIME CHROME SIGNATURES,,MVA-WJ,1,Walker Jenkins,Minnesota Twins,False,MVA-WJ	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-AA,,Adael Amador,1,Colorado Rockies,Rookie,False,MMA-AA	Adael Amador	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-AN,1,Arjun Nimmala,Toronto Blue Jays,False,MMA-AN	Arjun Nimmala	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-BE,1,Bryce Eldridge,San Francisco Giants,False,MMA-BE	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-CC,1,Charlie Condon,Colorado Rockies,False,MMA-CC	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-CM,1,Christian Moore,Los Angeles Angels,False,MMA-CM	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-CP,1,Cooper Pratt,Milwaukee Brewers,False,MMA-CP	Cooper Pratt	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-CS,,Cam Smith,1,Houston Astros,Rookie,False,MMA-CS	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-DB,,Drake Baldwin,1,Atlanta Braves,Rookie,False,MMA-DB	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-FA,1,Franklin Arias,Boston Red Sox,False,MMA-FA	Franklin Arias	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-GL,1,George Lombard Jr.,New York Yankees,False,MMA-GL	George Lombard Jr.	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-HK,,Hyeseong Kim,1,Los Angeles Dodgers,Rookie,False,MMA-HK	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-JC,1,Jac Caglianone,Kansas City Royals,False,MMA-JC	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-JM,1,Jesus Made,Milwaukee Brewers,False,MMA-JM	Jesus Made	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-JW,,James Wood,1,Washington Nationals,Rookie,False,MMA-JW	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-JWI,,Jacob Wilson,1,Athletics,Rookie,False,MMA-JWI	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-KA,,Kevin Alcántara,1,Chicago Cubs,Rookie,False,MMA-KA	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-LD,1,Leo De Vries,San Diego Padres,False,MMA-LD	Leo De Vries	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-NK,,Nick Kurtz,1,Athletics,Rookie,False,MMA-NK	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-RA,1,Roman Anthony,Boston Red Sox,False,MMA-RA	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,MELT MASHERS AUTOGRAPH VARIATION,,MMA-ZH,1,Zyhir Hope,Los Angeles Dodgers,False,MMA-ZH	Zyhir Hope	Los Angeles Dodgers
+2025_bowman_chrome,2025,Bowman,Chrome,MMA-ZV,,Zac Veen,1,Colorado Rockies,Rookie,False,MMA-ZV	Zac Veen	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-BE,1,Bryce Eldridge,San Francisco Giants,False,AAV-BE	Bryce Eldridge	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-BW,1,Bobby Witt Jr.,Kansas City Royals,False,AAV-BW	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-CC,1,Charlie Condon,Colorado Rockies,False,AAV-CC	Charlie Condon	Colorado Rockies
+2025_bowman_chrome,2025,Bowman,Chrome,AAV-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,AAV-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-CMO,1,Christian Moore,Los Angeles Angels,False,AAV-CMO	Christian Moore	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,AAV-CS,,Cam Smith,1,Houston Astros,Rookie,False,AAV-CS	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-CW,1,Carson Williams,Tampa Bay Rays,False,AAV-CW	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-FT,1,Fernando Tatis Jr.,San Diego Padres,False,AAV-FT	Fernando Tatis Jr.	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-GH,1,Gunnar Henderson,Baltimore Orioles,False,AAV-GH	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-JC,1,Jac Caglianone,Kansas City Royals,False,AAV-JC	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-JJW,1,JJ Wetherholt,St. Louis Cardinals,False,AAV-JJW	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-JS,1,Juan Soto,New York Mets,False,AAV-JS	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,AAV-JW,,James Wood,1,Washington Nationals,Rookie,False,AAV-JW	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,AAV-MM,,Marcelo Mayer,1,Boston Red Sox,Rookie,False,AAV-MM	Marcelo Mayer	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,AAV-NK,,Nick Kurtz,1,Athletics,Rookie,False,AAV-NK	Nick Kurtz	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-RA,1,Ronald Acuña Jr.,Atlanta Braves,False,AAV-RA	Ronald Acuña Jr.	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-RAN,1,Roman Anthony,Boston Red Sox,False,AAV-RAN	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-TB,1,Travis Bazzana,Cleveland Guardians,False,AAV-TB	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,AAV-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,ADIOS AUTOGRAPH VARIATION,,AAV-WJ,1,Walker Jenkins,Minnesota Twins,False,AAV-WJ	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-AJ,1,Aaron Judge,New York Yankees,False,BAA-AJ	Aaron Judge	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-BW,1,Bobby Witt Jr.,Kansas City Royals,False,BAA-BW	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BAA-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,BAA-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-ED,1,Elly De La Cruz,Cincinnati Reds,False,BAA-ED	Elly De La Cruz	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-EP,1,Elian Peña,New York Mets,False,BAA-EP	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-GH,1,Gunnar Henderson,Baltimore Orioles,False,BAA-GH	Gunnar Henderson	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,BAA-HK,,Hyeseong Kim,1,Los Angeles Dodgers,Rookie,False,BAA-HK	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-JC,1,Jac Caglianone,Kansas City Royals,False,BAA-JC	Jac Caglianone	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-JG,1,Josuar Gonzalez,San Francisco Giants,False,BAA-JG	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-JS,1,Juan Soto,New York Mets,False,BAA-JS	Juan Soto	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-JW,1,JJ Wetherholt,St. Louis Cardinals,False,BAA-JW	JJ Wetherholt	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,BAA-JWO,,James Wood,1,Washington Nationals,Rookie,False,BAA-JWO	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-KG,1,Konnor Griffin,Pittsburgh Pirates,False,BAA-KG	Konnor Griffin	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BAA-LA,,Luisangel Acuña,1,New York Mets,Rookie,False,BAA-LA	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-MS,1,Matt Shaw,Chicago Cubs,False,BAA-MS	Matt Shaw	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-MT,1,Mike Trout,Los Angeles Angels,False,BAA-MT	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-PS,1,Paul Skenes,Pittsburgh Pirates,False,BAA-PS	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-RA,1,Roman Anthony,Boston Red Sox,False,BAA-RA	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BAA-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,BAA-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-TB,1,Travis Bazzana,Cleveland Guardians,False,BAA-TB	Travis Bazzana	Cleveland Guardians
+2025_bowman_chrome,2025,Bowman,Chrome,BOWMAN ASCENSION AUTOGRAPHS,,BAA-WJ,1,Walker Jenkins,Minnesota Twins,False,BAA-WJ	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CD,,Chase Dollander,1,Colorado Rockies,Rookie,False,CRA-CD	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,CRA-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-DC,,Dylan Crews,1,Washington Nationals,Rookie,False,CRA-DC	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JJU,,Jace Jung,1,Detroit Tigers,Rookie,False,CRA-JJU	Jace Jung	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JWI,,Jacob Wilson,1,Athletics,Rookie,False,CRA-JWI	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-JWO,,James Wood,1,Washington Nationals,Rookie,False,CRA-JWO	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-KC,,Kristian Campbell,1,Boston Red Sox,Rookie,False,CRA-KC	Kristian Campbell	Boston Red Sox	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CRA-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,CRA-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-AJ,1,Ayden Johnson,Athletics,False,CPA-AJ	Ayden Johnson	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-AS,1,Andrew Salas,Miami Marlins,False,CPA-AS	Andrew Salas	Miami Marlins
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-BC,1,Brayan Cortesia,Washington Nationals,False,CPA-BC	Brayan Cortesia	Washington Nationals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-CR,1,Cris Rodriguez,Detroit Tigers,False,CPA-CR	Cris Rodriguez	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-DM,1,Djean Macares,San Francisco Giants,False,CPA-DM	Djean Macares	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-DT,1,Diego Tornes,Atlanta Braves,False,CPA-DT	Diego Tornes	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-EP,1,Elian Peña,New York Mets,False,CPA-EP	Elian Peña	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-GD,1,Gabriel Davalillo,Los Angeles Angels,False,CPA-GD	Gabriel Davalillo	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-JD,1,Josuar Gonzalez,San Francisco Giants,False,CPA-JD	Josuar Gonzalez	San Francisco Giants
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-JDL,1,Jhoan De La Cruz,San Diego Padres,False,CPA-JDL	Jhoan De La Cruz	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-JDLS,1,Johan De Los Santos,Pittsburgh Pirates,False,CPA-JDLS	Johan De Los Santos	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-JS,1,Jhonny Severino,Pittsburgh Pirates,False,CPA-JS	Jhonny Severino	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-KA,1,Kevin Alvarez,Houston Astros,False,CPA-KA	Kevin Alvarez	Houston Astros
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-KF,1,Kenny Fenelon,Milwaukee Brewers,False,CPA-KF	Kenny Fenelon	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-LA,1,Liberts Aponte,Cincinnati Reds,False,CPA-LA	Liberts Aponte	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-MC,1,Maykel Coret,Tampa Bay Rays,False,CPA-MC	Maykel Coret	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-MCE,1,Mani Cedeno,New York Yankees,False,CPA-MCE	Mani Cedeno	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-MM,1,Moises Marchán,Kansas City Royals,False,CPA-MM	Moises Marchán	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-RA,1,Ramcell Medina,Kansas City Royals,False,CPA-RA	Ramcell Medina	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-RR,1,Rainiel Rodriguez,St. Louis Cardinals,False,CPA-RR	Rainiel Rodriguez	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-SM,1,Shotaro Morii,Athletics,False,CPA-SM	Shotaro Morii	Athletics
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-SMA,1,Stiven Marinez,New York Yankees,False,CPA-SMA	Stiven Marinez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-WD,1,Wilfri De La Cruz,Chicago Cubs,False,CPA-WD	Wilfri De La Cruz	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-YB,1,Yorger Bautista,Seattle Mariners,False,CPA-YB	Yorger Bautista	Seattle Mariners
+2025_bowman_chrome,2025,Bowman,Chrome,INTERNATIONAL REFRACTOR AUTOGRAPH VARIATION,,CPA-YP,1,Yairo Padilla,St. Louis Cardinals,False,CPA-YP	Yairo Padilla	St. Louis Cardinals
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-AR,1,Adley Rutschman,Baltimore Orioles,False,BCAR-AR	Adley Rutschman	Baltimore Orioles
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-BC,1,Bubba Chandler,Pittsburgh Pirates,False,BCAR-BC	Bubba Chandler	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-BL,,Brooks Lee,1,Minnesota Twins,Rookie,False,BCAR-BL	Brooks Lee	Minnesota Twins	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-BW,1,Bobby Witt Jr.,Kansas City Royals,False,BCAR-BW	Bobby Witt Jr.	Kansas City Royals
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-CD,,Chase Dollander,1,Colorado Rockies,Rookie,False,BCAR-CD	Chase Dollander	Colorado Rockies	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-CM,,Coby Mayo,1,Baltimore Orioles,Rookie,False,BCAR-CM	Coby Mayo	Baltimore Orioles	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-CMO,1,Colson Montgomery,Chicago White Sox,False,BCAR-CMO	Colson Montgomery	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-CP,1,Cooper Pratt,Milwaukee Brewers,False,BCAR-CP	Cooper Pratt	Milwaukee Brewers
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-CS,,Cam Smith,1,Houston Astros,Rookie,False,BCAR-CS	Cam Smith	Houston Astros	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-CW,1,Carson Williams,Tampa Bay Rays,False,BCAR-CW	Carson Williams	Tampa Bay Rays
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-DB,,Drake Baldwin,1,Atlanta Braves,Rookie,False,BCAR-DB	Drake Baldwin	Atlanta Braves	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-DC,,Dylan Crews,1,Washington Nationals,Rookie,False,BCAR-DC	Dylan Crews	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-DR,,Dalton Rushing,1,Los Angeles Dodgers,Rookie,False,BCAR-DR	Dalton Rushing	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-ED,1,Elly De La Cruz,Cincinnati Reds,False,BCAR-ED	Elly De La Cruz	Cincinnati Reds
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-HK,,Hyeseong Kim,1,Los Angeles Dodgers,Rookie,False,BCAR-HK	Hyeseong Kim	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-JD,1,Jasson Domínguez,New York Yankees,False,BCAR-JD	Jasson Domínguez	New York Yankees
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-JJU,,Jace Jung,1,Detroit Tigers,Rookie,False,BCAR-JJU	Jace Jung	Detroit Tigers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-JW,,James Wood,1,Washington Nationals,Rookie,False,BCAR-JW	James Wood	Washington Nationals	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-JWI,,Jacob Wilson,1,Athletics,Rookie,False,BCAR-JWI	Jacob Wilson	Athletics	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-KA,,Kevin Alcántara,1,Chicago Cubs,Rookie,False,BCAR-KA	Kevin Alcántara	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-KR,,Kumar Rocker,1,Texas Rangers,Rookie,False,BCAR-KR	Kumar Rocker	Texas Rangers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-KT,1,Kyle Teel,Chicago White Sox,False,BCAR-KT	Kyle Teel	Chicago White Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-LA,,Luisangel Acuña,1,New York Mets,Rookie,False,BCAR-LA	Luisangel Acuña	New York Mets	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-MC,1,Max Clark,Detroit Tigers,False,BCAR-MC	Max Clark	Detroit Tigers
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-MM,1,Manny Machado,San Diego Padres,False,BCAR-MM	Manny Machado	San Diego Padres
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-MS,,Matt Shaw,1,Chicago Cubs,Rookie,False,BCAR-MS	Matt Shaw	Chicago Cubs	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-MT,1,Mike Trout,Los Angeles Angels,False,BCAR-MT	Mike Trout	Los Angeles Angels
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-PA,1,Pete Alonso,New York Mets,False,BCAR-PA	Pete Alonso	New York Mets
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-PS,1,Paul Skenes,Pittsburgh Pirates,False,BCAR-PS	Paul Skenes	Pittsburgh Pirates
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-RA,1,Ronald Acuña Jr.,Atlanta Braves,False,BCAR-RA	Ronald Acuña Jr.	Atlanta Braves
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-RAN,1,Roman Anthony,Boston Red Sox,False,BCAR-RAN	Roman Anthony	Boston Red Sox
+2025_bowman_chrome,2025,Bowman,Chrome,BCAR-RS,,Roki Sasaki,1,Los Angeles Dodgers,Rookie,False,BCAR-RS	Roki Sasaki	Los Angeles Dodgers	Rookie
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-SI,1,Shota Imanaga,Chicago Cubs,False,BCAR-SI	Shota Imanaga	Chicago Cubs
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-VG,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,BCAR-VG	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-WJ,1,Walker Jenkins,Minnesota Twins,False,BCAR-WJ	Walker Jenkins	Minnesota Twins
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-WL,1,Wyatt Langford,Texas Rangers,False,BCAR-WL	Wyatt Langford	Texas Rangers
+2025_bowman_chrome,2025,Bowman,Chrome,CHROME AUTOGRAPH RELICS,,BCAR-YY,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,BCAR-YY	Yoshinobu Yamamoto	Los Angeles Dodgers

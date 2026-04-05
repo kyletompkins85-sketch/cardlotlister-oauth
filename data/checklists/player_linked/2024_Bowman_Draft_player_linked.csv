@@ -1,0 +1,771 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_slot,player_name_raw,affiliation_raw,is_multi_player,raw_line
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-1,1,Travis Bazzana,Cleveland Guardians,False,Bowman Base	BD-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-2,1,Hagen Smith,Chicago White Sox,False,Bowman Base	BD-2	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-3,1,Josh Hartle,Pittsburgh Pirates,False,Bowman Base	BD-3	Josh Hartle	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-4,1,Thayron Liranzo,Detroit Tigers,False,Bowman Base	BD-4	Thayron Liranzo	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-5,1,Luis Guanipa,Atlanta Braves,False,Bowman Base	BD-5	Luis Guanipa	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-6,1,Jaron DeBerry,Milwaukee Brewers,False,Bowman Base	BD-6	Jaron DeBerry	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-7,1,Ethan Schiefelbein,Detroit Tigers,False,Bowman Base	BD-7	Ethan Schiefelbein	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-8,1,Jac Caglianone,Kansas City Royals,False,Bowman Base	BD-8	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-9,1,Cole Messina,Colorado Rockies,False,Bowman Base	BD-9	Cole Messina	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-10,1,Gage Ziehl,New York Yankees,False,Bowman Base	BD-10	Gage Ziehl	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-11,1,Jared Thomas,Colorado Rockies,False,Bowman Base	BD-11	Jared Thomas	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-12,1,Carter Johnson,Miami Marlins,False,Bowman Base	BD-12	Carter Johnson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-13,1,Christian Moore,Los Angeles Angels,False,Bowman Base	BD-13	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-14,1,Nick McLain,Chicago White Sox,False,Bowman Base	BD-14	Nick McLain	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-15,1,Colt Emerson,Seattle Mariners,False,Bowman Base	BD-15	Colt Emerson	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-16,1,Dante Nori,Philadelphia Phillies,False,Bowman Base	BD-16	Dante Nori	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-17,1,Woody Hadeen,Detroit Tigers,False,Bowman Base	BD-17	Woody Hadeen	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-18,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Bowman Base	BD-18	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-19,1,Roman Anthony,Boston Red Sox,False,Bowman Base	BD-19	Roman Anthony	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-20,1,Cam Caminiti,Atlanta Braves,False,Bowman Base	BD-20	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-21,1,Griff O'Ferrall,Baltimore Orioles,False,Bowman Base	BD-21	Griff O'Ferrall	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-22,1,Konnor Griffin,Pittsburgh Pirates,False,Bowman Base	BD-22	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-23,1,Rhett Lowder,Cincinnati Reds,False,Bowman Base	BD-23	Rhett Lowder	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-24,1,Kellon Lindsey,Los Angeles Dodgers,False,Bowman Base	BD-24	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-25,1,Harry Ford,Seattle Mariners,False,Bowman Base	BD-25	Harry Ford	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-26,1,Matt Shaw,Chicago Cubs,False,Bowman Base	BD-26	Matt Shaw	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-27,1,Blake Wright,Colorado Rockies,False,Bowman Base	BD-27	Blake Wright	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-28,1,Carson Benge,New York Mets,False,Bowman Base	BD-28	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-29,1,Ivan Luciano,Arizona Diamondbacks,False,Bowman Base	BD-29	Ivan Luciano	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-30,1,Jacob Cozart,Cleveland Guardians,False,Bowman Base	BD-30	Jacob Cozart	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-31,1,Caleb Bonemer,Chicago White Sox,False,Bowman Base	BD-31	Caleb Bonemer	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-32,1,Mike Sirota,Cincinnati Reds,False,Bowman Base	BD-32	Mike Sirota	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-33,1,Casey Saucke,Chicago White Sox,False,Bowman Base	BD-33	Casey Saucke	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-34,1,Boston Bateman,San Diego Padres,False,Bowman Base	BD-34	Boston Bateman	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-35,1,JD Dix,Arizona Diamondbacks,False,Bowman Base	BD-35	JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-36,1,Johnny King,Toronto Blue Jays,False,Bowman Base	BD-36	Johnny King	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-37,1,Braylon Doughty,Cleveland Guardians,False,Bowman Base	BD-37	Braylon Doughty	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-38,1,Noble Meyer,Miami Marlins,False,Bowman Base	BD-38	Noble Meyer	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-39,1,Brody Brecht,Colorado Rockies,False,Bowman Base	BD-39	Brody Brecht	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-40,1,James Tibbs III,San Francisco Giants,False,Bowman Base	BD-40	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-41,1,Ryan Johnson,Los Angeles Angels,False,Bowman Base	BD-41	Ryan Johnson	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-42,1,Dylan Dreiling,Texas Rangers,False,Bowman Base	BD-42	Dylan Dreiling	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-43,1,Tink Hence,St. Louis Cardinals,False,Bowman Base	BD-43	Tink Hence	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-44,1,Tyson Lewis,Cincinnati Reds,False,Bowman Base	BD-44	Tyson Lewis	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-45,1,Ty Southisene,Chicago Cubs,False,Bowman Base	BD-45	Ty Southisene	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-46,1,Dalton Rushing,Los Angeles Dodgers,False,Bowman Base	BD-46	Dalton Rushing	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-47,1,Josue De Paula,Los Angeles Dodgers,False,Bowman Base	BD-47	Josue De Paula	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-48,1,Bryce Eldridge,San Francisco Giants,False,Bowman Base	BD-48	Bryce Eldridge	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-49,1,John Spikerman,Philadelphia Phillies,False,Bowman Base	BD-49	John Spikerman	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-50,1,Connor Foley,Arizona Diamondbacks,False,Bowman Base	BD-50	Connor Foley	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-51,1,Tyson Neighbors,San Diego Padres,False,Bowman Base	BD-51	Tyson Neighbors	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-52,1,Ryan Clifford,New York Mets,False,Bowman Base	BD-52	Ryan Clifford	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-53,1,Daniel Eagen,Arizona Diamondbacks,False,Bowman Base	BD-53	Daniel Eagen	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-54,1,Josh Kuroda-Grauer,Oakland Athletics,False,Bowman Base	BD-54	Josh Kuroda-Grauer	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-55,1,Chase Burns,Cincinnati Reds,False,Bowman Base	BD-55	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-56,1,Nick Kurtz,Oakland Athletics,False,Bowman Base	BD-56	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-57,1,Kavares Tears,San Diego Padres,False,Bowman Base	BD-57	Kavares Tears	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-58,1,Braden Montgomery,Boston Red Sox,False,Bowman Base	BD-58	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-59,1,Khal Stephen,Toronto Blue Jays,False,Bowman Base	BD-59	Khal Stephen	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-60,1,Griffin Burkholder,Philadelphia Phillies,False,Bowman Base	BD-60	Griffin Burkholder	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-61,1,Zac Veen,Colorado Rockies,False,Bowman Base	BD-61	Zac Veen	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-62,1,Seaver King,Washington Nationals,False,Bowman Base	BD-62	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-63,1,Payton Tolle,Boston Red Sox,False,Bowman Base	BD-63	Payton Tolle	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-64,1,Gage Miller,Miami Marlins,False,Bowman Base	BD-64	Gage Miller	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-65,1,Jonathan Santucci,New York Mets,False,Bowman Base	BD-65	Jonathan Santucci	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-66,1,Casey Cook,Texas Rangers,False,Bowman Base	BD-66	Casey Cook	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-67,1,Cam Smith,Chicago Cubs,False,Bowman Base	BD-67	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-68,1,Billy Amick,Minnesota Twins,False,Bowman Base	BD-68	Billy Amick	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-69,1,Caden Dana,Los Angeles Angels,False,Bowman Base	BD-69	Caden Dana	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-70,1,Kash Mayfield,San Diego Padres,False,Bowman Base	BD-70	Kash Mayfield	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-71,1,Dakota Jordan,San Francisco Giants,False,Bowman Base	BD-71	Dakota Jordan	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-72,1,Braylon Payne,Milwaukee Brewers,False,Bowman Base	BD-72	Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-73,1,Theo Gillen,Tampa Bay Rays,False,Bowman Base	BD-73	Theo Gillen	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-74,1,Carter Holton,Atlanta Braves,False,Bowman Base	BD-74	Carter Holton	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-75,1,Drew Beam,Kansas City Royals,False,Bowman Base	BD-75	Drew Beam	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-76,1,Felnin Celesten,Seattle Mariners,False,Bowman Base	BD-76	Felnin Celesten	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-77,1,Chris Cortez,Los Angeles Angels,False,Bowman Base	BD-77	Chris Cortez	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-78,1,Mick Abel,Philadelphia Phillies,False,Bowman Base	BD-78	Mick Abel	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-79,1,Ethan Anderson,Baltimore Orioles,False,Bowman Base	BD-79	Ethan Anderson	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-80,1,Michael Massey,Detroit Tigers,False,Bowman Base	BD-80	Michael Massey	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-81,1,Cole Mathis,Chicago Cubs,False,Bowman Base	BD-81	Cole Mathis	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-82,1,Luke Keaschall,Minnesota Twins,False,Bowman Base	BD-82	Luke Keaschall	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-83,1,Levi Sterling,Pittsburgh Pirates,False,Bowman Base	BD-83	Levi Sterling	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-84,1,Cooper Pratt,Milwaukee Brewers,False,Bowman Base	BD-84	Cooper Pratt	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-85,1,Blake Larson,Chicago White Sox,False,Bowman Base	BD-85	Blake Larson	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-86,1,Bryce Rainer,Detroit Tigers,False,Bowman Base	BD-86	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-87,1,Ben Hess,New York Yankees,False,Bowman Base	BD-87	Ben Hess	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-88,1,Nathan Flewelling,Tampa Bay Rays,False,Bowman Base	BD-88	Nathan Flewelling	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-89,1,Carson DeMartini,Philadelphia Phillies,False,Bowman Base	BD-89	Carson DeMartini	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-90,1,Brandon Sproat,New York Mets,False,Bowman Base	BD-90	Brandon Sproat	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-91,1,Aiden May,Miami Marlins,False,Bowman Base	BD-91	Aiden May	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-92,1,Trey Yesavage,Toronto Blue Jays,False,Bowman Base	BD-92	Trey Yesavage	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-93,1,Joswa Lugo,Los Angeles Angels,False,Bowman Base	BD-93	Joswa Lugo	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-94,1,Bryce Meccage,Milwaukee Brewers,False,Bowman Base	BD-94	Bryce Meccage	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-95,1,Blake Burke,Milwaukee Brewers,False,Bowman Base	BD-95	Blake Burke	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-96,1,Chase Harlan,Los Angeles Dodgers,False,Bowman Base	BD-96	Chase Harlan	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-97,1,Bryce Cunningham,New York Yankees,False,Bowman Base	BD-97	Bryce Cunningham	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-98,1,Kaelen Culpepper,Minnesota Twins,False,Bowman Base	BD-98	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-99,1,Ryan Sloan,Seattle Mariners,False,Bowman Base	BD-99	Ryan Sloan	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-100,1,Luke Holman,Cincinnati Reds,False,Bowman Base	BD-100	Luke Holman	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-101,1,Nate Dohm,New York Mets,False,Bowman Base	BD-101	Nate Dohm	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-102,1,Arjun Nimmala,Toronto Blue Jays,False,Bowman Base	BD-102	Arjun Nimmala	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-103,1,Chandler Welch,Milwaukee Brewers,False,Bowman Base	BD-103	Chandler Welch	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-104,1,Max Clark,Detroit Tigers,False,Bowman Base	BD-104	Max Clark	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-105,1,Daiber De Los Santos,Minnesota Twins,False,Bowman Base	BD-105	Daiber De Los Santos	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-106,1,Yoeilin Cespedes,Boston Red Sox,False,Bowman Base	BD-106	Yoeilin Cespedes	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-107,1,Francisco Vilorio,New York Yankees,False,Bowman Base	BD-107	Francisco Vilorio	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-108,1,Kodey Shojinaga,Philadelphia Phillies,False,Bowman Base	BD-108	Kodey Shojinaga	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-109,1,Ariel Armas,Chicago Cubs,False,Bowman Base	BD-109	Ariel Armas	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-110,1,Luis Baez,Houston Astros,False,Bowman Base	BD-110	Luis Baez	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-111,1,Tommy Troy,Arizona Diamondbacks,False,Bowman Base	BD-111	Tommy Troy	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-112,1,Sebastian Walcott,Texas Rangers,False,Bowman Base	BD-112	Sebastian Walcott	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-113,1,Emil Morales,Los Angeles Dodgers,False,Bowman Base	BD-113	Emil Morales	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-114,1,Nick Mitchell,Toronto Blue Jays,False,Bowman Base	BD-114	Nick Mitchell	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-115,1,Aidan Miller,Philadelphia Phillies,False,Bowman Base	BD-115	Aidan Miller	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-116,1,Leo De Vries,San Diego Padres,False,Bowman Base	BD-116	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-117,1,Brock Wilken,Milwaukee Brewers,False,Bowman Base	BD-117	Brock Wilken	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-118,1,George Lombard Jr.,New York Yankees,False,Bowman Base	BD-118	George Lombard Jr.	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-119,1,Adolfo Sanchez,Cincinnati Reds,False,Bowman Base	BD-119	Adolfo Sanchez	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-120,1,Yohandy Morales,Washington Nationals,False,Bowman Base	BD-120	Yohandy Morales	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-121,1,Fenwick Trimble,Miami Marlins,False,Bowman Base	BD-121	Fenwick Trimble	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-122,1,Brandon Neely,Boston Red Sox,False,Bowman Base	BD-122	Brandon Neely	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-123,1,Chase Allsup,Baltimore Orioles,False,Bowman Base	BD-123	Chase Allsup	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-124,1,Bralyn Brazoban,Pittsburgh Pirates,False,Bowman Base	BD-124	Bralyn Brazoban	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-125,1,Dylan Crews,Washington Nationals,False,Bowman Base	BD-125	Dylan Crews	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-126,1,Paulino Santana,Texas Rangers,False,Bowman Base	BD-126	Paulino Santana	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-127,1,Carter Mathison,Philadelphia Phillies,False,Bowman Base	BD-127	Carter Mathison	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-128,1,Samuel Basallo,Baltimore Orioles,False,Bowman Base	BD-128	Samuel Basallo	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-129,1,Nick Montgomery,Atlanta Braves,False,Bowman Base	BD-129	Nick Montgomery	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-130,1,Grant Shepardson,Miami Marlins,False,Bowman Base	BD-130	Grant Shepardson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-131,1,Aidan Smith,Tampa Bay Rays,False,Bowman Base	BD-131	Aidan Smith	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-132,1,Charlie Beilenson,Seattle Mariners,False,Bowman Base	BD-132	Charlie Beilenson	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-133,1,Agustin Ramirez,Miami Marlins,False,Bowman Base	BD-133	Agustin Ramirez	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-134,1,Deyvison De Los Santos,Miami Marlins,False,Bowman Base	BD-134	Deyvison De Los Santos	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-135,1,Enrique Bradfield Jr.,Baltimore Orioles,False,Bowman Base	BD-135	Enrique Bradfield Jr.	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-136,1,Adriel Radney,Arizona Diamondbacks,False,Bowman Base	BD-136	Adriel Radney	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-137,1,Brian Holiday,St. Louis Cardinals,False,Bowman Base	BD-137	Brian Holiday	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-138,1,Trey Snyder,New York Mets,False,Bowman Base	BD-138	Trey Snyder	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-139,1,Zyhir Hope,Los Angeles Dodgers,False,Bowman Base	BD-139	Zyhir Hope	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-140,1,Ethan Salas,San Diego Padres,False,Bowman Base	BD-140	Ethan Salas	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-141,1,Myles Naylor,Oakland Athletics,False,Bowman Base	BD-141	Myles Naylor	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-142,1,Echedry Vargas,Texas Rangers,False,Bowman Base	BD-142	Echedry Vargas	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-143,1,Rafe Schlesinger,Cleveland Guardians,False,Bowman Base	BD-143	Rafe Schlesinger	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-144,1,Hunter Cranton,Seattle Mariners,False,Bowman Base	BD-144	Hunter Cranton	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-145,1,Herick Hernandez,Atlanta Braves,False,Bowman Base	BD-145	Herick Hernandez	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-146,1,Zach Ehrhard,Boston Red Sox,False,Bowman Base	BD-146	Zach Ehrhard	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-147,1,Sheng-En Lin,Cincinnati Reds,False,Bowman Base	BD-147	Sheng-En Lin	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-148,1,Fernando Cruz,Chicago Cubs,False,Bowman Base	BD-148	Fernando Cruz	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-149,1,Vladimir Asencio,Boston Red Sox,False,Bowman Base	BD-149	Vladimir Asencio	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-150,1,Juan Baez,Milwaukee Brewers,False,Bowman Base	BD-150	Juan Baez	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-151,1,Clark Candiotti,San Diego Padres,False,Bowman Base	BD-151	Clark Candiotti	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-152,1,Walker Martin,San Francisco Giants,False,Bowman Base	BD-152	Walker Martin	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-153,1,Nate Knowles,Tampa Bay Rays,False,Bowman Base	BD-153	Nate Knowles	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-154,1,Jeral Perez,Chicago White Sox,False,Bowman Base	BD-154	Jeral Perez	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-155,1,Josh Caron,Seattle Mariners,False,Bowman Base	BD-155	Josh Caron	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-156,1,Ryan Campos,St. Louis Cardinals,False,Bowman Base	BD-156	Ryan Campos	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-157,1,Tytus Cissell,Arizona Diamondbacks,False,Bowman Base	BD-157	Tytus Cissell	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-158,1,Sam Antonacci,Chicago White Sox,False,Bowman Base	BD-158	Sam Antonacci	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-159,1,A.J. Causey,Kansas City Royals,False,Bowman Base	BD-159	A.J. Causey	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-160,1,Aaron Parker,Toronto Blue Jays,False,Bowman Base	BD-160	Aaron Parker	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-161,1,Jared Serna,Miami Marlins,False,Bowman Base	BD-161	Jared Serna	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-162,1,Kyle Teel,Boston Red Sox,False,Bowman Base	BD-162	Kyle Teel	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-163,1,Eli Serrano,New York Mets,False,Bowman Base	BD-163	Eli Serrano	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-164,1,Alexander Albertus,Chicago White Sox,False,Bowman Base	BD-164	Alexander Albertus	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-165,1,Curley Martha,Texas Rangers,False,Bowman Base	BD-165	Curley Martha	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-166,1,Walker Jenkins,Minnesota Twins,False,Bowman Base	BD-166	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-167,1,Jaime Ferrer,Minnesota Twins,False,Bowman Base	BD-167	Jaime Ferrer	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-168,1,Victor Hurtado,Washington Nationals,False,Bowman Base	BD-168	Victor Hurtado	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-169,1,Braylin Morel,Texas Rangers,False,Bowman Base	BD-169	Braylin Morel	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-170,1,Dawel Joseph,Seattle Mariners,False,Bowman Base	BD-170	Dawel Joseph	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-171,1,Jeremy Rodriguez,New York Mets,False,Bowman Base	BD-171	Jeremy Rodriguez	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-172,1,Brock Porter,Texas Rangers,False,Bowman Base	BD-172	Brock Porter	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-173,1,Griffin Herring,New York Yankees,False,Bowman Base	BD-173	Griffin Herring	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-174,1,Jackson Kent,Washington Nationals,False,Bowman Base	BD-174	Jackson Kent	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-175,1,Yovanny Rodriguez,New York Mets,False,Bowman Base	BD-175	Yovanny Rodriguez	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-176,1,Camilo Diaz,Houston Astros,False,Bowman Base	BD-176	Camilo Diaz	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-177,1,Joendry Vargas,Los Angeles Dodgers,False,Bowman Base	BD-177	Joendry Vargas	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-178,1,Pablo Guerrero,Texas Rangers,False,Bowman Base	BD-178	Pablo Guerrero	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-179,1,Eduardo Herrera,Chicago White Sox,False,Bowman Base	BD-179	Eduardo Herrera	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-180,1,Eddie Rynders,Pittsburgh Pirates,False,Bowman Base	BD-180	Eddie Rynders	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-181,1,Ethan Bagwell,Atlanta Braves,False,Bowman Base	BD-181	Ethan Bagwell	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-182,1,Brayden Taylor,Tampa Bay Rays,False,Bowman Base	BD-182	Brayden Taylor	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-183,1,L.P. Langevin,Kansas City Royals,False,Bowman Base	BD-183	L.P. Langevin	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-184,1,Josiah Romeo,Oakland Athletics,False,Bowman Base	BD-184	Josiah Romeo	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-185,1,Jackson Wentworth,Toronto Blue Jays,False,Bowman Base	BD-185	Jackson Wentworth	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-186,1,Parker Smith,Houston Astros,False,Bowman Base	BD-186	Parker Smith	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-187,1,Rodney Green,Oakland Athletics,False,Bowman Base	BD-187	Rodney Green	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-188,1,Derniche Valdez,Chicago Cubs,False,Bowman Base	BD-188	Derniche Valdez	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-189,1,Rayner Arias,San Francisco Giants,False,Bowman Base	BD-189	Rayner Arias	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-190,1,Vladi Guerrero,New York Mets,False,Bowman Base	BD-190	Vladi Guerrero	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-191,1,Byron Chourio,Minnesota Twins,False,Bowman Base	BD-191	Byron Chourio	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-192,1,Brooks Auger,Los Angeles Dodgers,False,Bowman Base	BD-192	Brooks Auger	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-193,1,Jonny Farmelo,Seattle Mariners,False,Bowman Base	BD-193	Jonny Farmelo	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-194,1,Tai Peete,Seattle Mariners,False,Bowman Base	BD-194	Tai Peete	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-195,1,Tanner Jones,Kansas City Royals,False,Bowman Base	BD-195	Tanner Jones	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-196,1,Aidan Major,Cleveland Guardians,False,Bowman Base	BD-196	Aidan Major	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-197,1,Tre' Morgan,Tampa Bay Rays,False,Bowman Base	BD-197	Tre' Morgan	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-198,1,Ryan Harvey,New York Yankees,False,Bowman Base	BD-198	Ryan Harvey	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-199,1,Randal Diaz,Washington Nationals,False,Bowman Base	BD-199	Randal Diaz	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Base,,BD-200,1,Jose Perdomo,Atlanta Braves,False,Bowman Base	BD-200	Jose Perdomo	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-1,1,Travis Bazzana,Cleveland Guardians,False,Bowman Chrome Base	BDC-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-2,1,Hagen Smith,Chicago White Sox,False,Bowman Chrome Base	BDC-2	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-3,1,Josh Hartle,Pittsburgh Pirates,False,Bowman Chrome Base	BDC-3	Josh Hartle	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-4,1,Thayron Liranzo,Detroit Tigers,False,Bowman Chrome Base	BDC-4	Thayron Liranzo	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-5,1,Luis Guanipa,Atlanta Braves,False,Bowman Chrome Base	BDC-5	Luis Guanipa	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-6,1,Jaron DeBerry,Milwaukee Brewers,False,Bowman Chrome Base	BDC-6	Jaron DeBerry	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-7,1,Ethan Schiefelbein,Detroit Tigers,False,Bowman Chrome Base	BDC-7	Ethan Schiefelbein	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-8,1,Jac Caglianone,Kansas City Royals,False,Bowman Chrome Base	BDC-8	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-9,1,Cole Messina,Colorado Rockies,False,Bowman Chrome Base	BDC-9	Cole Messina	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-10,1,Gage Ziehl,New York Yankees,False,Bowman Chrome Base	BDC-10	Gage Ziehl	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-11,1,Jared Thomas,Colorado Rockies,False,Bowman Chrome Base	BDC-11	Jared Thomas	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-12,1,Carter Johnson,Miami Marlins,False,Bowman Chrome Base	BDC-12	Carter Johnson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-13,1,Christian Moore,Los Angeles Angels,False,Bowman Chrome Base	BDC-13	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-14,1,Nick McLain,Chicago White Sox,False,Bowman Chrome Base	BDC-14	Nick McLain	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-15,1,Colt Emerson,Seattle Mariners,False,Bowman Chrome Base	BDC-15	Colt Emerson	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-16,1,Dante Nori,Philadelphia Phillies,False,Bowman Chrome Base	BDC-16	Dante Nori	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-17,1,Woody Hadeen,Detroit Tigers,False,Bowman Chrome Base	BDC-17	Woody Hadeen	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-18,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-18	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-19,1,Roman Anthony,Boston Red Sox,False,Bowman Chrome Base	BDC-19	Roman Anthony	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-20,1,Cam Caminiti,Atlanta Braves,False,Bowman Chrome Base	BDC-20	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-21,1,Griff O'Ferrall,Baltimore Orioles,False,Bowman Chrome Base	BDC-21	Griff O'Ferrall	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-22,1,Konnor Griffin,Pittsburgh Pirates,False,Bowman Chrome Base	BDC-22	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-23,1,Rhett Lowder,Cincinnati Reds,False,Bowman Chrome Base	BDC-23	Rhett Lowder	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-24,1,Kellon Lindsey,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-24	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-25,1,Harry Ford,Seattle Mariners,False,Bowman Chrome Base	BDC-25	Harry Ford	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-26,1,Matt Shaw,Chicago Cubs,False,Bowman Chrome Base	BDC-26	Matt Shaw	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-27,1,Blake Wright,Colorado Rockies,False,Bowman Chrome Base	BDC-27	Blake Wright	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-28,1,Carson Benge,New York Mets,False,Bowman Chrome Base	BDC-28	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-29,1,Ivan Luciano,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-29	Ivan Luciano	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-30,1,Jacob Cozart,Cleveland Guardians,False,Bowman Chrome Base	BDC-30	Jacob Cozart	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-31,1,Caleb Bonemer,Chicago White Sox,False,Bowman Chrome Base	BDC-31	Caleb Bonemer	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-32,1,Mike Sirota,Cincinnati Reds,False,Bowman Chrome Base	BDC-32	Mike Sirota	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-33,1,Casey Saucke,Chicago White Sox,False,Bowman Chrome Base	BDC-33	Casey Saucke	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-34,1,Boston Bateman,San Diego Padres,False,Bowman Chrome Base	BDC-34	Boston Bateman	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-35,1,JD Dix,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-35	JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-36,1,Johnny King,Toronto Blue Jays,False,Bowman Chrome Base	BDC-36	Johnny King	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-37,1,Braylon Doughty,Cleveland Guardians,False,Bowman Chrome Base	BDC-37	Braylon Doughty	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-38,1,Noble Meyer,Miami Marlins,False,Bowman Chrome Base	BDC-38	Noble Meyer	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-39,1,Brody Brecht,Colorado Rockies,False,Bowman Chrome Base	BDC-39	Brody Brecht	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-40,1,James Tibbs III,San Francisco Giants,False,Bowman Chrome Base	BDC-40	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-41,1,Ryan Johnson,Los Angeles Angels,False,Bowman Chrome Base	BDC-41	Ryan Johnson	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-42,1,Dylan Dreiling,Texas Rangers,False,Bowman Chrome Base	BDC-42	Dylan Dreiling	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-43,1,Tink Hence,St. Louis Cardinals,False,Bowman Chrome Base	BDC-43	Tink Hence	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-44,1,Tyson Lewis,Cincinnati Reds,False,Bowman Chrome Base	BDC-44	Tyson Lewis	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-45,1,Ty Southisene,Chicago Cubs,False,Bowman Chrome Base	BDC-45	Ty Southisene	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-46,1,Dalton Rushing,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-46	Dalton Rushing	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-47,1,Josue De Paula,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-47	Josue De Paula	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-48,1,Bryce Eldridge,San Francisco Giants,False,Bowman Chrome Base	BDC-48	Bryce Eldridge	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-49,1,John Spikerman,Philadelphia Phillies,False,Bowman Chrome Base	BDC-49	John Spikerman	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-50,1,Connor Foley,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-50	Connor Foley	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-51,1,Tyson Neighbors,San Diego Padres,False,Bowman Chrome Base	BDC-51	Tyson Neighbors	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-52,1,Ryan Clifford,New York Mets,False,Bowman Chrome Base	BDC-52	Ryan Clifford	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-53,1,Daniel Eagen,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-53	Daniel Eagen	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-54,1,Josh Kuroda-Grauer,Oakland Athletics,False,Bowman Chrome Base	BDC-54	Josh Kuroda-Grauer	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-55,1,Chase Burns,Cincinnati Reds,False,Bowman Chrome Base	BDC-55	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-56,1,Nick Kurtz,Oakland Athletics,False,Bowman Chrome Base	BDC-56	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-57,1,Kavares Tears,San Diego Padres,False,Bowman Chrome Base	BDC-57	Kavares Tears	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-58,1,Braden Montgomery,Boston Red Sox,False,Bowman Chrome Base	BDC-58	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-59,1,Khal Stephen,Toronto Blue Jays,False,Bowman Chrome Base	BDC-59	Khal Stephen	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-60,1,Griffin Burkholder,Philadelphia Phillies,False,Bowman Chrome Base	BDC-60	Griffin Burkholder	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-61,1,Zac Veen,Colorado Rockies,False,Bowman Chrome Base	BDC-61	Zac Veen	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-62,1,Seaver King,Washington Nationals,False,Bowman Chrome Base	BDC-62	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-63,1,Payton Tolle,Boston Red Sox,False,Bowman Chrome Base	BDC-63	Payton Tolle	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-64,1,Gage Miller,Miami Marlins,False,Bowman Chrome Base	BDC-64	Gage Miller	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-65,1,Jonathan Santucci,New York Mets,False,Bowman Chrome Base	BDC-65	Jonathan Santucci	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-66,1,Casey Cook,Texas Rangers,False,Bowman Chrome Base	BDC-66	Casey Cook	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-67,1,Cam Smith,Chicago Cubs,False,Bowman Chrome Base	BDC-67	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-68,1,Billy Amick,Minnesota Twins,False,Bowman Chrome Base	BDC-68	Billy Amick	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-69,1,Caden Dana,Los Angeles Angels,False,Bowman Chrome Base	BDC-69	Caden Dana	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-70,1,Kash Mayfield,San Diego Padres,False,Bowman Chrome Base	BDC-70	Kash Mayfield	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-71,1,Dakota Jordan,San Francisco Giants,False,Bowman Chrome Base	BDC-71	Dakota Jordan	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-72,1,Braylon Payne,Milwaukee Brewers,False,Bowman Chrome Base	BDC-72	Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-73,1,Theo Gillen,Tampa Bay Rays,False,Bowman Chrome Base	BDC-73	Theo Gillen	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-74,1,Carter Holton,Atlanta Braves,False,Bowman Chrome Base	BDC-74	Carter Holton	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-75,1,Drew Beam,Kansas City Royals,False,Bowman Chrome Base	BDC-75	Drew Beam	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-76,1,Felnin Celesten,Seattle Mariners,False,Bowman Chrome Base	BDC-76	Felnin Celesten	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-77,1,Chris Cortez,Los Angeles Angels,False,Bowman Chrome Base	BDC-77	Chris Cortez	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-78,1,Mick Abel,Philadelphia Phillies,False,Bowman Chrome Base	BDC-78	Mick Abel	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-79,1,Ethan Anderson,Baltimore Orioles,False,Bowman Chrome Base	BDC-79	Ethan Anderson	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-80,1,Michael Massey,Detroit Tigers,False,Bowman Chrome Base	BDC-80	Michael Massey	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-81,1,Cole Mathis,Chicago Cubs,False,Bowman Chrome Base	BDC-81	Cole Mathis	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-82,1,Luke Keaschall,Minnesota Twins,False,Bowman Chrome Base	BDC-82	Luke Keaschall	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-83,1,Levi Sterling,Pittsburgh Pirates,False,Bowman Chrome Base	BDC-83	Levi Sterling	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-84,1,Cooper Pratt,Milwaukee Brewers,False,Bowman Chrome Base	BDC-84	Cooper Pratt	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-85,1,Blake Larson,Chicago White Sox,False,Bowman Chrome Base	BDC-85	Blake Larson	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-86,1,Bryce Rainer,Detroit Tigers,False,Bowman Chrome Base	BDC-86	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-87,1,Ben Hess,New York Yankees,False,Bowman Chrome Base	BDC-87	Ben Hess	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-88,1,Nathan Flewelling,Tampa Bay Rays,False,Bowman Chrome Base	BDC-88	Nathan Flewelling	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-89,1,Carson DeMartini,Philadelphia Phillies,False,Bowman Chrome Base	BDC-89	Carson DeMartini	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-90,1,Brandon Sproat,New York Mets,False,Bowman Chrome Base	BDC-90	Brandon Sproat	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-91,1,Aiden May,Miami Marlins,False,Bowman Chrome Base	BDC-91	Aiden May	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-92,1,Trey Yesavage,Toronto Blue Jays,False,Bowman Chrome Base	BDC-92	Trey Yesavage	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-93,1,Joswa Lugo,Los Angeles Angels,False,Bowman Chrome Base	BDC-93	Joswa Lugo	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-94,1,Bryce Meccage,Milwaukee Brewers,False,Bowman Chrome Base	BDC-94	Bryce Meccage	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-95,1,Blake Burke,Milwaukee Brewers,False,Bowman Chrome Base	BDC-95	Blake Burke	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-96,1,Chase Harlan,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-96	Chase Harlan	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-97,1,Bryce Cunningham,New York Yankees,False,Bowman Chrome Base	BDC-97	Bryce Cunningham	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-98,1,Kaelen Culpepper,Minnesota Twins,False,Bowman Chrome Base	BDC-98	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-99,1,Ryan Sloan,Seattle Mariners,False,Bowman Chrome Base	BDC-99	Ryan Sloan	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-100,1,Luke Holman,Cincinnati Reds,False,Bowman Chrome Base	BDC-100	Luke Holman	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-101,1,Nate Dohm,New York Mets,False,Bowman Chrome Base	BDC-101	Nate Dohm	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-102,1,Arjun Nimmala,Toronto Blue Jays,False,Bowman Chrome Base	BDC-102	Arjun Nimmala	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-103,1,Chandler Welch,Milwaukee Brewers,False,Bowman Chrome Base	BDC-103	Chandler Welch	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-104,1,Max Clark,Detroit Tigers,False,Bowman Chrome Base	BDC-104	Max Clark	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-105,1,Daiber De Los Santos,Minnesota Twins,False,Bowman Chrome Base	BDC-105	Daiber De Los Santos	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-106,1,Yoeilin Cespedes,Boston Red Sox,False,Bowman Chrome Base	BDC-106	Yoeilin Cespedes	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-107,1,Francisco Vilorio,New York Yankees,False,Bowman Chrome Base	BDC-107	Francisco Vilorio	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-108,1,Kodey Shojinaga,Philadelphia Phillies,False,Bowman Chrome Base	BDC-108	Kodey Shojinaga	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-109,1,Ariel Armas,Chicago Cubs,False,Bowman Chrome Base	BDC-109	Ariel Armas	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-110,1,Luis Baez,Houston Astros,False,Bowman Chrome Base	BDC-110	Luis Baez	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-111,1,Tommy Troy,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-111	Tommy Troy	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-112,1,Sebastian Walcott,Texas Rangers,False,Bowman Chrome Base	BDC-112	Sebastian Walcott	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-113,1,Emil Morales,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-113	Emil Morales	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-114,1,Nick Mitchell,Toronto Blue Jays,False,Bowman Chrome Base	BDC-114	Nick Mitchell	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-115,1,Aidan Miller,Philadelphia Phillies,False,Bowman Chrome Base	BDC-115	Aidan Miller	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-116,1,Leo De Vries,San Diego Padres,False,Bowman Chrome Base	BDC-116	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-117,1,Brock Wilken,Milwaukee Brewers,False,Bowman Chrome Base	BDC-117	Brock Wilken	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-118,1,George Lombard Jr.,New York Yankees,False,Bowman Chrome Base	BDC-118	George Lombard Jr.	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-119,1,Adolfo Sanchez,Cincinnati Reds,False,Bowman Chrome Base	BDC-119	Adolfo Sanchez	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-120,1,Yohandy Morales,Washington Nationals,False,Bowman Chrome Base	BDC-120	Yohandy Morales	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-121,1,Fenwick Trimble,Miami Marlins,False,Bowman Chrome Base	BDC-121	Fenwick Trimble	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-122,1,Brandon Neely,Boston Red Sox,False,Bowman Chrome Base	BDC-122	Brandon Neely	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-123,1,Chase Allsup,Baltimore Orioles,False,Bowman Chrome Base	BDC-123	Chase Allsup	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-124,1,Bralyn Brazoban,Pittsburgh Pirates,False,Bowman Chrome Base	BDC-124	Bralyn Brazoban	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-125,1,Dylan Crews,Washington Nationals,False,Bowman Chrome Base	BDC-125	Dylan Crews	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-126,1,Paulino Santana,Texas Rangers,False,Bowman Chrome Base	BDC-126	Paulino Santana	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-127,1,Carter Mathison,Philadelphia Phillies,False,Bowman Chrome Base	BDC-127	Carter Mathison	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-128,1,Samuel Basallo,Baltimore Orioles,False,Bowman Chrome Base	BDC-128	Samuel Basallo	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-129,1,Nick Montgomery,Atlanta Braves,False,Bowman Chrome Base	BDC-129	Nick Montgomery	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-130,1,Grant Shepardson,Miami Marlins,False,Bowman Chrome Base	BDC-130	Grant Shepardson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-131,1,Aidan Smith,Tampa Bay Rays,False,Bowman Chrome Base	BDC-131	Aidan Smith	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-132,1,Charlie Beilenson,Seattle Mariners,False,Bowman Chrome Base	BDC-132	Charlie Beilenson	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-133,1,Agustin Ramirez,Miami Marlins,False,Bowman Chrome Base	BDC-133	Agustin Ramirez	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-134,1,Deyvison De Los Santos,Miami Marlins,False,Bowman Chrome Base	BDC-134	Deyvison De Los Santos	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-135,1,Enrique Bradfield Jr.,Baltimore Orioles,False,Bowman Chrome Base	BDC-135	Enrique Bradfield Jr.	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-136,1,Adriel Radney,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-136	Adriel Radney	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-137,1,Brian Holiday,St. Louis Cardinals,False,Bowman Chrome Base	BDC-137	Brian Holiday	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-138,1,Trey Snyder,New York Mets,False,Bowman Chrome Base	BDC-138	Trey Snyder	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-139,1,Zyhir Hope,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-139	Zyhir Hope	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-140,1,Ethan Salas,San Diego Padres,False,Bowman Chrome Base	BDC-140	Ethan Salas	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-141,1,Myles Naylor,Oakland Athletics,False,Bowman Chrome Base	BDC-141	Myles Naylor	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-142,1,Echedry Vargas,Texas Rangers,False,Bowman Chrome Base	BDC-142	Echedry Vargas	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-143,1,Rafe Schlesinger,Cleveland Guardians,False,Bowman Chrome Base	BDC-143	Rafe Schlesinger	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-144,1,Hunter Cranton,Seattle Mariners,False,Bowman Chrome Base	BDC-144	Hunter Cranton	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-145,1,Herick Hernandez,Atlanta Braves,False,Bowman Chrome Base	BDC-145	Herick Hernandez	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-146,1,Zach Ehrhard,Boston Red Sox,False,Bowman Chrome Base	BDC-146	Zach Ehrhard	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-147,1,Sheng-En Lin,Cincinnati Reds,False,Bowman Chrome Base	BDC-147	Sheng-En Lin	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-148,1,Fernando Cruz,Chicago Cubs,False,Bowman Chrome Base	BDC-148	Fernando Cruz	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-149,1,Vladimir Asencio,Boston Red Sox,False,Bowman Chrome Base	BDC-149	Vladimir Asencio	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-150,1,Juan Baez,Milwaukee Brewers,False,Bowman Chrome Base	BDC-150	Juan Baez	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-151,1,Clark Candiotti,San Diego Padres,False,Bowman Chrome Base	BDC-151	Clark Candiotti	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-152,1,Walker Martin,San Francisco Giants,False,Bowman Chrome Base	BDC-152	Walker Martin	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-153,1,Nate Knowles,Tampa Bay Rays,False,Bowman Chrome Base	BDC-153	Nate Knowles	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-154,1,Jeral Perez,Chicago White Sox,False,Bowman Chrome Base	BDC-154	Jeral Perez	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-155,1,Josh Caron,Seattle Mariners,False,Bowman Chrome Base	BDC-155	Josh Caron	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-156,1,Ryan Campos,St. Louis Cardinals,False,Bowman Chrome Base	BDC-156	Ryan Campos	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-157,1,Tytus Cissell,Arizona Diamondbacks,False,Bowman Chrome Base	BDC-157	Tytus Cissell	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-158,1,Sam Antonacci,Chicago White Sox,False,Bowman Chrome Base	BDC-158	Sam Antonacci	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-159,1,A.J. Causey,Kansas City Royals,False,Bowman Chrome Base	BDC-159	A.J. Causey	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-160,1,Aaron Parker,Toronto Blue Jays,False,Bowman Chrome Base	BDC-160	Aaron Parker	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-161,1,Jared Serna,Miami Marlins,False,Bowman Chrome Base	BDC-161	Jared Serna	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-162,1,Kyle Teel,Boston Red Sox,False,Bowman Chrome Base	BDC-162	Kyle Teel	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-163,1,Eli Serrano,New York Mets,False,Bowman Chrome Base	BDC-163	Eli Serrano	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-164,1,Alexander Albertus,Chicago White Sox,False,Bowman Chrome Base	BDC-164	Alexander Albertus	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-165,1,Curley Martha,Texas Rangers,False,Bowman Chrome Base	BDC-165	Curley Martha	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-166,1,Walker Jenkins,Minnesota Twins,False,Bowman Chrome Base	BDC-166	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-167,1,Jaime Ferrer,Minnesota Twins,False,Bowman Chrome Base	BDC-167	Jaime Ferrer	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-168,1,Victor Hurtado,Washington Nationals,False,Bowman Chrome Base	BDC-168	Victor Hurtado	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-169,1,Braylin Morel,Texas Rangers,False,Bowman Chrome Base	BDC-169	Braylin Morel	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-170,1,Dawel Joseph,Seattle Mariners,False,Bowman Chrome Base	BDC-170	Dawel Joseph	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-171,1,Jeremy Rodriguez,New York Mets,False,Bowman Chrome Base	BDC-171	Jeremy Rodriguez	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-172,1,Brock Porter,Texas Rangers,False,Bowman Chrome Base	BDC-172	Brock Porter	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-173,1,Griffin Herring,New York Yankees,False,Bowman Chrome Base	BDC-173	Griffin Herring	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-174,1,Jackson Kent,Washington Nationals,False,Bowman Chrome Base	BDC-174	Jackson Kent	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-175,1,Yovanny Rodriguez,New York Mets,False,Bowman Chrome Base	BDC-175	Yovanny Rodriguez	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-176,1,Camilo Diaz,Houston Astros,False,Bowman Chrome Base	BDC-176	Camilo Diaz	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-177,1,Joendry Vargas,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-177	Joendry Vargas	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-178,1,Pablo Guerrero,Texas Rangers,False,Bowman Chrome Base	BDC-178	Pablo Guerrero	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-179,1,Eduardo Herrera,Chicago White Sox,False,Bowman Chrome Base	BDC-179	Eduardo Herrera	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-180,1,Eddie Rynders,Pittsburgh Pirates,False,Bowman Chrome Base	BDC-180	Eddie Rynders	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-181,1,Ethan Bagwell,Atlanta Braves,False,Bowman Chrome Base	BDC-181	Ethan Bagwell	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-182,1,Brayden Taylor,Tampa Bay Rays,False,Bowman Chrome Base	BDC-182	Brayden Taylor	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-183,1,L.P. Langevin,Kansas City Royals,False,Bowman Chrome Base	BDC-183	L.P. Langevin	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-184,1,Josiah Romeo,Oakland Athletics,False,Bowman Chrome Base	BDC-184	Josiah Romeo	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-185,1,Jackson Wentworth,Toronto Blue Jays,False,Bowman Chrome Base	BDC-185	Jackson Wentworth	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-186,1,Parker Smith,Houston Astros,False,Bowman Chrome Base	BDC-186	Parker Smith	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-187,1,Rodney Green,Oakland Athletics,False,Bowman Chrome Base	BDC-187	Rodney Green	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-188,1,Derniche Valdez,Chicago Cubs,False,Bowman Chrome Base	BDC-188	Derniche Valdez	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-189,1,Rayner Arias,San Francisco Giants,False,Bowman Chrome Base	BDC-189	Rayner Arias	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-190,1,Vladi Guerrero,New York Mets,False,Bowman Chrome Base	BDC-190	Vladi Guerrero	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-191,1,Byron Chourio,Minnesota Twins,False,Bowman Chrome Base	BDC-191	Byron Chourio	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-192,1,Brooks Auger,Los Angeles Dodgers,False,Bowman Chrome Base	BDC-192	Brooks Auger	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-193,1,Jonny Farmelo,Seattle Mariners,False,Bowman Chrome Base	BDC-193	Jonny Farmelo	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-194,1,Tai Peete,Seattle Mariners,False,Bowman Chrome Base	BDC-194	Tai Peete	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-195,1,Tanner Jones,Kansas City Royals,False,Bowman Chrome Base	BDC-195	Tanner Jones	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-196,1,Aidan Major,Cleveland Guardians,False,Bowman Chrome Base	BDC-196	Aidan Major	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-197,1,Tre' Morgan,Tampa Bay Rays,False,Bowman Chrome Base	BDC-197	Tre' Morgan	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-198,1,Ryan Harvey,New York Yankees,False,Bowman Chrome Base	BDC-198	Ryan Harvey	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-199,1,Randal Diaz,Washington Nationals,False,Bowman Chrome Base	BDC-199	Randal Diaz	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Chrome Base,,BDC-200,1,Jose Perdomo,Atlanta Braves,False,Bowman Chrome Base	BDC-200	Jose Perdomo	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-1,1,Travis Bazzana,Cleveland Guardians,False,Bowman Draft Night	BDN-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-2,1,Konnor Griffin,Pittsburgh Pirates,False,Bowman Draft Night	BDN-2	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-3,1,Nick Kurtz,Oakland Athletics,False,Bowman Draft Night	BDN-3	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-4,1,Hagen Smith,Chicago White Sox,False,Bowman Draft Night	BDN-4	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-5,1,Jac Caglianone,Kansas City Royals,False,Bowman Draft Night	BDN-5	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-6,1,Christian Moore,Los Angeles Angels,False,Bowman Draft Night	BDN-6	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-7,1,Braden Montgomery,Boston Red Sox,False,Bowman Draft Night	BDN-7	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-8,1,Chase Burns,Cincinnati Reds,False,Bowman Draft Night	BDN-8	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-9,1,Kaelen Culpepper,Minnesota Twins,False,Bowman Draft Night	BDN-9	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night,,BDN-10,1,Cam Caminiti,Atlanta Braves,False,Bowman Draft Night	BDN-10	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night Autographs,,BDNA-HS,1,Hagen Smith,Chicago White Sox,False,Bowman Draft Night Autographs	BDNA-HS	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night Autographs,,BDNA-JC,1,Jac Caglianone,Kansas City Royals,False,Bowman Draft Night Autographs	BDNA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night Autographs,,BDNA-NK,1,Nick Kurtz,Oakland Athletics,False,Bowman Draft Night Autographs	BDNA-NK	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Draft Night Autographs,,BDNA-TB,1,Travis Bazzana,Cleveland Guardians,False,Bowman Draft Night Autographs	BDNA-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-1,1,Travis Bazzana,Cleveland Guardians,False,Bowman In Action	BIA-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-2,1,Chase Burns,Cincinnati Reds,False,Bowman In Action	BIA-2	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-3,1,Nick Kurtz,Oakland Athletics,False,Bowman In Action	BIA-3	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-4,1,Hagen Smith,Chicago White Sox,False,Bowman In Action	BIA-4	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-5,1,Jac Caglianone,Kansas City Royals,False,Bowman In Action	BIA-5	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-6,1,Christian Moore,Los Angeles Angels,False,Bowman In Action	BIA-6	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-7,1,Konnor Griffin,Pittsburgh Pirates,False,Bowman In Action	BIA-7	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-8,1,Seaver King,Washington Nationals,False,Bowman In Action	BIA-8	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-9,1,Bryce Rainer,Detroit Tigers,False,Bowman In Action	BIA-9	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-10,1,Braden Montgomery,Boston Red Sox,False,Bowman In Action	BIA-10	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-11,1,James Tibbs III,San Francisco Giants,False,Bowman In Action	BIA-11	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-12,1,Cam Smith,Chicago Cubs,False,Bowman In Action	BIA-12	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-13,1,Kristian Campbell,Boston Red Sox,False,Bowman In Action	BIA-13	Kristian Campbell	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-14,1,Kaelen Culpepper,Minnesota Twins,False,Bowman In Action	BIA-14	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-15,1,Kellon Lindsey,Los Angeles Dodgers,False,Bowman In Action	BIA-15	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-16,1,Cam Caminiti,Atlanta Braves,False,Bowman In Action	BIA-16	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-17,1,Dylan Crews,Washington Nationals,False,Bowman In Action	BIA-17	Dylan Crews	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-18,1,Walker Jenkins,Minnesota Twins,False,Bowman In Action	BIA-18	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-19,1,Max Clark,Detroit Tigers,False,Bowman In Action	BIA-19	Max Clark	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-20,1,Arjun Nimmala,Toronto Blue Jays,False,Bowman In Action	BIA-20	Arjun Nimmala	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-21,1,Ethan Salas,San Diego Padres,False,Bowman In Action	BIA-21	Ethan Salas	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-22,1,Felnin Celesten,Seattle Mariners,False,Bowman In Action	BIA-22	Felnin Celesten	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-23,1,Sebastian Walcott,Texas Rangers,False,Bowman In Action	BIA-23	Sebastian Walcott	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-24,1,Leo De Vries,San Diego Padres,False,Bowman In Action	BIA-24	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action,,BIA-25,1,Joendry Vargas,Los Angeles Dodgers,False,Bowman In Action	BIA-25	Joendry Vargas	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-CB,1,Chase Burns,Cincinnati Reds,False,Bowman In Action Autographs	BIA-CB	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-CC,1,Cam Caminiti,Atlanta Braves,False,Bowman In Action Autographs	BIA-CC	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-CM,1,Christian Moore,Los Angeles Angels,False,Bowman In Action Autographs	BIA-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-CS,1,Cam Smith,Chicago Cubs,False,Bowman In Action Autographs	BIA-CS	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-DC,1,Dylan Crews,Washington Nationals,False,Bowman In Action Autographs	BIA-DC	Dylan Crews	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-FC,1,Felnin Celesten,Seattle Mariners,False,Bowman In Action Autographs	BIA-FC	Felnin Celesten	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-HS,1,Hagen Smith,Chicago White Sox,False,Bowman In Action Autographs	BIA-HS	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-JC,1,Jac Caglianone,Kansas City Royals,False,Bowman In Action Autographs	BIA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-JT,1,James Tibbs III,San Francisco Giants,False,Bowman In Action Autographs	BIA-JT	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-JV,1,Joendry Vargas,Los Angeles Dodgers,False,Bowman In Action Autographs	BIA-JV	Joendry Vargas	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-KG,1,Konnor Griffin,Pittsburgh Pirates,False,Bowman In Action Autographs	BIA-KG	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-LD,1,Leo De Vries,San Diego Padres,False,Bowman In Action Autographs	BIA-LD	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-NK,1,Nick Kurtz,Oakland Athletics,False,Bowman In Action Autographs	BIA-NK	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-TB,1,Travis Bazzana,Cleveland Guardians,False,Bowman In Action Autographs	BIA-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman In Action Autographs,,BIA-WJ,1,Walker Jenkins,Minnesota Twins,False,Bowman In Action Autographs	BIA-WJ	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-1,1,Travis Bazzana,Cleveland Guardians,False,Bowman Spotlights	BS-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-2,1,Chase Burns,Cincinnati Reds,False,Bowman Spotlights	BS-2	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-3,1,Nick Kurtz,Oakland Athletics,False,Bowman Spotlights	BS-3	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-4,1,Hagen Smith,Chicago White Sox,False,Bowman Spotlights	BS-4	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-5,1,Jac Caglianone,Kansas City Royals,False,Bowman Spotlights	BS-5	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-6,1,Christian Moore,Los Angeles Angels,False,Bowman Spotlights	BS-6	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-7,1,Seaver King,Washington Nationals,False,Bowman Spotlights	BS-7	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-8,1,Braden Montgomery,Boston Red Sox,False,Bowman Spotlights	BS-8	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-9,1,Carson Benge,New York Mets,False,Bowman Spotlights	BS-9	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-10,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Bowman Spotlights	BS-10	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-11,1,Roman Anthony,Boston Red Sox,False,Bowman Spotlights	BS-11	Roman Anthony	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-12,1,Bryce Eldridge,San Francisco Giants,False,Bowman Spotlights	BS-12	Bryce Eldridge	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-13,1,Aidan Miller,Philadelphia Phillies,False,Bowman Spotlights	BS-13	Aidan Miller	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-14,1,Colt Emerson,Seattle Mariners,False,Bowman Spotlights	BS-14	Colt Emerson	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Bowman Spotlights,,BS-15,1,Emil Morales,Los Angeles Dodgers,False,Bowman Spotlights	BS-15	Emil Morales	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-1,1,Travis Bazzana,Cleveland Guardians	-	Oregon State,False,Chrome College Variations	BDC-1	Travis Bazzana	Cleveland Guardians	-	Oregon State
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-2,1,Hagen Smith,Chicago White Sox	-	Arkansas,False,Chrome College Variations	BDC-2	Hagen Smith	Chicago White Sox	-	Arkansas
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-8,1,Jac Caglianone,Kansas City Royals	-	Florida,False,Chrome College Variations	BDC-8	Jac Caglianone	Kansas City Royals	-	Florida
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-13,1,Christian Moore,Los Angeles Angels	-	Tennessee,False,Chrome College Variations	BDC-13	Christian Moore	Los Angeles Angels	-	Tennessee
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-18,1,Ryan Waldschmidt,Arizona Diamondbacks	-	Kentucky,False,Chrome College Variations	BDC-18	Ryan Waldschmidt	Arizona Diamondbacks	-	Kentucky
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-28,1,Carson Benge,New York Mets	-	Oklahoma State,False,Chrome College Variations	BDC-28	Carson Benge	New York Mets	-	Oklahoma State
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-40,1,James Tibbs III,San Francisco Giants	-	Florida State,False,Chrome College Variations	BDC-40	James Tibbs III	San Francisco Giants	-	Florida State
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-58,1,Braden Montgomery,Boston Red Sox	-	Texas A&M,False,Chrome College Variations	BDC-58	Braden Montgomery	Boston Red Sox	-	Texas A&M
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-67,1,Cam Smith,Chicago Cubs	-	Florida State,False,Chrome College Variations	BDC-67	Cam Smith	Chicago Cubs	-	Florida State
+2024_bowman_draft,2024,Bowman,Draft,Chrome College Variations,,BDC-95,1,Blake Burke,Milwaukee Brewers	-	Tennessee,False,Chrome College Variations	BDC-95	Blake Burke	Milwaukee Brewers	-	Tennessee
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-AA,1,Ariel Armas,Chicago Cubs,False,Chrome Prospect Autographs	CPA-AA	Ariel Armas	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-AM,1,Aiden May,Miami Marlins,False,Chrome Prospect Autographs	CPA-AM	Aiden May	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-AP,1,Aaron Parker,Toronto Blue Jays,False,Chrome Prospect Autographs	CPA-AP	Aaron Parker	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BA,1,Billy Amick,Minnesota Twins,False,Chrome Prospect Autographs	CPA-BA	Billy Amick	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BB,1,Blake Burke,Milwaukee Brewers,False,Chrome Prospect Autographs	CPA-BB	Blake Burke	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BBA,1,Boston Bateman,San Diego Padres,False,Chrome Prospect Autographs	CPA-BBA	Boston Bateman	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BBR,1,Brody Brecht,Colorado Rockies,False,Chrome Prospect Autographs	CPA-BBR	Brody Brecht	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BC,1,Bryce Cunningham,New York Yankees,False,Chrome Prospect Autographs	CPA-BC	Bryce Cunningham	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BD,1,Braylon Doughty,Cleveland Guardians,False,Chrome Prospect Autographs	CPA-BD	Braylon Doughty	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BH,1,Ben Hess,New York Yankees,False,Chrome Prospect Autographs	CPA-BH	Ben Hess	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BHO,1,Brian Holiday,St. Louis Cardinals,False,Chrome Prospect Autographs	CPA-BHO	Brian Holiday	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BL,1,Blake Larson,Chicago White Sox,False,Chrome Prospect Autographs	CPA-BL	Blake Larson	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BM,1,Braden Montgomery,Boston Red Sox,False,Chrome Prospect Autographs	CPA-BM	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BME,1,Bryce Meccage,Milwaukee Brewers,False,Chrome Prospect Autographs	CPA-BME	Bryce Meccage	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BN,1,Brandon Neely,Boston Red Sox,False,Chrome Prospect Autographs	CPA-BN	Brandon Neely	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BP,1,Braylon Payne,Milwaukee Brewers,False,Chrome Prospect Autographs	CPA-BP	Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BR,1,Bryce Rainer,Detroit Tigers,False,Chrome Prospect Autographs	CPA-BR	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-BW,1,Blake Wright,Colorado Rockies,False,Chrome Prospect Autographs	CPA-BW	Blake Wright	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CB,1,Chase Burns,Cincinnati Reds,False,Chrome Prospect Autographs	CPA-CB	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CBG,1,Carson Benge,New York Mets,False,Chrome Prospect Autographs	CPA-CBG	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CBO,1,Caleb Bonemer,Chicago White Sox,False,Chrome Prospect Autographs	CPA-CBO	Caleb Bonemer	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CC,1,Cam Caminiti,Atlanta Braves,False,Chrome Prospect Autographs	CPA-CC	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CCY,1,Casey Cook,Texas Rangers,False,Chrome Prospect Autographs	CPA-CCY	Casey Cook	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CCZ,1,Chris Cortez,Los Angeles Angels,False,Chrome Prospect Autographs	CPA-CCZ	Chris Cortez	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CD,1,Carson DeMartini,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-CD	Carson DeMartini	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CF,1,Connor Foley,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-CF	Connor Foley	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CH,1,Carter Holton,Atlanta Braves,False,Chrome Prospect Autographs	CPA-CH	Carter Holton	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CHA,1,Chase Harlan,Los Angeles Dodgers,False,Chrome Prospect Autographs	CPA-CHA	Chase Harlan	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CJ,1,Carter Johnson,Miami Marlins,False,Chrome Prospect Autographs	CPA-CJ	Carter Johnson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CM,1,Christian Moore,Los Angeles Angels,False,Chrome Prospect Autographs	CPA-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CMA,1,Carter Mathison,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-CMA	Carter Mathison	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CME,1,Cole Messina,Colorado Rockies,False,Chrome Prospect Autographs	CPA-CME	Cole Messina	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CMS,1,Cole Mathis,Chicago Cubs,False,Chrome Prospect Autographs	CPA-CMS	Cole Mathis	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CS,1,Cam Smith,Chicago Cubs,False,Chrome Prospect Autographs	CPA-CS	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-CSA,1,Casey Saucke,Chicago White Sox,False,Chrome Prospect Autographs	CPA-CSA	Casey Saucke	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-DB,1,Drew Beam,Kansas City Royals,False,Chrome Prospect Autographs	CPA-DB	Drew Beam	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-DD,1,Dylan Dreiling,Texas Rangers,False,Chrome Prospect Autographs	CPA-DD	Dylan Dreiling	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-DE,1,Daniel Eagen,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-DE	Daniel Eagen	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-DJ,1,Dakota Jordan,San Francisco Giants,False,Chrome Prospect Autographs	CPA-DJ	Dakota Jordan	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-DN,1,Dante Nori,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-DN	Dante Nori	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-ER,1,Eddie Rynders,Pittsburgh Pirates,False,Chrome Prospect Autographs	CPA-ER	Eddie Rynders	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-ES,1,Ethan Schiefelbein,Detroit Tigers,False,Chrome Prospect Autographs	CPA-ES	Ethan Schiefelbein	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-ESE,1,Eli Serrano,New York Mets,False,Chrome Prospect Autographs	CPA-ESE	Eli Serrano	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-FT,1,Fenwick Trimble,Miami Marlins,False,Chrome Prospect Autographs	CPA-FT	Fenwick Trimble	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-GB,1,Griffin Burkholder,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-GB	Griffin Burkholder	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-GM,1,Gage Miller,Miami Marlins,False,Chrome Prospect Autographs	CPA-GM	Gage Miller	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-GO,1,Griff O'Ferrall,Baltimore Orioles,False,Chrome Prospect Autographs	CPA-GO	Griff O'Ferrall	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-GZ,1,Gage Ziehl,New York Yankees,False,Chrome Prospect Autographs	CPA-GZ	Gage Ziehl	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-HH,1,Herick Hernandez,Atlanta Braves,False,Chrome Prospect Autographs	CPA-HH	Herick Hernandez	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-HS,1,Hagen Smith,Chicago White Sox,False,Chrome Prospect Autographs	CPA-HS	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-IL,1,Ivan Luciano,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-IL	Ivan Luciano	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JC,1,Jac Caglianone,Kansas City Royals,False,Chrome Prospect Autographs	CPA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JCA,1,Josh Caron,Seattle Mariners,False,Chrome Prospect Autographs	CPA-JCA	Josh Caron	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JCO,1,Jacob Cozart,Cleveland Guardians,False,Chrome Prospect Autographs	CPA-JCO	Jacob Cozart	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JD,1,JD Dix,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-JD	JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JDE,1,Jaron DeBerry,Milwaukee Brewers,False,Chrome Prospect Autographs	CPA-JDE	Jaron DeBerry	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JF,1,Jaime Ferrer,Minnesota Twins,False,Chrome Prospect Autographs	CPA-JF	Jaime Ferrer	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JK,1,Josh Kuroda-Grauer,Oakland Athletics,False,Chrome Prospect Autographs	CPA-JK	Josh Kuroda-Grauer	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JKI,1,Johnny King,Toronto Blue Jays,False,Chrome Prospect Autographs	CPA-JKI	Johnny King	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JS,1,Jonathan Santucci,New York Mets,False,Chrome Prospect Autographs	CPA-JS	Jonathan Santucci	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JSP,1,John Spikerman,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-JSP	John Spikerman	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JT,1,James Tibbs III,San Francisco Giants,False,Chrome Prospect Autographs	CPA-JT	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-JTH,1,Jared Thomas,Colorado Rockies,False,Chrome Prospect Autographs	CPA-JTH	Jared Thomas	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KC,1,Kaelen Culpepper,Minnesota Twins,False,Chrome Prospect Autographs	CPA-KC	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KG,1,Konnor Griffin,Pittsburgh Pirates,False,Chrome Prospect Autographs	CPA-KG	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KL,1,Kellon Lindsey,Los Angeles Dodgers,False,Chrome Prospect Autographs	CPA-KL	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KM,1,Kash Mayfield,San Diego Padres,False,Chrome Prospect Autographs	CPA-KM	Kash Mayfield	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KS,1,Khal Stephen,Toronto Blue Jays,False,Chrome Prospect Autographs	CPA-KS	Khal Stephen	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KSH,1,Kodey Shojinaga,Philadelphia Phillies,False,Chrome Prospect Autographs	CPA-KSH	Kodey Shojinaga	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-KT,1,Kavares Tears,San Diego Padres,False,Chrome Prospect Autographs	CPA-KT	Kavares Tears	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-LH,1,Luke Holman,Cincinnati Reds,False,Chrome Prospect Autographs	CPA-LH	Luke Holman	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-LS,1,Levi Sterling,Pittsburgh Pirates,False,Chrome Prospect Autographs	CPA-LS	Levi Sterling	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-MMY,1,Michael Massey,Detroit Tigers,False,Chrome Prospect Autographs	CPA-MMY	Michael Massey	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-MS,1,Mike Sirota,Cincinnati Reds,False,Chrome Prospect Autographs	CPA-MS	Mike Sirota	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-ND,1,Nate Dohm,New York Mets,False,Chrome Prospect Autographs	CPA-ND	Nate Dohm	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-NF,1,Nathan Flewelling,Tampa Bay Rays,False,Chrome Prospect Autographs	CPA-NF	Nathan Flewelling	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-NK,1,Nick Kurtz,Oakland Athletics,False,Chrome Prospect Autographs	CPA-NK	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-NM,1,Nick McLain,Chicago White Sox,False,Chrome Prospect Autographs	CPA-NM	Nick McLain	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-NMI,1,Nick Mitchell,Toronto Blue Jays,False,Chrome Prospect Autographs	CPA-NMI	Nick Mitchell	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-NMO,1,Nick Montgomery,Atlanta Braves,False,Chrome Prospect Autographs	CPA-NMO	Nick Montgomery	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-PSM,1,Parker Smith,Houston Astros,False,Chrome Prospect Autographs	CPA-PSM	Parker Smith	Houston Astros
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-PT,1,Payton Tolle,Boston Red Sox,False,Chrome Prospect Autographs	CPA-PT	Payton Tolle	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RCA,1,Ryan Campos,St. Louis Cardinals,False,Chrome Prospect Autographs	CPA-RCA	Ryan Campos	St. Louis Cardinals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RD,1,Randal Diaz,Washington Nationals,False,Chrome Prospect Autographs	CPA-RD	Randal Diaz	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RG,1,Rodney Green,Oakland Athletics,False,Chrome Prospect Autographs	CPA-RG	Rodney Green	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RJ,1,Ryan Johnson,Los Angeles Angels,False,Chrome Prospect Autographs	CPA-RJ	Ryan Johnson	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RS,1,Ryan Sloan,Seattle Mariners,False,Chrome Prospect Autographs	CPA-RS	Ryan Sloan	Seattle Mariners
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RSC,1,Rafe Schlesinger,Cleveland Guardians,False,Chrome Prospect Autographs	CPA-RSC	Rafe Schlesinger	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-RW,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-RW	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-SA,1,Sam Antonacci,Chicago White Sox,False,Chrome Prospect Autographs	CPA-SA	Sam Antonacci	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-SK,1,Seaver King,Washington Nationals,False,Chrome Prospect Autographs	CPA-SK	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TB,1,Travis Bazzana,Cleveland Guardians,False,Chrome Prospect Autographs	CPA-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TC,1,Tytus Cissell,Arizona Diamondbacks,False,Chrome Prospect Autographs	CPA-TC	Tytus Cissell	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TG,1,Theo Gillen,Tampa Bay Rays,False,Chrome Prospect Autographs	CPA-TG	Theo Gillen	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TL,1,Tyson Lewis,Cincinnati Reds,False,Chrome Prospect Autographs	CPA-TL	Tyson Lewis	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TN,1,Tyson Neighbors,San Diego Padres,False,Chrome Prospect Autographs	CPA-TN	Tyson Neighbors	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TS,1,Ty Southisene,Chicago Cubs,False,Chrome Prospect Autographs	CPA-TS	Ty Southisene	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TSN,1,Trey Snyder,New York Mets,False,Chrome Prospect Autographs	CPA-TSN	Trey Snyder	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Chrome Prospect Autographs,,CPA-TY,1,Trey Yesavage,Toronto Blue Jays,False,Chrome Prospect Autographs	CPA-TY	Trey Yesavage	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-BP,1,Braylon Payne,Milwaukee Brewers,False,Class of 2024 Autographs	C24-BP	Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-CBO,1,Caleb Bonemer,Chicago White Sox,False,Class of 2024 Autographs	C24-CBO	Caleb Bonemer	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-CJ,1,Carter Johnson,Miami Marlins,False,Class of 2024 Autographs	C24-CJ	Carter Johnson	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-CM,1,Christian Moore,Los Angeles Angels,False,Class of 2024 Autographs	C24-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-CMA,1,Cole Mathis,Chicago Cubs,False,Class of 2024 Autographs	C24-CMA	Cole Mathis	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-CS,1,Cam Smith,Chicago Cubs,False,Class of 2024 Autographs	C24-CS	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-DD,1,Dylan Dreiling,Texas Rangers,False,Class of 2024 Autographs	C24-DD	Dylan Dreiling	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-DN,1,Dante Nori,Philadelphia Phillies,False,Class of 2024 Autographs	C24-DN	Dante Nori	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-GB,1,Griffin Burkholder,Philadelphia Phillies,False,Class of 2024 Autographs	C24-GB	Griffin Burkholder	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-GM,1,Gage Miller,Miami Marlins,False,Class of 2024 Autographs	C24-GM	Gage Miller	Miami Marlins
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-GO,1,Griff O'Ferrall,Baltimore Orioles,False,Class of 2024 Autographs	C24-GO	Griff O'Ferrall	Baltimore Orioles
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JC,1,Jac Caglianone,Kansas City Royals,False,Class of 2024 Autographs	C24-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JCO,1,Jacob Cozart,Cleveland Guardians,False,Class of 2024 Autographs	C24-JCO	Jacob Cozart	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JD,1,JD Dix,Arizona Diamondbacks,False,Class of 2024 Autographs	C24-JD	JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JK,1,Josh Kuroda-Grauer,Oakland Athletics,False,Class of 2024 Autographs	C24-JK	Josh Kuroda-Grauer	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JT,1,James Tibbs III,San Francisco Giants,False,Class of 2024 Autographs	C24-JT	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-JTH,1,Jared Thomas,Colorado Rockies,False,Class of 2024 Autographs	C24-JTH	Jared Thomas	Colorado Rockies
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-KC,1,Kaelen Culpepper,Minnesota Twins,False,Class of 2024 Autographs	C24-KC	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-KG,1,Konnor Griffin,Pittsburgh Pirates,False,Class of 2024 Autographs	C24-KG	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-KL,1,Kellon Lindsey,Los Angeles Dodgers,False,Class of 2024 Autographs	C24-KL	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-NK,1,Nick Kurtz,Oakland Athletics,False,Class of 2024 Autographs	C24-NK	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-RW,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Class of 2024 Autographs	C24-RW	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-SK,1,Seaver King,Washington Nationals,False,Class of 2024 Autographs	C24-SK	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-TB,1,Travis Bazzana,Cleveland Guardians,False,Class of 2024 Autographs	C24-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Class of 2024 Autographs,,C24-TL,1,Tyson Lewis,Cincinnati Reds,False,Class of 2024 Autographs	C24-TL	Tyson Lewis	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-BM,1,Braden Montgomery,Boston Red Sox,False,Draft Prospect Portrait Autographs	DPPA-BM	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-BR,1,Bryce Rainer,Detroit Tigers,False,Draft Prospect Portrait Autographs	DPPA-BR	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-CB,1,Chase Burns,Cincinnati Reds,False,Draft Prospect Portrait Autographs	DPPA-CB	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-CC,1,Cam Caminiti,Atlanta Braves,False,Draft Prospect Portrait Autographs	DPPA-CC	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-CM,1,Christian Moore,Los Angeles Angels,False,Draft Prospect Portrait Autographs	DPPA-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-CS,1,Cam Smith,Chicago Cubs,False,Draft Prospect Portrait Autographs	DPPA-CS	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-HS,1,Hagen Smith,Chicago White Sox,False,Draft Prospect Portrait Autographs	DPPA-HS	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-JC,1,Jac Caglianone,Kansas City Royals,False,Draft Prospect Portrait Autographs	DPPA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-JT,1,James Tibbs III,San Francisco Giants,False,Draft Prospect Portrait Autographs	DPPA-JT	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-NK,1,Nick Kurtz,Oakland Athletics,False,Draft Prospect Portrait Autographs	DPPA-NK	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-SK,1,Seaver King,Washington Nationals,False,Draft Prospect Portrait Autographs	DPPA-SK	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Draft Prospect Portrait Autographs,,DPPA-TB,1,Travis Bazzana,Cleveland Guardians,False,Draft Prospect Portrait Autographs	DPPA-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-1,1,Travis Bazzana,Cleveland Guardians,False,Etched in Glass Variations	BDC-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-2,1,Hagen Smith,Chicago White Sox,False,Etched in Glass Variations	BDC-2	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-8,1,Jac Caglianone,Kansas City Royals,False,Etched in Glass Variations	BDC-8	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-13,1,Christian Moore,Los Angeles Angels,False,Etched in Glass Variations	BDC-13	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-16,1,Dante Nori,Philadelphia Phillies,False,Etched in Glass Variations	BDC-16	Dante Nori	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-18,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Etched in Glass Variations	BDC-18	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-20,1,Cam Caminiti,Atlanta Braves,False,Etched in Glass Variations	BDC-20	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-22,1,Konnor Griffin,Pittsburgh Pirates,False,Etched in Glass Variations	BDC-22	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-24,1,Kellon Lindsey,Los Angeles Dodgers,False,Etched in Glass Variations	BDC-24	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-28,1,Carson Benge,New York Mets,False,Etched in Glass Variations	BDC-28	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-40,1,James Tibbs III,San Francisco Giants,False,Etched in Glass Variations	BDC-40	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-55,1,Chase Burns,Cincinnati Reds,False,Etched in Glass Variations	BDC-55	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-56,1,Nick Kurtz,Oakland Athletics,False,Etched in Glass Variations	BDC-56	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-58,1,Braden Montgomery,Boston Red Sox,False,Etched in Glass Variations	BDC-58	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-62,1,Seaver King,Washington Nationals,False,Etched in Glass Variations	BDC-62	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-67,1,Cam Smith,Chicago Cubs,False,Etched in Glass Variations	BDC-67	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-72,1,Braylon Payne,Milwaukee Brewers,False,Etched in Glass Variations	BDC-72	Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-73,1,Theo Gillen,Tampa Bay Rays,False,Etched in Glass Variations	BDC-73	Theo Gillen	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-86,1,Bryce Rainer,Detroit Tigers,False,Etched in Glass Variations	BDC-86	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Etched in Glass Variations,,BDC-98,1,Kaelen Culpepper,Minnesota Twins,False,Etched in Glass Variations	BDC-98	Kaelen Culpepper	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-1,1,Arjun Nimmala,Toronto Blue Jays,False,Final Draft	FD-1	Arjun Nimmala	Toronto Blue Jays
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-2,1,Jose Perdomo,Atlanta Braves,False,Final Draft	FD-2	Jose Perdomo	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-3,1,Fernando Cruz,Chicago Cubs,False,Final Draft	FD-3	Fernando Cruz	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-4,1,Max Clark,Detroit Tigers,False,Final Draft	FD-4	Max Clark	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-5,1,Walker Jenkins,Minnesota Twins,False,Final Draft	FD-5	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-6,1,Francisco Vilorio,New York Yankees,False,Final Draft	FD-6	Francisco Vilorio	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-7,1,George Lombard Jr.,New York Yankees,False,Final Draft	FD-7	George Lombard Jr.	New York Yankees
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-8,1,Aidan Miller,Philadelphia Phillies,False,Final Draft	FD-8	Aidan Miller	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-9,1,Leo De Vries,San Diego Padres,False,Final Draft	FD-9	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-10,1,Paulino Santana,Texas Rangers,False,Final Draft	FD-10	Paulino Santana	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-11,1,Travis Bazzana,Cleveland Guardians,False,Final Draft	FD-11	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-12,1,Chase Burns,Cincinnati Reds,False,Final Draft	FD-12	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-13,1,Nick Kurtz,Oakland Athletics,False,Final Draft	FD-13	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-14,1,Jac Caglianone,Kansas City Royals,False,Final Draft	FD-14	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-15,1,Christian Moore,Los Angeles Angels,False,Final Draft	FD-15	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-16,1,Konnor Griffin,Pittsburgh Pirates,False,Final Draft	FD-16	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-17,1,Seaver King,Washington Nationals,False,Final Draft	FD-17	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-18,1,Bryce Rainer,Detroit Tigers,False,Final Draft	FD-18	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-19,1,Braden Montgomery,Boston Red Sox,False,Final Draft	FD-19	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Final Draft,,FD-20,1,James Tibbs III,San Francisco Giants,False,Final Draft	FD-20	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-1,1,Travis Bazzana,Cleveland Guardians,False,Image Variations	BDC-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-2,1,Hagen Smith,Chicago White Sox,False,Image Variations	BDC-2	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-8,1,Jac Caglianone,Kansas City Royals,False,Image Variations	BDC-8	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-13,1,Christian Moore,Los Angeles Angels,False,Image Variations	BDC-13	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-22,1,Konnor Griffin,Pittsburgh Pirates,False,Image Variations	BDC-22	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-55,1,Chase Burns,Cincinnati Reds,False,Image Variations	BDC-55	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-56,1,Nick Kurtz,Oakland Athletics,False,Image Variations	BDC-56	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-58,1,Braden Montgomery,Boston Red Sox,False,Image Variations	BDC-58	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-67,1,Cam Smith,Chicago Cubs,False,Image Variations	BDC-67	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Image Variations,,BDC-86,1,Bryce Rainer,Detroit Tigers,False,Image Variations	BDC-86	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Image Variations Autographs,,CPA-CB,1,Chase Burns,Cincinnati Reds,False,Image Variations Autographs	CPA-CB	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Image Variations Autographs,,CPA-CM,1,Christian Moore,Los Angeles Angels,False,Image Variations Autographs	CPA-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Image Variations Autographs,,CPA-HS,1,Hagen Smith,Chicago White Sox,False,Image Variations Autographs	CPA-HS	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Image Variations Autographs,,CPA-JC,1,Jac Caglianone,Kansas City Royals,False,Image Variations Autographs	CPA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Image Variations Autographs,,CPA-TB,1,Travis Bazzana,Cleveland Guardians,False,Image Variations Autographs	CPA-TB	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-1,1,Travis Bazzana,Cleveland Guardians,False,In Tune	IT-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-2,1,Chase Burns,Cincinnati Reds,False,In Tune	IT-2	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-3,1,Nick Kurtz,Oakland Athletics,False,In Tune	IT-3	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-4,1,Hagen Smith,Chicago White Sox,False,In Tune	IT-4	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-5,1,Jac Caglianone,Kansas City Royals,False,In Tune	IT-5	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-6,1,Christian Moore,Los Angeles Angels,False,In Tune	IT-6	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-7,1,Seaver King,Washington Nationals,False,In Tune	IT-7	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-8,1,Braden Montgomery,Boston Red Sox,False,In Tune	IT-8	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-9,1,James Tibbs III,San Francisco Giants,False,In Tune	IT-9	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-10,1,Carson Benge,New York Mets,False,In Tune	IT-10	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-11,1,Leo De Vries,San Diego Padres,False,In Tune	IT-11	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-12,1,Paulino Santana,Texas Rangers,False,In Tune	IT-12	Paulino Santana	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-13,1,Jose Perdomo,Atlanta Braves,False,In Tune	IT-13	Jose Perdomo	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-14,1,Emil Morales,Los Angeles Dodgers,False,In Tune	IT-14	Emil Morales	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-15,1,Adriel Radney,Arizona Diamondbacks,False,In Tune	IT-15	Adriel Radney	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-16,1,Walker Jenkins,Minnesota Twins,False,In Tune	IT-16	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-17,1,Max Clark,Detroit Tigers,False,In Tune	IT-17	Max Clark	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-18,1,Dylan Crews,Washington Nationals,False,In Tune	IT-18	Dylan Crews	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-19,1,Aidan Miller,Philadelphia Phillies,False,In Tune	IT-19	Aidan Miller	Philadelphia Phillies
+2024_bowman_draft,2024,Bowman,Draft,In Tune,,IT-20,1,Sebastian Walcott,Texas Rangers,False,In Tune	IT-20	Sebastian Walcott	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-1,1,Travis Bazzana,Cleveland Guardians,False,Plasma Power	PP-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-2,1,Nick Kurtz,Oakland Athletics,False,Plasma Power	PP-2	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-3,1,Jac Caglianone,Kansas City Royals,False,Plasma Power	PP-3	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-4,1,Christian Moore,Los Angeles Angels,False,Plasma Power	PP-4	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-5,1,Braden Montgomery,Boston Red Sox,False,Plasma Power	PP-5	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-6,1,James Tibbs III,San Francisco Giants,False,Plasma Power	PP-6	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-7,1,Cam Smith,Chicago Cubs,False,Plasma Power	PP-7	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-8,1,Carson Benge,New York Mets,False,Plasma Power	PP-8	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-9,1,Seaver King,Washington Nationals,False,Plasma Power	PP-9	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-10,1,Konnor Griffin,Pittsburgh Pirates,False,Plasma Power	PP-10	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-11,1,Bryce Rainer,Detroit Tigers,False,Plasma Power	PP-11	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-12,1,Brock Wilken,Milwaukee Brewers,False,Plasma Power	PP-12	Brock Wilken	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-13,1,Ryan Waldschmidt,Arizona Diamondbacks,False,Plasma Power	PP-13	Ryan Waldschmidt	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-14,1,Walker Jenkins,Minnesota Twins,False,Plasma Power	PP-14	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-15,1,Bryce Eldridge,San Francisco Giants,False,Plasma Power	PP-15	Bryce Eldridge	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-16,1,Matt Shaw,Chicago Cubs,False,Plasma Power	PP-16	Matt Shaw	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-17,1,Kyle Teel,Boston Red Sox,False,Plasma Power	PP-17	Kyle Teel	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-18,1,Roman Anthony,Boston Red Sox,False,Plasma Power	PP-18	Roman Anthony	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-19,1,Leo De Vries,San Diego Padres,False,Plasma Power	PP-19	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power,,PP-20,1,Paulino Santana,Texas Rangers,False,Plasma Power	PP-20	Paulino Santana	Texas Rangers
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-BW,1,Brock Wilken,Milwaukee Brewers,False,Plasma Power Autographs	PPA-BW	Brock Wilken	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-CM,1,Christian Moore,Los Angeles Angels,False,Plasma Power Autographs	PPA-CM	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-CS,1,Cam Smith,Chicago Cubs,False,Plasma Power Autographs	PPA-CS	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-JC,1,Jac Caglianone,Kansas City Royals,False,Plasma Power Autographs	PPA-JC	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-JT,1,James Tibbs III,San Francisco Giants,False,Plasma Power Autographs	PPA-JT	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-KG,1,Konnor Griffin,Pittsburgh Pirates,False,Plasma Power Autographs	PPA-KG	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-LD,1,Leo De Vries,San Diego Padres,False,Plasma Power Autographs	PPA-LD	Leo De Vries	San Diego Padres
+2024_bowman_draft,2024,Bowman,Draft,Plasma Power Autographs,,PPA-WJ,1,Walker Jenkins,Minnesota Twins,False,Plasma Power Autographs	PPA-WJ	Walker Jenkins	Minnesota Twins
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BB,1,Travis Bazzana,Cleveland Guardians,True,Prospect Dual Autographs	PDA-BB	Travis Bazzana / Chase Burns	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BB,2,Chase Burns,Cleveland Guardians,True,Prospect Dual Autographs	PDA-BB	Travis Bazzana / Chase Burns	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BB,1,Travis Bazzana,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BB	Travis Bazzana / Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BB,2,Chase Burns,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BB	Travis Bazzana / Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BC,1,Travis Bazzana,Cleveland Guardians,True,Prospect Dual Autographs	PDA-BC	Travis Bazzana / Jac Caglianone	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BC,2,Jac Caglianone,Cleveland Guardians,True,Prospect Dual Autographs	PDA-BC	Travis Bazzana / Jac Caglianone	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BC,1,Travis Bazzana,Kansas City Royals,True,Prospect Dual Autographs	PDA-BC	Travis Bazzana / Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BC,2,Jac Caglianone,Kansas City Royals,True,Prospect Dual Autographs	PDA-BC	Travis Bazzana / Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BK,1,Chase Burns,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BK	Chase Burns / Nick Kurtz	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BK,2,Nick Kurtz,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BK	Chase Burns / Nick Kurtz	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BK,1,Chase Burns,Oakland Athletics,True,Prospect Dual Autographs	PDA-BK	Chase Burns / Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BK,2,Nick Kurtz,Oakland Athletics,True,Prospect Dual Autographs	PDA-BK	Chase Burns / Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BL,1,Rhett Lowder,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BL	Rhett Lowder / Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BL,2,Chase Burns,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BL	Rhett Lowder / Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BS,1,Chase Burns,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BS	Chase Burns / Hagen Smith	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BS,2,Hagen Smith,Cincinnati Reds,True,Prospect Dual Autographs	PDA-BS	Chase Burns / Hagen Smith	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BS,1,Chase Burns,Chicago White Sox,True,Prospect Dual Autographs	PDA-BS	Chase Burns / Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-BS,2,Hagen Smith,Chicago White Sox,True,Prospect Dual Autographs	PDA-BS	Chase Burns / Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-CM,1,Jac Caglianone,Kansas City Royals,True,Prospect Dual Autographs	PDA-CM	Jac Caglianone / Blake Mitchell	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-CM,2,Blake Mitchell,Kansas City Royals,True,Prospect Dual Autographs	PDA-CM	Jac Caglianone / Blake Mitchell	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-GJ,1,Konnor Griffin,Pittsburgh Pirates,True,Prospect Dual Autographs	PDA-GJ	Konnor Griffin / Termarr Johnson	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-GJ,2,Termarr Johnson,Pittsburgh Pirates,True,Prospect Dual Autographs	PDA-GJ	Konnor Griffin / Termarr Johnson	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-KG,1,Seaver King,Washington Nationals,True,Prospect Dual Autographs	PDA-KG	Seaver King / Elijah Green	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-KG,2,Elijah Green,Washington Nationals,True,Prospect Dual Autographs	PDA-KG	Seaver King / Elijah Green	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-SG,1,Jacob Gonzalez,Chicago White Sox,True,Prospect Dual Autographs	PDA-SG	Jacob Gonzalez / Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-SG,2,Hagen Smith,Chicago White Sox,True,Prospect Dual Autographs	PDA-SG	Jacob Gonzalez / Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-TS,1,James Tibbs III,San Francisco Giants,True,Prospect Dual Autographs	PDA-TS	James Tibbs III / Cam Smith	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-TS,2,Cam Smith,San Francisco Giants,True,Prospect Dual Autographs	PDA-TS	James Tibbs III / Cam Smith	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-TS,1,James Tibbs III,Chicago Cubs,True,Prospect Dual Autographs	PDA-TS	James Tibbs III / Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-TS,2,Cam Smith,Chicago Cubs,True,Prospect Dual Autographs	PDA-TS	James Tibbs III / Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-WD,1,Ryan Waldschmidt,Arizona Diamondbacks,True,Prospect Dual Autographs	PDA-WD	Ryan Waldschmidt / JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Prospect Dual Autographs,,PDA-WD,2,JD Dix,Arizona Diamondbacks,True,Prospect Dual Autographs	PDA-WD	Ryan Waldschmidt / JD Dix	Arizona Diamondbacks
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-1,1,Travis Bazzana,Cleveland Guardians,False,Prospectors Special Edition Die-Cut Variations	BDC-1	Travis Bazzana	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-2,1,Hagen Smith,Chicago White Sox,False,Prospectors Special Edition Die-Cut Variations	BDC-2	Hagen Smith	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-8,1,Jac Caglianone,Kansas City Royals,False,Prospectors Special Edition Die-Cut Variations	BDC-8	Jac Caglianone	Kansas City Royals
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-13,1,Christian Moore,Los Angeles Angels,False,Prospectors Special Edition Die-Cut Variations	BDC-13	Christian Moore	Los Angeles Angels
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-20,1,Cam Caminiti,Atlanta Braves,False,Prospectors Special Edition Die-Cut Variations	BDC-20	Cam Caminiti	Atlanta Braves
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-22,1,Konnor Griffin,Pittsburgh Pirates,False,Prospectors Special Edition Die-Cut Variations	BDC-22	Konnor Griffin	Pittsburgh Pirates
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-24,1,Kellon Lindsey,Los Angeles Dodgers,False,Prospectors Special Edition Die-Cut Variations	BDC-24	Kellon Lindsey	Los Angeles Dodgers
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-28,1,Carson Benge,New York Mets,False,Prospectors Special Edition Die-Cut Variations	BDC-28	Carson Benge	New York Mets
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-40,1,James Tibbs III,San Francisco Giants,False,Prospectors Special Edition Die-Cut Variations	BDC-40	James Tibbs III	San Francisco Giants
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-55,1,Chase Burns,Cincinnati Reds,False,Prospectors Special Edition Die-Cut Variations	BDC-55	Chase Burns	Cincinnati Reds
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-56,1,Nick Kurtz,Oakland Athletics,False,Prospectors Special Edition Die-Cut Variations	BDC-56	Nick Kurtz	Oakland Athletics
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-58,1,Braden Montgomery,Boston Red Sox,False,Prospectors Special Edition Die-Cut Variations	BDC-58	Braden Montgomery	Boston Red Sox
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-62,1,Seaver King,Washington Nationals,False,Prospectors Special Edition Die-Cut Variations	BDC-62	Seaver King	Washington Nationals
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-67,1,Cam Smith,Chicago Cubs,False,Prospectors Special Edition Die-Cut Variations	BDC-67	Cam Smith	Chicago Cubs
+2024_bowman_draft,2024,Bowman,Draft,Prospectors Special Edition Die-Cut Variations,,BDC-86,1,Bryce Rainer,Detroit Tigers,False,Prospectors Special Edition Die-Cut Variations	BDC-86	Bryce Rainer	Detroit Tigers
+2024_bowman_draft,2024,Bowman,Draft,Under Armour Game Autographs,,,1,Braylon Doughty,Cleveland Guardians,False,Under Armour Game Autographs		Braylon Doughty	Cleveland Guardians
+2024_bowman_draft,2024,Bowman,Draft,Under Armour Game Autographs,,,1,Caleb Bonemer,Chicago White Sox,False,Under Armour Game Autographs		Caleb Bonemer	Chicago White Sox
+2024_bowman_draft,2024,Bowman,Draft,Under Armour Game Autographs,,,1,Braylon Payne,Milwaukee Brewers,False,Under Armour Game Autographs		Braylon Payne	Milwaukee Brewers
+2024_bowman_draft,2024,Bowman,Draft,Under Armour Game Autographs,,,1,Theo Gillen,Tampa Bay Rays,False,Under Armour Game Autographs		Theo Gillen	Tampa Bay Rays
+2024_bowman_draft,2024,Bowman,Draft,Under Armour Game Autographs,,,1,Konnor Griffin,Pittsburgh Pirates,False,Under Armour Game Autographs		Konnor Griffin	Pittsburgh Pirates

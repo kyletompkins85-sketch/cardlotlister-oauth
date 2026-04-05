@@ -1,0 +1,516 @@
+set_key,year,brand,product,section,section_card_count,card_number,player_slot,player_name_raw,affiliation_raw,is_multi_player,raw_line
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-1,1,Mike Trout,Los Angeles Angels,False,T90-1	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-2,1,Mike Schmidt,Philadelphia Phillies,False,T90-2	Mike Schmidt	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-3,1,Barry Larkin,Cincinnati Reds,False,T90-3	Barry Larkin	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-4,1,Corey Seager,Texas Rangers,False,T90-4	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-5,1,Yadier Molina,St. Louis Cardinals,False,T90-5	Yadier Molina	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-6,1,Tyler Locklear,Seattle Mariners	Rookie,False,T90-6	Tyler Locklear	Seattle Mariners	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-7,1,Wade Boggs,Boston Red Sox,False,T90-7	Wade Boggs	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-8,1,Drew Thorpe,Chicago White Sox	Rookie,False,T90-8	Drew Thorpe	Chicago White Sox	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-9,1,Jose Altuve,Houston Astros,False,T90-9	Jose Altuve	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-10,1,Juan Soto,New York Yankees,False,T90-10	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-11,1,Jackie Robinson,Brooklyn Dodgers,False,T90-11	Jackie Robinson	Brooklyn Dodgers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-12,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,T90-12	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-13,1,Matt Olson,Atlanta Braves,False,T90-13	Matt Olson	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-14,1,Hank Aaron,Atlanta Braves,False,T90-14	Hank Aaron	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-15,1,Bryce Harper,Philadelphia Phillies,False,T90-15	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-16,1,Chipper Jones,Atlanta Braves,False,T90-16	Chipper Jones	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-17,1,Christian Yelich,Milwaukee Brewers,False,T90-17	Christian Yelich	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-18,1,Hurston Waldrep,Atlanta Braves	Rookie,False,T90-18	Hurston Waldrep	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-19,1,Ben Rice,New York Yankees	Rookie,False,T90-19	Ben Rice	New York Yankees	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-20,1,Elly De La Cruz,Cincinnati Reds,False,T90-20	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-21,1,Angel Martínez,Cleveland Guardians	Rookie,False,T90-21	Angel Martínez	Cleveland Guardians	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-22,1,Justyn-Henry Malloy,Detroit Tigers	Rookie,False,T90-22	Justyn-Henry Malloy	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-23,1,Bobby Witt Jr.,Kansas City Royals,False,T90-23	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-24,1,Brooks Lee,Minnesota Twins	Rookie,False,T90-24	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-25,1,Orelvis Martinez,Toronto Blue Jays	Rookie,False,T90-25	Orelvis Martinez	Toronto Blue Jays	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-26,1,Ted Williams,Boston Red Sox,False,T90-26	Ted Williams	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-27,1,Roberto Clemente,Pittsburgh Pirates,False,T90-27	Roberto Clemente	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-28,1,George Brett,Kansas City Royals,False,T90-28	George Brett	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-29,1,Jacob Wilson,Athletics	Rookie,False,T90-29	Jacob Wilson	Athletics	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-30,1,Pete Alonso,New York Mets,False,T90-30	Pete Alonso	New York Mets
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-31,1,Kyle Schwarber,Philadelphia Phillies,False,T90-31	Kyle Schwarber	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-32,1,Gunnar Henderson,Baltimore Orioles,False,T90-32	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-33,1,Connor Norby,Miami Marlins	Rookie,False,T90-33	Connor Norby	Miami Marlins	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-34,1,Spencer Schwellenbach,Atlanta Braves	Rookie,False,T90-34	Spencer Schwellenbach	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-35,1,Larry Walker,Montréal Expos,False,T90-35	Larry Walker	Montréal Expos
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-36,1,Ichiro,Seattle Mariners,False,T90-36	Ichiro	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-37,1,Jackson Chourio,Milwaukee Brewers,False,T90-37	Jackson Chourio	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-38,1,Francisco Lindor,New York Mets,False,T90-38	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-39,1,James Wood,Washington Nationals	Rookie,False,T90-39	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-40,1,Tony Gwynn,San Diego Padres,False,T90-40	Tony Gwynn	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-41,1,Robin Yount,Milwaukee Brewers,False,T90-41	Robin Yount	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-42,1,Julio Rodríguez,Seattle Mariners,False,T90-42	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-43,1,Trea Turner,Philadelphia Phillies,False,T90-43	Trea Turner	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-44,1,Riley Greene,Detroit Tigers,False,T90-44	Riley Greene	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-45,1,Corbin Carroll,Arizona Diamondbacks,False,T90-45	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-46,1,Rickey Henderson,Athletics,False,T90-46	Rickey Henderson	Athletics
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-47,1,Babe Ruth,New York Yankees,False,T90-47	Babe Ruth	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-48,1,Vladimir Guerrero,Montréal Expos,False,T90-48	Vladimir Guerrero	Montréal Expos
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-49,1,River Ryan,Los Angeles Dodgers	Rookie,False,T90-49	River Ryan	Los Angeles Dodgers	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-50,1,Frank Thomas,Chicago White Sox,False,T90-50	Frank Thomas	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-51,1,José Ramírez,Cleveland Guardians,False,T90-51	José Ramírez	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-52,1,Nolan Arenado,St. Louis Cardinals,False,T90-52	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-53,1,Adley Rutschman,Baltimore Orioles,False,T90-53	Adley Rutschman	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-54,1,Mike Piazza,New York Mets,False,T90-54	Mike Piazza	New York Mets
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-55,1,Jace Jung,Detroit Tigers	Rookie,False,T90-55	Jace Jung	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-56,1,Rece Hinds,Cincinnati Reds	Rookie,False,T90-56	Rece Hinds	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-57,1,Aaron Judge,New York Yankees,False,T90-57	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-58,1,Gordon Graceffo,St. Louis Cardinals	Rookie,False,T90-58	Gordon Graceffo	St. Louis Cardinals	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-59,1,Cal Ripken Jr.,Baltimore Orioles,False,T90-59	Cal Ripken Jr.	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-60,1,Mookie Betts,Los Angeles Dodgers,False,T90-60	Mookie Betts	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-61,1,Clayton Kershaw,Los Angeles Dodgers,False,T90-61	Clayton Kershaw	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-62,1,Bo Jackson,Kansas City Royals,False,T90-62	Bo Jackson	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-63,1,Paul Skenes,Pittsburgh Pirates,False,T90-63	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-64,1,Jackson Merrill,San Diego Padres,False,T90-64	Jackson Merrill	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-65,1,Don Mattingly,New York Yankees,False,T90-65	Don Mattingly	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-66,1,Mark McGwire,Athletics,False,T90-66	Mark McGwire	Athletics
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-67,1,David Festa,Minnesota Twins	Rookie,False,T90-67	David Festa	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-68,1,Albert Pujols,St. Louis Cardinals,False,T90-68	Albert Pujols	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-69,1,Cade Povich,Baltimore Orioles	Rookie,False,T90-69	Cade Povich	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-70,1,Hayden Birdsong,San Francisco Giants	Rookie,False,T90-70	Hayden Birdsong	San Francisco Giants	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-71,1,Ryne Sandberg,Chicago Cubs,False,T90-71	Ryne Sandberg	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-72,1,Carlos Correa,Minnesota Twins,False,T90-72	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-73,1,Randy Arozarena,Seattle Mariners,False,T90-73	Randy Arozarena	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-74,1,Zebby Matthews,Minnesota Twins	Rookie,False,T90-74	Zebby Matthews	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-75,1,Ronald Acuña Jr.,Atlanta Braves,False,T90-75	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-76,1,Ken Griffey Jr.,Seattle Mariners,False,T90-76	Ken Griffey Jr.	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-77,1,Seiya Suzuki,Chicago Cubs,False,T90-77	Seiya Suzuki	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-78,1,Manny Machado,San Diego Padres,False,T90-78	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-79,1,Nacho Alvarez Jr.,Atlanta Braves	Rookie,False,T90-79	Nacho Alvarez Jr.	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-80,1,Nolan Ryan,Houston Astros,False,T90-80	Nolan Ryan	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-81,1,Fernando Tatis Jr.,San Diego Padres,False,T90-81	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-82,1,Yordan Alvarez,Houston Astros,False,T90-82	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-83,1,Adael Amador,Colorado Rockies	Rookie,False,T90-83	Adael Amador	Colorado Rockies	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-84,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,T90-84	Yoshinobu Yamamoto	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-85,1,Shota Imanaga,Chicago Cubs,False,T90-85	Shota Imanaga	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-86,1,Matt Chapman,San Francisco Giants,False,T90-86	Matt Chapman	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-87,1,Derek Jeter,New York Yankees,False,T90-87	Derek Jeter	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-88,1,Luis Robert Jr,Chicago White Sox,False,T90-88	Luis Robert Jr	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-89,1,Dylan Crews,Washington Nationals	Rookie,False,T90-89	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-90,1,Rafael Devers,Boston Red Sox,False,T90-90	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-91,1,Rhett Lowder,Cincinnati Reds	Rookie,False,T90-91	Rhett Lowder	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-92,1,Zach Dezenzo,Houston Astros	Rookie,False,T90-92	Zach Dezenzo	Houston Astros	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-93,1,Coby Mayo,Baltimore Orioles	Rookie,False,T90-93	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-94,1,Adrián Beltré,Texas Rangers,False,T90-94	Adrián Beltré	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-95,1,Stan Musial,St. Louis Cardinals,False,T90-95	Stan Musial	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-96,1,Willie Mays,San Francisco Giants,False,T90-96	Willie Mays	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-97,1,Will Clark,San Francisco Giants,False,T90-97	Will Clark	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-98,1,Andrew McCutchen,Pittsburgh Pirates,False,T90-98	Andrew McCutchen	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-99,1,Jazz Chisholm Jr.,New York Yankees,False,T90-99	Jazz Chisholm Jr.	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,1990 Topps Baseball Checklist,100,T90-100,1,Shohei Ohtani,Los Angeles Dodgers,False,T90-100	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-1,1,Gunnar Henderson,Baltimore Orioles,False,T90C-1	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-2,1,Don Mattingly,New York Yankees,False,T90C-2	Don Mattingly	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-3,1,Hurston Waldrep,Atlanta Braves	Rookie,False,T90C-3	Hurston Waldrep	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-4,1,Frank Thomas,Chicago White Sox,False,T90C-4	Frank Thomas	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-5,1,Derek Jeter,New York Yankees,False,T90C-5	Derek Jeter	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-6,1,Wade Boggs,Boston Red Sox,False,T90C-6	Wade Boggs	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-7,1,Steven Kwan,Cleveland Guardians,False,T90C-7	Steven Kwan	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-8,1,Rafael Devers,Boston Red Sox,False,T90C-8	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-9,1,Nolan Ryan,Houston Astros,False,T90C-9	Nolan Ryan	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-10,1,Jackie Robinson,Brooklyn Dodgers,False,T90C-10	Jackie Robinson	Brooklyn Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-11,1,Francisco Lindor,New York Mets,False,T90C-11	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-12,1,Fernando Tatis Jr.,San Diego Padres,False,T90C-12	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-13,1,Clayton Kershaw,Los Angeles Dodgers,False,T90C-13	Clayton Kershaw	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-14,1,Bryce Harper,Philadelphia Phillies,False,T90C-14	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-15,1,Elly De La Cruz,Cincinnati Reds,False,T90C-15	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-16,1,Jacob Wilson,Athletics	Rookie,False,T90C-16	Jacob Wilson	Athletics	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-17,1,Rece Hinds,Cincinnati Reds	Rookie,False,T90C-17	Rece Hinds	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-18,1,Jazz Chisholm Jr.,New York Yankees,False,T90C-18	Jazz Chisholm Jr.	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-19,1,Juan Soto,New York Yankees,False,T90C-19	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-20,1,Drew Thorpe,Chicago White Sox	Rookie,False,T90C-20	Drew Thorpe	Chicago White Sox	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-21,1,Coby Mayo,Baltimore Orioles	Rookie,False,T90C-21	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-22,1,Jarren Duran,Boston Red Sox,False,T90C-22	Jarren Duran	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-23,1,Matt Olson,Atlanta Braves,False,T90C-23	Matt Olson	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-24,1,Adael Amador,Colorado Rockies	Rookie,False,T90C-24	Adael Amador	Colorado Rockies	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-25,1,Gordon Graceffo,St. Louis Cardinals	Rookie,False,T90C-25	Gordon Graceffo	St. Louis Cardinals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-26,1,Carlos Correa,Minnesota Twins,False,T90C-26	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-27,1,Ryne Sandberg,Chicago Cubs,False,T90C-27	Ryne Sandberg	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-28,1,Nacho Alvarez Jr.,Atlanta Braves	Rookie,False,T90C-28	Nacho Alvarez Jr.	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-29,1,Rhett Lowder,Cincinnati Reds	Rookie,False,T90C-29	Rhett Lowder	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-30,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,T90C-30	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-31,1,Jeff Bagwell,Houston Astros,False,T90C-31	Jeff Bagwell	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-32,1,Paul Skenes,Pittsburgh Pirates,False,T90C-32	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-33,1,Hayden Birdsong,San Francisco Giants	Rookie,False,T90C-33	Hayden Birdsong	San Francisco Giants	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-34,1,Jackson Merrill,San Diego Padres,False,T90C-34	Jackson Merrill	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-35,1,Adley Rutschman,Baltimore Orioles,False,T90C-35	Adley Rutschman	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-36,1,River Ryan,Los Angeles Dodgers	Rookie,False,T90C-36	River Ryan	Los Angeles Dodgers	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-37,1,Ken Griffey Jr.,Seattle Mariners,False,T90C-37	Ken Griffey Jr.	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-38,1,Barry Larkin,Cincinnati Reds,False,T90C-38	Barry Larkin	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-39,1,Trea Turner,Philadelphia Phillies,False,T90C-39	Trea Turner	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-40,1,Rickey Henderson,Athletics,False,T90C-40	Rickey Henderson	Athletics
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-41,1,Jackson Chourio,Milwaukee Brewers,False,T90C-41	Jackson Chourio	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-42,1,Orelvis Martinez,Toronto Blue Jays	Rookie,False,T90C-42	Orelvis Martinez	Toronto Blue Jays	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-43,1,Shota Imanaga,Chicago Cubs,False,T90C-43	Shota Imanaga	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-44,1,Dylan Crews,Washington Nationals	Rookie,False,T90C-44	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-45,1,Ronald Acuña Jr.,Atlanta Braves,False,T90C-45	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-46,1,Dale Murphy,Atlanta Braves,False,T90C-46	Dale Murphy	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-47,1,Seiya Suzuki,Chicago Cubs,False,T90C-47	Seiya Suzuki	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-48,1,Nolan Arenado,St. Louis Cardinals,False,T90C-48	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-49,1,Brooks Lee,Minnesota Twins	Rookie,False,T90C-49	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-50,1,Shohei Ohtani,Los Angeles Dodgers,False,T90C-50	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-51,1,Yordan Alvarez,Houston Astros,False,T90C-51	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-52,1,Mark McGwire,Athletics,False,T90C-52	Mark McGwire	Athletics
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-53,1,Justyn-Henry Malloy,Detroit Tigers	Rookie,False,T90C-53	Justyn-Henry Malloy	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-54,1,Mike Trout,Los Angeles Angels,False,T90C-54	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-55,1,James Wood,Washington Nationals	Rookie,False,T90C-55	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-56,1,Bobby Witt Jr.,Kansas City Royals,False,T90C-56	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-57,1,Julio Rodríguez,Seattle Mariners,False,T90C-57	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-58,1,Tony Gwynn,San Diego Padres,False,T90C-58	Tony Gwynn	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-59,1,Chayce McDermott,Baltimore Orioles	Rookie,False,T90C-59	Chayce McDermott	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-60,1,Spencer Schwellenbach,Atlanta Braves	Rookie,False,T90C-60	Spencer Schwellenbach	Atlanta Braves	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-61,1,Brandon Nimmo,New York Mets,False,T90C-61	Brandon Nimmo	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-62,1,Chipper Jones,Atlanta Braves,False,T90C-62	Chipper Jones	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-63,1,Jake Bloss,Toronto Blue Jays	Rookie,False,T90C-63	Jake Bloss	Toronto Blue Jays	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-64,1,Tyler Locklear,Seattle Mariners	Rookie,False,T90C-64	Tyler Locklear	Seattle Mariners	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-65,1,Adam Mazur,Miami Marlins	Rookie,False,T90C-65	Adam Mazur	Miami Marlins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-66,1,Angel Martínez,Cleveland Guardians	Rookie,False,T90C-66	Angel Martínez	Cleveland Guardians	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-67,1,Vladimir Guerrero,Montréal Expos,False,T90C-67	Vladimir Guerrero	Montréal Expos
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-68,1,Robin Yount,Milwaukee Brewers,False,T90C-68	Robin Yount	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-69,1,Cade Povich,Baltimore Orioles	Rookie,False,T90C-69	Cade Povich	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-70,1,Corey Seager,Texas Rangers,False,T90C-70	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-71,1,Manny Machado,San Diego Padres,False,T90C-71	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-72,1,Larry Walker,Montréal Expos,False,T90C-72	Larry Walker	Montréal Expos
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-73,1,Sonny Gray,St. Louis Cardinals,False,T90C-73	Sonny Gray	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-74,1,Byron Buxton,Minnesota Twins,False,T90C-74	Byron Buxton	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-75,1,Will Clark,San Francisco Giants,False,T90C-75	Will Clark	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-76,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,T90C-76	Yoshinobu Yamamoto	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-77,1,Christian Yelich,Milwaukee Brewers,False,T90C-77	Christian Yelich	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-78,1,Luis Robert Jr.,Chicago White Sox,False,T90C-78	Luis Robert Jr.	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-79,1,Jose Altuve,Houston Astros,False,T90C-79	Jose Altuve	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-80,1,Corbin Carroll,Arizona Diamondbacks,False,T90C-80	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-81,1,Mookie Betts,Los Angeles Dodgers,False,T90C-81	Mookie Betts	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-82,1,Aaron Judge,New York Yankees,False,T90C-82	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-83,1,Pete Alonso,New York Mets,False,T90C-83	Pete Alonso	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-84,1,Paul Goldschmidt,St. Louis Cardinals,False,T90C-84	Paul Goldschmidt	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-85,1,Wyatt Langford,Texas Rangers,False,T90C-85	Wyatt Langford	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-86,1,Ben Rice,New York Yankees	Rookie,False,T90C-86	Ben Rice	New York Yankees	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-87,1,Connor Norby,Miami Marlins	Rookie,False,T90C-87	Connor Norby	Miami Marlins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-88,1,Cal Ripken Jr.,Baltimore Orioles,False,T90C-88	Cal Ripken Jr.	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-89,1,Riley Greene,Detroit Tigers,False,T90C-89	Riley Greene	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-90,1,David Festa,Minnesota Twins	Rookie,False,T90C-90	David Festa	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-91,1,Randy Arozarena,Seattle Mariners,False,T90C-91	Randy Arozarena	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-92,1,Bo Jackson,Kansas City Royals,False,T90C-92	Bo Jackson	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-93,1,Ichiro,Seattle Mariners,False,T90C-93	Ichiro	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-94,1,José Ramírez,Cleveland Guardians,False,T90C-94	José Ramírez	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-95,1,Andrew McCutchen,Pittsburgh Pirates,False,T90C-95	Andrew McCutchen	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-96,1,George Brett,Kansas City Royals,False,T90C-96	George Brett	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-97,1,Matt Chapman,San Francisco Giants,False,T90C-97	Matt Chapman	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-98,1,Gerrit Cole,New York Yankees,False,T90C-98	Gerrit Cole	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-99,1,Albert Pujols,St. Louis Cardinals,False,T90C-99	Albert Pujols	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Silver packs only.,,T90C-100,1,Mike Schmidt,Philadelphia Phillies,False,T90C-100	Mike Schmidt	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-1,1,Aaron Judge,New York Yankees,False,ATT-1	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-2,1,Juan Soto,New York Yankees,False,ATT-2	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-3,1,Shohei Ohtani,Los Angeles Dodgers,False,ATT-3	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-4,1,Emmanuel Clase,Cleveland Guardians,False,ATT-4	Emmanuel Clase	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-5,1,Bryce Harper,Philadelphia Phillies,False,ATT-5	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-6,1,William Contreras,Milwaukee Brewers,False,ATT-6	William Contreras	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-7,1,Paul Skenes,Pittsburgh Pirates,False,ATT-7	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-8,1,Jarren Duran,Boston Red Sox,False,ATT-8	Jarren Duran	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-9,1,Tarik Skubal,Detroit Tigers,False,ATT-9	Tarik Skubal	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-10,1,Ketel Marte,Arizona Diamondbacks,False,ATT-10	Ketel Marte	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-11,1,Bobby Witt Jr.,Kansas City Royals,False,ATT-11	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,2024 All-Topps Team Checklist,12,ATT-12,1,José Ramírez,Cleveland Guardians,False,ATT-12	José Ramírez	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-1,1,Jason Kelce,Philadelphia Phillies,False,FP-1	Jason Kelce	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-2,1,Masanori Murakami,San Francsico Giants,False,FP-2	Masanori Murakami	San Francsico Giants
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-3,1,Juju Watkins,Los Angeles Dodgers,False,FP-3	Juju Watkins	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-4,1,Coach Al,New York Yankees,False,FP-4	Coach Al	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-5,1,Jayson Tatum,St. Louis Cardinals,False,FP-5	Jayson Tatum	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-6,1,Carl Radke,Pittsburgh Pirates,False,FP-6	Carl Radke	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-7,1,Chipper Jones,Atlanta Braves,False,FP-7	Chipper Jones	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-8,1,Adrían Beltré,Texas Rangers,False,FP-8	Adrían Beltré	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-9,1,Lauren Alaina,Chicago Cubs,False,FP-9	Lauren Alaina	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,2024 First Pitch Checklist,10,FP-10,1,C.J. Stroud,Houston Astros,False,FP-10	C.J. Stroud	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-1,1,Aaron Judge,New York Yankees,False,GH-1	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-2,1,Ben Rice,New York Yankees	Rookie,False,GH-2	Ben Rice	New York Yankees	Rookie
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-3,1,Bryce Harper,Philadelphia Phillies,False,GH-3	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-4,1,Cal Raleigh,Seattle Mariners,False,GH-4	Cal Raleigh	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-5,1,Nolan Arenado,St. Louis Cardinals,False,GH-5	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-6,1,Bobby Witt Jr.,Kansas City Royals,False,GH-6	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-7,1,Corbin Carroll,Arizona Diamondbacks,False,GH-7	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-8,1,Shohei Ohtani,Los Angeles Dodgers,False,GH-8	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-9,1,Fernando Tatis Jr.,San Diego Padres,False,GH-9	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-10,1,Freddie Freeman,Los Angeles Dodgers,False,GH-10	Freddie Freeman	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-11,1,Jackson Holliday,Baltimore Orioles,False,GH-11	Jackson Holliday	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-12,1,Jackson Merrill,San Diego Padres,False,GH-12	Jackson Merrill	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-13,1,James Wood,Washington Nationals	Rookie,False,GH-13	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-14,1,Jazz Chisholm Jr.,New York Yankees,False,GH-14	Jazz Chisholm Jr.	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-15,1,Juan Soto,New York Yankees,False,GH-15	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-16,1,Aaron Judge,New York Yankees,False,GH-16	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-17,1,Manny Machado,San Diego Padres,False,GH-17	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-18,1,Mike Tauchman,Chicago Cubs,False,GH-18	Mike Tauchman	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-19,1,Mike Yastrzemski,San Francsico Giants,False,GH-19	Mike Yastrzemski	San Francsico Giants
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-20,1,Cedric Mullins,Baltimore Orioles,False,GH-20	Cedric Mullins	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-21,1,Paul Goldschmidt,St. Louis Cardinals,False,GH-21	Paul Goldschmidt	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-22,1,Rece Hinds,Cincinnati Reds	Rookie,False,GH-22	Rece Hinds	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-23,1,Shohei Ohtani,Los Angeles Dodgers,False,GH-23	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-24,1,Paul Skenes,Pittsburgh Pirates	Rookie,False,GH-24	Paul Skenes	Pittsburgh Pirates	Rookie
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-25,1,Shohei Ohtani,Los Angeles Dodgers,False,GH-25	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-26,1,Travis d'Arnaud,Atlanta Braves,False,GH-26	Travis d'Arnaud	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-27,1,Wyatt Langford,Texas Rangers,False,GH-27	Wyatt Langford	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,2024 Greatest Hits Checklist,28,GH-28,1,Elly De La Cruz,Cincinnati Reds,False,GH-28	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-1,1,Sandy Koufax,Los Angeles Dodgers,False,AA-1	Sandy Koufax	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-2,1,Nolan Ryan,Houston Astros,False,AA-2	Nolan Ryan	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-3,1,Babe Ruth,Boston Red Sox,False,AA-3	Babe Ruth	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-4,1,Roger Clemens,Boston Red Sox,False,AA-4	Roger Clemens	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-5,1,Greg Maddux,Atlanta Braves,False,AA-5	Greg Maddux	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-6,1,Bob Gibson,St. Louis Cardinals,False,AA-6	Bob Gibson	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-7,1,Pedro Martinez,Boston Red Sox,False,AA-7	Pedro Martinez	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-8,1,Randy Johnson,Arizona Diamondbacks,False,AA-8	Randy Johnson	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-9,1,Satchel Paige,St. Louis Browns,False,AA-9	Satchel Paige	St. Louis Browns
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-10,1,Clayton Kershaw,Los Angeles Dodgers,False,AA-10	Clayton Kershaw	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-11,1,Justin Verlander,Houston Astros,False,AA-11	Justin Verlander	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-12,1,Shohei Ohtani,Los Angeles Dodgers,False,AA-12	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-13,1,Sonny Gray,St. Louis Cardinals,False,AA-13	Sonny Gray	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-14,1,Steve Carlton,Philadelphia Phillies,False,AA-14	Steve Carlton	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-15,1,Tom Seaver,New York Mets,False,AA-15	Tom Seaver	New York Mets
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-16,1,Chris Sale,Atlanta Braves,False,AA-16	Chris Sale	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-17,1,Yoshinobu Yamamoto,Los Angeles Dodgers,False,AA-17	Yoshinobu Yamamoto	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-18,1,Jacob deGrom,Texas Rangers,False,AA-18	Jacob deGrom	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-19,1,Shota Imanaga,Chicago Cubs,False,AA-19	Shota Imanaga	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-20,1,Paul Skenes,Pittsburgh Pirates,False,AA-20	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-21,1,Jackson Jobe,Detroit Tigers	Rookie,False,AA-21	Jackson Jobe	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-22,1,Corbin Burnes,Baltimore Orioles,False,AA-22	Corbin Burnes	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-23,1,Tarik Skubal,Detroit Tigers,False,AA-23	Tarik Skubal	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-24,1,Gerrit Cole,New York Yankees,False,AA-24	Gerrit Cole	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,All Aces Checklist,25,AA-25,1,Rhett Lowder,Cincinnati Reds	Rookie,False,AA-25	Rhett Lowder	Cincinnati Reds	Rookie
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-1,1,Randy Johnson,Arizona Diamondbacks,False,CTH-1	Randy Johnson	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-2,1,Chipper Jones,Atlanta Braves,False,CTH-2	Chipper Jones	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-3,1,Ty Cobb,Detroit Tigers,False,CTH-3	Ty Cobb	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-4,1,Hank Aaron,Atlanta Braves,False,CTH-4	Hank Aaron	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-5,1,Cal Ripken Jr.,Baltimore Orioles,False,CTH-5	Cal Ripken Jr.	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-6,1,Stan Musial,St. Louis Cardinals,False,CTH-6	Stan Musial	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-7,1,Ted Williams,Boston Red Sox,False,CTH-7	Ted Williams	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-8,1,Jackie Robinson,Brooklyn Dodgers,False,CTH-8	Jackie Robinson	Brooklyn Dodgers
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-9,1,Johnny Bench,Cincinnati Reds,False,CTH-9	Johnny Bench	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-10,1,Ernie Banks,Chicago Cubs,False,CTH-10	Ernie Banks	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-11,1,Nolan Ryan,Houston Astros,False,CTH-11	Nolan Ryan	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-12,1,George Brett,Kansas City Royals,False,CTH-12	George Brett	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-13,1,Sandy Koufax,Los Angeles Dodgers,False,CTH-13	Sandy Koufax	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-14,1,Babe Ruth,New York Yankees,False,CTH-14	Babe Ruth	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-15,1,Mickey Mantle,New York Yankees,False,CTH-15	Mickey Mantle	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-16,1,Reggie Jackson,New York Yankees,False,CTH-16	Reggie Jackson	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-17,1,Derek Jeter,New York Yankees,False,CTH-17	Derek Jeter	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-18,1,Rickey Henderson,Athletics,False,CTH-18	Rickey Henderson	Athletics
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-19,1,Mike Schmidt,Philadelphia Phillies,False,CTH-19	Mike Schmidt	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-20,1,Roberto Clemente,Pittsburgh Pirates,False,CTH-20	Roberto Clemente	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-21,1,Tony Gwynn,San Diego Padres,False,CTH-21	Tony Gwynn	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-22,1,Willie Mays,San Francisco Giants,False,CTH-22	Willie Mays	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-23,1,Ken Griffey Jr.,Seattle Mariners,False,CTH-23	Ken Griffey Jr.	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-24,1,Ichiro,Seattle Mariners,False,CTH-24	Ichiro	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Call to the Hall Checklist,25,CTH-25,1,Albert Pujols,St. Louis Cardinals,False,CTH-25	Albert Pujols	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-1,1,Shohei Ohtani,Los Angeles Dodgers,False,CC-1	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-2,1,Mike Trout,Los Angeles Angels,False,CC-2	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-3,1,Ronald Acuña Jr.,Atlanta Braves,False,CC-3	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-4,1,Aaron Judge,New York Yankees,False,CC-4	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-5,1,Bryce Harper,Philadelphia Phillies,False,CC-5	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-6,1,Julio Rodríguez,Seattle Mariners,False,CC-6	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-7,1,Corbin Carroll,Arizona Diamondbacks,False,CC-7	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-8,1,Bobby Witt Jr.,Kansas City Royals,False,CC-8	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-9,1,Rafael Devers,Boston Red Sox,False,CC-9	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-10,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,CC-10	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-11,1,Gunnar Henderson,Baltimore Orioles,False,CC-11	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-12,1,Nolan Arenado,St. Louis Cardinals,False,CC-12	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-13,1,Corey Seager,Texas Rangers,False,CC-13	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-14,1,Carlos Correa,Minnesota Twins,False,CC-14	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-15,1,Yordan Alvarez,Houston Astros,False,CC-15	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-16,1,Christian Yelich,Milwaukee Brewers,False,CC-16	Christian Yelich	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-17,1,James Wood,Washington Nationals	Rookie,False,CC-17	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-18,1,Brooks Lee,Minnesota Twins	Rookie,False,CC-18	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-19,1,Dylan Crews,Washington Nationals	Rookie,False,CC-19	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-20,1,Coby Mayo,Baltimore Orioles	Rookie,False,CC-20	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-21,1,Paul Skenes,Pittsburgh Pirates,False,CC-21	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-22,1,Jace Jung,Detroit Tigers	Rookie,False,CC-22	Jace Jung	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-23,1,Jacob Wilson,Athletics	Rookie,False,CC-23	Jacob Wilson	Athletics	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-24,1,Francisco Lindor,New York Mets,False,CC-24	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,CC-25,1,Manny Machado,San Diego Padres,False,CC-25	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Aaron,1,Judge,New York Yankees,False,Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Bobby,1,Witt Jr.,Kansas City Royals,False,Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Dylan,1,Crews,Washington Nationals	Rookie,False,Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Francisco,1,Lindor,New York Mets,False,Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Gunnar,1,Henderson,Baltimore Orioles,False,Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,James,1,Wood,Washington Nationals	Rookie,False,James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Julio,1,Rodríguez,Seattle Mariners,False,Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Mike,1,Trout,Los Angeles Angels,False,Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Ronald,1,Acuña Jr.,Atlanta Braves,False,Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,Shohei,1,Ohtani,Los Angeles Dodgers,False,Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-1,1,Juan Soto,New York Yankees,False,HL-1	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-2,1,Julio Rodríguez,Seattle Mariners,False,HL-2	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-3,1,Aaron Judge,New York Yankees,False,HL-3	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-4,1,Ronald Acuña Jr.,Atlanta Braves,False,HL-4	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-5,1,Bryce Harper,Philadelphia Phillies,False,HL-5	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-6,1,Shohei Ohtani,Los Angeles Dodgers,False,HL-6	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-7,1,Mike Trout,Los Angeles Angels,False,HL-7	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-8,1,Gunnar Henderson,Baltimore Orioles,False,HL-8	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-9,1,Bobby Witt Jr.,Kansas City Royals,False,HL-9	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-10,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,HL-10	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-11,1,Elly De La Cruz,Cincinnati Reds,False,HL-11	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-12,1,James Wood,Washington Nationals	Rookie,False,HL-12	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-13,1,Fernando Tatis Jr.,San Diego Padres,False,HL-13	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-14,1,Willie Mays,San Francisco Giants,False,HL-14	Willie Mays	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-15,1,Ken Griffey Jr.,Seattle Mariners,False,HL-15	Ken Griffey Jr.	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-16,1,Barry Bonds,San Francisco Giants,False,HL-16	Barry Bonds	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-17,1,Mickey Mantle,New York Yankees,False,HL-17	Mickey Mantle	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-18,1,Jackie Robinson,Brooklyn Dodgers,False,HL-18	Jackie Robinson	Brooklyn Dodgers
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-19,1,Roberto Clemente,Pittsburgh Pirates,False,HL-19	Roberto Clemente	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Heavy Lumber Checklist,20,HL-20,1,Coby Mayo,Baltimore Orioles	Rookie,False,HL-20	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-1,1,Aaron Judge,New York Yankees,False,HA-1	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-2,1,Ronald Acuña Jr.,Atlanta Braves,False,HA-2	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-3,1,Julio Rodríguez,Seattle Mariners,False,HA-3	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-4,1,Bryce Harper,Philadelphia Phillies,False,HA-4	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-5,1,Shohei Ohtani,Los Angeles Dodgers,False,HA-5	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-6,1,Mike Trout,Los Angeles Angels,False,HA-6	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-7,1,Gunnar Henderson,Baltimore Orioles,False,HA-7	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-8,1,Bobby Witt Jr.,Kansas City Royals,False,HA-8	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-9,1,James Wood,Washington Nationals	Rookie,False,HA-9	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-10,1,Fernando Tatis Jr.,San Diego Padres,False,HA-10	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-11,1,Matt Chapman,San Francisco Giants,False,HA-11	Matt Chapman	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-12,1,Brooks Lee,Minnesota Twins	Rookie,False,HA-12	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-13,1,Cody Bellinger,Chicago Cubs,False,HA-13	Cody Bellinger	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-14,1,Coby Mayo,Baltimore Orioles	Rookie,False,HA-14	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-15,1,Jace Jung,Detroit Tigers	Rookie,False,HA-15	Jace Jung	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-16,1,Elly De La Cruz,Cincinnati Reds,False,HA-16	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-17,1,Francisco Lindor,New York Mets,False,HA-17	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-18,1,Rafael Devers,Boston Red Sox,False,HA-18	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-19,1,Riley Greene,Detroit Tigers,False,HA-19	Riley Greene	Detroit Tigers
+2025_topps_series1,2025,Topps,Series 1,Home Field Advantage Checklist,20,HA-20,1,Ketel Marte,Arizona Diamondbacks,False,HA-20	Ketel Marte	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Legendary Home Field Advantage Checklist,5,LHA-1,1,Chipper Jones,Atlanta Braves,False,LHA-1	Chipper Jones	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Legendary Home Field Advantage Checklist,5,LHA-2,1,Tony Gwynn,San Diego Padres,False,LHA-2	Tony Gwynn	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Legendary Home Field Advantage Checklist,5,LHA-3,1,Ryne Sandberg,Chicago Cubs,False,LHA-3	Ryne Sandberg	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Legendary Home Field Advantage Checklist,5,LHA-4,1,Lou Gehrig,New York Yankees,False,LHA-4	Lou Gehrig	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Legendary Home Field Advantage Checklist,5,LHA-5,1,Adrian Beltré,Texas Rangers,False,LHA-5	Adrian Beltré	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,1,1,Shohei Ohtani,Los Angeles Dodgers,False,1	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,20,1,Coby Mayo,Baltimore Orioles	Rookie,False,20	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,49,1,Christian Yelich,Milwaukee Brewers,False,49	Christian Yelich	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,65,1,Gunnar Henderson,Baltimore Orioles,False,65	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,74,1,Dylan Crews,Washington Nationals	Rookie,False,74	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,78,1,Corbin Carroll,Arizona Diamondbacks,False,78	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,80,1,Jace Jung,Detroit Tigers	Rookie,False,80	Jace Jung	Detroit Tigers	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,98,1,Paul Skenes,Pittsburgh Pirates,False,98	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,100,1,Bobby Witt Jr.,Kansas City Royals,False,100	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,101,1,Nolan Arenado,St. Louis Cardinals,False,101	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,163,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,163	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,181,1,James Wood,Washington Nationals	Rookie,False,181	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,200,1,Mike Trout,Los Angeles Angels,False,200	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,207,1,Ronald Acuña Jr.,Atlanta Braves,False,207	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,215,1,Manny Machado,San Diego Padres,False,215	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,244,1,Yordan Alvarez,Houston Astros,False,244	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,250,1,Bryce Harper,Philadelphia Phillies,False,250	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,266,1,Julio Rodríguez,Seattle Mariners,False,266	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,275,1,Carlos Correa,Minnesota Twins,False,275	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,281,1,Corey Seager,Texas Rangers,False,281	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,285,1,Rafael Devers,Boston Red Sox,False,285	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,300,1,Aaron Judge,New York Yankees,False,300	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,314,1,Jacob Wilson,Athletics	Rookie,False,314	Jacob Wilson	Athletics	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,317,1,Brooks Lee,Minnesota Twins	Rookie,False,317	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Super box only.,,350,1,Francisco Lindor,New York Mets,False,350	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-1,1,Carlos Peña,Tampa Bay Rays,False,PLAK-1	Carlos Peña	Tampa Bay Rays
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-2,1,Albert Pujols,St. Louis Cardinals,False,PLAK-2	Albert Pujols	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-3,1,Ronald Acuña Jr.,Atlanta Braves,False,PLAK-3	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-4,1,Elly De La Cruz,Cincinnati Reds,False,PLAK-4	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-5,1,Oneil Cruz,Pittsburgh Pirates,False,PLAK-5	Oneil Cruz	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-6,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,PLAK-6	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-7,1,Juan Soto,New York Yankees,False,PLAK-7	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-8,1,Fernando Tatis Jr.,San Diego Padres,False,PLAK-8	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-9,1,Julio Rodríguez,Seattle Mariners,False,PLAK-9	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-10,1,Manny Machado,San Diego Padres,False,PLAK-10	Manny Machado	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-11,1,Francisco Lindor,New York Mets,False,PLAK-11	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-12,1,José Ramírez,Cleveland Guardians,False,PLAK-12	José Ramírez	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-13,1,Carlos Correa,Minnesota Twins,False,PLAK-13	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-14,1,Yordan Alvarez,Houston Astros,False,PLAK-14	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-15,1,Rafael Devers,Boston Red Sox,False,PLAK-15	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-16,1,David Ortiz,Boston Red Sox,False,PLAK-16	David Ortiz	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-17,1,Adrian Beltré,Texas Rangers,False,PLAK-17	Adrian Beltré	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-18,1,Vladimir Guerrero,Montréal Expos,False,PLAK-18	Vladimir Guerrero	Montréal Expos
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-19,1,Jackson Chourio,Milwaukee Brewers,False,PLAK-19	Jackson Chourio	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-20,1,Teoscar Hernández,Los Angeles Dodgers,False,PLAK-20	Teoscar Hernández	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-21,1,Ketel Marte,Arizona Diamondbacks,False,PLAK-21	Ketel Marte	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-22,1,Marcell Ozuna,Atlanta Braves,False,PLAK-22	Marcell Ozuna	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-23,1,Sammy Sosa,Chicago Cubs,False,PLAK-23	Sammy Sosa	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-24,1,Roberto Clemente,Pittsburgh Pirates,False,PLAK-24	Roberto Clemente	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Plakata Checklist,25,PLAK-25,1,Adolis García,Texas Rangers,False,PLAK-25	Adolis García	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-CM,1,Coby Mayo,Baltimore Orioles,False,FBR-CM	Coby Mayo	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-FT,1,Frank Thomas,Chicago White Sox,False,FBR-FT	Frank Thomas	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-JC,1,Jackson Chourio,Milwaukee Brewers,False,FBR-JC	Jackson Chourio	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-JM,1,Jackson Merrill,San Diego Padres,False,FBR-JM	Jackson Merrill	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-JR,1,Julio Rodríguez,Seattle Mariners,False,FBR-JR	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-JS,1,Juan Soto,New York Yankees,False,FBR-JS	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-JW,1,James Wood,Washington Nationals,False,FBR-JW	James Wood	Washington Nationals
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-KG,1,Ken GriffeyJr.,Seattle Mariners,False,FBR-KG	Ken GriffeyJr.	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-PS,1,Paul Skenes,Pittsburgh Pirates,False,FBR-PS	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Social Media Follow Back Redemptions Checklist,10,FBR-RJ,1,Reggie Jackson,New York Yankees,False,FBR-RJ	Reggie Jackson	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-1,1,Nolan Arenado,St. Louis Cardinals,False,SMLB-1	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-2,1,Aaron Judge,New York Yankees,False,SMLB-2	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-3,1,Bryce Harper,Philadelphia Phillies,False,SMLB-3	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-4,1,Fernando Tatis Jr.,San Diego Padres,False,SMLB-4	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-5,1,Julio Rodríguez,Seattle Mariners,False,SMLB-5	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-6,1,Bobby Witt Jr.,Kansas City Royals,False,SMLB-6	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-7,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,SMLB-7	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-8,1,Mike Trout,Los Angeles Angels,False,SMLB-8	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-9,1,Yordan Alvarez,Houston Astros,False,SMLB-9	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-10,1,Shohei Ohtani,Los Angeles Dodgers,False,SMLB-10	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-11,1,Francisco Lindor,New York Mets,False,SMLB-11	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-12,1,Gunnar Henderson,Baltimore Orioles,False,SMLB-12	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-13,1,Elly De La Cruz,Cincinnati Reds,False,SMLB-13	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-14,1,Corey Seager,Texas Rangers,False,SMLB-14	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-15,1,Corbin Carroll,Arizona Diamondbacks,False,SMLB-15	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-16,1,Ronald Acuña Jr.,Atlanta Braves,False,SMLB-16	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-17,1,Mookie Betts,Los Angeles Dodgers,False,SMLB-17	Mookie Betts	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-18,1,James Wood,Washington Nationals	Rookie,False,SMLB-18	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-19,1,Brooks Lee,Minnesota Twins	Rookie,False,SMLB-19	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-20,1,José Ramírez,Cleveland Guardians,False,SMLB-20	José Ramírez	Cleveland Guardians
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-21,1,Rafael Devers,Boston Red Sox,False,SMLB-21	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-22,1,Juan Soto,New York Yankees,False,SMLB-22	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-23,1,Coby Mayo,Baltimore Orioles	Rookie,False,SMLB-23	Coby Mayo	Baltimore Orioles	Rookie
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-24,1,Christian Yelich,Milwaukee Brewers,False,SMLB-24	Christian Yelich	Milwaukee Brewers
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-25,1,Luis Robert Jr.,Chicago White Sox,False,SMLB-25	Luis Robert Jr.	Chicago White Sox
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-26,1,Shota Imanaga,Chicago Cubs,False,SMLB-26	Shota Imanaga	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-27,1,Paul Skenes,Pittsburgh Pirates,False,SMLB-27	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-28,1,Carlos Correa,Minnesota Twins,False,SMLB-28	Carlos Correa	Minnesota Twins
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-29,1,Matt Chapman,San Francisco Giants,False,SMLB-29	Matt Chapman	San Francisco Giants
+2025_topps_series1,2025,Topps,Series 1,Retail only.,,SMLB-30,1,Dylan Crews,Washington Nationals	Rookie,False,SMLB-30	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-1,1,Mike Trout,Los Angeles Angels,False,MEGA-1	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-2,1,Shohei Ohtani,Los Angeles Dodgers,False,MEGA-2	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-3,1,Ronald Acuña Jr.,Atlanta Braves,False,MEGA-3	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-4,1,Gunnar Henderson,Baltimore Orioles,False,MEGA-4	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-5,1,Elly De La Cruz,Cincinnati Reds,False,MEGA-5	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-6,1,Yordan Alvarez,Houston Astros,False,MEGA-6	Yordan Alvarez	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-7,1,Mookie Betts,Los Angeles Dodgers,False,MEGA-7	Mookie Betts	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-8,1,Aaron Judge,New York Yankees,False,MEGA-8	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-9,1,Juan Soto,New York Yankees,False,MEGA-9	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-10,1,Bryce Harper,Philadelphia Phillies,False,MEGA-10	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-11,1,Fernando Tatis Jr.,San Diego Padres,False,MEGA-11	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-12,1,Julio Rodríguez,Seattle Mariners,False,MEGA-12	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-13,1,Nolan Arenado,St. Louis Cardinals,False,MEGA-13	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-14,1,Bobby Witt Jr.,Kansas City Royals,False,MEGA-14	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-15,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,MEGA-15	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-16,1,James Wood,Washington Nationals	Rookie,False,MEGA-16	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-17,1,Brooks Lee,Minnesota Twins	Rookie,False,MEGA-17	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-18,1,Paul Skenes,Pittsburgh Pirates,False,MEGA-18	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-19,1,Corbin Carroll,Arizona Diamondbacks,False,MEGA-19	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Mega box only.,,MEGA-20,1,Dylan Crews,Washington Nationals	Rookie,False,MEGA-20	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-1,1,Nolan Arenado,St. Louis Cardinals,False,TG-1	Nolan Arenado	St. Louis Cardinals
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-2,1,Aaron Judge,New York Yankees,False,TG-2	Aaron Judge	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-3,1,Bryce Harper,Philadelphia Phillies,False,TG-3	Bryce Harper	Philadelphia Phillies
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-4,1,Fernando Tatis Jr.,San Diego Padres,False,TG-4	Fernando Tatis Jr.	San Diego Padres
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-5,1,Julio Rodríguez,Seattle Mariners,False,TG-5	Julio Rodríguez	Seattle Mariners
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-6,1,Bobby Witt Jr.,Kansas City Royals,False,TG-6	Bobby Witt Jr.	Kansas City Royals
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-7,1,Vladimir Guerrero Jr.,Toronto Blue Jays,False,TG-7	Vladimir Guerrero Jr.	Toronto Blue Jays
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-8,1,Mike Trout,Los Angeles Angels,False,TG-8	Mike Trout	Los Angeles Angels
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-9,1,Jose Altuve,Houston Astros,False,TG-9	Jose Altuve	Houston Astros
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-10,1,Shohei Ohtani,Los Angeles Dodgers,False,TG-10	Shohei Ohtani	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-11,1,Francisco Lindor,New York Mets,False,TG-11	Francisco Lindor	New York Mets
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-12,1,Gunnar Henderson,Baltimore Orioles,False,TG-12	Gunnar Henderson	Baltimore Orioles
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-13,1,Elly De La Cruz,Cincinnati Reds,False,TG-13	Elly De La Cruz	Cincinnati Reds
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-14,1,Corey Seager,Texas Rangers,False,TG-14	Corey Seager	Texas Rangers
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-15,1,Corbin Carroll,Arizona Diamondbacks,False,TG-15	Corbin Carroll	Arizona Diamondbacks
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-16,1,Ronald Acuña Jr.,Atlanta Braves,False,TG-16	Ronald Acuña Jr.	Atlanta Braves
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-17,1,Mookie Betts,Los Angeles Dodgers,False,TG-17	Mookie Betts	Los Angeles Dodgers
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-18,1,James Wood,Washington Nationals	Rookie,False,TG-18	James Wood	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-19,1,Brooks Lee,Minnesota Twins	Rookie,False,TG-19	Brooks Lee	Minnesota Twins	Rookie
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-20,1,Dylan Crews,Washington Nationals	Rookie,False,TG-20	Dylan Crews	Washington Nationals	Rookie
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-21,1,Rafael Devers,Boston Red Sox,False,TG-21	Rafael Devers	Boston Red Sox
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-22,1,Juan Soto,New York Yankees,False,TG-22	Juan Soto	New York Yankees
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-23,1,Paul Skenes,Pittsburgh Pirates,False,TG-23	Paul Skenes	Pittsburgh Pirates
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-24,1,Dansby Swanson,Chicago Cubs,False,TG-24	Dansby Swanson	Chicago Cubs
+2025_topps_series1,2025,Topps,Series 1,Training Grounds Checklist,25,TG-25,1,Matt Chapman,San Francisco Giants,False,TG-25	Matt Chapman	San Francisco Giants

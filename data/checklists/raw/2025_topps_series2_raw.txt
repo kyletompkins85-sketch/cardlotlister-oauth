@@ -1,0 +1,3151 @@
+BASE SET			
+351	Taijuan Walker	Philadelphia Phillies	
+352	Chicago White Sox	Chicago White Sox	(Team Card)
+353	Austin Barnes	Los Angeles Dodgers	
+354	Sean Manaea	New York Mets	
+355	Nick Madrigal	New York Mets	
+356	Harrison Bader	Minnesota Twins	
+357	Trevor McDonald	San Francisco Giants	RC
+358	Bryce Miller	Seattle Mariners	
+359	Brandon Eisert	Toronto Blue Jays	RC
+360	Ryan McMahon	Colorado Rockies	
+361	Jorge Polanco	Seattle Mariners	
+362	Seth Johnson	Philadelphia Phillies	RC
+363	Alex Cobb	Detroit Tigers	
+364	Ozzie Albies	Atlanta Braves	
+365	Bobby Witt Jr.	Major League Baseball	(Combo Card/Checklist)
+366	Josh Bell	Washington Nationals	
+367	Wilyer Abreu	Boston Red Sox	(Future Stars)
+368	Simeon Woods Richardson	Minnesota Twins	
+369	Mason Montgomery	Tampa Bay Rays	RC
+370	Angel Chivilli	Colorado Rockies	RC
+371	Edward Cabrera	Miami Marlins	
+372	Yosver Zulueta	Cincinnati Reds	RC
+373	Jose Siri	New York Mets	
+374	Dustin Harris	Texas Rangers	RC
+375	Kenley Jansen	Angels	
+376	Jackson Chourio	Milwaukee Brewers	
+377	Lucas Erceg	Kansas City Royals	
+378	Max Muncy	Los Angeles Dodgers	
+379	Shane Bieber	Cleveland Guardians	
+380	Ramón Urías	Baltimore Orioles	
+381	David Bednar	Pittsburgh Pirates	
+382	Merrill Kelly	Arizona Diamondbacks	
+383	Marcus Semien	Texas Rangers	
+384	Ben Casparius	Los Angeles Dodgers	RC
+385	Joe Musgrove	San Diego Padres	
+386	Jose Iglesias	New York Mets	
+387	Gustavo Campero	Angels	RC
+388	Andy Pages	Los Angeles Dodgers	(Future Stars)
+389	Xander Bogaerts	San Diego Padres	(Combo Card/Checklist)
+390	Vidal Bruján	Chicago Cubs	
+391	Chas McCormick	Houston Astros	
+392	Alex Verdugo	New York Yankees	
+393	Luis Arraez	San Diego Padres	
+394	Corbin Burnes	Arizona Diamondbacks	
+395	Clarke Schmidt	New York Yankees	
+396	Milwaukee Brewers	Milwaukee Brewers	(Team Card)
+397	Kirby Yates	Los Angeles Dodgers	
+398	Joey Loperfido	Toronto Blue Jays	
+399	Kyle Stowers	Miami Marlins	
+400	Shohei Ohtani	Los Angeles Dodgers	
+401	David Fry	Cleveland Guardians	
+402	Yandy Díaz	Tampa Bay Rays	
+403	Nolan Jones	Colorado Rockies	
+404	Logan Driscoll	Tampa Bay Rays	RC
+405	Kris Bryant	Colorado Rockies	
+406	Miguel Amaya	Chicago Cubs	
+407	Kyle Freeland	Colorado Rockies	
+408	Kumar Rocker	Texas Rangers	RC
+409	Gunnar Henderson	Major League Baseball	(Combo Card/Checklist)
+410	Jason Foley	Detroit Tigers	
+411	Zach Brzykcy	Washington Nationals	RC
+412	Josh Rojas	Chicago White Sox	
+413	Jacob Young	Washington Nationals	
+414	Grant Holmes	Atlanta Braves	RC
+415	Carlos Rodón	New York Yankees	
+416	Brendan Donovan	St. Louis Cardinals	
+417	Tomoyuki Sugano	Baltimore Orioles	RC
+418	Michael Helman	St. Louis Cardinals	RC
+419	Garrett Crochet	Boston Red Sox	
+420	Nathan Lukes	Toronto Blue Jays	
+421	Michael Wacha	Kansas City Royals	
+422	Caden Dana	Angels	RC
+423	Felix Bautista	Baltimore Orioles	
+424	Jordan Romano	Philadelphia Phillies	
+425	Billy Cook	Pittsburgh Pirates	RC
+426	Adam Kloffenstein	Toronto Blue Jays	RC
+427	Nick Castellanos	Philadelphia Phillies	
+428	Alek Thomas	Arizona Diamondbacks	
+429	Whit Merrifield	Atlanta Braves	
+430	Will Wagner	Toronto Blue Jays	RC
+431	Sean Burke	Chicago White Sox	RC
+432	Brandon Nimmo	New York Mets	(Combo Card/Checklist)
+433	William Contreras	Milwaukee Brewers	
+434	Alexis Díaz	Cincinnati Reds	
+435	Reynaldo López	Atlanta Braves	
+436	Salvador Perez	Kansas City Royals	(Combo Card/Checklist)
+437	Luis Severino	Athletics	
+438	Samuel Aldegheri	Angels	RC
+439	Jack Suwinski	Pittsburgh Pirates	
+440	Brendan Rodgers	Houston Astros	
+441	Christian Walker	Houston Astros	
+442	Andy Ibáñez	Detroit Tigers	
+443	Brady Basso	Athletics	RC
+444	Ryan Feltner	Colorado Rockies	
+445	Joey Estes	Athletics	
+446	Bo Naylor	Cleveland Guardians	
+447	Griffin Conine	Miami Marlins	RC
+448	Zac Gallen	Arizona Diamondbacks	
+449	Kyle Bradish	Baltimore Orioles	
+450	Trea Turner	Philadelphia Phillies	
+451	Kyle Tucker	Chicago Cubs	
+452	Jordan Lawlar	Arizona Diamondbacks	(Future Stars)
+453	Esteury Ruiz	Athletics	
+454	Aaron Nola	Philadelphia Phillies	
+455	Wyatt Langford	Texas Rangers	
+456	Randy Vásquez	San Diego Padres	
+457	Seiya Suzuki	Chicago Cubs	
+458	Valente Bellozo	Miami Marlins	RC
+459	Robbie Ray	San Francisco Giants	
+460	Gary Sánchez	Baltimore Orioles	
+461	St. Louis Cardinals	St. Louis Cardinals	(Team Card)
+462	Jon Singleton	Houston Astros	
+463	Thomas Saggese	St. Louis Cardinals	RC
+464	Gavin Lux	Cincinnati Reds	
+465	J.T. Ginn	Athletics	RC
+466	Arizona Diamondbacks	Arizona Diamondbacks	(Team Card)
+467	Hunter Goodman	Colorado Rockies	
+468	George Kirby	Seattle Mariners	
+469	Johan Rojas	Philadelphia Phillies	
+470	Kyle Isbel	Kansas City Royals	
+471	Reid Detmers	Angels	
+472	Willson Contreras	St. Louis Cardinals	
+473	Shota Imanaga	Chicago Cubs	
+474	Bo Bichette	Toronto Blue Jays	
+475	Randal Grichuk	Arizona Diamondbacks	
+476	Michael Conforto	Los Angeles Dodgers	
+477	Junior Caminero	Tampa Bay Rays	(Future Stars)
+478	Jack Neely	Chicago Cubs	RC
+479	Mickey Moniak	Angels	
+480	Joey Bart	Pittsburgh Pirates	
+481	Michael Massey	Kansas City Royals	
+482	Garrett Whitlock	Boston Red Sox	
+483	Ty Madden	Detroit Tigers	RC
+484	Jorge Mateo	Baltimore Orioles	
+485	Jordan Walker	St. Louis Cardinals	
+486	Colorado Rockies	Colorado Rockies	(Team Card)
+487	Eury Pérez	Miami Marlins	
+488	Spencer Horwitz	Pittsburgh Pirates	
+489	Edmundo Sosa	Philadelphia Phillies	
+490	Jackson Jobe	Detroit Tigers	RC
+491	Spencer Torkelson	Detroit Tigers	(Combo Card/Checklist)
+492	Shane McClanahan	Tampa Bay Rays	
+493	Walter Pennington	Texas Rangers	RC
+494	Spencer Torkelson	Detroit Tigers	
+495	Casey Schmitt	San Francisco Giants	
+496	Dominic Fletcher	Chicago White Sox	
+497	Josh Lowe	Tampa Bay Rays	
+498	Weston Wilson	Philadelphia Phillies	
+499	Blaze Alexander	Arizona Diamondbacks	
+500	Mookie Betts	Los Angeles Dodgers	
+501	Elias Díaz	San Diego Padres	
+502	Taylor Walls	Tampa Bay Rays	
+503	Edouard Julien	Minnesota Twins	
+504	Jack Flaherty	Detroit Tigers	
+505	Grayson Rodriguez	Baltimore Orioles	
+506	Luke Weaver	New York Yankees	
+507	Washington Nationals	Washington Nationals	(Team Card)
+508	Salvador Perez	Kansas City Royals	
+509	Cristian Javier	Houston Astros	
+510	Nolan Gorman	St. Louis Cardinals	
+511	Darren Baker	Washington Nationals	RC
+512	Michael Harris II	Atlanta Braves	
+513	Edgardo Henriquez	Los Angeles Dodgers	RC
+514	San Francisco Giants	San Francisco Giants	(Team Card)
+515	Kutter Crawford	Boston Red Sox	
+516	Jonny DeLuca	Tampa Bay Rays	
+517	Shota Imanaga	Chicago Cubs	(Combo Card/Checklist)
+518	Ronny Mauricio	New York Mets	
+519	Kansas City Royals	Kansas City Royals	(Team Card)
+520	Jordan Hicks	San Francisco Giants	
+521	Willy Adames	San Francisco Giants	
+522	Spencer Arrighetti	Houston Astros	
+523	Nick Fortes	Miami Marlins	
+524	Luisangel Acuña	New York Mets	RC
+525	Tj Friedl	Cincinnati Reds	
+526	Luis Peralta	Colorado Rockies	RC
+527	Heliot Ramos	San Francisco Giants	
+528	Oswaldo Cabrera	New York Yankees	
+529	Miguel Andujar	Athletics	
+530	Byron Buxton	Minnesota Twins	
+531	Landon Knack	Los Angeles Dodgers	
+532	Ben Lively	Cleveland Guardians	
+533	Tyler O'Neill	Baltimore Orioles	
+534	Luke Raley	Seattle Mariners	
+535	Leo Jiménez	Toronto Blue Jays	RC
+536	MJ Melendez	Kansas City Royals	
+537	Spencer Bivens	San Francisco Giants	RC
+538	Tyler Nevin	Athletics	
+539	Ryan Weathers	Miami Marlins	
+540	Brayan Bello	Boston Red Sox	
+541	Jared Jones	Pittsburgh Pirates	(Future Stars)
+542	Nick Gonzales	Pittsburgh Pirates	
+543	Kerry Carpenter	Detroit Tigers	
+544	Framber Valdez	Houston Astros	
+545	Javier Báez	Detroit Tigers	
+546	Drew Waters	Kansas City Royals	
+547	Matt Wallner	Minnesota Twins	
+548	Porter Hodge	Chicago Cubs	
+549	J.D. Martinez	New York Mets	
+550	Pete Alonso	New York Mets	
+551	Victor Scott II	St. Louis Cardinals	
+552	José Tena	Washington Nationals	
+553	New York Mets	New York Mets	(Team Card)
+554	Gavin Williams	Cleveland Guardians	(Future Stars)
+555	Kyle McCann	Athletics	
+556	Jaden Hill	Colorado Rockies	RC
+557	Kyle Manzardo	Cleveland Guardians	(Future Stars)
+558	Roki Sasaki	Los Angeles Dodgers	RC
+559	Isiah Kiner-Falefa	Pittsburgh Pirates	
+560	Zach McKinstry	Detroit Tigers	
+561	Paul Goldschmidt	New York Yankees	
+562	Matthew Boyd	Chicago Cubs	
+563	Dean Kremer	Baltimore Orioles	
+564	Endy Rodríguez	Pittsburgh Pirates	
+565	Osvaldo Bido	Athletics	
+566	Julian Aguiar	Cincinnati Reds	RC
+567	Pavin Smith	Arizona Diamondbacks	
+568	Brandon Lockridge	San Diego Padres	RC
+569	Kodai Senga	New York Mets	
+570	Toronto Blue Jays	Toronto Blue Jays	(Team Card)
+571	Mason Miller	Athletics	
+572	Victor Robles	Seattle Mariners	
+573	Hyeseong Kim	Los Angeles Dodgers	RC
+574	Daniel Schneemann	Cleveland Guardians	RC
+575	Joe Kelly	Los Angeles Dodgers	
+576	Parker Meadows	Detroit Tigers	(Future Stars)
+577	Trevor Story	Boston Red Sox	
+578	Kevin Alcántara	Chicago Cubs	RC
+579	Spencer Strider	Atlanta Braves	
+580	Bryan Ramos	Chicago White Sox	
+581	Andruw Monasterio	Milwaukee Brewers	
+582	Michael Mercado	Philadelphia Phillies	RC
+583	Alex Bregman	Boston Red Sox	
+584	Carlos Correa	Minnesota Twins	(Combo Card/Checklist)
+585	Jonah Bride	Miami Marlins	
+586	Anthony Santander	Toronto Blue Jays	
+587	Jarren Duran	Boston Red Sox	
+588	Jurickson Profar	Atlanta Braves	
+589	Ezequiel Duran	Texas Rangers	
+590	Jasson Domínguez	New York Yankees	(Future Stars)
+591	Austin Wells	New York Yankees	
+592	Yusei Kikuchi	Angels	
+593	Texas Rangers	Texas Rangers	(Team Card)
+594	Athletics	Athletics	(Team Card)
+595	Austin Martin	Minnesota Twins	
+596	Tyler Fitzgerald	San Francisco Giants	
+597	Seth Halvorsen	Colorado Rockies	RC
+598	Hunter Renfroe	Kansas City Royals	
+599	Duke Ellis	New York Yankees	RC
+600	Fernando Tatis Jr.	San Diego Padres	
+601	Stone Garrett	Washington Nationals	
+602	Ben Joyce	Angels	
+603	Cal Raleigh	Seattle Mariners	
+604	Nestor Cortes	Milwaukee Brewers	
+605	DaShawn Keirsey	Minnesota Twins	RC
+606	Tyler Anderson	Angels	
+607	Alec Marsh	Kansas City Royals	
+608	Stuart Fairchild	Cincinnati Reds	
+609	Max Fried	New York Yankees	
+610	Gordon Graceffo	St. Louis Cardinals	RC
+611	Michael Kopech	Los Angeles Dodgers	
+612	Cleveland Guardians	Cleveland Guardians	(Team Card)
+613	Austin Hays	Cincinnati Reds	
+614	Lucas Giolito	Boston Red Sox	
+615	Mike Burrows	Pittsburgh Pirates	RC
+616	Kiké Hernández	Los Angeles Dodgers	
+617	Zack Gelof	Athletics	(Future Stars)
+618	Jake Bauers	Milwaukee Brewers	
+619	Jeimer Candelario	Cincinnati Reds	
+620	Brandon Woodruff	Milwaukee Brewers	
+621	Jake Meyers	Houston Astros	
+622	Steward Berroa	Toronto Blue Jays	RC
+623	Andre Pallante	St. Louis Cardinals	
+624	Eguy Rosario	San Diego Padres	
+625	J.T. Realmuto	Philadelphia Phillies	
+626	Graham Ashcraft	Cincinnati Reds	
+627	Sam Hilliard	Colorado Rockies	
+628	Noelvi Marte	Cincinnati Reds	(Future Stars)
+629	Jesse Winker	New York Mets	
+630	Heston Kjerstad	Baltimore Orioles	(Future Stars)
+631	Mookie Betts	Los Angeles Dodgers	(Combo Card/Checklist)
+632	Connor Gillispie	Cleveland Guardians	RC
+633	Robert Suarez	San Diego Padres	
+634	Grant Holman	Athletics	RC
+635	Bryce Teodosio	Angels	RC
+636	Tobias Myers	Milwaukee Brewers	(Future Stars)
+637	Andrew Walters	Cleveland Guardians	RC
+638	Bryan Reynolds	Pittsburgh Pirates	
+639	Elly De La Cruz	National League	(Combo Card/Checklist)
+640	Austin Gomber	Colorado Rockies	
+641	Alex Call	Washington Nationals	
+642	Sean Murphy	Atlanta Braves	
+643	Garrett Mitchell	Milwaukee Brewers	
+644	Frankie Montas	New York Mets	
+645	Triston McKenzie	Cleveland Guardians	
+646	Wenceel Pérez	Detroit Tigers	
+647	Matt McLain	Cincinnati Reds	
+648	Aaron Civale	Milwaukee Brewers	
+649	Javier Assad	Chicago Cubs	
+650	Adley Rutschman	Baltimore Orioles	
+651	Sal Frelick	Milwaukee Brewers	(Future Stars)
+652	Bobby Miller	Los Angeles Dodgers	
+653	Javier Sanoja	Miami Marlins	RC
+654	Adam Duvall	Atlanta Braves	
+655	Alexander Canario	Chicago Cubs	
+656	Jairo Iriarte	Chicago White Sox	RC
+657	Isaac Collins	Milwaukee Brewers	RC
+658	Gleyber Torres	Detroit Tigers	
+659	Nick Yorke	Pittsburgh Pirates	RC
+660	Jonathan Cannon	Chicago White Sox	
+661	Eduardo Rodriguez	Arizona Diamondbacks	
+662	Pablo López	Minnesota Twins	
+663	Lenyn Sosa	Chicago White Sox	
+664	Jesús Luzardo	Philadelphia Phillies	
+665	Keider Montero	Detroit Tigers	RC
+666	Trent Grisham	New York Yankees	
+667	Austin Hedges	Cleveland Guardians	
+668	Josh Smith	Texas Rangers	
+669	José Soriano	Angels	
+670	Richard Fitts	Boston Red Sox	RC
+671	Bailey Falter	Pittsburgh Pirates	
+672	Matt Strahm	Philadelphia Phillies	
+673	Ben Brown	Chicago Cubs	(Future Stars)
+674	AJ Smith-Shawver	Atlanta Braves	(Future Stars)
+675	Jake Fraley	Cincinnati Reds	
+676	Blake Snell	Los Angeles Dodgers	
+677	Pittsburgh Pirates	Pittsburgh Pirates	(Team Card)
+678	Jonathan Aranda	Tampa Bay Rays	
+679	Juan Yepez	Washington Nationals	
+680	JP Sears	Athletics	
+681	Shane Baz	Tampa Bay Rays	
+682	Steven Kwan	Cleveland Guardians	
+683	James Outman	Los Angeles Dodgers	
+684	Mitchell Parker	Washington Nationals	
+685	Bowden Francis	Toronto Blue Jays	
+686	Max Scherzer	Toronto Blue Jays	
+687	Jhoan Duran	Minnesota Twins	
+688	Minnesota Twins	Minnesota Twins	(Team Card)
+689	Alejandro Kirk	Toronto Blue Jays	
+690	Jake Eder	Chicago White Sox	RC
+691	Troy Taylor	Seattle Mariners	RC
+692	Nick Pivetta	San Diego Padres	
+693	Hunter Brown	Houston Astros	
+694	Yariel Rodríguez	Toronto Blue Jays	
+695	Darell Hernaiz	Athletics	
+696	Nick Martinez	Cincinnati Reds	
+697	DJ LeMahieu	New York Yankees	
+698	Zach Penrod	Boston Red Sox	RC
+699	Hayden Birdsong	San Francisco Giants	RC
+700	Juan Soto	New York Mets	
+			
+GOLDEN MIRROR IMAGE VARIATION			
+351	Taijuan Walker	Philadelphia Phillies	
+352	Chicago White Sox	Chicago White Sox	(Team Card)
+353	Austin Barnes	Los Angeles Dodgers	
+354	Sean Manaea	New York Mets	
+355	Nick Madrigal	New York Mets	
+356	Harrison Bader	Minnesota Twins	
+357	Trevor McDonald	San Francisco Giants	RC
+358	Bryce Miller	Seattle Mariners	
+359	Brandon Eisert	Toronto Blue Jays	RC
+360	Ryan McMahon	Colorado Rockies	
+361	Jorge Polanco	Seattle Mariners	
+362	Seth Johnson	Philadelphia Phillies	RC
+363	Alex Cobb	Detroit Tigers	
+364	Ozzie Albies	Atlanta Braves	
+365	Bobby Witt Jr.	Major League Baseball	(Combo Card/Checklist)
+366	Josh Bell	Washington Nationals	
+367	Wilyer Abreu	Boston Red Sox	(Future Stars)
+368	Simeon Woods Richardson	Minnesota Twins	
+369	Mason Montgomery	Tampa Bay Rays	RC
+370	Angel Chivilli	Colorado Rockies	RC
+371	Edward Cabrera	Miami Marlins	
+372	Yosver Zulueta	Cincinnati Reds	RC
+373	Jose Siri	New York Mets	
+374	Dustin Harris	Texas Rangers	RC
+375	Kenley Jansen	Angels	
+376	Jackson Chourio	Milwaukee Brewers	
+377	Lucas Erceg	Kansas City Royals	
+378	Max Muncy	Los Angeles Dodgers	
+379	Shane Bieber	Cleveland Guardians	
+380	Ramón Urías	Baltimore Orioles	
+381	David Bednar	Pittsburgh Pirates	
+382	Merrill Kelly	Arizona Diamondbacks	
+383	Marcus Semien	Texas Rangers	
+384	Ben Casparius	Los Angeles Dodgers	RC
+385	Joe Musgrove	San Diego Padres	
+386	Jose Iglesias	New York Mets	
+387	Gustavo Campero	Angels	RC
+388	Andy Pages	Los Angeles Dodgers	(Future Stars)
+389	Xander Bogaerts	San Diego Padres	(Combo Card/Checklist)
+390	Vidal Bruján	Chicago Cubs	
+391	Chas McCormick	Houston Astros	
+392	Alex Verdugo	New York Yankees	
+393	Luis Arraez	San Diego Padres	
+394	Corbin Burnes	Arizona Diamondbacks	
+395	Clarke Schmidt	New York Yankees	
+396	Milwaukee Brewers	Milwaukee Brewers	(Team Card)
+397	Kirby Yates	Los Angeles Dodgers	
+398	Joey Loperfido	Toronto Blue Jays	
+399	Kyle Stowers	Miami Marlins	
+400	Shohei Ohtani	Los Angeles Dodgers	
+401	David Fry	Cleveland Guardians	
+402	Yandy Díaz	Tampa Bay Rays	
+403	Nolan Jones	Colorado Rockies	
+404	Logan Driscoll	Tampa Bay Rays	RC
+405	Kris Bryant	Colorado Rockies	
+406	Miguel Amaya	Chicago Cubs	
+407	Kyle Freeland	Colorado Rockies	
+408	Kumar Rocker	Texas Rangers	RC
+409	Gunnar Henderson	Major League Baseball	(Combo Card/Checklist)
+410	Jason Foley	Detroit Tigers	
+411	Zach Brzykcy	Washington Nationals	RC
+412	Josh Rojas	Chicago White Sox	
+413	Jacob Young	Washington Nationals	
+414	Grant Holmes	Atlanta Braves	RC
+415	Carlos Rodón	New York Yankees	
+416	Brendan Donovan	St. Louis Cardinals	
+417	Tomoyuki Sugano	Baltimore Orioles	RC
+418	Michael Helman	St. Louis Cardinals	RC
+419	Garrett Crochet	Boston Red Sox	
+420	Nathan Lukes	Toronto Blue Jays	
+421	Michael Wacha	Kansas City Royals	
+422	Caden Dana	Angels	RC
+423	Felix Bautista	Baltimore Orioles	
+424	Jordan Romano	Philadelphia Phillies	
+425	Billy Cook	Pittsburgh Pirates	RC
+426	Adam Kloffenstein	Toronto Blue Jays	RC
+427	Nick Castellanos	Philadelphia Phillies	
+428	Alek Thomas	Arizona Diamondbacks	
+429	Whit Merrifield	Atlanta Braves	
+430	Will Wagner	Toronto Blue Jays	RC
+431	Sean Burke	Chicago White Sox	RC
+432	Brandon Nimmo	New York Mets	(Combo Card/Checklist)
+433	William Contreras	Milwaukee Brewers	
+434	Alexis Díaz	Cincinnati Reds	
+435	Reynaldo López	Atlanta Braves	
+436	Salvador Perez	Kansas City Royals	(Combo Card/Checklist)
+437	Luis Severino	Athletics	
+438	Samuel Aldegheri	Angels	RC
+439	Jack Suwinski	Pittsburgh Pirates	
+440	Brendan Rodgers	Houston Astros	
+441	Christian Walker	Houston Astros	
+442	Andy Ibáñez	Detroit Tigers	
+443	Brady Basso	Athletics	RC
+444	Ryan Feltner	Colorado Rockies	
+445	Joey Estes	Athletics	
+446	Bo Naylor	Cleveland Guardians	
+447	Griffin Conine	Miami Marlins	RC
+448	Zac Gallen	Arizona Diamondbacks	
+449	Kyle Bradish	Baltimore Orioles	
+450	Trea Turner	Philadelphia Phillies	
+451	Kyle Tucker	Chicago Cubs	
+452	Jordan Lawlar	Arizona Diamondbacks	(Future Stars)
+453	Esteury Ruiz	Athletics	
+454	Aaron Nola	Philadelphia Phillies	
+455	Wyatt Langford	Texas Rangers	
+456	Randy Vásquez	San Diego Padres	
+457	Seiya Suzuki	Chicago Cubs	
+458	Valente Bellozo	Miami Marlins	RC
+459	Robbie Ray	San Francisco Giants	
+460	Gary Sánchez	Baltimore Orioles	
+461	St. Louis Cardinals	St. Louis Cardinals	(Team Card)
+462	Jon Singleton	Houston Astros	
+463	Thomas Saggese	St. Louis Cardinals	RC
+464	Gavin Lux	Cincinnati Reds	
+465	J.T. Ginn	Athletics	RC
+466	Arizona Diamondbacks	Arizona Diamondbacks	(Team Card)
+467	Hunter Goodman	Colorado Rockies	
+468	George Kirby	Seattle Mariners	
+469	Johan Rojas	Philadelphia Phillies	
+470	Kyle Isbel	Kansas City Royals	
+471	Reid Detmers	Angels	
+472	Willson Contreras	St. Louis Cardinals	
+473	Shota Imanaga	Chicago Cubs	
+474	Bo Bichette	Toronto Blue Jays	
+475	Randal Grichuk	Arizona Diamondbacks	
+476	Michael Conforto	Los Angeles Dodgers	
+477	Junior Caminero	Tampa Bay Rays	(Future Stars)
+478	Jack Neely	Chicago Cubs	RC
+479	Mickey Moniak	Angels	
+480	Joey Bart	Pittsburgh Pirates	
+481	Michael Massey	Kansas City Royals	
+482	Garrett Whitlock	Boston Red Sox	
+483	Ty Madden	Detroit Tigers	RC
+484	Jorge Mateo	Baltimore Orioles	
+485	Jordan Walker	St. Louis Cardinals	
+486	Colorado Rockies	Colorado Rockies	(Team Card)
+487	Eury Pérez	Miami Marlins	
+488	Spencer Horwitz	Pittsburgh Pirates	
+489	Edmundo Sosa	Philadelphia Phillies	
+490	Jackson Jobe	Detroit Tigers	RC
+491	Spencer Torkelson	Detroit Tigers	(Combo Card/Checklist)
+492	Shane McClanahan	Tampa Bay Rays	
+493	Walter Pennington	Texas Rangers	RC
+494	Spencer Torkelson	Detroit Tigers	
+495	Casey Schmitt	San Francisco Giants	
+496	Dominic Fletcher	Chicago White Sox	
+497	Josh Lowe	Tampa Bay Rays	
+498	Weston Wilson	Philadelphia Phillies	
+499	Blaze Alexander	Arizona Diamondbacks	
+500	Mookie Betts	Los Angeles Dodgers	
+501	Elias Díaz	San Diego Padres	
+502	Taylor Walls	Tampa Bay Rays	
+503	Edouard Julien	Minnesota Twins	
+504	Jack Flaherty	Detroit Tigers	
+505	Grayson Rodriguez	Baltimore Orioles	
+506	Luke Weaver	New York Yankees	
+507	Washington Nationals	Washington Nationals	(Team Card)
+508	Salvador Perez	Kansas City Royals	
+509	Cristian Javier	Houston Astros	
+510	Nolan Gorman	St. Louis Cardinals	
+511	Darren Baker	Washington Nationals	RC
+512	Michael Harris II	Atlanta Braves	
+513	Edgardo Henriquez	Los Angeles Dodgers	RC
+514	San Francisco Giants	San Francisco Giants	(Team Card)
+515	Kutter Crawford	Boston Red Sox	
+516	Jonny DeLuca	Tampa Bay Rays	
+517	Shota Imanaga	Chicago Cubs	(Combo Card/Checklist)
+518	Ronny Mauricio	New York Mets	
+519	Kansas City Royals	Kansas City Royals	(Team Card)
+520	Jordan Hicks	San Francisco Giants	
+521	Willy Adames	San Francisco Giants	
+522	Spencer Arrighetti	Houston Astros	
+523	Nick Fortes	Miami Marlins	
+524	Luisangel Acuña	New York Mets	RC
+525	Tj Friedl	Cincinnati Reds	
+526	Luis Peralta	Colorado Rockies	RC
+527	Heliot Ramos	San Francisco Giants	
+528	Oswaldo Cabrera	New York Yankees	
+529	Miguel Andujar	Athletics	
+530	Byron Buxton	Minnesota Twins	
+531	Landon Knack	Los Angeles Dodgers	
+532	Ben Lively	Cleveland Guardians	
+533	Tyler O'Neill	Baltimore Orioles	
+534	Luke Raley	Seattle Mariners	
+535	Leo Jiménez	Toronto Blue Jays	RC
+536	MJ Melendez	Kansas City Royals	
+537	Spencer Bivens	San Francisco Giants	RC
+538	Tyler Nevin	Athletics	
+539	Ryan Weathers	Miami Marlins	
+540	Brayan Bello	Boston Red Sox	
+541	Jared Jones	Pittsburgh Pirates	(Future Stars)
+542	Nick Gonzales	Pittsburgh Pirates	
+543	Kerry Carpenter	Detroit Tigers	
+544	Framber Valdez	Houston Astros	
+545	Javier Báez	Detroit Tigers	
+546	Drew Waters	Kansas City Royals	
+547	Matt Wallner	Minnesota Twins	
+548	Porter Hodge	Chicago Cubs	
+549	J.D. Martinez	New York Mets	
+550	Pete Alonso	New York Mets	
+551	Victor Scott II	St. Louis Cardinals	
+552	José Tena	Washington Nationals	
+553	New York Mets	New York Mets	(Team Card)
+554	Gavin Williams	Cleveland Guardians	(Future Stars)
+555	Kyle McCann	Athletics	
+556	Jaden Hill	Colorado Rockies	RC
+557	Kyle Manzardo	Cleveland Guardians	(Future Stars)
+558	Roki Sasaki	Los Angeles Dodgers	RC
+559	Isiah Kiner-Falefa	Pittsburgh Pirates	
+560	Zach McKinstry	Detroit Tigers	
+561	Paul Goldschmidt	New York Yankees	
+562	Matthew Boyd	Chicago Cubs	
+563	Dean Kremer	Baltimore Orioles	
+564	Endy Rodríguez	Pittsburgh Pirates	
+565	Osvaldo Bido	Athletics	
+566	Julian Aguiar	Cincinnati Reds	RC
+567	Pavin Smith	Arizona Diamondbacks	
+568	Brandon Lockridge	San Diego Padres	RC
+569	Kodai Senga	New York Mets	
+570	Toronto Blue Jays	Toronto Blue Jays	(Team Card)
+571	Mason Miller	Athletics	
+572	Victor Robles	Seattle Mariners	
+573	Hyeseong Kim	Los Angeles Dodgers	RC
+574	Daniel Schneemann	Cleveland Guardians	RC
+575	Joe Kelly	Los Angeles Dodgers	
+576	Parker Meadows	Detroit Tigers	(Future Stars)
+577	Trevor Story	Boston Red Sox	
+578	Kevin Alcántara	Chicago Cubs	RC
+579	Spencer Strider	Atlanta Braves	
+580	Bryan Ramos	Chicago White Sox	
+581	Andruw Monasterio	Milwaukee Brewers	
+582	Michael Mercado	Philadelphia Phillies	RC
+583	Alex Bregman	Boston Red Sox	
+584	Carlos Correa	Minnesota Twins	(Combo Card/Checklist)
+585	Jonah Bride	Miami Marlins	
+586	Anthony Santander	Toronto Blue Jays	
+587	Jarren Duran	Boston Red Sox	
+588	Jurickson Profar	Atlanta Braves	
+589	Ezequiel Duran	Texas Rangers	
+590	Jasson Domínguez	New York Yankees	(Future Stars)
+591	Austin Wells	New York Yankees	
+592	Yusei Kikuchi	Angels	
+593	Texas Rangers	Texas Rangers	(Team Card)
+594	Athletics	Athletics	(Team Card)
+595	Austin Martin	Minnesota Twins	
+596	Tyler Fitzgerald	San Francisco Giants	
+597	Seth Halvorsen	Colorado Rockies	RC
+598	Hunter Renfroe	Kansas City Royals	
+599	Duke Ellis	New York Yankees	RC
+600	Fernando Tatis Jr.	San Diego Padres	
+601	Stone Garrett	Washington Nationals	
+602	Ben Joyce	Angels	
+603	Cal Raleigh	Seattle Mariners	
+604	Nestor Cortes	Milwaukee Brewers	
+605	DaShawn Keirsey	Minnesota Twins	RC
+606	Tyler Anderson	Angels	
+607	Alec Marsh	Kansas City Royals	
+608	Stuart Fairchild	Cincinnati Reds	
+609	Max Fried	New York Yankees	
+610	Gordon Graceffo	St. Louis Cardinals	RC
+611	Michael Kopech	Los Angeles Dodgers	
+612	Cleveland Guardians	Cleveland Guardians	(Team Card)
+613	Austin Hays	Cincinnati Reds	
+614	Lucas Giolito	Boston Red Sox	
+615	Mike Burrows	Pittsburgh Pirates	RC
+616	Kiké Hernández	Los Angeles Dodgers	
+617	Zack Gelof	Athletics	(Future Stars)
+618	Jake Bauers	Milwaukee Brewers	
+619	Jeimer Candelario	Cincinnati Reds	
+620	Brandon Woodruff	Milwaukee Brewers	
+621	Jake Meyers	Houston Astros	
+622	Steward Berroa	Toronto Blue Jays	RC
+623	Andre Pallante	St. Louis Cardinals	
+624	Eguy Rosario	San Diego Padres	
+625	J.T. Realmuto	Philadelphia Phillies	
+626	Graham Ashcraft	Cincinnati Reds	
+627	Sam Hilliard	Colorado Rockies	
+628	Noelvi Marte	Cincinnati Reds	(Future Stars)
+629	Jesse Winker	New York Mets	
+630	Heston Kjerstad	Baltimore Orioles	(Future Stars)
+631	Mookie Betts	Los Angeles Dodgers	(Combo Card/Checklist)
+632	Connor Gillispie	Cleveland Guardians	RC
+633	Robert Suarez	San Diego Padres	
+634	Grant Holman	Athletics	RC
+635	Bryce Teodosio	Angels	RC
+636	Tobias Myers	Milwaukee Brewers	(Future Stars)
+637	Andrew Walters	Cleveland Guardians	RC
+638	Bryan Reynolds	Pittsburgh Pirates	
+639	Elly De La Cruz	National League	(Combo Card/Checklist)
+640	Austin Gomber	Colorado Rockies	
+641	Alex Call	Washington Nationals	
+642	Sean Murphy	Atlanta Braves	
+643	Garrett Mitchell	Milwaukee Brewers	
+644	Frankie Montas	New York Mets	
+645	Triston McKenzie	Cleveland Guardians	
+646	Wenceel Pérez	Detroit Tigers	
+647	Matt McLain	Cincinnati Reds	
+648	Aaron Civale	Milwaukee Brewers	
+649	Javier Assad	Chicago Cubs	
+650	Adley Rutschman	Baltimore Orioles	
+651	Sal Frelick	Milwaukee Brewers	(Future Stars)
+652	Bobby Miller	Los Angeles Dodgers	
+653	Javier Sanoja	Miami Marlins	RC
+654	Adam Duvall	Atlanta Braves	
+655	Alexander Canario	Chicago Cubs	
+656	Jairo Iriarte	Chicago White Sox	RC
+657	Isaac Collins	Milwaukee Brewers	RC
+658	Gleyber Torres	Detroit Tigers	
+659	Nick Yorke	Pittsburgh Pirates	RC
+660	Jonathan Cannon	Chicago White Sox	
+661	Eduardo Rodriguez	Arizona Diamondbacks	
+662	Pablo López	Minnesota Twins	
+663	Lenyn Sosa	Chicago White Sox	
+664	Jesús Luzardo	Philadelphia Phillies	
+665	Keider Montero	Detroit Tigers	RC
+666	Trent Grisham	New York Yankees	
+667	Austin Hedges	Cleveland Guardians	
+668	Josh Smith	Texas Rangers	
+669	José Soriano	Angels	
+670	Richard Fitts	Boston Red Sox	RC
+671	Bailey Falter	Pittsburgh Pirates	
+672	Matt Strahm	Philadelphia Phillies	
+673	Ben Brown	Chicago Cubs	(Future Stars)
+674	AJ Smith-Shawver	Atlanta Braves	(Future Stars)
+675	Jake Fraley	Cincinnati Reds	
+676	Blake Snell	Los Angeles Dodgers	
+677	Pittsburgh Pirates	Pittsburgh Pirates	(Team Card)
+678	Jonathan Aranda	Tampa Bay Rays	
+679	Juan Yepez	Washington Nationals	
+680	JP Sears	Athletics	
+681	Shane Baz	Tampa Bay Rays	
+682	Steven Kwan	Cleveland Guardians	
+683	James Outman	Los Angeles Dodgers	
+684	Mitchell Parker	Washington Nationals	
+685	Bowden Francis	Toronto Blue Jays	
+686	Max Scherzer	Toronto Blue Jays	
+687	Jhoan Duran	Minnesota Twins	
+688	Minnesota Twins	Minnesota Twins	(Team Card)
+689	Alejandro Kirk	Toronto Blue Jays	
+690	Jake Eder	Chicago White Sox	RC
+691	Troy Taylor	Seattle Mariners	RC
+692	Nick Pivetta	San Diego Padres	
+693	Hunter Brown	Houston Astros	
+694	Yariel Rodríguez	Toronto Blue Jays	
+695	Darell Hernaiz	Athletics	
+696	Nick Martinez	Cincinnati Reds	
+697	DJ LeMahieu	New York Yankees	
+698	Zach Penrod	Boston Red Sox	RC
+699	Hayden Birdsong	San Francisco Giants	RC
+700	Juan Soto	New York Mets	
+			
+			
+			
+			
+Hobby Only Exclusive			
+BASE CARDS PLAYER NUMBER VARIATION			
+400	Shohei Ohtani	Los Angeles Dodgers	
+408	Kumar Rocker	Texas Rangers	
+450	Trea Turner	Philadelphia Phillies	
+455	Wyatt Langford	Texas Rangers	
+457	Seiya Suzuki	Chicago Cubs	
+463	Thomas Saggese	St. Louis Cardinals	
+473	Shota Imanaga	Chicago Cubs	
+474	Bo Bichette	Toronto Blue Jays	
+490	Jackson Jobe	Detroit Tigers	
+500	Mookie Betts	Los Angeles Dodgers	
+512	Michael Harris II	Atlanta Braves	
+524	Luisangel Acuña	New York Mets	
+530	Byron Buxton	Minnesota Twins	
+550	Pete Alonso	New York Mets	
+558	Roki Sasaki	Los Angeles Dodgers	
+561	Paul Goldschmidt	New York Yankees	
+578	Kevin Alcántara	Chicago Cubs	
+579	Spencer Strider	Atlanta Braves	
+583	Alex Bregman	Boston Red Sox	
+587	Jarren Duran	Boston Red Sox	
+600	Fernando Tatis Jr.	San Diego Padres	
+650	Adley Rutschman	Baltimore Orioles	
+676	Blake Snell	Los Angeles Dodgers	
+700	Juan Soto	New York Mets	
+			
+			
+INSERT			
+			
+SUMMER SUPERSTARS			
+SS-1	Mike Trout	Angels	
+SS-2	Ketel Marte	Arizona Diamondbacks	
+SS-3	Corbin Carroll	Arizona Diamondbacks	
+SS-4	Ronald Acuña Jr.	Atlanta Braves	
+SS-5	Matt Olson	Atlanta Braves	
+SS-6	Adley Rutschman	Baltimore Orioles	
+SS-7	Gunnar Henderson	Baltimore Orioles	
+SS-8	Jarren Duran	Boston Red Sox	
+SS-9	Rafael Devers	Boston Red Sox	
+SS-10	Shota Imanaga	Chicago Cubs	
+SS-11	Elly De La Cruz	Cincinnati Reds	
+SS-12	José Ramírez	Cleveland Guardians	
+SS-13	Tarik Skubal	Detroit Tigers	
+SS-14	Riley Greene	Detroit Tigers	
+SS-15	Yordan Alvarez	Houston Astros	
+SS-16	Jose Altuve	Houston Astros	
+SS-17	Bobby Witt Jr.	Kansas City Royals	
+SS-18	Salvador Perez	Kansas City Royals	
+SS-19	Shohei Ohtani	Los Angeles Dodgers	
+SS-20	Mookie Betts	Los Angeles Dodgers	
+SS-21	Freddie Freeman	Los Angeles Dodgers	
+SS-22	Teoscar Hernández	Los Angeles Dodgers	
+SS-23	Christian Yelich	Milwaukee Brewers	
+SS-24	Jackson Chourio	Milwaukee Brewers	
+SS-25	Carlos Correa	Minnesota Twins	
+SS-26	Pete Alonso	New York Mets	
+SS-27	Francisco Lindor	New York Mets	
+SS-28	Aaron Judge	New York Yankees	
+SS-29	Juan Soto	New York Mets	
+SS-30	Lawrence Butler	Athletics	
+SS-31	Bryce Harper	Philadelphia Phillies	
+SS-32	Trea Turner	Philadelphia Phillies	
+SS-33	Yoshinobu Yamamoto	Los Angeles Dodgers	
+SS-34	Paul Skenes	Pittsburgh Pirates	
+SS-35	Jackson Merrill	San Diego Padres	
+SS-36	Fernando Tatis Jr.	San Diego Padres	
+SS-37	Julio Rodríguez	Seattle Mariners	
+SS-38	Vladimir Guerrero Jr.	Toronto Blue Jays	
+SS-39	James Wood	Washington Nationals	
+SS-40	Corey Seager	Texas Rangers	
+SS-41	Roki Sasaki	Los Angeles Dodgers	
+SS-42	Nolan Arenado	St. Louis Cardinals	
+SS-43	Zach Neto	Angels	
+SS-44	Blake Snell	Los Angeles Dodgers	
+SS-45	Jacob deGrom	Texas Rangers	
+SS-46	Manny Machado	San Diego Padres	
+SS-47	Gerrit Cole	New York Yankees	
+SS-48	Dylan Crews	Washington Nationals	
+SS-49	Junior Caminero	Tampa Bay Rays	
+SS-50	Wyatt Langford	Texas Rangers	
+			
+OPS BESTS			
+OPS-1	Aaron Judge	New York Yankees	
+OPS-2	Shohei Ohtani	Los Angeles Dodgers	
+OPS-3	Juan Soto	New York Yankees	
+OPS-4	Bobby Witt Jr.	Kansas City Royals	
+OPS-5	Yordan Alvarez	Houston Astros	
+OPS-6	Vladimir Guerrero Jr.	Toronto Blue Jays	
+OPS-7	Ketel Marte	Arizona Diamondbacks	
+OPS-8	Brent Rooker	Athletics	
+OPS-9	Marcell Ozuna	Atlanta Braves	
+OPS-10	Bryce Harper	Philadelphia Phillies	
+OPS-11	Gunnar Henderson	Baltimore Orioles	
+OPS-12	José Ramírez	Cleveland Guardians	
+OPS-13	Rafael Devers	Boston Red Sox	
+OPS-14	Corey Seager	Texas Rangers	
+OPS-15	Mookie Betts	Los Angeles Dodgers	
+OPS-16	Freddie Freeman	Los Angeles Dodgers	
+OPS-17	Kyle Schwarber	Philadelphia Phillies	
+OPS-18	Seiya Suzuki	Chicago Cubs	
+OPS-19	Francisco Lindor	New York Mets	
+OPS-20	Teoscar Hernández	Los Angeles Dodgers	
+OPS-21	Jurickson Profar	San Diego Padres	
+OPS-22	Jarren Duran	Boston Red Sox	
+OPS-23	William Contreras	Milwaukee Brewers	
+OPS-24	Riley Greene	Detroit Tigers	
+OPS-25	Jackson Merrill	San Diego Padres	
+			
+DYNAMIC DUOS			
+DD-1	George Brett	Kansas City Royals	
+DD-1	Bobby Witt Jr.	Kansas City Royals	
+DD-2	Mookie Betts	Los Angeles Dodgers	
+DD-2	Shohei Ohtani	Los Angeles Dodgers	
+DD-3	Juan Soto	New York Mets	
+DD-3	Francisco Lindor	New York Mets	
+DD-4	Anthony Volpe	New York Yankees	
+DD-4	Aaron Judge	New York Yankees	
+DD-5	Francisco Lindor	New York Mets	
+DD-5	Pete Alonso	New York Mets	
+DD-6	Dylan Crews	Washington Nationals	
+DD-6	James Wood	Washington Nationals	
+DD-7	Seiya Suzuki	Chicago Cubs	
+DD-7	Shota Imanaga	Chicago Cubs	
+DD-8	Clayton Kershaw	Los Angeles Dodgers	
+DD-8	Sandy Koufax	Los Angeles Dodgers	
+DD-9	Fernando Tatis Jr.	San Diego Padres	
+DD-9	Manny Machado	San Diego Padres	
+DD-10	Corey Seager	Texas Rangers	
+DD-10	Adrian Beltré	Texas Rangers	
+DD-11	Carlos Correa	Minnesota Twins	
+DD-11	Royce Lewis	Minnesota Twins	
+DD-12	Mike Schmidt	Philadelphia Phillies	
+DD-12	Trea Turner	Philadelphia Phillies	
+DD-13	Mickey Mantle	New York Yankees	
+DD-13	Duke Snider	Brooklyn Dodgers	
+DD-14	Bo Bichette	Toronto Blue Jays	
+DD-14	Vladimir Guerrero Jr.	Toronto Blue Jays	
+DD-15	Shohei Ohtani	Los Angeles Dodgers	
+DD-15	Roki Sasaki	Los Angeles Dodgers	
+DD-16	Hank Aaron	Atlanta Braves	
+DD-16	Ronald Acuña Jr.	Atlanta Braves	
+DD-17	Austin Riley	Atlanta Braves	
+DD-17	Matt Olson	Atlanta Braves	
+DD-18	Jackson Chourio	Milwaukee Brewers	
+DD-18	Christian Yelich	Milwaukee Brewers	
+DD-19	Ken Griffey Jr.	Seattle Mariners	
+DD-19	Julio Rodríguez	Seattle Mariners	
+DD-20	Babe Ruth	New York Yankees	
+DD-20	Lou Gehrig	New York Yankees	
+			
+2024 FIRST PITCH			
+FP2-1	Joey Graziadei	Philadelphia Phillies	
+FP2-2	The Miz	Cleveland Guardians	
+FP2-3	Rickey Henderson	Oakland Athletics	
+FP2-4	Jenn Tran	Boston Red Sox	
+FP2-5	Mark Long	Arizona Diamondbacks	
+			
+HEAVY LUMBER			
+HL-21	Mookie Betts	Los Angeles Dodgers	
+HL-22	Dylan Crews	Washington Nationals	
+HL-23	Yordan Alvarez	Houston Astros	
+HL-24	Pete Alonso	New York Mets	
+HL-25	Hank Aaron	Atlanta Braves	
+HL-26	Babe Ruth	New York Yankees	
+HL-27	Freddie Freeman	Los Angeles Dodgers	
+HL-28	Matt Olson	Atlanta Braves	
+HL-29	Nolan Arenado	St. Louis Cardinals	
+HL-30	Adley Rutschman	Baltimore Orioles	
+HL-31	Corey Seager	Texas Rangers	
+HL-32	Carlos Correa	Minnesota Twins	
+HL-33	Manny Machado	San Diego Padres	
+HL-34	Francisco Lindor	New York Mets	
+HL-35	Sammy Sosa	Chicago Cubs	
+HL-36	Frank Thomas	Chicago White Sox	
+HL-37	Albert Pujols	Angels	
+HL-38	Corbin Carroll	Arizona Diamondbacks	
+HL-39	Jim Thome	Philadelphia Phillies	
+HL-40	David Ortiz	Boston Red Sox	
+HL-41	Alex Rodriguez	Seattle Mariners	
+HL-42	José Ramírez	Cleveland Guardians	
+HL-43	Kirby Puckett	Minnesota Twins	
+HL-44	Andrew McCutchen	Pittsburgh Pirates	
+HL-45	Cal Ripken Jr.	Baltimore Orioles	
+			
+HOMEFIELD ADVANTAGE			
+HA-21	Dylan Crews	Washington Nationals	
+HA-22	Jacob Wilson	Athletics	
+HA-23	Spencer Strider	Atlanta Braves	
+HA-24	Jarren Duran	Boston Red Sox	
+HA-25	Kevin Alcántara	Chicago Cubs	
+HA-26	Rhett Lowder	Cincinnati Reds	
+HA-27	José Ramírez	Cleveland Guardians	
+HA-28	Jackson Jobe	Detroit Tigers	
+HA-29	Mookie Betts	Los Angeles Dodgers	
+HA-30	William Contreras	Milwaukee Brewers	
+HA-31	Luisangel Acuña	New York Mets	
+HA-32	Juan Soto	New York Mets	
+HA-33	Gerrit Cole	New York Yankees	
+HA-34	Trea Turner	Philadelphia Phillies	
+HA-35	Paul Skenes	Pittsburgh Pirates	
+HA-36	Manny Machado	San Diego Padres	
+HA-37	Kumar Rocker	Texas Rangers	
+HA-38	Vladimir Guerrero Jr.	Toronto Blue Jays	
+HA-39	Corbin Carroll	Arizona Diamondbacks	
+HA-40	Jose Altuve	Houston Astros	
+			
+LEGENDARY HOMEFIELD ADVANTAGE			
+LHA-6	Stan Musial	St. Louis Cardinals	
+LHA-7	Jeff Bagwell	Houston Astros	
+LHA-8	Roy Campanella	Brooklyn Dodgers	
+LHA-9	Reggie Jackson	New York Yankees	
+			
+ALL KINGS			
+AK-1	Juan Soto	New York Mets	
+AK-2	Julio Rodríguez	Seattle Mariners	
+AK-3	Aaron Judge	New York Yankees	
+AK-4	Ronald Acuña Jr.	Atlanta Braves	
+AK-5	Bryce Harper	Philadelphia Phillies	
+AK-6	Shohei Ohtani	Los Angeles Dodgers	
+AK-7	Mike Trout	Angels	
+AK-8	Gunnar Henderson	Baltimore Orioles	
+AK-9	Bobby Witt Jr.	Kansas City Royals	
+AK-10	Vladimir Guerrero Jr.	Toronto Blue Jays	
+AK-11	Elly De La Cruz	Cincinnati Reds	
+AK-12	James Wood	Washington Nationals	
+AK-13	Fernando Tatis Jr.	San Diego Padres	
+AK-14	Willie Mays	San Francisco Giants	
+AK-15	Ken Griffey Jr.	Seattle Mariners	
+AK-16	Manny Machado	San Diego Padres	
+AK-17	Mickey Mantle	New York Yankees	
+AK-18	Jackie Robinson	Brooklyn Dodgers	
+AK-19	Derek Jeter	New York Yankees	
+AK-20	Mookie Betts	Los Angeles Dodgers	
+AK-21	Nolan Arenado	St. Louis Cardinals	
+AK-22	Francisco Lindor	New York Mets	
+AK-23	Yordan Alvarez	Houston Astros	
+AK-24	Pete Alonso	New York Mets	
+AK-25	Freddie Freeman	Los Angeles Dodgers	
+			
+K ZONE			
+KZ-1	Randy Johnson	Arizona Diamondbacks	
+KZ-2	Greg Maddux	Atlanta Braves	
+KZ-3	Chris Sale	Atlanta Braves	
+KZ-4	Roger Clemens	New York Yankees	
+KZ-5	Pedro Martinez	Boston Red Sox	
+KZ-6	Shota Imanaga	Chicago Cubs	
+KZ-7	Tarik Skubal	Detroit Tigers	
+KZ-8	Nolan Ryan	Houston Astros	
+KZ-9	Justin Verlander	San Francisco Giants	
+KZ-10	Clayton Kershaw	Los Angeles Dodgers	
+KZ-11	Shohei Ohtani	Los Angeles Dodgers	
+KZ-12	Yoshinobu Yamamoto	Los Angeles Dodgers	
+KZ-13	Sandy Koufax	Los Angeles Dodgers	
+KZ-14	Gerrit Cole	New York Yankees	
+KZ-15	Paul Skenes	Pittsburgh Pirates	
+KZ-16	Jackson Jobe	Detroit Tigers	
+KZ-17	Kumar Rocker	Texas Rangers	
+KZ-18	Blake Snell	Los Angeles Dodgers	
+KZ-19	Satchel Paige	St. Louis Browns	
+KZ-20	Spencer Strider	Atlanta Braves	
+KZ-21	Max Scherzer	Toronto Blue Jays	
+KZ-22	Jacob deGrom	Texas Rangers	
+KZ-23	Yu Darvish	San Diego Padres	
+KZ-24	Roki Sasaki	Los Angeles Dodgers	
+KZ-25	Aaron Nola	Philadelphia Phillies	
+			
+K ZONE SHORT PRINTS			
+KZSP-1	Randy Johnson	Arizona Diamondbacks	
+KZSP-2	Greg Maddux	Atlanta Braves	
+KZSP-3	Chris Sale	Atlanta Braves	
+KZSP-4	Roger Clemens	New York Yankees	
+KZSP-5	Pedro Martinez	Boston Red Sox	
+KZSP-6	Shota Imanaga	Chicago Cubs	
+KZSP-7	Tarik Skubal	Detroit Tigers	
+KZSP-8	Nolan Ryan	Houston Astros	
+KZSP-9	Justin Verlander	San Francisco Giants	
+KZSP-10	Clayton Kershaw	Los Angeles Dodgers	
+KZSP-11	Shohei Ohtani	Los Angeles Dodgers	
+KZSP-12	Yoshinobu Yamamoto	Los Angeles Dodgers	
+KZSP-13	Sandy Koufax	Los Angeles Dodgers	
+KZSP-14	Gerrit Cole	New York Yankees	
+KZSP-15	Paul Skenes	Pittsburgh Pirates	
+KZSP-16	Jackson Jobe	Detroit Tigers	
+KZSP-17	Kumar Rocker	Texas Rangers	
+KZSP-18	Blake Snell	Los Angeles Dodgers	
+KZSP-19	Satchel Paige	St. Louis Browns	
+KZSP-20	Spencer Strider	Atlanta Braves	
+KZSP-21	Max Scherzer	Toronto Blue Jays	
+KZSP-22	Jacob deGrom	Texas Rangers	
+KZSP-23	Yu Darvish	San Diego Padres	
+KZSP-24	Roki Sasaki	Los Angeles Dodgers	
+KZSP-25	Aaron Nola	Philadelphia Phillies	
+			
+1990 TOPPS BASEBALL			
+90B2-1	Royce Lewis	Minnesota Twins	
+90B2-2	Mike Yastrzemski	San Francisco Giants	
+90B2-3	Gerrit Cole	New York Yankees	
+90B2-4	Chris Sale	Atlanta Braves	
+90B2-5	Luis Arraez	San Diego Padres	
+90B2-6	Hunter Greene	Cincinnati Reds	
+90B2-7	Freddie Freeman	Los Angeles Dodgers	
+90B2-8	Brent Rooker	Athletics	
+90B2-9	Steven Kwan	Cleveland Guardians	
+90B2-10	Alex Bregman	Boston Red Sox	
+90B2-11	Dylan Crews	Washington Nationals	
+90B2-12	Kyle Tucker	Chicago Cubs	
+90B2-13	Cal Raleigh	Seattle Mariners	
+90B2-14	Juan Soto	New York Mets	
+90B2-15	J.T. Realmuto	Philadelphia Phillies	
+90B2-16	Jazz Chisholm Jr.	New York Yankees	
+90B2-17	William Contreras	Milwaukee Brewers	
+90B2-18	Xander Bogaerts	San Diego Padres	
+90B2-19	Salvador Perez	Kansas City Royals	
+90B2-20	Mark Vientos	New York Mets	
+90B2-21	Alec Bohm	Philadelphia Phillies	
+90B2-22	Luisangel Acuña	New York Mets	
+90B2-23	Ketel Marte	Arizona Diamondbacks	
+90B2-24	Zach Neto	Angels	
+90B2-25	Oneil Cruz	Pittsburgh Pirates	
+90B2-26	Jackson Holliday	Baltimore Orioles	
+90B2-27	Cody Bellinger	New York Yankees	
+90B2-28	Caden Dana	Angels	
+90B2-29	Shay Whitcomb	Houston Astros	
+90B2-30	Thomas Saggese	St. Louis Cardinals	
+90B2-31	Jhonkensy Noel	Cleveland Guardians	
+90B2-32	Spencer Strider	Atlanta Braves	
+90B2-33	Jacob deGrom	Texas Rangers	
+90B2-34	Javier Sanoja	Miami Marlins	
+90B2-35	Wyatt Langford	Texas Rangers	
+90B2-36	Lawrence Butler	Athletics	
+90B2-37	Roki Sasaki	Los Angeles Dodgers	
+90B2-38	Willy Adames	San Francisco Giants	
+90B2-39	Tarik Skubal	Detroit Tigers	
+90B2-40	Kumar Rocker	Texas Rangers	
+90B2-41	Michael Harris II	Atlanta Braves	
+90B2-42	Kevin Alcántara	Chicago Cubs	
+90B2-43	Anthony Volpe	New York Yankees	
+90B2-44	Jackson Jobe	Detroit Tigers	
+90B2-45	Junior Caminero	Tampa Bay Rays	
+90B2-46	Paul Goldschmidt	New York Yankees	
+90B2-47	James Wood	Washington Nationals	
+90B2-48	Ezequiel Tovar	Colorado Rockies	
+90B2-49	Teoscar Hernández	Los Angeles Dodgers	
+90B2-50	Randy Johnson	Arizona Diamondbacks	
+			
+1990 TOPPS ALL STAR BASEBALL			
+90AS-1	Tarik Skubal	Detroit Tigers	
+90AS-2	Shohei Ohtani	Los Angeles Dodgers	
+90AS-3	George Brett	Kansas City Royals	
+90AS-4	Jackson Merrill	San Diego Padres	
+90AS-5	Nolan Arenado	St. Louis Cardinals	
+90AS-6	Elly De La Cruz	Cincinnati Reds	
+90AS-7	David Ortiz	Boston Red Sox	
+90AS-8	Ted Williams	Boston Red Sox	
+90AS-9	Trea Turner	Philadelphia Phillies	
+90AS-10	Mike Trout	Angels	
+90AS-11	Chipper Jones	Atlanta Braves	
+90AS-12	Aaron Judge	New York Yankees	
+90AS-13	Corbin Carroll	Arizona Diamondbacks	
+90AS-14	Hank Aaron	Atlanta Braves	
+90AS-15	Pete Alonso	New York Mets	
+90AS-16	Ichiro	Seattle Mariners	
+90AS-17	Paul Skenes	Pittsburgh Pirates	
+90AS-18	Carlos Correa	Minnesota Twins	
+90AS-19	Bryce Harper	Philadelphia Phillies	
+90AS-20	Nolan Ryan	Texas Rangers	
+90AS-21	Freddie Freeman	Los Angeles Dodgers	
+90AS-22	Derek Jeter	New York Yankees	
+90AS-23	Juan Soto	New York Mets	
+90AS-24	Jackie Robinson	Brooklyn Dodgers	
+90AS-25	Mark McGwire	Oakland Athletics	
+90AS-26	Bo Jackson	Kansas City Royals	
+90AS-27	Clayton Kershaw	Los Angeles Dodgers	
+90AS-28	Hideo Nomo	Los Angeles Dodgers	
+90AS-29	Ronald Acuña Jr.	Atlanta Braves	
+90AS-30	Willie Mays	San Francisco Giants	
+90AS-31	Fernando Tatis Jr.	San Diego Padres	
+90AS-32	José Ramírez	Cleveland Guardians	
+90AS-33	Mookie Betts	Los Angeles Dodgers	
+90AS-34	Ken Griffey Jr.	Seattle Mariners	
+90AS-35	Francisco Lindor	New York Mets	
+90AS-36	Frank Thomas	Chicago White Sox	
+90AS-37	Yordan Alvarez	Houston Astros	
+90AS-38	Albert Pujols	St. Louis Cardinals	
+90AS-39	Cal Ripken Jr.	Baltimore Orioles	
+90AS-40	Gunnar Henderson	Baltimore Orioles	
+90AS-41	Babe Ruth	New York Yankees	
+90AS-42	William Contreras	Milwaukee Brewers	
+90AS-43	Mickey Mantle	New York Yankees	
+90AS-44	Manny Machado	San Diego Padres	
+90AS-45	Jarren Duran	Boston Red Sox	
+90AS-46	Sandy Koufax	Los Angeles Dodgers	
+90AS-47	Shota Imanaga	Chicago Cubs	
+90AS-48	Julio Rodríguez	Seattle Mariners	
+90AS-49	Vladimir Guerrero Jr.	Toronto Blue Jays	
+90AS-50	Bobby Witt Jr.	Kansas City Royals	
+			
+Retail Exclusive			
+STARS OF MLB			
+SMLB-31	Jacob Wilson	Athletics	
+SMLB-32	Matt Olson	Atlanta Braves	
+SMLB-33	Spencer Strider	Atlanta Braves	
+SMLB-34	Adley Rutschman	Baltimore Orioles	
+SMLB-35	Coby Mayo	Baltimore Orioles	
+SMLB-36	Jarren Duran	Boston Red Sox	
+SMLB-37	Cody Bellinger	New York Yankees	
+SMLB-38	Kevin Alcántara	Chicago Cubs	
+SMLB-39	Rhett Lowder	Cincinnati Reds	
+SMLB-40	Riley Greene	Detroit Tigers	
+SMLB-41	Jackson Jobe	Detroit Tigers	
+SMLB-42	Freddie Freeman	Los Angeles Dodgers	
+SMLB-43	Yoshinobu Yamamoto	Los Angeles Dodgers	
+SMLB-44	Jackson Chourio	Milwaukee Brewers	
+SMLB-45	Royce Lewis	Minnesota Twins	
+SMLB-46	Pete Alonso	New York Mets	
+SMLB-47	Luisangel Acuña	New York Mets	
+SMLB-48	Gerrit Cole	New York Yankees	
+SMLB-49	Trea Turner	Philadelphia Phillies	
+SMLB-50	Oneil Cruz	Pittsburgh Pirates	
+SMLB-51	Manny Machado	San Diego Padres	
+SMLB-52	Blake Snell	Los Angeles Dodgers	
+SMLB-53	Roki Sasaki	Los Angeles Dodgers	
+SMLB-54	Kumar Rocker	Texas Rangers	
+SMLB-55	Wyatt Langford	Texas Rangers	
+SMLB-56	George Springer	Toronto Blue Jays	
+SMLB-57	Paul Goldschmidt	New York Yankees	
+SMLB-58	Jose Altuve	Houston Astros	
+SMLB-59	Ketel Marte	Arizona Diamondbacks	
+SMLB-60	Junior Caminero	Tampa Bay Rays	
+			
+SOCIAL MEDIA FOLLOW BACK REDEMPTION			
+Kyle Tucker	Chicago Cubs		
+Luisangel Acuña	New York Mets	RC	
+Matt Olson	Atlanta Braves		
+Lawrence Butler	Athletics		
+Jasson Domínguez	New York Yankees		
+Ronald AcuñaJr.	Atlanta Braves		
+José Ramírez	Cleveland Guardians		
+Christian Yelich	Milwaukee Brewers		
+Jacob Wilson	Athletics	RC	
+			
+MEGA BOX EXCLUSIVE			
+TOPPS MEGA STARS			
+MS2-1	Shohei Ohtani	Los Angeles Dodgers	
+MS2-2	Freddie Freeman	Los Angeles Dodgers	
+MS2-3	Manny Machado	San Diego Padres	
+MS2-4	Rafael Devers	Boston Red Sox	
+MS2-5	Corey Seager	Texas Rangers	
+MS2-6	Gerrit Cole	New York Yankees	
+MS2-7	Adley Rutschman	Baltimore Orioles	
+MS2-8	Juan Soto	New York Mets	
+MS2-9	Francisco Lindor	New York Mets	
+MS2-10	Spencer Strider	Atlanta Braves	
+MS2-11	Jackson Merrill	San Diego Padres	
+MS2-12	Shota Imanaga	Chicago Cubs	
+MS2-13	Roki Sasaki	Los Angeles Dodgers	
+MS2-14	Rhett Lowder	Cincinnati Reds	
+MS2-15	Jace Jung	Detroit Tigers	
+MS2-16	Coby Mayo	Baltimore Orioles	
+MS2-17	Jacob Wilson	Athletics	
+MS2-18	Jackson Jobe	Detroit Tigers	
+MS2-19	Kevin Alcántara	Chicago Cubs	
+MS2-20	Luisangel Acuña	New York Mets	
+			
+			
+SUPERBOX EXCLUSIVE			
+OVERSIZED 2025 TOPPS BASEBALL			
+OTB2-1	Jackson Chourio	Milwaukee Brewers	
+OTB2-2	Wyatt Langford	Texas Rangers	
+OTB2-3	Shota Imanaga	Chicago Cubs	
+OTB2-4	Ozzie Albies	Atlanta Braves	
+OTB2-5	Michael Harris II	Atlanta Braves	
+OTB2-6	Spencer Strider	Atlanta Braves	
+OTB2-7	Adley Rutschman	Baltimore Orioles	
+OTB2-8	Jarren Duran	Boston Red Sox	
+OTB2-9	Alex Bregman	Boston Red Sox	
+OTB2-10	Mookie Betts	Los Angeles Dodgers	
+OTB2-11	William Contreras	Milwaukee Brewers	
+OTB2-12	Byron Buxton	Minnesota Twins	
+OTB2-13	Pete Alonso	New York Mets	
+OTB2-14	Juan Soto	New York Mets	
+OTB2-15	Trea Turner	Philadelphia Phillies	
+OTB2-16	Fernando Tatis Jr.	San Diego Padres	
+OTB2-17	Paul Goldschmidt	New York Yankees	
+OTB2-18	Shohei Ohtani	Los Angeles Dodgers	
+OTB2-19	Jackson Jobe	Detroit Tigers	
+OTB2-20	Kevin Alcántara	Chicago Cubs	
+OTB2-21	Luisangel Acuña	New York Mets	
+OTB2-22	Kumar Rocker	Texas Rangers	
+OTB2-23	Thomas Saggese	St. Louis Cardinals	
+OTB2-24	Roki Sasaki	Los Angeles Dodgers	
+OTB2-25	Bo Bichette	Toronto Blue Jays	
+			
+SUPERBOX EXCLUSIVE			
+COMPANION CARDS			
+CC2-1	Jackson Chourio	Milwaukee Brewers	
+CC2-2	Wyatt Langford	Texas Rangers	
+CC2-3	Shota Imanaga	Chicago Cubs	
+CC2-4	Ozzie Albies	Atlanta Braves	
+CC2-5	Michael Harris II	Atlanta Braves	
+CC2-6	Spencer Strider	Atlanta Braves	
+CC2-7	Adley Rutschman	Baltimore Orioles	
+CC2-8	Jarren Duran	Boston Red Sox	
+CC2-9	Alex Bregman	Boston Red Sox	
+CC2-10	Mookie Betts	Los Angeles Dodgers	
+CC2-11	William Contreras	Milwaukee Brewers	
+CC2-12	Byron Buxton	Minnesota Twins	
+CC2-13	Pete Alonso	New York Mets	
+CC2-14	Juan Soto	New York Mets	
+CC2-15	Trea Turner	Philadelphia Phillies	
+CC2-16	Fernando Tatis Jr.	San Diego Padres	
+CC2-17	Paul Goldschmidt	New York Yankees	
+CC2-18	Shohei Ohtani	Los Angeles Dodgers	
+CC2-19	Jackson Jobe	Detroit Tigers	
+CC2-20	Kevin Alcántara	Chicago Cubs	
+CC2-21	Luisangel Acuña	New York Mets	
+CC2-22	Kumar Rocker	Texas Rangers	
+CC2-23	Thomas Saggese	St. Louis Cardinals	
+CC2-24	Roki Sasaki	Los Angeles Dodgers	
+CC2-25	Bo Bichette	Toronto Blue Jays	
+			
+Hobby/Hobby Jumbo Only - Silver Pack Boxloader			
+1990 TOPPS BASEBALL CHROME BASE CARDS			
+T90C-101	Caden Dana	Angels	
+T90C-102	Zach Neto	Angels	
+T90C-103	Ketel Marte	Arizona Diamondbacks	
+T90C-104	Randy Johnson	Arizona Diamondbacks	
+T90C-105	Brent Rooker	Athletics	
+T90C-106	Lawrence Butler	Athletics	
+T90C-107	Spencer Strider	Atlanta Braves	
+T90C-108	Michael Harris II	Atlanta Braves	
+T90C-109	Chris Sale	Atlanta Braves	
+T90C-110	Jackson Holliday	Baltimore Orioles	
+T90C-111	Kevin Alcántara	Chicago Cubs	
+T90C-112	Cody Bellinger	New York Yankees	
+T90C-113	Hunter Greene	Cincinnati Reds	
+T90C-114	Jhonkensy Noel	Cleveland Guardians	
+T90C-115	Ezequiel Tovar	Colorado Rockies	
+T90C-116	Jackson Jobe	Detroit Tigers	
+T90C-117	Tarik Skubal	Detroit Tigers	
+T90C-118	Shay Whitcomb	Houston Astros	
+T90C-119	Alex Bregman	Boston Red Sox	
+T90C-120	Kyle Tucker	Chicago Cubs	
+T90C-121	Salvador Perez	Kansas City Royals	
+T90C-122	Teoscar Hernández	Los Angeles Dodgers	
+T90C-123	Freddie Freeman	Los Angeles Dodgers	
+T90C-124	Javier Sanoja	Miami Marlins	
+T90C-125	William Contreras	Milwaukee Brewers	
+T90C-126	Willy Adames	San Francisco Giants	
+T90C-127	Royce Lewis	Minnesota Twins	
+T90C-128	Luisangel Acuña	New York Mets	
+T90C-129	Mark Vientos	New York Mets	
+T90C-130	Anthony Volpe	New York Yankees	
+T90C-131	Alec Bohm	Philadelphia Phillies	
+T90C-132	Tomoyuki Sugano	Baltimore Orioles	
+T90C-133	Nick Yorke	Pittsburgh Pirates	
+T90C-134	Oneil Cruz	Pittsburgh Pirates	
+T90C-135	Roki Sasaki	Los Angeles Dodgers	
+T90C-136	Xander Bogaerts	San Diego Padres	
+T90C-137	Mike Yastrzemski	San Francisco Giants	
+T90C-138	Cal Raleigh	Seattle Mariners	
+T90C-139	Thomas Saggese	St. Louis Cardinals	
+T90C-140	Junior Caminero	Tampa Bay Rays	
+T90C-141	Kumar Rocker	Texas Rangers	
+T90C-142	Jacob deGrom	Texas Rangers	
+T90C-143	Hyeseong Kim	Los Angeles Dodgers	
+T90C-144	Dylan Crews	Washington Nationals	
+T90C-145	James Wood	Washington Nationals	
+T90C-146	Will Wagner	Toronto Blue Jays	
+T90C-147	Justin Wrobleski	Los Angeles Dodgers	
+T90C-148	Jace Jung	Detroit Tigers	
+T90C-149	Zebby Matthews	Minnesota Twins	
+T90C-150	Zach Dezenzo	Houston Astros	
+			
+Hobby/Hobby Jumbo Only - Silver Pack Boxloader			
+1990 TOPPS BASEBALL CHROME ALL STARS			
+90ASC-1	Rickey Henderson	Oakland Athletics	
+90ASC-2	Shohei Ohtani	Los Angeles Dodgers	
+90ASC-3	George Brett	Kansas City Royals	
+90ASC-4	Jackson Merrill	San Diego Padres	
+90ASC-5	Nolan Arenado	St. Louis Cardinals	
+90ASC-6	Elly De La Cruz	Cincinnati Reds	
+90ASC-7	David Ortiz	Boston Red Sox	
+90ASC-7	Ted Williams	Boston Red Sox	
+90ASC-9	Trea Turner	Philadelphia Phillies	
+90ASC-10	Mike Trout	Angels	
+90ASC-11	Chipper Jones	Atlanta Braves	
+90ASC-12	Aaron Judge	New York Yankees	
+90ASC-13	Corbin Carroll	Arizona Diamondbacks	
+90ASC-14	Hank Aaron	Atlanta Braves	
+90ASC-15	Pete Alonso	New York Mets	
+90ASC-16	Ichiro	Seattle Mariners	
+90ASC-17	Paul Skenes	Pittsburgh Pirates	
+90ASC-18	Carlos Correa	Minnesota Twins	
+90ASC-19	Bryce Harper	Philadelphia Phillies	
+90ASC-20	Nolan Ryan	Texas Rangers	
+90ASC-21	Freddie Freeman	Los Angeles Dodgers	
+90ASC-22	Derek Jeter	New York Yankees	
+90ASC-23	Juan Soto	New York Mets	
+90ASC-24	Jackie Robinson	Brooklyn Dodgers	
+90ASC-25	Mark McGwire	Oakland Athletics	
+90ASC-26	Bo Jackson	Kansas City Royals	
+90ASC-27	Clayton Kershaw	Los Angeles Dodgers	
+90ASC-28	Mike Piazza	New York Mets	
+90ASC-29	Ronald Acuña Jr.	Atlanta Braves	
+90ASC-30	Willie Mays	San Francisco Giants	
+90ASC-31	Fernando Tatis Jr.	San Diego Padres	
+90ASC-32	José Ramírez	Cleveland Guardians	
+90ASC-33	Mookie Betts	Los Angeles Dodgers	
+90ASC-34	Ken Griffey Jr.	Seattle Mariners	
+90ASC-35	Francisco Lindor	New York Mets	
+90ASC-36	Frank Thomas	Chicago White Sox	
+90ASC-37	Yordan Alvarez	Houston Astros	
+90ASC-38	Albert Pujols	St. Louis Cardinals	
+90ASC-39	Cal Ripken Jr.	Baltimore Orioles	
+90ASC-40	Gunnar Henderson	Baltimore Orioles	
+90ASC-41	Babe Ruth	New York Yankees	
+90ASC-42	Hideo Nomo	Los Angeles Dodgers	
+90ASC-43	Mickey Mantle	New York Yankees	
+90ASC-44	Manny Machado	San Diego Padres	
+90ASC-45	Jarren Duran	Boston Red Sox	
+90ASC-46	Sandy Koufax	Los Angeles Dodgers	
+90ASC-47	Shota Imanaga	Chicago Cubs	
+90ASC-48	Julio Rodríguez	Seattle Mariners	
+90ASC-49	Vladimir Guerrero Jr.	Toronto Blue Jays	
+90ASC-50	Bobby Witt Jr.	Kansas City Royals	
+			
+FANATICS BOX EXCLUSIVE			
+FANATICS AUTHENTIC REDEMPTION CARDS			
+Paul Skenes	Pittsburgh Pirates		
+Fernando Tatis Jr.	San Diego Padres		
+Trea Turner	Philadelphia Phillies		
+Luis Severino	Athletics		
+Juan Soto	New York Mets		
+Aaron Judge	New York Yankees		
+Mike Yastrzemski	San Francisco Giants		
+Ken Griffey Jr.	Seattle Mariners		
+Dylan Crews	Washington Nationals		
+Bobby Witt Jr.	Kansas City Royals		
+Max Scherzer	Toronto Blue Jays		
+Wyatt Langford	Texas Rangers		
+Ozzie Smith	St. Louis Cardinals		
+Wade Boggs	Tampa Bay Rays		
+Brooks Lee	Minnesota Twins		
+Christian Yelich	Milwaukee Brewers		
+Frank Thomas	Chicago White Sox		
+Hunter Greene	Cincinnati Reds		
+Pete Crow-Armstrong	Chicago Cubs		
+Jarren Duran	Boston Red Sox		
+Ronald Acuña Jr.	Atlanta Braves		
+Cal Ripken Jr.	Baltimore Orioles		
+Tanner Bibee	Cleveland Guardians		
+Todd Helton	Colorado Rockies		
+Mike Piazza	Los Angeles Dodgers		
+Ichiro	Miami Marlins		
+Shohei Ohtani	Angels		
+Jeremy Peña	Houston Astros		
+Tarik Skubal	Detroit Tigers		
+Corbin Carroll	Arizona Diamondbacks		
+			
+Hobby Only Exclusive			
+BASE CARDS ALL POSITIONS VARIATIONS			
+383	Scott Sheldon	Texas Rangers	
+442	Andrew Romine	Detroit Tigers	
+494	Shane Halter	Detroit Tigers	
+503	Cesar Tovar	Minnesota Twins	
+617	Bert Campaneris	Kansas City Athletics	
+			
+FANATICS FEST EXCLUSIVE			
+BIG APPLE			
+364	Ozzie Albies	Atlanta Braves	
+367	Wilyer Abreu	Boston Red Sox	
+369	Mason Montgomery	Tampa Bay Rays	
+374	Dustin Harris	Texas Rangers	
+376	Jackson Chourio	Milwaukee Brewers	
+378	Max Muncy	Los Angeles Dodgers	
+379	Shane Bieber	Cleveland Guardians	
+383	Marcus Semien	Texas Rangers	
+384	Ben Casparius	Los Angeles Dodgers	
+387	Gustavo Campero	Angels	
+388	Andy Pages	Los Angeles Dodgers	
+393	Luis Arraez	San Diego Padres	
+394	Corbin Burnes	Arizona Diamondbacks	
+400	Shohei Ohtani	Los Angeles Dodgers	
+405	Kris Bryant	Colorado Rockies	
+408	Kumar Rocker	Texas Rangers	
+415	Carlos Rodón	New York Yankees	
+417	Tomoyuki Sugano	Baltimore Orioles	
+422	Caden Dana	Angels	
+425	Billy Cook	Pittsburgh Pirates	
+430	Will Wagner	Toronto Blue Jays	
+433	William Contreras	Milwaukee Brewers	
+438	Samuel Aldegheri	Angels	
+441	Christian Walker	Houston Astros	
+443	Brady Basso	Athletics	
+447	Griffin Conine	Miami Marlins	
+448	Zac Gallen	Arizona Diamondbacks	
+450	Trea Turner	Philadelphia Phillies	
+451	Kyle Tucker	Chicago Cubs	
+452	Jordan Lawlar	Arizona Diamondbacks	
+454	Aaron Nola	Philadelphia Phillies	
+455	Wyatt Langford	Texas Rangers	
+457	Seiya Suzuki	Chicago Cubs	
+458	Valente Bellozo	Miami Marlins	
+463	Thomas Saggese	St. Louis Cardinals	
+465	J.T. Ginn	Athletics	
+472	Willson Contreras	St. Louis Cardinals	
+473	Shota Imanaga	Chicago Cubs	
+474	Bo Bichette	Toronto Blue Jays	
+477	Junior Caminero	Tampa Bay Rays	
+483	Ty Madden	Detroit Tigers	
+490	Jackson Jobe	Detroit Tigers	
+494	Spencer Torkelson	Detroit Tigers	
+500	Mookie Betts	Los Angeles Dodgers	
+504	Jack Flaherty	Detroit Tigers	
+508	Salvador Perez	Kansas City Royals	
+510	Nolan Gorman	St. Louis Cardinals	
+511	Darren Baker	Washington Nationals	
+512	Michael Harris II	Atlanta Braves	
+521	Willy Adames	San Francisco Giants	
+524	Luisangel Acuña	New York Mets	
+530	Byron Buxton	Minnesota Twins	
+535	Leo Jiménez	Toronto Blue Jays	
+537	Spencer Bivens	San Francisco Giants	
+541	Jared Jones	Pittsburgh Pirates	
+550	Pete Alonso	New York Mets	
+557	Kyle Manzardo	Cleveland Guardians	
+558	Roki Sasaki	Los Angeles Dodgers	
+561	Paul Goldschmidt	New York Yankees	
+568	Brandon Lockridge	San Diego Padres	
+569	Kodai Senga	New York Mets	
+571	Mason Miller	Athletics	
+573	Hyeseong Kim	Los Angeles Dodgers	
+574	Daniel Schneemann	Cleveland Guardians	
+576	Parker Meadows	Detroit Tigers	
+578	Kevin Alcántara	Chicago Cubs	
+579	Spencer Strider	Atlanta Braves	
+583	Alex Bregman	Boston Red Sox	
+587	Jarren Duran	Boston Red Sox	
+590	Jasson Domínguez	New York Yankees	
+591	Austin Wells	New York Yankees	
+596	Tyler Fitzgerald	San Francisco Giants	
+599	Duke Ellis	New York Yankees	
+600	Fernando Tatis Jr.	San Diego Padres	
+603	Cal Raleigh	Seattle Mariners	
+609	Max Fried	New York Yankees	
+610	Gordon Graceffo	St. Louis Cardinals	
+617	Zack Gelof	Athletics	
+625	J.T. Realmuto	Philadelphia Phillies	
+628	Noelvi Marte	Cincinnati Reds	
+629	Jesse Winker	New York Mets	
+630	Heston Kjerstad	Baltimore Orioles	
+635	Bryce Teodosio	Angels	
+638	Bryan Reynolds	Pittsburgh Pirates	
+643	Garrett Mitchell	Milwaukee Brewers	
+647	Matt McLain	Cincinnati Reds	
+650	Adley Rutschman	Baltimore Orioles	
+651	Sal Frelick	Milwaukee Brewers	
+653	Javier Sanoja	Miami Marlins	
+656	Jairo Iriarte	Chicago White Sox	
+659	Nick Yorke	Pittsburgh Pirates	
+662	Pablo López	Minnesota Twins	
+665	Keider Montero	Detroit Tigers	
+670	Richard Fitts	Boston Red Sox	
+672	Matt Strahm	Philadelphia Phillies	
+673	Ben Brown	Chicago Cubs	
+676	Blake Snell	Los Angeles Dodgers	
+682	Steven Kwan	Cleveland Guardians	
+699	Hayden Birdsong	San Francisco Giants	
+700	Juan Soto	New York Mets	
+			
+FANATICS FEST EXCLUSIVE			
+SWINGING WITH THE STARS			
+SS-1	Shohei Ohtani	Los Angeles Dodgers	
+SS-2	Aaron Judge	New York Yankees	
+SS-3	Juan Soto	New York Mets	
+SS-4	Fernando Tatis Jr.	San Diego Padres	
+SS-5	James Wood	Washington Nationals	
+SS-6	Dylan Crews	Washington Nationals	
+SS-7	Coby Mayo	Baltimore Orioles	
+SS-8	Brooks Lee	Minnesota Twins	
+SS-9	Vladimir Guerrero Jr.	Toronto Blue Jays	
+SS-10	Julio Rodríguez	Seattle Mariners	
+SS-11	Pete Alonso	New York Mets	
+SS-12	Ronald Acuña Jr.	Atlanta Braves	
+SS-13	Bobby Witt Jr.	Kansas City Royals	
+SS-14	Mookie Betts	Los Angeles Dodgers	
+SS-15	Luis Robert	Chicago White Sox	
+SS-16	Matt Olson	Atlanta Braves	
+SS-17	Corey Seager	Texas Rangers	
+SS-18	Yordan Alvarez	Houston Astros	
+SS-19	Seiya Suzuki	Chicago Cubs	
+SS-20	Elly De La Cruz	Cincinnati Reds	
+SS-21	Rafael Devers	Boston Red Sox	
+SS-22	Corbin Carroll	Arizona Diamondbacks	
+SS-23	Mike Trout	Angels	
+SS-24	Bryce Harper	Philadelphia Phillies	
+SS-25	José Ramírez	Cleveland Guardians	
+PLAKATA			
+PLAK-26	Mike Trout	Angels	
+PLAK-27	Jasson Domínguez	New York Yankees	
+PLAK-28	Junior Caminero	Tampa Bay Rays	
+PLAK-29	Luis Robert Jr.	Chicago White Sox	
+PLAK-30	Randy Arozarena	Seattle Mariners	
+PLAK-31	Shohei Ohtani	Los Angeles Dodgers	
+PLAK-32	Aaron Judge	New York Yankees	
+PLAK-33	Juan Soto	New York Mets	
+PLAK-34	Bryce Harper	Philadelphia Phillies	
+PLAK-35	Pete Alonso	New York Mets	
+PLAK-36	Bobby Witt Jr.	Kansas City Royals	
+PLAK-37	Mookie Betts	Los Angeles Dodgers	
+PLAK-38	Gunnar Henderson	Baltimore Orioles	
+PLAK-39	Freddie Freeman	Los Angeles Dodgers	
+PLAK-40	Luisangel Acuña	New York Mets	
+PLAK-41	Kevin Alcántara	Chicago Cubs	
+PLAK-42	James Wood	Washington Nationals	
+PLAK-43	Dylan Crews	Washington Nationals	
+PLAK-44	Salvador Perez	Kansas City Royals	
+PLAK-45	Ken Griffey Jr.	Seattle Mariners	
+PLAK-46	Kyle Schwarber	Philadelphia Phillies	
+PLAK-47	Jackson Merrill	San Diego Padres	
+PLAK-48	Nolan Arenado	St. Louis Cardinals	
+PLAK-49	Miguel Cabrera	Detroit Tigers	
+PLAK-50	Manny Ramirez	Boston Red Sox	
+			
+BASE CARD RC SHORT PRINT			
+698 Cam Smith	Houston Astros	RC	
+699 Matt Shaw	Chicago Cubs	RC	
+700 Kristian Campbell	Boston Red Sox	RC	
+			
+			
+AUTOGRAPH RELIC			
+			
+Hobby/Hobby Jumbo Exclusive			
+2025 TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS			
+TFAP2-AP	Andy Pettitte	Houston Astros	
+TFAP2-AW	Austin Wells	New York Yankees	
+TFAP2-BM	Bryce Miller	Seattle Mariners	
+TFAP2-BS	Bryson Stott	Philadelphia Phillies	
+TFAP2-CC	Colton Cowser	Baltimore Orioles	
+TFAP2-CCA	Corbin Carroll	Arizona Diamondbacks	
+TFAP2-CJ	Chipper Jones	Atlanta Braves	
+TFAP2-CM	Cedric Mullins	Baltimore Orioles	
+TFAP2-CRA	Cal Raleigh	Seattle Mariners	
+TFAP2-CY	Christian Yelich	Milwaukee Brewers	
+TFAP2-DC	Dylan Crews	Washington Nationals	
+TFAP2-DS	Darryl Strawberry	New York Mets	
+TFAP2-EL	Evan Longoria	San Francisco Giants	
+TFAP2-ELO	Evan Longoria	Arizona Diamondbacks	
+TFAP2-EM	Eddie Murray	New York Mets	
+TFAP2-GH	Gunnar Henderson	Baltimore Orioles	
+TFAP2-JD	Jarren Duran	Boston Red Sox	
+TFAP2-JRO	Jimmy Rollins	Philadelphia Phillies	
+TFAP2-JW	Jordan Westburg	Baltimore Orioles	
+TFAP2-LC	Luis Castillo	Seattle Mariners	
+TFAP2-LW	Logan Webb	San Francisco Giants	
+TFAP2-MH	Michael Harris II	Atlanta Braves	
+TFAP2-MM	Max Muncy	Los Angeles Dodgers	
+TFAP2-MMA	Manny Machado	San Diego Padres	
+TFAP2-MT	Mike Trout	Angels	
+TFAP2-MW	Masyn Winn	St. Louis Cardinals	
+TFAP2-PC	Pete Crow-Armstrong	Chicago Cubs	
+TFAP2-RA	Ronald Acuña Jr.	Atlanta Braves	
+TFAP2-SLU	Seth Lugo	Kansas City Royals	
+TFAP2-SR	Scott Rolen	Cincinnati Reds	
+TFAP2-SRO	Scott Rolen	Toronto Blue Jays	
+TFAP2-TS	Tarik Skubal	Detroit Tigers	
+TFAP2-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+TFAP2-ZN	Zach Neto	Angels	
+TFAP-ABE	Adrían Beltré	Texas Rangers	
+TFAP-ADR	Adrian Beltré	Texas Rangers	
+TFAP-AG	Andrés Giménez	Cleveland Guardians	
+TFAP-ARI	Austin Riley	Atlanta Braves	
+TFAP-AROD	Alex Rodriguez	New York Yankees	
+TFAP-BELT	Adrian Beltré	Los Angeles Dodgers	
+TFAP-BS	Bryson Stott	Philadelphia Phillies	
+TFAP-CEA	Dylan Cease	San Diego Padres	
+TFAP-CHO	Jackson Chourio	Milwaukee Brewers	
+TFAP-CJ	Chipper Jones	Atlanta Braves	
+TFAP-CR	Cal Ripken Jr.	Baltimore Orioles	
+TFAP-CS	CC Sabathia	New York Yankees	
+TFAP-DJ	Derek Jeter	New York Yankees	
+TFAP-DRUW	Andruw Jones	Atlanta Braves	
+TFAP-DW	Dontrelle Willis	Florida Marlins	
+TFAP-GS	George Springer	Toronto Blue Jays	
+TFAP-I	Ichiro	Miami Marlins	
+TFAP-IS	Ichiro	Seattle Mariners	
+TFAP-JC	Junior Caminero	Tampa Bay Rays	
+TFAP-JM	Jackson Merrill	San Diego Padres	
+TFAP-JP	Jorge Posada	New York Yankees	
+TFAP-JR	Julio Rodríguez	Seattle Mariners	
+TFAP-JT	Jim Thome	Chicago White Sox	
+TFAP-JV	Joey Votto	Cincinnati Reds	
+TFAP-KB	Kris Bryant	Colorado Rockies	
+TFAP-KS	Kyle Schwarber	Philadelphia Phillies	
+TFAP-LC	Luis Castillo	Seattle Mariners	
+TFAP-LN	Lars Nootbaar	St. Louis Cardinals	
+TFAP-MB	Mookie Betts	Los Angeles Dodgers	
+TFAP-MM	Manny Machado	San Diego Padres	
+TFAP-MO	Matt Olson	Atlanta Braves	
+TFAP-MP	Mike Piazza	Los Angeles Dodgers	
+TFAP-NH	Nico Hoerner	Chicago Cubs	
+TFAP-ORT	David Ortiz	Minnesota Twins	
+TFAP-PIA	Mike Piazza	New York Mets	
+TFAP-PUJ	Albert Pujols	Los Angeles Dodgers	
+TFAP-RA	Randy Arozarena	Tampa Bay Rays	
+TFAP-RAJ	Ronald Acuña Jr.	Atlanta Braves	
+TFAP-RCA	Rod Carew	Minnesota Twins	
+TFAP-RD	Rafael Devers	Boston Red Sox	
+TFAP-SM	Starling Marte	New York Mets	
+TFAP-STE	Spencer Steer	Cincinnati Reds	
+TFAP-TS	Tarik Skubal	Detroit Tigers	
+TFAP-UTL	Chase Utley	Los Angeles Dodgers	
+TFAP-WC	William Contreras	Milwaukee Brewers	
+TFAP-WS	Will Smith	Los Angeles Dodgers	
+			
+MAJOR LEAGUE MATERIAL AUTOGRAPH CARDS			
+MLMA2-AB	Alec Bohm	Philadelphia Phillies	
+MLMA2-ABU  Alec Burleson	St. Louis Cardinals		
+MLMA2-AM	Angel Martínez	Cleveland Guardians	
+MLMA2-AP	Andy Pages	Los Angeles Dodgers	
+MLMA2-BR	Ben Rice	New York Yankees	
+MLMA2-CA	CJ Abrams	Washington Nationals	
+MLMA2-CC	Corbin Carroll	Arizona Diamondbacks	
+MLMA2-CM	Coby Mayo	Baltimore Orioles	
+MLMA2-CN	Connor Norby	Miami Marlins	
+MLMA2-CP	Cade Povich	Baltimore Orioles	
+MLMA2-CR	Cal Raleigh	Seattle Mariners	
+MLMA2-DC	Dylan Cease	San Diego Padres	
+MLMA2-DCR  Dylan Crews	Washington Nationals	RC	
+MLMA2-DF	David Festa	Minnesota Twins	
+MLMA2-DT	Drew Thorpe	Chicago White Sox	
+MLMA2-FA	Francisco Alvarez	New York Mets	
+MLMA2-GM	Gabriel Moreno	Arizona Diamondbacks	
+MLMA2-GS	George Springer	Toronto Blue Jays	
+MLMA2-HW	Hurston Waldrep	Atlanta Braves	
+MLMA2-JAJ  Jace Jung	Detroit Tigers	RC	
+MLMA2-JD	Jasson Domínguez	New York Yankees	
+MLMA2-JJ	Jackson Jobe	Detroit Tigers	
+MLMA2-JM	Justyn-Henry Malloy Detroit Tigers	RC	
+MLMA2-JN	Jhonkensy Noel	Cleveland Guardians	
+MLMA2-JW	Jordan Westburg	Baltimore Orioles	
+MLMA2-JWI  Jacob Wilson	Athletics	RC	
+MLMA2-JWO  James Wood	Washington Nationals	RC	
+MLMA2-JWR  Justin Wrobleski	Los Angeles Dodgers	RC	
+MLMA2-KA	Kevin Alcántara	Chicago Cubs	
+MLMA2-KB	Kris Bryant	Colorado Rockies	
+MLMA2-KR	Kumar Rocker	Texas Rangers	
+MLMA2-LA	Luis Arraez	San Diego Padres	
+MLMA2-LAA  Luisangel Acuña	New York Mets	RC	
+MLMA2-LN	Lars Nootbaar	St. Louis Cardinals	
+MLMA2-MG	MacKenzie Gore	Washington Nationals	
+MLMA2-MM	Max Muncy	Los Angeles Dodgers	
+MLMA2-MMC	Michael McGreevy	St. Louis Cardinals	
+MLMA2-MT	Mike Trout	Angels	
+MLMA2-MY	Mike Yastrzemski	San Francisco Giants	
+MLMA2-NS	Nolan Schanuel	Angels	
+MLMA2-NY	Nick Yorke	Pittsburgh Pirates	
+MLMA2-OA	Ozzie Albies	Atlanta Braves	
+MLMA2-PC	Pete Crow-Armstrong	Chicago Cubs	
+MLMA2-PS	Paul Skenes	Pittsburgh Pirates	
+MLMA2-RA	Ronald Acuña Jr.	Atlanta Braves	
+MLMA2-RH	Rece Hinds	Cincinnati Reds	
+MLMA2-RL	Rhett Lowder	Cincinnati Reds	
+MLMA2-RR	River Ryan	Los Angeles Dodgers	
+MLMA2-SL	Seth Lugo	Kansas City Royals	
+MLMA2-SS	Spencer Schwellenbach	Atlanta Braves	
+MLMA2-SW	Shay Whitcomb	Houston Astros	
+MLMA2-TL	Tyler Locklear	Seattle Mariners	
+MLMA2-TS	Thomas Saggese	St. Louis Cardinals	
+MLMA2-TSW	Trey Sweeney	Detroit Tigers	
+MLMA2-WW	Will Wagner	Toronto Blue Jays	
+MLMA2-ZD	Zach Dezenzo	Houston Astros	
+MLMA2-ZM	Zebby Matthews	Minnesota Twins	
+			
+			
+			
+			
+MAJOR LEAGUE MATERIAL DUAL AUTOGRAPH CARDS			
+MLMDA2-AG	MacKenzie Gore	Washington Nationals	
+MLMDA2-AG	CJ Abrams	Washington Nationals	
+MLMDA2-AGJ	Ronald Acuña Jr.	Atlanta Braves	
+MLMDA2-AGJ	Vladimir Guerrero Jr. 	Toronto Blue Jays	
+MLMDA2-AV	Mark Vientos	New York Mets	
+MLMDA2-AV	Francisco Alvarez	New York Mets	
+MLMDA2-BL	Brooks Lee	Minnesota Twins	
+MLMDA2-BL	Byron Buxton	Minnesota Twins	
+MLMDA2-CW	Jordan Westburg	Baltimore Orioles	
+MLMDA2-CW	Colton Cowser	Baltimore Orioles	
+MLMDA2-HR	Mitch Haniger	Seattle Mariners	
+MLMDA2-HR	Cal Raleigh	Seattle Mariners	
+MLMDA2-IS	Justin Steele	Chicago Cubs	
+MLMDA2-IS	Shota Imanaga	Chicago Cubs	
+MLMDA2-KJ	Jace Jung	Detroit Tigers	
+MLMDA2-KJ	Colt Keith	Detroit Tigers	
+MLMDA2-MS	Will Smith	Los Angeles Dodgers	
+MLMDA2-MS	Max Muncy	Los Angeles Dodgers	
+MLMDA2-OA	Matt Olson	Atlanta Braves	
+MLMDA2-OA	Ozzie Albies	Atlanta Braves	
+MLMDA2-RHO	Jackson Holliday	Baltimore Orioles	
+MLMDA2-RHO	Adley Rutschman	Baltimore Orioles	
+MLMDA2-SCA	Dansby Swanson	Chicago Cubs	
+MLMDA2-SCA	Pete Crow-Armstrong	Chicago Cubs	
+MLMDA2-SJO	Jared Jones	Pittsburgh Pirates	
+MLMDA2-SJO	Paul Skenes	Pittsburgh Pirates	
+MLMDA2-SS	Spencer Steer	Cincinnati Reds	
+MLMDA2-SS	Tyler Stephenson	Cincinnati Reds	
+MLMDA2-SV	George Springer	Toronto Blue Jays	
+MLMDA2-SV	Daulton Varsho	Toronto Blue Jays	
+MLMDA2-VW	Austin Wells	New York Yankees	
+MLMDA2-VW	Anthony Volpe	New York Yankees	
+MLMDA2-WN	Masyn Winn	St. Louis Cardinals	
+MLMDA2-WN	Lars Nootbaar	St. Louis Cardinals	
+MLMDA-CHW	Matt Chapman	San Francisco Giants	
+MLMDA-CHW	Logan Webb	San Francisco Giants	
+MLMDA-GKE	Colt Keith	Detroit Tigers	
+MLMDA-GKE	Riley Greene	Detroit Tigers	
+MLMDA-HEH	Jackson Holliday	Baltimore Orioles	
+MLMDA-HEH	Gunnar Henderson	Baltimore Orioles	
+MLMDA-MEC	Dylan Cease	San Diego Padres	
+MLMDA-MEC	Jackson Merrill	San Diego Padres	
+MLMDA-RHE	Gunnar Henderson	Baltimore Orioles	
+MLMDA-RHE	Adley Rutschman	Baltimore Orioles	
+MLMDA-SKR	Paul Skenes	Pittsburgh Pirates	
+MLMDA-SKR	Bryan Reynolds	Pittsburgh Pirates	
+			
+HEAVY LUMBER AUTOGRAPH RELICS			
+HLAR2-AB	Alex Bregman	Houston Astros	
+HLAR2-ADA	Andre Dawson	Montréal Expos	
+HLAR2-AJ	Aaron Judge	New York Yankees	
+HLAR2-AR	Alex Rodriguez	Seattle Mariners	
+HLAR2-CF	Carlton Fisk	Chicago White Sox	
+HLAR2-CJ	Chipper Jones	Atlanta Braves	
+HLAR2-CM	Coby Mayo	Baltimore Orioles	
+HLAR2-CMO	Christopher Morel	Tampa Bay Rays	
+HLAR2-CY	Christian Yelich	Milwaukee Brewers	
+HLAR2-FL	Francisco Lindor	New York Mets	
+HLAR2-GS	George Springer	Toronto Blue Jays	
+HLAR2-GSH	Gary Sheffield	New York Yankees	
+HLAR2-JB	Johnny Bench	Cincinnati Reds	
+HLAR2-JP	Jorge Posada	New York Yankees	
+HLAR2-MM	Mark McGwire	St. Louis Cardinals	
+HLAR2-MT	Mike Trout	Angels	
+HLAR2-OS	Ozzie Smith	St. Louis Cardinals	
+HLAR2-PM	Paul Molitor	Toronto Blue Jays	
+HLAR2-RS	Ryne Sandberg	Chicago Cubs	
+HLAR2-RY	Robin Yount	Milwaukee Brewers	
+HLAR2-SK	Steven Kwan	Cleveland Guardians	
+HLAR2-SO	Shohei Ohtani	Los Angeles Dodgers	
+HLAR2-SR	Scott Rolen	St. Louis Cardinals	
+HLAR2-SSO	Sammy Sosa	Chicago Cubs	
+HLAR-AB	Adrian Beltré	Texas Rangers	
+HLAR-ABR	Alex Bregman	Houston Astros	
+HLAR-AJ	Andruw Jones	Atlanta Braves	
+HLAR-ARI	Austin Riley	Atlanta Braves	
+HLAR-ARO	Alex Rodriguez	New York Yankees	
+HLAR-CF	Carlton Fisk	Boston Red Sox	
+HLAR-CR	Cal Ripken Jr.	Baltimore Orioles	
+HLAR-CS	Corey Seager	Texas Rangers	
+HLAR-DJ	Derek Jeter	New York Yankees	
+HLAR-DMU	Dale Murphy	Atlanta Braves	
+HLAR-DO	David Ortiz	Boston Red Sox	
+HLAR-DS	Darryl Strawberry	New York Mets	
+HLAR-EM	Edgar Martinez	Seattle Mariners	
+HLAR-FT	Frank Thomas	Chicago White Sox	
+HLAR-FTJ	Fernando Tatis Jr.	San Diego Padres	
+HLAR-JCH	Jackson Chourio	Milwaukee Brewers	
+HLAR-JH	Jackson Holliday	Baltimore Orioles	
+HLAR-JM	Jackson Merrill	San Diego Padres	
+HLAR-KS	Kyle Schwarber	Philadelphia Phillies	
+HLAR-MB	Mookie Betts	Los Angeles Dodgers	
+HLAR-MMO	Manny Machado	San Diego Padres	
+HLAR-MO	Matt Olson	Atlanta Braves	
+HLAR-MP	Mike Piazza	Los Angeles Dodgers	
+HLAR-MPZ	Mike Piazza	New York Mets	
+HLAR-NA	Nolan Arenado	St. Louis Cardinals	
+HLAR-OA	Ozzie Albies	Atlanta Braves	
+HLAR-PA	Pete Alonso	New York Mets	
+HLAR-PG	Paul Goldschmidt	St. Louis Cardinals	
+HLAR-RA	Randy Arozarena	Seattle Mariners	
+HLAR-RAJ	Ronald Acuña Jr.	Atlanta Braves	
+HLAR-RD	Rafael Devers	Boston Red Sox	
+HLAR-RJ	Reggie Jackson	Oakland Athletics	
+HLAR-RJA	Reggie Jackson	New York Yankees	
+HLAR-SS	Sammy Sosa	Chicago Cubs	
+			
+CITY CONNECT SWATCH COLLECTION	AUTOGRAPH RELIC		
+CCA2-AP	Andy Pages	Los Angeles Dodgers	
+CCA2-AR	Adley Rutschman	Baltimore Orioles	
+CCA2-AS	AJ Smith-Shawver	Atlanta Braves	
+CCA2-BE	Brooks Lee	Minnesota Twins	
+CCA2-BL	Brandon Lowe	Tampa Bay Rays	
+CCA2-BS	Bryson Stott	Philadelphia Phillies	
+CCA2-BU	Byron Buxton	Minnesota Twins	
+CCA2-CM	Christopher Morel	Tampa Bay Rays	
+CCA2-CR	Ceddanne Rafaela	Boston Red Sox	
+CCA2-CS	Chris Sale	Atlanta Braves	
+CCA2-DS	Davis Schneider	Toronto Blue Jays	
+CCA2-DW	Dansby Swanson	Chicago Cubs	
+CCA2-FA	Francisco Alvarez	New York Mets	
+CCA2-GE	Gavin Sheets	Chicago White Sox	
+CCA2-GH	Gunnar Henderson	Baltimore Orioles	
+CCA2-GS	George Springer	Toronto Blue Jays	
+CCA2-JA	José Ramírez	Cleveland Guardians	
+CCA2-JR	Julio Rodríguez	Seattle Mariners	
+CCA2-KS	Kyle Schwarber	Philadelphia Phillies	
+CCA2-LR	Luis Robert Jr.	Chicago White Sox	
+CCA2-MO	Matt Olson	Atlanta Braves	
+CCA2-MY	Masataka Yoshida	Boston Red Sox	
+CCA2-NA	Nolan Arenado	St. Louis Cardinals	
+CCA2-NM	Noelvi Marte	Cincinnati Reds	
+CCA2-PC	Pete Crow-Armstrong	Chicago Cubs	
+CCA2-PG	Paul Goldschmidt	St. Louis Cardinals	
+CCA2-RA	Ronald Acuña Jr.	Atlanta Braves	
+CCA2-RR	Randy Arozarena	Seattle Mariners	
+CCA2-SF	Sal Frelick	Milwaukee Brewers	
+CCA2-TS	Tarik Skubal	Detroit Tigers	
+CCA2-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+CCA2-WC	William Contreras	Milwaukee Brewers	
+CCAR-GH	Gunnar Henderson	Baltimore Orioles	
+CCAR-LC	Luis Castillo	Seattle Mariners	
+CCAR-PL	Pablo López	Minnesota Twins	
+			
+RICKWOOD AUTOGRAPH RELIC COLLECTION			
+RWAR-PG	Paul Goldschmidt	St. Louis Cardinals	
+RWAR-VS	Victor Scott II	St. Louis Cardinals	
+			
+ROUNDING THE BASES AUTOGRAPH RELIC			
+RTBA-ADL	Adley Rutschman	Baltimore Orioles	
+RTBA-ADO	Adolis García	Texas Rangers	
+RTBA-AG	Adolis García	Texas Rangers	
+RTBA-AGI	Andrés Giménez	Cleveland Guardians	
+RTBA-ARO	Randy Arozarena	Tampa Bay Rays	
+RTBA-BAI	Patrick Bailey	San Francisco Giants	
+RTBA-BELL	Cody Bellinger	Chicago Cubs	
+RTBA-BREN	  Will Brennan	Cleveland Guardians	
+RTBA-BRO	Brent Rooker	Athletics	
+RTBA-BUR	Alec Burleson	St. Louis Cardinals	
+RTBA-BUX	Byron Buxton	Minnesota Twins	
+RTBA-CODY	Cody Bellinger	Chicago Cubs	
+RTBA-COR	Corbin Carroll	Arizona Diamondbacks	
+RTBA-DEV	Rafael Devers	Boston Red Sox	
+RTBA-DOY	Brenton Doyle	Colorado Rockies	
+RTBA-DUR	Jarren Duran	Boston Red Sox	
+RTBA-ELLY	Elly De La Cruz	Cincinnati Reds	
+RTBA-GEL	Zack Gelof	Athletics	
+RTBA-GHE	Gunnar Henderson	Baltimore Orioles	
+RTBA-HOP	Logan O'Hoppe	Angels	
+RTBA-JAKE	Jake McCarthy	Arizona Diamondbacks	
+RTBA-JMC	Jeff McNeil	New York Mets	
+RTBA-JME	Jackson Merrill	San Diego Padres	
+RTBA-JUN	Josh Jung	Texas Rangers	
+RTBA-KSC	Kyle Schwarber	Philadelphia Phillies	
+RTBA-LANG	Wyatt Langford	Texas Rangers	
+RTBA-LEE	Brooks Lee	Minnesota Twins	
+RTBA-MER	Jackson Merrill	San Diego Padres	
+RTBA-MHII	Michael Harris II	Atlanta Braves	
+RTBA-MMA	Manny Machado	San Diego Padres	
+RTBA-MOL	Matt Olson	Atlanta Braves	
+RTBA-NOEL	Noelvi Marte	Cincinnati Reds	
+RTBA-NOL	Nolan Schanuel	Angels	
+RTBA-OZU	Marcell Ozuna	Atlanta Braves	
+RTBA-PETE	Pete Alonso	New York Mets	
+RTBA-PGO	Paul Goldschmidt	St. Louis Cardinals	
+RTBA-RAFA	Ceddanne Rafaela	Boston Red Sox	
+RTBA-REAL	J.T. Realmuto	Philadelphia Phillies	
+RTBA-SCH	Kyle Schwarber	Philadelphia Phillies	
+RTBA-SOTO	Juan Soto	New York Yankees	
+RTBA-SPR	George Springer	Toronto Blue Jays	
+RTBA-SWAN	Dansby Swanson	Chicago Cubs	
+RTBA-TATIS	Fernando Tatis Jr.	San Diego Padres	
+RTBA-VGJ	Vladimir Guerrero Jr.	Toronto Blue Jays	
+RTBA-WALL	Matt Wallner	Minnesota Twins	
+RTBA-WEL	Austin Wells	New York Yankees	
+RTBA-WIN	Masyn Winn	St. Louis Cardinals	
+RTBA-XAN	Xander Bogaerts	San Diego Padres	
+RTBA-YAN	Yandy Díaz	Tampa Bay Rays	
+RTBA-YAZ	Mike Yastrzemski	San Francisco Giants	
+RTBA-YOR	Yordan Alvarez	Houston Astros	
+RTBA-YOSH	Masataka Yoshida	Boston Red Sox	
+			
+			
+			
+			
+AUTOGRAPH			
+			
+1990 TOPPS BASEBALL AUTOGRAPH CARDS			
+90B2-AD	Andre Dawson	Montréal Expos	
+90B2-AV	Andy Van Slyke	Pittsburgh Pirates	
+90B2-AW	Austin Wells	New York Yankees	
+90B2-BCA	Ben Casparius	Los Angeles Dodgers	
+90B2-BL	Brooks Lee	Minnesota Twins	
+90B2-BRI	Ben Rice	New York Yankees	
+90B2-BRO	Brent Rooker	Athletics	
+90B2-BWI	Billy Williams	Chicago Cubs	
+90B2-CD	Caden Dana	Angels	
+90B2-CM	Coby Mayo	Baltimore Orioles	
+90B2-CP	Cade Povich	Baltimore Orioles	
+90B2-CS	Chris Sale	Atlanta Braves	
+90B2-DC	Dylan Crews	Washington Nationals	
+90B2-DD	Dillon Dingler	Detroit Tigers	
+90B2-DE	Dennis Eckersley	Oakland Athletics	
+90B2-DF	David Festa	Minnesota Twins	
+90B2-DG	Dwight Gooden	New York Mets	
+90B2-GC	Griffin Conine	Miami Marlins	
+90B2-GM	Grant McCray	San Francisco Giants	
+90B2-HB	Hayden Birdsong	San Francisco Giants	
+90B2-HJ	Howard Johnson	New York Mets	
+90B2-JB	Jay Buhner	Seattle Mariners	
+90B2-JC	Jose Canseco	Oakland Athletics	
+90B2-JCR	Joe Carter	Toronto Blue Jays	
+90B2-JJ	Jace Jung	Detroit Tigers	
+90B2-JK	Jason Kendall	Pittsburgh Pirates	
+90B2-JMY	Justyn-Henry Malloy	 Detroit Tigers	
+90B2-JO	Joey Ortiz	Milwaukee Brewers	
+90B2-JS	Javier Sanoja	Miami Marlins	
+90B2-JT	Joe Torre	New York Yankees	
+90B2-JW	James Wood	Washington Nationals	
+90B2-KIRK	Kirk Gibson	Los Angeles Dodgers	
+90B2-KM	Kyle Manzardo	Cleveland Guardians	
+90B2-LA	Luisangel Acuña	New York Mets	
+90B2-LG	Luis Gil	New York Yankees	
+90B2-LGO	Luis Gonzalez	Arizona Diamondbacks	
+90B2-MM	Mason Montgomery	Tampa Bay Rays	
+90B2-MMC	Michael McGreevy	St. Louis Cardinals	
+90B2-MO	Marcell Ozuna	Atlanta Braves	
+90B2-MW	Masyn Winn	St. Louis Cardinals	
+90B2-MWI	Matt Williams	San Francisco Giants	
+90B2-NS	Nolan Schanuel	Angels	
+90B2-NY	Nick Yorke	Pittsburgh Pirates	
+90B2-PARK	Chan Ho Park	Los Angeles Dodgers	
+90B2-PC	Pete Crow-Armstrong	Chicago Cubs	
+90B2-RFU	Rafael Furcal	Atlanta Braves	
+90B2-RL	Rhett Lowder	Cincinnati Reds	
+90B2-SA	Samuel Aldegheri	Angels	
+90B2-SB	Shane Bieber	Cleveland Guardians	
+90B2-SL	Seth Lugo	Kansas City Royals	
+90B2-SR	Scott Rolen	Philadelphia Phillies	
+90B2-SS	Spencer Schwellenbach	Atlanta Braves	
+90B2-SW	Shay Whitcomb	Houston Astros	
+90B2-TBI	Tanner Bibee	Cleveland Guardians	
+90B2-TF	Tyler Fitzgerald	San Francisco Giants	
+90B2-TH	Tim Hudson	Atlanta Braves	
+90B2-TR	Tim Raines	Montréal Expos	
+90B2-TS	Thomas Saggese	St. Louis Cardinals	
+90B2-TSW	Trey Sweeney	Detroit Tigers	
+90B2-WW	Will Wagner	Toronto Blue Jays	
+90B2-WWA	Will Warren	New York Yankees	
+90B2-ZD	Zach Dezenzo	Houston Astros	
+90B2-ZM	Zebby Matthews	Minnesota Twins	
+90B2-ZN	Zach Neto	Angels	
+90A-AJO	Andruw Jones	Atlanta Braves	
+90A-BS	Bryson Stott	Philadelphia Phillies	
+90A-DC	Dylan Cease	San Diego Padres	
+90A-JCH	Jackson Chourio	Milwaukee Brewers	
+90A-JD	Jhoan Duran	Minnesota Twins	
+90A-JKO	Jack Kochanowicz	Angels	
+90A-JR	J.T. Realmuto	Philadelphia Phillies	
+90A-JT	Jim Thome	Philadelphia Phillies	
+90A-JWE	Jordan Westburg	Baltimore Orioles	
+90A-KM	Keider Montero	Detroit Tigers	
+90A-KS	Kyle Schwarber	Philadelphia Phillies	
+90A-LAC	Luisangel Acuña	New York Mets	
+90A-LC	Luis Castillo	Seattle Mariners	
+90A-NH	Nico Hoerner	Chicago Cubs	
+90A-RB	Ryan Bliss	Seattle Mariners	
+90A-SS	Spencer Steer	Cincinnati Reds	
+90A-TS	Tarik Skubal	Detroit Tigers	
+90A-WC	William Contreras	Milwaukee Brewers	
+90A-WS	Will Smith	Los Angeles Dodgers	
+90A-YD	Yilber Diaz	Arizona Diamondbacks	
+90AU-AR	Alex Rodriguez	New York Yankees	
+90AU-ARI	Austin Riley	Atlanta Braves	
+90AU-CS	Corey Seager	Texas Rangers	
+90AU-CY	Carl Yastrzemski	Boston Red Sox	
+90AU-FT	Fernando Tatis Jr.	San Diego Padres	
+90AU-JR	Julio Rodríguez	Seattle Mariners	
+90AU-KB	Kris Bryant	Colorado Rockies	
+90AU-KG	Ken Griffey Jr.	Seattle Mariners	
+90AU-MB	Mookie Betts	Los Angeles Dodgers	
+90AU-MM	Manny Machado	San Diego Padres	
+90AU-PG	Paul Goldschmidt	St. Louis Cardinals	
+90AU-SS	Sammy Sosa	Chicago Cubs	
+			
+1990 TOPPS BASEBALL ALL STAR AUTOGRAPH CARDS			
+90AS-AD	Andre Dawson	Chicago Cubs	
+90AS-AJ	Andruw Jones	Atlanta Braves	
+90AS-AJU	Aaron Judge	New York Yankees	
+90AS-AP	Albert Pujols	St. Louis Cardinals	
+90AS-AR	Adley Rutschman	Baltimore Orioles	
+90AS-ARI	Austin Riley	Atlanta Braves	
+90AS-BB	Barry Bonds	San Francisco Giants	
+90AS-BBO	Barry Bonds	Pittsburgh Pirates	
+90AS-BJ	Bo Jackson	Kansas City Royals	
+90AS-BL	Barry Larkin	Cincinnati Reds	
+90AS-BP	Buster Posey	San Francisco Giants	
+90AS-BW	Bobby Witt Jr.	Kansas City Royals	
+90AS-CB	Craig Biggio	Houston Astros	
+90AS-CC	Corbin Carroll	Arizona Diamondbacks	
+90AS-CF	Carlton Fisk	Boston Red Sox	
+90AS-CJ	Chipper Jones	Atlanta Braves	
+90AS-CK	Clayton Kershaw	Los Angeles Dodgers	
+90AS-CR	Cal Ripken Jr.	Baltimore Orioles	
+90AS-CU	Chase Utley	Philadelphia Phillies	
+90AS-CY	Christian Yelich	Milwaukee Brewers	
+90AS-DE	Dennis Eckersley	Oakland Athletics	
+90AS-DJ	Derek Jeter	New York Yankees	
+90AS-DM	Dale Murphy	Atlanta Braves	
+90AS-DO	David Ortiz	Boston Red Sox	
+90AS-DP	Dustin Pedroia	Boston Red Sox	
+90AS-DS	Darryl Strawberry	New York Mets	
+90AS-DW	David Wright	New York Mets	
+90AS-DWI	Dave Winfield	New York Yankees	
+90AS-ED	Elly De La Cruz	Cincinnati Reds	
+90AS-EM	Edgar Martinez	Seattle Mariners	
+90AS-EMU	Eddie Murray	Baltimore Orioles	
+90AS-FM	Fred McGriff	Atlanta Braves	
+90AS-FT	Frank Thomas	Chicago White Sox	
+90AS-GB	George Brett	Kansas City Royals	
+90AS-GH	Gunnar Henderson	Baltimore Orioles	
+90AS-I	Ichiro	Seattle Mariners	
+90AS-JB	Johnny Bench	Cincinnati Reds	
+90AS-JBA	Jeff Bagwell	Houston Astros	
+90AS-JC	Jazz Chisholm Jr.	New York Yankees	
+90AS-JCA	Jose Canseco	Oakland Athletics	
+90AS-JD	Jarren Duran	Boston Red Sox	
+90AS-JME	Jackson Merrill	San Diego Padres	
+90AS-JRA	José Ramírez	Cleveland Guardians	
+90AS-JSO	Juan Soto	New York Mets	
+90AS-KG	Ken Griffey Jr.	Seattle Mariners	
+90AS-MM	Mark McGwire	Oakland Athletics	
+90AS-MS	Mike Schmidt	Philadelphia Phillies	
+90AS-MT	Mike Trout	Angels	
+90AS-NR	Nolan Ryan	Houston Astros	
+90AS-OS	Ozzie Smith	St. Louis Cardinals	
+90AS-PA	Pete Alonso	New York Mets	
+90AS-PG	Paul Goldschmidt	St. Louis Cardinals	
+90AS-PM	Paul Molitor	Milwaukee Brewers	
+90AS-PS	Paul Skenes	Pittsburgh Pirates	
+90AS-RA	Ronald Acuña Jr.	Atlanta Braves	
+90AS-RD	Rafael Devers	Boston Red Sox	
+90AS-RH	Ryan Howard	Philadelphia Phillies	
+90AS-RJ	Randy Johnson	Seattle Mariners	
+90AS-RS	Ryne Sandberg	Chicago Cubs	
+90AS-RY	Robin Yount	Milwaukee Brewers	
+90AS-SC	Steve Carlton	Philadelphia Phillies	
+90AS-SGR	Sonny Gray	St. Louis Cardinals	
+90AS-SI	Shota Imanaga	Chicago Cubs	
+90AS-SK	Sandy Koufax	Los Angeles Dodgers	
+90AS-SO	Shohei Ohtani	Los Angeles Dodgers	
+90AS-SS	Spencer Strider	Atlanta Braves	
+90AS-SSO	Sammy Sosa	Chicago Cubs	
+90AS-TG	Tom Glavine	Atlanta Braves	
+90AS-VG	Vladimir Guerrero	Montréal Expos	
+90AS-VGJ	Vladimir Guerrero Jr.	Toronto Blue Jays	
+90AS-WB	Wade Boggs	Boston Red Sox	
+90AS-WC	Will Clark	San Francisco Giants	
+			
+WORLD CHAMPION AUTOGRAPH CARDS			
+WCA-SO	Shohei Ohtani	Los Angeles Dodgers	
+WCA-CL	Clayton Kershaw	Los Angeles Dodgers	
+WCA-AP	Andy Pages	Los Angeles Dodgers	
+WCA-BC	Ben Casparius	Los Angeles Dodgers	
+WCA-EHE	Edgardo Henriquez  Los	Los Angeles Dodgers	
+WCA-EP	Evan Phillips	Los Angeles Dodgers	
+WCA-FF	Freddie Freeman	Los Angeles Dodgers	
+WCA-GS	Gavin Stone	Los Angeles Dodgers	
+WCA-JF	Jack Flaherty	Los Angeles Dodgers	
+WCA-JO	James Outman	Los Angeles Dodgers	
+WCA-JW	Justin Wrobleski	Los Angeles Dodgers	
+WCA-KK	Kevin Kiermaier	Los Angeles Dodgers	
+WCA-LK	Landon Knack	Los Angeles Dodgers	
+WCA-MB	Mookie Betts	Los Angeles Dodgers	
+WCA-MM	Max Muncy	Los Angeles Dodgers	
+WCA-RR	River Ryan	Los Angeles Dodgers	
+WCA-TD	Tommy Edman	Los Angeles Dodgers	
+WCA-TGO	Tony Gonsolin	Los Angeles Dodgers	
+WCA-TH	Teoscar Hernández	Los Angeles Dodgers	
+WCA-WB	Walker Buehler	Los Angeles Dodgers	
+WCA-WS	Will Smith	Los Angeles Dodgers	
+WCA-YY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+			
+WORLD CHAMPION DUAL AUTOGRAPH CARDS			
+WCDA-CY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+WCDA-CY	Clayton Kershaw	Los Angeles Dodgers	
+WCDA-EM	Max Muncy	Los Angeles Dodgers	
+WCDA-EM	Tommy Edman	Los Angeles Dodgers	
+WCDA-FM	Mookie Betts	Los Angeles Dodgers	
+WCDA-FM	Freddie Freeman	Los Angeles Dodgers	
+WCDA-JB	Walker Buehler	Los Angeles Dodgers	
+WCDA-JB	Jack Flaherty	Los Angeles Dodgers	
+WCDA-JW	Will Smith	Los Angeles Dodgers	
+WCDA-JW	Jack Flaherty	Los Angeles Dodgers	
+WCDA-MA	Andy Pages	Los Angeles Dodgers	
+WCDA-MA	Max Muncy	Los Angeles Dodgers	
+WCDA-MW	Max Muncy	Los Angeles Dodgers	
+WCDA-MW	Will Smith	Los Angeles Dodgers	
+WCDA-SC	Clayton Kershaw	Los Angeles Dodgers	
+WCDA-SC	Shohei Ohtani	Los Angeles Dodgers	
+WCDA-SF	Shohei Ohtani	Los Angeles Dodgers	
+WCDA-SF	Freddie Freeman	Los Angeles Dodgers	
+WCDA-SM	Shohei Ohtani	Los Angeles Dodgers	
+WCDA-SM	Mookie Betts	Los Angeles Dodgers	
+WCDA-SY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+WCDA-SY	Shohei Ohtani	Los Angeles Dodgers	
+WCDA-TW	Will Smith	Los Angeles Dodgers	
+WCDA-TW	Tommy Edman	Los Angeles Dodgers	
+WCDA-YJ	Jack Flaherty	Los Angeles Dodgers	
+WCDA-YJ	Yoshinobu Yamamoto	Los Angeles Dodgers	
+			
+POSTSEASON	PERFORMANCE AUTOGRAPH CARDS		
+PPA-AB	Alex Bregman	Houston Astros	
+PPA-AE	Alex Verdugo	New York Yankees	
+PPA-AG	Andrés Giménez	Cleveland Guardians	
+PPA-AR	Anthony Rizzo	New York Yankees	
+PPA-AV	Anthony Volpe	New York Yankees	
+PPA-AW	Austin Wells	New York Yankees	
+PPA-BA	Bo Naylor	Cleveland Guardians	
+PPA-BT	Brice Turang	Milwaukee Brewers	
+PPA-BW	Bobby Witt Jr.	Kansas City Royals	
+PPA-CK	Colt Keith	Detroit Tigers	
+PPA-CM	Cedric Mullins	Baltimore Orioles	
+PPA-CR	Cole Ragans	Kansas City Royals	
+PPA-FA	Francisco Alvarez	New York Mets	
+PPA-FL	Francisco Lindor	New York Mets	
+PPA-FP	Freddy Peralta	Milwaukee Brewers	
+PPA-FT	Fernando Tatis Jr.	San Diego Padres	
+PPA-GC	Gerrit Cole	New York Yankees	
+PPA-JA	Justyn-Henry Malloy	Detroit Tigers	
+PPA-JC	Jackson Chourio	Milwaukee Brewers	
+PPA-JH	Jazz Chisholm Jr.	New York Yankees	
+PPA-JM	Jackson Merrill	San Diego Padres	
+PPA-JO	Jhonkensy Noel	Cleveland Guardians	
+PPA-JR	José Ramírez	Cleveland Guardians	
+PPA-JS	Juan Soto	New York Yankees	
+PPA-JW	Jesse Winker	New York Mets	
+PPA-KC	Kerry Carpenter	Detroit Tigers	
+PPA-KM	Kyle Manzardo	Cleveland Guardians	
+PPA-KS	Kyle Schwarber	Philadelphia Phillies	
+PPA-LA	Luis Arraez	San Diego Padres	
+PPA-LC	Luisangel Acuña	New York Mets	
+PPA-LS	Luis Severino	New York Mets	
+PPA-LT	Lane Thomas	Cleveland Guardians	
+PPA-MA	Michael Massey	Kansas City Royals	
+PPA-MG	Maikel Garcia	Kansas City Royals	
+PPA-MH	Michael Harris II	Atlanta Braves	
+PPA-MM	Manny Machado	San Diego Padres	
+PPA-MV	Mark Vientos	New York Mets	
+PPA-PA	Pete Alonso	New York Mets	
+PPA-PM	Parker Meadows	Detroit Tigers	
+PPA-RG	Riley Greene	Detroit Tigers	
+PPA-SA	Sean Manaea	New York Mets	
+PPA-SK	Steven Kwan	Cleveland Guardians	
+PPA-SL	Seth Lugo	Kansas City Royals	
+PPA-SM	Starling Marte	New York Mets	
+PPA-SR	Sal Frelick	Milwaukee Brewers	
+PPA-TB	Tanner Bibee	Cleveland Guardians	
+PPA-TS	Tarik Skubal	Detroit Tigers	
+PPA-WC	William Contreras	Milwaukee Brewers	
+PPA-XB	Xander Bogaerts	San Diego Padres	
+PPA-YA	Yordan Alvarez	Houston Astros	
+			
+SIGNATURE TUNES DUAL AUTOGRAPHS			
+TUNE-ATO	Ronald Acuña Jr.	Atlanta Braves	
+TUNE-ATO	Myke Towers	Musician	
+TUNE-IIG	Candelita	Musician	
+TUNE-IIG	Jose Iglesias	New York Mets	
+			
+			
+2024 FIRST PITCH AUTOGRAPH VARIATION			
+FPA-GRA	Joey Graziadei	Philadelphia Phillies	
+FPA-MIZ	The Miz	Cleveland Guardians	
+FPA-MLO	Mark Long	Arizona Diamondbacks	
+FPA-TRAN	Jenn Tran	Boston Red Sox	
+FLAGSHIP REAL ONE AUTOGRAPH CARDS			
+364 Ozzie Albies	Atlanta Braves		
+369 Mason Montgomery	Tampa Bay Rays	RC	
+384 Ben Casparius	Los Angeles Dodgers	RC	
+408 Kumar Rocker	Texas Rangers	RC	
+422 Caden Dana	Angels	RC	
+425 Billy Cook	Pittsburgh Pirates	RC	
+430 Will Wagner	Toronto Blue Jays	RC	
+438 Samuel Aldegheri	Angels	RC	
+450 Trea Turner	Philadelphia Phillies		
+454 Aaron Nola	Philadelphia Phillies		
+455 Wyatt Langford	Texas Rangers		
+463 Thomas Saggese	St. Louis Cardinals	RC	
+477 Junior Caminero	Tampa Bay Rays		
+483 Ty Madden	Detroit Tigers	RC	
+490 Jackson Jobe	Detroit Tigers	RC	
+524 Luisangel Acuña	New York Mets	RC	
+530 Byron Buxton	Minnesota Twins		
+541 Jared Jones	Pittsburgh Pirates		
+550 Pete Alonso	New York Mets		
+558 Roki Sasaki	Los Angeles Dodgers	RC	
+573 Hyeseong Kim	Los Angeles Dodgers	RC	
+578 Kevin Alcántara	Chicago Cubs	RC	
+587 Jarren Duran	Boston Red Sox		
+590 Jasson Domínguez	New York Yankees		
+600 Fernando Tatis Jr.	San Diego Padres		
+603 Cal Raleigh	Seattle Mariners		
+650 Adley Rutschman	Baltimore Orioles		
+653 Javier Sanoja	Miami Marlins	RC	
+656 Jairo Iriarte	Chicago White Sox	RC	
+659 Nick Yorke	Pittsburgh Pirates	RC	
+665 Keider Montero	Detroit Tigers	RC	
+670 Richard Fitts	Boston Red Sox	RC	
+699 Hayden Birdsong	San Francisco Giants	RC	
+700 Juan Soto	New York Mets		
+			
+			
+Hobby/Hobby Jumbo Only - Silver Pack Boxloader			
+1990 TOPPS BASEBALL CHROME AUTOGRAPH CARDS			
+90CA2-AB	Alec Bohm	Philadelphia Phillies	
+90CA2-ABR	Alex Bregman	Boston Red Sox	
+90CA2-AV	Anthony Volpe	New York Yankees	
+90CA2-BR	Brent Rooker	Athletics	
+90CA2-CB	Cody Bellinger	New York Yankees	
+90CA2-CD	Caden Dana	Angels	
+90CA2-CR	Cal Raleigh	Seattle Mariners	
+90CA2-CS	Chris Sale	Atlanta Braves	
+90CA2-DC	Dylan Crews	Washington Nationals	
+90CA2-DH	Dustin Harris	Texas Rangers	
+90CA2-GS	George Springer	Toronto Blue Jays	
+90CA2-HSK	Hyeseong Kim	Los Angeles Dodgers	
+90CA2-JC	Junior Caminero	Tampa Bay Rays	
+90CA2-JH	Jackson Holliday	Baltimore Orioles	
+90CA2-JJ	Jace Jung	Detroit Tigers	
+90CA2-JJO	Jackson Jobe	Detroit Tigers	
+90CA2-JN	Jhonkensy Noel	Cleveland Guardians	
+90CA2-JR	J.T. Realmuto	Philadelphia Phillies	
+90CA2-JS	Javier Sanoja	Miami Marlins	
+90CA2-JW	James Wood	Washington Nationals	
+90CA2-JWR	Justin Wrobleski	Los Angeles Dodgers	
+90CA2-KA	Kevin Alcántara	Chicago Cubs	
+90CA2-KR	Kumar Rocker	Texas Rangers	
+90CA2-KT	Kyle Tucker	Chicago Cubs	
+90CA2-LA	Luis Arraez	San Diego Padres	
+90CA2-LAC	Luisangel Acuña	New York Mets	
+90CA2-MH	Michael Harris II	Atlanta Braves	
+90CA2-MV	Mark Vientos	New York Mets	
+90CA2-MY	Mike Yastrzemski	San Francisco Giants	
+90CA2-NY	Nick Yorke	Pittsburgh Pirates	
+90CA2-RJ	Randy Johnson	Arizona Diamondbacks	
+90CA2-RO	Roki Sasaki	Los Angeles Dodgers	
+90CA2-SS	Spencer Strider	Atlanta Braves	
+90CA2-SW	Shay Whitcomb	Houston Astros	
+90CA2-TS	Trey Sweeney	Detroit Tigers	
+90CA2-TSA	Thomas Saggese	St. Louis Cardinals	
+90CA2-TSK	Tarik Skubal	Detroit Tigers	
+90CA2-WC	William Contreras	Milwaukee Brewers	
+90CA2-WW	Will Wagner	Toronto Blue Jays	
+90CA2-XB	Xander Bogaerts	San Diego Padres	
+90CA2-ZD	Zach Dezenzo	Houston Astros	
+90CA2-ZM	Zebby Matthews	Minnesota Twins	
+90CA2-ZN	Zach Neto	Angels	
+			
+			
+Hobby/Hobby Jumbo Only - Silver Pack Boxloader			
+1990 TOPPS BASEBALL CHROME ALL STARS AUTOGRAPHS			
+90CAS-AP	Albert Pujols	St. Louis Cardinals	
+90CAS-BB	Barry Bonds	San Francisco Giants	
+90CAS-BJ	Bo Jackson	Kansas City Royals	
+90CAS-BW	Bobby Witt Jr.	Kansas City Royals	
+90CAS-CC	Carlos Correa	Minnesota Twins	
+90CAS-CCA	Corbin Carroll	Arizona Diamondbacks	
+90CAS-CJ	Chipper Jones	Atlanta Braves	
+90CAS-CK	Clayton Kershaw	Los Angeles Dodgers	
+90CAS-CR	Cal Ripken Jr.	Baltimore Orioles	
+90CAS-DJ	Derek Jeter	New York Yankees	
+90CAS-DO	David Ortiz	Boston Red Sox	
+90CAS-ED	Elly De La Cruz	Cincinnati Reds	
+90CAS-FT	Fernando Tatis Jr.	San Diego Padres	
+90CAS-FTH	Frank Thomas	Chicago White Sox	
+90CAS-GB	George Brett	Kansas City Royals	
+90CAS-GH	Gunnar Henderson	Baltimore Orioles	
+90CAS-GM	Greg Maddux	Atlanta Braves	
+90CAS-I	Ichiro	Seattle Mariners	
+90CAS-JD	Jarren Duran	Boston Red Sox	
+90CAS-JM	Jackson Merrill	San Diego Padres	
+90CAS-JRA	José Ramírez	Cleveland Guardians	
+90CAS-JROD	Julio Rodríguez	Seattle Mariners	
+90CAS-JS	Juan Soto	New York Mets	
+90CAS-KG	Ken Griffey Jr.	Seattle Mariners	
+90CAS-MB	Mookie Betts	Los Angeles Dodgers	
+90CAS-MMA	Manny Machado	San Diego Padres	
+90CAS-MMC	Mark McGwire	Oakland Athletics	
+90CAS-MP	Mike Piazza	New York Mets	
+90CAS-MT	Mike Trout	Angels	
+90CAS-NA	Nolan Arenado	St. Louis Cardinals	
+90CAS-NR	Nolan Ryan	Texas Rangers	
+90CAS-PA	Pete Alonso	New York Mets	
+90CAS-PS	Paul Skenes	Pittsburgh Pirates	
+90CAS-RA	Ronald Acuña Jr.	Atlanta Braves	
+90CAS-SI	Shota Imanaga	Chicago Cubs	
+90CAS-SK	Sandy Koufax	Los Angeles Dodgers	
+90CAS-TS	Tarik Skubal	Detroit Tigers	
+90CAS-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+90CAS-WC	William Contreras	Milwaukee Brewers	
+90CAS-YA	Yordan Alvarez	Houston Astros	
+			
+Hobby Only Exclusive			
+BASE CARD ALL POSITIONS AUTOGRAPH BOOK CARD			
+ALL9-1	Shane Halter	Detroit Tigers	
+ALL9-1	Andrew Romine	Detroit Tigers	
+ALL9-1	Cesar Tovar	Minnesota Twins	
+ALL9-1	Scott Sheldon	Texas Rangers	
+ALL9-1	Bert Campaneris	Kansas City Athletics	
+			
+BASEBALL STARS AUTOGRAPHS			
+BSA2-AG	Andrés Giménez	Toronto Blue Jays	
+BSA2-AP	Andy Pages	Los Angeles Dodgers	
+BSA2-AS	Alfonso Soriano	New York Yankees	
+BSA2-AV	Alex Verdugo	New York Yankees	
+BSA2-BB	Ben Brown	Chicago Cubs	
+BSA2-BG	Brett Gardner	New York Yankees	
+BSA2-BL	Brooks Lee	Minnesota Twins	
+BSA2-BN	Bo Naylor	Cleveland Guardians	
+BSA2-BR	Billy Ripken	Baltimore Orioles	
+BSA2-BRO	Brian Roberts	Baltimore Orioles	
+BSA2-BT	Bryce Teodosio	Angels	
+BSA2-CB	Cody Bellinger	New York Yankees	
+BSA2-CK	Colt Keith	Detroit Tigers	
+BSA2-CM	Coby Mayo	Baltimore Orioles	
+BSA2-CR	Cole Ragans	Kansas City Royals	
+BSA2-DC	Dylan Crews	Washington Nationals	
+BSA2-DH	Dustin Harris	Texas Rangers	
+BSA2-DS	Daniel Schneemann	Cleveland Guardians	
+BSA2-DV	Daulton Varsho	Toronto Blue Jays	
+BSA2-EC	Eric Chavez	Oakland Athletics	
+BSA2-EH	Edgardo Henriquez	Los Angeles Dodgers	
+BSA2-FM	Fred McGriff	Toronto Blue Jays	
+BSA2-FP	Freddy Peralta	Milwaukee Brewers	
+BSA2-GC	Garrett Crochet	Boston Red Sox	
+BSA2-GH	Grant Holmes	Atlanta Braves	
+BSA2-GK	George Kirby	Seattle Mariners	
+BSA2-HB	Harrison Bader	Minnesota Twins	
+BSA2-HF	Hunter Feduccia	Los Angeles Dodgers	
+BSA2-HK	Hyeseong Kim	Los Angeles Dodgers	
+BSA2-IK	Ian Kinsler	Texas Rangers	
+BSA2-JA	Javier Assad	Chicago Cubs	
+BSA2-JB	Jake Burger	Texas Rangers	
+BSA2-JBA	Joey Bart	Pittsburgh Pirates	
+BSA2-JC	Joe Carter	Toronto Blue Jays	
+BSA2-JF	Jack Flaherty	Detroit Tigers	
+BSA2-JIR	Jairo Iriarte	Chicago White Sox	
+BSA2-JM	Justin Morneau	Minnesota Twins	
+BSA2-JN	Jack Neely	Chicago Cubs	
+BSA2-JS	Juan Soto	New York Mets	
+BSA2-JW	Jordan Westburg	Baltimore Orioles	
+BSA2-JWO	James Wood	Washington Nationals	
+BSA2-KL	Kenny Lofton	Atlanta Braves	
+BSA2-KM	Kameron Misner	Tampa Bay Rays	
+BSA2-KR	Kumar Rocker	Texas Rangers	
+BSA2-KS	Kyle Seager	Seattle Mariners	
+BSA2-KTU	Kyle Tucker	Chicago Cubs	
+BSA2-LG	Luis Gil	New York Yankees	
+BSA2-LN	Lars Nootbaar	St. Louis Cardinals	
+BSA2-MC	Michael Conforto	Los Angeles Dodgers	
+BSA2-MG	MacKenzie Gore	Washington Nationals	
+BSA2-MM	Mark Mulder	Oakland Athletics	
+BSA2-MMU	Max Muncy	Los Angeles Dodgers	
+BSA2-MT	Miguel Tejada	Oakland Athletics	
+BSA2-MV	Mark Vientos	New York Mets	
+BSA2-NC	Nestor Cortes	Milwaukee Brewers	
+BSA2-NL	Nathaniel Lowe	Washington Nationals	
+BSA2-NS	Nolan Schanuel	Angels	
+BSA2-NSO	Nick Sogard	Boston Red Sox	
+BSA2-PA	Pete Alonso	New York Mets	
+BSA2-PB	Patrick Bailey	San Francisco Giants	
+BSA2-PL	Pedro León	Houston Astros	
+BSA2-PO	Paul O'Neill	New York Yankees	
+BSA2-RA	Ronald Acuña Jr.	Atlanta Braves	
+BSA2-RB	Ronel Blanco	Houston Astros	
+BSA2-RD	Ron Darling	New York Mets	
+BSA2-RF	Richard Fitts	Boston Red Sox	
+BSA2-RH	Ryan Howard	Philadelphia Phillies	
+BSA2-RJ	Reggie Jackson	New York Yankees	
+BSA2-RS	Roki Sasaki	Los Angeles Dodgers	
+BSA2-SF	Sandro Fabian	Texas Rangers	
+BSA2-SJ	Seth Johnson	Philadelphia Phillies	
+BSA2-SW	Shay Whitcomb	Houston Astros	
+BSA2-TB	Tanner Bibee	Cleveland Guardians	
+BSA2-TG	Tony Gonsolin	Los Angeles Dodgers	
+BSA2-TGE	Tyler Gentry	Kansas City Royals	
+BSA2-TMA	Ty Madden	Detroit Tigers	
+BSA2-TMC	Triston McKenzie	Cleveland Guardians	
+BSA2-TSW	Trey Sweeney	Detroit Tigers	
+BSA2-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+BSA2-YD	Yandy Díaz	Tampa Bay Rays	
+BSA-AM	Angel Martínez	Cleveland Guardians	
+BSA-AS	Aaron Schunk	Colorado Rockies	
+BSA-BBA	Brady Basso	Athletics	
+BSA-BBL	Bradley Blalock	Colorado Rockies	
+BSA-BBN	Brooks Baldwin	Chicago White Sox	
+BSA-BR	Ben Rice	New York Yankees	
+BSA-CB	Carlos Beltran	New York Mets	
+BSA-CF	Carlton Fisk	Boston Red Sox	
+BSA-CME	Cristian Mena	Arizona Diamondbacks	
+BSA-DH	DJ Herz	Washington Nationals	
+BSA-EG	Eric Gagne	Los Angeles Dodgers	
+BSA-GC	Griffin Conine	Miami Marlins	
+BSA-GJ	Greg Jones	Colorado Rockies	
+BSA-HW	Hurston Waldrep	Atlanta Braves	
+BSA-JR	Jim Rice	Boston Red Sox	
+BSA-JWI	Jacob Wilson	Athletics	
+BSA-MO	Matt Olson	Atlanta Braves	
+BSA-NA	Nacho Alvarez Jr.	Atlanta Braves	
+BSA-RAJ	Ronald Acuña Jr.	Atlanta Braves	
+BSA-RH	Rece Hinds	Cincinnati Reds	
+BSA-SBE	Steward Berroa	Toronto Blue Jays	
+BSA-SS	Spencer Steer	Cincinnati Reds	
+BSA-TO	Tony Oliva	Minnesota Twins	
+BSA-TP	Tyler Phillips	Philadelphia Phillies	
+BSA-VB	Valente Bellozo	Miami Marlins	
+			
+BASEBALL STARS DUAL AUTOGRAPHS			
+BSD2-AAJ	Ronald Acuña Jr.	Atlanta Braves	
+BSD2-AAJ	Luisangel Acuña	New York Mets	
+BSD2-ABH	Bobby Abreu	Philadelphia Phillies	
+BSD2-ABH	Ryan Howard	Philadelphia Phillies	
+BSD2-CLM	Roger Clemens	Boston Red Sox	
+BSD2-CLM	Pedro Martinez	Boston Red Sox	
+BSD2-CLW	Matt Williams	San Francisco Giants	
+BSD2-CLW	Will Clark	San Francisco Giants	
+BSD2-COB	Carlos Correa	Minnesota Twins	
+BSD2-COB	Byron Buxton	Minnesota Twins	
+BSD2-COD	Ron Darling	New York Mets	
+BSD2-COD	David Cone	New York Mets	
+BSD2-FVA	Carlton Fisk	Boston Red Sox	
+BSD2-FVA	Jason Varitek	Boston Red Sox	
+BSD2-GJC	Joe Carter	Toronto Blue Jays	
+BSD2-GJC	Vladimir Guerrero Jr.	Toronto Blue Jays	
+BSD2-GJE	Bob Gibson	St. Louis Cardinals	
+BSD2-GJE	Fergie Jenkins	Chicago Cubs	
+BSD2-GOD	Eric Davis	Cincinnati Reds	
+BSD2-GOD	George Foster	Cincinnati Reds	
+BSD2-GVO	Anthony Volpe	New York Yankees	
+BSD2-GVO	Luis Gil	New York Yankees	
+BSD2-GWA	Larry Walker	Montréal Expos	
+BSD2-GWA	Vladimir Guerrero	Montréal Expos	
+BSD2-HOD	Yu Darvish	San Diego Padres	
+BSD2-HOD	Trevor Hoffman	San Diego Padres	
+BSD2-MAP	Jorge Posada	New York Yankees	
+BSD2-MAP	Don Mattingly	New York Yankees	
+BSD2-MBE	Yadier Molina	St. Louis Cardinals	
+BSD2-MBE	Johnny Bench	Cincinnati Reds	
+BSD2-MCJ	Andruw Jones	Atlanta Braves	
+BSD2-MCJ	Fred McGriff	Atlanta Braves	
+BSD2-MCP	Albert Pujols	St. Louis Cardinals	
+BSD2-MCP	Mark McGwire	St. Louis Cardinals	
+BSD2-MOC	Christopher Morel	Tampa Bay Rays	
+BSD2-MOC	Junior Caminero	Tampa Bay Rays	
+BSD2-MUS	Luis Severino	Athletics	
+BSD2-MUS	Mark Mulder	Athletics	
+BSD2-ORJ	Magglio Ordonez	Chicago White Sox	
+BSD2-ORJ	Luis Robert Jr.	Chicago White Sox	
+BSD2-OS	Roki Sasaki	Los Angeles Dodgers	
+BSD2-OS	Shohei Ohtani	Los Angeles Dodgers	
+BSD2-OVA	David Ortiz	Boston Red Sox	
+BSD2-OVA	Mo Vaughn	Boston Red Sox	
+BSD2-PCL	Andy Pettitte	New York Yankees	
+BSD2-PCL	Roger Clemens	New York Yankees	
+BSD2-PEA	Yordan Alvarez	Houston Astros	
+BSD2-PEA	Jeremy Peña	Houston Astros	
+BSD2-RAM	Manny Ramirez	Cleveland	
+BSD2-RAM	José Ramírez	Cleveland Guardians	
+BSD2-RJE	Derek Jeter	New York Yankees	
+BSD2-RJE	Cal Ripken Jr.	Baltimore Orioles	
+BSD2-RMO	Adley Rutschman	Baltimore Orioles	
+BSD2-RMO	Ryan Mountcastle	Baltimore Orioles	
+BSD2-ROB	Scott Rolen	Philadelphia Phillies	
+BSD2-ROB	Alec Bohm	Philadelphia Phillies	
+BSD2-RYS	Nolan Ryan	Texas Rangers	
+BSD2-RYS	Max Scherzer	Texas Rangers	
+BSD2-SAG	Nomar Garciaparra	Chicago Cubs	
+BSD2-SAG	Ryne Sandberg	Chicago Cubs	
+BSD2-SHC	Miguel Cabrera	Florida Marlins	
+BSD2-SHC	Gary Sheffield	Florida Marlins	
+BSD2-STS	Juan Soto	New York Mets	
+BSD2-STS	Darryl Strawberry	New York Mets	
+BSD2-SZH	Trevor Hoffman	San Diego Padres	
+BSD2-SZH	John Smoltz	Atlanta Braves	
+BSD2-THK	Paul Konerko	Chicago White Sox	
+BSD2-THK	Frank Thomas	Chicago White Sox	
+BSD2-TRM	Hideki Matsui	Angels	
+BSD2-TRM	Mike Trout	Angels	
+BSD2-VWE	Anthony Volpe	New York Yankees	
+BSD2-VWE	Austin Wells	New York Yankees	
+BSD2-WJI	Bobby Witt Jr.	Kansas City Royals	
+BSD2-WJI	Jonathan India	Kansas City Royals	
+BSD2-WON	Paul O'Neill	New York Yankees	
+BSD2-WON	Bernie Williams	New York Yankees	
+BSD2-WRR	Jose Reyes	New York Mets	
+BSD2-WRR	David Wright	New York Mets	
+BSD2-YEY	Christian Yelich	Milwaukee Brewers	
+BSD2-YEY	Robin Yount	Milwaukee Brewers	
+BSDA-CC	Will Clark	San Francisco Giants	
+BSDA-CC	Matt Chapman	San Francisco Giants	
+BSDA-LDC	Elly De La Cruz	Cincinnati Reds	
+BSDA-LDC	Barry Larkin	Cincinnati Reds	
+BSDA-RJH	Gunnar Henderson	Baltimore Orioles	
+BSDA-RJH	Cal Ripken Jr.	Baltimore Orioles	
+BSDA-RYS	Paul Skenes	Pittsburgh Pirates	
+BSDA-RYS	Nolan Ryan	Houston Astros	
+			
+			
+			
+			
+BASEBALL STARS TRIPLE AUTOGRAPHS			
+BST2-BPF	Cecil Fielder	Detroit Tigers	
+BST2-BPF	Dave Parker	Pittsburgh Pirates	
+BST2-BPF	Dusty Baker	Atlanta Braves	
+BST2-CML	Junior Caminero	Tampa Bay Rays	
+BST2-CML	Christopher Morel	Tampa Bay Rays	
+BST2-CML	Brandon Lowe	Tampa Bay Rays	
+BST2-DFR	Jim Rice	Boston Red Sox	
+BST2-DFR	Rafael Devers	Boston Red Sox	
+BST2-DFR	Carlton Fisk	Boston Red Sox	
+BST2-GSG	Andrés Giménez	Toronto Blue Jays	
+BST2-GSG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+BST2-GSG	George Springer	Toronto Blue Jays	
+BST2-GSL	Hunter Greene	Cincinnati Reds	
+BST2-GSL	Brady Singer	Cincinnati Reds	
+BST2-GSL	Rhett Lowder	Cincinnati Reds	
+BST2-HCD	Yu Darvish	San Diego Padres	
+BST2-HCD	Trevor Hoffman	San Diego Padres	
+BST2-HCD	Dylan Cease	San Diego Padres	
+BST2-IYS	Shota Imanaga	Chicago Cubs	
+BST2-IYS	Yoshinobu Yamamoto	Los Angeles Dodgers	
+BST2-IYS	Roki Sasaki	Los Angeles Dodgers	
+BST2-JRM	Alex Rodriguez	New York Yankees	
+BST2-JRM	Derek Jeter	New York Yankees	
+BST2-JRM	Hideki Matsui	New York Yankees	
+BST2-KBL	Bert Blyleven	Minnesota Twins	
+BST2-KBL	Jim Kaat	Minnesota Twins	
+BST2-KBL	Pablo López	Minnesota Twins	
+BST2-KKV	Clayton Kershaw	Los Angeles Dodgers	
+BST2-KKV	Fernando Valenzuela	Los Angeles Dodgers	
+BST2-KKV	Sandy Koufax	Los Angeles Dodgers	
+BST2-LCJ	Josh Jung	Texas Rangers	
+BST2-LCJ	Wyatt Langford	Texas Rangers	
+BST2-LCJ	Evan Carter	Texas Rangers	
+BST2-MSE	Will Smith	Los Angeles Dodgers	
+BST2-MSE	Max Muncy	Los Angeles Dodgers	
+BST2-MSE	Tommy Edman	Los Angeles Dodgers	
+BST2-NCM	Aaron Nola	Philadelphia Phillies	
+BST2-NCM	Pedro Martinez	Philadelphia Phillies	
+BST2-NCM	Steve Carlton	Philadelphia Phillies	
+BST2-OSY	Shohei Ohtani	Los Angeles Dodgers	
+BST2-OSY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+BST2-OSY	Roki Sasaki	Los Angeles Dodgers	
+BST2-PWR	José Reyes	New York Mets	
+BST2-PWR	David Wright	New York Mets	
+BST2-PWR	Mike Piazza	New York Mets	
+BST2-RBT	Luis Robert Jr.	Chicago White Sox	
+BST2-RBT	Harold Baines	Chicago White Sox	
+BST2-RBT	Frank Thomas	Chicago White Sox	
+BST2-RJC	Nolan Ryan	California Angels	
+BST2-RJC	Roger Clemens	Boston Red Sox	
+BST2-RJC	Randy Johnson	Seattle Mariners	
+BST2-RJT	Reggie Jackson	California Angels	
+BST2-RJT	Mike Trout	Angels	
+BST2-RJT	Nolan Ryan	California Angels	
+BST2-RPM	J.T. Realmuto	Philadelphia Phillies	
+BST2-RPM	Buster Posey	San Francisco Giants	
+BST2-RPM	Joe Mauer	Minnesota Twins	
+BST2-RWM	Yadier Molina	St. Louis Cardinals	
+BST2-RWM	Scott Rolen	St. Louis Cardinals	
+BST2-RWM	Larry Walker	St. Louis Cardinals	
+BST2-SAL	Pete Alonso	New York Mets	
+BST2-SAL	Juan Soto	New York Mets	
+BST2-SAL	Francisco Lindor	New York Mets	
+BST2-SAM	Nolan Arenado	St. Louis Cardinals	
+BST2-SAM	Mike Schmidt	Philadelphia Phillies	
+BST2-SAM	Manny Machado	San Diego Padres	
+BST2-SBJ	Chipper Jones	Atlanta Braves	
+BST2-SBJ	Mike Schmidt	Philadelphia Phillies	
+BST2-SBJ	George Brett	Kansas City Royals	
+BST2-SCS	Paul Skenes	Pittsburgh Pirates	
+BST2-SCS	Gerrit Cole	New York Yankees	
+BST2-SCS	Max Scherzer	Texas Rangers	
+BST2-SDT	Kyle Tucker	Chicago Cubs	
+BST2-SDT	Andre Dawson	Chicago Cubs	
+BST2-SDT	Sammy Sosa	Chicago Cubs	
+BST2-SNS	Zach Neto	Angels	
+BST2-SNS	Jorge Soler	Angels	
+BST2-SNS	Nolan Schanuel	Angels	
+BST2-TMM	Fernando Tatis Jr.	San Diego Padres	
+BST2-TMM	Manny Machado	San Diego Padres	
+BST2-TMM	Jackson Merrill	San Diego Padres	
+BST2-TSS	Dansby Swanson	Chicago Cubs	
+BST2-TSS	Kyle Tucker	Chicago Cubs	
+BST2-TSS	Seiya Suzuki	Chicago Cubs	
+BST2-URH	Chase Utley	Philadelphia Phillies	
+BST2-URH	Ryan Howard	Philadelphia Phillies	
+BST2-URH	Jimmy Rollins	Philadelphia Phillies	
+BST2-WJS	Ryne Sandberg	Chicago Cubs	
+BST2-WJS	Fergie Jenkins	Chicago Cubs	
+BST2-WJS	Billy Williams	Chicago Cubs	
+BST2-WPO	Paul O'Neill	New York Yankees	
+BST2-WPO	Jorge Posada	New York Yankees	
+BST2-WPO	Bernie Williams	New York Yankees	
+BSTA-YRR	Manny Ramirez	Boston Red Sox	
+BSTA-YRR	Jim Rice	Boston Red Sox	
+BSTA-YRR	Carl Yastrzemski	Boston Red Sox	
+			
+			
+Hobby Only Exclusive			
+CARDINALS BASE CARD VARIATION AUTOGRAPH			
+22	Masyn Winn	St. Louis Cardinals	
+41	Alec Burleson	St. Louis Cardinals	
+137	Miles Mikolas	St. Louis Cardinals	
+203	Lars Nootbaar	St. Louis Cardinals	
+289	Michael Siani	St. Louis Cardinals	
+416	Brendan Donovan	St. Louis Cardinals	
+463	Thomas Saggese	St. Louis Cardinals	
+510	José Fermín	St. Louis Cardinals	
+551	Victor Scott II	St. Louis Cardinals	
+623	Ryan Fernandez	St. Louis Cardinals	
+			
+			
+			
+			
+RELIC			
+			
+MAJOR LEAGUE MATERIAL CARDS			
+MLM2-AD	Adrian Del Castillo	Arizona Diamondbacks	
+MLM2-AJ	Aaron Judge	New York Yankees	
+MLM2-AM	Andrew McCutchen	Pittsburgh Pirates	
+MLM2-AMA	Angel Martínez	Cleveland Guardians	
+MLM2-AN	Aaron Nola	Philadelphia Phillies	
+MLM2-AR	Austin Riley	Atlanta Braves	
+MLM2-ARZ	Anthony Rizzo	New York Yankees	
+MLM2-BL	Brooks Lee	Minnesota Twins	
+MLM2-BN	Brandon Nimmo	New York Mets	
+MLM2-BR	Bryan Reynolds	Pittsburgh Pirates	
+MLM2-BRI	Ben Rice	New York Yankees	
+MLM2-CC	Corbin Carroll	Arizona Diamondbacks	
+MLM2-CCO	Carlos Correa	Minnesota Twins	
+MLM2-CM	Coby Mayo	Baltimore Orioles	
+MLM2-CN	Connor Norby	Miami Marlins	
+MLM2-CY	Christian Yelich	Milwaukee Brewers	
+MLM2-DC	Dylan Crews	Washington Nationals	
+MLM2-DD	Dillon Dingler	Detroit Tigers	
+MLM2-DF	David Festa	Minnesota Twins	
+MLM2-DT	Drew Thorpe	Chicago White Sox	
+MLM2-EC	Evan Carter	Texas Rangers	
+MLM2-ED	Elly De La Cruz	Cincinnati Reds	
+MLM2-FA	Francisco Alvarez	New York Mets	
+MLM2-FF	Freddie Freeman	Los Angeles Dodgers	
+MLM2-FT	Fernando Tatis Jr.	San Diego Padres	
+MLM2-GH	Gunnar Henderson	Baltimore Orioles	
+MLM2-GS	Giancarlo Stanton	New York Yankees	
+MLM2-GSP	George Springer	Toronto Blue Jays	
+MLM2-JA	Jose Altuve	Houston Astros	
+MLM2-JC	Jackson Chourio	Milwaukee Brewers	
+MLM2-JD	Jasson Domínguez	New York Yankees	
+MLM2-JH	Jackson Holliday	Baltimore Orioles	
+MLM2-JJ	Jace Jung	Detroit Tigers	
+MLM2-JJO	Jackson Jobe	Detroit Tigers	
+MLM2-JM	Jackson Merrill	San Diego Padres	
+MLM2-JN	Jhonkensy Noel	Cleveland Guardians	
+MLM2-JP	Jeremy Peña	Houston Astros	
+MLM2-JR	Julio Rodríguez	Seattle Mariners	
+MLM2-JTR	J.T. Realmuto	Philadelphia Phillies	
+MLM2-JW	James Wood	Washington Nationals	
+MLM2-JWI	Jacob Wilson	Athletics	
+MLM2-KA	Kevin Alcántara	Chicago Cubs	
+MLM2-KB	Kris Bryant	Colorado Rockies	
+MLM2-KR	Kumar Rocker	Texas Rangers	
+MLM2-KS	Kyle Schwarber	Philadelphia Phillies	
+MLM2-LAC	Luisangel Acuña	New York Mets	
+MLM2-LB	Lawrence Butler	Athletics	
+MLM2-LR	Luis Robert Jr.	Chicago White Sox	
+MLM2-MH	Michael Harris II	Atlanta Braves	
+MLM2-MM	Max Muncy	Los Angeles Dodgers	
+MLM2-MMA	Manny Machado	San Diego Padres	
+MLM2-MMC	Michael McGreevy	St. Louis Cardinals	
+MLM2-MO	Matt Olson	Atlanta Braves	
+MLM2-MT	Mike Trout	Angels	
+MLM2-MW	Masyn Winn	St. Louis Cardinals	
+MLM2-NA	Nolan Arenado	St. Louis Cardinals	
+MLM2-NAJ	Nacho Alvarez Jr.	Atlanta Braves	
+MLM2-NS	Nolan Schanuel	Angels	
+MLM2-OA	Ozzie Albies	Atlanta Braves	
+MLM2-OC	Oneil Cruz	Pittsburgh Pirates	
+MLM2-PA	Pete Alonso	New York Mets	
+MLM2-PC	Pete Crow-Armstrong	Chicago Cubs	
+MLM2-PS	Paul Skenes	Pittsburgh Pirates	
+MLM2-RA	Ronald Acuña Jr.	Atlanta Braves	
+MLM2-RD	Rafael Devers	Boston Red Sox	
+MLM2-RG	Riley Greene	Detroit Tigers	
+MLM2-RH	Rece Hinds	Cincinnati Reds	
+MLM2-RLO	Rhett Lowder	Cincinnati Reds	
+MLM2-SI	Shota Imanaga	Chicago Cubs	
+MLM2-SP	Salvador Perez	Kansas City Royals	
+MLM2-SS	Seiya Suzuki	Chicago Cubs	
+MLM2-SSC	Spencer Schwellenbach	Atlanta Braves	
+MLM2-TC	Triston Casas	Boston Red Sox	
+MLM2-TS	Trevor Story	Boston Red Sox	
+MLM2-TSA	Thomas Saggese	St. Louis Cardinals	
+MLM2-TSW	Trey Sweeney	Detroit Tigers	
+MLM2-TT	Trea Turner	Philadelphia Phillies	
+MLM2-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+MLM2-WC	William Contreras	Milwaukee Brewers	
+MLM2-WL	Wyatt Langford	Texas Rangers	
+MLM2-WS	Will Smith	Los Angeles Dodgers	
+MLM2-XB	Xander Bogaerts	San Diego Padres	
+MLM2-YA	Yordan Alvarez	Houston Astros	
+MLM2-YD	Yu Darvish	San Diego Padres	
+MLM2-YY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+MLM2-ZD	Zach Dezenzo	Houston Astros	
+MLM2-ZM	Zebby Matthews	Minnesota Twins	
+MLM2-ZW	Zack Wheeler	Philadelphia Phillies	
+			
+MAJOR LEAGUE MATERIAL DUAL RELIC CARDS			
+MLMD2-AV	Francisco Alvarez	New York Mets	
+MLMD2-AV	Mark Vientos	New York Mets	
+MLMD2-AW	Masyn Winn	St. Louis Cardinals	
+MLMD2-AW	Nolan Arenado	St. Louis Cardinals	
+MLMD2-CC	Jackson Chourio	Milwaukee Brewers	
+MLMD2-CC	William Contreras	Milwaukee Brewers	
+MLMD2-CG	Luis Castillo	Seattle Mariners	
+MLMD2-CG	Logan Gilbert	Seattle Mariners	
+MLMD2-CLE	Carlos Correa	Minnesota Twins	
+MLMD2-CLE	Brooks Lee	Minnesota Twins	
+MLMD2-CW	Colton Cowser	Baltimore Orioles	
+MLMD2-CW	Jordan Westburg	Baltimore Orioles	
+MLMD2-CY	Mike Yastrzemski	San Francisco Giants	
+MLMD2-CY	Matt Chapman	San Francisco Giants	
+MLMD2-DR	Rafael Devers	Boston Red Sox	
+MLMD2-DR	Ceddanne Rafaela	Boston Red Sox	
+MLMD2-GC	Luis Gil	New York Yankees	
+MLMD2-GC	Gerrit Cole	New York Yankees	
+MLMD2-GG	Vladimir Guerrero Jr. 	Toronto Blue Jays	
+MLMD2-GG	George Springer	Toronto Blue Jays	
+MLMD2-HH	Jackson Holliday	Baltimore Orioles	
+MLMD2-HH	Gunnar Henderson	Baltimore Orioles	
+MLMD2-HS	Bryce Harper	Philadelphia Phillies	
+MLMD2-HS	Kyle Schwarber	Philadelphia Phillies	
+MLMD2-IS	Shota Imanaga	Chicago Cubs	
+MLMD2-IS	Seiya Suzuki	Chicago Cubs	
+MLMD2-JO	Aaron Judge	New York Yankees	
+MLMD2-JO	Shohei Ohtani	Los Angeles Dodgers	
+MLMD2-KF	Clayton Kershaw	Los Angeles Dodgers	
+MLMD2-KF	Freddie Freeman	Los Angeles Dodgers	
+MLMD2-LN	Brandon Nimmo	New York Mets	
+MLMD2-LN	Francisco Lindor	New York Mets	
+MLMD2-MS	Will Smith	Los Angeles Dodgers	
+MLMD2-MS	Max Muncy	Los Angeles Dodgers	
+MLMD2-MX	Xander Bogaerts	San Diego Padres	
+MLMD2-MX	Manny Machado	San Diego Padres	
+MLMD2-OF	Freddie Freeman	Los Angeles Dodgers	
+MLMD2-OF	Shohei Ohtani	Los Angeles Dodgers	
+MLMD2-OR	Austin Riley	Atlanta Braves	
+MLMD2-OR	Matt Olson	Atlanta Braves	
+MLMD2-RBI	José Ramírez	Cleveland Guardians	
+MLMD2-RBI	Shane Bieber	Cleveland Guardians	
+MLMD2-RC	Adley Rutschman	Baltimore Orioles	
+MLMD2-RC	Colton Cowser	Baltimore Orioles	
+MLMD2-RR	Cal Raleigh	Seattle Mariners	
+MLMD2-RR	Julio Rodríguez	Seattle Mariners	
+MLMD2-RT	J.T. Realmuto	Philadelphia Phillies	
+MLMD2-RT	Trea Turner	Philadelphia Phillies	
+MLMD2-RW	J.P. Crawford	Seattle Mariners	
+MLMD2-RW	Julio Rodríguez	Seattle Mariners	
+MLMD2-SCA	Dansby Swanson	Chicago Cubs	
+MLMD2-SCA	Pete Crow-Armstrong	Chicago Cubs	
+MLMD2-SS	Tyler Stephenson	Cincinnati Reds	
+MLMD2-SS	Spencer Steer	Cincinnati Reds	
+MLMD2-TA	Fernando Tatis Jr.	San Diego Padres	
+MLMD2-TA	Luis Arraez	San Diego Padres	
+MLMD2-VW	Austin Wells	New York Yankees	
+MLMD2-VW	Anthony Volpe	New York Yankees	
+MLMD2-WA	CJ Abrams	Washington Nationals	
+MLMD2-WA	James Wood	Washington Nationals	
+			
+REAL ONE RELICS			
+364	Ozzie Albies	Atlanta Braves	
+379	Shane Bieber	Cleveland Guardians	
+385	Joe Musgrove	San Diego Padres	
+400	Shohei Ohtani	Los Angeles Dodgers	
+405	Kris Bryant	Colorado Rockies	
+430	Will Wagner	Toronto Blue Jays	
+450	Trea Turner	Philadelphia Phillies	
+454	Aaron Nola	Philadelphia Phillies	
+455	Wyatt Langford	Texas Rangers	
+457	Seiya Suzuki	Chicago Cubs	
+463	Thomas Saggese	St. Louis Cardinals	
+468	George Kirby	Seattle Mariners	
+472	Willson Contreras	St. Louis Cardinals	
+473	Shota Imanaga	Chicago Cubs	
+474	Bo Bichette	Toronto Blue Jays	
+477	Junior Caminero	Tampa Bay Rays	
+490	Jackson Jobe	Detroit Tigers	
+508	Salvador Perez	Kansas City Royals	
+524	Luisangel Acuña	New York Mets	
+535	Leo Jiménez	Toronto Blue Jays	
+550	Pete Alonso	New York Mets	
+561	Paul Goldschmidt	New York Yankees	
+569	Kodai Senga	New York Mets	
+579	Spencer Strider	Atlanta Braves	
+583	Alex Bregman	Boston Red Sox	
+587	Jarren Duran	Boston Red Sox	
+590	Jasson Domínguez	New York Yankees	
+591	Austin Wells	New York Yankees	
+600	Fernando Tatis Jr.	San Diego Padres	
+603	Cal Raleigh	Seattle Mariners	
+625	J.T. Realmuto	Philadelphia Phillies	
+638	Bryan Reynolds	Pittsburgh Pirates	
+650	Adley Rutschman	Baltimore Orioles	
+659	Nick Yorke	Pittsburgh Pirates	
+662	Pablo López	Minnesota Twins	
+682	Steven Kwan	Cleveland Guardians	
+699	Hayden Birdsong	San Francisco Giants	
+			
+Hobby/Hobby Jumbo Only			
+CITY CONNECT SWATCH COLLECTION			
+CC2-AB	Andrew Benintendi	Chicago White Sox	
+CC2-AM	Andrew McCutchen	Pittsburgh Pirates	
+CC2-AP	Andy Pages	Los Angeles Dodgers	
+CC2-AS	AJ Smith-Shawver	Atlanta Braves	
+CC2-AU	Adley Rutschman	Baltimore Orioles	
+CC2-BB	Bo Bichette	Toronto Blue Jays	
+CC2-BE	Brooks Lee	Minnesota Twins	
+CC2-BH	Bryce Harper	Philadelphia Phillies	
+CC2-BL	Brandon Lowe	Tampa Bay Rays	
+CC2-BS	Bryson Stott	Philadelphia Phillies	
+CC2-BU	Byron Buxton	Minnesota Twins	
+CC2-CE	Corey Seager	Texas Rangers	
+CC2-CM	Christopher Morel	Tampa Bay Rays	
+CC2-CR	Ceddanne Rafaela	Boston Red Sox	
+CC2-CS	Chris Sale	Atlanta Braves	
+CC2-DS	Davis Schneider	Toronto Blue Jays	
+CC2-DW	Dansby Swanson	Chicago Cubs	
+CC2-ET	Ezequiel Tovar	Colorado Rockies	
+CC2-FA	Francisco Alvarez	New York Mets	
+CC2-FF	Freddie Freeman	Los Angeles Dodgers	
+CC2-FL	Francisco Lindor	New York Mets	
+CC2-GE	Gavin Sheets	Chicago White Sox	
+CC2-GH	Gunnar Henderson	Baltimore Orioles	
+CC2-GM	Garrett Mitchell	Milwaukee Brewers	
+CC2-GS	George Springer	Toronto Blue Jays	
+CC2-JB	Javier Báez	Detroit Tigers	
+CC2-JM	José Ramírez	Cleveland Guardians	
+CC2-JR	Julio Rodríguez	Seattle Mariners	
+CC2-KS	Kyle Schwarber	Philadelphia Phillies	
+CC2-LR	Luis Robert Jr.	Chicago White Sox	
+CC2-MO	Matt Olson	Atlanta Braves	
+CC2-MY	Masataka Yoshida	Boston Red Sox	
+CC2-NA	Nolan Arenado	St. Louis Cardinals	
+CC2-NM	Noelvi Marte	Cincinnati Reds	
+CC2-OC	Oneil Cruz	Pittsburgh Pirates	
+CC2-PC	Pete Crow-Armstrong	Chicago Cubs	
+CC2-PG	Paul Goldschmidt	St. Louis Cardinals	
+CC2-PL	Pablo López	Minnesota Twins	
+CC2-RC	Ronald Acuña Jr.	Atlanta Braves	
+CC2-SL	Sal Frelick	Milwaukee Brewers	
+CC2-ST	Spencer Torkelson	Detroit Tigers	
+CC2-TS	Tarik Skubal	Detroit Tigers	
+CC2-TT	Trea Turner	Philadelphia Phillies	
+CC2-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+CC2-WC	William Contreras	Milwaukee Brewers	
+CC2-WP	Wenceel Pérez	Detroit Tigers	
+CC2-ZG	Zac Gallen	Arizona Diamondbacks	
+			
+ROUNDING THE BASES RELICS			
+RTB-AJU	Aaron Judge	New York Yankees	
+RTB-AK	Alejandro Kirk	Toronto Blue Jays	
+RTB-BHAR	Bryce Harper	Philadelphia Phillies	
+RTB-BR	Bryce Harper	Philadelphia Phillies	
+RTB-BRY	Bryce Harper	Philadelphia Phillies	
+RTB-BWJ	Bobby Witt Jr.	Kansas City Royals	
+RTB-CR	Ceddanne Rafaela	Boston Red Sox	
+RTB-DEV3	Rafael Devers	Boston Red Sox	
+RTB-JTR	J.T. Realmuto	Philadelphia Phillies	
+RTB-JUD	Aaron Judge	New York Yankees	
+RTB-JUD2	Aaron Judge	New York Yankees	
+RTB-KY	Kyle Schwarber	Philadelphia Phillies	
+RTB-MCC	Andrew McCutchen	Pittsburgh Pirates	
+RTB-NCA	Nick Castellanos	Philadelphia Phillies	
+RTB-NIM	Brandon Nimmo	New York Mets	
+RTB-TUR	Trea Turner	Philadelphia Phillies	
+RTB-WOOD	James Wood	Washington Nationals	
+RTB-YEL	Christian Yelich	Milwaukee Brewers	
+			
+ROUNDING THE BASES DUAL RELICS			
+RTBD-AA	Yordan Alvarez	Houston Astros	
+RTBD-AA	Jose Altuve	Houston Astros	
+RTBD-BL	Brooks Lee	Minnesota Twins	
+RTBD-BL	Byron Buxton	Minnesota Twins	
+RTBD-BSW	Dansby Swanson	Chicago Cubs	
+RTBD-BSW	Cody Bellinger	Chicago Cubs	
+RTBD-CM	Corbin Carroll	Arizona Diamondbacks	
+RTBD-CM	Ketel Marte	Arizona Diamondbacks	
+RTBD-DA	Randy Arozarena	Tampa Bay Rays	
+RTBD-DA	Yandy Díaz	Tampa Bay Rays	
+RTBD-DAB	Wilyer Abreu	Boston Red Sox	
+RTBD-DAB	Rafael Devers	Boston Red Sox	
+RTBD-GW	Paul Goldschmidt	St. Louis Cardinals	
+RTBD-GW	Masyn Winn	St. Louis Cardinals	
+RTBD-JS	Corey Seager	Texas Rangers	
+RTBD-JS	Josh Jung	Texas Rangers	
+RTBD-JSO	Juan Soto	New York Yankees	
+RTBD-JSO	Aaron Judge	New York Yankees	
+RTBD-KH	Kyle Schwarber	Philadelphia Phillies	
+RTBD-KH	Bryce Harper	Philadelphia Phillies	
+RTBD-LL	Royce Lewis	Minnesota Twins	
+RTBD-LL	Trevor Larnach	Minnesota Twins	
+RTBD-ML	Francisco Lindor	New York Mets	
+RTBD-ML	Jeff McNeil	New York Mets	
+RTBD-MME	Manny Machado	San Diego Padres	
+RTBD-MME	Jackson Merrill	San Diego Padres	
+RTBD-RG	Brent Rooker	Athletics	
+RTBD-RG	Zack Gelof	Athletics	
+RTBD-SBE	Mookie Betts	Los Angeles Dodgers	
+RTBD-SBE	Shohei Ohtani	Los Angeles Dodgers	
+RTBD-SC	Nick Castellanos	Philadelphia Phillies	
+RTBD-SC	Kyle Schwarber	Philadelphia Phillies	
+RTBD-SGJ	Vladimir Guerrero Jr.	Toronto Blue Jays	
+RTBD-SGJ	George Springer	Toronto Blue Jays	
+RTBD-SJ	Juan Soto	New York Yankees	
+RTBD-SJ	Aaron Judge	New York Yankees	
+RTBD-TB	Xander Bogaerts	San Diego Padres	
+RTBD-TB	Fernando Tatis Jr.	San Diego Padres	
+RTBD-TD	Brenton Doyle	Colorado Rockies	
+RTBD-TD	Ezequiel Tovar	Colorado Rockies	
+RTBD-TR	Trea Turner	Philadelphia Phillies	
+RTBD-TR	J.T. Realmuto	Philadelphia Phillies	
+RTBD-TS	Trea Turner	Philadelphia Phillies	
+RTBD-TS	Bryson Stott	Philadelphia Phillies	
+			
+1990 TOPPS BASEBALL RELICS			
+90R2-AM	Angel Martínez	Cleveland Guardians	
+90R2-ARI	Anthony Rizzo	New York Yankees	
+90R2-BL	Brooks Lee	Minnesota Twins	
+90R2-BR	Ben Rice	New York Yankees	
+90R2-CM	Coby Mayo	Baltimore Orioles	
+90R2-CP	Cade Povich	Baltimore Orioles	
+90R2-DC	Dylan Crews	Washington Nationals	
+90R2-DF	David Festa	Minnesota Twins	
+90R2-DT	Drew Thorpe	Chicago White Sox	
+90R2-GMC	Grant McCray	San Francisco Giants	
+90R2-HB	Hayden Birdsong	San Francisco Giants	
+90R2-HW	Hurston Waldrep	Atlanta Braves	
+90R2-JAJ	Jace Jung	Detroit Tigers	
+90R2-JC	Jackson Chourio	Milwaukee Brewers	
+90R2-JCA	Junior Caminero	Tampa Bay Rays	
+90R2-JCH	Jazz Chisholm Jr.	New York Yankees	
+90R2-JD	Jasson Domínguez	New York Yankees	
+90R2-JH	Jackson Holliday	Baltimore Orioles	
+90R2-JHM	Justyn-Henry Malloy	Detroit Tigers	
+90R2-JJO	Jackson Jobe	Detroit Tigers	
+90R2-JN	Jhonkensy Noel	Cleveland Guardians	
+90R2-JW	James Wood	Washington Nationals	
+90R2-JWI	Jacob Wilson	Athletics	
+90R2-JWR	Justin Wrobleski	Los Angeles Dodgers	
+90R2-KA	Kevin Alcántara	Chicago Cubs	
+90R2-KR	Kumar Rocker	Texas Rangers	
+90R2-KS	Kyle Schwarber	Philadelphia Phillies	
+90R2-LA	Luisangel Acuña	New York Mets	
+90R2-LB	Lawrence Butler	Athletics	
+90R2-MMC	Michael McGreevy	St. Louis Cardinals	
+90R2-MY	Masataka Yoshida	Boston Red Sox	
+90R2-NA	Nacho Alvarez Jr.	Atlanta Braves	
+90R2-PC	Pete Crow-Armstrong	Chicago Cubs	
+90R2-RH	Rece Hinds	Cincinnati Reds	
+90R2-RL	Royce Lewis	Minnesota Twins	
+90R2-RLO	Rhett Lowder	Cincinnati Reds	
+90R2-SP	Salvador Perez	Kansas City Royals	
+90R2-SSC	Spencer Schwellenbach	Atlanta Braves	
+90R2-SSU	Seiya Suzuki	Chicago Cubs	
+90R2-SW	Shay Whitcomb	Houston Astros	
+90R2-TL	Tyler Locklear	Seattle Mariners	
+90R2-TSA	Thomas Saggese	St. Louis Cardinals	
+90R2-WL	Wyatt Langford	Texas Rangers	
+90R2-WW	Will Warren	New York Yankees	
+90R2-YY	Yoshinobu Yamamoto	Los Angeles Dodgers	
+90R2-ZD	Zach Dezenzo	Houston Astros	
+90R2-ZM	Zebby Matthews	Minnesota Twins	
+			
+1990 TOPPS BASEBALL ALL STAR RELICS			
+90ASR-AB	Alec Bohm	Philadelphia Phillies	
+90ASR-AJ	Aaron Judge	New York Yankees	
+90ASR-AP	Albert Pujols	St. Louis Cardinals	
+90ASR-AR	Austin Riley	Atlanta Braves	
+90ASR-BH	Bryce Harper	Philadelphia Phillies	
+90ASR-BW	Bobby Witt Jr.	Kansas City Royals	
+90ASR-CC	Carlos Correa	Minnesota Twins	
+90ASR-CCA	Corbin Carroll	Arizona Diamondbacks	
+90ASR-CJ	Chipper Jones	Atlanta Braves	
+90ASR-CR	Cal Ripken Jr.	Baltimore Orioles	
+90ASR-CY	Christian Yelich	Milwaukee Brewers	
+90ASR-DJ	Derek Jeter	New York Yankees	
+90ASR-DO	David Ortiz	Boston Red Sox	
+90ASR-ED	Elly De La Cruz	Cincinnati Reds	
+90ASR-FF	Freddie Freeman	Los Angeles Dodgers	
+90ASR-FL	Francisco Lindor	New York Mets	
+90ASR-FT	Fernando Tatis Jr.	San Diego Padres	
+90ASR-FTH	Frank Thomas	Chicago White Sox	
+90ASR-GC	Gerrit Cole	New York Yankees	
+90ASR-GH	Gunnar Henderson	Baltimore Orioles	
+90ASR-I	Ichiro	Seattle Mariners	
+90ASR-JD	Jarren Duran	Boston Red Sox	
+90ASR-JR	José Ramírez	Cleveland Guardians	
+90ASR-JRO	Julio Rodríguez	Seattle Mariners	
+90ASR-KG	Ken Griffey Jr.	Seattle Mariners	
+90ASR-KP	Kirby Puckett	Minnesota Twins	
+90ASR-MB	Mookie Betts	Los Angeles Dodgers	
+90ASR-MC	Miguel Cabrera	Detroit Tigers	
+90ASR-MM	Manny Machado	San Diego Padres	
+90ASR-MO	Matt Olson	Atlanta Braves	
+90ASR-MP	Mike Piazza	New York Mets	
+90ASR-MT	Mike Trout	Angels	
+90ASR-PA	Pete Alonso	New York Mets	
+90ASR-PS	Paul Skenes	Pittsburgh Pirates	
+90ASR-RA	Ronald Acuña Jr.	Atlanta Braves	
+90ASR-RD	Rafael Devers	Boston Red Sox	
+90ASR-SI	Shota Imanaga	Chicago Cubs	
+90ASR-SS	Sammy Sosa	Chicago Cubs	
+90ASR-SST	Spencer Strider	Atlanta Braves	
+90ASR-TG	Tony Gwynn	San Diego Padres	
+90ASR-TT	Trea Turner	Philadelphia Phillies	
+90ASR-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+90ASR-XB	Xander Bogaerts	San Diego Padres	
+90ASR-YA	Yordan Alvarez	Houston Astros	
+			
+Hobby/Hobby Jumbo Only			
+IN THE NAME RELICS			
+ITN-AB	Alec Bohm	Philadelphia Phillies	
+ITN-ABE	Andrew Benintendi	Chicago White Sox	
+ITN-AG	Alex Bregman	Houston Astros	
+ITN-AN	Aaron Nola	Philadelphia Phillies	
+ITN-AR	Adley Rutschman	Baltimore Orioles	
+ITN-ARI	Austin Riley	Atlanta Braves	
+ITN-BB	Byron Buxton	Minnesota Twins	
+ITN-BH	Bryce Harper	Philadelphia Phillies	
+ITN-BN	Brandon Nimmo	New York Mets	
+ITN-BR	Bryan Reynolds	Pittsburgh Pirates	
+ITN-BS	Bryson Stott	Philadelphia Phillies	
+ITN-CA	Corbin Carroll	Arizona Diamondbacks	
+ITN-CC	Carlos Correa	Minnesota Twins	
+ITN-CF	Ceddanne Rafaela	Boston Red Sox	
+ITN-CK	Colt Keith	Detroit Tigers	
+ITN-CM	Christoper Morel	Chicago Cubs	
+ITN-CMU	Cedric Mullins	Baltimore Orioles	
+ITN-CR	Cal Raleigh	Seattle Mariners	
+ITN-CY	Christian Yelich	Milwaukee Brewers	
+ITN-DC	Dylan Cease	San Diego Padres	
+ITN-DS	Dansby Swanson	Chicago Cubs	
+ITN-DW	Devin Williams	Milwaukee Brewers	
+ITN-ED	Elly De La Cruz	Cincinnati Reds	
+ITN-ET	Ezequiel Tovar	Colorado Rockies	
+ITN-FA	Francisco Alvarez	New York Mets	
+ITN-FL	Francisco Lindor	New York Mets	
+ITN-FP	Freddy Peralta	Milwaukee Brewers	
+ITN-FT	Fernando Tatis Jr.	San Diego Padres	
+ITN-GM	Garrett Mitchell	Milwaukee Brewers	
+ITN-GO	Gabriel Moreno	Arizona Diamondbacks	
+ITN-GS	George Springer	Toronto Blue Jays	
+ITN-HG	Hunter Greene	Cincinnati Reds	
+ITN-IH	Ian Happ	Chicago Cubs	
+ITN-JA	Junior Caminero	Tampa Bay Rays	
+ITN-JB	José Berríos	Toronto Blue Jays	
+ITN-JC	J.P. Crawford	Seattle Mariners	
+ITN-JD	Jarren Duran	Boston Red Sox	
+ITN-JE	Jackson Merrill	San Diego Padres	
+ITN-JH	Jung HOO Lee	San Francisco Giants	
+ITN-JI	José Ramírez	Cleveland Guardians	
+ITN-JL	Jose Altuve	Houston Astros	
+ITN-JM	Joe Musgrove	San Diego Padres	
+ITN-JO	Julio Rodríguez	Seattle Mariners	
+ITN-JP	Jeremy Peña	Houston Astros	
+ITN-JR	J.T. Realmuto	Philadelphia Phillies	
+ITN-JU	Jackson Chourio	Milwaukee Brewers	
+ITN-JW	Jordan Westburg	Baltimore Orioles	
+ITN-JY	Joe Ryan	Minnesota Twins	
+ITN-KB	Kris Bryant	Colorado Rockies	
+ITN-KH	Ke'Bryan Hayes	Pittsburgh Pirates	
+ITN-KM	Ketel Marte	Arizona Diamondbacks	
+ITN-KN	Kodai Senga	New York Mets	
+ITN-KS	Kyle Schwarber	Philadelphia Phillies	
+ITN-KT	Kyle Tucker	Houston Astros	
+ITN-LA	Luis Arraez	San Diego Padres	
+ITN-LB	Lawrence Butler	Athletics	
+ITN-LC	Luis Castillo	Seattle Mariners	
+ITN-LR	Luis Robert Jr.	Chicago White Sox	
+ITN-LW	Logan Webb	San Francisco Giants	
+ITN-MB	Mookie Betts	Los Angeles Dodgers	
+ITN-MF	Max Fried	Atlanta Braves	
+ITN-MH	Masataka Yoshida	Boston Red Sox	
+ITN-MM	Manny Machado	San Diego Padres	
+ITN-MO	Matt Olson	Atlanta Braves	
+ITN-MT	Mike Trout	Angels	
+ITN-MU	Max Muncy	Los Angeles Dodgers	
+ITN-MY	Mike Yastrzemski	San Francisco Giants	
+ITN-NC	Nick Castellanos	Philadelphia Phillies	
+ITN-NG	Nolan Gorman	St. Louis Cardinals	
+ITN-NH	Nico Hoerner	Chicago Cubs	
+ITN-NJ	Nolan Jones	Colorado Rockies	
+ITN-OC	Oneil Cruz	Pittsburgh Pirates	
+ITN-OZ	Ozzie Albies	Atlanta Braves	
+ITN-PA	Pete Alonso	New York Mets	
+ITN-PG	Paul Goldschmidt	St. Louis Cardinals	
+ITN-PL	Pablo López	Minnesota Twins	
+ITN-RA	Ronald Acuña Jr.	Atlanta Braves	
+ITN-RD	Rafael Devers	Boston Red Sox	
+ITN-RG	Riley Greene	Detroit Tigers	
+ITN-RM	Ryan Mountcastle	Baltimore Orioles	
+ITN-SB	Shane Bieber	Cleveland Guardians	
+ITN-SC	Shane McClanahan	Tampa Bay Rays	
+ITN-SM	Starling Marte	New York Mets	
+ITN-SP	Salvador Perez	Kansas City Royals	
+ITN-SS	Spencer Strider	Atlanta Braves	
+ITN-SST	Spencer Steer	Cincinnati Reds	
+ITN-SSU	Seiya Suzuki	Chicago Cubs	
+ITN-ST	Spencer Torkelson	Detroit Tigers	
+ITN-TC	Triston Casas	Boston Red Sox	
+ITN-TS	Trevor Story	Boston Red Sox	
+ITN-TSK	Tarik Skubal	Detroit Tigers	
+ITN-VG	Vladimir Guerrero Jr.	Toronto Blue Jays	
+ITN-WC	William Contreras	Milwaukee Brewers	
+ITN-WS	Will Smith	Los Angeles Dodgers	
+ITN-XB	Xander Bogaerts	San Diego Padres	
+ITN-YA	Yordan Alvarez	Houston Astros	
+ITN-YD	Yu Darvish	San Diego Padres	
+ITN-ZG	Zack Gelof	Athletics	
+ITN-ZW	Zack Wheeler	Philadelphia Phillies	
+			
+			
+SUPER BOX EXCLUSIVE			
+TRADING CARD ENAMEL PINS			
+145	Matt Olson	Atlanta Braves	
+408	Kumar Rocker	Texas Rangers	
+450	Trea Turner	Philadelphia Phillies	
+500	Mookie Betts	Los Angeles Dodgers	
+524	Luisangel Acuña	New York Mets	
+550	Pete Alonso	New York Mets	
+561	Paul Goldschmidt	New York Yankees	
+600	Fernando Tatis Jr.	San Diego Padres	
+650	Adley Rutschman	Baltimore Orioles	
+700	Juan Soto	New York Mets	
