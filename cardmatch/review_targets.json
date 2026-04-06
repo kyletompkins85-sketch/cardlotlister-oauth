@@ -1,5 +1,9 @@
 {
-  "description": "Review slice: BD-1 through BD-10 Base Set (2025 Bowman Draft checklist).",
+  "description": "`review_focus.csv` = rows whose canonical primary is exactly **`primary_card_type_exact`** (here **BDC Chrome Prospect · Orange /25**). Sort **BDC# 1–200** then price (`bdc_then_price_asc`). Set **`review_focus_scope`: `all`** for the full scored pool. Fast refresh: `python3 -m cardmatch --input pilot_scored_full.csv --review-focus-only --output-dir <dir>`.",
+  "classification_focus": "primary_exact",
+  "primary_card_type_exact": "BDC Chrome Prospect · Orange /25",
+  "review_focus_scope": "all",
+  "review_slice_sort": "bd_then_price_asc",
   "card_numbers": [
     "BD-1",
     "BD-2",

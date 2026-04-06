@@ -1,0 +1,15 @@
+{
+  "groups": [
+    {"slug": "axis", "display_name": "Bowman Axis", "wf": "WF_axis"},
+    {"slug": "bowman_draft_night", "display_name": "Bowman Draft Night", "wf": "WF_draft_night"},
+    {"slug": "bowman_in_action", "display_name": "Bowman In Action", "wf": "WF_bowman_in_action"},
+    {"slug": "crystallized", "display_name": "Crystallized", "wf": "WF_crystallized"},
+    {"slug": "prized_prospects", "display_name": "Prized Prospects", "wf": "WF_prized_prospect"},
+    {"slug": "bowman_spotlight", "display_name": "Bowman Spotlight", "wf": "WF_bowman_spotlight"},
+    {"slug": "college_variation", "display_name": "Chrome Prospect College Variations", "wf": "WF_college_variation"},
+    {"slug": "chrome_prospect_autographs", "display_name": "BDC Chrome Prospect", "wf": "WF_chrome_prospect_autographs"},
+    {"slug": "etched_in_glass", "display_name": "Etched in Glass", "wf": "WF_etched_in_glass"},
+    {"slug": "final_draft", "display_name": "Final Draft", "wf": "WF_final_draft"},
+    {"slug": "image_variation", "display_name": "Image Variations", "wf": "WF_image_variation"}
+  ]
+}

@@ -1,0 +1,41 @@
+# Canonical product groups (priority order). Kept in sync with cardmatch/product_groups.json
+# (JSON is loaded at runtime; edit JSON for taxonomy changes).
+
+version: 1
+
+groups:
+  - slug: axis
+    display_name: Bowman Axis
+    classifier_flag: WF_axis
+  - slug: bowman_draft_night
+    display_name: Bowman Draft Night
+    classifier_flag: WF_draft_night
+  - slug: bowman_in_action
+    display_name: Bowman In Action
+    classifier_flag: WF_bowman_in_action
+  - slug: crystallized
+    display_name: Crystallized
+    classifier_flag: WF_crystallized
+  - slug: prized_prospects
+    display_name: Prized Prospects
+    classifier_flag: WF_prized_prospect
+  - slug: bowman_spotlight
+    display_name: Bowman Spotlight
+    classifier_flag: WF_bowman_spotlight
+  # Before Chrome Prospect Autographs: college photo / team SP lines often also carry CPA wording or stickers.
+  - slug: college_variation
+    display_name: Chrome Prospect College Variations
+    classifier_flag: WF_college_variation
+  # Same card_type family as BDC chrome parallels (Chrome Prospect Autograph inserts).
+  - slug: chrome_prospect_autographs
+    display_name: BDC Chrome Prospect
+    classifier_flag: WF_chrome_prospect_autographs
+  - slug: etched_in_glass
+    display_name: Etched in Glass
+    classifier_flag: WF_etched_in_glass
+  - slug: final_draft
+    display_name: Final Draft
+    classifier_flag: WF_final_draft
+  - slug: image_variation
+    display_name: Image Variations
+    classifier_flag: WF_image_variation

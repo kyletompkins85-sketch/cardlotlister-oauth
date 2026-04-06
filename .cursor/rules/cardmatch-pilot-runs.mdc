@@ -1,0 +1,25 @@
+---
+description: After cardmatch or review-target changes, rescore committed pilot CSVs (review_focus.csv, etc.).
+alwaysApply: true
+---
+
+# Cardmatch pilot diagnostics (mandatory)
+
+Whenever you change **any** of the following, you **must** finish by regenerating the committed pilot outputs so `review_focus.csv`, `review_slice.csv`, `pilot_scored_full.csv`, `review_unclassified.csv`, and `run_summary.md` are **rewritten on disk** for both folders under `data/cardmatch_pilot/`:
+
+- `cardmatch/` (pilot, pipeline, types, bowman_z10, `review_targets.json`, etc.)
+- `workflows/**/z10_bowman_listing_classifier.py` (or other classifier inputs used by cardmatch)
+
+**Do not** end the task with “the user can rerun” — run it yourself.
+
+**Command** (from repo root):
+
+```bash
+bash scripts/rescore_cardmatch_committed_pilot.sh
+```
+
+Or the equivalent two `python3 -m cardmatch --input …/pilot_scored_full.csv --no-run-filter --output-dir …` invocations for `20260405_mcp_supabase_2025_bowman_draft_full` and `20260405_supabase_2025_bowman_draft_sample8000`.
+
+After running, briefly confirm `run_summary.md` counts match expectations (e.g. `review_focus.csv` row count = summary line + header).
+
+`review_focus.csv` is driven by **`classification_focus`** and **`review_focus_scope`** in `cardmatch/review_targets.json` (e.g. `axis` + `all` = all Axis listings). The filename is always `review_focus.csv`; change focus in JSON when switching review passes.

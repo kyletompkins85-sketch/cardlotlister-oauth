@@ -16,11 +16,34 @@ PLAYER_MATCH_MIN_SCORE = 55.0
 
 def _likely_base_from_flags(flags: Dict[str, Any]) -> Tuple[bool, List[str]]:
     """
-    True when title looks like a base stock card (paper or chrome) without
-    inserts/parallels/autos/serials. Graded slabs still allowed.
+    True when title looks like **paper** base (BD-*) only — not Chrome product/stock.
+    Any Chrome branding (WF_chrome) or BDC-# (WF_bdc) is out of scope for this “base”.
+    Chrome prospect base (BDC-*) is excluded — parallels/inserts flags as before.
+    Graded slabs (PSA/BGS/SGC/… or explicit “graded”) are out of scope for likely base.
+    Multi-unit / lot listings (WF_lot) are out of scope — not a single raw card review target.
+    Bowman Draft Night inserts (WF_draft_night) are a separate product — not paper BD-* base.
+    Paper orange-border / Base-Orange style parallels (WF_orange_border) are not plain paper base.
     """
     reasons: List[str] = []
 
+    if flags.get("WF_graded"):
+        reasons.append("graded")
+    if flags.get("WF_orange_border"):
+        reasons.append("orange_border")
+    if flags.get("WF_sky_blue"):
+        reasons.append("sky_blue")
+    if flags.get("WF_snack_pack"):
+        reasons.append("snack_pack")
+    if flags.get("WF_mini_diamond"):
+        reasons.append("mini_diamond")
+    if flags.get("WF_aqua"):
+        reasons.append("aqua")
+    if flags.get("WF_sparkle"):
+        reasons.append("sparkle")
+    if flags.get("WF_blue_geometric"):
+        reasons.append("blue_geometric")
+    if flags.get("WF_chrome"):
+        reasons.append("chrome")
     if flags.get("WF_lot"):
         reasons.append("lot")
     if flags.get("WF_pick") or flags.get("WF_set_builder"):
@@ -31,8 +54,34 @@ def _likely_base_from_flags(flags: Dict[str, Any]) -> Tuple[bool, List[str]]:
         reasons.append("presale")
     if flags.get("WF_auto"):
         reasons.append("auto")
+    if flags.get("WF_chrome_prospect_autographs"):
+        reasons.append("chrome_prospect_autographs")
     if flags.get("WF_prized_prospect"):
         reasons.append("prized_prospect")
+    if flags.get("WF_axis"):
+        reasons.append("axis")
+    if flags.get("WF_draft_night"):
+        reasons.append("draft_night")
+    if flags.get("WF_final_draft"):
+        reasons.append("final_draft")
+    if flags.get("WF_bdc"):
+        reasons.append("bdc")
+    if flags.get("WF_bowman_in_action"):
+        reasons.append("bowman_in_action")
+    if flags.get("WF_image_variation"):
+        reasons.append("image_variation")
+    if flags.get("WF_college_variation"):
+        reasons.append("college_variation")
+    if flags.get("WF_bowman_spotlight"):
+        reasons.append("bowman_spotlight")
+    if flags.get("WF_etched_in_glass"):
+        reasons.append("etched_in_glass")
+    if flags.get("WF_sapphire"):
+        reasons.append("sapphire")
+    if flags.get("WF_crystallized"):
+        reasons.append("crystallized")
+    if flags.get("WF_x_fractor"):
+        reasons.append("x_fractor")
     if flags.get("WF_refractor"):
         reasons.append("refractor")
     if flags.get("WF_superfractor"):
@@ -56,6 +105,17 @@ def _likely_base_from_flags(flags: Dict[str, Any]) -> Tuple[bool, List[str]]:
     return likely, reasons
 
 
+# BDC chrome prospect base (no parallels / inserts beyond chrome + BDC stock).
+_CHROME_BASE_REASONS_OK = frozenset({"chrome", "bdc"})
+
+
+def _is_likely_chrome_base(nb_reasons: List[str]) -> bool:
+    s = set(nb_reasons)
+    if "bdc" not in s:
+        return False
+    return s <= _CHROME_BASE_REASONS_OK
+
+
 def match_pilot(
     title: str,
     names: List[str],
@@ -63,7 +123,15 @@ def match_pilot(
 ) -> PilotResult:
     s = normalize_title(title)
     flags = classify_bowman_title(s)
+    is_graded = bool(flags.get("WF_graded"))
+    is_lot = bool(flags.get("WF_lot"))
+    is_draft_night = bool(flags.get("WF_draft_night"))
+    is_chrome = bool(flags.get("WF_chrome"))
+    is_orange_border = bool(flags.get("WF_orange_border"))
     likely_base, nb_reasons = _likely_base_from_flags(flags)
+    is_likely_chrome_base = _is_likely_chrome_base(nb_reasons)
+    is_snack_pack = bool(flags.get("WF_snack_pack"))
+    is_axis = bool(flags.get("WF_axis"))
 
     guess, score, win = guess_player_from_title(s, names, last_index)
 
@@ -90,6 +158,14 @@ def match_pilot(
         player_status=pstatus,
         matched_window=win,
         is_likely_base=likely_base,
+        is_graded=is_graded,
+        is_lot=is_lot,
+        is_draft_night=is_draft_night,
+        is_chrome=is_chrome,
+        is_orange_border=is_orange_border,
+        is_likely_chrome_base=is_likely_chrome_base,
+        is_snack_pack=is_snack_pack,
+        is_axis=is_axis,
         reason_codes=reason_codes,
         matcher_version=MATCHER_VERSION,
         bowman_flags=dict(flags),
