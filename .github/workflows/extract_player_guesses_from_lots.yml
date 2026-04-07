@@ -6,7 +6,7 @@ on:
       input_csv:
         description: "Input CSV in repo (must include a title column)"
         required: true
-        default: "data/term_search_items_table.csv"
+        default: "data/topps_update_2025/term_search_items_table.csv"
       title_col:
         description: "Title column name"
         required: true
@@ -50,7 +50,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          OUT_DIR="$(dirname "${INPUT_CSV}")"
+          mkdir -p "${OUT_DIR}"
 
           SLUG="$(python3 - <<'PY'
           import os, re
@@ -62,9 +63,9 @@ jobs:
           PY
           )"
 
-          OUT="data/lot_player_guesses_${SLUG}.csv"
+          OUT="${OUT_DIR}/lot_player_guesses_${SLUG}.csv"
 
-          python3 scripts/extract_player_guesses_from_lots.py \
+          python3 scripts/topps_update_2025/extract_player_guesses_from_lots.py \
             --input "${INPUT_CSV}" \
             --out "${OUT}" \
             --title-col "${TITLE_COL}" \
@@ -79,7 +80,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/lot_player_guesses_*.csv || true
+          git add data/topps_update_2025/lot_player_guesses_*.csv || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

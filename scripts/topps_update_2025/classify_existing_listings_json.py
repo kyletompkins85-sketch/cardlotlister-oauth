@@ -7,7 +7,7 @@ import os
 import sys
 from typing import Any, Dict, List, Optional, Tuple
 
-# Allow importing sibling script from scripts/
+# Allow importing topps_listing_classifier from this directory.
 # Cmd+F: GH_ANCHOR_IMPORT_CLASSIFIER_EXISTING_LISTINGS_2B7A1D91
 HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
@@ -241,16 +241,27 @@ def _load_rows_from_json(path: str) -> List[Dict[str, Any]]:
 def main() -> None:
     # Cmd+F: GH_ANCHOR_CLASSIFY_EXISTING_LISTINGS_MAIN_5F1A3B8D
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input JSON file (e.g. data/listings_2025_topps_update.json)")
-    ap.add_argument("--out", required=True, help="Output CSV file (e.g. data/listings_2025_topps_update_classified.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input JSON file (e.g. data/topps_update_2025/listings_2025_topps_update.jsonl)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV file (e.g. data/topps_update_2025/listings_2025_topps_update_jsonl_classified.csv)",
+    )
     ap.add_argument("--title-key", default="title", help="Title field name (default: title)")
     ap.add_argument("--price-key", default="price", help="Price field name (default: price)")
     ap.add_argument("--shipping-key", default="shipping_cost", help="Shipping field name (default: shipping_cost)")
     ap.add_argument("--max-out", type=int, default=1000, help="Max output rows (default: 1000)")
     ap.add_argument("--only-unclassified", action="store_true", help="If set, keep only CT_any=false rows")
         # Cmd+F: GH_ANCHOR_PLAYER_MATCH_ARGS_6C2A1DA9
-    ap.add_argument("--players-csv", default="data/2025_Topps_Update_player_list.csv",
-                    help="Players CSV path (default: data/2025_Topps_Update_player_list.csv)")
+    ap.add_argument(
+        "--players-csv",
+        default="data/topps_update_2025/2025_Topps_Update_player_list.csv",
+        help="Players CSV path (default: data/topps_update_2025/2025_Topps_Update_player_list.csv)",
+    )
     ap.add_argument("--player-name-col", default="playerName",
                     help="Column in players CSV containing the full name (default: playerName)")
     ap.add_argument("--min-player-score", type=float, default=86.0,

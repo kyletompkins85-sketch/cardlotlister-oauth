@@ -60,6 +60,42 @@ class TestPlayerMatch(unittest.TestCase):
         self.assertEqual(g, "Leo De Vries")
         self.assertGreaterEqual(sc, 55.0)
 
+    def test_accent_fold_pena_title_ascii(self) -> None:
+        g, sc, _ = guess_player_from_title(
+            "#BD-105 Luis Pena Milwaukee Brewers Paper",
+            self.names,
+            self.last_index,
+        )
+        self.assertEqual(g, "Luis Peña")
+        self.assertGreaterEqual(sc, 99.0)
+
+    def test_james_tibbs_without_iii_in_title(self) -> None:
+        g, sc, _ = guess_player_from_title(
+            "James Tibbs Plasma Power Insert Giants",
+            self.names,
+            self.last_index,
+        )
+        self.assertEqual(g, "James Tibbs III")
+        self.assertGreaterEqual(sc, 99.0)
+
+    def test_luke_lacourse_split_la_course(self) -> None:
+        g, sc, _ = guess_player_from_title(
+            "Luke La Course #BDC-123 Chrome Refractor Angels",
+            self.names,
+            self.last_index,
+        )
+        self.assertEqual(g, "Luke Lacourse")
+        self.assertGreaterEqual(sc, 99.0)
+
+    def test_jesus_made_ascii_vs_checklist_accent(self) -> None:
+        g, sc, _ = guess_player_from_title(
+            "Jesus Made Axis Milwaukee Brewers",
+            self.names,
+            self.last_index,
+        )
+        self.assertEqual(g, "Jesús Made")
+        self.assertGreaterEqual(sc, 99.0)
+
 
 if __name__ == "__main__":
     unittest.main()

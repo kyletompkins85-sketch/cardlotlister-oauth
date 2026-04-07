@@ -6,7 +6,7 @@ on:
       input_csv:
         description: "Market classified CSV (needs player_guess, CT_list, all_in_price)"
         required: true
-        default: "data/term_search_items_table_classified.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified.csv"
       iterations:
         description: "Number of matchups to simulate"
         required: true
@@ -55,7 +55,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          OUT_DIR="$(dirname "${INPUT_CSV}")"
+          mkdir -p "${OUT_DIR}"
 
           SLUG="$(python3 - <<'PY'
           import os, re
@@ -67,15 +68,15 @@ jobs:
           PY
           )"
 
-          OUT_SUM="data/${SLUG}_player_sim_summary.csv"
-          OUT_MATCH="data/${SLUG}_player_sim_matches.csv"
+          OUT_SUM="${OUT_DIR}/${SLUG}_player_sim_summary.csv"
+          OUT_MATCH="${OUT_DIR}/${SLUG}_player_sim_matches.csv"
 
           MATCH_ARG=""
           if [ "${WRITE_MATCHES}" = "true" ] || [ "${WRITE_MATCHES}" = "True" ]; then
             MATCH_ARG="--out-matches ${OUT_MATCH} --max-match-log ${MAX_MATCH_LOG}"
           fi
 
-          python3 scripts/simulate_player_price_rankings_same_ct.py \
+          python3 scripts/topps_update_2025/simulate_player_price_rankings_same_ct.py \
             --input "${INPUT_CSV}" \
             --out-summary "${OUT_SUM}" \
             --iterations "${ITERS}" \
@@ -93,7 +94,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*_player_sim_*.csv || true
+          git add data/topps_update_2025/*_player_sim_*.csv || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

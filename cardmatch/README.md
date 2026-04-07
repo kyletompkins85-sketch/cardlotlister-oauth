@@ -4,6 +4,14 @@ Phase-1 **pilot** over eBay listing titles: guess **player** (from the 2025 Bowm
 
 This is **not** full “one checklist row” resolution yet.
 
+### Ingestion / scoring from eBay listing titles (programmatic API)
+
+**Intent (for later work):** When you **ingest listings** (Worker, Supabase, or any pipeline) and need to **classify each row from the listing title alone**, use the **`classify_listing`** / **`classify_listings`** API in [`listing_classification.py`](listing_classification.py). It takes the **same string you would show as the eBay listing title** and returns a **`player`** guess plus a canonical **`card_type`** string (e.g. `BDC Chrome Prospect · Green /99`), using the **same** `match_pilot` + scored-row logic as batch CSV scoring in [`pipeline.py`](pipeline.py). That keeps online classification aligned with `pilot_scored_full.csv` / `review_slice.csv` labels.
+
+**When to use:** Production or batch jobs that have **titles** and need **player + card type** without writing a full pilot run directory. **When not to use:** If you only need fuzzy player flags without taxonomy, call **`match_pilot`** directly.
+
+**Entry points:** `from cardmatch import classify_listing, classify_listings, ListingClassification` — see [API](#api) below. Tests: [`tests/test_listing_classification.py`](tests/test_listing_classification.py).
+
 ## What you actually run (no CSV export needed)
 
 From the repo root, set the same secrets your other scripts use (`WORKER_BASE_URL`, `INTERNAL_API_KEY`), plus the **Supabase `term_search` run_id** for **2025 Bowman Draft** (one or more UUIDs — *not* Topps Update):
@@ -59,6 +67,36 @@ python3 -m cardmatch --input path/to/term_search_items_export.csv \
 - `--baseline` previous `pilot_scored_full.csv` — writes `changes_since_previous.csv`.
 
 ## API
+
+**Player + primary card type** — intended for **eBay-style listing titles** as you ingest or score listings. Output matches pilot CSV columns (`pilot_player_guess`–derived player and `card_type` from [`card_type.py`](card_type.py)). Default checklist: `data/checklists/normalized/2025_Bowman_Draft_Normalized.csv` (override with `checklist=` or preload via `load_bowman_draft_players` and pass `names` + `last_index`).
+
+```python
+from cardmatch import classify_listing, classify_listings
+
+# One title (loads default Bowman Draft checklist once)
+out = classify_listing("2025 Bowman Draft #BDC-1 Green Refractor Eli Willits")
+# out.player, out.card_type, out.player_status, out.reason_codes, ...
+
+# Many titles — loads checklist once
+rows = classify_listings(["title one", "title two"])
+```
+
+For large batches, prefer `classify_listings(...)` or call `load_bowman_draft_players()` once and pass `names` / `last_index` so the checklist is not re-read per row.
+
+**Monte Carlo pairwise price rankings (same logic as Topps `simulate_*` scripts):**
+
+```python
+from cardmatch.pairwise_price_rankings import run_pairwise_monte_carlo_rankings
+
+triples = [("PlayerA", "BDC Chrome Prospect · Refractor", 25.0), ...]  # (player, card_type, all_in_price)
+bundle = run_pairwise_monte_carlo_rankings(triples, iterations=50_000, seed=42)
+# bundle.same_player_card_types.stats — card types by win_rate
+# bundle.same_card_type_players.stats — players by win_rate
+```
+
+From Bowman `pilot_scored_full` dict-rows: `bowman_pilot_rows_to_ranking_triples(rows)` in [`bowman_pilot_triples.py`](bowman_pilot_triples.py) (all-in = `price` + `shipping_cost`; card type from `row_primary_card_type`; **same exclusions as listing counts** — lot, pick/set builder, complete set, presale, graded, etc., via `row_excluded_from_listing_counts`). To write ranked CSVs with **listing_count** and **avg_listing_price** into a pilot folder, run [`scripts/cardmatch/export_bowman_pairwise_ranking_tables.py`](../scripts/cardmatch/export_bowman_pairwise_ranking_tables.py).
+
+**Lower-level pilot match only:**
 
 ```python
 from cardmatch import match_pilot

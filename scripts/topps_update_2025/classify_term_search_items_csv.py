@@ -52,8 +52,16 @@ def _should_exclude_row(title: str, flags: Dict[str, Any], exclude_lots: bool, e
 def main() -> None:
     # Cmd+F: GH_ANCHOR_MAIN_TERM_SEARCH_5F1A3B8D
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input CSV (e.g. data/term_search_items_table.csv)")
-    ap.add_argument("--out", required=True, help="Output CSV (e.g. data/term_search_items_table_classified.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input CSV (e.g. data/topps_update_2025/term_search_items_table.csv)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV (e.g. data/topps_update_2025/term_search_items_table_classified.csv)",
+    )
 
     ap.add_argument("--title-key", default="title", help="Title column name (default: title)")
     ap.add_argument("--price-key", default="price", help="Price column name (default: price)")
@@ -65,8 +73,11 @@ def main() -> None:
 
     # Player matching args (same defaults as your existing script)
     # Cmd+F: GH_ANCHOR_PLAYER_MATCH_ARGS_TERM_SEARCH_6C2A1DA9
-    ap.add_argument("--players-csv", default="data/2025_Topps_Update_player_list.csv",
-                    help="Players CSV path (default: data/2025_Topps_Update_player_list.csv)")
+    ap.add_argument(
+        "--players-csv",
+        default="data/topps_update_2025/2025_Topps_Update_player_list.csv",
+        help="Players CSV path (default: data/topps_update_2025/2025_Topps_Update_player_list.csv)",
+    )
     ap.add_argument("--player-name-col", default="playerName",
                     help="Column in players CSV containing full name (default: playerName)")
     ap.add_argument("--min-player-score", type=float, default=86.0,

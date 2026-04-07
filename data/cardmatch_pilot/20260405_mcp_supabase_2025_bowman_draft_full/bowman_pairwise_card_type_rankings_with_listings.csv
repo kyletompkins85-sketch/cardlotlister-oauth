@@ -1,0 +1,132 @@
+rank,card_type,win_rate,wins,losses,avg_win_margin,pairwise_duels_played,listing_count,avg_listing_price
+1,Final Draft · Red,1.0,500,0,911.3093,500,2,999.99
+2,Bowman In Action · Orange · Auto,1.0,500,0,528.7338,500,4,615.225
+3,Bowman Axis · Superfractor,1.0,500,0,699.4451,500,2,705.49
+4,BDC Chrome Prospect · Superfractor · Auto,1.0,500,0,10054.2316,500,4,10249.995
+5,BDC Chrome Prospect · Steel Metal · Auto,1.0,500,0,86.2624,500,2,104.24
+6,Prized Prospects · Red,1.0,495,0,99.1046,500,1,130.5
+7,BDC Chrome Prospect · Superfractor,0.992141,505,4,10906.0933,509,7,15616.1414
+8,Bowman Draft Night · Superfractor · Auto,0.99,495,5,11308.6768,500,2,12500.0
+9,Bowman In Action · Superfractor,0.98,490,10,1872.9071,500,2,2107.0
+10,BDC Chrome Prospect · Black /73 · Auto,0.974916,583,15,2595.0678,598,22,2336.1673
+11,BDC Chrome Prospect · Yellow Printing Plate,0.968,484,16,338.2745,500,4,377.62
+12,Crystallized · Black,0.958,479,21,1615.9672,500,4,1783.995
+13,BDC Chrome Prospect · X-Fractor · Auto,0.953146,712,35,2253.0162,747,42,2302.6381
+14,Chrome Prospect College Variations · Red /5,0.952,476,24,996.3492,500,4,1152.745
+15,BDC Chrome Prospect · True Black /10 · Auto,0.952,476,24,1961.2409,502,14,2127.2129
+16,BDC Chrome Prospect · Orange /25 · Auto,0.938307,1308,86,1749.9037,1396,64,1577.6792
+17,BDC Chrome Prospect · Yellow Printing Plate · Auto,0.934,467,33,1863.877,500,2,1999.99
+18,BDC Chrome Prospect · Printing Plate · Auto,0.926148,464,37,675.3358,501,4,830.735
+19,BDC Chrome Prospect · Parallel · Auto,0.920205,1257,109,5026.3591,1367,60,3134.8837
+20,BDC Chrome Prospect · Magenta Printing Plate,0.918288,472,42,907.2976,516,12,1001.2417
+21,Bowman Draft Night · Red,0.916,458,42,1395.81,500,1,1500.0
+22,Bowman Draft Night · Gold · Mini Diamond · Auto,0.916,458,42,929.226,500,3,1158.3333
+23,Bowman In Action · Red · Auto,0.914513,460,43,829.7225,503,2,1000.0
+24,BDC Chrome Prospect · Speckle · Auto,0.914513,460,43,591.4547,503,8,945.9037
+25,BDC Chrome Prospect · Black Printing Plate · Auto,0.912,456,44,4242.4658,500,1,5009.99
+26,Image Variations · Orange,0.904573,455,48,785.2619,505,4,999.995
+27,BDC Chrome Prospect · Black Geometric /10,0.902,451,49,216.4317,500,8,275.3737
+28,BDC Chrome Prospect · True Black /10,0.901544,467,51,367.955,522,21,374.7929
+29,BDC Chrome Prospect · Gold /50 · Auto,0.898489,3151,356,1234.9906,3514,234,1084.4449
+30,Chrome Prospect College Variations · Black /73,0.896,448,52,744.4421,500,2,1007.49
+31,Snack-Pack,0.893998,3247,385,806.7229,3633,200,768.1678
+32,BDC Chrome Prospect · Black /73,0.889328,450,56,170.8431,506,11,205.6
+33,BDC Chrome Prospect · Black Geometric /10 · Auto,0.878,439,61,877.4891,500,2,1000.0
+34,Crystallized · Gold,0.875,462,66,939.479,528,14,1102.1729
+35,Image Variations · Green · Auto,0.875,441,63,775.9959,504,5,984.59
+36,BDC Chrome Prospect · Sparkle · Auto,0.874887,965,138,554.9886,1106,57,623.5672
+37,Crystallized · Red,0.871595,448,66,2966.0331,514,3,3334.9267
+38,BDC Chrome Prospect · Mini Diamond · Auto,0.866935,430,66,187.0281,500,5,221.994
+39,BDC Chrome Prospect · Black Printing Plate,0.866,433,67,421.6645,500,4,462.485
+40,BDC Chrome Prospect · Yellow /75 · Auto,0.864309,2395,376,585.2678,2776,163,633.3637
+41,Image Variations · Auto,0.864078,445,70,2032.2902,515,6,1904.5
+42,BDC Chrome Prospect · Logo Refractor /35,0.850438,1649,290,105.3483,1951,103,107.8653
+43,Crystallized · Orange,0.849442,457,81,1797.2905,538,14,1795.9221
+44,BDC Chrome Prospect · Printing Plate,0.837302,422,82,756.1103,504,7,853.5714
+45,BDC Chrome Prospect · Red /5 · Auto,0.836278,710,139,2241.9544,851,57,1040.6635
+46,Bowman In Action · Black,0.83,415,85,355.7564,500,2,505.0
+47,Bowman In Action · Gold · Auto,0.824,412,88,268.6227,500,4,345.025
+48,BDC Chrome Prospect · Green /99 · Auto,0.818888,3373,746,319.0317,4123,290,419.8429
+49,BDC Chrome Prospect · Red /5,0.816781,1431,321,760.3058,1753,110,442.0332
+50,Crystallized,0.791159,519,137,572.2077,657,34,598.1132
+51,BDC Chrome Prospect · Blue /150 · Auto,0.785112,3913,1071,242.5231,4993,427,277.0624
+52,BDC Chrome Prospect · Orange /25,0.781328,2201,616,163.4568,2824,134,167.2896
+53,Prized Prospects · Auto,0.777589,458,131,2113.9856,591,16,2198.34
+54,Bowman In Action · Lava · Auto,0.774257,391,114,245.0372,505,4,317.495
+55,Bowman Spotlight · Red,0.772374,397,117,596.0945,514,10,494.182
+56,BDC Chrome Prospect · Speckle Refractor · Auto,0.769981,395,118,246.7011,513,19,281.4726
+57,Bowman Axis · Red,0.76494,384,118,106.7634,502,1,140.95
+58,Chrome Prospect College Variations · Orange /25,0.762948,383,119,590.5862,502,3,538.3267
+59,BDC Chrome Prospect · Aqua /125 · Auto,0.756004,2172,701,188.8073,2877,185,174.8906
+60,BDC Chrome Prospect · Wave · Auto,0.754,377,123,400.5927,500,1,499.99
+61,Bowman In Action · Auto,0.751846,509,168,279.6658,677,21,287.5448
+62,Chrome Prospect College Variations · Gold /50,0.750996,377,125,298.3463,502,5,464.992
+63,Base-Paper · Black Border,0.745631,384,131,2766.0792,515,6,1833.565
+64,BDC Chrome Prospect · Fuchsia Reptilian /199 · Auto,0.745424,1344,459,253.7067,1804,89,248.1679
+65,BDC Chrome Prospect · Gold /50,0.72605,3130,1181,101.236,4331,230,107.7042
+66,BDC Chrome Prospect · Purple /250 · Auto,0.722723,3451,1324,176.3012,4791,397,180.7995
+67,Bowman Draft Night · Orange · Auto,0.712,356,144,213.54,500,1,326.0
+68,Bowman Axis · Gold,0.711002,433,176,55.507,610,22,67.2341
+69,Final Draft,0.700976,790,337,173.9129,1131,81,192.9922
+70,Bowman In Action · Wave · Auto,0.693916,365,161,179.8626,526,4,258.6625
+71,Bowman Spotlight,0.689623,731,329,236.6583,1066,67,280.4781
+72,BDC Chrome Prospect · Sky Blue /499 · Auto,0.688412,3725,1686,124.4842,5423,520,151.9728
+73,Bowman Draft Night · Auto,0.683502,406,188,277.601,594,12,357.3717
+74,BDC Chrome Prospect · Yellow /75,0.678072,3349,1590,50.9941,4955,324,61.4506
+75,Etched in Glass,0.673443,1027,498,213.076,1526,116,260.0463
+76,BDC Chrome Prospect · Steel Metal /100,0.660079,2171,1118,55.4671,3300,181,66.6205
+77,Bowman Axis · Orange,0.65458,343,181,123.3438,527,10,170.242
+78,Prized Prospects · Green · Auto,0.654,327,173,56.6066,500,1,84.0
+79,BDC Chrome Prospect · Aqua Reptilian,0.653802,1694,897,33.8965,2606,141,47.8087
+80,Bowman In Action · Orange,0.651163,364,195,144.4095,561,14,192.1
+81,Image Variations · Purple · Auto,0.628,314,186,157.823,500,1,240.5
+82,Bowman Draft Night · Orange,0.627812,307,182,137.6279,500,3,186.6567
+83,Prized Prospects · Orange,0.603978,334,219,215.7707,553,12,235.8742
+84,BDC Chrome Prospect · Green /99,0.596466,4625,3129,39.6075,7793,670,49.685
+85,Image Variations,0.596091,549,372,194.0497,921,77,225.8496
+86,BDC Chrome Prospect · Fuchsia Reptilian · Wave · Auto,0.59,295,205,23.4599,500,2,35.0
+87,Bowman Draft Night · Gold,0.581667,349,251,83.4944,601,23,125.2704
+88,Chrome Prospect College Variations · Auto,0.579798,287,208,131.7853,500,2,202.225
+89,Prized Prospects · Green,0.578595,346,252,84.425,599,20,118.588
+90,BDC Chrome Prospect · Aqua /125,0.573408,2855,2124,31.1988,4994,302,37.8222
+91,Bowman Axis · Green,0.565049,291,224,64.7736,520,17,73.9606
+92,Bowman In Action · Gold,0.556028,392,313,94.5929,706,29,115.199
+93,Prized Prospects · Blue,0.554,277,223,131.0576,500,1,195.0
+94,BDC Chrome Prospect · Fuchsia Reptilian /199,0.550783,2462,2008,27.3806,4496,260,32.5524
+95,BDC Chrome Prospect · Parallel,0.55,275,225,1687.4139,500,4,1005.0
+96,BDC Chrome Prospect · Sparkle,0.547567,754,623,13.538,1390,73,18.1512
+97,BDC Chrome Prospect · Blue /150,0.54401,4005,3357,42.0191,7399,576,46.5927
+98,Prized Prospects · Gold,0.539936,338,288,74.4541,626,16,93.7731
+99,BDC Chrome Prospect · Purple /250,0.53958,3006,2565,37.6361,5606,389,37.536
+100,BDC Chrome Prospect · Speckle Refractor,0.535912,873,756,20.94,1644,61,27.6298
+101,Chrome Prospect College Variations,0.53125,306,270,114.7993,576,15,146.4573
+102,BDC Chrome Prospect · Sapphire,0.529226,335,298,34.1492,638,42,28.4948
+103,BDC Chrome Prospect · Mini Diamond,0.523705,475,432,21.4981,916,47,21.3321
+104,Bowman In Action · Mini Diamond,0.517995,403,375,44.3212,779,35,52.7731
+105,Bowman In Action · Red,0.504873,259,254,368.6183,516,25,108.2876
+106,Prized Prospects · Mini Diamond,0.498339,300,302,33.8131,605,16,45.3663
+107,BDC Chrome Prospect · Auto,0.493759,6369,6530,73.2415,12963,2459,78.8445
+108,Bowman In Action · Green,0.475285,375,414,52.0039,790,27,69.0141
+109,Bowman Axis · Parallel,0.468415,393,446,25.0164,842,31,25.6826
+110,Bowman Axis · Mini Diamond,0.458621,266,314,20.1059,582,18,27.2722
+111,Prized Prospects · Sparkle,0.454,227,273,32.5646,500,2,44.99
+112,BDC Chrome Prospect · Refractor · Auto,0.448,224,276,171.0527,500,2,190.495
+113,BDC Chrome Prospect · X-Fractor,0.445192,3176,3958,32.4347,7156,551,22.0323
+114,BDC Chrome Prospect · Fuchsia Reptilian,0.431727,215,283,21.0967,500,1,32.99
+115,BDC Chrome Prospect · Sky Blue /499,0.413925,4126,5842,11.7746,10021,1032,15.5623
+116,Bowman Draft Night · Green,0.386905,195,309,34.356,504,5,47.792
+117,Bowman In Action · Speckle,0.367265,184,317,30.1347,501,4,39.49
+118,Sapphire,0.35225,180,331,37.7344,519,5,61.782
+119,Bowman Draft Night · Mini Diamond,0.340782,183,354,30.4432,540,13,51.4669
+120,Chrome Prospect College Variations · Purple /250,0.322449,158,332,45.4663,500,1,69.99
+121,Bowman In Action · Blue,0.300191,157,366,17.7228,524,5,27.994
+122,Bowman In Action,0.251176,801,2388,18.8548,3199,472,15.4943
+123,Bowman Draft Night · Purple,0.217213,106,382,12.9074,500,2,19.99
+124,BDC Chrome Prospect · Refractor,0.20058,4845,19310,4.7111,24246,4738,7.8673
+125,Bowman In Action · Purple,0.173737,86,409,5.6745,500,1,9.99
+126,Prized Prospects · Purple,0.138,69,431,11.0377,500,1,21.49
+127,BDC Chrome Prospect · Base,0.131576,2271,14989,12.5607,17341,2776,5.6354
+128,Prized Prospects,0.111901,535,4246,11.169,4794,971,7.869
+129,Bowman Axis · Base,0.109469,437,3555,3.0488,4013,792,4.5081
+130,Bowman Draft Night,0.078306,209,2460,7.2649,2673,487,6.8501
+131,Base-Paper,0.042728,867,19424,5.5284,20368,3569,3.2006

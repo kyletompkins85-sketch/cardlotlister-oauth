@@ -6,7 +6,7 @@ import os
 import sys
 from typing import Dict, List, Any
 
-# Allow importing sibling script from scripts/
+# Allow importing sibling modules from this directory (topps_listing_classifier).
 # Cmd+F: GH_ANCHOR_IMPORT_CLASSIFIER_FOR_UNCLASSIFIED_2B7A1D91
 HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
@@ -30,9 +30,17 @@ def _truthy_csv(v: Any) -> bool:
 def main() -> None:
     # Cmd+F: GH_ANCHOR_PULL_UNCLASSIFIED_MAIN_5F1A3B8D
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input CSV path (e.g. data/term_search_items_table.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input CSV path (e.g. data/topps_update_2025/term_search_items_table.csv)",
+    )
     ap.add_argument("--keyword", required=True, help="Case-insensitive substring match on title")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/unclassified_titles_canvas.csv)")
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV path (e.g. data/topps_update_2025/unclassified_titles_canvas.csv)",
+    )
     ap.add_argument("--max-rows", type=int, default=1000, help="Max output rows (default: 1000)")
     ap.add_argument("--title-col", default="title", help="Title column name (default: title)")
     ap.add_argument("--dedupe", action="store_true", help="If set, de-dupe identical titles")

@@ -26,6 +26,22 @@ class TestCardType(unittest.TestCase):
         }
         self.assertEqual(row_primary_card_type(r), "Base-Paper")
 
+    def test_nb_auto_without_chrome_in_title_is_cpa_auto_not_base_paper(self) -> None:
+        """Legacy path used to fall through to **Base-Paper** when title had no *chrome* but ``nb_auto`` fired."""
+        r = {
+            "title": "2025 Bowman Draft Joe Player 1st Auto - Tigers Prospect",
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": '["not_likely_base", "nb_auto"]',
+        }
+        self.assertEqual(
+            row_primary_card_type(r),
+            finalize_bdc_composite_string("BDC Chrome Prospect · Auto"),
+        )
+
     def test_chrome_base(self) -> None:
         r = {
             "pilot_is_snack_pack": "0",

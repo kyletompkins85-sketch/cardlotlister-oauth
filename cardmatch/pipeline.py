@@ -12,12 +12,12 @@ from cardmatch.card_type import (
     row_excluded_from_listing_counts,
     row_is_graded_listing,
     write_listing_count_reports,
+    write_listing_counts_by_player_bdc_order,
 )
 from cardmatch.normalize import abridge_listing_title
 from cardmatch.pilot import match_pilot
-from cardmatch.player_index import load_bowman_draft_players
+from cardmatch.player_index import load_bdc_player_rank, load_bowman_draft_players
 from cardmatch.review_slice import (
-    load_bdc_player_rank,
     load_player_card_rank,
     load_review_config,
     load_review_player_keys,
@@ -75,13 +75,13 @@ def _row_is_graded(row: Dict[str, Any]) -> bool:
 
 def _row_excluded_from_review_focus(row: Dict[str, Any], classification_focus: str) -> bool:
     """
-    Rows omitted from `review_focus.csv`. For **`bdc_chrome_prospect`**, use the same rules as
-    `listing_counts_by_card_type.csv` so the focus matches that aggregate bucket.
+    Rows omitted from `review_focus.csv`. Uses `row_excluded_from_listing_counts` so focus matches
+    listing aggregates: **lot**, **pick / pick-your-player**, **set builder**, **complete set**,
+    **presale**, **graded**, and primary labels like **Lot / multi-card** / **Pick / set builder**
+    (classifier `WF_*` flags + primary type). `classification_focus` is kept for call-site clarity.
     """
-    f = (classification_focus or "").strip().lower()
-    if f == "bdc_chrome_prospect":
-        return row_excluded_from_listing_counts(row)
-    return _row_is_lot(row) or _row_is_graded(row)
+    _ = classification_focus  # exclusions do not vary by focus
+    return row_excluded_from_listing_counts(row)
 
 
 def _price_round_dollar(price: Any) -> str:
@@ -146,6 +146,11 @@ def _focus_explain(classification_focus: str) -> str:
             "`primary_exact` = canonical `row_primary_card_type` equals **`primary_card_type_exact`** "
             "in `review_targets.json`"
         )
+    if f == "unknown_player":
+        return (
+            "`unknown_player` = `pilot_player_status` is **unknown** (or guess is literal **(unknown player)**); "
+            "non-card junk excluded via same rules as listing counts (lot/pick/set/complete/presale/graded)"
+        )
     return (classification_focus or "").strip() or "(see `review_targets.json`)"
 
 
@@ -177,6 +182,7 @@ def review_focus_row_source(
         or f == "other"
         or f == "bdc_chrome_prospect_parallel"
         or f == "primary_exact"
+        or f == "unknown_player"
     ):
         return rows_out
     return slice_rows
@@ -218,6 +224,8 @@ def _resolve_focus_sort_mode(
         return "bdc_then_price_asc"
     if classification_focus == "other":
         return "player_then_price_asc"
+    if classification_focus == "unknown_player":
+        return "price_asc_then_title"
     return slice_sort or "bd_then_price_asc"
 
 
@@ -358,6 +366,8 @@ def write_review_derived_csvs(
         focus_rows.sort(key=_make_rank_then_price_key(bdc_rank))
     elif focus_sort_mode == "price_desc":
         focus_rows.sort(key=_review_sort_key_price_desc)
+    elif focus_sort_mode == "price_asc_then_title":
+        focus_rows.sort(key=_unclassified_sort_key)
     else:
         focus_rows.sort(key=_review_sort_key_bd_then_price_asc)
 
@@ -379,6 +389,8 @@ def write_review_derived_csvs(
         )
     elif focus_sort_mode == "price_desc":
         focus_sort_blurb = _review_sort_label("price_desc")
+    elif focus_sort_mode == "price_asc_then_title":
+        focus_sort_blurb = "price ascending (missing price last), then title A–Z (same order as review_unclassified)"
     else:
         focus_sort_blurb = (
             "BD# ascending (order from `card_numbers` in `review_targets.json`), "
@@ -451,12 +463,14 @@ def score_rows_to_run_dir(
     input_label: str,
     run_allow: Set[str],
     no_run_filter: bool,
-) -> Tuple[Path, Path, Path, Path, Path, Path, Path]:
+) -> Tuple[Path, Path, Path, Path, Path, Path, Path, Path]:
     """
     Score listing rows and write pilot_scored_full.csv, review_slice.csv,
     review_focus.csv, review_unclassified.csv, run_summary.md,
-    listing_counts_by_card_type.csv, listing_counts_by_player_and_card_type.csv.
-    Returns paths (full, slice, focus, unclassified, summary, counts_by_type, counts_by_player).
+    listing_counts_by_card_type.csv, listing_counts_by_player_and_card_type.csv,
+    listing_counts_by_player_bdc_order.csv.
+    Returns paths (full, slice, focus, unclassified, summary, counts_by_type, counts_by_player,
+    counts_by_player_bdc_order).
     """
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -538,6 +552,15 @@ def score_rows_to_run_dir(
 
     counts_by_type_path, counts_by_player_path, ct_counts = write_listing_count_reports(rows_out, out_dir)
 
+    try:
+        bdc_cap = int(rc.get("bdc_rank_max") or 200)
+    except (TypeError, ValueError):
+        bdc_cap = 200
+    bdc_cap = max(1, min(bdc_cap, 500))
+    counts_by_player_bdc_path = write_listing_counts_by_player_bdc_order(
+        rows_out, out_dir, checklist, bdc_cap=bdc_cap
+    )
+
     summary_path = out_dir / "run_summary.md"
     lines = [
         f"# Pilot run {out_dir.name}",
@@ -563,10 +586,13 @@ def score_rows_to_run_dir(
         f"- `{slice_path.name}` — {_review_slice_export_blurb(card_nums)} slice ({sort_blurb}); **excludes** lot listings (`WF_lot`) and graded slabs (`WF_graded` / `pilot_is_graded`)",
         f"- `{focus_path.name}` — rows matching **classification_focus** ({_focus_explain(classification_focus)}); "
         f"pool from `review_focus_scope` / defaults (see `review_targets.json`); **sort:** {focus_sort_blurb}; "
-        "**excludes** lot listings (`WF_lot`) and graded slabs (`WF_graded` / `pilot_is_graded`)",
+        "**excludes** same non-card listings as listing counts: lot / pick / set builder / complete set / presale "
+        "(`WF_lot`, `WF_pick`, `WF_set_builder`, `WF_complete_set`, `WF_presale`) plus graded slabs",
         f"- `{unclassified_path.name}` — rows with **unknown** player (could not match checklist)",
         f"- `{counts_by_type_path.name}` — **sum of listings by card type** (mutually exclusive primary type)",
         f"- `{counts_by_player_path.name}` — **listings by player and card type** (matrix)",
+        f"- `{counts_by_player_bdc_path.name}` — **listings per player**, sorted by **BDC#** (1–{bdc_cap} checklist order); "
+        "unmapped players last",
         "",
         "## Listings by card type",
         "",
@@ -611,6 +637,7 @@ def score_rows_to_run_dir(
         summary_path,
         counts_by_type_path,
         counts_by_player_path,
+        counts_by_player_bdc_path,
     )
 
 

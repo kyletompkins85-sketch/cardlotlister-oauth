@@ -2,13 +2,14 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
-from cardmatch.card_type import write_listing_count_reports
+from cardmatch.card_type import write_listing_count_reports, write_listing_counts_by_player_bdc_order
 from cardmatch.pipeline import load_rows_from_csv, score_rows_to_run_dir, write_review_derived_csvs
 from cardmatch.player_index import default_checklist_path
 from cardmatch.supabase_fetch import fetch_term_search_items_full_search
@@ -126,8 +127,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument(
         "--listing-counts-only",
         action="store_true",
-        help="Read scored CSV and write only listing_counts_by_card_type.csv and "
-        "listing_counts_by_player_and_card_type.csv (recomputes primary card_type from titles/flags). Fast.",
+        help="Read scored CSV and write only listing_counts_by_card_type.csv, "
+        "listing_counts_by_player_and_card_type.csv, and listing_counts_by_player_bdc_order.csv "
+        "(recomputes primary card_type from titles/flags). Fast.",
     )
     args = ap.parse_args(argv)
 
@@ -180,8 +182,17 @@ def main(argv: Optional[List[str]] = None) -> int:
         out_dir.mkdir(parents=True, exist_ok=True)
         rows_in, _ = load_rows_from_csv(inp)
         type_path, player_path, _ = write_listing_count_reports(rows_in, out_dir)
+        rc = json.loads(rc_path.read_text(encoding="utf-8")) if rc_path.is_file() else {}
+        try:
+            bdc_cap = int(rc.get("bdc_rank_max") or 200)
+        except (TypeError, ValueError):
+            bdc_cap = 200
+        bdc_order_path = write_listing_counts_by_player_bdc_order(
+            rows_in, out_dir, checklist, bdc_cap=bdc_cap
+        )
         print(f"Wrote {type_path}")
         print(f"Wrote {player_path}")
+        print(f"Wrote {bdc_order_path}")
         return 0
 
     rows_in: List[Dict[str, Any]] = []
@@ -262,6 +273,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             summary_path,
             counts_by_type_path,
             counts_by_player_path,
+            counts_by_player_bdc_path,
         ) = score_rows_to_run_dir(
             rows_in=rows_in,
             out_dir=out_dir,
@@ -284,6 +296,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     print(f"Wrote {summary_path}")
     print(f"Wrote {counts_by_type_path}")
     print(f"Wrote {counts_by_player_path}")
+    print(f"Wrote {counts_by_player_bdc_path}")
     if baseline and baseline.is_file() and ch_path.is_file():
         print(f"Wrote {ch_path}")
     print("")

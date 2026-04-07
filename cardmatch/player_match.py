@@ -13,7 +13,30 @@ except Exception:
     fuzz = None
     _HAS_RAPIDFUZZ = False
 
-WORD_RE = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
+# Unicode letters + optional apostrophe chunk (O'Brien). Digits are not part of words here.
+WORD_RE = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)?", re.UNICODE)
+
+# Jr / roman numerals often omitted on eBay but present on checklist.
+_GEN_SUFFIX_TOKENS = frozenset(
+    {
+        "jr",
+        "sr",
+        "ii",
+        "iii",
+        "iv",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+    }
+)
+
+
+def _fold_for_match(s: str) -> str:
+    """Lowercase ASCII fold of Latin letters (Peña ↔ Pena, Jesús ↔ Jesus) for token compare."""
+    s = unicodedata.normalize("NFKD", (s or "").strip())
+    return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
+
 
 NOISE = {
     "topps",
@@ -67,10 +90,44 @@ def _norm_tokens(s: str) -> List[str]:
     ts = WORD_RE.findall(s or "")
     out: List[str] = []
     for t in ts:
-        t = t.lower().strip()
+        if t.isdigit():
+            continue
+        t = _fold_for_match(t)
         if not t or t in NOISE:
             continue
         out.append(t)
+    return out
+
+
+def _strip_generational_suffix(name_tokens: List[str]) -> List[str]:
+    """Drop trailing Jr/Sr/II/III when titles omit them (e.g. James Tibbs vs James Tibbs III)."""
+    if len(name_tokens) <= 1:
+        return name_tokens
+    last = name_tokens[-1].rstrip(".")
+    if last in _GEN_SUFFIX_TOKENS:
+        return name_tokens[:-1]
+    return name_tokens
+
+
+def _merge_split_lastname_tokens(
+    title_tokens: List[str], last_index: Dict[str, List[int]]
+) -> List[str]:
+    """
+    Merge tokens when concatenation is a checklist last name (e.g. 'la'+'course' -> 'lacourse').
+    """
+    if len(title_tokens) < 2:
+        return title_tokens
+    out: List[str] = []
+    i = 0
+    while i < len(title_tokens):
+        if i + 1 < len(title_tokens):
+            merged = title_tokens[i] + title_tokens[i + 1]
+            if len(merged) >= 5 and merged in last_index:
+                out.append(merged)
+                i += 2
+                continue
+        out.append(title_tokens[i])
+        i += 1
     return out
 
 
@@ -125,7 +182,7 @@ def _best_window_score(title_tokens: List[str], name_tokens: List[str]) -> Tuple
 def build_last_index(names: List[str]) -> Dict[str, List[int]]:
     last_index: Dict[str, List[int]] = {}
     for idx, nm in enumerate(names):
-        toks = _norm_tokens(nm)
+        toks = _strip_generational_suffix(_norm_tokens(nm))
         if not toks:
             continue
         last = toks[-1]
@@ -190,7 +247,7 @@ def _eval_candidate_ids(
     best_win = ""
     for i in cand_ids:
         nm = names[i]
-        nm_tokens = _norm_tokens(nm)
+        nm_tokens = _strip_generational_suffix(_norm_tokens(nm))
         if not nm_tokens:
             continue
         if all(t in title_tokens for t in nm_tokens):
@@ -216,6 +273,7 @@ def guess_player_from_title(
     title = unicodedata.normalize("NFKC", (title or "").strip())
     title = expand_concatenated_names(title)
     title_tokens = _norm_tokens(title)
+    title_tokens = _merge_split_lastname_tokens(title_tokens, last_index)
     title_tokens = _expand_de_prefix_tokens(title_tokens, last_index)
     if not title_tokens:
         return "", 0.0, ""

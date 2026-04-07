@@ -6,15 +6,15 @@ on:
       dad_csv:
         description: "Dad classified CSV (has CT_list + player_guess)"
         required: true
-        default: "data/listings_2025_topps_update_jsonl_classified.csv"
+        default: "data/topps_update_2025/listings_2025_topps_update_jsonl_classified.csv"
       market_csv:
         description: "Market classified CSV to trim"
         required: true
-        default: "data/term_search_items_table_classified.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified.csv"
       out_csv:
         description: "Output trimmed CSV"
         required: true
-        default: "data/term_search_items_table_classified_trimmed_to_dad.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified_trimmed_to_dad.csv"
 
 permissions:
   contents: write
@@ -51,9 +51,9 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          mkdir -p "$(dirname "${OUT_CSV}")"
 
-          python3 scripts/trim_market_to_dad_pairs.py \
+          python3 scripts/topps_update_2025/trim_market_to_dad_pairs.py \
             --dad-csv "${DAD_CSV}" \
             --market-csv "${MARKET_CSV}" \
             --out "${OUT_CSV}"
@@ -66,7 +66,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*trimmed_to_dad.csv || true
+          git add data/topps_update_2025/*trimmed_to_dad.csv || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

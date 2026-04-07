@@ -21,9 +21,30 @@ def _clean(s: str) -> str:
 RX_COMPLETE_SET = _re(
     r"\bcomplete\s+set\b|\bset\s+complete\b|\bcomplete\b.*\bset\b"
 )
-RX_PICK         = _re(r"\b(pick\s*your|you\s*pick|pick\s*one|pick)\b|\b(choose\s*your|choose\s*one|choose)\b")
+# Pick-your / multi-SKU seller inventory (single-card review should exclude these).
+RX_PICK = _re(
+    r"\b(pick\s*your|you\s*pick|u\s*pick|pick\s*one|pick)\b"
+    r"|\b(choose\s*your|choose\s*one|choose)\b"
+    # "Singles Paper BD1-BD200", "Singles Paper BD1-BD200 Combined Shipping!"
+    r"|\bSingles\s+(?:Paper|Chrome)\s+BD\d+\s*-\s*BD\d+"
+    r"|\bSingles\s+(?:Paper|Chrome)\s+BDC\d+\s*-\s*BDC\d+"
+    r"|\bSingles\s+BD\d+\s*-\s*BD\d+"
+    r"|\bSingles\s+BDC\d+\s*-\s*BDC\d+"
+    # "… bdc1-bdc200,6 card minimum,20% off, free ship"
+    r"|\b\d+\s+card\s+minimum\b"
+    r"|\bminimum\s+\d+\s+cards?\b"
+    # Multi-insert seller header: "inserts - In Action, Prized Prospects, Axis, Draft Night"
+    r"|\binserts\s*-\s*.+,.+"
+    # "Singles - volume discounts - FREE SHIPPING"
+    r"|\bSingles\s*-\s*(?:volume|discount)"
+    # "Parallels, Mojos, Chrome Prospects and Inserts"
+    r"|\bParallels\s*,\s*Mojos\b"
+    r"|\bChrome\s+Prospects\s+and\s+Inserts\b"
+)
 RX_LOT          = _re(r"\blot\b|\blots\b")
-RX_SET_BUILDER  = _re(r"\bset\s*builder\b|\bcomplete\s+your\s+set\b")
+RX_SET_BUILDER  = _re(
+    r"\bset\s*builder\b|\bcomplete\s+your\s+set\b|\bbuild\s+your\s+set\b"
+)
 RX_PRESALE      = _re(r"\bpre[\s-]?sale\b|\bpre[\s-]?order\b|\bpresale\b|\bpreorder\b")
 
 # Stock

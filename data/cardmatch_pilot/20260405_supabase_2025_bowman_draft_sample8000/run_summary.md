@@ -9,20 +9,21 @@
 
 ## Counts
 
-- **pilot_player_status:** {'matched': 5687, 'unknown': 2313}
-- **is_likely_base yes:** 493 / 8000
-- **review_slice rows (BD-1..BD-10 players):** 1208
-- **classification_focus (`review_targets.json`):** `refractor` → **268** rows in `review_focus.csv`
-- **review_unclassified (unknown player):** 2313
+- **pilot_player_status:** {'matched': 5769, 'unknown': 2231}
+- **is_likely_base yes:** 424 / 8000
+- **review_slice rows (BD-1..BD-10 players):** 1176
+- **classification_focus (`review_targets.json`):** `unknown_player` → **4** rows in `review_focus.csv`
+- **review_unclassified (unknown player):** 2231
 
 ## Outputs
 
 - `pilot_scored_full.csv` — full scored CSV
-- `review_slice.csv` — BD-1..BD-10 player slice (BD# ascending, then price ascending (missing price last)); **excludes** lot listings (`WF_lot`)
-- `review_focus.csv` — rows matching **classification_focus** (`refractor` = primary type **Refractor**, **axis refractor**, or **Chrome** parallel refractor family (`Chrome x-Fractor`, `Chrome Refractor …`); not **Chrome Base**); pool from `review_focus_scope` / defaults (see `review_targets.json`); **sort:** BD# ascending (checklist order), then price ascending (missing price last); **excludes** lot listings (`WF_lot`)
+- `review_slice.csv` — BD-1..BD-10 player slice (BD# ascending, then price ascending (missing price last)); **excludes** lot listings (`WF_lot`) and graded slabs (`WF_graded` / `pilot_is_graded`)
+- `review_focus.csv` — rows matching **classification_focus** (`unknown_player` = `pilot_player_status` is **unknown** (or guess is literal **(unknown player)**); non-card junk excluded via same rules as listing counts (lot/pick/set/complete/presale/graded)); pool from `review_focus_scope` / defaults (see `review_targets.json`); **sort:** price ascending (missing price last), then title A–Z (same order as review_unclassified); **excludes** same non-card listings as listing counts: lot / pick / set builder / complete set / presale (`WF_lot`, `WF_pick`, `WF_set_builder`, `WF_complete_set`, `WF_presale`) plus graded slabs
 - `review_unclassified.csv` — rows with **unknown** player (could not match checklist)
 - `listing_counts_by_card_type.csv` — **sum of listings by card type** (mutually exclusive primary type)
 - `listing_counts_by_player_and_card_type.csv` — **listings by player and card type** (matrix)
+- `listing_counts_by_player_bdc_order.csv` — **listings per player**, sorted by **BDC#** (1–200 checklist order); unmapped players last
 
 ## Listings by card type
 
@@ -30,48 +31,100 @@ Mutually exclusive **primary** type per listing (`cardmatch/card_type.py`). Bowm
 
 | card_type | listings |
 |-----------|----------|
-| Lot / multi-card | 1453 |
-| Numbered / serial | 1375 |
-| Chrome Refractor Plain | 872 |
-| Refractor | 545 |
-| Complete set | 538 |
-| Base-Paper | 493 |
-| Pick / set builder | 385 |
-| Chrome Base | 362 |
-| Chrome Prospect Autographs | 342 |
-| BDC / Chrome stock | 219 |
-| Presale | 201 |
-| axis plain | 173 |
-| Prized Prospect | 133 |
-| Autograph | 129 |
-| Mojo | 112 |
-| Draft Night | 97 |
-| Chrome Refractor Sky Blue | 84 |
-| Chrome x-Fractor | 76 |
-| Chrome (non-base) | 69 |
-| Bowman In Action | 38 |
-| Etched In Glass | 34 |
-| Snack-Pack | 32 |
-| Chrome Refractor Green | 30 |
-| Chrome Refractor Purple | 27 |
-| Final Draft | 26 |
-| Sapphire | 23 |
-| Chrome Refractor Yellow | 20 |
-| X-Fractor | 17 |
-| axis refractor | 14 |
-| Base-Orange | 13 |
-| Chrome Refractor Gold | 11 |
+| BDC Chrome Prospect · Refractor | 819 |
+| BDC Chrome Prospect · Auto | 427 |
+| Base-Paper | 426 |
+| BDC Chrome Prospect · Base | 424 |
+| BDC Chrome Prospect · Sky Blue /499 | 206 |
+| Prized Prospects | 156 |
+| Bowman Axis · Base | 130 |
+| BDC Chrome Prospect · Blue /150 | 123 |
+| BDC Chrome Prospect · Green /99 | 113 |
+| BDC Chrome Prospect · X-Fractor | 96 |
+| BDC Chrome Prospect · Sky Blue /499 · Auto | 94 |
+| BDC Chrome Prospect · Blue /150 · Auto | 81 |
+| BDC Chrome Prospect · Purple /250 · Auto | 77 |
+| BDC Chrome Prospect · Aqua /125 | 74 |
+| BDC Chrome Prospect · Green /99 · Auto | 69 |
+| BDC Chrome Prospect · Purple /250 | 68 |
+| BDC Chrome Prospect · Yellow /75 | 64 |
+| Bowman Draft Night | 63 |
+| Bowman In Action | 59 |
+| BDC Chrome Prospect · Fuchsia Reptilian /199 | 57 |
+| BDC Chrome Prospect · Gold /50 | 39 |
+| Snack-Pack | 36 |
+| BDC Chrome Prospect · Steel Metal /100 | 34 |
+| Etched in Glass | 34 |
+| BDC Chrome Prospect · Sapphire | 30 |
+| BDC Chrome Prospect · Aqua /125 · Auto | 27 |
+| BDC Chrome Prospect · Gold /50 · Auto | 27 |
+| BDC Chrome Prospect · Logo Refractor /35 | 25 |
+| Image Variations | 25 |
+| BDC Chrome Prospect · Yellow /75 · Auto | 23 |
+| BDC Chrome Prospect · Orange /25 | 17 |
+| BDC Chrome Prospect · Fuchsia Reptilian /199 · Auto | 16 |
+| BDC Chrome Prospect · Orange /25 · Auto | 16 |
+| Final Draft | 16 |
+| BDC Chrome Prospect · Sparkle | 15 |
+| BDC Chrome Prospect · Aqua Reptilian | 13 |
+| BDC Chrome Prospect · Speckle Refractor | 10 |
 | Bowman Spotlight | 10 |
-| Speckle | 9 |
-| Image Variation | 7 |
-| College Variation | 6 |
-| Graded | 4 |
-| axis gold | 4 |
-| axis orange | 4 |
-| Chrome Refractor Orange | 3 |
+| BDC Chrome Prospect · Parallel · Auto | 9 |
+| BDC Chrome Prospect · Sparkle · Auto | 8 |
+| Bowman Draft Night · Gold | 8 |
+| BDC Chrome Prospect · Red /5 | 7 |
+| BDC Chrome Prospect · Black /73 · Auto | 5 |
+| BDC Chrome Prospect · Mini Diamond | 5 |
+| BDC Chrome Prospect · Speckle Refractor · Auto | 5 |
+| Bowman In Action · Gold | 5 |
+| Bowman In Action · Orange | 5 |
+| Sapphire | 5 |
+| Bowman Axis · Gold | 4 |
+| Bowman Axis · Orange | 4 |
+| Prized Prospects · Auto | 4 |
+| Prized Prospects · Gold | 4 |
+| Prized Prospects · Green | 4 |
+| Prized Prospects · Mini Diamond | 4 |
+| Prized Prospects · Orange | 4 |
+| BDC Chrome Prospect · Red /5 · Auto | 3 |
+| BDC Chrome Prospect · X-Fractor · Auto | 3 |
+| Base-Paper · Black Border | 3 |
+| Bowman Axis · Mini Diamond | 3 |
+| Bowman Axis · Parallel | 3 |
+| Bowman Draft Night · Green | 3 |
+| Bowman Draft Night · Mini Diamond | 3 |
+| Bowman In Action · Auto | 3 |
+| Bowman In Action · Blue | 3 |
+| Bowman In Action · Green | 3 |
+| Bowman In Action · Mini Diamond | 3 |
 | Crystallized | 3 |
-| axis mini-diamond | 3 |
-| axis green | 2 |
-| Chrome Refractor Black | 1 |
-| axis red | 1 |
+| Image Variations · Green · Auto | 3 |
+| BDC Chrome Prospect · Magenta Printing Plate | 2 |
+| BDC Chrome Prospect · Parallel | 2 |
+| BDC Chrome Prospect · True Black /10 | 2 |
+| Bowman Axis · Green | 2 |
+| Bowman Draft Night · Auto | 2 |
+| Bowman Draft Night · Gold · Mini Diamond · Auto | 2 |
+| Chrome Prospect College Variations | 2 |
+| Crystallized · Gold | 2 |
+| Crystallized · Orange | 2 |
+| BDC Chrome Prospect · Black /73 | 1 |
+| BDC Chrome Prospect · Printing Plate · Auto | 1 |
+| BDC Chrome Prospect · Refractor · Auto | 1 |
+| BDC Chrome Prospect · Speckle · Auto | 1 |
+| BDC Chrome Prospect · Superfractor · Auto | 1 |
+| BDC Chrome Prospect · True Black /10 · Auto | 1 |
+| Bowman Axis · Red | 1 |
+| Bowman Draft Night · Orange · Auto | 1 |
+| Bowman Draft Night · Purple | 1 |
+| Bowman In Action · Purple | 1 |
+| Bowman In Action · Red | 1 |
+| Bowman Spotlight · Red | 1 |
+| Chrome Prospect College Variations · Red /5 | 1 |
+| Crystallized · Red | 1 |
+| Image Variations · Auto | 1 |
+| Image Variations · Purple · Auto | 1 |
+| Prized Prospects · Blue | 1 |
+| Prized Prospects · Purple | 1 |
+| Prized Prospects · Red | 1 |
 

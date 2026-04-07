@@ -6,11 +6,11 @@ on:
       input_csv:
         description: "Input CSV with a title column"
         required: true
-        default: "data/unclassified_titles_canvas.csv"
+        default: "data/topps_update_2025/unclassified_titles_canvas.csv"
       players_csv:
         description: "Players CSV path"
         required: true
-        default: "data/2025_Topps_Update_player_list.csv"
+        default: "data/topps_update_2025/2025_Topps_Update_player_list.csv"
       max_rows:
         description: "Max rows to process"
         required: true
@@ -61,7 +61,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          OUT_DIR="$(dirname "${INPUT_CSV}")"
+          mkdir -p "${OUT_DIR}"
 
           SLUG="$(python3 - <<'PY'
           import os, re
@@ -73,14 +74,14 @@ jobs:
           PY
           )"
 
-          OUT="data/player_guesses_${SLUG}.csv"
+          OUT="${OUT_DIR}/player_guesses_${SLUG}.csv"
 
           EXTRA=""
           if [ "${SKIP_LOTS}" = "true" ] || [ "${SKIP_LOTS}" = "True" ]; then
             EXTRA="--skip-lots"
           fi
 
-          python3 scripts/fuzzy_match_player_from_titles.py \
+          python3 scripts/topps_update_2025/fuzzy_match_player_from_titles.py \
             --input "${INPUT_CSV}" \
             --players "${PLAYERS_CSV}" \
             --out "${OUT}" \
@@ -96,7 +97,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/player_guesses_*.csv || true
+          git add data/topps_update_2025/player_guesses_*.csv || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

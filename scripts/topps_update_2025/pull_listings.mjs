@@ -1,4 +1,4 @@
-// scripts/pull_listings.mjs
+// scripts/topps_update_2025/pull_listings.mjs
 // Pulls listings from your Worker (which pulls from Supabase) and writes a dataset file into the repo.
 
 import fs from "node:fs";
@@ -46,7 +46,7 @@ async function main() {
   }
 
   // write dataset
-  const outDir = path.join(process.cwd(), "data");
+  const outDir = path.join(process.cwd(), "data", "topps_update_2025");
   fs.mkdirSync(outDir, { recursive: true });
 
   const safeQ = (Q || "all").toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");

@@ -1,27 +1,15 @@
 player,card_type,listing_count
-(unknown player),Base-Paper,570
-(unknown player),BDC Chrome Prospect · Refractor,81
-(unknown player),BDC Chrome Prospect · Base,48
-(unknown player),BDC Chrome Prospect · Green /99,11
 (unknown player),BDC Chrome Prospect · Auto,9
-(unknown player),BDC Chrome Prospect · Blue /150,5
-(unknown player),BDC Chrome Prospect · Yellow /75,5
-(unknown player),BDC Chrome Prospect · Purple /250 · Auto,5
-(unknown player),BDC Chrome Prospect · Sky Blue /499,5
-(unknown player),BDC Chrome Prospect · Green /99 · Auto,4
-(unknown player),BDC Chrome Prospect · Fuchsia Reptilian /199,4
-(unknown player),BDC Chrome Prospect · Purple /250,4
-(unknown player),BDC Chrome Prospect · Gold /50,2
+(unknown player),BDC Chrome Prospect · Refractor,4
+(unknown player),BDC Chrome Prospect · Sky Blue /499,4
+(unknown player),BDC Chrome Prospect · Blue /150,3
 (unknown player),BDC Chrome Prospect · Yellow /75 · Auto,2
-(unknown player),BDC Chrome Prospect · Aqua /125,2
-(unknown player),Bowman Axis · Base,7
-(unknown player),Bowman Draft Night,1
-(unknown player),Bowman Spotlight,4
-(unknown player),Prized Prospects,20
-(unknown player),Prized Prospects · Red,1
-(unknown player),Prized Prospects · Gold,1
-Aaron Walton,Base-Paper,18
-Aaron Walton,BDC Chrome Prospect · Auto,27
+(unknown player),BDC Chrome Prospect · Purple /250,2
+(unknown player),BDC Chrome Prospect · Base,2
+(unknown player),BDC Chrome Prospect · Purple /250 · Auto,1
+(unknown player),BDC Chrome Prospect · Gold /50,1
+Aaron Walton,Base-Paper,14
+Aaron Walton,BDC Chrome Prospect · Auto,31
 Aaron Walton,BDC Chrome Prospect · Refractor,20
 Aaron Walton,BDC Chrome Prospect · Base,12
 Aaron Walton,BDC Chrome Prospect · Sky Blue /499,9
@@ -37,8 +25,8 @@ Aaron Walton,BDC Chrome Prospect · Aqua /125 · Auto,2
 Aaron Walton,BDC Chrome Prospect · Green /99 · Auto,2
 Aaron Walton,BDC Chrome Prospect · Steel Metal /100,2
 Aaron Walton,BDC Chrome Prospect · Black /73 · Auto,1
-Aaron Watson,Base-Paper,24
-Aaron Watson,BDC Chrome Prospect · Auto,17
+Aaron Watson,Base-Paper,17
+Aaron Watson,BDC Chrome Prospect · Auto,24
 Aaron Watson,BDC Chrome Prospect · Refractor,12
 Aaron Watson,BDC Chrome Prospect · Base,11
 Aaron Watson,BDC Chrome Prospect · X-Fractor,6
@@ -83,8 +71,8 @@ Aidan Miller,BDC Chrome Prospect · Blue /150,4
 Aidan Miller,BDC Chrome Prospect · Aqua /125,2
 Aidan Miller,BDC Chrome Prospect · Purple /250,2
 Aidan Miller,BDC Chrome Prospect · Yellow /75,1
-Aidan West,Base-Paper,21
-Aidan West,BDC Chrome Prospect · Auto,23
+Aidan West,Base-Paper,20
+Aidan West,BDC Chrome Prospect · Auto,24
 Aidan West,BDC Chrome Prospect · Refractor,23
 Aidan West,BDC Chrome Prospect · Base,15
 Aidan West,BDC Chrome Prospect · Sky Blue /499 · Auto,9
@@ -103,9 +91,9 @@ Aidan West,BDC Chrome Prospect · Purple /250 · Auto,2
 Aidan West,BDC Chrome Prospect · Aqua /125,2
 Aidan West,BDC Chrome Prospect · Aqua /125 · Auto,2
 Aidan West,BDC Chrome Prospect · Green /99 · Auto,2
-AJ Russell,Base-Paper,22
+AJ Russell,Base-Paper,18
 AJ Russell,BDC Chrome Prospect · Refractor,24
-AJ Russell,BDC Chrome Prospect · Auto,15
+AJ Russell,BDC Chrome Prospect · Auto,19
 AJ Russell,BDC Chrome Prospect · Sky Blue /499,12
 AJ Russell,BDC Chrome Prospect · Sky Blue /499 · Auto,8
 AJ Russell,BDC Chrome Prospect · X-Fractor,7
@@ -214,10 +202,10 @@ Ben Jacobs,BDC Chrome Prospect · Aqua Reptilian,2
 Ben Jacobs,BDC Chrome Prospect · Sky Blue /499,2
 Ben Jacobs,BDC Chrome Prospect · Purple /250,1
 Ben Jacobs,Snack-Pack,1
-Billy Carlson,Base-Paper,80
+Billy Carlson,Base-Paper,78
 Billy Carlson,BDC Chrome Prospect · Refractor,83
 Billy Carlson,BDC Chrome Prospect · Base,40
-Billy Carlson,BDC Chrome Prospect · Auto,21
+Billy Carlson,BDC Chrome Prospect · Auto,23
 Billy Carlson,BDC Chrome Prospect · Sky Blue /499,14
 Billy Carlson,BDC Chrome Prospect · Gold /50 · Auto,11
 Billy Carlson,BDC Chrome Prospect · Sky Blue /499 · Auto,8
@@ -283,10 +271,10 @@ Braden Montgomery,BDC Chrome Prospect · Green /99,2
 Braden Montgomery,BDC Chrome Prospect · Magenta Printing Plate,2
 Braden Montgomery,Bowman Spotlight,2
 Braden Montgomery,Snack-Pack,2
-Brady Ebel,Base-Paper,45
+Brady Ebel,Base-Paper,34
 Brady Ebel,BDC Chrome Prospect · Refractor,37
 Brady Ebel,BDC Chrome Prospect · Base,34
-Brady Ebel,BDC Chrome Prospect · Auto,19
+Brady Ebel,BDC Chrome Prospect · Auto,30
 Brady Ebel,BDC Chrome Prospect · Sky Blue /499 · Auto,13
 Brady Ebel,BDC Chrome Prospect · Green /99 · Auto,9
 Brady Ebel,BDC Chrome Prospect · Gold /50 · Auto,6
@@ -337,8 +325,8 @@ Brian Curley,BDC Chrome Prospect · Base,10
 Brian Curley,BDC Chrome Prospect · Blue /150,1
 Brian Curley,BDC Chrome Prospect · X-Fractor,1
 Brian Curley,BDC Chrome Prospect · Gold /50,1
-Briggs McKenzie,Base-Paper,12
-Briggs McKenzie,BDC Chrome Prospect · Auto,20
+Briggs McKenzie,Base-Paper,10
+Briggs McKenzie,BDC Chrome Prospect · Auto,22
 Briggs McKenzie,BDC Chrome Prospect · Refractor,18
 Briggs McKenzie,BDC Chrome Prospect · Base,10
 Briggs McKenzie,BDC Chrome Prospect · Sky Blue /499 · Auto,10
@@ -391,9 +379,9 @@ Cade Crossland,BDC Chrome Prospect · Fuchsia Reptilian /199,3
 Cade Crossland,BDC Chrome Prospect · Mini Diamond,2
 Cade Crossland,BDC Chrome Prospect · Orange /25,2
 Cade Crossland,Snack-Pack,1
-Cade Obermueller,Base-Paper,15
+Cade Obermueller,Base-Paper,14
 Cade Obermueller,BDC Chrome Prospect · Refractor,25
-Cade Obermueller,BDC Chrome Prospect · Auto,11
+Cade Obermueller,BDC Chrome Prospect · Auto,12
 Cade Obermueller,BDC Chrome Prospect · Sky Blue /499,10
 Cade Obermueller,BDC Chrome Prospect · Base,10
 Cade Obermueller,BDC Chrome Prospect · Sky Blue /499 · Auto,4
@@ -490,8 +478,8 @@ Cameron Maldonado,BDC Chrome Prospect · Black /73 · Auto,2
 Cameron Maldonado,BDC Chrome Prospect · Speckle Refractor · Auto,2
 Cameron Maldonado,BDC Chrome Prospect · Aqua Reptilian,1
 Cameron Maldonado,Snack-Pack,1
-Cameron Millar,Base-Paper,10
-Cameron Millar,BDC Chrome Prospect · Auto,17
+Cameron Millar,Base-Paper,8
+Cameron Millar,BDC Chrome Prospect · Auto,19
 Cameron Millar,BDC Chrome Prospect · Refractor,8
 Cameron Millar,BDC Chrome Prospect · Base,6
 Cameron Millar,BDC Chrome Prospect · Purple /250 · Auto,6
@@ -512,9 +500,9 @@ Cameron Millar,BDC Chrome Prospect · Sky Blue /499 · Auto,2
 Cameron Millar,BDC Chrome Prospect · Parallel · Auto,1
 Cameron Millar,BDC Chrome Prospect · Steel Metal /100,1
 Cameron Millar,Snack-Pack,4
-Cameron Nelson,Base-Paper,22
+Cameron Nelson,Base-Paper,18
+Cameron Nelson,BDC Chrome Prospect · Auto,24
 Cameron Nelson,BDC Chrome Prospect · Refractor,23
-Cameron Nelson,BDC Chrome Prospect · Auto,20
 Cameron Nelson,BDC Chrome Prospect · Base,16
 Cameron Nelson,BDC Chrome Prospect · Sparkle · Auto,6
 Cameron Nelson,BDC Chrome Prospect · Purple /250 · Auto,6
@@ -538,6 +526,7 @@ Carlos Lagrange,BDC Chrome Prospect · Green /99,4
 Carlos Lagrange,BDC Chrome Prospect · Aqua Reptilian,4
 Carlos Lagrange,BDC Chrome Prospect · Logo Refractor /35,4
 Carlos Lagrange,BDC Chrome Prospect · Purple /250,2
+Carlos Lagrange,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Carlos Lagrange,BDC Chrome Prospect · Gold /50,2
 Carson Benge,Base-Paper,16
 Carson Benge,BDC Chrome Prospect · Refractor,32
@@ -552,8 +541,8 @@ Carson Benge,BDC Chrome Prospect · Aqua Reptilian,2
 Carson Benge,Bowman In Action,10
 Carson Benge,Bowman In Action · Mini Diamond,4
 Carson Benge,Snack-Pack,2
-Charles Davalan,Base-Paper,26
-Charles Davalan,BDC Chrome Prospect · Auto,23
+Charles Davalan,Base-Paper,22
+Charles Davalan,BDC Chrome Prospect · Auto,27
 Charles Davalan,BDC Chrome Prospect · Refractor,16
 Charles Davalan,BDC Chrome Prospect · Base,13
 Charles Davalan,BDC Chrome Prospect · Sky Blue /499,9
@@ -590,8 +579,8 @@ Charlie Condon,Bowman In Action,12
 Charlie Condon,Bowman In Action · Mini Diamond,4
 Charlie Condon,Final Draft,10
 Charlie Condon,Prized Prospects,41
-Chase Shores,Base-Paper,14
-Chase Shores,BDC Chrome Prospect · Auto,15
+Chase Shores,Base-Paper,13
+Chase Shores,BDC Chrome Prospect · Auto,16
 Chase Shores,BDC Chrome Prospect · Purple /250 · Auto,5
 Chase Shores,BDC Chrome Prospect · Blue /150,4
 Chase Shores,BDC Chrome Prospect · Sky Blue /499 · Auto,4
@@ -643,8 +632,8 @@ Cody Bowker,BDC Chrome Prospect · Base,2
 Cody Bowker,BDC Chrome Prospect · Sky Blue /499,2
 Cody Bowker,BDC Chrome Prospect · Green /99,1
 Cody Bowker,BDC Chrome Prospect · X-Fractor,1
-Cody Miller,Base-Paper,18
-Cody Miller,BDC Chrome Prospect · Auto,15
+Cody Miller,Base-Paper,16
+Cody Miller,BDC Chrome Prospect · Auto,17
 Cody Miller,BDC Chrome Prospect · Base,11
 Cody Miller,BDC Chrome Prospect · Refractor,4
 Cody Miller,BDC Chrome Prospect · Blue /150 · Auto,3
@@ -659,8 +648,8 @@ Cody Miller,BDC Chrome Prospect · Yellow /75,1
 Cody Miller,BDC Chrome Prospect · Sky Blue /499 · Auto,1
 Cody Miller,BDC Chrome Prospect · Steel Metal /100,1
 Cody Miller,Snack-Pack,4
-Colin Yeaman,Base-Paper,12
-Colin Yeaman,BDC Chrome Prospect · Auto,30
+Colin Yeaman,Base-Paper,10
+Colin Yeaman,BDC Chrome Prospect · Auto,32
 Colin Yeaman,BDC Chrome Prospect · Refractor,23
 Colin Yeaman,BDC Chrome Prospect · Base,11
 Colin Yeaman,BDC Chrome Prospect · Sky Blue /499,7
@@ -684,12 +673,13 @@ Colin Yeaman,BDC Chrome Prospect · Orange /25,2
 Colin Yeaman,BDC Chrome Prospect · Orange /25 · Auto,2
 Colin Yeaman,BDC Chrome Prospect · Gold /50 · Auto,1
 Colin Yeaman,Snack-Pack,3
-Conor Essenburg,Base-Paper,14
+Conor Essenburg,Base-Paper,12
 Conor Essenburg,BDC Chrome Prospect · Refractor,11
 Conor Essenburg,BDC Chrome Prospect · Base,7
 Conor Essenburg,BDC Chrome Prospect · Sky Blue /499 · Auto,6
 Conor Essenburg,BDC Chrome Prospect · Aqua /125 · Auto,6
 Conor Essenburg,BDC Chrome Prospect · Blue /150,4
+Conor Essenburg,BDC Chrome Prospect · Auto,4
 Conor Essenburg,BDC Chrome Prospect · Purple /250,3
 Conor Essenburg,BDC Chrome Prospect · Green /99,3
 Conor Essenburg,BDC Chrome Prospect · Blue /150 · Auto,3
@@ -701,7 +691,6 @@ Conor Essenburg,BDC Chrome Prospect · Fuchsia Reptilian /199 · Auto,2
 Conor Essenburg,BDC Chrome Prospect · Sparkle,2
 Conor Essenburg,BDC Chrome Prospect · Sky Blue /499,2
 Conor Essenburg,BDC Chrome Prospect · Purple /250 · Auto,2
-Conor Essenburg,BDC Chrome Prospect · Auto,2
 Conor Essenburg,BDC Chrome Prospect · Yellow /75,2
 Conor Essenburg,BDC Chrome Prospect · X-Fractor,1
 Cooper Flemming,Base-Paper,18
@@ -750,8 +739,8 @@ Dante Nori,BDC Chrome Prospect · Sky Blue /499,2
 Dante Nori,BDC Chrome Prospect · Steel Metal · Auto,2
 Dante Nori,BDC Chrome Prospect · Gold /50,1
 Dante Nori,BDC Chrome Prospect · Purple /250,1
-Dax Kilby,Base-Paper,54
-Dax Kilby,BDC Chrome Prospect · Auto,46
+Dax Kilby,Base-Paper,48
+Dax Kilby,BDC Chrome Prospect · Auto,52
 Dax Kilby,BDC Chrome Prospect · Refractor,43
 Dax Kilby,BDC Chrome Prospect · Base,30
 Dax Kilby,BDC Chrome Prospect · Sky Blue /499,21
@@ -780,8 +769,8 @@ Dax Kilby,Prized Prospects,33
 Dax Kilby,Prized Prospects · Orange,2
 Dax Kilby,Prized Prospects · Gold,1
 Dax Kilby,Snack-Pack,2
-Dean Curley,Base-Paper,18
-Dean Curley,BDC Chrome Prospect · Auto,29
+Dean Curley,Base-Paper,16
+Dean Curley,BDC Chrome Prospect · Auto,31
 Dean Curley,BDC Chrome Prospect · Refractor,19
 Dean Curley,BDC Chrome Prospect · Base,12
 Dean Curley,BDC Chrome Prospect · Sky Blue /499 · Auto,8
@@ -819,8 +808,8 @@ Dean Livingston,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Dean Livingston,BDC Chrome Prospect · Purple /250 · Auto,2
 Dean Livingston,BDC Chrome Prospect · Blue /150,2
 Dean Livingston,BDC Chrome Prospect · Yellow /75 · Auto,1
-Dean Moss,Base-Paper,24
-Dean Moss,BDC Chrome Prospect · Auto,29
+Dean Moss,Base-Paper,22
+Dean Moss,BDC Chrome Prospect · Auto,31
 Dean Moss,BDC Chrome Prospect · Refractor,19
 Dean Moss,BDC Chrome Prospect · Sky Blue /499,11
 Dean Moss,BDC Chrome Prospect · Sky Blue /499 · Auto,9
@@ -839,8 +828,8 @@ Dean Moss,BDC Chrome Prospect · Purple /250 · Auto,2
 Dean Moss,BDC Chrome Prospect · Printing Plate · Auto,2
 Dean Moss,BDC Chrome Prospect · Orange /25 · Auto,1
 Dean Moss,Snack-Pack,2
-Devin Taylor,Base-Paper,23
-Devin Taylor,BDC Chrome Prospect · Auto,57
+Devin Taylor,Base-Paper,22
+Devin Taylor,BDC Chrome Prospect · Auto,58
 Devin Taylor,BDC Chrome Prospect · Refractor,21
 Devin Taylor,BDC Chrome Prospect · Base,11
 Devin Taylor,BDC Chrome Prospect · Sky Blue /499,6
@@ -879,8 +868,8 @@ Dominick Reid,BDC Chrome Prospect · Steel Metal /100,2
 Dominick Reid,BDC Chrome Prospect · Base,2
 Dominick Reid,BDC Chrome Prospect · Blue /150,2
 Dominick Reid,BDC Chrome Prospect · Aqua /125,1
-Easton Carmichael,Base-Paper,13
-Easton Carmichael,BDC Chrome Prospect · Auto,17
+Easton Carmichael,Base-Paper,5
+Easton Carmichael,BDC Chrome Prospect · Auto,25
 Easton Carmichael,BDC Chrome Prospect · Refractor,9
 Easton Carmichael,BDC Chrome Prospect · Base,4
 Easton Carmichael,BDC Chrome Prospect · Purple /250,2
@@ -921,10 +910,10 @@ Eduardo Tait,BDC Chrome Prospect · Logo Refractor /35,2
 Eduardo Tait,BDC Chrome Prospect · Steel Metal /100,2
 Eduardo Tait,BDC Chrome Prospect · Black /73,2
 Eduardo Tait,Snack-Pack,3
-Eli Willits,Base-Paper,98
+Eli Willits,Base-Paper,90
 Eli Willits,BDC Chrome Prospect · Refractor,97
 Eli Willits,BDC Chrome Prospect · Base,88
-Eli Willits,BDC Chrome Prospect · Auto,33
+Eli Willits,BDC Chrome Prospect · Auto,41
 Eli Willits,BDC Chrome Prospect · Green /99 · Auto,31
 Eli Willits,BDC Chrome Prospect · Blue /150,17
 Eli Willits,BDC Chrome Prospect · Sky Blue /499,15
@@ -976,6 +965,12 @@ Eli Willits,Prized Prospects · Auto,1
 Eli Willits,Prized Prospects · Gold,1
 Eli Willits,Prized Prospects · Blue,1
 Eli Willits,Snack-Pack,1
+Elian Peña,Base-Paper,6
+Elian Peña,BDC Chrome Prospect · Refractor,14
+Elian Peña,BDC Chrome Prospect · Green /99,6
+Elian Peña,BDC Chrome Prospect · Purple /250 · Auto,4
+Elian Peña,BDC Chrome Prospect · Base,3
+Elian Peña,BDC Chrome Prospect · Green /99 · Auto,3
 Enrique Bradfield Jr.,Base-Paper,12
 Enrique Bradfield Jr.,BDC Chrome Prospect · Refractor,24
 Enrique Bradfield Jr.,BDC Chrome Prospect · Base,12
@@ -985,7 +980,6 @@ Enrique Bradfield Jr.,BDC Chrome Prospect · Steel Metal /100,4
 Enrique Bradfield Jr.,BDC Chrome Prospect · Sky Blue /499,2
 Enrique Bradfield Jr.,BDC Chrome Prospect · Mini Diamond,2
 Enrique Bradfield Jr.,BDC Chrome Prospect · Fuchsia Reptilian /199,2
-Enrique Bradfield Jr.,BDC Chrome Prospect · Purple /250,2
 Enrique Bradfield Jr.,BDC Chrome Prospect · X-Fractor,2
 Esmerlyn Valdez,Base-Paper,4
 Esmerlyn Valdez,BDC Chrome Prospect · Refractor,11
@@ -999,8 +993,8 @@ Esmerlyn Valdez,BDC Chrome Prospect · Aqua Reptilian,2
 Esmerlyn Valdez,BDC Chrome Prospect · Aqua /125,2
 Esmerlyn Valdez,BDC Chrome Prospect · Steel Metal /100,1
 Esmerlyn Valdez,Snack-Pack,4
-Ethan Conrad,Base-Paper,31
-Ethan Conrad,BDC Chrome Prospect · Auto,40
+Ethan Conrad,Base-Paper,29
+Ethan Conrad,BDC Chrome Prospect · Auto,42
 Ethan Conrad,BDC Chrome Prospect · Refractor,30
 Ethan Conrad,BDC Chrome Prospect · Base,29
 Ethan Conrad,BDC Chrome Prospect · Blue /150 · Auto,8
@@ -1051,16 +1045,16 @@ Ethan Hedges,BDC Chrome Prospect · Gold /50,2
 Ethan Hedges,BDC Chrome Prospect · Speckle · Auto,2
 Ethan Hedges,BDC Chrome Prospect · Sky Blue /499,1
 Ethan Hedges,Snack-Pack,2
-Ethan Petry,Base-Paper,22
+Ethan Petry,Base-Paper,20
 Ethan Petry,BDC Chrome Prospect · Refractor,23
 Ethan Petry,BDC Chrome Prospect · Blue /150 · Auto,10
+Ethan Petry,BDC Chrome Prospect · Auto,5
 Ethan Petry,BDC Chrome Prospect · Base,5
 Ethan Petry,BDC Chrome Prospect · Purple /250 · Auto,5
 Ethan Petry,BDC Chrome Prospect · Purple /250,4
 Ethan Petry,BDC Chrome Prospect · Yellow /75 · Auto,4
 Ethan Petry,BDC Chrome Prospect · X-Fractor,3
 Ethan Petry,BDC Chrome Prospect · Sky Blue /499,3
-Ethan Petry,BDC Chrome Prospect · Auto,3
 Ethan Petry,BDC Chrome Prospect · Green /99,2
 Ethan Petry,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Ethan Petry,BDC Chrome Prospect · Sparkle · Auto,2
@@ -1111,9 +1105,9 @@ Gabe Davis,BDC Chrome Prospect · Gold /50,2
 Gabe Davis,BDC Chrome Prospect · X-Fractor,2
 Gabe Davis,BDC Chrome Prospect · Blue /150,2
 Gabe Davis,BDC Chrome Prospect · Yellow /75,1
-Gage Wood,Base-Paper,28
+Gage Wood,Base-Paper,27
 Gage Wood,BDC Chrome Prospect · Base,26
-Gage Wood,BDC Chrome Prospect · Auto,22
+Gage Wood,BDC Chrome Prospect · Auto,23
 Gage Wood,BDC Chrome Prospect · Refractor,18
 Gage Wood,BDC Chrome Prospect · Sky Blue /499,14
 Gage Wood,BDC Chrome Prospect · Purple /250 · Auto,8
@@ -1163,7 +1157,7 @@ Gavin Fien,BDC Chrome Prospect · Blue /150,1
 Gavin Fien,BDC Chrome Prospect · Red /5 · Auto,1
 Gavin Fien,BDC Chrome Prospect · Black Printing Plate,1
 Gavin Fien,BDC Chrome Prospect · Fuchsia Reptilian /199,1
-Gavin Fien,Bowman Draft Night,44
+Gavin Fien,Bowman Draft Night,45
 Gavin Fien,Bowman Draft Night · Gold,6
 Gavin Fien,Bowman Draft Night · Auto,4
 Gavin Fien,Bowman Draft Night · Mini Diamond,4
@@ -1178,10 +1172,10 @@ Gavin Fien,Crystallized · Black,2
 Gavin Fien,Crystallized · Red,1
 Gavin Fien,Etched in Glass,9
 Gavin Fien,Final Draft,6
-Gavin Kilen,Base-Paper,39
+Gavin Kilen,Base-Paper,37
 Gavin Kilen,BDC Chrome Prospect · Refractor,36
 Gavin Kilen,BDC Chrome Prospect · Base,33
-Gavin Kilen,BDC Chrome Prospect · Auto,28
+Gavin Kilen,BDC Chrome Prospect · Auto,30
 Gavin Kilen,BDC Chrome Prospect · Sky Blue /499,10
 Gavin Kilen,BDC Chrome Prospect · Green /99,10
 Gavin Kilen,BDC Chrome Prospect · Gold /50 · Auto,8
@@ -1230,14 +1224,14 @@ George Lombard Jr.,BDC Chrome Prospect · Refractor,27
 George Lombard Jr.,BDC Chrome Prospect · Base,16
 George Lombard Jr.,BDC Chrome Prospect · Sky Blue /499,6
 George Lombard Jr.,BDC Chrome Prospect · Green /99,4
+George Lombard Jr.,BDC Chrome Prospect · Blue /150,4
 George Lombard Jr.,BDC Chrome Prospect · Steel Metal /100,2
 George Lombard Jr.,BDC Chrome Prospect · Gold /50,2
 George Lombard Jr.,BDC Chrome Prospect · Green /99 · Auto,2
 George Lombard Jr.,BDC Chrome Prospect · Purple /250,2
 George Lombard Jr.,BDC Chrome Prospect · Yellow /75,2
-George Lombard Jr.,BDC Chrome Prospect · Blue /150,2
 George Lombard Jr.,BDC Chrome Prospect · Fuchsia Reptilian /199,2
-George Lombard Jr.,Bowman In Action,16
+George Lombard Jr.,Bowman In Action,18
 George Lombard Jr.,Bowman In Action · Gold,3
 George Lombard Jr.,Bowman In Action · Orange · Auto,2
 George Lombard Jr.,Bowman In Action · Gold · Auto,2
@@ -1255,9 +1249,9 @@ Grant Richardson,BDC Chrome Prospect · Sparkle,2
 Grant Richardson,BDC Chrome Prospect · Aqua /125,2
 Grant Richardson,BDC Chrome Prospect · Logo Refractor /35,2
 Grant Richardson,BDC Chrome Prospect · Purple /250,1
-Griffin Hugus,Base-Paper,30
+Griffin Hugus,Base-Paper,27
+Griffin Hugus,BDC Chrome Prospect · Auto,53
 Griffin Hugus,BDC Chrome Prospect · Refractor,51
-Griffin Hugus,BDC Chrome Prospect · Auto,50
 Griffin Hugus,BDC Chrome Prospect · Base,33
 Griffin Hugus,BDC Chrome Prospect · Purple /250 · Auto,15
 Griffin Hugus,BDC Chrome Prospect · Blue /150 · Auto,14
@@ -1282,8 +1276,8 @@ Griffin Hugus,BDC Chrome Prospect · Speckle · Auto,1
 Griffin Hugus,BDC Chrome Prospect · Black /73,1
 Griffin Hugus,BDC Chrome Prospect · Logo Refractor /35,1
 Griffin Hugus,Snack-Pack,1
-Gustavo Melendez,Base-Paper,10
-Gustavo Melendez,BDC Chrome Prospect · Auto,19
+Gustavo Melendez,Base-Paper,8
+Gustavo Melendez,BDC Chrome Prospect · Auto,21
 Gustavo Melendez,BDC Chrome Prospect · Refractor,14
 Gustavo Melendez,BDC Chrome Prospect · Sky Blue /499 · Auto,6
 Gustavo Melendez,BDC Chrome Prospect · Green /99,5
@@ -1314,13 +1308,13 @@ Hagen Smith,BDC Chrome Prospect · Blue /150 · Auto,2
 Hagen Smith,BDC Chrome Prospect · Aqua Reptilian,2
 Hagen Smith,BDC Chrome Prospect · Blue /150,2
 Hagen Smith,BDC Chrome Prospect · Orange /25,1
-Ike Irish,Base-Paper,60
+Ike Irish,Base-Paper,55
 Ike Irish,BDC Chrome Prospect · Refractor,36
 Ike Irish,BDC Chrome Prospect · Sky Blue /499,12
+Ike Irish,BDC Chrome Prospect · Auto,11
 Ike Irish,BDC Chrome Prospect · Aqua Reptilian,8
 Ike Irish,BDC Chrome Prospect · Gold /50 · Auto,7
 Ike Irish,BDC Chrome Prospect · Base,7
-Ike Irish,BDC Chrome Prospect · Auto,6
 Ike Irish,BDC Chrome Prospect · Purple /250 · Auto,5
 Ike Irish,BDC Chrome Prospect · Fuchsia Reptilian /199,4
 Ike Irish,BDC Chrome Prospect · X-Fractor,3
@@ -1367,10 +1361,10 @@ J.D. Thompson,BDC Chrome Prospect · X-Fractor,2
 J.D. Thompson,BDC Chrome Prospect · Aqua /125 · Auto,2
 J.D. Thompson,BDC Chrome Prospect · Green /99 · Auto,2
 J.D. Thompson,BDC Chrome Prospect · Sky Blue /499,1
-Jack Gurevitch,Base-Paper,21
+Jack Gurevitch,Base-Paper,18
 Jack Gurevitch,BDC Chrome Prospect · Refractor,23
 Jack Gurevitch,BDC Chrome Prospect · Base,13
-Jack Gurevitch,BDC Chrome Prospect · Auto,10
+Jack Gurevitch,BDC Chrome Prospect · Auto,13
 Jack Gurevitch,BDC Chrome Prospect · Blue /150,7
 Jack Gurevitch,BDC Chrome Prospect · Aqua /125,7
 Jack Gurevitch,BDC Chrome Prospect · Purple /250,7
@@ -1433,8 +1427,8 @@ Jake Cook,BDC Chrome Prospect · Gold /50,2
 Jake Cook,BDC Chrome Prospect · Steel Metal /100,2
 Jake Cook,BDC Chrome Prospect · Purple /250 · Auto,1
 Jake Cook,Snack-Pack,2
-Jake Munroe,Base-Paper,14
-Jake Munroe,BDC Chrome Prospect · Auto,27
+Jake Munroe,Base-Paper,10
+Jake Munroe,BDC Chrome Prospect · Auto,31
 Jake Munroe,BDC Chrome Prospect · Refractor,22
 Jake Munroe,BDC Chrome Prospect · Green /99,6
 Jake Munroe,BDC Chrome Prospect · Blue /150 · Auto,5
@@ -1456,11 +1450,11 @@ James Ellwanger,BDC Chrome Prospect · Yellow /75,2
 James Ellwanger,BDC Chrome Prospect · Orange /25,2
 James Ellwanger,BDC Chrome Prospect · Sky Blue /499,2
 James Ellwanger,BDC Chrome Prospect · Steel Metal /100,1
-James Tibbs III,Base-Paper,9
-James Tibbs III,BDC Chrome Prospect · Refractor,134
+James Tibbs III,Base-Paper,11
+James Tibbs III,BDC Chrome Prospect · Refractor,149
 James Tibbs III,BDC Chrome Prospect · Base,61
 James Tibbs III,BDC Chrome Prospect · Sky Blue /499,44
-James Tibbs III,BDC Chrome Prospect · Green /99,30
+James Tibbs III,BDC Chrome Prospect · Green /99,31
 James Tibbs III,BDC Chrome Prospect · X-Fractor,28
 James Tibbs III,BDC Chrome Prospect · Blue /150,28
 James Tibbs III,BDC Chrome Prospect · Aqua /125,18
@@ -1469,13 +1463,13 @@ James Tibbs III,BDC Chrome Prospect · Logo Refractor /35,11
 James Tibbs III,BDC Chrome Prospect · Gold /50,6
 James Tibbs III,BDC Chrome Prospect · Aqua Reptilian,5
 James Tibbs III,BDC Chrome Prospect · Speckle Refractor,5
-James Tibbs III,BDC Chrome Prospect · Fuchsia Reptilian /199,3
+James Tibbs III,BDC Chrome Prospect · Fuchsia Reptilian /199,4
 James Tibbs III,BDC Chrome Prospect · Purple /250,1
 James Tibbs III,Snack-Pack,2
-Jamie Arnold,Base-Paper,44
+Jamie Arnold,Base-Paper,43
 Jamie Arnold,BDC Chrome Prospect · Refractor,77
 Jamie Arnold,BDC Chrome Prospect · Base,31
-Jamie Arnold,BDC Chrome Prospect · Auto,18
+Jamie Arnold,BDC Chrome Prospect · Auto,19
 Jamie Arnold,BDC Chrome Prospect · Gold /50 · Auto,7
 Jamie Arnold,BDC Chrome Prospect · Orange /25 · Auto,5
 Jamie Arnold,BDC Chrome Prospect · Aqua /125,5
@@ -1554,13 +1548,13 @@ Jefferson Rojas,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Jefferson Rojas,BDC Chrome Prospect · Steel Metal /100,2
 Jefferson Rojas,Snack-Pack,2
 Jesús Made,Base-Paper,10
-Jesús Made,BDC Chrome Prospect · Base,9
+Jesús Made,BDC Chrome Prospect · Base,12
 Jesús Made,BDC Chrome Prospect · Refractor,6
 Jesús Made,BDC Chrome Prospect · Sky Blue /499,2
 Jesús Made,BDC Chrome Prospect · Aqua Reptilian,2
 Jesús Made,BDC Chrome Prospect · Gold /50 · Auto,1
 Jesús Made,BDC Chrome Prospect · Gold /50,1
-Jesús Made,Bowman Axis · Base,20
+Jesús Made,Bowman Axis · Base,24
 Jesús Made,Bowman In Action,9
 Jesús Made,Bowman In Action · Gold,2
 Jesús Made,Bowman In Action · Green,2
@@ -1602,8 +1596,8 @@ JJ Wetherholt,Prized Prospects,30
 JJ Wetherholt,Prized Prospects · Green,4
 JJ Wetherholt,Prized Prospects · Mini Diamond,2
 JJ Wetherholt,Prized Prospects · Orange,2
-Johnny Slawinski,Base-Paper,12
-Johnny Slawinski,BDC Chrome Prospect · Auto,12
+Johnny Slawinski,Base-Paper,10
+Johnny Slawinski,BDC Chrome Prospect · Auto,14
 Johnny Slawinski,BDC Chrome Prospect · Refractor,8
 Johnny Slawinski,BDC Chrome Prospect · Sky Blue /499,6
 Johnny Slawinski,BDC Chrome Prospect · Sky Blue /499 · Auto,5
@@ -1704,10 +1698,10 @@ Jordan Yost,BDC Chrome Prospect · Aqua Reptilian,2
 Jordan Yost,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Jordan Yost,BDC Chrome Prospect · Yellow Printing Plate · Auto,2
 Jordan Yost,BDC Chrome Prospect · Aqua /125 · Auto,2
-Joseph Dzierwa,Base-Paper,15
+Joseph Dzierwa,Base-Paper,11
 Joseph Dzierwa,BDC Chrome Prospect · Refractor,21
 Joseph Dzierwa,BDC Chrome Prospect · Base,12
-Joseph Dzierwa,BDC Chrome Prospect · Auto,6
+Joseph Dzierwa,BDC Chrome Prospect · Auto,10
 Joseph Dzierwa,BDC Chrome Prospect · Blue /150 · Auto,3
 Joseph Dzierwa,BDC Chrome Prospect · Sky Blue /499 · Auto,2
 Joseph Dzierwa,BDC Chrome Prospect · Steel Metal /100,2
@@ -1718,10 +1712,10 @@ Joseph Dzierwa,BDC Chrome Prospect · Red /5,2
 Joseph Dzierwa,BDC Chrome Prospect · Gold /50 · Auto,1
 Joseph Dzierwa,BDC Chrome Prospect · Purple /250 · Auto,1
 Joseph Dzierwa,BDC Chrome Prospect · Sparkle · Auto,1
-Josh Hammond,Base-Paper,29
+Josh Hammond,Base-Paper,27
 Josh Hammond,BDC Chrome Prospect · Refractor,34
+Josh Hammond,BDC Chrome Prospect · Auto,25
 Josh Hammond,BDC Chrome Prospect · Base,24
-Josh Hammond,BDC Chrome Prospect · Auto,23
 Josh Hammond,BDC Chrome Prospect · Green /99,7
 Josh Hammond,BDC Chrome Prospect · Sky Blue /499,6
 Josh Hammond,BDC Chrome Prospect · Aqua /125,4
@@ -1815,6 +1809,9 @@ Josuar Gonzalez,Bowman Axis · Orange,2
 Josuar Gonzalez,Bowman Axis · Mini Diamond,2
 Josuar Gonzalez,Final Draft,4
 Josuar Gonzalez,Final Draft · Red,2
+Josue Briceño,Base-Paper,4
+Josue Briceño,BDC Chrome Prospect · Refractor,10
+Josue Briceño,BDC Chrome Prospect · Base,2
 Josue De Paula,Final Draft,3
 Joswa Lugo,Base-Paper,8
 Joswa Lugo,BDC Chrome Prospect · Refractor,25
@@ -1828,9 +1825,9 @@ JR Ritchie,Base-Paper,12
 JR Ritchie,BDC Chrome Prospect · Refractor,13
 JR Ritchie,BDC Chrome Prospect · Base,5
 JR Ritchie,BDC Chrome Prospect · Aqua Reptilian,2
-JT Quinn,Base-Paper,12
+JT Quinn,Base-Paper,10
+JT Quinn,BDC Chrome Prospect · Auto,28
 JT Quinn,BDC Chrome Prospect · Refractor,27
-JT Quinn,BDC Chrome Prospect · Auto,26
 JT Quinn,BDC Chrome Prospect · Base,20
 JT Quinn,BDC Chrome Prospect · Sky Blue /499 · Auto,10
 JT Quinn,BDC Chrome Prospect · Blue /150 · Auto,7
@@ -1861,10 +1858,10 @@ Justin Lamkin,BDC Chrome Prospect · Yellow /75 · Auto,2
 Justin Lamkin,BDC Chrome Prospect · Red /5,2
 Justin Lamkin,BDC Chrome Prospect · Gold /50 · Auto,2
 Justin Lamkin,BDC Chrome Prospect · Blue /150 · Auto,1
-Kade Anderson,Base-Paper,62
+Kade Anderson,Base-Paper,56
 Kade Anderson,BDC Chrome Prospect · Refractor,86
+Kade Anderson,BDC Chrome Prospect · Auto,39
 Kade Anderson,BDC Chrome Prospect · Base,34
-Kade Anderson,BDC Chrome Prospect · Auto,33
 Kade Anderson,BDC Chrome Prospect · Blue /150,17
 Kade Anderson,BDC Chrome Prospect · Sky Blue /499,10
 Kade Anderson,BDC Chrome Prospect · Purple /250 · Auto,9
@@ -1920,8 +1917,8 @@ Kade Anderson,Prized Prospects · Gold,2
 Kade Anderson,Prized Prospects · Mini Diamond,1
 Kade Anderson,Prized Prospects · Purple,1
 Kade Anderson,Sapphire,3
-Kaeden Kent,Base-Paper,16
-Kaeden Kent,BDC Chrome Prospect · Auto,33
+Kaeden Kent,Base-Paper,12
+Kaeden Kent,BDC Chrome Prospect · Auto,37
 Kaeden Kent,BDC Chrome Prospect · Base,12
 Kaeden Kent,BDC Chrome Prospect · Refractor,12
 Kaeden Kent,BDC Chrome Prospect · Sky Blue /499 · Auto,10
@@ -2102,8 +2099,8 @@ Kyle Lodise,BDC Chrome Prospect · Aqua /125,2
 Kyle Lodise,BDC Chrome Prospect · Blue /150 · Auto,2
 Kyle Lodise,BDC Chrome Prospect · Purple /250 · Auto,2
 Kyle Lodise,BDC Chrome Prospect · Fuchsia Reptilian /199,2
-Kyson Witherspoon,Base-Paper,38
-Kyson Witherspoon,BDC Chrome Prospect · Auto,22
+Kyson Witherspoon,Base-Paper,36
+Kyson Witherspoon,BDC Chrome Prospect · Auto,24
 Kyson Witherspoon,BDC Chrome Prospect · Refractor,14
 Kyson Witherspoon,BDC Chrome Prospect · Red /5 · Auto,11
 Kyson Witherspoon,BDC Chrome Prospect · Red /5,8
@@ -2152,8 +2149,8 @@ Landon Harmon,BDC Chrome Prospect · Orange /25,2
 Landon Harmon,BDC Chrome Prospect · Steel Metal /100,2
 Landon Harmon,BDC Chrome Prospect · Aqua /125 · Auto,1
 Landon Harmon,BDC Chrome Prospect · Gold /50,1
-Landon Hodge,Base-Paper,16
-Landon Hodge,BDC Chrome Prospect · Auto,20
+Landon Hodge,Base-Paper,14
+Landon Hodge,BDC Chrome Prospect · Auto,22
 Landon Hodge,BDC Chrome Prospect · Refractor,14
 Landon Hodge,BDC Chrome Prospect · Sky Blue /499 · Auto,7
 Landon Hodge,BDC Chrome Prospect · Sky Blue /499,6
@@ -2167,10 +2164,10 @@ Landon Hodge,BDC Chrome Prospect · Purple /250,2
 Landon Hodge,BDC Chrome Prospect · Yellow /75 · Auto,2
 Landon Hodge,BDC Chrome Prospect · Fuchsia Reptilian /199,2
 Landon Hodge,BDC Chrome Prospect · Green /99,2
-Landyn Vidourek,Base-Paper,18
+Landyn Vidourek,Base-Paper,16
 Landyn Vidourek,BDC Chrome Prospect · Refractor,20
 Landyn Vidourek,BDC Chrome Prospect · Base,13
-Landyn Vidourek,BDC Chrome Prospect · Auto,8
+Landyn Vidourek,BDC Chrome Prospect · Auto,10
 Landyn Vidourek,BDC Chrome Prospect · Sky Blue /499,4
 Landyn Vidourek,BDC Chrome Prospect · Blue /150,4
 Landyn Vidourek,BDC Chrome Prospect · Sky Blue /499 · Auto,4
@@ -2202,8 +2199,8 @@ Leo De Vries,Bowman Axis · Base,61
 Leo De Vries,Bowman Axis · Gold,4
 Leo De Vries,Bowman Axis · Parallel,4
 Leo De Vries,Snack-Pack,4
-Liam Doyle,Base-Paper,43
-Liam Doyle,BDC Chrome Prospect · Auto,45
+Liam Doyle,Base-Paper,39
+Liam Doyle,BDC Chrome Prospect · Auto,49
 Liam Doyle,BDC Chrome Prospect · Refractor,44
 Liam Doyle,BDC Chrome Prospect · Base,34
 Liam Doyle,BDC Chrome Prospect · Sky Blue /499 · Auto,15
@@ -2242,6 +2239,22 @@ Liam Doyle,Prized Prospects,40
 Liam Doyle,Prized Prospects · Gold,2
 Liam Doyle,Prized Prospects · Orange,2
 Liam Doyle,Snack-Pack,5
+Luis Peña,Base-Paper,19
+Luis Peña,BDC Chrome Prospect · Refractor,28
+Luis Peña,BDC Chrome Prospect · Base,19
+Luis Peña,BDC Chrome Prospect · Yellow /75,5
+Luis Peña,BDC Chrome Prospect · Green /99,4
+Luis Peña,BDC Chrome Prospect · Purple /250,3
+Luis Peña,BDC Chrome Prospect · Blue /150,2
+Luis Peña,BDC Chrome Prospect · Aqua /125,2
+Luis Peña,BDC Chrome Prospect · Fuchsia Reptilian /199,1
+Luis Peña,BDC Chrome Prospect · Green /99 · Auto,1
+Luis Peña,BDC Chrome Prospect · Sky Blue /499,1
+Luis Peña,BDC Chrome Prospect · Gold /50,1
+Luis Peña,Bowman Spotlight,4
+Luis Peña,Prized Prospects,20
+Luis Peña,Prized Prospects · Red,1
+Luis Peña,Prized Prospects · Gold,1
 Luke Dickerson,Base-Paper,12
 Luke Dickerson,BDC Chrome Prospect · Refractor,20
 Luke Dickerson,BDC Chrome Prospect · Base,8
@@ -2249,10 +2262,12 @@ Luke Dickerson,BDC Chrome Prospect · X-Fractor,2
 Luke Dickerson,BDC Chrome Prospect · Sky Blue /499,2
 Luke Dickerson,BDC Chrome Prospect · Yellow /75,1
 Luke Lacourse,Base-Paper,12
-Luke Lacourse,BDC Chrome Prospect · Refractor,17
+Luke Lacourse,BDC Chrome Prospect · Refractor,25
 Luke Lacourse,BDC Chrome Prospect · Green /99,4
+Luke Lacourse,BDC Chrome Prospect · Base,2
 Luke Lacourse,BDC Chrome Prospect · Blue /150,2
 Luke Lacourse,BDC Chrome Prospect · X-Fractor,2
+Luke Lacourse,BDC Chrome Prospect · Purple /250,1
 Luke Lacourse,BDC Chrome Prospect · Fuchsia Reptilian /199,1
 Malachi Witherspoon,Base-Paper,17
 Malachi Witherspoon,BDC Chrome Prospect · Auto,24
@@ -2283,14 +2298,14 @@ Malcolm Moore,BDC Chrome Prospect · Purple /250,2
 Malcolm Moore,BDC Chrome Prospect · X-Fractor,2
 Malcolm Moore,BDC Chrome Prospect · Orange /25,2
 Malcolm Moore,Snack-Pack,2
-Marcus Phillips,Base-Paper,21
+Marcus Phillips,Base-Paper,18
 Marcus Phillips,BDC Chrome Prospect · Red /5 · Auto,14
 Marcus Phillips,BDC Chrome Prospect · Red /5,10
 Marcus Phillips,BDC Chrome Prospect · Green /99,8
 Marcus Phillips,BDC Chrome Prospect · X-Fractor,7
+Marcus Phillips,BDC Chrome Prospect · Auto,7
 Marcus Phillips,BDC Chrome Prospect · Base,4
 Marcus Phillips,BDC Chrome Prospect · Blue /150 · Auto,4
-Marcus Phillips,BDC Chrome Prospect · Auto,4
 Marcus Phillips,BDC Chrome Prospect · Fuchsia Reptilian /199,4
 Marcus Phillips,BDC Chrome Prospect · Refractor,4
 Marcus Phillips,BDC Chrome Prospect · Gold /50 · Auto,4
@@ -2317,8 +2332,8 @@ Mason McConnaughey,BDC Chrome Prospect · Sky Blue /499,2
 Mason McConnaughey,BDC Chrome Prospect · Speckle Refractor,1
 Mason McConnaughey,BDC Chrome Prospect · Base,1
 Mason McConnaughey,BDC Chrome Prospect · Purple /250,1
-Mason Morris,Base-Paper,12
-Mason Morris,BDC Chrome Prospect · Auto,19
+Mason Morris,Base-Paper,10
+Mason Morris,BDC Chrome Prospect · Auto,21
 Mason Morris,BDC Chrome Prospect · Refractor,16
 Mason Morris,BDC Chrome Prospect · Base,12
 Mason Morris,BDC Chrome Prospect · Sky Blue /499,6
@@ -2404,9 +2419,9 @@ Matthew Fisher,BDC Chrome Prospect · Orange /25 · Auto,2
 Matthew Fisher,BDC Chrome Prospect · Yellow /75 · Auto,2
 Matthew Fisher,BDC Chrome Prospect · Sky Blue /499 · Auto,1
 Matthew Fisher,Snack-Pack,5
-Matthew Miura,Base-Paper,10
+Matthew Miura,Base-Paper,8
 Matthew Miura,BDC Chrome Prospect · Refractor,15
-Matthew Miura,BDC Chrome Prospect · Auto,11
+Matthew Miura,BDC Chrome Prospect · Auto,13
 Matthew Miura,BDC Chrome Prospect · Blue /150,10
 Matthew Miura,BDC Chrome Prospect · Purple /250 · Auto,8
 Matthew Miura,BDC Chrome Prospect · Green /99,7
@@ -2453,11 +2468,11 @@ Max Clark,BDC Chrome Prospect · Gold /50,5
 Max Clark,BDC Chrome Prospect · Purple /250,4
 Max Clark,BDC Chrome Prospect · Green /99,4
 Max Clark,Crystallized,5
-Max Williams,Base-Paper,28
+Max Williams,Base-Paper,18
+Max Williams,BDC Chrome Prospect · Auto,20
 Max Williams,BDC Chrome Prospect · Refractor,15
 Max Williams,BDC Chrome Prospect · Base,12
 Max Williams,BDC Chrome Prospect · Sky Blue /499 · Auto,10
-Max Williams,BDC Chrome Prospect · Auto,10
 Max Williams,BDC Chrome Prospect · Sky Blue /499,8
 Max Williams,BDC Chrome Prospect · X-Fractor,7
 Max Williams,BDC Chrome Prospect · Fuchsia Reptilian /199,6
@@ -2480,10 +2495,10 @@ Michael Lombardi,BDC Chrome Prospect · Blue /150 · Auto,10
 Michael Lombardi,BDC Chrome Prospect · Auto,10
 Michael Lombardi,BDC Chrome Prospect · Base,7
 Michael Lombardi,BDC Chrome Prospect · Purple /250 · Auto,5
-Michael Lombardi,BDC Chrome Prospect · Blue /150,4
 Michael Lombardi,BDC Chrome Prospect · Gold /50,4
 Michael Lombardi,BDC Chrome Prospect · Aqua /125 · Auto,4
 Michael Lombardi,BDC Chrome Prospect · X-Fractor,4
+Michael Lombardi,BDC Chrome Prospect · Blue /150,2
 Michael Lombardi,BDC Chrome Prospect · Green /99,2
 Michael Lombardi,BDC Chrome Prospect · True Black /10,2
 Michael Lombardi,BDC Chrome Prospect · Aqua Reptilian,2
@@ -2495,8 +2510,8 @@ Michael Lombardi,BDC Chrome Prospect · Fuchsia Reptilian /199 · Auto,2
 Michael Lombardi,BDC Chrome Prospect · Sky Blue /499,1
 Michael Lombardi,BDC Chrome Prospect · Speckle Refractor · Auto,1
 Michael Lombardi,Snack-Pack,2
-Michael Oliveto,Base-Paper,8
-Michael Oliveto,BDC Chrome Prospect · Auto,63
+Michael Oliveto,Base-Paper,4
+Michael Oliveto,BDC Chrome Prospect · Auto,67
 Michael Oliveto,BDC Chrome Prospect · Refractor,16
 Michael Oliveto,BDC Chrome Prospect · Base,14
 Michael Oliveto,BDC Chrome Prospect · Blue /150 · Auto,11
@@ -2558,8 +2573,8 @@ Mike Sirota,BDC Chrome Prospect · Orange /25,2
 Mike Sirota,BDC Chrome Prospect · Purple /250,2
 Mike Sirota,BDC Chrome Prospect · Gold /50,1
 Mike Sirota,BDC Chrome Prospect · Yellow /75,1
-Mitch Voit,Base-Paper,36
-Mitch Voit,BDC Chrome Prospect · Auto,38
+Mitch Voit,Base-Paper,34
+Mitch Voit,BDC Chrome Prospect · Auto,40
 Mitch Voit,BDC Chrome Prospect · Refractor,27
 Mitch Voit,BDC Chrome Prospect · Base,19
 Mitch Voit,BDC Chrome Prospect · Sky Blue /499 · Auto,10
@@ -2603,7 +2618,6 @@ Nate George,BDC Chrome Prospect · Blue /150,6
 Nate George,BDC Chrome Prospect · Green /99,4
 Nate George,BDC Chrome Prospect · Purple /250,2
 Nate George,BDC Chrome Prospect · Gold /50,1
-Nate George,Bowman In Action,2
 Nate Snead,Base-Paper,8
 Nate Snead,BDC Chrome Prospect · Refractor,23
 Nate Snead,BDC Chrome Prospect · Auto,16
@@ -2625,9 +2639,9 @@ Nate Snead,BDC Chrome Prospect · Gold /50 · Auto,1
 Nate Snead,BDC Chrome Prospect · Yellow /75 · Auto,1
 Nate Snead,BDC Chrome Prospect · Orange /25,1
 Nate Snead,BDC Chrome Prospect · True Black /10 · Auto,1
-Nick Becker,Base-Paper,38
+Nick Becker,Base-Paper,35
+Nick Becker,BDC Chrome Prospect · Auto,48
 Nick Becker,BDC Chrome Prospect · Refractor,46
-Nick Becker,BDC Chrome Prospect · Auto,45
 Nick Becker,BDC Chrome Prospect · Base,20
 Nick Becker,BDC Chrome Prospect · Sky Blue /499,13
 Nick Becker,BDC Chrome Prospect · Sky Blue /499 · Auto,11
@@ -2654,8 +2668,8 @@ Nick Becker,BDC Chrome Prospect · Logo Refractor /35,1
 Nick Becker,BDC Chrome Prospect · X-Fractor,1
 Nick Becker,BDC Chrome Prospect · Fuchsia Reptilian /199,1
 Nick Becker,Snack-Pack,5
-Nolan Sailors,Base-Paper,12
-Nolan Sailors,BDC Chrome Prospect · Auto,13
+Nolan Sailors,Base-Paper,10
+Nolan Sailors,BDC Chrome Prospect · Auto,15
 Nolan Sailors,BDC Chrome Prospect · Base,9
 Nolan Sailors,BDC Chrome Prospect · Sky Blue /499 · Auto,8
 Nolan Sailors,BDC Chrome Prospect · Refractor,7
@@ -2685,8 +2699,8 @@ Nolan Schubart,BDC Chrome Prospect · Blue /150,1
 Nolan Schubart,BDC Chrome Prospect · Sky Blue /499,1
 Nolan Schubart,BDC Chrome Prospect · Black Printing Plate,1
 Nolan Schubart,Snack-Pack,2
-Patrick Forbes,Base-Paper,28
-Patrick Forbes,BDC Chrome Prospect · Auto,35
+Patrick Forbes,Base-Paper,26
+Patrick Forbes,BDC Chrome Prospect · Auto,37
 Patrick Forbes,BDC Chrome Prospect · Refractor,31
 Patrick Forbes,BDC Chrome Prospect · Base,14
 Patrick Forbes,BDC Chrome Prospect · Blue /150 · Auto,8
@@ -2704,11 +2718,11 @@ Patrick Forbes,BDC Chrome Prospect · Red /5,2
 Patrick Forbes,BDC Chrome Prospect · Steel Metal /100,2
 Patrick Forbes,BDC Chrome Prospect · Gold /50,1
 Patrick Forbes,Snack-Pack,4
-Peter Kussow,Base-Paper,22
+Peter Kussow,Base-Paper,17
 Peter Kussow,BDC Chrome Prospect · Refractor,16
 Peter Kussow,BDC Chrome Prospect · Base,12
+Peter Kussow,BDC Chrome Prospect · Auto,11
 Peter Kussow,BDC Chrome Prospect · Green /99,7
-Peter Kussow,BDC Chrome Prospect · Auto,6
 Peter Kussow,BDC Chrome Prospect · Blue /150 · Auto,5
 Peter Kussow,BDC Chrome Prospect · Sky Blue /499,4
 Peter Kussow,BDC Chrome Prospect · Sky Blue /499 · Auto,4
@@ -2726,11 +2740,11 @@ Peter Kussow,BDC Chrome Prospect · Purple /250,1
 Peter Kussow,BDC Chrome Prospect · Aqua /125 · Auto,1
 Peter Kussow,BDC Chrome Prospect · Green /99 · Auto,1
 Peter Kussow,BDC Chrome Prospect · Printing Plate · Auto,1
-Pico Kohn,Base-Paper,12
+Pico Kohn,Base-Paper,10
 Pico Kohn,BDC Chrome Prospect · Refractor,25
 Pico Kohn,BDC Chrome Prospect · Base,14
+Pico Kohn,BDC Chrome Prospect · Auto,12
 Pico Kohn,BDC Chrome Prospect · Blue /150 · Auto,12
-Pico Kohn,BDC Chrome Prospect · Auto,10
 Pico Kohn,BDC Chrome Prospect · Sky Blue /499 · Auto,8
 Pico Kohn,BDC Chrome Prospect · Purple /250 · Auto,6
 Pico Kohn,BDC Chrome Prospect · Sky Blue /499,5
@@ -2826,10 +2840,10 @@ Roc Riggio,BDC Chrome Prospect · Gold /50,2
 Roc Riggio,BDC Chrome Prospect · Steel Metal /100,2
 Roc Riggio,BDC Chrome Prospect · X-Fractor,2
 Roc Riggio,BDC Chrome Prospect · Green /99,1
-Ryan Mitchell,Base-Paper,25
+Ryan Mitchell,Base-Paper,24
 Ryan Mitchell,BDC Chrome Prospect · Base,23
 Ryan Mitchell,BDC Chrome Prospect · Refractor,15
-Ryan Mitchell,BDC Chrome Prospect · Auto,12
+Ryan Mitchell,BDC Chrome Prospect · Auto,13
 Ryan Mitchell,BDC Chrome Prospect · Sky Blue /499 · Auto,10
 Ryan Mitchell,BDC Chrome Prospect · X-Fractor,8
 Ryan Mitchell,BDC Chrome Prospect · Sky Blue /499,5
@@ -2895,10 +2909,10 @@ Sean Episcope,BDC Chrome Prospect · Gold /50,4
 Sean Episcope,BDC Chrome Prospect · X-Fractor,4
 Sean Episcope,BDC Chrome Prospect · Steel Metal /100,2
 Sean Episcope,Snack-Pack,2
-Sean Gamble,Base-Paper,40
+Sean Gamble,Base-Paper,36
 Sean Gamble,BDC Chrome Prospect · Refractor,27
 Sean Gamble,BDC Chrome Prospect · Base,22
-Sean Gamble,BDC Chrome Prospect · Auto,13
+Sean Gamble,BDC Chrome Prospect · Auto,17
 Sean Gamble,BDC Chrome Prospect · Green /99,4
 Sean Gamble,BDC Chrome Prospect · Blue /150 · Auto,3
 Sean Gamble,BDC Chrome Prospect · Sky Blue /499 · Auto,3
@@ -3022,10 +3036,10 @@ Spencer Jones,BDC Chrome Prospect · Purple /250,4
 Spencer Jones,BDC Chrome Prospect · Yellow /75,3
 Spencer Jones,BDC Chrome Prospect · Blue /150,2
 Spencer Jones,BDC Chrome Prospect · X-Fractor,2
-Steele Hall,Base-Paper,68
+Steele Hall,Base-Paper,65
 Steele Hall,BDC Chrome Prospect · Base,55
 Steele Hall,BDC Chrome Prospect · Refractor,53
-Steele Hall,BDC Chrome Prospect · Auto,30
+Steele Hall,BDC Chrome Prospect · Auto,33
 Steele Hall,BDC Chrome Prospect · Sky Blue /499 · Auto,11
 Steele Hall,BDC Chrome Prospect · Sky Blue /499,10
 Steele Hall,BDC Chrome Prospect · Purple /250 · Auto,8
@@ -3093,10 +3107,10 @@ Tanner Franklin,BDC Chrome Prospect · Fuchsia Reptilian /199,1
 Tanner Franklin,BDC Chrome Prospect · Aqua /125,1
 Tanner Franklin,BDC Chrome Prospect · Aqua /125 · Auto,1
 Tanner Franklin,Snack-Pack,3
-Tate Southisene,Base-Paper,36
+Tate Southisene,Base-Paper,34
 Tate Southisene,BDC Chrome Prospect · Refractor,32
 Tate Southisene,BDC Chrome Prospect · Base,29
-Tate Southisene,BDC Chrome Prospect · Auto,20
+Tate Southisene,BDC Chrome Prospect · Auto,22
 Tate Southisene,BDC Chrome Prospect · Purple /250,8
 Tate Southisene,BDC Chrome Prospect · Sky Blue /499 · Auto,8
 Tate Southisene,BDC Chrome Prospect · Aqua /125 · Auto,4
@@ -3151,13 +3165,13 @@ Thomas White,BDC Chrome Prospect · Sparkle,1
 Thomas White,BDC Chrome Prospect · Logo Refractor /35,1
 Thomas White,BDC Chrome Prospect · Green /99,1
 Thomas White,BDC Chrome Prospect · Black Geometric /10,1
-Tim Piasentin,Base-Paper,17
+Tim Piasentin,Base-Paper,16
 Tim Piasentin,BDC Chrome Prospect · Blue /150,22
 Tim Piasentin,BDC Chrome Prospect · Base,10
+Tim Piasentin,BDC Chrome Prospect · Auto,8
 Tim Piasentin,BDC Chrome Prospect · Refractor,8
 Tim Piasentin,BDC Chrome Prospect · Sky Blue /499,7
 Tim Piasentin,BDC Chrome Prospect · Purple /250 · Auto,7
-Tim Piasentin,BDC Chrome Prospect · Auto,7
 Tim Piasentin,BDC Chrome Prospect · Logo Refractor /35,6
 Tim Piasentin,BDC Chrome Prospect · Aqua /125,5
 Tim Piasentin,BDC Chrome Prospect · X-Fractor,4
@@ -3223,9 +3237,9 @@ Travis Sykora,BDC Chrome Prospect · Steel Metal /100,4
 Travis Sykora,BDC Chrome Prospect · Orange /25,2
 Travis Sykora,BDC Chrome Prospect · Blue /150,2
 Travis Sykora,BDC Chrome Prospect · Logo Refractor /35,1
-Trevor Cohen,Base-Paper,10
+Trevor Cohen,Base-Paper,8
 Trevor Cohen,BDC Chrome Prospect · Refractor,21
-Trevor Cohen,BDC Chrome Prospect · Auto,17
+Trevor Cohen,BDC Chrome Prospect · Auto,19
 Trevor Cohen,BDC Chrome Prospect · Gold /50 · Auto,10
 Trevor Cohen,BDC Chrome Prospect · Base,8
 Trevor Cohen,BDC Chrome Prospect · Purple /250 · Auto,4
@@ -3239,8 +3253,8 @@ Trevor Cohen,BDC Chrome Prospect · Sky Blue /499 · Auto,2
 Trevor Cohen,BDC Chrome Prospect · Blue /150 · Auto,2
 Trevor Cohen,BDC Chrome Prospect · Aqua /125 · Auto,1
 Trevor Cohen,BDC Chrome Prospect · Parallel · Auto,1
-Ty Harvey,Base-Paper,8
-Ty Harvey,BDC Chrome Prospect · Auto,39
+Ty Harvey,Base-Paper,6
+Ty Harvey,BDC Chrome Prospect · Auto,41
 Ty Harvey,BDC Chrome Prospect · Refractor,15
 Ty Harvey,BDC Chrome Prospect · Base,10
 Ty Harvey,BDC Chrome Prospect · Aqua /125 · Auto,8
@@ -3327,11 +3341,11 @@ Walker Jenkins,BDC Chrome Prospect · Black Geometric /10,2
 Walker Jenkins,Bowman Axis · Base,45
 Walker Jenkins,Bowman Axis · Mini Diamond,5
 Walker Jenkins,Bowman Axis · Gold,4
-Xavier Neyens,Base-Paper,47
+Xavier Neyens,Base-Paper,40
 Xavier Neyens,Base-Paper · Black Border,1
 Xavier Neyens,BDC Chrome Prospect · Refractor,55
+Xavier Neyens,BDC Chrome Prospect · Auto,37
 Xavier Neyens,BDC Chrome Prospect · Base,35
-Xavier Neyens,BDC Chrome Prospect · Auto,30
 Xavier Neyens,BDC Chrome Prospect · Sky Blue /499,19
 Xavier Neyens,BDC Chrome Prospect · Purple /250 · Auto,18
 Xavier Neyens,BDC Chrome Prospect · X-Fractor,9
@@ -3406,8 +3420,8 @@ Yolfran Castillo,BDC Chrome Prospect · Aqua /125,3
 Yolfran Castillo,BDC Chrome Prospect · Sky Blue /499,2
 Yolfran Castillo,BDC Chrome Prospect · Speckle Refractor,1
 Yolfran Castillo,BDC Chrome Prospect · Gold /50,1
-Zach Root,Base-Paper,30
-Zach Root,BDC Chrome Prospect · Auto,55
+Zach Root,Base-Paper,27
+Zach Root,BDC Chrome Prospect · Auto,58
 Zach Root,BDC Chrome Prospect · Refractor,26
 Zach Root,BDC Chrome Prospect · Base,14
 Zach Root,BDC Chrome Prospect · Sky Blue /499 · Auto,10

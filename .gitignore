@@ -2,6 +2,9 @@
 .env.*
 !.env.example
 
+.venv_ag/
+**/bowman_rank_price_autogluon/agModels/
+
 cardmatch/runs/
 cardmatch/tests/_out_smoke/
 cardmatch/tests/_smoke_out/

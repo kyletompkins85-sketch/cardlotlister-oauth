@@ -158,9 +158,21 @@ def guess_player_for_title(
 def main() -> None:
     # Cmd+F: GH_ANCHOR_FUZZY_MATCH_MAIN_6C2A1D99
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input CSV with titles (e.g. data/unclassified_titles_canvas.csv)")
-    ap.add_argument("--players", required=True, help="Players CSV (e.g. data/2025_Topps_Update_player_list.csv)")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/player_guesses.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input CSV with titles (e.g. data/topps_update_2025/unclassified_titles_all.csv)",
+    )
+    ap.add_argument(
+        "--players",
+        required=True,
+        help="Players CSV (e.g. data/topps_update_2025/2025_Topps_Update_player_list.csv)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV path (e.g. data/topps_update_2025/player_guesses_unclassified_titles_canvas.csv)",
+    )
     ap.add_argument("--title-col", default="title", help="Title column name (default: title)")
     ap.add_argument("--player-name-col", default="playerName", help="Players name column (default: playerName)")
     ap.add_argument("--max-rows", type=int, default=1000, help="Max input rows to process (default: 1000)")

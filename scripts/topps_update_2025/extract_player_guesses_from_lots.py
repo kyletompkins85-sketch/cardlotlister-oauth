@@ -125,8 +125,16 @@ def pick_best_name_from_dict(title: str, name_counts: Counter) -> Tuple[Optional
 def main() -> None:
     # Cmd+F: GH_ANCHOR_EXTRACT_PLAYER_GUESSES_MAIN_6C2A1D97
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input CSV path (e.g. data/term_search_items_table.csv)")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/lot_player_guesses.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input CSV path (e.g. data/topps_update_2025/term_search_items_table.csv)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV path (e.g. data/topps_update_2025/lot_player_guesses.csv)",
+    )
     ap.add_argument("--title-col", default="title", help="Column name for title (default: title)")
     ap.add_argument("--max-lots", type=int, default=1000, help="Max lot rows to output (default: 1000)")
     ap.add_argument("--dict-max", type=int, default=20000, help="Max non-lot titles to learn from (default: 20000)")

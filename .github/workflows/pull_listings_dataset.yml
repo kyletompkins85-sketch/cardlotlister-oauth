@@ -41,7 +41,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          DATA_DIR="data/topps_update_2025"
+          mkdir -p "${DATA_DIR}"
 
           python3 - <<'PY'
           import os, sys, json, time, urllib.parse, urllib.request, datetime
@@ -55,8 +56,9 @@ jobs:
           total = 0
 
           slug = "".join(c.lower() if c.isalnum() else "_" for c in q).strip("_")
-          out_jsonl = f"data/term_search_items_{slug}.jsonl"
-          meta_json = f"data/term_search_items_{slug}.meta.json"
+          data_dir = "data/topps_update_2025"
+          out_jsonl = f"{data_dir}/term_search_items_{slug}.jsonl"
+          meta_json = f"{data_dir}/term_search_items_{slug}.meta.json"
           
           def fetch_page(offset):
               url = f"{worker}/internal/termSearchItems/search?q={urllib.parse.quote(q)}&limit={limit}&offset={offset}"
@@ -110,7 +112,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*.jsonl data/*.meta.json || true
+          git add data/topps_update_2025/*.jsonl data/topps_update_2025/*.meta.json || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

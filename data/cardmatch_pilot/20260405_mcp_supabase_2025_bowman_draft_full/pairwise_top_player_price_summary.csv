@@ -1,0 +1,9 @@
+pairwise_rank,player,win_rate,n_listings,mean_all_in,median_all_in,p90_all_in,max_all_in,pairwise_listing_count
+1,Malachi Witherspoon/Kyson Witherspoon,0.894737,4,449.99,449.99,499.99,499.99,4
+2,Seth Hernandez,0.889066,383,601.5948,28.5,754.99,30000.0,383
+3,Michael Oliveto,0.822064,154,189.3558,130.0,403.886,1610.0,154
+4,Dax Kilby,0.795037,370,197.5487,22.0,340.991,6038.99,370
+5,Steele Hall,0.785772,415,222.1863,15.0,399.972,22999.0,415
+6,Gage Wood,0.783784,210,205.1859,22.74,499.99,3004.99,210
+7,Liam Doyle,0.781377,398,251.7704,32.98,508.08,15000.0,398
+8,Eli Willits,0.769107,957,157.0167,24.98,392.99,3999.99,957

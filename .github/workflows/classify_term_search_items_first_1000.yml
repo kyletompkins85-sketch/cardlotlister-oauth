@@ -6,11 +6,11 @@ on:
       input_csv:
         description: Input CSV path
         required: true
-        default: "data/term_search_items_table.csv"
+        default: "data/topps_update_2025/term_search_items_table.csv"
       out_csv:
         description: Output CSV path
         required: true
-        default: "data/term_search_items_table_classified_1000.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified_1000.csv"
       max_rows:
         description: Max rows to process
         required: true
@@ -29,7 +29,7 @@ jobs:
       - name: Append classification flags (first N rows)
         run: |
           set -euo pipefail
-          python3 scripts/append_flags_first_1000.py \
+          python3 scripts/topps_update_2025/append_flags_first_1000.py \
             --input "${{ inputs.input_csv }}" \
             --out "${{ inputs.out_csv }}" \
             --max-rows "${{ inputs.max_rows }}"

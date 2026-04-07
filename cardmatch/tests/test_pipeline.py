@@ -5,7 +5,8 @@ from pathlib import Path
 
 from cardmatch.pipeline import _price_round_dollar, _review_slice_compact_row
 from cardmatch.player_index import default_checklist_path
-from cardmatch.review_slice import load_bdc_player_rank, row_matches_classification_focus
+from cardmatch.player_index import load_bdc_player_rank
+from cardmatch.review_slice import row_matches_classification_focus
 from cardmatch.taxonomy import bdc_serial_denominator_color_map, build_composite_card_type
 from cardmatch.card_type import row_primary_card_type
 
@@ -439,6 +440,26 @@ class TestReviewSliceRow(unittest.TestCase):
         }
         self.assertEqual(row_primary_card_type(r), "BDC Chrome Prospect · Purple /250")
         self.assertFalse(row_matches_classification_focus(r, "bdc_chrome_prospect_parallel"))
+
+    def test_classification_focus_unknown_player(self) -> None:
+        self.assertTrue(
+            row_matches_classification_focus(
+                {"pilot_player_status": "unknown", "pilot_player_guess": ""},
+                "unknown_player",
+            )
+        )
+        self.assertTrue(
+            row_matches_classification_focus(
+                {"pilot_player_status": "matched", "pilot_player_guess": "(unknown player)"},
+                "unknown_player",
+            )
+        )
+        self.assertFalse(
+            row_matches_classification_focus(
+                {"pilot_player_status": "matched", "pilot_player_guess": "Eli Willits"},
+                "unknown_player",
+            )
+        )
 
     def test_classification_focus_primary_exact(self) -> None:
         rc = {"primary_card_type_exact": "BDC Chrome Prospect · Orange /25"}

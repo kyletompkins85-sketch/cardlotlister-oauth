@@ -6,7 +6,7 @@ import os
 import sys
 from typing import Dict, List
 
-# Allow importing sibling script from scripts/
+# Allow importing topps_listing_classifier from this directory.
 # Cmd+F: GH_ANCHOR_IMPORT_CLASSIFIER_5F1A3B8D
 HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
@@ -18,8 +18,16 @@ from topps_listing_classifier import classify_title  # noqa: E402
 def main() -> None:
     # Cmd+F: GH_ANCHOR_APPEND_FLAGS_MAIN_9C0B3E12
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="Input CSV path (e.g. data/term_search_items_table.csv)")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/term_search_items_table_classified_1000.csv)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="Input CSV path (e.g. data/topps_update_2025/term_search_items_table.csv)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV path (e.g. data/topps_update_2025/term_search_items_table_classified_1000.csv)",
+    )
     ap.add_argument("--title-col", default="title", help="CSV column containing the title (default: title)")
     ap.add_argument("--max-rows", type=int, default=1000, help="Max rows to process (default: 1000)")
     ap.add_argument("--only-unclassified", action="store_true",

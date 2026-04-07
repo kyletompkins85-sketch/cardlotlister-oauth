@@ -1,7 +1,6 @@
 {
-  "description": "`review_focus.csv` = rows whose canonical primary is exactly **`primary_card_type_exact`** (here **BDC Chrome Prospect · Orange /25**). Sort **BDC# 1–200** then price (`bdc_then_price_asc`). Set **`review_focus_scope`: `all`** for the full scored pool. Fast refresh: `python3 -m cardmatch --input pilot_scored_full.csv --review-focus-only --output-dir <dir>`.",
-  "classification_focus": "primary_exact",
-  "primary_card_type_exact": "BDC Chrome Prospect · Orange /25",
+  "description": "`review_focus.csv` = unknown-player listings (`pilot_player_status` unknown). **Excludes** lot/pick/set-builder/complete-set/presale/graded (same as `row_excluded_from_listing_counts`). `review_unclassified.csv` still lists all unknown rows without those filters. Sort: price ascending then title. Set **`review_focus_scope`: `all`** for the full scored pool. Fast refresh: `python3 -m cardmatch --input pilot_scored_full.csv --review-focus-only --output-dir <dir>`.",
+  "classification_focus": "unknown_player",
   "review_focus_scope": "all",
   "review_slice_sort": "bd_then_price_asc",
   "card_numbers": [

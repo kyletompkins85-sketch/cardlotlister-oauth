@@ -15,7 +15,7 @@ Whenever you change **any** of the following, you **must** finish by regeneratin
 **Command** (from repo root):
 
 ```bash
-bash scripts/rescore_cardmatch_committed_pilot.sh
+bash scripts/cardmatch/rescore_cardmatch_committed_pilot.sh
 ```
 
 Or the equivalent two `python3 -m cardmatch --input …/pilot_scored_full.csv --no-run-filter --output-dir …` invocations for `20260405_mcp_supabase_2025_bowman_draft_full` and `20260405_supabase_2025_bowman_draft_sample8000`.

@@ -1,0 +1,13 @@
+{
+  "lift_bins_written": 20,
+  "lift_quantiles_requested": 20,
+  "predictors": [
+    "player_rank",
+    "card_type_rank"
+  ],
+  "rows_holdout": 5072,
+  "rows_total": 25358,
+  "rows_train": 16229,
+  "rows_val": 4057,
+  "target": "all_in_price"
+}

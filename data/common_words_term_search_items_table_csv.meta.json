@@ -1,6 +1,0 @@
-{
-  "total_titles": 55126,
-  "unique_words": 3714,
-  "top_n": 300,
-  "out_csv": "data/common_words_term_search_items_table_csv.csv"
-}

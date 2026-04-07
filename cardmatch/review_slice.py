@@ -7,10 +7,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 from cardmatch.card_type import row_primary_card_type, row_primary_card_type_used_legacy_other_fallback
+from cardmatch.player_index import load_bdc_player_rank
 from cardmatch.taxonomy import flags_for_title
 
 _BD_NUM = re.compile(r"^BD-(\d+)$", re.IGNORECASE)
-_BDC_NUM = re.compile(r"^BDC-(\d+)$", re.IGNORECASE)
 
 # `classification_focus: refractor` — extras that are refractor-family but not BDC-prefixed.
 _REFRACTOR_FOCUS_EXTRA_TYPES = frozenset(
@@ -78,28 +78,6 @@ def load_player_card_rank(checklist_csv: Path, card_numbers: List[str]) -> Dict[
     return out
 
 
-def load_bdc_player_rank(checklist_csv: Path, max_num: int = 200) -> Dict[str, int]:
-    """
-    Map checklist player display name -> BDC chrome number (BDC-1 -> 1 … BDC-200 -> 200) for sorting.
-    Uses rows whose `card_number` matches **BDC-*** in the normalized checklist (Base Set - Chrome).
-    """
-    out: Dict[str, int] = {}
-    with checklist_csv.open(encoding="utf-8", newline="") as f:
-        r = csv.DictReader(f)
-        for row in r:
-            cn = (row.get("card_number") or "").strip()
-            m = _BDC_NUM.match(cn)
-            if not m:
-                continue
-            rank = int(m.group(1))
-            if rank < 1 or rank > max_num:
-                continue
-            raw = (row.get("player_name_raw") or "").strip().rstrip(",").strip()
-            if raw and raw not in out:
-                out[raw] = rank
-    return out
-
-
 def load_review_config(path: Path) -> Dict[str, Any]:
     with path.open(encoding="utf-8") as f:
         return json.load(f)
@@ -133,8 +111,15 @@ def row_matches_classification_focus(
     * bdc_chrome_prospect — canonical primary is exactly **BDC Chrome Prospect** (bare product line; no parallel/base/auto suffix).
     * other — rows that used the legacy default after taxonomy: **BDC Chrome Prospect · Base** if *chrome* in title else **Base-Paper** (ex-composite **Other** bucket; see `row_primary_card_type_used_legacy_other_fallback`).
     * primary_exact — canonical `row_primary_card_type` equals **`primary_card_type_exact`** in `review_targets.json` (any single primary string).
+    * unknown_player — `pilot_player_status` is **unknown**, or `pilot_player_guess` is the literal **(unknown player)**. `review_focus` uses full listing-count exclusions (lot/pick/set/complete/presale/graded).
     """
     f = (focus or "").strip().lower()
+    if f == "unknown_player":
+        st = (row.get("pilot_player_status") or "").strip().lower()
+        if st == "unknown":
+            return True
+        guess = (row.get("pilot_player_guess") or "").strip()
+        return guess.lower() == "(unknown player)"
     if f == "primary_exact":
         rc = review_config or {}
         want = (rc.get("primary_card_type_exact") or "").strip()

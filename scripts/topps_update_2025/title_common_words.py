@@ -127,10 +127,18 @@ def write_outputs(out_base: str, total_titles: int, docfreq: Counter, top_n: int
 def main():
     # Cmd+F: GH_ANCHOR_TITLE_COMMON_WORDS_MAIN_5C44B0E2
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="CSV path or JSONL glob (e.g. data/term_search_items_table.csv or data/term_search_items_*.jsonl)")
+    ap.add_argument(
+        "--input",
+        required=True,
+        help="CSV path or JSONL glob (e.g. data/topps_update_2025/term_search_items_table.csv or data/topps_update_2025/term_search_items_*.jsonl)",
+    )
     ap.add_argument("--title-key", default="title", help="Field/column name for title (default: title)")
     ap.add_argument("--top", type=int, default=200, help="How many words to output (default: 200)")
-    ap.add_argument("--out", default="", help="Output base path without extension (default: data/common_words_<slug>)")
+    ap.add_argument(
+        "--out",
+        default="",
+        help="Output base path without extension (default: data/topps_update_2025/common_words_<slug>)",
+    )
     ap.add_argument("--ct-any-key", default="CT_any", help="Field/column name for CT_any (default: CT_any)")
     ap.add_argument("--only-unclassified", action="store_true", help="If set, only include rows where CT_any is false")
 
@@ -150,13 +158,13 @@ def main():
         if not os.path.exists(inp):
             raise SystemExit(f"CSV not found: {inp}")
         titles_iter = iter_titles_from_csv(inp, title_key, ct_any_key, only_unclassified)
-        out_base = args.out.strip() or f"data/common_words_{slugify(os.path.basename(inp))}"
+        out_base = args.out.strip() or f"data/topps_update_2025/common_words_{slugify(os.path.basename(inp))}"
     else:
         paths = sorted(glob.glob(inp))
         if not paths:
             raise SystemExit(f"No JSONL files matched: {inp}")
         titles_iter = iter_titles_from_jsonl(paths, title_key, ct_any_key, only_unclassified)
-        out_base = args.out.strip() or f"data/common_words_{slugify(inp)}"
+        out_base = args.out.strip() or f"data/topps_update_2025/common_words_{slugify(inp)}"
 
     total_titles, docfreq = compute_docfreq(titles_iter)
     print(f"TOTAL_TITLES={total_titles}")

@@ -1,0 +1,5 @@
+# Optional deps for train_bowman_rank_price_autogluon.py (install in a venv).
+# LightGBM/CatBoost/XGBoost improve AutoGluon quality; RF still runs if missing.
+autogluon.tabular[lightgbm]>=1.0
+matplotlib
+pandas

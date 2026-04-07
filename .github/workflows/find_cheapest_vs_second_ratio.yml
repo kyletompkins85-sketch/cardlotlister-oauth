@@ -6,7 +6,7 @@ on:
       input_csv:
         description: "Market CSV (classified) to analyze"
         required: true
-        default: "data/term_search_items_table_classified.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified.csv"
       price_col:
         description: "All-in price column"
         required: true
@@ -66,7 +66,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          OUT_DIR="$(dirname "${INPUT}")"
+          mkdir -p "${OUT_DIR}"
 
           SLUG="$(python3 - <<'PY'
           import os, re
@@ -78,9 +79,9 @@ jobs:
           PY
           )"
 
-          OUT="data/${SLUG}_lowest_vs_second_ratio.csv"
+          OUT="${OUT_DIR}/${SLUG}_lowest_vs_second_ratio.csv"
 
-          python3 scripts/find_cheapest_vs_second_ratio.py \
+          python3 scripts/topps_update_2025/find_cheapest_vs_second_ratio.py \
             --input-csv "${INPUT}" \
             --out-csv "${OUT}" \
             --price-col "${PRICE_COL}" \
@@ -97,7 +98,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*_lowest_vs_second_ratio.csv || true
+          git add data/topps_update_2025/*_lowest_vs_second_ratio.csv || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

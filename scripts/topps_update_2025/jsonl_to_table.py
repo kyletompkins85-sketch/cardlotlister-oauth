@@ -93,8 +93,15 @@ def write_csv(paths: List[str], out_path: str, columns: List[str]) -> Tuple[int,
 def main():
     # Cmd+F: GH_ANCHOR_JSONL_TO_TABLE_MAIN_3F1B7C2A
     ap = argparse.ArgumentParser()
-    ap.add_argument("input", help="Input JSONL path or glob (e.g. data/term_search_items_*.jsonl)")
-    ap.add_argument("--out", required=True, help="Output CSV path (e.g. data/term_search_items_table.csv)")
+    ap.add_argument(
+        "input",
+        help="Input JSONL path or glob (e.g. data/topps_update_2025/term_search_items_*.jsonl)",
+    )
+    ap.add_argument(
+        "--out",
+        required=True,
+        help="Output CSV path (e.g. data/topps_update_2025/term_search_items_table.csv)",
+    )
     ap.add_argument(
         "--columns",
         default="ALL",

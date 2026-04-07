@@ -6,19 +6,19 @@ on:
       input_csv:
         description: "Universe CSV to score"
         required: true
-        default: "data/term_search_items_table_classified.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified.csv"
       model_dir:
         description: "Model folder produced by training workflow (contains agModels/)"
         required: true
-        default: "data/term_search_items_table_classified_trimmed_to_dad_ag_price_model"
+        default: "data/topps_update_2025/term_search_items_table_classified_trimmed_to_dad_ag_price_model"
       ct_summary_csv:
         description: "CT sim summary CSV"
         required: true
-        default: "data/term_search_items_table_classified_ct_sim_summary.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified_ct_sim_summary.csv"
       player_summary_csv:
         description: "Player sim summary CSV"
         required: true
-        default: "data/term_search_items_table_classified_player_sim_summary.csv"
+        default: "data/topps_update_2025/term_search_items_table_classified_player_sim_summary.csv"
       min_diff:
         description: "Keep rows where (pred - actual) >= this"
         required: true
@@ -87,7 +87,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p data
+          OUT_DIR="$(dirname "${INPUT}")"
+          mkdir -p "${OUT_DIR}"
 
           SLUG="$(python3 - <<'PY'
           import os, re
@@ -99,9 +100,9 @@ jobs:
           PY
           )"
 
-          OUT="data/${SLUG}_underpriced_vs_model.csv"
+          OUT="${OUT_DIR}/${SLUG}_underpriced_vs_model.csv"
 
-          python3 scripts/score_market_underpriced.py \
+          python3 scripts/topps_update_2025/score_market_underpriced.py \
             --input-csv "${INPUT}" \
             --model-path "${MODEL_PATH}" \
             --ct-summary-csv "${CT_SUM}" \
@@ -119,7 +120,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/*_underpriced_vs_model.csv data/*_underpriced_vs_model_meta.json || true
+          git add data/topps_update_2025/*_underpriced_vs_model.csv data/topps_update_2025/*_underpriced_vs_model_meta.json || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

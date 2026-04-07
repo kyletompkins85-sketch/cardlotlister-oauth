@@ -9,6 +9,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from cardmatch.player_index import load_bdc_player_rank
 from cardmatch.taxonomy import (
     _bdc_parallel_detail,
     _bdc_parallel_detail_from_serial_denominator,
@@ -453,6 +454,11 @@ def row_primary_card_type(row: Dict[str, Any]) -> str:
     if (row.get("pilot_is_likely_chrome_base") or "") == "1":
         return finalize_bdc_composite_string("BDC Chrome Prospect · Base")
     if (row.get("pilot_is_likely_base") or "") == "1":
+        codes_lb = _parse_reason_codes(row)
+        nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
+        want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
+        if want_auto_lb:
+            return finalize_bdc_composite_string("BDC Chrome Prospect · Auto")
         return "Base-Paper"
 
     composite = build_composite_card_type(row)
@@ -497,6 +503,11 @@ def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
     if (row.get("pilot_is_likely_chrome_base") or "") == "1":
         return (finalize_bdc_composite_string("BDC Chrome Prospect · Base"), False)
     if (row.get("pilot_is_likely_base") or "") == "1":
+        codes_lb = _parse_reason_codes(row)
+        nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
+        want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
+        if want_auto_lb:
+            return (finalize_bdc_composite_string("BDC Chrome Prospect · Auto"), False)
         return ("Base-Paper", False)
 
     codes = _parse_reason_codes(row)
@@ -519,7 +530,9 @@ def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
         r = _resolve_autograph_only_nb(row, flags)
         if r is not None:
             return (r, False)
-        return (_fallback_base_or_paper_title(row), True)
+        # Autographs must not fall through to plain **Base-Paper** when the title omits *chrome*
+        # (e.g. "1st Auto" only). Default to on-card Chrome prospect autographs for Bowman Draft.
+        return (finalize_bdc_composite_string("BDC Chrome Prospect · Auto"), False)
     return (_fallback_base_or_paper_title(row), True)
 
 
@@ -614,3 +627,47 @@ def write_listing_count_reports(
             w.writerow({"player": player, "card_type": ct, "listing_count": n})
 
     return type_path, pt_path, by_type
+
+
+def write_listing_counts_by_player_bdc_order(
+    rows: List[Dict[str, Any]],
+    out_dir: Path,
+    checklist: Path,
+    *,
+    bdc_cap: int = 200,
+) -> Path:
+    """
+    Write listing_counts_by_player_bdc_order.csv: total listing counts per player (same exclusions
+    as `write_listing_count_reports`), sorted by **BDC chrome checklist number** (BDC-1 … BDC-N),
+    then players not on the BDC map (e.g. unknown / name mismatch) last, A–Z within each bucket.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    bdc_cap = max(1, min(int(bdc_cap), 500))
+    by_player: Counter[str] = Counter()
+    for r in rows:
+        ct = row_primary_card_type(r)
+        if row_excluded_from_listing_counts(r, ct):
+            continue
+        player = (r.get("pilot_player_guess") or "").strip()
+        if not player:
+            player = "(unknown player)"
+        by_player[player] += 1
+
+    rank_map = load_bdc_player_rank(checklist, bdc_cap)
+    sentinel = 1_000_000
+    ordered: List[Tuple[int, str, str, int]] = []
+    for player, n in by_player.items():
+        br = rank_map.get(player)
+        if br is None:
+            ordered.append((sentinel, player, "", n))
+        else:
+            ordered.append((br, player, str(br), n))
+    ordered.sort(key=lambda x: (x[0], x[1].lower()))
+
+    path = out_dir / "listing_counts_by_player_bdc_order.csv"
+    with path.open("w", encoding="utf-8", newline="") as fw:
+        w = csv.DictWriter(fw, fieldnames=["bdc_rank", "player", "listing_count"])
+        w.writeheader()
+        for _sort_key, player, br_str, n in ordered:
+            w.writerow({"bdc_rank": br_str, "player": player, "listing_count": n})
+    return path

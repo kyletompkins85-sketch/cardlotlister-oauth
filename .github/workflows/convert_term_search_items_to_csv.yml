@@ -6,11 +6,11 @@ on:
       input_glob:
         description: JSONL glob pattern in repo
         required: true
-        default: "data/term_search_items_*.jsonl"
+        default: "data/topps_update_2025/term_search_items_*.jsonl"
       out_csv:
         description: Output CSV path
         required: true
-        default: "data/term_search_items_table.csv"
+        default: "data/topps_update_2025/term_search_items_table.csv"
       columns:
         description: ALL or comma-separated list (e.g. run_id,title,price,seller_username,shipping_cost,shipping_cost_type)
         required: true
@@ -29,7 +29,7 @@ jobs:
       - name: Convert JSONL to CSV
         run: |
           set -euo pipefail
-          python3 scripts/jsonl_to_table.py "${{ inputs.input_glob }}" \
+          python3 scripts/topps_update_2025/jsonl_to_table.py "${{ inputs.input_glob }}" \
             --out "${{ inputs.out_csv }}" \
             --columns "${{ inputs.columns }}"
 
