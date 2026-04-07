@@ -3,3 +3,7 @@
 autogluon.tabular[lightgbm]>=1.0
 matplotlib
 pandas
+
+# Optional HTTP: scripts/cardmatch/bowman_title_price_api.py
+# fastapi
+# uvicorn[standard]

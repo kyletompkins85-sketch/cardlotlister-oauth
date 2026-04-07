@@ -70,6 +70,66 @@ def _median_rank(rank_map: Dict[str, int]) -> float:
     return (vals[mid - 1] + vals[mid]) / 2.0
 
 
+def _lift_table_from_predictions(
+    df: pd.DataFrame,
+    label_col: str,
+    pred_col: str,
+    q_bins: int,
+) -> pd.DataFrame:
+    """Aggregate mean predicted / observed by ``q_bins`` quantiles of ``pred_col``."""
+    d = df[[label_col, pred_col]].dropna()
+    if len(d) < 2:
+        return pd.DataFrame()
+    q = max(2, min(int(q_bins), len(d)))
+    try:
+        d = d.copy()
+        d["_bin"] = pd.qcut(d[pred_col], q=q, labels=False, duplicates="drop")
+    except ValueError:
+        d["_bin"] = 0
+    d["_bin"] = d["_bin"].astype(int)
+    lift_table = (
+        d.groupby("_bin", as_index=False)
+        .agg(
+            n=(pred_col, "size"),
+            mean_predicted=(pred_col, "mean"),
+            mean_observed=(label_col, "mean"),
+            min_predicted=(pred_col, "min"),
+            max_predicted=(pred_col, "max"),
+        )
+        .sort_values("_bin")
+        .reset_index(drop=True)
+    )
+    lift_table["quantile_bin"] = lift_table["_bin"] + 1
+    return lift_table.drop(columns=["_bin"])
+
+
+def _save_lift_chart(
+    lift_table: pd.DataFrame,
+    path: str,
+    *,
+    title: str,
+    xlabel: str,
+) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    if lift_table.empty:
+        return
+    fig = plt.figure(figsize=(8, 5))
+    x = lift_table["quantile_bin"]
+    plt.plot(x, lift_table["mean_predicted"], marker="o", label="Mean predicted (holdout)")
+    plt.plot(x, lift_table["mean_observed"], marker="o", label="Mean observed (holdout)")
+    plt.xlabel(xlabel)
+    plt.ylabel("Price")
+    plt.title(title)
+    plt.legend(loc="best")
+    plt.tight_layout()
+    plt.savefig(path, dpi=160)
+    plt.close(fig)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description="AutoGluon: player_rank + card_type_rank → all_in_price (Bowman pilot)."
@@ -179,44 +239,56 @@ def main() -> None:
     holdout_out = holdout.copy()
     holdout_out["predicted_price"] = preds.values if hasattr(preds, "values") else preds
 
-    holdout_out.to_csv(os.path.join(out_dir, "holdout_predictions.csv"), index=False)
+    holdout_out[label] = pd.to_numeric(holdout_out[label], errors="coerce")
+    holdout_out["predicted_price"] = pd.to_numeric(holdout_out["predicted_price"], errors="coerce")
 
-    # Lift: 20 quantiles by predicted price on holdout only
-    q = max(2, min(int(args.lift_quantiles), len(holdout_out)))
-    lift_df = holdout_out[[label, "predicted_price"]].copy()
-    lift_df[label] = pd.to_numeric(lift_df[label], errors="coerce")
-    lift_df["predicted_price"] = pd.to_numeric(lift_df["predicted_price"], errors="coerce")
-    lift_df = lift_df.dropna(subset=[label, "predicted_price"])
-
+    # Per-row bin (1..20) from full holdout predicted-price quantiles (for exclusion views)
+    q = max(2, min(int(args.lift_quantiles), len(holdout_out.dropna(subset=[label, "predicted_price"]))))
+    ho_valid = holdout_out.dropna(subset=[label, "predicted_price"]).copy()
     try:
-        lift_df["bin"] = pd.qcut(
-            lift_df["predicted_price"],
-            q=q,
-            labels=False,
-            duplicates="drop",
+        ho_valid["quantile_bin"] = (
+            pd.qcut(ho_valid["predicted_price"], q=q, labels=False, duplicates="drop").astype(int) + 1
         )
     except ValueError:
-        lift_df["bin"] = 0
+        ho_valid["quantile_bin"] = 1
+    holdout_out = holdout_out.join(ho_valid[["quantile_bin"]], how="left")
 
-    lift_df["bin"] = lift_df["bin"].astype(int)
+    holdout_out.to_csv(os.path.join(out_dir, "holdout_predictions.csv"), index=False)
 
-    lift_table = (
-        lift_df.groupby("bin", as_index=False)
-        .agg(
-            n=("predicted_price", "size"),
-            mean_predicted=("predicted_price", "mean"),
-            mean_observed=(label, "mean"),
-            min_predicted=("predicted_price", "min"),
-            max_predicted=("predicted_price", "max"),
-        )
-        .sort_values("bin")
-        .reset_index(drop=True)
-    )
-    lift_table["quantile_bin"] = lift_table["bin"] + 1
-    lift_table = lift_table.drop(columns=["bin"])
+    ho_pred = holdout_out.dropna(subset=[label, "predicted_price"])
 
+    # Full holdout lift (20 bins)
+    lift_table = _lift_table_from_predictions(ho_pred, label, "predicted_price", q)
     lift_path = os.path.join(out_dir, "lift_table_holdout.csv")
     lift_table.to_csv(lift_path, index=False)
+
+    # Sub-holdout lifts: drop top predicted-quantile rows, then re-quantile remainder
+    lift_variants = [
+        ("ex20", "Exclude original bin 20 only", 19, lambda d: d["quantile_bin"] <= 19),
+        ("ex19_20", "Exclude original bins 19–20", 18, lambda d: d["quantile_bin"] <= 18),
+        ("ex18_19_20", "Exclude original bins 18–20", 17, lambda d: d["quantile_bin"] <= 17),
+    ]
+
+    meta_extra: Dict[str, Any] = {}
+    for suffix, desc, q_rebin, mask_fn in lift_variants:
+        sub = ho_pred.dropna(subset=["quantile_bin"])
+        sub = sub.loc[mask_fn(sub)].copy()
+        lt = _lift_table_from_predictions(sub, label, "predicted_price", q_rebin)
+        tpath = os.path.join(out_dir, f"lift_table_holdout_{suffix}.csv")
+        lt.to_csv(tpath, index=False)
+        meta_extra[f"lift_{suffix}_rows"] = int(len(sub))
+        meta_extra[f"lift_{suffix}_bins_written"] = int(len(lt))
+        try:
+            _save_lift_chart(
+                lt,
+                os.path.join(out_dir, f"lift_chart_holdout_{suffix}.png"),
+                title=f"Holdout lift ({desc}; {q_rebin} quantiles on remainder)",
+                xlabel=f"Bin by predicted price on subset (1 = lowest; {q_rebin} bins)",
+            )
+            print(f"LIFT_CHART_{suffix.upper()}={os.path.join(out_dir, f'lift_chart_holdout_{suffix}.png')}")
+        except Exception as e:
+            print(f"(lift chart {suffix} skipped: {e})")
+        print(f"LIFT_TABLE_{suffix.upper()}={tpath}")
 
     meta = {
         "rows_total": n,
@@ -227,30 +299,19 @@ def main() -> None:
         "target": label,
         "lift_quantiles_requested": q,
         "lift_bins_written": int(len(lift_table)),
+        **meta_extra,
     }
     with open(os.path.join(out_dir, "run_meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2, sort_keys=True)
 
-    # Optional matplotlib chart
     try:
-        import matplotlib
-
-        matplotlib.use("Agg")
-        import matplotlib.pyplot as plt
-
-        fig = plt.figure(figsize=(8, 5))
-        x = lift_table["quantile_bin"]
-        plt.plot(x, lift_table["mean_predicted"], marker="o", label="Mean predicted (holdout)")
-        plt.plot(x, lift_table["mean_observed"], marker="o", label="Mean observed (holdout)")
-        plt.xlabel("Bin by predicted price (1 = lowest predicted, 20 = highest)")
-        plt.ylabel("Price")
-        plt.title("Holdout lift: observed vs predicted by prediction quantile")
-        plt.legend(loc="best")
-        plt.tight_layout()
-        png_path = os.path.join(out_dir, "lift_chart_holdout.png")
-        plt.savefig(png_path, dpi=160)
-        plt.close(fig)
-        print(f"LIFT_CHART={png_path}")
+        _save_lift_chart(
+            lift_table,
+            os.path.join(out_dir, "lift_chart_holdout.png"),
+            title="Holdout lift: full holdout (all prediction quantiles)",
+            xlabel="Bin by predicted price (1 = lowest predicted, 20 = highest)",
+        )
+        print(f"LIFT_CHART={os.path.join(out_dir, 'lift_chart_holdout.png')}")
     except Exception as e:
         print(f"(lift chart skipped: {e})")
 
