@@ -139,7 +139,11 @@ def predict_bowman_price_from_title(
             "install e.g. from scripts/cardmatch/requirements-bowman-autogluon.txt"
         )
 
-    predictor = TabularPredictor.load(str(Path(autogluon_model_dir)))
+    # Trained artifacts may be older than the installed autogluon.tabular; allow load when only minor version differs.
+    predictor = TabularPredictor.load(
+        str(Path(autogluon_model_dir)),
+        require_version_match=False,
+    )
     feat = pd.DataFrame([{"player_rank": player_rank, "card_type_rank": card_type_rank}])
     pred = predictor.predict(feat)
     if hasattr(pred, "iloc"):
