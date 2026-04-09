@@ -139,10 +139,11 @@ def predict_bowman_price_from_title(
             "install e.g. from scripts/cardmatch/requirements-bowman-autogluon.txt"
         )
 
-    # Trained artifacts may be older than the installed autogluon.tabular; allow load when only minor version differs.
+    # Trained artifacts may differ in autogluon patch and Python minor; match training env when possible (see .python-version).
     predictor = TabularPredictor.load(
         str(Path(autogluon_model_dir)),
         require_version_match=False,
+        require_py_version_match=False,
     )
     feat = pd.DataFrame([{"player_rank": player_rank, "card_type_rank": card_type_rank}])
     pred = predictor.predict(feat)
