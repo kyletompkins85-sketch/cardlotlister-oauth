@@ -41,7 +41,7 @@ railway up --service web --no-gitignore --detach
 
 ## Build
 
-Root [`requirements.txt`](../requirements.txt) installs FastAPI, uvicorn, pandas, and `autogluon.tabular` (see file for pins). Python **3.11** is set via [`.python-version`](../.python-version) and [`nixpacks.toml`](../nixpacks.toml).
+Root [`requirements.txt`](../requirements.txt) installs FastAPI, uvicorn, pandas, and **`autogluon.tabular==1.4.0`** (must match the version used when `agModels` was trained; mismatch causes load errors). Python **3.11** is set via [`.python-version`](../.python-version) and [`nixpacks.toml`](../nixpacks.toml).
 
 ## Related code
 

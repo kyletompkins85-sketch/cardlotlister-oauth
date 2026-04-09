@@ -1,8 +1,8 @@
 # Cmd+F: GH_ANCHOR_RAILWAY_REQUIREMENTS_ROOT
 # Railway / local: Bowman FastAPI API + pairwise rank + AutoGluon predict stack.
 # (Inlined from scripts/cardmatch/requirements-bowman-autogluon.txt — no -r so root pip install works.)
-# Omit [lightgbm] for smaller Railway builds; add autogluon.tabular[lightgbm] if train/infer needs it.
-autogluon.tabular>=1.0
+# Pin to the AutoGluon version used when `agModels` was trained (load fails if newer Tabular is installed).
+autogluon.tabular==1.4.0
 matplotlib
 pandas
 fastapi>=0.100
