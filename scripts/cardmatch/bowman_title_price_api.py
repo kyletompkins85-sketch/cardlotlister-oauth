@@ -12,7 +12,7 @@ Optional: ``BOWMAN_CHECKLIST_CSV`` (Bowman Draft normalized checklist).
 
 Install: ``pip install -r requirements.txt`` (repo root) or ``pip install fastapi uvicorn pydantic`` plus ``scripts/cardmatch/requirements-bowman-autogluon.txt``.
 
-Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. Default ``agModels`` path is gitignored—set ``BOWMAN_AUTOGLUON_DIR`` (and CSV paths if needed) in the service variables.
+Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. If ``agModels`` is missing, the process still starts; ``GET /health`` succeeds and ``POST /predict`` returns 503 until ``BOWMAN_AUTOGLUON_DIR`` points at a valid directory.
 """
 from __future__ import annotations
 
@@ -69,17 +69,33 @@ def main() -> None:
     for label, path in (
         ("BOWMAN_PLAYER_RANKINGS_CSV", pl_csv),
         ("BOWMAN_CARD_TYPE_RANKINGS_CSV", ct_csv),
-        ("BOWMAN_AUTOGLUON_DIR", ag_dir),
     ):
         p = Path(path)
         if not p.exists():
             raise SystemExit(f"Missing {label}: {path}")
 
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_STARTUP_MODEL
+    ag_models_available = Path(ag_dir).is_dir()
+
     app = FastAPI(title="Bowman title price", version="1.0.0")
+
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_HEALTH
+    @app.get("/health")
+    def health() -> dict:
+        return {"status": "ok"}
 
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_PREDICT
     @app.post("/predict")
     def predict(payload: PredictRequest) -> dict:
+        if not ag_models_available:
+            raise HTTPException(
+                status_code=503,
+                detail={
+                    "error": "autogluon_model_unavailable",
+                    "message": "AutoGluon model directory is missing or not a directory.",
+                    "path": ag_dir,
+                },
+            )
         try:
             out = predict_bowman_price_from_title(
                 payload.title,
