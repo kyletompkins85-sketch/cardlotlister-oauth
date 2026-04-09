@@ -10,13 +10,18 @@ Requires env (or defaults relative to repo):
 
 Optional: ``BOWMAN_CHECKLIST_CSV`` (Bowman Draft normalized checklist).
 
-Install: ``pip install fastapi uvicorn`` plus ``scripts/cardmatch/requirements-bowman-autogluon.txt``.
+Install: ``pip install -r requirements.txt`` (repo root) or ``pip install fastapi uvicorn pydantic`` plus ``scripts/cardmatch/requirements-bowman-autogluon.txt``.
+
+Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. Default ``agModels`` path is gitignored—set ``BOWMAN_AUTOGLUON_DIR`` (and CSV paths if needed) in the service variables.
 """
 from __future__ import annotations
 
 import os
 import sys
 from pathlib import Path
+from typing import Optional
+
+from pydantic import BaseModel, Field
 
 _ROOT = Path(__file__).resolve().parents[2]
 if str(_ROOT) not in sys.path:
@@ -25,14 +30,24 @@ if str(_ROOT) not in sys.path:
 _DEFAULT_PILOT = _ROOT / "data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full"
 
 
+# Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_BODY
+class PredictRequest(BaseModel):
+    title: str = Field(..., min_length=1, description="eBay listing title")
+    price: Optional[float] = Field(default=None, description="Optional listing price (not used by rank model)")
+    year: Optional[int] = Field(default=None, description="Optional product year, e.g. 2025")
+    set_name: Optional[str] = Field(
+        default=None,
+        description="Optional product set name, e.g. Bowman Draft",
+    )
+
+
 def main() -> None:
     try:
         from fastapi import FastAPI, HTTPException
-        from pydantic import BaseModel, Field
         import uvicorn
     except ImportError as e:
         raise SystemExit(
-            "Install fastapi uvicorn pydantic: pip install fastapi uvicorn\n" + str(e)
+            "Install fastapi uvicorn pydantic: pip install fastapi uvicorn pydantic\n" + str(e)
         ) from e
 
     from cardmatch.bowman_title_price_predict import predict_bowman_price_from_title
@@ -60,16 +75,14 @@ def main() -> None:
         if not p.exists():
             raise SystemExit(f"Missing {label}: {path}")
 
-    class Body(BaseModel):
-        title: str = Field(..., min_length=1, description="eBay listing title")
-
     app = FastAPI(title="Bowman title price", version="1.0.0")
 
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_PREDICT
     @app.post("/predict")
-    def predict(body: Body) -> dict:
+    def predict(payload: PredictRequest) -> dict:
         try:
             out = predict_bowman_price_from_title(
-                body.title,
+                payload.title,
                 player_rankings_csv=pl_csv,
                 card_type_rankings_csv=ct_csv,
                 autogluon_model_dir=ag_dir,
@@ -78,19 +91,30 @@ def main() -> None:
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e)) from e
         return {
-            "title": out.title,
             "player": out.player,
             "card_type": out.card_type,
             "predicted_price": out.predicted_price,
-            "excluded": out.excluded,
-            "exclude_reason": out.exclude_reason,
-            "player_status": str(out.player_status),
-            "player_score": out.player_score,
-            "matcher_version": out.matcher_version,
+            "confidence": {
+                "player_score": out.player_score,
+                "player_status": str(out.player_status),
+            },
+            "diagnostics": {
+                "title": out.title,
+                "excluded": out.excluded,
+                "exclude_reason": out.exclude_reason,
+                "matcher_version": out.matcher_version,
+                "listing_price": payload.price,
+                "year": payload.year,
+                "set_name": payload.set_name,
+            },
         }
 
-    host = os.environ.get("BOWMAN_API_HOST", "127.0.0.1")
-    port = int(os.environ.get("BOWMAN_API_PORT", "8765"))
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_UVICORN_BIND
+    # Railway sets PORT; bind 0.0.0.0 unless BOWMAN_API_HOST overrides.
+    port = int(os.environ.get("BOWMAN_API_PORT") or os.environ.get("PORT", "8765"))
+    host = os.environ.get("BOWMAN_API_HOST")
+    if host is None:
+        host = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
     uvicorn.run(app, host=host, port=port)
 
 
