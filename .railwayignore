@@ -1,0 +1,17 @@
+# Cmd+F: GH_ANCHOR_RAILWAY_IGNORE
+# Used by `railway up --no-gitignore`: still skip these paths (secrets / huge dirs).
+# Do NOT list agModels here — that folder is gitignored but must upload for local CLI deploys.
+
+.env
+.env.*
+
+.venv_ag/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+node_modules/
+cardmatch/runs/
+cardmatch/tests/_out_smoke/
+cardmatch/tests/_smoke_out/

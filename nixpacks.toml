@@ -1,0 +1,5 @@
+# Cmd+F: GH_ANCHOR_RAILWAY_NIXPACKS
+# Railway (Nixpacks) Python version — see https://nixpacks.com/docs/providers/python
+
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.11"
