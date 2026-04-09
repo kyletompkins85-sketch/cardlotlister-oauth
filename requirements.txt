@@ -1,6 +1,9 @@
 # Cmd+F: GH_ANCHOR_RAILWAY_REQUIREMENTS_ROOT
 # Railway / local: Bowman FastAPI API + pairwise rank + AutoGluon predict stack.
--r scripts/cardmatch/requirements-bowman-autogluon.txt
+# (Inlined from scripts/cardmatch/requirements-bowman-autogluon.txt — no -r so root pip install works.)
+autogluon.tabular[lightgbm]>=1.0
+matplotlib
+pandas
 fastapi>=0.100
 uvicorn[standard]>=0.20
 pydantic>=2
