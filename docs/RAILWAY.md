@@ -11,6 +11,7 @@ Deploys the **`web`** process from the repo root [`Procfile`](../Procfile): `pyt
 | GET | `/health` | No model required; returns `{"status":"ok"}`. |
 | POST | `/predict` | JSON body: `title` (required), optional `price`, `year`, `set_name`. Needs AutoGluon model dir on disk or 503. |
 | POST | `/predict/batch` | JSON body: `items` — array of the same objects as `/predict` (min 1). Max length defaults to 200 (`BOWMAN_PREDICT_BATCH_MAX`). Response: `{"results":[...]}` with the same shape as `/predict` per element. 422 if over max. |
+| POST | `/batch/observed-flags` | JSON body: `items` — each object requires `title` and **`price`** (observed listing price). Optional `id`, `year`, `set_name`. **No AutoGluon**; uses pairwise card-type ranks only. Response: `{"results":[...]}` per item with `card_type` (product/parallel only, no player name), `spread_ratio`, `cheaper_than_worse_tier` (``null`` when not a **serial** listing per classifier — inversion only applies to numbered/serial), `confidence`, `diagnostics` (includes `is_serial_listing`). Optional top-level `warnings` (e.g. `multiple_players_in_batch`). Max length defaults to 200 (`BOWMAN_OBSERVED_BATCH_MAX`). |
 
 ## Environment variables
 
@@ -22,8 +23,9 @@ Deploys the **`web`** process from the repo root [`Procfile`](../Procfile): `pyt
 | `BOWMAN_CARD_TYPE_RANKINGS_CSV` | Optional override for pairwise card-type ranks CSV. |
 | `BOWMAN_CHECKLIST_CSV` | Optional Bowman checklist CSV for `classify_listing` / matcher. |
 | `BOWMAN_PREDICT_BATCH_MAX` | Max length of `items` for `POST /predict/batch` (default **200**). |
+| `BOWMAN_OBSERVED_BATCH_MAX` | Max length of `items` for `POST /batch/observed-flags` (default **200**). |
 
-**Startup:** If the two default pairwise CSVs are missing, the process exits (configure paths or commit [`data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/`](../data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/) files). If **`agModels`** is missing, the server still starts; **`POST /predict`** and **`POST /predict/batch`** return **503** with `autogluon_model_unavailable` until the model exists.
+**Startup:** If the two default pairwise CSVs are missing, the process exits (configure paths or commit [`data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/`](../data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/) files). If **`agModels`** is missing, the server still starts; **`POST /predict`** and **`POST /predict/batch`** return **503** with `autogluon_model_unavailable` until the model exists. **`POST /batch/observed-flags`** does not load AutoGluon and does not return 503 for a missing model.
 
 ## GitHub deploy vs model files
 
@@ -49,3 +51,4 @@ Root [`requirements.txt`](../requirements.txt) installs FastAPI, uvicorn, pandas
 
 - API: [`scripts/cardmatch/bowman_title_price_api.py`](../scripts/cardmatch/bowman_title_price_api.py)
 - Predict logic: [`cardmatch/bowman_title_price_predict.py`](../cardmatch/bowman_title_price_predict.py)
+- Batch observed flags (spread ratio + inversion vs worse card types): [`cardmatch/bowman_batch_listing_flags.py`](../cardmatch/bowman_batch_listing_flags.py)

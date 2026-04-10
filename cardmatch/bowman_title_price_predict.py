@@ -91,6 +91,94 @@ class BowmanTitlePricePrediction:
 
 
 @dataclass(frozen=True)
+class BowmanBatchClassification:
+    """Title-only classification for batch observed flags (no AutoGluon)."""
+
+    title: str
+    excluded: bool
+    exclude_reason: Optional[str]
+    player: str
+    card_type: str
+    card_type_norm: str
+    player_status: PlayerStatus
+    player_score: float
+    matcher_version: str
+    batch_item_error: Optional[str] = None
+    pilot_result: Optional[PilotResult] = None
+
+
+def classify_bowman_titles_for_batch(
+    titles: List[str],
+    checklist: Optional[ChecklistPath] = None,
+) -> List[BowmanBatchClassification]:
+    """
+    Classify Bowman listing titles for batch analytics (same eligibility as rank-price prediction).
+
+    Does not load pairwise CSVs or AutoGluon.
+    """
+    n, idx = load_bowman_draft_players(Path(checklist)) if checklist is not None else load_bowman_draft_players()
+    out: List[BowmanBatchClassification] = []
+    for raw in titles:
+        title = (raw or "").strip()
+        try:
+            pr = match_pilot(title, n, idx)
+            row = pilot_result_to_scored_row(title, pr)
+            card_type_display = display_card_type_for_review(row)
+            ct_raw = row_primary_card_type(row)
+            ct_key = _norm(ct_raw) if (ct_raw or "").strip() else ""
+
+            ok, reason = _row_eligible_for_rank_price_prediction(row)
+            if not ok:
+                out.append(
+                    BowmanBatchClassification(
+                        title=title,
+                        excluded=True,
+                        exclude_reason=reason,
+                        player=pr.player_guess or "",
+                        card_type=card_type_display,
+                        card_type_norm=ct_key,
+                        player_status=pr.player_status,
+                        player_score=pr.player_score,
+                        matcher_version=pr.matcher_version,
+                        pilot_result=pr,
+                    )
+                )
+                continue
+
+            out.append(
+                BowmanBatchClassification(
+                    title=title,
+                    excluded=False,
+                    exclude_reason=None,
+                    player=pr.player_guess or "",
+                    card_type=card_type_display,
+                    card_type_norm=ct_key,
+                    player_status=pr.player_status,
+                    player_score=pr.player_score,
+                    matcher_version=pr.matcher_version,
+                    pilot_result=pr,
+                )
+            )
+        except Exception as e:  # pragma: no cover - defensive per-title
+            out.append(
+                BowmanBatchClassification(
+                    title=title,
+                    excluded=True,
+                    exclude_reason="processing_error",
+                    player="",
+                    card_type="",
+                    card_type_norm="",
+                    player_status="unknown",
+                    player_score=0.0,
+                    matcher_version=MATCHER_VERSION,
+                    batch_item_error=str(e)[:800],
+                    pilot_result=None,
+                )
+            )
+    return out
+
+
+@dataclass(frozen=True)
 class _PendingAG:
     """Eligible row waiting for a batched AutoGluon ``predict``."""
 
@@ -128,7 +216,7 @@ def predict_bowman_prices_from_titles(
     Same as :func:`predict_bowman_price_from_title` but for many titles: loads rank CSVs and
     ``TabularPredictor`` at most once and runs a single ``predict`` call for all eligible rows.
     """
-    n, idx = load_bowman_draft_players(Path(checklist)) if checklist is not None else load_bowman_draft_players()
+    classified = classify_bowman_titles_for_batch(titles, checklist)
     pl_map = _load_rank_map(player_rankings_csv, "player", "rank")
     ct_map = _load_rank_map(card_type_rankings_csv, "card_type", "rank")
     pl_med = _median_rank(pl_map)
@@ -137,55 +225,64 @@ def predict_bowman_prices_from_titles(
     results: List[Optional[BowmanTitlePricePrediction]] = [None] * len(titles)
     pending: List[_PendingAG] = []
 
-    for i, raw in enumerate(titles):
-        title = (raw or "").strip()
-        try:
-            pr = match_pilot(title, n, idx)
-            row = pilot_result_to_scored_row(title, pr)
-            card_type_display = display_card_type_for_review(row)
-
-            ok, reason = _row_eligible_for_rank_price_prediction(row)
-            if not ok:
-                results[i] = BowmanTitlePricePrediction(
-                    title=title,
-                    player=pr.player_guess or "",
-                    card_type=card_type_display,
-                    predicted_price=None,
-                    excluded=True,
-                    exclude_reason=reason,
-                    player_status=pr.player_status,
-                    player_score=pr.player_score,
-                    matcher_version=pr.matcher_version,
-                )
-                continue
-
-            pk = _norm(pr.player_guess or "")
-            ct_key = _norm(row_primary_card_type(row))
-            player_rank = float(pl_map.get(pk, pl_med))
-            card_type_rank = float(ct_map.get(ct_key, ct_med))
-            pending.append(
-                _PendingAG(
-                    index=i,
-                    title=title,
-                    pr=pr,
-                    card_type_display=card_type_display,
-                    player_rank=player_rank,
-                    card_type_rank=card_type_rank,
-                )
-            )
-        except Exception as e:  # pragma: no cover - defensive per-title
+    for i, c in enumerate(classified):
+        if c.batch_item_error:
             results[i] = BowmanTitlePricePrediction(
-                title=title,
-                player="",
-                card_type="",
+                title=c.title,
+                player=c.player,
+                card_type=c.card_type,
                 predicted_price=None,
                 excluded=True,
                 exclude_reason="processing_error",
-                player_status="unknown",
-                player_score=0.0,
-                matcher_version=MATCHER_VERSION,
-                batch_item_error=str(e)[:800],
+                player_status=c.player_status,
+                player_score=c.player_score,
+                matcher_version=c.matcher_version,
+                batch_item_error=c.batch_item_error,
             )
+            continue
+        if c.excluded:
+            results[i] = BowmanTitlePricePrediction(
+                title=c.title,
+                player=c.player,
+                card_type=c.card_type,
+                predicted_price=None,
+                excluded=True,
+                exclude_reason=c.exclude_reason,
+                player_status=c.player_status,
+                player_score=c.player_score,
+                matcher_version=c.matcher_version,
+            )
+            continue
+
+        pr = c.pilot_result
+        if pr is None:  # pragma: no cover - defensive
+            results[i] = BowmanTitlePricePrediction(
+                title=c.title,
+                player=c.player,
+                card_type=c.card_type,
+                predicted_price=None,
+                excluded=True,
+                exclude_reason="internal_missing_pilot_result",
+                player_status=c.player_status,
+                player_score=c.player_score,
+                matcher_version=c.matcher_version,
+            )
+            continue
+
+        pk = _norm(pr.player_guess or "")
+        ct_key = c.card_type_norm
+        player_rank = float(pl_map.get(pk, pl_med))
+        card_type_rank = float(ct_map.get(ct_key, ct_med))
+        pending.append(
+            _PendingAG(
+                index=i,
+                title=c.title,
+                pr=pr,
+                card_type_display=c.card_type,
+                player_rank=player_rank,
+                card_type_rank=card_type_rank,
+            )
+        )
 
     if pending:
         if TabularPredictor is None or pd is None:

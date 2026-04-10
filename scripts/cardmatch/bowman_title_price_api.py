@@ -13,6 +13,8 @@ Optional: ``BOWMAN_CHECKLIST_CSV`` (Bowman Draft normalized checklist).
 Install: ``pip install -r requirements.txt`` (repo root) or ``pip install fastapi uvicorn pydantic`` plus ``scripts/cardmatch/requirements-bowman-autogluon.txt``.
 
 Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. If ``agModels`` is missing, the process still starts; ``GET /health`` succeeds and ``POST /predict`` / ``POST /predict/batch`` return 503 until ``BOWMAN_AUTOGLUON_DIR`` points at a valid directory.
+
+``POST /batch/observed-flags`` uses observed prices and pairwise card-type ranks only (no AutoGluon). Max batch size defaults to 200 (``BOWMAN_OBSERVED_BATCH_MAX``).
 """
 from __future__ import annotations
 
@@ -53,6 +55,31 @@ class PredictBatchRequest(BaseModel):
         return v
 
 
+class ObservedFlagsItemRequest(BaseModel):
+    title: str = Field(..., min_length=1, description="eBay listing title")
+    price: float = Field(..., description="Observed listing price (required for batch flags)")
+    id: Optional[str] = Field(default=None, description="Optional client id echoed in the response")
+    year: Optional[int] = Field(default=None, description="Optional product year, e.g. 2025")
+    set_name: Optional[str] = Field(
+        default=None,
+        description="Optional product set name, e.g. Bowman Draft",
+    )
+
+
+class ObservedFlagsBatchRequest(BaseModel):
+    items: list[ObservedFlagsItemRequest] = Field(
+        ..., min_length=1, description="Batch of listings with required observed price per item"
+    )
+
+    @field_validator("items")
+    @classmethod
+    def _max_observed_items(cls, v: list[ObservedFlagsItemRequest]) -> list[ObservedFlagsItemRequest]:
+        mx = int(os.environ.get("BOWMAN_OBSERVED_BATCH_MAX", "200"))
+        if len(v) > mx:
+            raise ValueError(f"at most {mx} items (set BOWMAN_OBSERVED_BATCH_MAX)")
+        return v
+
+
 def main() -> None:
     try:
         from fastapi import FastAPI, HTTPException
@@ -62,11 +89,17 @@ def main() -> None:
             "Install fastapi uvicorn pydantic: pip install fastapi uvicorn pydantic\n" + str(e)
         ) from e
 
+    from cardmatch.bowman_batch_listing_flags import analyze_batch_observed_flags
+    from cardmatch.serial_scarcity import is_serial_listing_from_bowman_flags
     from cardmatch.bowman_title_price_predict import (
         BowmanTitlePricePrediction,
+        classify_bowman_titles_for_batch,
         predict_bowman_price_from_title,
         predict_bowman_prices_from_titles,
+        _load_rank_map,
+        _median_rank,
     )
+    from cardmatch.pairwise_price_rankings import _norm as _norm_player
 
     pl_csv = os.environ.get(
         "BOWMAN_PLAYER_RANKINGS_CSV",
@@ -175,6 +208,83 @@ def main() -> None:
                 _predict_response_body(o, req) for o, req in zip(outs, payload.items)
             ],
         }
+
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_OBSERVED_FLAGS
+    @app.post("/batch/observed-flags")
+    def observed_flags_batch(payload: ObservedFlagsBatchRequest) -> dict:
+        titles = [it.title for it in payload.items]
+        prices: list[Optional[float]] = [it.price for it in payload.items]
+        try:
+            classified = classify_bowman_titles_for_batch(titles, checklist)
+            ct_map = _load_rank_map(ct_csv, "card_type", "rank")
+            ct_med = _median_rank(ct_map)
+            batch_err = [c.batch_item_error for c in classified]
+            is_serial_seq: list[Optional[bool]] = []
+            for c in classified:
+                if c.batch_item_error or c.pilot_result is None:
+                    is_serial_seq.append(None)
+                else:
+                    is_serial_seq.append(is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags))
+            flags = analyze_batch_observed_flags(
+                card_type_norm_by_index=[c.card_type_norm for c in classified],
+                classification_excluded=[c.excluded for c in classified],
+                classification_batch_error=batch_err,
+                listing_prices=prices,
+                ct_map=ct_map,
+                ct_median=ct_med,
+                is_serial_listing=is_serial_seq,
+            )
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e)) from e
+
+        players_norm: set[str] = set()
+        for c in classified:
+            if c.batch_item_error or c.excluded:
+                continue
+            pn = _norm_player(c.player)
+            if pn:
+                players_norm.add(pn)
+        warnings: list[str] = []
+        if len(players_norm) > 1:
+            warnings.append("multiple_players_in_batch")
+
+        results: list[dict] = []
+        for c, req, fr in zip(classified, payload.items, flags):
+            diag: dict = {
+                "title": c.title,
+                "excluded": c.excluded,
+                "exclude_reason": c.exclude_reason,
+                "matcher_version": c.matcher_version,
+                "listing_price": req.price,
+                "year": req.year,
+                "set_name": req.set_name,
+            }
+            if c.batch_item_error:
+                diag["batch_item_error"] = c.batch_item_error
+            if fr.price_skip_reason:
+                diag["price_skip_reason"] = fr.price_skip_reason
+            if c.pilot_result is not None:
+                diag["is_serial_listing"] = is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags)
+            else:
+                diag["is_serial_listing"] = None
+            row: dict = {
+                "card_type": c.card_type,
+                "spread_ratio": fr.spread_ratio,
+                "cheaper_than_worse_tier": fr.cheaper_than_worse_tier,
+                "confidence": {
+                    "player_score": c.player_score,
+                    "player_status": str(c.player_status),
+                },
+                "diagnostics": diag,
+            }
+            if req.id is not None:
+                row["id"] = req.id
+            results.append(row)
+
+        out: dict = {"results": results}
+        if warnings:
+            out["warnings"] = warnings
+        return out
 
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_UVICORN_BIND
     # Railway sets PORT; bind 0.0.0.0 unless BOWMAN_API_HOST overrides.
