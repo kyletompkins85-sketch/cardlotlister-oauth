@@ -50,6 +50,22 @@ def bowman_pilot_row_to_triple(row: Dict[str, Any]) -> Optional[Triple]:
     return (player, ctn, float(all_in))
 
 
+def bowman_pilot_row_to_training_row(row: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """
+    Valid pilot row for training extras (same filters as :func:`bowman_pilot_row_to_triple`) plus ``title``.
+    """
+    t = bowman_pilot_row_to_triple(row)
+    if t is None:
+        return None
+    player, ct, price = t
+    return {
+        "player": player,
+        "card_type": ct,
+        "all_in_price": float(price),
+        "title": row.get("title") or "",
+    }
+
+
 def bowman_pilot_rows_to_ranking_triples(rows: Iterable[Dict[str, Any]]) -> List[Triple]:
     """Filter iterable of pilot rows to valid triples for :mod:`cardmatch.pairwise_price_rankings`."""
     out: List[Triple] = []

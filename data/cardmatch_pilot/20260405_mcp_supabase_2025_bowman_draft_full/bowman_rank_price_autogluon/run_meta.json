@@ -1,13 +1,28 @@
 {
   "lift_bins_written": 20,
+  "lift_compare_baseline_bins_written": 20,
+  "lift_compare_baseline_csv": "data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/bowman_rank_price_autogluon/lift_table_holdout_compare_baseline.csv",
+  "lift_compare_binning": "disagreement_updated_minus_baseline",
+  "lift_ex18_19_20_bins_written": 17,
+  "lift_ex18_19_20_rows": 4316,
+  "lift_ex19_20_bins_written": 18,
+  "lift_ex19_20_rows": 4565,
+  "lift_ex20_bins_written": 19,
+  "lift_ex20_rows": 4818,
   "lift_quantiles_requested": 20,
   "predictors": [
     "player_rank",
-    "card_type_rank"
+    "card_type_rank",
+    "serial_scarcity",
+    "autograph"
   ],
   "rows_holdout": 5072,
   "rows_total": 25358,
   "rows_train": 16229,
   "rows_val": 4057,
+  "sum_rebase_scales": {
+    "predicted_price": 0.9599674396171316,
+    "predicted_price_baseline": 0.938249907822059
+  },
   "target": "all_in_price"
 }

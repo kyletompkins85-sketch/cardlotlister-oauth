@@ -1,8 +1,8 @@
 {
-  "mean_absolute_error": -58.86016687814558,
-  "mean_squared_error": -352137.47301304,
-  "median_absolute_error": -2.9497580528259277,
-  "pearsonr": 0.6002603940746545,
-  "r2": 0.1421690156270079,
-  "root_mean_squared_error": -593.4117230161871
+  "mean_absolute_error": -44.7156919598053,
+  "mean_squared_error": -243526.21646107992,
+  "median_absolute_error": -2.6913279819488523,
+  "pearsonr": 0.7185507634866287,
+  "r2": 0.40675346988787364,
+  "root_mean_squared_error": -493.48375501234074
 }

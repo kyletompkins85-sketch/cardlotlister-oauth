@@ -32,17 +32,17 @@ Mutually exclusive **primary** type per listing (`cardmatch/card_type.py`). Bowm
 | card_type | listings |
 |-----------|----------|
 | BDC Chrome Prospect · Refractor | 819 |
-| BDC Chrome Prospect · Auto | 427 |
+| BDC Chrome Prospect · Auto | 430 |
+| BDC Chrome Prospect · Base | 429 |
 | Base-Paper | 426 |
-| BDC Chrome Prospect · Base | 424 |
 | BDC Chrome Prospect · Sky Blue /499 | 206 |
 | Prized Prospects | 156 |
 | Bowman Axis · Base | 130 |
-| BDC Chrome Prospect · Blue /150 | 123 |
+| BDC Chrome Prospect · Blue /150 | 118 |
 | BDC Chrome Prospect · Green /99 | 113 |
 | BDC Chrome Prospect · X-Fractor | 96 |
 | BDC Chrome Prospect · Sky Blue /499 · Auto | 94 |
-| BDC Chrome Prospect · Blue /150 · Auto | 81 |
+| BDC Chrome Prospect · Blue /150 · Auto | 78 |
 | BDC Chrome Prospect · Purple /250 · Auto | 77 |
 | BDC Chrome Prospect · Aqua /125 | 74 |
 | BDC Chrome Prospect · Green /99 · Auto | 69 |

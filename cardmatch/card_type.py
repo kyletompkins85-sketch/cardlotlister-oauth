@@ -137,7 +137,6 @@ _NB_LABEL: Dict[str, str] = {
     "nb_shimmer": "BDC Chrome Prospect · Shimmer Refractor",
     "nb_speckle": "BDC Chrome Prospect · Speckle Refractor",
     "nb_wave": "BDC Chrome Prospect · Wave",
-    "nb_mojo": "BDC Chrome Prospect · Blue",
     "nb_lava": "BDC Chrome Prospect · Lava",
     "nb_printing_plate": "BDC Chrome Prospect · Printing Plate",
     "nb_numbered_serial": "BDC Chrome Prospect · Parallel",

@@ -1,0 +1,22 @@
+{
+  "lift_bins_written": 20,
+  "lift_ex18_19_20_bins_written": 17,
+  "lift_ex18_19_20_rows": 4311,
+  "lift_ex19_20_bins_written": 18,
+  "lift_ex19_20_rows": 4564,
+  "lift_ex20_bins_written": 19,
+  "lift_ex20_rows": 4818,
+  "lift_quantiles_requested": 20,
+  "predictors": [
+    "player_rank",
+    "card_type_rank"
+  ],
+  "rows_holdout": 5072,
+  "rows_total": 25358,
+  "rows_train": 16229,
+  "rows_val": 4057,
+  "sum_rebase_scales": {
+    "predicted_price": 0.938249907822059
+  },
+  "target": "all_in_price"
+}

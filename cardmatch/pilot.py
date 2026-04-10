@@ -92,8 +92,7 @@ def _likely_base_from_flags(flags: Dict[str, Any]) -> Tuple[bool, List[str]]:
         reasons.append("speckle")
     if flags.get("WF_wave"):
         reasons.append("wave")
-    if flags.get("WF_mojo"):
-        reasons.append("mojo")
+    # WF_mojo is intentionally not appended — nb_mojo was mislabeled as Blue in card_type legacy.
     if flags.get("WF_lava"):
         reasons.append("lava")
     if flags.get("WF_printing_plate"):
@@ -129,6 +128,8 @@ def match_pilot(
     is_chrome = bool(flags.get("WF_chrome"))
     is_orange_border = bool(flags.get("WF_orange_border"))
     likely_base, nb_reasons = _likely_base_from_flags(flags)
+    if flags.get("WF_mojo"):
+        likely_base = False
     is_likely_chrome_base = _is_likely_chrome_base(nb_reasons)
     is_snack_pack = bool(flags.get("WF_snack_pack"))
     is_axis = bool(flags.get("WF_axis"))
