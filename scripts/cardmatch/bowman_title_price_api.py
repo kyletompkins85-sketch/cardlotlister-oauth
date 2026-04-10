@@ -12,7 +12,7 @@ Optional: ``BOWMAN_CHECKLIST_CSV`` (Bowman Draft normalized checklist).
 
 Install: ``pip install -r requirements.txt`` (repo root) or ``pip install fastapi uvicorn pydantic`` plus ``scripts/cardmatch/requirements-bowman-autogluon.txt``.
 
-Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. If ``agModels`` is missing, the process still starts; ``GET /health`` succeeds and ``POST /predict`` returns 503 until ``BOWMAN_AUTOGLUON_DIR`` points at a valid directory.
+Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. If ``agModels`` is missing, the process still starts; ``GET /health`` succeeds and ``POST /predict`` / ``POST /predict/batch`` return 503 until ``BOWMAN_AUTOGLUON_DIR`` points at a valid directory.
 """
 from __future__ import annotations
 
@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 _ROOT = Path(__file__).resolve().parents[2]
 if str(_ROOT) not in sys.path:
@@ -41,6 +41,18 @@ class PredictRequest(BaseModel):
     )
 
 
+class PredictBatchRequest(BaseModel):
+    items: list[PredictRequest] = Field(..., min_length=1, description="Batch of listing payloads (same fields as /predict)")
+
+    @field_validator("items")
+    @classmethod
+    def _max_items(cls, v: list[PredictRequest]) -> list[PredictRequest]:
+        mx = int(os.environ.get("BOWMAN_PREDICT_BATCH_MAX", "200"))
+        if len(v) > mx:
+            raise ValueError(f"at most {mx} items (set BOWMAN_PREDICT_BATCH_MAX)")
+        return v
+
+
 def main() -> None:
     try:
         from fastapi import FastAPI, HTTPException
@@ -50,7 +62,11 @@ def main() -> None:
             "Install fastapi uvicorn pydantic: pip install fastapi uvicorn pydantic\n" + str(e)
         ) from e
 
-    from cardmatch.bowman_title_price_predict import predict_bowman_price_from_title
+    from cardmatch.bowman_title_price_predict import (
+        BowmanTitlePricePrediction,
+        predict_bowman_price_from_title,
+        predict_bowman_prices_from_titles,
+    )
 
     pl_csv = os.environ.get(
         "BOWMAN_PLAYER_RANKINGS_CSV",
@@ -79,6 +95,29 @@ def main() -> None:
 
     app = FastAPI(title="Bowman title price", version="1.0.0")
 
+    def _predict_response_body(out: BowmanTitlePricePrediction, req: PredictRequest) -> dict:
+        diag: dict = {
+            "title": out.title,
+            "excluded": out.excluded,
+            "exclude_reason": out.exclude_reason,
+            "matcher_version": out.matcher_version,
+            "listing_price": req.price,
+            "year": req.year,
+            "set_name": req.set_name,
+        }
+        if out.batch_item_error:
+            diag["batch_item_error"] = out.batch_item_error
+        return {
+            "player": out.player,
+            "card_type": out.card_type,
+            "predicted_price": out.predicted_price,
+            "confidence": {
+                "player_score": out.player_score,
+                "player_status": str(out.player_status),
+            },
+            "diagnostics": diag,
+        }
+
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_HEALTH
     @app.get("/health")
     def health() -> dict:
@@ -106,23 +145,35 @@ def main() -> None:
             )
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e)) from e
+        return _predict_response_body(out, payload)
+
+    # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_PREDICT_BATCH
+    @app.post("/predict/batch")
+    def predict_batch(payload: PredictBatchRequest) -> dict:
+        if not ag_models_available:
+            raise HTTPException(
+                status_code=503,
+                detail={
+                    "error": "autogluon_model_unavailable",
+                    "message": "AutoGluon model directory is missing or not a directory.",
+                    "path": ag_dir,
+                },
+            )
+        titles = [it.title for it in payload.items]
+        try:
+            outs = predict_bowman_prices_from_titles(
+                titles,
+                player_rankings_csv=pl_csv,
+                card_type_rankings_csv=ct_csv,
+                autogluon_model_dir=ag_dir,
+                checklist=checklist,
+            )
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e)) from e
         return {
-            "player": out.player,
-            "card_type": out.card_type,
-            "predicted_price": out.predicted_price,
-            "confidence": {
-                "player_score": out.player_score,
-                "player_status": str(out.player_status),
-            },
-            "diagnostics": {
-                "title": out.title,
-                "excluded": out.excluded,
-                "exclude_reason": out.exclude_reason,
-                "matcher_version": out.matcher_version,
-                "listing_price": payload.price,
-                "year": payload.year,
-                "set_name": payload.set_name,
-            },
+            "results": [
+                _predict_response_body(o, req) for o, req in zip(outs, payload.items)
+            ],
         }
 
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_UVICORN_BIND

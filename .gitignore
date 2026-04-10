@@ -3,6 +3,7 @@
 !.env.example
 
 .venv_ag/
+.venv/
 **/bowman_rank_price_autogluon/agModels/
 
 cardmatch/runs/

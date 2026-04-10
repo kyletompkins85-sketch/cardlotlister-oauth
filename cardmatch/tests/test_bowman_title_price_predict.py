@@ -14,6 +14,7 @@ from cardmatch.bowman_title_price_predict import (
     BowmanTitlePricePrediction,
     _row_eligible_for_rank_price_prediction,
     predict_bowman_price_from_title,
+    predict_bowman_prices_from_titles,
 )
 
 _REPO = Path(__file__).resolve().parents[2]
@@ -101,3 +102,29 @@ class TestPredictBowmanPriceFromTitle(unittest.TestCase):
         self.assertAlmostEqual(out.predicted_price, 12.34, places=2)
         mock_tp.load.assert_called_once()
         fake_instance.predict.assert_called_once()
+
+    def test_batch_calls_predict_once_with_two_rows(self) -> None:
+        if not (_PL.is_file() and _CT.is_file()):
+            self.skipTest("pairwise CSVs missing")
+        t = "2025 Bowman Draft #BDC-1 Green Refractor Eli Willits"
+        fake_instance = MagicMock()
+        fake_instance.predict = MagicMock(return_value=pd.Series([10.0, 20.0]))
+        mock_tp = MagicMock()
+        mock_tp.load = MagicMock(return_value=fake_instance)
+
+        with patch.object(bowman_pred, "TabularPredictor", mock_tp):
+            outs = predict_bowman_prices_from_titles(
+                [t, t],
+                player_rankings_csv=_PL,
+                card_type_rankings_csv=_CT,
+                autogluon_model_dir=_AG,
+            )
+        if outs[0].excluded:
+            self.skipTest("title unexpectedly excluded")
+        self.assertEqual(len(outs), 2)
+        self.assertAlmostEqual(outs[0].predicted_price or 0, 10.0, places=2)
+        self.assertAlmostEqual(outs[1].predicted_price or 0, 20.0, places=2)
+        mock_tp.load.assert_called_once()
+        fake_instance.predict.assert_called_once()
+        call_kw = fake_instance.predict.call_args[0][0]
+        self.assertEqual(len(call_kw), 2)
