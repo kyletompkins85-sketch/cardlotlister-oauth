@@ -109,7 +109,7 @@ class TestPairwisePriceRankings(unittest.TestCase):
             [
                 ("P", "Base-Paper", 10.0),
                 ("P", "Base-Paper", 20.0),
-                ("P", "BDC Chrome Prospect · Refractor", 100.0),
+                ("P", "Chrome · Refractor", 100.0),
                 ("Q", "Base-Paper", 5.0),
             ]
         )

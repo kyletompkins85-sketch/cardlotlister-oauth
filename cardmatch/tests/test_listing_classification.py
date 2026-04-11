@@ -23,7 +23,7 @@ class TestListingClassification(unittest.TestCase):
         out = classify_listing(title, checklist=self._checklist)
         self.assertEqual(out.player, "Eli Willits")
         self.assertEqual(out.player_status, "matched")
-        self.assertEqual(out.card_type, "BDC Chrome Prospect · Green /99")
+        self.assertEqual(out.card_type, "Chrome · Green /99")
 
     def test_classify_listings_reuses_index(self) -> None:
         titles = [

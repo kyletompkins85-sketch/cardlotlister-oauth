@@ -25,6 +25,21 @@ def spread_ratio_second_over_first(prices: Sequence[float]) -> Optional[float]:
     return good[1] / good[0]
 
 
+def _price_is_min_for_card_type(
+    price: float,
+    card_type_norm: str,
+    min_price_by_card_type: Mapping[str, float],
+) -> bool:
+    """True when ``price`` matches the batch minimum for this normalized card type."""
+    k = _norm(card_type_norm)
+    if not k:
+        return False
+    m = min_price_by_card_type.get(k)
+    if m is None:
+        return False
+    return math.isclose(price, m, rel_tol=0.0, abs_tol=1e-6)
+
+
 def _rank_for_card_type(card_type_norm: str, ct_map: Mapping[str, int], ct_median: float) -> float:
     k = _norm(card_type_norm)
     if not k:
@@ -100,6 +115,10 @@ def analyze_batch_observed_flags(
     Rows with classification excluded or batch processing error get ``None`` for both fields.
     Rows with invalid/missing price get ``None`` for both fields and a ``price_skip_reason``.
 
+    **Spread ratio:** the group ratio (2nd / 1st listing price for that card type) is returned
+    **only on rows whose observed price equals the batch minimum** for that card type; higher-
+    priced duplicates of the same type get ``spread_ratio`` ``None``.
+
     **Inversion (``cheaper_than_worse_tier``):** only computed when ``is_serial_listing[i]``
     is ``True``. If ``False`` or ``None`` (unknown / not serial), the inversion field is ``None``
     (N/A — not applicable to non-serial listings).
@@ -164,7 +183,11 @@ def analyze_batch_observed_flags(
 
         ct = _norm(card_type_norm_by_index[i])
         price = float(listing_prices[i])
-        sr = ratio_by_ct.get(ct)
+        raw_ratio = ratio_by_ct.get(ct)
+        if raw_ratio is not None and _price_is_min_for_card_type(price, ct, min_price_by_ct):
+            sr = raw_ratio
+        else:
+            sr = None
         if is_serial_listing[i] is True:
             inv: Optional[bool] = cheaper_than_worse_tier_in_batch(
                 price,

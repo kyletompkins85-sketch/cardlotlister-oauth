@@ -6,7 +6,7 @@ This is **not** full “one checklist row” resolution yet.
 
 ### Ingestion / scoring from eBay listing titles (programmatic API)
 
-**Intent (for later work):** When you **ingest listings** (Worker, Supabase, or any pipeline) and need to **classify each row from the listing title alone**, use the **`classify_listing`** / **`classify_listings`** API in [`listing_classification.py`](listing_classification.py). It takes the **same string you would show as the eBay listing title** and returns a **`player`** guess plus a canonical **`card_type`** string (e.g. `BDC Chrome Prospect · Green /99`), using the **same** `match_pilot` + scored-row logic as batch CSV scoring in [`pipeline.py`](pipeline.py). That keeps online classification aligned with `pilot_scored_full.csv` / `review_slice.csv` labels.
+**Intent (for later work):** When you **ingest listings** (Worker, Supabase, or any pipeline) and need to **classify each row from the listing title alone**, use the **`classify_listing`** / **`classify_listings`** API in [`listing_classification.py`](listing_classification.py). It takes the **same string you would show as the eBay listing title** and returns a **`player`** guess plus a canonical **`card_type`** string (e.g. `Chrome · Green /99`), using the **same** `match_pilot` + scored-row logic as batch CSV scoring in [`pipeline.py`](pipeline.py). That keeps online classification aligned with `pilot_scored_full.csv` / `review_slice.csv` labels.
 
 **When to use:** Production or batch jobs that have **titles** and need **player + card type** without writing a full pilot run directory. **When not to use:** If you only need fuzzy player flags without taxonomy, call **`match_pilot`** directly.
 
@@ -90,7 +90,7 @@ For large batches, prefer `classify_listings(...)` or call `load_bowman_draft_pl
 ```python
 from cardmatch.pairwise_price_rankings import run_pairwise_monte_carlo_rankings
 
-triples = [("PlayerA", "BDC Chrome Prospect · Refractor", 25.0), ...]  # (player, card_type, all_in_price)
+triples = [("PlayerA", "Chrome · Refractor", 25.0), ...]  # (player, card_type, all_in_price)
 bundle = run_pairwise_monte_carlo_rankings(triples, iterations=50_000, seed=42)
 # bundle.same_player_card_types.stats — card types by win_rate
 # bundle.same_card_type_players.stats — players by win_rate

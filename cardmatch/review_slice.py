@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Set
 
 from cardmatch.card_type import row_primary_card_type, row_primary_card_type_used_legacy_other_fallback
 from cardmatch.player_index import load_bdc_player_rank
-from cardmatch.taxonomy import flags_for_title
+from cardmatch.taxonomy import BDC_PRIMARY_FAMILY, flags_for_title
 
 _BD_NUM = re.compile(r"^BD-(\d+)$", re.IGNORECASE)
 
@@ -17,23 +17,23 @@ _REFRACTOR_FOCUS_EXTRA_TYPES = frozenset(
     {
         "Etched in Glass",
         "Image Variations",
-        "BDC Chrome Prospect · Aqua /125",
+        f"{BDC_PRIMARY_FAMILY} · Aqua /125",
     }
 )
 
 def _canonical_refractor_and_chrome_plain(row: Dict[str, Any]) -> bool:
     """
     `refractor_and_chrome_plain` focus: match on canonical `row_primary_card_type` plus
-    Chrome Prospect Autograph inserts (merged into **BDC Chrome Prospect · …** strings).
+    Chrome Prospect Autograph inserts (merged into **Chrome · …** strings).
 
     Includes plain BDC refractor / serial-ish parallel / CPA (WF_chrome_prospect_autographs) / college
-    (including legacy-only **College Variation**); excludes colored BDC parallels (e.g. BDC · Green)
+    (including legacy-only **College Variation**); excludes colored BDC parallels (e.g. Chrome · Green)
     to match historical focus scope.
     """
     primary = row_primary_card_type(row)
     if primary in ("College Variation",):
         return True
-    if primary in ("BDC Chrome Prospect · Refractor", "BDC Chrome Prospect · Parallel"):
+    if primary in (f"{BDC_PRIMARY_FAMILY} · Refractor", f"{BDC_PRIMARY_FAMILY} · Parallel"):
         return True
     if primary.startswith("Chrome Prospect College Variations"):
         return True
@@ -102,14 +102,14 @@ def row_matches_classification_focus(
     * base — BDC chrome prospect base only (pilot_is_likely_chrome_base == 1).
     * paper_base — paper BD-* base only (pilot_is_likely_base == 1).
     * refractor — primary card type is generic **Refractor** or **axis refractor** (not superfractor / other parallels).
-    * chrome_refractor_plain — primary type exactly **BDC Chrome Prospect · Refractor** (no **· Auto**).
-    * bdc_chrome_prospect_parallel — primary type exactly **BDC Chrome Prospect · Parallel** (still unresolved after serial/color inference for `nb_numbered_serial`).
-    * refractor_and_chrome_plain — canonical primary (`row_primary_card_type`): **BDC Chrome Prospect · Refractor**,
-      **BDC Chrome Prospect · Parallel**, CPA line (**BDC Chrome Prospect · …** with WF_chrome_prospect_autographs),
+    * chrome_refractor_plain — primary type exactly **Chrome · Refractor** (no **· Auto**).
+    * bdc_chrome_prospect_parallel — primary type exactly **Chrome · Parallel** (still unresolved after serial/color inference for `nb_numbered_serial`).
+    * refractor_and_chrome_plain — canonical primary (`row_primary_card_type`): **Chrome · Refractor**,
+      **Chrome · Parallel**, CPA line (**Chrome · …** with WF_chrome_prospect_autographs),
       **Chrome Prospect College Variations …**, legacy **College Variation** (not colored BDC parallels).
-    * bdc_chrome_prospect_auto — canonical primary is exactly **BDC Chrome Prospect · Auto** (CPA base auto only; no parallel/colored + Auto).
-    * bdc_chrome_prospect — canonical primary is exactly **BDC Chrome Prospect** (bare product line; no parallel/base/auto suffix).
-    * other — rows that used the legacy default after taxonomy: **BDC Chrome Prospect · Base** if *chrome* in title else **Base-Paper** (ex-composite **Other** bucket; see `row_primary_card_type_used_legacy_other_fallback`).
+    * bdc_chrome_prospect_auto — canonical primary is exactly **Chrome · Auto** (CPA base auto only; no parallel/colored + Auto).
+    * bdc_chrome_prospect — canonical primary is exactly **Chrome** (bare product line; no parallel/base/auto suffix).
+    * other — rows that used the legacy default after taxonomy: **Chrome · Base** if *chrome* in title else **Base-Paper** (ex-composite **Other** bucket; see `row_primary_card_type_used_legacy_other_fallback`).
     * primary_exact — canonical `row_primary_card_type` equals **`primary_card_type_exact`** in `review_targets.json` (any single primary string).
     * unknown_player — `pilot_player_status` is **unknown**, or `pilot_player_guess` is the literal **(unknown player)**. `review_focus` uses full listing-count exclusions (lot/pick/set/complete/presale/graded).
     """
@@ -134,27 +134,27 @@ def row_matches_classification_focus(
         return (row.get("pilot_is_likely_base") or "") == "1"
     if f == "refractor":
         p = row_primary_card_type(row)
-        if p == "BDC Chrome Prospect · Base":
+        if p == f"{BDC_PRIMARY_FAMILY} · Base":
             return False
         if p in _REFRACTOR_FOCUS_EXTRA_TYPES:
             return True
         if p.startswith("Image Variations") or p.startswith("Etched in Glass"):
             return True
-        if p.startswith("BDC Chrome Prospect ·"):
+        if p.startswith(f"{BDC_PRIMARY_FAMILY} ·"):
             return True
         if p.startswith("Bowman Axis"):
             return p != "Bowman Axis · Base"
         return False
     if f == "chrome_refractor_plain":
-        return row_primary_card_type(row) == "BDC Chrome Prospect · Refractor"
+        return row_primary_card_type(row) == f"{BDC_PRIMARY_FAMILY} · Refractor"
     if f == "bdc_chrome_prospect_parallel":
-        return row_primary_card_type(row) == "BDC Chrome Prospect · Parallel"
+        return row_primary_card_type(row) == f"{BDC_PRIMARY_FAMILY} · Parallel"
     if f == "refractor_and_chrome_plain":
         return _canonical_refractor_and_chrome_plain(row)
     if f == "bdc_chrome_prospect_auto":
-        return row_primary_card_type(row) == "BDC Chrome Prospect · Auto"
+        return row_primary_card_type(row) == f"{BDC_PRIMARY_FAMILY} · Auto"
     if f == "bdc_chrome_prospect":
-        return row_primary_card_type(row) == "BDC Chrome Prospect"
+        return row_primary_card_type(row) == BDC_PRIMARY_FAMILY
     if f == "other":
         return row_primary_card_type_used_legacy_other_fallback(row)
     return False

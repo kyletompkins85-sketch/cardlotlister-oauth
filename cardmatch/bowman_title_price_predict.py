@@ -81,6 +81,7 @@ class BowmanTitlePricePrediction:
     title: str
     player: str
     card_type: str
+    card_type_norm: str
     predicted_price: Optional[float]
     excluded: bool
     exclude_reason: Optional[str]
@@ -231,6 +232,7 @@ def predict_bowman_prices_from_titles(
                 title=c.title,
                 player=c.player,
                 card_type=c.card_type,
+                card_type_norm=c.card_type_norm,
                 predicted_price=None,
                 excluded=True,
                 exclude_reason="processing_error",
@@ -245,6 +247,7 @@ def predict_bowman_prices_from_titles(
                 title=c.title,
                 player=c.player,
                 card_type=c.card_type,
+                card_type_norm=c.card_type_norm,
                 predicted_price=None,
                 excluded=True,
                 exclude_reason=c.exclude_reason,
@@ -260,6 +263,7 @@ def predict_bowman_prices_from_titles(
                 title=c.title,
                 player=c.player,
                 card_type=c.card_type,
+                card_type_norm=c.card_type_norm,
                 predicted_price=None,
                 excluded=True,
                 exclude_reason="internal_missing_pilot_result",
@@ -305,10 +309,12 @@ def predict_bowman_prices_from_titles(
                 f"AutoGluon predict length mismatch: got {len(vals)} for {len(pending)} pending rows"
             )
         for p, val in zip(pending, vals):
+            ct_norm = classified[p.index].card_type_norm
             results[p.index] = BowmanTitlePricePrediction(
                 title=p.title,
                 player=p.pr.player_guess or "",
                 card_type=p.card_type_display,
+                card_type_norm=ct_norm,
                 predicted_price=float(val),
                 excluded=False,
                 exclude_reason=None,

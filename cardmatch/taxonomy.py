@@ -1,16 +1,20 @@
 """
 Structured card taxonomy: product group, color, finish, auto → composite card_type string.
 
-The word **Refractor** appears only in **BDC Chrome Prospect · Refractor** (plain silver parallel vs
+The word **Refractor** appears only in **Chrome · Refractor** (plain silver parallel vs
 chrome base). Elsewhere—insert lines, Axis, CPA, colors—do not use *Refractor*; colored parallels
 are implied refractors, and Axis uses **Parallel** for the non-base silver parallel.
 
 Stock (Chrome vs Paper) is omitted for named insert lines (Axis, Draft Night, In Action,
-Chrome Prospect Autographs / CPA (same **BDC Chrome Prospect** family as chrome parallels),
+Chrome Prospect Autographs / CPA (same **Chrome** family as chrome parallels),
 Prized Prospects, etc.) — they are chrome products by definition. Stock remains in pilot flags
 for base/chrome-base rows handled outside this composite (BDC · Base, Base-Paper).
 
 Group priority is loaded from cardmatch/product_groups.json (kept in sync with product_groups.yaml).
+
+Insert-line product groups (Draft Night, In Action, etc.) use ``insert_line_parallel_taxonomy.json``
+to opt into the same Bowman hobby color + print-run ladder as BDC (collapse + color serial), not only
+a generic `` /N`` suffix on the last segment.
 
 Colored chrome parallels: Wave / Lava / Shimmer / Sapphire / … stack on the same Bowman print run;
 those collapse to one label per color (**Green /99**, **Gold /50**, **Blue /150**, …) via
@@ -54,6 +58,21 @@ def _load_group_priority() -> List[Tuple[str, str, str]]:
 
 
 _GROUP_PRIORITY: List[Tuple[str, str, str]] = _load_group_priority()
+
+# Canonical first segment for Bowman Draft chrome stock (BDC # parallels, base, CPA). Legacy CSVs may
+# still say **BDC Chrome Prospect**; :func:`finalize_bdc_composite_string` normalizes that to **Chrome**.
+BDC_PRIMARY_FAMILY = "Chrome"
+_LEGACY_BDC_PRIMARY_PREFIX = "BDC Chrome Prospect"
+
+
+@lru_cache(maxsize=1)
+def _insert_line_parallel_taxonomy_slugs() -> frozenset[str]:
+    """Slugs that use BDC-style ladder finalize for product-group composites (see insert_line_parallel_taxonomy.json)."""
+    path = _PACKAGE_DIR / "insert_line_parallel_taxonomy.json"
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    slugs = raw.get("slugs", {})
+    return frozenset(str(k).strip() for k in slugs if str(k).strip())
+
 
 # Standard Bowman Chrome prospect colored refractor print runs (hobby ladder). Single source for
 # collapse (`finalize`) and denominator-only inference (e.g. "1/5" → Red, "/99" → Green).
@@ -119,7 +138,7 @@ def _bdc_parallel_detail_from_serial_denominator(so: int) -> Optional[str]:
     return c
 
 # Product lines that share BDC-style color + serial normalization (finalize/collapse).
-_BDC_FAMILY_PREFIXES: Tuple[str, ...] = ("BDC Chrome Prospect", "Chrome Prospect College Variations")
+_BDC_FAMILY_PREFIXES: Tuple[str, ...] = (BDC_PRIMARY_FAMILY, "Chrome Prospect College Variations")
 
 # Axis color words (same intent as card_type._axis).
 _RE_AXIS_GREEN = re.compile(r"\bgreen\b", re.I)
@@ -309,7 +328,7 @@ def _pick_product_group(flags: Dict[str, Any]) -> Optional[Tuple[str, str]]:
 def _should_apply_chrome_bdc_parallel_taxonomy(row: Dict[str, Any], flags: Dict[str, Any]) -> bool:
     """
     Chrome prospect parallel line (BDC-* or refractor without #BDC in title).
-    Sellers often omit BDC#; generic WF_refractor alone should still map to BDC Chrome Prospect composites.
+    Sellers often omit BDC#; generic WF_refractor alone should still map to Chrome (BDC) composites.
     A standard print run alone (e.g. 1/5, /99) implies the matching Bowman color when **WF_bdc** is set.
     Superfractor / printing plate / True Black /10 / geometric black often omit *chrome* in the title;
     **WF_bdc** alone implies the BDC chrome line (sellers only show the BDC#).
@@ -432,6 +451,107 @@ def _join_parts(parts: List[str]) -> str:
     return " · ".join(p for p in parts if p)
 
 
+def _serial_denominator_for_product_group_taxonomy(flags: Dict[str, Any]) -> Optional[int]:
+    """
+    Print run for suffixing insert-line (product group) composites; excludes year-shaped false positives.
+    """
+    so = flags.get("serial_out_of")
+    if so is None:
+        return None
+    try:
+        n = int(so)
+    except (TypeError, ValueError):
+        return None
+    if n <= 0:
+        return None
+    if 2000 <= n <= 2035:
+        return None
+    return n
+
+
+def _any_mid_segment_has_print_run(parts: List[str]) -> bool:
+    """True if any segment after the insert-line prefix (before optional Auto) contains ``/digits``."""
+    if len(parts) < 2:
+        return False
+    has_auto = parts[-1] == "Auto"
+    mid = parts[1:-1] if has_auto else parts[1:]
+    return any(re.search(r"/\d+\b", seg) for seg in mid)
+
+
+def _append_serial_suffix_to_product_group_parts(
+    parts: List[str], flags: Dict[str, Any]
+) -> List[str]:
+    """
+    Fallback: when ``serial_out_of`` is set but no mid segment yet carries a print run (e.g. generic
+    ``Bowman Draft Night /99`` with no color), append `` /N`` to the last non-Auto segment.
+
+    Skips when any mid segment already has ``/digits`` (from ladder collapse or color apply).
+    """
+    n = _serial_denominator_for_product_group_taxonomy(flags)
+    if n is None or not parts:
+        return parts
+    if _any_mid_segment_has_print_run(parts):
+        return parts
+    out = list(parts)
+    if out[-1] == "Auto":
+        if len(out) < 2:
+            return out
+        idx = -2
+    else:
+        idx = -1
+    last = out[idx]
+    if re.search(r"/\d+\b", last):
+        return out
+    out[idx] = f"{last} /{n}"
+    return out
+
+
+def _apply_color_ladder_serial_from_flags(parts: List[str], flags: Dict[str, Any]) -> List[str]:
+    """
+    When ``serial_out_of`` matches a Bowman hobby color's ladder denominator, rewrite that color
+    segment to ``Color /N`` (same token shape as BDC collapse).
+    """
+    so = _serial_denominator_for_product_group_taxonomy(flags)
+    if so is None or len(parts) < 2:
+        return parts
+    has_auto = parts[-1] == "Auto"
+    body = parts[:-1] if has_auto else parts[:]
+    out: List[str] = [body[0]]
+    for seg in body[1:]:
+        if re.search(r"/\d+\b", seg):
+            out.append(seg)
+            continue
+        if seg in _BDC_COLOR_SERIAL:
+            suf = _BDC_COLOR_SERIAL[seg]
+            m = re.search(r"/(\d+)", suf)
+            if m and int(m.group(1)) == so:
+                out.append(f"{seg} {suf}")
+                continue
+        out.append(seg)
+    if has_auto:
+        out.append("Auto")
+    return out
+
+
+def _finalize_product_group_parallel_parts(
+    parts: List[str], slug: str, flags: Dict[str, Any]
+) -> List[str]:
+    """
+    Product-group insert lines: reuse BDC aqua + colored collapse on a temporary BDC prefix, then
+    apply ladder serial to color segments, then generic suffix for lines without a color (e.g. bare ``… /99``).
+    """
+    if slug not in _insert_line_parallel_taxonomy_slugs() or len(parts) < 2:
+        return _append_serial_suffix_to_product_group_parts(parts, flags)
+    orig = parts[0]
+    fake = [BDC_PRIMARY_FAMILY] + parts[1:]
+    fake = _collapse_bdc_aqua_parallel_parts(fake)
+    fake = _collapse_bdc_colored_parallel_parts(fake)
+    fake[0] = orig
+    parts = fake
+    parts = _apply_color_ladder_serial_from_flags(parts, flags)
+    return _append_serial_suffix_to_product_group_parts(parts, flags)
+
+
 def _collapse_bdc_colored_parallel_parts(parts: List[str]) -> List[str]:
     """
     Collapse e.g. **Green · Lava**, **Green · Sapphire**, **Gold · Wave · Shimmer** into **Green /99**,
@@ -508,16 +628,26 @@ def _collapse_bdc_aqua_parallel_parts(parts: List[str]) -> List[str]:
 
 def finalize_bdc_composite_string(s: str) -> str:
     """
-    Normalize BDC Chrome Prospect labels: aqua /125 family, then standard color + print-run buckets
+    Normalize Bowman Draft **Chrome** (BDC stock) labels: aqua /125 family, then standard color + print-run buckets
     (Green /99, Gold /50, Blue /150, …) with mergeable finish noise (Wave, Lava, Shimmer, …).
     Same collapse applies to **Chrome Prospect College Variations · …** (team photo SP line).
+    Accepts legacy strings beginning with **BDC Chrome Prospect** and rewrites them to **Chrome**.
     """
-    if not (s.startswith("BDC Chrome Prospect") or s.startswith("Chrome Prospect College Variations")):
-        return s
-    parts = s.split(" · ")
-    parts = _collapse_bdc_aqua_parallel_parts(parts)
-    parts = _collapse_bdc_colored_parallel_parts(parts)
-    return _join_parts(parts)
+    if s.startswith(_LEGACY_BDC_PRIMARY_PREFIX):
+        s = BDC_PRIMARY_FAMILY + s[len(_LEGACY_BDC_PRIMARY_PREFIX) :]
+    if s.startswith("Chrome Prospect College Variations"):
+        parts = s.split(" · ")
+        parts = _collapse_bdc_aqua_parallel_parts(parts)
+        parts = _collapse_bdc_colored_parallel_parts(parts)
+        return _join_parts(parts)
+    if s == BDC_PRIMARY_FAMILY or s.startswith(f"{BDC_PRIMARY_FAMILY} · ") or s.startswith(
+        f"{BDC_PRIMARY_FAMILY} /"
+    ):
+        parts = s.split(" · ")
+        parts = _collapse_bdc_aqua_parallel_parts(parts)
+        parts = _collapse_bdc_colored_parallel_parts(parts)
+        return _join_parts(parts)
+    return s
 
 
 def format_axis_card_type(row: Dict[str, Any]) -> str:
@@ -603,19 +733,19 @@ def build_composite_card_type(row: Dict[str, Any]) -> Optional[str]:
         return _join_parts([p for p in parts if p])
 
     if _RE_X_FRACTOR_PHRASE.search(title) and not flags.get("WF_axis"):
-        parts = ["BDC Chrome Prospect", "X-Fractor"]
+        parts = [BDC_PRIMARY_FAMILY, "X-Fractor"]
         if is_auto:
             parts.append("Auto")
         return _join_parts(parts)
 
     tl = title.lower()
     if _RE_SPECKLE_REFRACTOR.search(tl):
-        parts = ["BDC Chrome Prospect", "Speckle Refractor"]
+        parts = [BDC_PRIMARY_FAMILY, "Speckle Refractor"]
         if is_auto:
             parts.append("Auto")
         return _join_parts(parts)
     if _RE_SPARKLE_REFRACTOR.search(tl):
-        parts = ["BDC Chrome Prospect", "Sparkle"]
+        parts = [BDC_PRIMARY_FAMILY, "Sparkle"]
         if is_auto:
             parts.append("Auto")
         return _join_parts(parts)
@@ -635,12 +765,13 @@ def build_composite_card_type(row: Dict[str, Any]) -> Optional[str]:
             parts.append(fin)
         if is_auto:
             parts.append("Auto")
+        parts = _finalize_product_group_parallel_parts(parts, slug, flags)
         return _join_parts(parts)
 
     # No insert line matched: BDC chrome parallels (colors / refractor ladder — stock omitted).
     if _should_apply_chrome_bdc_parallel_taxonomy(row, flags):
         detail = _bdc_parallel_detail(row, flags)
-        parts = ["BDC Chrome Prospect"]
+        parts = [BDC_PRIMARY_FAMILY]
         if detail:
             parts.append(detail)
         if is_auto:

@@ -69,7 +69,7 @@ class TestReviewSliceRow(unittest.TestCase):
                 "title": "#BD-18 Orange Border",
             }
         )
-        self.assertEqual(r3["card_type"], "BDC Chrome Prospect · Orange /25")
+        self.assertEqual(r3["card_type"], "Chrome · Orange /25")
 
         r4 = _review_slice_compact_row(
             {
@@ -84,7 +84,7 @@ class TestReviewSliceRow(unittest.TestCase):
                 "title": "2025 Bowman Draft #BDC-1 Eli Willits Chrome",
             }
         )
-        self.assertEqual(r4["card_type"], "BDC Chrome Prospect · Base")
+        self.assertEqual(r4["card_type"], "Chrome · Base")
 
         r5 = _review_slice_compact_row(
             {
@@ -222,7 +222,7 @@ class TestReviewSliceRow(unittest.TestCase):
             "pilot_reason_codes": '["not_likely_base", "nb_chrome", "nb_bdc", "nb_numbered_serial"]',
             "title": "2025 Bowman Draft Player Sky Blue /499 #BD-1",
         }
-        self.assertEqual(row_primary_card_type(r_num), "BDC Chrome Prospect · Sky Blue /499")
+        self.assertEqual(row_primary_card_type(r_num), "Chrome · Sky Blue /499")
         self.assertFalse(
             row_matches_classification_focus(r_num, "refractor_and_chrome_plain"),
         )
@@ -283,7 +283,7 @@ class TestReviewSliceRow(unittest.TestCase):
             "pilot_reason_codes": '["not_likely_base", "nb_chrome", "nb_bdc", "nb_refractor", "nb_auto"]',
             "title": "2025 Bowman Draft #BDC-1 Eli Willits Chrome Refractor Auto",
         }
-        self.assertEqual(row_primary_card_type(r_ref_auto), "BDC Chrome Prospect · Refractor · Auto")
+        self.assertEqual(row_primary_card_type(r_ref_auto), "Chrome · Refractor · Auto")
         self.assertFalse(row_matches_classification_focus(r_ref_auto, "chrome_refractor_plain"))
         r_spot = {
             "pilot_is_snack_pack": "0",
@@ -364,8 +364,8 @@ class TestReviewSliceRow(unittest.TestCase):
             "pilot_reason_codes": '["not_likely_base", "nb_chrome", "nb_bdc"]',
             "title": "2025 Bowman Draft #BDC-1 Eli Willits Chrome",
         }
-        # Bare **BDC Chrome Prospect** is coerced to **· Base** or **Base-Paper**; never matches `bdc_chrome_prospect`.
-        self.assertEqual(row_primary_card_type(r_plain), "BDC Chrome Prospect · Base")
+        # Bare **Chrome** is coerced to **· Base** or **Base-Paper**; never matches `bdc_chrome_prospect`.
+        self.assertEqual(row_primary_card_type(r_plain), "Chrome · Base")
         self.assertFalse(row_matches_classification_focus(r_plain, "bdc_chrome_prospect"))
         r_ref = {
             "pilot_is_snack_pack": "0",
@@ -438,7 +438,7 @@ class TestReviewSliceRow(unittest.TestCase):
             "pilot_reason_codes": '["nb_numbered_serial"]',
             "title": "Some Player RC 15/250",
         }
-        self.assertEqual(row_primary_card_type(r), "BDC Chrome Prospect · Purple /250")
+        self.assertEqual(row_primary_card_type(r), "Chrome · Purple /250")
         self.assertFalse(row_matches_classification_focus(r, "bdc_chrome_prospect_parallel"))
 
     def test_classification_focus_unknown_player(self) -> None:
@@ -462,7 +462,7 @@ class TestReviewSliceRow(unittest.TestCase):
         )
 
     def test_classification_focus_primary_exact(self) -> None:
-        rc = {"primary_card_type_exact": "BDC Chrome Prospect · Orange /25"}
+        rc = {"primary_card_type_exact": "Chrome · Orange /25"}
         r_match = {
             "pilot_is_snack_pack": "0",
             "pilot_is_axis": "0",
@@ -494,13 +494,46 @@ class TestBdcSerialLadder(unittest.TestCase):
             build_composite_card_type(
                 {"title": "2025 Bowman Draft #BDC-1 Eli Willits 1/5"},
             ),
-            "BDC Chrome Prospect · Red",
+            "Chrome · Red",
         )
         self.assertEqual(
             build_composite_card_type(
                 {"title": "2025 Bowman #BDC-50 Player 12/100"},
             ),
-            "BDC Chrome Prospect · Steel Metal /100",
+            "Chrome · Steel Metal /100",
+        )
+
+    def test_product_group_appends_serial_from_flags(self) -> None:
+        """Insert-line composite includes classifier print run when serial_out_of is set."""
+        self.assertEqual(
+            build_composite_card_type(
+                {
+                    "title": "2025 Bowman Draft Kade Anderson Draft Night 25 RC BDN-3 Mariners /99 Green",
+                },
+            ),
+            "Bowman Draft Night · Green /99",
+        )
+
+    def test_product_group_finalize_attaches_serial_to_color_not_mini_diamond(self) -> None:
+        """BDC-style ladder: /50 maps to Gold segment before Mini Diamond (not Mini Diamond /50)."""
+        self.assertEqual(
+            build_composite_card_type(
+                {
+                    "title": "2025 Bowman Draft Night Gold Mini Diamond /50 BDN-1 Player",
+                },
+            ),
+            "Bowman Draft Night · Gold /50 · Mini Diamond",
+        )
+
+    def test_product_group_green_lava_collapses_like_bdc(self) -> None:
+        """Green + Lava collapses to Green /99 before generic suffix."""
+        self.assertEqual(
+            build_composite_card_type(
+                {
+                    "title": "2025 Bowman Draft Night Green Lava /99 BDN-2 Player",
+                },
+            ),
+            "Bowman Draft Night · Green /99",
         )
 
     def test_pick_row_not_bare_bdc(self) -> None:

@@ -101,44 +101,44 @@ def _focus_explain(classification_focus: str) -> str:
     if f == "axis":
         return "`axis` = **Axis** insert (classifier `WF_axis`; word *axis* or `#A-…`)"
     if f == "paper_base":
-        return "`paper_base` = **paper BD** base only; use `base` for **BDC Chrome Prospect · Base** (chrome stock)"
+        return "`paper_base` = **paper BD** base only; use `base` for **Chrome · Base** (chrome stock)"
     if f == "base":
-        return "`base` = **BDC Chrome Prospect · Base** (chrome stock) only; use `paper_base` for paper BD"
+        return "`base` = **Chrome · Base** (chrome stock) only; use `paper_base` for paper BD"
     if f == "refractor":
         return (
-            "`refractor` = canonical **BDC Chrome Prospect · …** parallels, **Bowman Axis** (not Base), "
-            "**Etched in Glass**, **Image Variations**; not **BDC Chrome Prospect · Base**"
+            "`refractor` = canonical **Chrome · …** parallels, **Bowman Axis** (not Base), "
+            "**Etched in Glass**, **Image Variations**; not **Chrome · Base**"
         )
     if f == "chrome_refractor_plain":
         return (
-            "`chrome_refractor_plain` = canonical primary exactly **BDC Chrome Prospect · Refractor** "
+            "`chrome_refractor_plain` = canonical primary exactly **Chrome · Refractor** "
             "(plain silver parallel; excludes **… · Refractor · Auto**)"
         )
     if f == "bdc_chrome_prospect_parallel":
         return (
-            "`bdc_chrome_prospect_parallel` = canonical primary exactly **BDC Chrome Prospect · Parallel** "
+            "`bdc_chrome_prospect_parallel` = canonical primary exactly **Chrome · Parallel** "
             "(still unresolved after serial→color / title parallel inference from `nb_numbered_serial`)"
         )
     if f == "refractor_and_chrome_plain":
         return (
-            "`refractor_and_chrome_plain` = canonical `row_primary_card_type`: **BDC Chrome Prospect · Refractor**, "
-            "**BDC Chrome Prospect · Parallel**, CPA (**BDC Chrome Prospect · …**) / **Chrome Prospect College Variations** "
+            "`refractor_and_chrome_plain` = canonical `row_primary_card_type`: **Chrome · Refractor**, "
+            "**Chrome · Parallel**, CPA (**Chrome · …**) / **Chrome Prospect College Variations** "
             "prefixes, **College Variation** (excludes colored BDC parallels)"
         )
     if f == "bdc_chrome_prospect_auto":
         return (
-            "`bdc_chrome_prospect_auto` = canonical `row_primary_card_type` exactly **BDC Chrome Prospect · Auto** "
+            "`bdc_chrome_prospect_auto` = canonical `row_primary_card_type` exactly **Chrome · Auto** "
             "(Chrome Prospect Autographs base line; excludes parallel/colored **… · Auto** variants)"
         )
     if f == "bdc_chrome_prospect":
         return (
-            "`bdc_chrome_prospect` = canonical `row_primary_card_type` exactly **BDC Chrome Prospect** "
+            "`bdc_chrome_prospect` = canonical `row_primary_card_type` exactly **Chrome** "
             "(generic chrome prospect line; not **· Base**, **· Refractor**, **· Auto**, etc.)"
         )
     if f == "other":
         return (
             "`other` = listings that received the legacy chrome-vs-paper default "
-            "(**BDC Chrome Prospect · Base** if *chrome* in title, else **Base-Paper**); "
+            "(**Chrome · Base** if *chrome* in title, else **Base-Paper**); "
             "former **Other** bucket for manual review"
         )
     if f == "primary_exact":
@@ -164,7 +164,7 @@ def review_focus_row_source(
     Rows to draw `review_focus.csv` from. `review_focus_scope` in JSON: `all` | `slice`.
     If `all`, use the full scored pool. If `slice`, only BD card_numbers slice rows (plus lot/graded filters).
     If omitted, `axis` and refractor-family focuses use all scored rows; otherwise defaults to slice.
-    For **`bdc_chrome_prospect_auto`**, set **`review_focus_scope` to `all`** to list every plain **BDC Chrome Prospect · Auto** listing in the pilot.
+    For **`bdc_chrome_prospect_auto`**, set **`review_focus_scope` to `all`** to list every plain **Chrome · Auto** listing in the pilot.
     """
     scope = (rc.get("review_focus_scope") or "").strip().lower()
     f = (classification_focus or "").strip().lower()

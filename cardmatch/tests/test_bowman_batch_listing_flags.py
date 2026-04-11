@@ -87,14 +87,33 @@ class TestAnalyzeBatchObservedFlags(unittest.TestCase):
             is_serial_listing=[True, True, True, True],
         )
         self.assertEqual(len(flags), 4)
+        # Spread ratio only on min-price row per card type
         self.assertAlmostEqual(flags[0].spread_ratio, 2.0)
-        self.assertAlmostEqual(flags[1].spread_ratio, 2.0)
+        self.assertIsNone(flags[1].spread_ratio)
         self.assertAlmostEqual(flags[2].spread_ratio, 60.0 / 50.0)
-        self.assertAlmostEqual(flags[3].spread_ratio, 60.0 / 50.0)
+        self.assertIsNone(flags[3].spread_ratio)
         self.assertTrue(flags[0].cheaper_than_worse_tier)
         self.assertTrue(flags[1].cheaper_than_worse_tier)
         self.assertFalse(flags[2].cheaper_than_worse_tier)
         self.assertFalse(flags[3].cheaper_than_worse_tier)
+
+    def test_spread_ratio_only_on_min_price_rows(self) -> None:
+        """Same card type: only the cheapest listing(s) get spread_ratio."""
+        ct_map = {"x": 1}
+        n = 3
+        flags = analyze_batch_observed_flags(
+            card_type_norm_by_index=["x", "x", "x"],
+            classification_excluded=[False, False, False],
+            classification_batch_error=[None] * n,
+            listing_prices=[1.99, 1.99, 3.5],
+            ct_map=ct_map,
+            ct_median=1.0,
+            is_serial_listing=[False, False, False],
+        )
+        # 2nd-smallest / smallest = 1.99/1.99 = 1.0; only rows at batch min (1.99) get it
+        self.assertAlmostEqual(flags[0].spread_ratio, 1.0)
+        self.assertAlmostEqual(flags[1].spread_ratio, 1.0)
+        self.assertIsNone(flags[2].spread_ratio)
 
     def test_inversion_na_when_not_serial(self) -> None:
         """Non-serial rows get null inversion even when raw tier math would apply."""

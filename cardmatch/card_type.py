@@ -18,6 +18,7 @@ from cardmatch.taxonomy import (
     _RE_SPARKLE_REFRACTOR,
     _RE_X_FRACTOR_PHRASE,
     _should_apply_chrome_bdc_parallel_taxonomy,
+    BDC_PRIMARY_FAMILY,
     build_composite_card_type,
     finalize_bdc_composite_string,
     flags_for_title,
@@ -45,7 +46,7 @@ def _strip_trailing_auto_suffixes(ct: str) -> str:
 
 
 def _card_group_from_type(ct: str) -> str:
-    """First segment of card_type (product family), e.g. BDC Chrome Prospect · Green /99 → BDC Chrome Prospect."""
+    """First segment of card_type (product family), e.g. Chrome · Green /99 → Chrome."""
     if " · " in ct:
         return ct.split(" · ", 1)[0]
     return ct
@@ -106,24 +107,24 @@ def _flags_for_row(row: Dict[str, Any]) -> Dict[str, Any]:
 # Avoid bare finish/color/serial tokens as the full card type — prefix with product line where possible.
 _NB_LABEL: Dict[str, str] = {
     "nb_graded": "Graded",
-    "nb_orange_border": "BDC Chrome Prospect · Orange /25",
-    "nb_sky_blue": "BDC Chrome Prospect · Sky Blue",
+    "nb_orange_border": f"{BDC_PRIMARY_FAMILY} · Orange /25",
+    "nb_sky_blue": f"{BDC_PRIMARY_FAMILY} · Sky Blue",
     "nb_snack_pack": "Snack-Pack",
-    "nb_mini_diamond": "BDC Chrome Prospect · Mini Diamond",
-    "nb_aqua": "BDC Chrome Prospect · Aqua",
-    "nb_sparkle": "BDC Chrome Prospect · Sparkle",
-    "nb_blue_geometric": "BDC Chrome Prospect · Blue Geometric",
-    "nb_chrome": "BDC Chrome Prospect",
+    "nb_mini_diamond": f"{BDC_PRIMARY_FAMILY} · Mini Diamond",
+    "nb_aqua": f"{BDC_PRIMARY_FAMILY} · Aqua",
+    "nb_sparkle": f"{BDC_PRIMARY_FAMILY} · Sparkle",
+    "nb_blue_geometric": f"{BDC_PRIMARY_FAMILY} · Blue Geometric",
+    "nb_chrome": BDC_PRIMARY_FAMILY,
     "nb_lot": "Lot / multi-card",
     "nb_pick_or_set_builder": "Pick / set builder",
     "nb_complete_set": "Complete set",
     "nb_presale": "Presale",
-    "nb_chrome_prospect_autographs": "BDC Chrome Prospect · Auto",
+    "nb_chrome_prospect_autographs": f"{BDC_PRIMARY_FAMILY} · Auto",
     "nb_prized_prospect": "Prized Prospect",
     "nb_axis": "axis plain",
     "nb_draft_night": "Draft Night",
     "nb_final_draft": "Final Draft",
-    "nb_bdc": "BDC Chrome Prospect",
+    "nb_bdc": BDC_PRIMARY_FAMILY,
     "nb_bowman_in_action": "Bowman In Action",
     "nb_image_variation": "Image Variations",
     "nb_college_variation": "College Variation",
@@ -131,16 +132,26 @@ _NB_LABEL: Dict[str, str] = {
     "nb_etched_in_glass": "Etched in Glass",
     "nb_sapphire": "Sapphire",
     "nb_crystallized": "Crystallized",
-    "nb_x_fractor": "BDC Chrome Prospect · X-Fractor",
-    "nb_refractor": "BDC Chrome Prospect · Refractor",
-    "nb_superfractor": "BDC Chrome Prospect · Superfractor",
-    "nb_shimmer": "BDC Chrome Prospect · Shimmer Refractor",
-    "nb_speckle": "BDC Chrome Prospect · Speckle Refractor",
-    "nb_wave": "BDC Chrome Prospect · Wave",
-    "nb_lava": "BDC Chrome Prospect · Lava",
-    "nb_printing_plate": "BDC Chrome Prospect · Printing Plate",
-    "nb_numbered_serial": "BDC Chrome Prospect · Parallel",
+    "nb_x_fractor": f"{BDC_PRIMARY_FAMILY} · X-Fractor",
+    "nb_refractor": f"{BDC_PRIMARY_FAMILY} · Refractor",
+    "nb_superfractor": f"{BDC_PRIMARY_FAMILY} · Superfractor",
+    "nb_shimmer": f"{BDC_PRIMARY_FAMILY} · Shimmer Refractor",
+    "nb_speckle": f"{BDC_PRIMARY_FAMILY} · Speckle Refractor",
+    "nb_wave": f"{BDC_PRIMARY_FAMILY} · Wave",
+    "nb_lava": f"{BDC_PRIMARY_FAMILY} · Lava",
+    "nb_printing_plate": f"{BDC_PRIMARY_FAMILY} · Printing Plate",
+    "nb_numbered_serial": f"{BDC_PRIMARY_FAMILY} · Parallel",
 }
+
+
+def _is_bdc_chrome_primary_base(base: str) -> bool:
+    """True for canonical **Chrome · …** / **Chrome /…** BDC labels (not **Chrome Prospect College Variations**)."""
+    if base.startswith("Chrome Prospect College Variations"):
+        return False
+    return base == BDC_PRIMARY_FAMILY or base.startswith(f"{BDC_PRIMARY_FAMILY} · ") or base.startswith(
+        f"{BDC_PRIMARY_FAMILY} /"
+    )
+
 
 # Axis insert sub-types (mutually exclusive; WF_axis must already be true).
 _RE_AXIS_GREEN = re.compile(r"\bgreen\b", re.I)
@@ -160,7 +171,7 @@ def _fallback_base_or_paper_title(row: Dict[str, Any]) -> str:
     """Former legacy **Other**: infer stock from title only."""
     title = row.get("title") or ""
     if _RE_CHROME_WORD.search(title):
-        return finalize_bdc_composite_string("BDC Chrome Prospect · Base")
+        return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Base")
     return "Base-Paper"
 
 
@@ -194,13 +205,13 @@ def _coerce_nb_numbered_serial_to_colored_parallel(row: Dict[str, Any]) -> str:
                 if rec is not None:
                     d = _bdc_parallel_detail_from_serial_denominator(rec)
             if d:
-                return finalize_bdc_composite_string(f"BDC Chrome Prospect · {d}")
+                return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · {d}")
         except (TypeError, ValueError):
             pass
     if _should_apply_chrome_bdc_parallel_taxonomy(row, flags):
         detail = _bdc_parallel_detail(row, flags)
         if detail:
-            return finalize_bdc_composite_string(f"BDC Chrome Prospect · {detail}")
+            return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · {detail}")
     tl = (row.get("title") or "").lower()
     if "refractor" in tl and not flags.get("WF_refractor"):
         f2 = _flags_with_bdc_card_token(
@@ -210,17 +221,17 @@ def _coerce_nb_numbered_serial_to_colored_parallel(row: Dict[str, Any]) -> str:
         if _should_apply_chrome_bdc_parallel_taxonomy(row, f2):
             detail = _bdc_parallel_detail(row, f2)
             if detail:
-                return finalize_bdc_composite_string(f"BDC Chrome Prospect · {detail}")
-    return "BDC Chrome Prospect · Parallel"
+                return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · {detail}")
+    return f"{BDC_PRIMARY_FAMILY} · Parallel"
 
 
 def _coerce_bare_bdc_product_line_to_base_or_paper(row: Dict[str, Any], ct: str) -> str:
     """
-    Bare **BDC Chrome Prospect** (no **· Base**, **· Refractor**, etc.) must never be a final label:
-    same rule as legacy **Other** — *chrome* in title → **BDC Chrome Prospect · Base**, else **Base-Paper**.
+    Bare **Chrome** (no **· Base**, **· Refractor**, etc.) must never be a final label:
+    same rule as legacy **Other** — *chrome* in title → **Chrome · Base**, else **Base-Paper**.
     Covers composite paths with no parallel slice, **nb_bdc** / **nb_chrome**, and CPA non-auto.
     """
-    if ct == "BDC Chrome Prospect":
+    if ct == BDC_PRIMARY_FAMILY:
         return _fallback_base_or_paper_title(row)
     return ct
 
@@ -229,7 +240,7 @@ def _orange_border_bdc_card_type(flags: Dict[str, Any]) -> str:
     """
     Orange-border listings are chrome prospect orange parallels (/25), not a separate paper-base bucket.
     """
-    parts = "BDC Chrome Prospect · Orange /25"
+    parts = f"{BDC_PRIMARY_FAMILY} · Orange /25"
     if flags.get("WF_auto"):
         parts = f"{parts} · Auto"
     return finalize_bdc_composite_string(parts)
@@ -241,7 +252,7 @@ def _legacy_from_title_flags(row: Dict[str, Any], flags: Dict[str, Any]) -> Opti
     if flags.get("WF_college_variation"):
         return None
     if flags.get("WF_chrome_prospect_autographs"):
-        return "BDC Chrome Prospect · Auto" if flags.get("WF_auto") else "BDC Chrome Prospect"
+        return f"{BDC_PRIMARY_FAMILY} · Auto" if flags.get("WF_auto") else BDC_PRIMARY_FAMILY
     if flags.get("WF_bowman_spotlight"):
         return "Bowman Spotlight"
     if flags.get("WF_final_draft"):
@@ -251,11 +262,11 @@ def _legacy_from_title_flags(row: Dict[str, Any], flags: Dict[str, Any]) -> Opti
     if _RE_IMAGE_VARIATION.search(title):
         return "Image Variations"
     if _RE_X_FRACTOR_PHRASE.search(title) or flags.get("WF_x_fractor"):
-        return "BDC Chrome Prospect · X-Fractor"
+        return f"{BDC_PRIMARY_FAMILY} · X-Fractor"
     if _RE_SPECKLE_REFRACTOR.search(title.lower()):
-        return "BDC Chrome Prospect · Speckle Refractor"
+        return f"{BDC_PRIMARY_FAMILY} · Speckle Refractor"
     if _RE_SPARKLE_REFRACTOR.search(title.lower()):
-        return "BDC Chrome Prospect · Sparkle"
+        return f"{BDC_PRIMARY_FAMILY} · Sparkle"
     chrome_parallel = _chrome_bdc_parallel_primary_type(row, flags)
     if chrome_parallel is not None:
         return chrome_parallel
@@ -267,20 +278,18 @@ def _augment_label_with_auto(
 ) -> str:
     """When nb_auto / WF_auto is set, attach Auto to the product line (Axis uses full axis formatter)."""
     if not want_auto:
-        if base.startswith("BDC Chrome Prospect") or base.startswith(
-            "Chrome Prospect College Variations"
-        ):
+        if base.startswith("Chrome Prospect College Variations") or _is_bdc_chrome_primary_base(base):
             return finalize_bdc_composite_string(base)
         return base
     if flags.get("WF_axis"):
         return format_axis_card_type(row)
     if base.startswith("axis ") or base == "axis plain":
         return format_axis_card_type(row)
-    if base.startswith("BDC Chrome Prospect"):
+    if base.startswith("Chrome Prospect College Variations"):
         if " · Auto" in base:
             return finalize_bdc_composite_string(base)
         return finalize_bdc_composite_string(f"{base} · Auto")
-    if base.startswith("Chrome Prospect College Variations"):
+    if _is_bdc_chrome_primary_base(base):
         if " · Auto" in base:
             return finalize_bdc_composite_string(base)
         return finalize_bdc_composite_string(f"{base} · Auto")
@@ -304,7 +313,7 @@ def _resolve_autograph_only_nb(row: Dict[str, Any], flags: Dict[str, Any]) -> Op
     if p is not None:
         return _augment_label_with_auto(p, row, flags, True)
     if flags.get("WF_bdc") or flags.get("WF_chrome") or flags.get("WF_refractor"):
-        return finalize_bdc_composite_string("BDC Chrome Prospect · Auto")
+        return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto")
     return None
 
 
@@ -317,7 +326,7 @@ def _chrome_bdc_parallel_primary_type(row: Dict[str, Any], flags: Dict[str, Any]
     detail = _bdc_parallel_detail(row, flags)
     if not detail:
         return None
-    return f"BDC Chrome Prospect · {detail}"
+    return f"{BDC_PRIMARY_FAMILY} · {detail}"
 
 
 def _axis_card_type_label(row: Dict[str, Any]) -> str:
@@ -451,13 +460,13 @@ def row_primary_card_type(row: Dict[str, Any]) -> str:
         return "Presale"
 
     if (row.get("pilot_is_likely_chrome_base") or "") == "1":
-        return finalize_bdc_composite_string("BDC Chrome Prospect · Base")
+        return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Base")
     if (row.get("pilot_is_likely_base") or "") == "1":
         codes_lb = _parse_reason_codes(row)
         nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
         want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
         if want_auto_lb:
-            return finalize_bdc_composite_string("BDC Chrome Prospect · Auto")
+            return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto")
         return "Base-Paper"
 
     composite = build_composite_card_type(row)
@@ -474,7 +483,7 @@ def row_primary_card_type(row: Dict[str, Any]) -> str:
 def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
     """
     Returns (label, used_fallback: bool). Fallback is the former **Other** path:
-    no nb_* / title product line — infer **BDC Chrome Prospect · Base** if *chrome* in title else **Base-Paper**.
+    no nb_* / title product line — infer **Chrome · Base** if *chrome* in title else **Base-Paper**.
     """
     if (row.get("pilot_is_snack_pack") or "") == "1":
         return ("Snack-Pack", False)
@@ -500,13 +509,13 @@ def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
         return ("Presale", False)
 
     if (row.get("pilot_is_likely_chrome_base") or "") == "1":
-        return (finalize_bdc_composite_string("BDC Chrome Prospect · Base"), False)
+        return (finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Base"), False)
     if (row.get("pilot_is_likely_base") or "") == "1":
         codes_lb = _parse_reason_codes(row)
         nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
         want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
         if want_auto_lb:
-            return (finalize_bdc_composite_string("BDC Chrome Prospect · Auto"), False)
+            return (finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto"), False)
         return ("Base-Paper", False)
 
     codes = _parse_reason_codes(row)
@@ -531,7 +540,7 @@ def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
             return (r, False)
         # Autographs must not fall through to plain **Base-Paper** when the title omits *chrome*
         # (e.g. "1st Auto" only). Default to on-card Chrome prospect autographs for Bowman Draft.
-        return (finalize_bdc_composite_string("BDC Chrome Prospect · Auto"), False)
+        return (finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto"), False)
     return (_fallback_base_or_paper_title(row), True)
 
 

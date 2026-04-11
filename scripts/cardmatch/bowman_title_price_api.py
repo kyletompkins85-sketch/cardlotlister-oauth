@@ -90,6 +90,8 @@ def main() -> None:
         ) from e
 
     from cardmatch.bowman_batch_listing_flags import analyze_batch_observed_flags
+    from cardmatch.card_type_display_order import display_order_for_card_type, load_merged_display_order
+    from cardmatch.observed_flags_display import short_card_type_display_for_api
     from cardmatch.serial_scarcity import is_serial_listing_from_bowman_flags
     from cardmatch.bowman_title_price_predict import (
         BowmanTitlePricePrediction,
@@ -126,6 +128,18 @@ def main() -> None:
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_STARTUP_MODEL
     ag_models_available = Path(ag_dir).is_dir()
 
+    merged_display_order = load_merged_display_order()
+
+    def _card_type_display_order_int(ct_norm: str) -> Optional[int]:
+        if not (ct_norm or "").strip():
+            return None
+        return display_order_for_card_type(
+            ct_norm,
+            merged_display_order,
+            infer_missing=True,
+            pairwise_card_type_csv=ct_csv,
+        )
+
     app = FastAPI(title="Bowman title price", version="1.0.0")
 
     def _predict_response_body(out: BowmanTitlePricePrediction, req: PredictRequest) -> dict:
@@ -140,7 +154,7 @@ def main() -> None:
         }
         if out.batch_item_error:
             diag["batch_item_error"] = out.batch_item_error
-        return {
+        body: dict = {
             "player": out.player,
             "card_type": out.card_type,
             "predicted_price": out.predicted_price,
@@ -150,6 +164,10 @@ def main() -> None:
             },
             "diagnostics": diag,
         }
+        do = _card_type_display_order_int(out.card_type_norm)
+        if do is not None:
+            body["card_type_display_order"] = do
+        return body
 
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_HEALTH
     @app.get("/health")
@@ -224,7 +242,9 @@ def main() -> None:
                 if c.batch_item_error or c.pilot_result is None:
                     is_serial_seq.append(None)
                 else:
-                    is_serial_seq.append(is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags))
+                    is_serial_seq.append(
+                        is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags, title=c.title)
+                    )
             flags = analyze_batch_observed_flags(
                 card_type_norm_by_index=[c.card_type_norm for c in classified],
                 classification_excluded=[c.excluded for c in classified],
@@ -264,11 +284,13 @@ def main() -> None:
             if fr.price_skip_reason:
                 diag["price_skip_reason"] = fr.price_skip_reason
             if c.pilot_result is not None:
-                diag["is_serial_listing"] = is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags)
+                diag["is_serial_listing"] = is_serial_listing_from_bowman_flags(
+                    c.pilot_result.bowman_flags, title=c.title
+                )
             else:
                 diag["is_serial_listing"] = None
             row: dict = {
-                "card_type": c.card_type,
+                "card_type": short_card_type_display_for_api(c.card_type),
                 "spread_ratio": fr.spread_ratio,
                 "cheaper_than_worse_tier": fr.cheaper_than_worse_tier,
                 "confidence": {
@@ -277,6 +299,9 @@ def main() -> None:
                 },
                 "diagnostics": diag,
             }
+            do = _card_type_display_order_int(c.card_type_norm)
+            if do is not None:
+                row["card_type_display_order"] = do
             if req.id is not None:
                 row["id"] = req.id
             results.append(row)

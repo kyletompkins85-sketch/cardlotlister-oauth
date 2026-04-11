@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "_meta": "Slugs listed here use the same Bowman hobby color + print-run ladder as Chrome (see taxonomy._BDC_COLOR_SERIAL): collapse color+finish stacks to Color /N, then apply serial_out_of to color segments before generic suffix. Omitted slugs fall back to legacy suffix-only behavior.",
+  "slugs": {
+    "axis": {},
+    "bowman_draft_night": {},
+    "bowman_in_action": {},
+    "crystallized": {},
+    "prized_prospects": {},
+    "bowman_spotlight": {},
+    "college_variation": {},
+    "chrome_prospect_autographs": {},
+    "final_draft": {}
+  }
+}

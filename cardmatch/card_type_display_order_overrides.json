@@ -1,0 +1,4 @@
+{
+  "_meta": "display_order values: 1 = cheapest tier. Keys match card_type strings (normalized whitespace). Overrides replace the row in card_type_display_order.csv for the same card type.",
+  "overrides": {}
+}
