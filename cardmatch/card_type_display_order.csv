@@ -7,100 +7,99 @@ display_order,pairwise_rank,rank_match,matched_key,card_type
 6,151,exact,,Chrome · Base
 7,148,exact,,Chrome · Refractor
 8,130,exact,,Chrome · X-Fractor
-9,149,exact,,Prized Prospects · Purple /250
-10,128,exact,,Prized Prospects · Mini Diamond /150
-11,120,exact,,Prized Prospects · Green /99
-12,106,exact,,Prized Prospects · Gold /50
-13,97,exact,,Prized Prospects · Orange /25
-14,9,exact,,Prized Prospects · Red /5
-15,114,exact,,Bowman Axis · Parallel
-16,131,exact,,Bowman Axis · Mini Diamond
-17,103,exact,,Bowman Axis · Green
-18,90,exact,,Bowman Axis · Gold
-19,83,exact,,Bowman Axis · Orange
-20,68,exact,,Bowman Axis · Red
-21,8,exact,,Bowman Axis · Superfractor
-22,145,exact,,Bowman Draft Night · Purple /250
-23,135,exact,,Bowman Draft Night · Mini Diamond /150
-24,134,exact,,Bowman Draft Night · Green /99
-25,108,exact,,Bowman Draft Night · Gold /50
-26,92,exact,,Bowman Draft Night · Orange /25
-27,25,exact,,Bowman Draft Night · Red /5
-28,146,exact,,Bowman In Action · Purple /250
-29,113,exact,,Bowman In Action · Mini Diamond /150
-30,126,exact,,Bowman In Action · Green /99
-31,48,exact,,Bowman In Action · Black /73
-32,111,exact,,Bowman In Action · Gold /50
-33,101,exact,,Bowman In Action · Orange /25
-34,17,exact,,Bowman In Action /10
-35,117,exact,,Bowman In Action · Red /5
-36,11,exact,,Bowman In Action · Superfractor /1
-37,98,exact,,Image Variations
-38,32,exact,,Image Variations · Auto
-39,45,exact,,Image Variations · Orange
-40,125,exact,,Chrome · Speckle Refractor
-41,124,exact,,Chrome · Mini Diamond
-42,116,exact,,Chrome · Sparkle
-43,137,exact,,Chrome · Sky Blue /499
-44,115,exact,,Chrome · Purple /250
-45,109,exact,,Chrome · Fuchsia Reptilian /199
-46,112,exact,,Chrome · Blue /150
-47,110,exact,,Chrome · Aqua /125
-48,93,exact,,Chrome · Aqua Reptilian
-49,104,exact,,Chrome · Sapphire
-50,88,exact,,Chrome · Steel Metal /100
-51,99,exact,,Chrome · Green /99
-52,95,exact,,Chrome · Parallel
-53,81,exact,,Chrome · Yellow /75
-54,38,exact,,Chrome · Black /73
-55,76,exact,,Chrome · Gold /50
-56,50,exact,,Chrome · Logo Refractor /35
-57,69,exact,,Chrome · Orange /25
-58,44,exact,,Chrome · True Black /10
-59,74,exact,,Base-Paper · Black Border
-60,27,exact,,Chrome · Black Geometric /10
-61,59,exact,,Chrome · Red /5
-62,10,exact,,Chrome · Superfractor
-63,87,exact,,Bowman Spotlight
-64,24,exact,,Bowman Spotlight /5
-65,75,exact,,Bowman Draft Night · Auto · Orange /25
-66,58,exact,,Bowman Spotlight · Red /5
-67,14,exact,,Crystallized · Black /73
-68,52,exact,,Crystallized · Gold /50
-69,39,exact,,Crystallized · Orange /25
-127,22,exact,,Crystallized /25
-70,34,exact,,Crystallized · Red /5
-71,63,exact,,Crystallized
-72,82,exact,,Etched in Glass
-73,123,exact,,Chrome · Auto
-74,129,exact,,Chrome · Auto · Refractor
-75,60,exact,,Chrome · Auto · Speckle Refractor
-76,21,exact,,Chrome · Auto · X-Fractor
-77,56,exact,,Chrome · Auto · Mini Diamond
-78,36,exact,,Chrome · Auto · Parallel
-79,64,exact,,Chrome · Auto · Wave
-80,51,exact,,Chrome · Auto · Sparkle
-81,86,exact,,Chrome · Auto · Sky Blue /499
-82,79,exact,,Chrome · Auto · Purple /250
-83,70,exact,,Chrome · Auto · Fuchsia Reptilian /199
-84,66,exact,,Chrome · Auto · Blue /150
-85,72,exact,,Chrome · Auto · Aqua /125
-86,5,exact,,Chrome · Auto · Steel Metal /100
-87,61,exact,,Chrome · Auto · Green /99
-88,49,exact,,Chrome · Auto · Yellow /75
-89,13,exact,,Chrome · Auto · Black /73
-90,47,exact,,Chrome · Auto · Sparkle /71
-91,31,exact,,Chrome · Auto · Speckle /71
-92,23,exact,,Chrome · Auto · Mini Diamond /71
-93,35,exact,,Chrome · Auto · Gold /50
-94,37,exact,,Chrome · Auto · Orange /25
-95,42,exact,,Chrome · Auto · Black Geometric /10
-96,16,exact,,Chrome · Auto · True Black /10
-97,6,exact,,Chrome · Auto /10
-98,55,exact,,Chrome · Auto · Red /5
-99,54,exact,,Chrome · Auto · Printing Plate /1
-100,7,exact,,Chrome · Auto /1
-101,4,exact,,Chrome · Auto · Superfractor
+9,125,exact,,Chrome · Speckle Refractor
+10,124,exact,,Chrome · Mini Diamond
+11,116,exact,,Chrome · Sparkle
+12,95,exact,,Chrome · Parallel
+13,137,exact,,Chrome · Sky Blue /499
+14,115,exact,,Chrome · Purple /250
+15,109,exact,,Chrome · Fuchsia Reptilian /199
+16,112,exact,,Chrome · Blue /150
+17,110,exact,,Chrome · Aqua /125
+18,93,exact,,Chrome · Aqua Reptilian
+19,88,exact,,Chrome · Steel Metal /100
+20,99,exact,,Chrome · Green /99
+21,81,exact,,Chrome · Yellow /75
+22,38,exact,,Chrome · Black /73
+23,76,exact,,Chrome · Gold /50
+24,50,exact,,Chrome · Logo Refractor /35
+25,69,exact,,Chrome · Orange /25
+26,44,exact,,Chrome · True Black /10
+27,74,exact,,Base-Paper · Black Border
+28,27,exact,,Chrome · Black Geometric /10
+29,59,exact,,Chrome · Red /5
+30,10,exact,,Chrome · Superfractor
+31,123,exact,,Chrome · Auto
+32,129,exact,,Chrome · Auto · Refractor
+33,60,exact,,Chrome · Auto · Speckle Refractor
+34,21,exact,,Chrome · Auto · X-Fractor
+35,56,exact,,Chrome · Auto · Mini Diamond
+36,36,exact,,Chrome · Auto · Parallel
+37,64,exact,,Chrome · Auto · Wave
+38,51,exact,,Chrome · Auto · Sparkle
+39,86,exact,,Chrome · Auto · Sky Blue /499
+40,79,exact,,Chrome · Auto · Purple /250
+41,70,exact,,Chrome · Auto · Fuchsia Reptilian /199
+42,66,exact,,Chrome · Auto · Blue /150
+43,72,exact,,Chrome · Auto · Aqua /125
+44,5,exact,,Chrome · Auto · Steel Metal /100
+45,61,exact,,Chrome · Auto · Green /99
+46,49,exact,,Chrome · Auto · Yellow /75
+47,13,exact,,Chrome · Auto · Black /73
+48,47,exact,,Chrome · Auto · Sparkle /71
+49,31,exact,,Chrome · Auto · Speckle /71
+50,23,exact,,Chrome · Auto · Mini Diamond /71
+51,35,exact,,Chrome · Auto · Gold /50
+52,37,exact,,Chrome · Auto · Orange /25
+53,42,exact,,Chrome · Auto · Black Geometric /10
+54,16,exact,,Chrome · Auto · True Black /10
+55,6,exact,,Chrome · Auto /10
+56,55,exact,,Chrome · Auto · Red /5
+57,54,exact,,Chrome · Auto · Printing Plate /1
+58,7,exact,,Chrome · Auto /1
+59,4,exact,,Chrome · Auto · Superfractor
+60,149,exact,,Prized Prospects · Purple /250
+61,128,exact,,Prized Prospects · Mini Diamond /150
+62,120,exact,,Prized Prospects · Green /99
+63,106,exact,,Prized Prospects · Gold /50
+64,97,exact,,Prized Prospects · Orange /25
+65,9,exact,,Prized Prospects · Red /5
+66,114,exact,,Bowman Axis · Parallel
+67,131,exact,,Bowman Axis · Mini Diamond
+68,103,exact,,Bowman Axis · Green
+69,90,exact,,Bowman Axis · Gold
+70,83,exact,,Bowman Axis · Orange
+71,68,exact,,Bowman Axis · Red
+72,8,exact,,Bowman Axis · Superfractor
+73,145,exact,,Bowman Draft Night · Purple /250
+74,135,exact,,Bowman Draft Night · Mini Diamond /150
+75,134,exact,,Bowman Draft Night · Green /99
+76,108,exact,,Bowman Draft Night · Gold /50
+77,92,exact,,Bowman Draft Night · Orange /25
+78,25,exact,,Bowman Draft Night · Red /5
+79,146,exact,,Bowman In Action · Purple /250
+80,113,exact,,Bowman In Action · Mini Diamond /150
+81,126,exact,,Bowman In Action · Green /99
+82,48,exact,,Bowman In Action · Black /73
+83,111,exact,,Bowman In Action · Gold /50
+84,101,exact,,Bowman In Action · Orange /25
+85,17,exact,,Bowman In Action /10
+86,117,exact,,Bowman In Action · Red /5
+87,11,exact,,Bowman In Action · Superfractor /1
+88,98,exact,,Image Variations
+89,32,exact,,Image Variations · Auto
+90,45,exact,,Image Variations · Orange
+91,87,exact,,Bowman Spotlight
+92,24,exact,,Bowman Spotlight /5
+93,75,exact,,Bowman Draft Night · Auto · Orange /25
+94,58,exact,,Bowman Spotlight · Red /5
+95,14,exact,,Crystallized · Black /73
+96,52,exact,,Crystallized · Gold /50
+97,39,exact,,Crystallized · Orange /25
+98,22,exact,,Crystallized /25
+99,34,exact,,Crystallized · Red /5
+100,63,exact,,Crystallized
+101,82,exact,,Etched in Glass
 102,80,exact,,Final Draft
 103,3,exact,,Final Draft · Red /5
 104,33,exact,,Snack-Pack
@@ -110,25 +109,26 @@ display_order,pairwise_rank,rank_match,matched_key,card_type
 108,29,exact,,Bowman In Action · Auto · Red /5
 109,40,exact,,Image Variations · Auto · Green
 110,100,exact,,Image Variations · Auto · Purple
-111,139,exact,,Sapphire
-112,119,exact,,Chrome Prospect College Variations
-113,142,exact,,Chrome Prospect College Variations · Purple /250
-114,30,exact,,Chrome Prospect College Variations · Black /73
-115,73,exact,,Chrome Prospect College Variations · Gold /50
-116,67,exact,,Chrome Prospect College Variations · Orange /25
-117,20,exact,,Chrome Prospect College Variations · Red /5
-118,94,exact,,Chrome Prospect College Variations · Auto
-119,84,exact,,Prized Prospects · Auto
-120,89,exact,,Prized Prospects · Auto · Green /99
-121,107,exact,,Prized Prospects · Blue /150
+111,119,exact,,Chrome Prospect College Variations
+112,142,exact,,Chrome Prospect College Variations · Purple /250
+113,30,exact,,Chrome Prospect College Variations · Black /73
+114,73,exact,,Chrome Prospect College Variations · Gold /50
+115,67,exact,,Chrome Prospect College Variations · Orange /25
+116,20,exact,,Chrome Prospect College Variations · Red /5
+117,94,exact,,Chrome Prospect College Variations · Auto
+118,84,exact,,Prized Prospects · Auto
+119,89,exact,,Prized Prospects · Auto · Green /99
+120,107,exact,,Prized Prospects · Blue /150
 999,28,exact,,Bowman Draft Night · Auto · Gold /50 · Mini Diamond
 999,143,exact,,Bowman In Action · Blue /150
 999,140,exact,,Bowman In Action · Speckle /150
-122,102,exact,,Chrome · Auto · Fuchsia Reptilian · Wave /199
-123,46,exact,,Chrome · Printing Plate
-124,43,exact,,Chrome · Magenta Printing Plate
-125,41,exact,,Chrome · Black Printing Plate
-126,26,exact,,Chrome · Auto · Black Printing Plate
-128,19,exact,,Chrome · Auto · Yellow Printing Plate
-129,18,exact,,Chrome · Auto · Printing Plate
-130,15,exact,,Chrome · Yellow Printing Plate
+121,102,exact,,Chrome · Auto · Fuchsia Reptilian · Wave /199
+122,46,exact,,Chrome · Printing Plate
+123,43,exact,,Chrome · Magenta Printing Plate
+124,41,exact,,Chrome · Black Printing Plate
+125,26,exact,,Chrome · Auto · Black Printing Plate
+126,19,exact,,Chrome · Auto · Yellow Printing Plate
+127,18,exact,,Chrome · Auto · Printing Plate
+128,15,exact,,Chrome · Yellow Printing Plate
+129,104,exact,,Chrome · Sapphire
+130,139,exact,,Sapphire
