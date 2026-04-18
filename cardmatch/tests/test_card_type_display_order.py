@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import tempfile
 import unittest
@@ -9,6 +10,8 @@ from pathlib import Path
 
 from cardmatch.card_type_display_order import (
     DEFAULT_DISPLAY_ORDER_CSV,
+    DISPLAY_ORDER_WHEN_PAIRWISE_UNKNOWN,
+    dense_renumber_display_order_column,
     display_order_for_card_type,
     load_display_order_csv,
     load_merged_display_order,
@@ -20,6 +23,20 @@ from cardmatch.card_type_display_order import (
     resolve_display_order,
     should_omit_display_order_row,
 )
+from cardmatch.taxonomy import insert_line_card_type_collapsed_for_display
+
+
+class TestDenseRenumber(unittest.TestCase):
+    def test_dense_renumber_keeps_sentinel_and_error_types(self) -> None:
+        rows = [
+            {"display_order": 50, "card_type": "A"},
+            {"display_order": 999, "card_type": "Bowman In Action · Blue /150"},
+            {"display_order": 9, "card_type": "B"},
+        ]
+        dense_renumber_display_order_column(rows)
+        self.assertEqual(rows[0]["display_order"], 1)
+        self.assertEqual(rows[1]["display_order"], 999)
+        self.assertEqual(rows[2]["display_order"], 2)
 
 
 class TestPairwiseInvert(unittest.TestCase):
@@ -42,6 +59,16 @@ class TestCommittedCsv(unittest.TestCase):
         mx = max(m.values())
         self.assertGreater(mx, 10)
         self.assertEqual(m["Base-Paper"], 1)
+
+    def test_committed_csv_has_no_fallback_rank_match_rows(self) -> None:
+        p = Path(__file__).resolve().parents[1] / "card_type_display_order.csv"
+        with p.open(encoding="utf-8", newline="") as f:
+            for row in csv.DictReader(f):
+                self.assertNotEqual(
+                    (row.get("rank_match") or "").strip().lower(),
+                    "fallback",
+                    msg=f"Committed CSV should omit no-pairwise types: {row!r}",
+                )
 
     def test_serial_suffix_row_matches_parent_tier(self) -> None:
         p = Path(__file__).resolve().parents[1] / "card_type_display_order.csv"
@@ -89,8 +116,65 @@ class TestOmitBare(unittest.TestCase):
             )
         )
 
+    def test_omit_insert_line_exact_when_collapses_to_explicit(self) -> None:
+        """Omit exact pairwise rows that duplicate explicit insert ladder labels after collapse."""
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Prized Prospects /99", "exact", "Prized Prospects /99"
+            )
+        )
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Prized Prospects /99 · Auto", "exact", "Prized Prospects /99 · Auto"
+            )
+        )
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Prized Prospects /50", "exact", "Prized Prospects /50"
+            )
+        )
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Bowman Draft Night /99", "exact", "Bowman Draft Night /99"
+            )
+        )
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Bowman In Action /99", "exact", "Bowman In Action /99"
+            )
+        )
+        self.assertTrue(
+            should_omit_display_order_row(
+                "Bowman In Action /150", "exact", "Bowman In Action /150"
+            )
+        )
+        self.assertFalse(
+            should_omit_display_order_row(
+                "Prized Prospects · Green /99", "exact", "Prized Prospects · Green /99"
+            )
+        )
+        self.assertEqual(
+            insert_line_card_type_collapsed_for_display("Prized Prospects /250"),
+            "Prized Prospects · Purple /250",
+        )
+
 
 class TestResolveOmitted(unittest.TestCase):
+    def test_resolve_prized_prospects_bare_slash_n_maps_to_green_in_merged(self) -> None:
+        """Stale bare PP /N keys resolve via the same ladder label as taxonomy."""
+        m = {"Prized Prospects · Green /99": 17}
+        self.assertEqual(
+            resolve_display_order("Prized Prospects /99", m, pairwise_card_type_csv=None),
+            17,
+        )
+
+    def test_resolve_bowman_draft_night_bare_slash_99_maps_to_green_in_merged(self) -> None:
+        m = {"Bowman Draft Night · Green /99": 40}
+        self.assertEqual(
+            resolve_display_order("Bowman Draft Night /99", m, pairwise_card_type_csv=None),
+            40,
+        )
+
     def test_resolve_bare_matches_generic_tier(self) -> None:
         p = Path(__file__).resolve().parents[1] / "card_type_display_order.csv"
         m = load_display_order_csv(p)
@@ -107,6 +191,8 @@ class TestResolveOmitted(unittest.TestCase):
         )
         if "Bowman Draft Night /99" in m:
             self.assertEqual(r, m["Bowman Draft Night /99"])
+        elif "Bowman Draft Night · Green /99" in m:
+            self.assertEqual(r, m["Bowman Draft Night · Green /99"])
         else:
             self.assertEqual(r, m["Bowman Draft Night"])
 
@@ -159,6 +245,66 @@ class TestLookup(unittest.TestCase):
         self.assertEqual(
             display_order_for_card_type("unknown", {}, fallback=999),
             999,
+        )
+
+
+class TestPairwiseUnknownSentinel(unittest.TestCase):
+    def test_resolve_uses_999_when_no_pairwise_match(self) -> None:
+        pilot = (
+            Path(__file__).resolve().parents[2]
+            / "data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/bowman_pairwise_card_type_rankings_with_listings.csv"
+        )
+        if not pilot.is_file():
+            self.skipTest("pairwise CSV not present")
+        m = load_display_order_csv(DEFAULT_DISPLAY_ORDER_CSV)
+        r = resolve_display_order(
+            "__zz_nonexistent_card_type__",
+            m,
+            pairwise_card_type_csv=pilot,
+        )
+        self.assertEqual(r, DISPLAY_ORDER_WHEN_PAIRWISE_UNKNOWN)
+
+    def test_resolve_inferred_auto_matches_non_auto_display_order(self) -> None:
+        """``… · Auto`` tiers not in the CSV still resolve via pairwise inference (same rank as base)."""
+        pilot = (
+            Path(__file__).resolve().parents[2]
+            / "data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/bowman_pairwise_card_type_rankings_with_listings.csv"
+        )
+        if not pilot.is_file():
+            self.skipTest("pairwise CSV not present")
+        merged = load_merged_display_order()
+        auto_ct = "Prized Prospects · Auto · Red /5"
+        if auto_ct in merged:
+            self.skipTest("auto row present in merged map")
+        base = merged.get("Prized Prospects · Red /5")
+        if base is None:
+            self.skipTest("base red /5 not in display order CSV")
+        r = resolve_display_order(auto_ct, merged, pairwise_card_type_csv=pilot)
+        self.assertEqual(r, base)
+
+    def test_infer_missing_chrome_slash_three_auto(self) -> None:
+        pilot = (
+            Path(__file__).resolve().parents[2]
+            / "data/cardmatch_pilot/20260405_mcp_supabase_2025_bowman_draft_full/bowman_pairwise_card_type_rankings_with_listings.csv"
+        )
+        if not pilot.is_file():
+            self.skipTest("pairwise CSV not present")
+        merged = load_merged_display_order()
+        do = display_order_for_card_type(
+            "Chrome /3 · Auto",
+            merged,
+            infer_missing=True,
+            pairwise_card_type_csv=pilot,
+        )
+        self.assertIsInstance(do, int)
+        self.assertLess(do, DISPLAY_ORDER_WHEN_PAIRWISE_UNKNOWN)
+        self.assertEqual(
+            resolve_display_order(
+                "Chrome /3 · Auto", merged, pairwise_card_type_csv=pilot
+            ),
+            resolve_display_order(
+                "Chrome · Auto /3", merged, pairwise_card_type_csv=pilot
+            ),
         )
 
 

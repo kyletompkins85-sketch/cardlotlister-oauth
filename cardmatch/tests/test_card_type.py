@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
 import tempfile
 from pathlib import Path
 
 from cardmatch.card_type import (
     _listing_counts_by_card_type_sort_key,
+    legacy_primary_card_type,
     parse_axis_insert_number,
     row_is_graded_listing,
     row_primary_card_type,
@@ -143,7 +145,7 @@ class TestCardType(unittest.TestCase):
         }
         self.assertEqual(
             row_primary_card_type(r),
-            "Chrome · Blue /150 · Auto",
+            "Chrome · Auto · Blue /150",
         )
 
     def test_cpa_auto_serial_499_maps_sky_blue(self) -> None:
@@ -158,7 +160,7 @@ class TestCardType(unittest.TestCase):
         }
         self.assertEqual(
             row_primary_card_type(r),
-            "Chrome · Sky Blue /499 · Auto",
+            "Chrome · Auto · Sky Blue /499",
         )
 
     def test_lsu_in_title_is_college_variation_not_plain_cpa(self) -> None:
@@ -513,6 +515,79 @@ class TestCardType(unittest.TestCase):
         }
         self.assertEqual(row_primary_card_type(r), "Chrome · Green /99")
 
+    def test_prized_prospects_slash_99_infer_green_without_color_word(self) -> None:
+        """PP /99 is the green parallel; infer from serial when title omits *green* (same hobby ladder as Chrome)."""
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "Prized Prospects #PP-6 Billy Carlson 7/99 RC",
+        }
+        self.assertEqual(row_primary_card_type(r), "Prized Prospects · Green /99")
+
+    def test_prized_prospects_slash_99_auto_infer_green(self) -> None:
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "2025 Bowman Draft Kade Anderson Prized Prospects Auto 12/99 Mariners",
+        }
+        self.assertEqual(row_primary_card_type(r), "Prized Prospects · Auto · Green /99")
+
+    def test_prized_prospects_slash_50_infer_gold_without_color_word(self) -> None:
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "2025 Bowman Draft Prized Prospects #PP-1 Player 12/50 RC",
+        }
+        self.assertEqual(row_primary_card_type(r), "Prized Prospects · Gold /50")
+
+    def test_bowman_draft_night_slash_99_infer_green(self) -> None:
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "2025 Bowman Draft Night BDN-3 Player 7/99 Nationals",
+        }
+        self.assertEqual(row_primary_card_type(r), "Bowman Draft Night · Green /99")
+
+    def test_bowman_in_action_slash_99_infer_green(self) -> None:
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "2025 Bowman In Action BIA-1 Player 7/99 Nationals",
+        }
+        self.assertEqual(row_primary_card_type(r), "Bowman In Action · Green /99")
+
+    def test_bowman_in_action_slash_150_infer_mini_diamond(self) -> None:
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": "[]",
+            "title": "Bowman In Action Mini Diamond Refractor /150 Player RC",
+        }
+        self.assertEqual(row_primary_card_type(r), "Bowman In Action · Mini Diamond /150")
+
     def test_snack_pack_flag_over_reasons(self) -> None:
         r = {
             "pilot_is_snack_pack": "1",
@@ -643,6 +718,37 @@ class TestCardType(unittest.TestCase):
         }
         self.assertEqual(row_primary_card_type(r), "Chrome · Magenta Printing Plate")
 
+    def test_legacy_printing_plate_nb_auto_without_wf_auto_stays_non_auto(self) -> None:
+        """``nb_auto`` next to ``nb_printing_plate`` must not imply **Chrome · Auto** without ``WF_auto``."""
+        r = {
+            "pilot_is_snack_pack": "0",
+            "pilot_is_axis": "0",
+            "pilot_is_orange_border": "0",
+            "pilot_is_likely_chrome_base": "0",
+            "pilot_is_likely_base": "0",
+            "pilot_reason_codes": '["nb_auto", "nb_printing_plate"]',
+            "title": "dummy",
+        }
+        fake_flags = {
+            "WF_printing_plate": True,
+            "WF_auto": False,
+            "WF_lot": False,
+            "WF_pick": False,
+            "WF_set_builder": False,
+            "WF_complete_set": False,
+            "WF_presale": False,
+            "WF_snack_pack": False,
+            "WF_axis": False,
+            "WF_orange_border": False,
+            "WF_graded": False,
+        }
+        with (
+            patch("cardmatch.card_type.build_composite_card_type", return_value=None),
+            patch("cardmatch.card_type._flags_for_row", return_value=fake_flags),
+            patch("cardmatch.card_type._legacy_from_title_flags", return_value=None),
+        ):
+            self.assertEqual(legacy_primary_card_type(r), "Chrome · Printing Plate /1")
+
     def test_bdc_true_black_slash_10(self) -> None:
         r = {
             "pilot_is_snack_pack": "0",
@@ -708,14 +814,28 @@ class TestCardType(unittest.TestCase):
         self.assertEqual(parse_axis_insert_number("Axis A-3 Chrome"), 3)
         self.assertEqual(parse_axis_insert_number("no axis number"), 999999)
 
+    def test_relocate_trailing_auto_after_product_segment(self) -> None:
+        from cardmatch.taxonomy import relocate_trailing_auto_immediately_after_first_segment
+
+        self.assertEqual(
+            relocate_trailing_auto_immediately_after_first_segment(
+                "Chrome · Green /99 · Auto"
+            ),
+            "Chrome · Auto · Green /99",
+        )
+        self.assertEqual(
+            relocate_trailing_auto_immediately_after_first_segment("Chrome /10 · Auto"),
+            "Chrome · Auto /10",
+        )
+
     def test_finalize_bdc_aqua_parallel_family_collapses(self) -> None:
         self.assertEqual(
             finalize_bdc_composite_string("Chrome · Aqua Wave · Wave · Auto"),
-            "Chrome · Aqua /125 · Auto",
+            "Chrome · Auto · Aqua /125",
         )
         self.assertEqual(
             finalize_bdc_composite_string("Chrome · Aqua · Lava · Auto"),
-            "Chrome · Aqua /125 · Auto",
+            "Chrome · Auto · Aqua /125",
         )
         self.assertEqual(
             finalize_bdc_composite_string("Chrome · Aqua Reptilian"),
@@ -723,11 +843,11 @@ class TestCardType(unittest.TestCase):
         )
         self.assertEqual(
             finalize_bdc_composite_string("Chrome · Green · Lava · Auto"),
-            "Chrome · Green /99 · Auto",
+            "Chrome · Auto · Green /99",
         )
         self.assertEqual(
             finalize_bdc_composite_string("Chrome · Gold · Wave · Shimmer · Auto"),
-            "Chrome · Gold /50 · Auto",
+            "Chrome · Auto · Gold /50",
         )
 
     def test_listing_counts_exclude_lot_graded_pick_complete_set(self) -> None:
@@ -799,7 +919,7 @@ class TestCardType(unittest.TestCase):
     def test_listing_counts_by_card_type_sort_key(self) -> None:
         """Group → non-auto before auto → count descending."""
         items = [
-            ("Chrome · Refractor · Auto", 1),
+            ("Chrome · Auto · Refractor", 1),
             ("Chrome · Refractor", 2),
             ("Chrome · Green /99", 1),
             ("Bowman Axis · Base", 5),
@@ -811,7 +931,7 @@ class TestCardType(unittest.TestCase):
                 "Bowman Axis · Base",
                 "Chrome · Refractor",
                 "Chrome · Green /99",
-                "Chrome · Refractor · Auto",
+                "Chrome · Auto · Refractor",
             ],
         )
 

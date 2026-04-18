@@ -148,7 +148,7 @@ Eli Willits,10,Chrome · Base,#BDC-1 Eli Willits Chrome Mojo
 Eli Willits,10,Bowman In Action,Eli Willits #BIA-1 Refractor In Action Insert - Nationals
 Eli Willits,11,Chrome · Refractor,#BDC-1 Eli Willits Chrome Laser Refractor
 Eli Willits,11,Chrome · Refractor,#BDC-1 Eli Willits 1st Chrome Refractor Washington Nationals
-Eli Willits,11,Prized Prospects /250,Eli Willits Prized Prospects Refractor /250
+Eli Willits,11,Prized Prospects · Purple /250,Eli Willits Prized Prospects Refractor /250
 Eli Willits,12,Chrome · Refractor,Chrome Eli Willits #BDC-1 Laser Refractor - (RC)
 Eli Willits,12,Chrome · Refractor,Eli Willits Chrome Refractor Washington Nationals #BDC-1
 Eli Willits,12,Chrome · Refractor,Eli Willits Chrome Refractor #BDC-1 Nationals
@@ -169,7 +169,7 @@ Eli Willits,16,Chrome · Base,Eli Willits 1st Chrome Prospect Mega Box Mojo Nati
 Eli Willits,17,Chrome · Mini Diamond,Eli Willits 2025 Bowman’s Best RC Mini Diamond Refractor /299 Nationals
 Eli Willits,17,Chrome · Refractor,Eli Willits 1st Bowman Refractor #BDC-1 Washington Nats
 Eli Willits,17,Chrome · Refractor,Eli Willits 1st Bowman Refractor #BDC-1 Washington Nats
-Eli Willits,18,Prized Prospects /250,Eli Willits /250 Refractor Prized Prospects Nationals
+Eli Willits,18,Prized Prospects · Purple /250,Eli Willits /250 Refractor Prized Prospects Nationals
 Eli Willits,18,Prized Prospects · Mini Diamond /150,Eli Willits Prized Prospects Mini-Diamond Refractor /150 B1
 Eli Willits,18,Chrome · Base,Eli Willits 1st Chrome Prospect Mega Box Mojo Nationals 📈📈
 Eli Willits,18,Chrome · Base,ELI WILLITS 1st Bowman MOJO #BDC-1
@@ -202,7 +202,7 @@ Eli Willits,25,Chrome · X-Fractor,Eli Willits 1st Chrome X-Fractor Refractor #B
 Eli Willits,28,Chrome · X-Fractor,Eli Willits 1st Chrome X-Fractor Refractor #BDC-1 Nationals
 Eli Willits,33,Chrome · Sky Blue /499,Eli Willits Chrome Sky Blue Refractor 1st #BDC-1
 Eli Willits,33,Chrome · X-Fractor,Eli Willits 1st Chrome X-Fractor Refractor #BDC-1 Nationals
-Eli Willits,35,Prized Prospects /250,Eli Willits Prized Prospects Refractor 29/250 #PP-1 Nationals
+Eli Willits,35,Prized Prospects · Purple /250,Eli Willits Prized Prospects Refractor 29/250 #PP-1 Nationals
 Eli Willits,40,Chrome · X-Fractor,2025 Eli Willits Chrome Xfractor Nationals
 Eli Willits,40,Complete set,COMPLETE INSERT SET Set #A1-20 Insert Willits Parker Anderson
 Eli Willits,42,Chrome · Fuchsia Reptilian /199,Eli Willits #BDC-1 Fuchsia Reptilian Refractor /199 1st
@@ -277,7 +277,7 @@ Eli Willits,175,Bowman Draft Night · Gold /50,Eli Willits Draft Night Gold Refr
 Eli Willits,175,Bowman Draft Night · Gold /50,Eli Willits Draft Night Gold Refractor 36/50 Nationals #BDN-1
 Eli Willits,180,Chrome · Auto,Eli Willits Chrome Auto 1st Prospect #CPA-EW Nationals
 Eli Willits,181,Etched in Glass,Eli Willits Chrome Etched In Glass Variation 1st SSP #BDC-1
-Eli Willits,189,Chrome · Purple /250 · Auto,Eli Willits Achromatic Auto /250 Nationals
+Eli Willits,189,Chrome · Auto · Purple /250,Eli Willits Achromatic Auto /250 Nationals
 Eli Willits,189,Bowman Draft Night · Gold /50,Eli Willits Draft Night Gold Refractor 04/50 Nationals #BDN-1
 Eli Willits,190,Pick / set builder,Eli Willits Spotlights CASE HIT SSP #1 Draft Pick RC #BS-1
 Eli Willits,190,Chrome · Auto,"Chrome Prospect Autographs Eli Willits #CPA-EW (AU, RC)"
@@ -287,10 +287,10 @@ Eli Willits,195,Prized Prospects · Blue /150,Eli Willits PP-1 Blue Refractor /1
 Eli Willits,199,Etched in Glass,Eli Willits Etched In Glass 1st Bowman SSP Case Hit #BDC-1 Nat
 Eli Willits,200,Chrome · Orange /25,ELI WILLITS First Round Orange Refractor /25
 Eli Willits,200,Etched in Glass,Eli Willits Etched In Glass 1st Bowman SSP Case Hit #BDC-1 Nat
-Eli Willits,200,Bowman Draft Night /99 · Auto,#BDNA-EW Eli Willits Draft Night Auto /99
-Eli Willits,200,Chrome · Purple /250 · Auto,ELI WILLITS ACHROMATIC AUTO /250
+Eli Willits,200,Bowman Draft Night · Auto · Green /99,#BDNA-EW Eli Willits Draft Night Auto /99
+Eli Willits,200,Chrome · Auto · Purple /250,ELI WILLITS ACHROMATIC AUTO /250
 Eli Willits,200,Prized Prospects · Green /99,Draft Eli Willits Prized Prospects Green Refractor /99
-Eli Willits,200,Chrome · Green /99 · Auto,Eli Willits Bremner Dual Refractor Auto /99 PDA-WB
+Eli Willits,200,Chrome · Auto · Green /99,Eli Willits Bremner Dual Refractor Auto /99 PDA-WB
 Eli Willits,200,Chrome · Auto,"Eli Willits: , Chrome Prospects, 1st Bowman Autograph / #CPA-EW"
 Eli Willits,200,Chrome · Auto,Eli Willits Chrome Auto 1st #CPA-EW Nationals
 Eli Willits,200,Final Draft,Eli Willits Final Draft Case Hit SSP Insert #FD-11 Nationals
@@ -298,40 +298,40 @@ Eli Willits,202,Chrome · Gold /50,Sapphire Eli Willits Selections Gold Ref #SS-
 Eli Willits,215,Image Variations,ELI WILLITS SSP IMAGE VARIATION REFRACTOR BDC-1 Nationals
 Eli Willits,215,Chrome · Auto,#CPA-EW Eli Willits Chrome Prospect Autographs
 Eli Willits,220,Etched in Glass,Eli Willits Etched In Glass 1st Bowman SSP Case Hit #BDC-1 Nat
-Eli Willits,220,Chrome · Blue /150 · Auto,Eli Willits Auto /150 Blue Mojo Nationals
+Eli Willits,220,Chrome · Auto · Blue /150,Eli Willits Auto /150 Blue Mojo Nationals
 Eli Willits,225,Chrome · Auto,ELI WILLITS #CPA-EW 1st Bowman Auto - Nationals 🔥🔥🔥
 Eli Willits,225,Bowman Spotlight,🔌IU CHROME SPOTLIGHTS ELI WILLITS #BS-1 SSP
 Eli Willits,225,Chrome · Auto,Eli Willits Chrome Auto 1st #CPA-EW Nationals
-Eli Willits,230,Chrome · Purple /250 · Auto,#AA-EW Eli Willits Achromatic Autographs /250 Auto
-Eli Willits,235,Image Variations · Purple · Auto,Eli Willits ACHROMATIC AUTO Image Variation SP #/250 AS-EW
+Eli Willits,230,Chrome · Auto · Purple /250,#AA-EW Eli Willits Achromatic Autographs /250 Auto
+Eli Willits,235,Image Variations · Auto · Purple,Eli Willits ACHROMATIC AUTO Image Variation SP #/250 AS-EW
 Eli Willits,249,Chrome · Auto,Eli Willits Chrome Auto 1st Prospect #CPA-EW Nationals
-Eli Willits,250,Chrome · Purple /250 · Auto,Eli Willits Achromatic Auto /250 #AA-EW Nationals
+Eli Willits,250,Chrome · Auto · Purple /250,Eli Willits Achromatic Auto /250 #AA-EW Nationals
 Eli Willits,250,Chrome · Auto,Eli Willits Prospect 1st Bowman Auto Nationals #CPA-EW
-Eli Willits,250,Chrome · Purple /250 · Auto,Eli Willits Achromatic Auto /250
-Eli Willits,250,Chrome · Purple /250 · Auto,ELI WILLITS ACHROMATIC REFRACTOR AUTO /250
-Eli Willits,250,Chrome · Purple /250 · Auto,Achromatic Autographs Eli Willits #AA-EW /250
+Eli Willits,250,Chrome · Auto · Purple /250,Eli Willits Achromatic Auto /250
+Eli Willits,250,Chrome · Auto · Purple /250,ELI WILLITS ACHROMATIC REFRACTOR AUTO /250
+Eli Willits,250,Chrome · Auto · Purple /250,Achromatic Autographs Eli Willits #AA-EW /250
 Eli Willits,250,Chrome · Auto,#CPA-EW Eli Willits Chrome Prospect 1st Autographs
 Eli Willits,250,Etched in Glass,Eli Willits SSP 1st Bowman Etched In Glass Variation #BDC-1
 Eli Willits,250,Chrome · Auto,ELI WILLITS 1ST CHROME AUTO NATIONALS
-Eli Willits,255,Prized Prospects /99 · Auto,Prized Prospect Eli Willits Auto /99 Nationals
+Eli Willits,255,Prized Prospects · Auto · Green /99,Prized Prospect Eli Willits Auto /99 Nationals
 Eli Willits,269,Chrome · Auto,#CPA-EW Eli Willits Chrome Prospect Autographs
 Eli Willits,270,Chrome · Auto,🪶 Eli Willits 1st Bowman Auto 1st Prospect Nationals
-Eli Willits,275,Chrome · Purple /250 · Auto,Eli Willits Achromatic Autographs 25/250 #AA-EW Nationals
-Eli Willits,275,Chrome · Sky Blue /499 · Auto,Eli Willits 1st Chrome Refractor Auto/499 #CPA-EW SEE DETAIL
+Eli Willits,275,Chrome · Auto · Purple /250,Eli Willits Achromatic Autographs 25/250 #AA-EW Nationals
+Eli Willits,275,Chrome · Auto · Sky Blue /499,Eli Willits 1st Chrome Refractor Auto/499 #CPA-EW SEE DETAIL
 Eli Willits,275,Bowman Axis · Orange,Eli Willits Axis Insert Orange #11/25 Washington Nationals
 Eli Willits,275,Chrome · Auto,Eli Willits Chrome Auto 1st Bowman Washington Nationals
-Eli Willits,280,Chrome · Sky Blue /499 · Auto,Eli Willits 1st Chrome Refractor AUTO /499 #CPA-EW Nationals
+Eli Willits,280,Chrome · Auto · Sky Blue /499,Eli Willits 1st Chrome Refractor AUTO /499 #CPA-EW Nationals
 Eli Willits,280,Etched in Glass,Eli Willits SSP 1st Etched In Glass Variation Case Hit #BDC-1
 Eli Willits,299,Chrome · Auto,Eli Willits 1st Bowman Auto FRESH Nationals T1
 Eli Willits,300,Final Draft,2025 1st * Final Draft * Eli Willits SSP Case Hit Nationals FD-11
 Eli Willits,300,Chrome · Auto,Eli Willits Auto CPA-EW Nationals 1st First round Overall
 Eli Willits,300,Etched in Glass,Eli Willits SSP 1st Etched In Glass Variation Case Hit #BDC-1
-Eli Willits,300,Chrome · Sky Blue /499 · Auto,#CPA-EW Eli Willits 1st Bowman REFRACTOR AUTOGRAPH 310/499
+Eli Willits,300,Chrome · Auto · Sky Blue /499,#CPA-EW Eli Willits 1st Bowman REFRACTOR AUTOGRAPH 310/499
 Eli Willits,300,Chrome · Auto,2025 Topps Eli Willits 1st Bowman Autograph CPA-EW
 Eli Willits,306,Pick / set builder,'25 - Eli Willits Auto - #1 Overall Pick!!!
 Eli Willits,350,Pick / set builder,Baseball Eli Willits Gold 1st Paper /50 #1 Pick
-Eli Willits,350,Chrome · Purple /250 · Auto,2025 Bowman 1st Draft - Eli Willits Achromatic Auto 74 /250 #AA-EW RC Nationals
-Eli Willits,351,Bowman In Action /75 · Auto,Eli Willits Die Cut In Action Auto 08/75 Nationals
+Eli Willits,350,Chrome · Auto · Purple /250,2025 Bowman 1st Draft - Eli Willits Achromatic Auto 74 /250 #AA-EW RC Nationals
+Eli Willits,351,Bowman In Action · Auto · Yellow /75,Eli Willits Die Cut In Action Auto 08/75 Nationals
 Eli Willits,355,Crystallized · Gold /50,Eli Willits Crystallized Gold /50 SP - Washington Nationals
 Eli Willits,380,Etched in Glass,Eli Willits 1st Bowman Etched In Glass Case Hit Nats
 Eli Willits,385,Etched in Glass,Eli Willits Stained Glass Case Hit
@@ -342,61 +342,61 @@ Eli Willits,400,Chrome · Gold /50,Eli Willits 1st Gold Refractor /50 RC Nationa
 Eli Willits,400,Etched in Glass,2025 Eli Willits Chrome Etched In Glass Variations SSP #BDC-1
 Eli Willits,400,Pick / set builder,CPAEW Eli Willits /499 Refractor Auto DA1 #1 Draft Pick
 Eli Willits,400,Crystallized · Gold /50,Eli Willits Crystallized Chrome SP Gold Refractor #/50
-Eli Willits,420,Chrome · Sky Blue /499 · Auto,Prospect Auto 1st Bowman Eli Willits Refractor /499
+Eli Willits,420,Chrome · Auto · Sky Blue /499,Prospect Auto 1st Bowman Eli Willits Refractor /499
 Eli Willits,430,Chrome · Gold /50,1st Eli Willits Gold 05/50 #BD-1 Washington Nationals
-Eli Willits,450,Chrome · Green /99 · Auto,ELI WILLITS GREEN REFRACTOR ACHROMATIC AUTO RC /99 *DING*
+Eli Willits,450,Chrome · Auto · Green /99,ELI WILLITS GREEN REFRACTOR ACHROMATIC AUTO RC /99 *DING*
 Eli Willits,450,Etched in Glass,Eli Willits Etched In Glass 1st Bowman SSP Case Hit #BDC-1 Nat
-Eli Willits,450,Chrome · Sky Blue /499 · Auto,1st Eli Willits refractor auto /499 - Nationals
+Eli Willits,450,Chrome · Auto · Sky Blue /499,1st Eli Willits refractor auto /499 - Nationals
 Eli Willits,465,Chrome · Auto,Eli Willits Mega Box Mojo Parallel Auto Autograph 1st
-Eli Willits,475,Image Variations · Green · Auto,Eli Willits Nationals 1st Bowman AUTO Image Variation SP 21/99
+Eli Willits,475,Image Variations · Auto · Green,Eli Willits Nationals 1st Bowman AUTO Image Variation SP 21/99
 Eli Willits,480,Chrome · Auto,Eli Willits AUTO 1st Bowman Chrome #CPA-EW
-Eli Willits,499,Chrome · Sky Blue /499 · Auto,Eli Willits 1st Auto #CPA-EW Refractor /499
-Eli Willits,500,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto #35/99
-Eli Willits,500,Chrome · Purple /250 · Auto,Eli Willits 1st Bowman Purple Refractor Auto /250
-Eli Willits,500,Chrome · Green /99 · Auto,Sapphire ELI WILLITS CPA-EW 1st GREEN Autograph /99 Nationals
+Eli Willits,499,Chrome · Auto · Sky Blue /499,Eli Willits 1st Auto #CPA-EW Refractor /499
+Eli Willits,500,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto #35/99
+Eli Willits,500,Chrome · Auto · Purple /250,Eli Willits 1st Bowman Purple Refractor Auto /250
+Eli Willits,500,Chrome · Auto · Green /99,Sapphire ELI WILLITS CPA-EW 1st GREEN Autograph /99 Nationals
 Eli Willits,500,Bowman Spotlight,Eli Willits Spotlight SSP Refractor
-Eli Willits,575,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Green Lava Auto /99
-Eli Willits,590,Chrome · Fuchsia Reptilian /199 · Auto,Eli Willits Aqua Lava Auto 032/199 RC Nationals
-Eli Willits,599,Chrome · Sky Blue /499 · Auto,Eli Willits 1st Prospect Refractor Auto #/499 Nationals
-Eli Willits,600,Chrome · Sky Blue /499 · Auto,Eli Willits #CPA-EW Refractor Auto /499
+Eli Willits,575,Chrome · Auto · Green /99,#CPA-EW Eli Willits Green Lava Auto /99
+Eli Willits,590,Chrome · Auto · Fuchsia Reptilian /199,Eli Willits Aqua Lava Auto 032/199 RC Nationals
+Eli Willits,599,Chrome · Auto · Sky Blue /499,Eli Willits 1st Prospect Refractor Auto #/499 Nationals
+Eli Willits,600,Chrome · Auto · Sky Blue /499,Eli Willits #CPA-EW Refractor Auto /499
 Eli Willits,625,Chrome · Auto,Chrome Prospect Autographs Eli Willits #CPA-EW Refractor...
-Eli Willits,645,Chrome · Green /99 · Auto,ELI WILLITS SAPPHIRE 1ST GREEN AUTO /99 💎
-Eli Willits,675,Chrome · Blue /150 · Auto,Eli Willits Auto HTA Choice /150
-Eli Willits,765,Chrome · Blue /150 · Auto,Eli Willits Chrome Auto Blue Wave /150 Nationals Top Prospect
+Eli Willits,645,Chrome · Auto · Green /99,ELI WILLITS SAPPHIRE 1ST GREEN AUTO /99 💎
+Eli Willits,675,Chrome · Auto · Blue /150,Eli Willits Auto HTA Choice /150
+Eli Willits,765,Chrome · Auto · Blue /150,Eli Willits Chrome Auto Blue Wave /150 Nationals Top Prospect
 Eli Willits,800,Pick / set builder,Eli Willits Purple Refractor Auto /250 Nationals Chase Pick
 Eli Willits,865,Crystallized · Orange /25,💎 Eli Willits Crystallized Orange /25 Case Hit SSP
-Eli Willits,870,Chrome · Blue /150 · Auto,Blue Eli Willits auto /150
-Eli Willits,975,Bowman Draft Night · Gold /50 · Mini Diamond · Auto,Eli Willits Draft Night Gold Mini Diamond Refractor Auto /50
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1000,Chrome · Green /99 · Auto,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1035,Chrome · Green /99 · Auto,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1200,Chrome · Green /99 · Auto,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
-Eli Willits,1250,Bowman Draft Night · Gold /50 · Mini Diamond · Auto,Eli Willits Draft Night Gold Mini Diamond Refractor Auto /50
-Eli Willits,1500,Chrome · Sky Blue /499 · Auto,ELI WILLITS 1ST AUTO REFRACTOR /499 BOLD CENTERED AUTO
-Eli Willits,1700,Chrome · Yellow /75 · Auto,Eli Willits Yellow Refractor Auto /75 CPA-EW 1st Chrome Clean
-Eli Willits,1800,Chrome · Gold /50 · Auto,ELI WILLITS /50 GOLD 1ST AUTO ON CARD AUTOGRAPH CPAEW 1
-Eli Willits,2400,Chrome · Gold /50 · Auto,Eli Willits Chrome Prospect 1st Gold Wave Auto /50 CPA-EW Nats
-Eli Willits,2800,Chrome · Gold /50 · Auto,1st Chrome GOLD WAVE REFRACTOR AUTO/50 Eli Willits Nationals
-Eli Willits,3450,Chrome · Orange /25 · Auto,1st Eli Willits Auto /25 Orange Wave Refractor Nationals
+Eli Willits,870,Chrome · Auto · Blue /150,Blue Eli Willits auto /150
+Eli Willits,975,Bowman Draft Night · Auto · Gold /50 · Mini Diamond,Eli Willits Draft Night Gold Mini Diamond Refractor Auto /50
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1000,Chrome · Auto · Green /99,Eli Willits 1st Chrome Green Refractor Auto 01/99 #CPA-EW
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1035,Chrome · Auto · Green /99,#CPA-EW Eli Willits Chrome 1st Auto Green Refractor #/99
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1200,Chrome · Auto · Green /99,Eli Willits 1st Bowman Green Refractor Auto /99 #CPA-EW
+Eli Willits,1250,Bowman Draft Night · Auto · Gold /50 · Mini Diamond,Eli Willits Draft Night Gold Mini Diamond Refractor Auto /50
+Eli Willits,1500,Chrome · Auto · Sky Blue /499,ELI WILLITS 1ST AUTO REFRACTOR /499 BOLD CENTERED AUTO
+Eli Willits,1700,Chrome · Auto · Yellow /75,Eli Willits Yellow Refractor Auto /75 CPA-EW 1st Chrome Clean
+Eli Willits,1800,Chrome · Auto · Gold /50,ELI WILLITS /50 GOLD 1ST AUTO ON CARD AUTOGRAPH CPAEW 1
+Eli Willits,2400,Chrome · Auto · Gold /50,Eli Willits Chrome Prospect 1st Gold Wave Auto /50 CPA-EW Nats
+Eli Willits,2800,Chrome · Auto · Gold /50,1st Chrome GOLD WAVE REFRACTOR AUTO/50 Eli Willits Nationals
+Eli Willits,3450,Chrome · Auto · Orange /25,1st Eli Willits Auto /25 Orange Wave Refractor Nationals
 Xavier Neyens,1,Chrome · Base,Xavier Neyens BDC-2 1st Bowman Astros
 Xavier Neyens,1,Base-Paper,Xavier Neyens #BD-2 1st Bowman RC
 Xavier Neyens,1,Bowman Draft Night,Night Xavier Neyens Astros
@@ -473,7 +473,7 @@ Xavier Neyens,8,Chrome · Sky Blue /499,#BDC-2 Xavier Neyens Chrome Sky Blue Ref
 Xavier Neyens,8,Chrome · Refractor,Xavier Neyens 1st Chrome Refractor #BDC-2 Houston Astros
 Xavier Neyens,8,Chrome · Sky Blue /499,#BDC-2 Xavier Neyens Chrome Sky Blue Refractor
 Xavier Neyens,8,Chrome · Sapphire,Sapphire Xavier Neyens 1st Prospects #BDC-2 Astros
-Xavier Neyens,8,Bowman In Action /199,In Action Xavier Neyens #BIA-14 Pink Mega Refractor /199
+Xavier Neyens,8,Bowman In Action · Fuchsia Reptilian /199,In Action Xavier Neyens #BIA-14 Pink Mega Refractor /199
 Xavier Neyens,9,Chrome · Sky Blue /499,Xavier Neyens Sky Blue Border 1st Prospect #/499 Paper Astros
 Xavier Neyens,9,Chrome · Sapphire,#BDC-2 Xavier Neyens Sapphire
 Xavier Neyens,10,Bowman In Action · Mini Diamond /150,XAVIER NEYENS In Action Mini Diamond Die-Cut Insert #036/150
@@ -514,54 +514,54 @@ Xavier Neyens,50,Chrome · Auto,Xavier Neyens HOU Astros CPA-XN Rookie Auto
 Xavier Neyens,50,Chrome · Auto,1st Xavier Neyens Auto
 Xavier Neyens,55,Bowman In Action · Orange /25,In Action Orange Refractor Xavier Neyens 22/25 COLOR MATCH
 Xavier Neyens,55,Chrome · Auto,Xavier Neyens - 1st Bowman Auto #CPA-XN Rookie Astros
-Xavier Neyens,55,Chrome · Green /99 · Auto,Achromatic Autograph Xavier Neyens #AA-XN Green /99
-Xavier Neyens,55,Chrome · Purple /250 · Auto,#AA-XN Xavier Neyens Achromatic Auto /250 - Astros
+Xavier Neyens,55,Chrome · Auto · Green /99,Achromatic Autograph Xavier Neyens #AA-XN Green /99
+Xavier Neyens,55,Chrome · Auto · Purple /250,#AA-XN Xavier Neyens Achromatic Auto /250 - Astros
 Xavier Neyens,55,Chrome · Auto,Xavier Neyens Chrome Auto 1st Prospect #CPA-XN Astros
 Xavier Neyens,59,Chrome · Steel Metal /100,Xavier Neyens #BDC-2 Chrome Steel Metal Refractor #/100 🔥
 Xavier Neyens,60,Chrome · Auto,Xavier Neyens 1st Chrome Auto #CPA-XN Houston Astros
 Xavier Neyens,60,Chrome · Auto,Autograph #CPA-XN Xavier Neyens RC Auto
 Xavier Neyens,65,Chrome · Yellow /75,Xavier Neyens 1st Bowman Yellow Reptilian /75 Astros
-Xavier Neyens,65,Chrome · Purple /250 · Auto,Achromatic Refractor Xavier Neyens Auto 016/250 RC SP Astros
+Xavier Neyens,65,Chrome · Auto · Purple /250,Achromatic Refractor Xavier Neyens Auto 016/250 RC SP Astros
 Xavier Neyens,65,Chrome · Gold /50,Sapphire Selections Gold Ref Xavier Neyens 18/50 RC SP
-Xavier Neyens,65,Chrome · Fuchsia Reptilian /199 · Auto,XAVIER NEYENS Mega 1ST Purple Mojo Auto /199! Astros!
-Xavier Neyens,65,Chrome · Fuchsia Reptilian /199 · Auto,#BMA-XM Xavier Neyens RC 1st Auto Purple Mojo /199
+Xavier Neyens,65,Chrome · Auto · Fuchsia Reptilian /199,XAVIER NEYENS Mega 1ST Purple Mojo Auto /199! Astros!
+Xavier Neyens,65,Chrome · Auto · Fuchsia Reptilian /199,#BMA-XM Xavier Neyens RC 1st Auto Purple Mojo /199
 Xavier Neyens,65,Chrome · Auto,Autograph #CPA-XN Xavier Neyens RC Auto
 Xavier Neyens,74,Etched in Glass,Xavier Neyens - #BDC-2 Etched in Glass RC PACK FRESH
 Xavier Neyens,75,Chrome · Auto,Xavier Neyens Rookie Auto
 Xavier Neyens,75,Etched in Glass,XAVIER NEYENS | | Etched In Glass
-Xavier Neyens,75,Chrome · Fuchsia Reptilian /199 · Auto,#BMA-XM Xavier Neyens RC 1st Auto Purple Mojo /199
+Xavier Neyens,75,Chrome · Auto · Fuchsia Reptilian /199,#BMA-XM Xavier Neyens RC 1st Auto Purple Mojo /199
 Xavier Neyens,75,Chrome · Blue /150,#BDC-2 Xavier Neyens Chrome Blue Geometric #/150 SN
-Xavier Neyens,80,Bowman Draft Night /99 · Auto,Xavier Neyens SP Refractor Night Auto /99 Astros
-Xavier Neyens,85,Chrome · Blue /150 · Auto,Xavier Neyens Blue Mojo Auto /150 #BMA-XN
+Xavier Neyens,80,Bowman Draft Night · Auto · Green /99,Xavier Neyens SP Refractor Night Auto /99 Astros
+Xavier Neyens,85,Chrome · Auto · Blue /150,Xavier Neyens Blue Mojo Auto /150 #BMA-XN
 Xavier Neyens,90,Etched in Glass,Xavier Neyens Etched In Class SSP Astros 1ST PROSPECT🔥
-Xavier Neyens,90,Bowman In Action /99,2025 Topps Bowman in Action Xavier Neyens Astros #BIA-14 83/99
+Xavier Neyens,90,Bowman In Action · Green /99,2025 Topps Bowman in Action Xavier Neyens Astros #BIA-14 83/99
 Xavier Neyens,120,Chrome · Orange /25,Xavier Neyens Astros 1st Bowman Orange Mojo Refractor 4/25
-Xavier Neyens,125,Chrome · Sky Blue /499 · Auto,Xavier Neyens 1st Chrome Prospect Refractor Auto /499 #CPA-XN
-Xavier Neyens,130,Chrome · Blue /150 · Auto,🔥 Xavier Neyens Blue Mojo Auto 084/150🔥
-Xavier Neyens,130,Chrome · Sky Blue /499 · Auto,Autographs Refractors Xavier Neyens 1st Auto 410/499
+Xavier Neyens,125,Chrome · Auto · Sky Blue /499,Xavier Neyens 1st Chrome Prospect Refractor Auto /499 #CPA-XN
+Xavier Neyens,130,Chrome · Auto · Blue /150,🔥 Xavier Neyens Blue Mojo Auto 084/150🔥
+Xavier Neyens,130,Chrome · Auto · Sky Blue /499,Autographs Refractors Xavier Neyens 1st Auto 410/499
 Xavier Neyens,135,Bowman Axis · Red,Xavier Neyens Axis Insert Red Refractor /5
-Xavier Neyens,160,Chrome · Purple /250 · Auto,Xavier Neyens Chrome Auto Purple Refractor 1st #/250 Astros
-Xavier Neyens,175,Chrome · Purple /250 · Auto,Xavier Neyens 1st Bowman Purple Auto /250 STUD!!
-Xavier Neyens,180,Chrome · Sky Blue /499 · Auto,Topps Refractor Auto /499 Xavier Neyens Astros
-Xavier Neyens,185,Chrome · Blue /150 · Auto,Astros Xavier Neyens Blue Wave 1st Bowman On Card Auto /150
-Xavier Neyens,200,Chrome · Aqua /125 · Auto,Xavier Neyens HOU Astros CPA-XN Aqua Lava /199 Rookie Auto
-Xavier Neyens,200,Chrome · Blue /150 · Auto,Xavier Neyens HOU Astros CPA-XN Blue Wave /150 Rookie Auto
-Xavier Neyens,225,Chrome · Purple /250 · Auto,Xavier Neyens CPA-XN 1st Chrome Purple Refractor Auto /250
-Xavier Neyens,239,Chrome · Green /99 · Auto,XAVIER NEYENS Green Lava Refractor RC Auto /99
+Xavier Neyens,160,Chrome · Auto · Purple /250,Xavier Neyens Chrome Auto Purple Refractor 1st #/250 Astros
+Xavier Neyens,175,Chrome · Auto · Purple /250,Xavier Neyens 1st Bowman Purple Auto /250 STUD!!
+Xavier Neyens,180,Chrome · Auto · Sky Blue /499,Topps Refractor Auto /499 Xavier Neyens Astros
+Xavier Neyens,185,Chrome · Auto · Blue /150,Astros Xavier Neyens Blue Wave 1st Bowman On Card Auto /150
+Xavier Neyens,200,Chrome · Auto · Aqua /125,Xavier Neyens HOU Astros CPA-XN Aqua Lava /199 Rookie Auto
+Xavier Neyens,200,Chrome · Auto · Blue /150,Xavier Neyens HOU Astros CPA-XN Blue Wave /150 Rookie Auto
+Xavier Neyens,225,Chrome · Auto · Purple /250,Xavier Neyens CPA-XN 1st Chrome Purple Refractor Auto /250
+Xavier Neyens,239,Chrome · Auto · Green /99,XAVIER NEYENS Green Lava Refractor RC Auto /99
 Xavier Neyens,250,Chrome · Sapphire,Xavier Neyens ORANGE Sapphire Refractor 04/25
-Xavier Neyens,250,Chrome · Sky Blue /499 · Auto,Xavier Neyens Refractor Auto /499 - QTY
-Xavier Neyens,250,Chrome · Green /99 · Auto,Topps Green Refractor Auto /99 Xavier Neyens Astros
-Xavier Neyens,295,Chrome · Fuchsia Reptilian /199 · Auto,Xavier Neyens Sapphire Auto 108/199 - Astros
-Xavier Neyens,330,Chrome · Green /99 · Auto,#CPA-XN Xavier Neyens Chrome Prospect Auto Green Sapphire /99
-Xavier Neyens,350,Chrome · Green /99 · Auto,Xavier Neyens Green Lava Refractor Auto 78/99 - Astros
-Xavier Neyens,350,Chrome · Blue /150 · Auto,Mega On Card Auto Xavier Neyens Mojo Blue 128/150 BMA-XN
-Xavier Neyens,475,Chrome · Yellow /75 · Auto,Xavier Neyens Yellow Refractor Auto 48/75 - Astros
-Xavier Neyens,550,Chrome · Blue /150 · Auto,Xavier Neyens 1st True Blue /150 AUTO Astros Prospect
-Xavier Neyens,560,Chrome · Gold /50 · Auto,Xavier Neyens 1st Chrome Gold Wave Refractor Auto /50! #CPA-XN
-Xavier Neyens,795,Chrome · Gold /50 · Auto,Xavier Neyens 1st Bowman Gold Shimmer Refractor Auto /50
+Xavier Neyens,250,Chrome · Auto · Sky Blue /499,Xavier Neyens Refractor Auto /499 - QTY
+Xavier Neyens,250,Chrome · Auto · Green /99,Topps Green Refractor Auto /99 Xavier Neyens Astros
+Xavier Neyens,295,Chrome · Auto · Fuchsia Reptilian /199,Xavier Neyens Sapphire Auto 108/199 - Astros
+Xavier Neyens,330,Chrome · Auto · Green /99,#CPA-XN Xavier Neyens Chrome Prospect Auto Green Sapphire /99
+Xavier Neyens,350,Chrome · Auto · Green /99,Xavier Neyens Green Lava Refractor Auto 78/99 - Astros
+Xavier Neyens,350,Chrome · Auto · Blue /150,Mega On Card Auto Xavier Neyens Mojo Blue 128/150 BMA-XN
+Xavier Neyens,475,Chrome · Auto · Yellow /75,Xavier Neyens Yellow Refractor Auto 48/75 - Astros
+Xavier Neyens,550,Chrome · Auto · Blue /150,Xavier Neyens 1st True Blue /150 AUTO Astros Prospect
+Xavier Neyens,560,Chrome · Auto · Gold /50,Xavier Neyens 1st Chrome Gold Wave Refractor Auto /50! #CPA-XN
+Xavier Neyens,795,Chrome · Auto · Gold /50,Xavier Neyens 1st Bowman Gold Shimmer Refractor Auto /50
 Xavier Neyens,1300,Snack-Pack,PROSPECT AUTO POPCORN #CPA-XN XAVIER NEYENS 4/5
 Xavier Neyens,2000,Base-Paper · Black Border,Xavier Neyens 1st Prospect #BD-2 RC Black Border #D 1/1 Astros
-Xavier Neyens,4500,Chrome · Black /73 · Auto,Xavier Neyens 1st Bowman RC Black Refractor Auto #CPA-XN /10
+Xavier Neyens,4500,Chrome · Auto · Black /73,Xavier Neyens 1st Bowman RC Black Refractor Auto #CPA-XN /10
 Kade Anderson,1,Pick / set builder,⚾(pick) Seattle Mariners (Kade Anderson)🔵⚫
 Kade Anderson,1,Prized Prospects,#PP-15 Kade Anderson Prized Prospects Seattle Mariners
 Kade Anderson,1,Prized Prospects,Kade Anderson #PP-15 Chrome Prized Prospects Mariners
@@ -646,7 +646,7 @@ Kade Anderson,7,Chrome · Refractor,Chrome Kade Anderson #BDC-3 Mojo Refractor (
 Kade Anderson,7,Chrome · Refractor,Kade Anderson #BDC-3 1st Bowman Mojo Refractor
 Kade Anderson,7,Chrome · Refractor,Kade Anderson 1st Refractor #BDC-3 Mariners
 Kade Anderson,7,Chrome · Refractor,#BDC-3 Kade Anderson (1st) Mojo Refractor
-Kade Anderson,8,Bowman Draft Night /250,Night Kade Anderson #BDN-3 Refractor /250 (RC)
+Kade Anderson,8,Bowman Draft Night · Purple /250,Night Kade Anderson #BDN-3 Refractor /250 (RC)
 Kade Anderson,8,Chrome · Refractor,Kade Anderson 1st Mojo Refractor #BDC-3
 Kade Anderson,8,Chrome · Refractor,Kade Anderson - Mariners: Refractor Mariners
 Kade Anderson,8,Chrome · Base,Kade Anderson #BDC-3 Chrome 1st Mariners
@@ -661,15 +661,15 @@ Kade Anderson,10,Chrome · Refractor,Kade Anderson 1st Bowman Chrome Refractor #
 Kade Anderson,10,Chrome · Refractor,Kade Anderson - Refractor - 1st Bowman #BDC-3
 Kade Anderson,10,Bowman In Action,"KADE ANDERSON #BIA-8 MOJO REFRACTOR ""IN ACTION"""
 Kade Anderson,10,Chrome · Purple /250,2025 Bowman's Best Kade Anderson Purple Mojo /250
-Kade Anderson,10,Prized Prospects /250,Prized Prospects Kade Anderson #PP-15 Refractor /250 (RC)
+Kade Anderson,10,Prized Prospects · Purple /250,Prized Prospects Kade Anderson #PP-15 Refractor /250 (RC)
 Kade Anderson,12,Chrome · Refractor,Kade Anderson 1st Bowman Mojo Refractor #BDC-3
 Kade Anderson,12,Chrome · Refractor,Chrome Kade Anderson #BDC-3 Refractor (RC) Seattle Mariners
 Kade Anderson,12,Chrome · Refractor,Chrome Kade Anderson #BDC-3 Lazer Refractor (RC)
 Kade Anderson,13,Prized Prospects · Mini Diamond /150,#PP-15 Kade Anderson Prized Prospects Mini-Diamond /150
-Kade Anderson,13,Prized Prospects /199,KADE ANDERSON #PP-15 Prized Prospects PINK Mojo /199 Mariners
+Kade Anderson,13,Prized Prospects · Fuchsia Reptilian /199,KADE ANDERSON #PP-15 Prized Prospects PINK Mojo /199 Mariners
 Kade Anderson,14,Chrome · Refractor,Kade Anderson 1st Bowman Laser Refractor #BDC-3
 Kade Anderson,14,Chrome · Refractor,Kade Anderson 1st Bowman Refractor (2)
-Kade Anderson,15,Prized Prospects /199,Mega Kade Anderson Prized Prospects Pink Refractor /199
+Kade Anderson,15,Prized Prospects · Fuchsia Reptilian /199,Mega Kade Anderson Prized Prospects Pink Refractor /199
 Kade Anderson,15,Chrome · Refractor,1st KADE ANDERSON Chrome Refractor #BDC-3
 Kade Anderson,15,Chrome · Refractor,Kade Anderson BDC-3 1st Refractor Mariners
 Kade Anderson,17,Chrome · Refractor,KADE ANDERSON #BDC-3 1st Bowman Refractor - Mariners 🔥
@@ -677,7 +677,7 @@ Kade Anderson,19,Chrome · Sky Blue /499,Kade Anderson #BD-3 1st Bowman Sky Blue
 Kade Anderson,19,Chrome · X-Fractor,Chrome 1st Kade Anderson X-Fractor #BDC-3 Seattle Mariners
 Kade Anderson,20,Prized Prospects · Purple /250,KADE ANDERSON PRIZED PROSPECTS Purple /250 Insert Mariners
 Kade Anderson,20,Chrome · Refractor,Lazer Refractor KADE ANDERSON #BDC-3 Mariners 1st
-Kade Anderson,20,Bowman Draft Night /250,Kade Anderson Draft Night Refractor 199/250 Mariners #BDN-3
+Kade Anderson,20,Bowman Draft Night · Purple /250,Kade Anderson Draft Night Refractor 199/250 Mariners #BDN-3
 Kade Anderson,20,Chrome · X-Fractor,Kade Anderson X-Fractor 1st #BDC-3 Rookie RC
 Kade Anderson,22,Bowman In Action · Mini Diamond /150,KADE ANDERSON IN ACTION MINI DIAMOND DIE CUT 014/150 Mariners
 Kade Anderson,25,Bowman In Action · Green /99,Kade Anderson #BIA-8 - In Action - Green Mojo /99
@@ -717,14 +717,14 @@ Kade Anderson,115,Prized Prospects · Gold /50,Kade Anderson #PP-15 Prized Prosp
 Kade Anderson,115,Chrome · Auto,1st Base Auto Kade Anderson Mariners #CPA-KA
 Kade Anderson,116,Sapphire,Sapphire Edition Kade Anderson Gold
 Kade Anderson,119,Chrome · Auto,Mega Box Chrome Prospect Autographs Kade Anderson #BMA-KA.
-Kade Anderson,125,Bowman In Action /150,Kade Anderson In Action Insert /150 Mariners BIA-8
-Kade Anderson,135,Prized Prospects /99 · Auto,Kade Anderson Prized Prospect Auto #/99 PPA-KA Mariners
-Kade Anderson,140,Chrome · Purple /250 · Auto,Purple Mojo Refractor Autograph /199 Kade Anderson Mariners
-Kade Anderson,148,Chrome · Green /99 · Auto,Kade Anderson Achromatic Auto GREEN /99!🔥Mariners
+Kade Anderson,125,Bowman In Action · Mini Diamond /150,Kade Anderson In Action Insert /150 Mariners BIA-8
+Kade Anderson,135,Prized Prospects · Auto · Green /99,Kade Anderson Prized Prospect Auto #/99 PPA-KA Mariners
+Kade Anderson,140,Chrome · Auto · Purple /250,Purple Mojo Refractor Autograph /199 Kade Anderson Mariners
+Kade Anderson,148,Chrome · Auto · Green /99,Kade Anderson Achromatic Auto GREEN /99!🔥Mariners
 Kade Anderson,150,Prized Prospects · Orange /25,Mega Kade Anderson Prized Prospects Orange Mojo /25
 Kade Anderson,150,Sapphire,Sapphire 1st Kade Anderson Rookie RC Sapphire Selections
 Kade Anderson,150,Chrome · Auto,Kade Anderson Chrome Auto 1st Prospect #CPA-KA Mariners
-Kade Anderson,160,Chrome · Green /99 · Auto,#AA-KA Green Achromatic Autograph Kade Anderson /99
+Kade Anderson,160,Chrome · Auto · Green /99,#AA-KA Green Achromatic Autograph Kade Anderson /99
 Kade Anderson,165,Image Variations,Kade Anderson College Image Variation Mariners LSU
 Kade Anderson,175,Image Variations,Kade Anderson College Image Variation Mariners #BDC-3
 Kade Anderson,175,Chrome · Green /99,Kade Anderson Achromatic Green /99
@@ -734,31 +734,31 @@ Kade Anderson,199,Chrome Prospect College Variations,Kade Anderson LSU College V
 Kade Anderson,199,Image Variations,Kade Anderson College Image Variation Mariners LSU #BDC-3
 Kade Anderson,199,Chrome · Sapphire,Sapphire Kade Anderson /50 gold refractor 1st
 Kade Anderson,200,Chrome · Orange /25,Kade Anderson 1st Bowman Orange Parallel /25 BD-3
-Kade Anderson,225,Chrome · Sky Blue /499 · Auto,Kade Anderson Refractor /499 1st Auto Mariners
+Kade Anderson,225,Chrome · Auto · Sky Blue /499,Kade Anderson Refractor /499 1st Auto Mariners
 Kade Anderson,245,Image Variations,Kade Anderson- College Image Variation #BDC-3 🔥
 Kade Anderson,250,Bowman Spotlight,Kade Anderson Spotlight SSP Mariners
-Kade Anderson,250,Chrome · Blue /150 · Auto,Kade Anderson Blue Mojo Auto #BMA-KA 86/150 + PP Mojo
-Kade Anderson,275,Chrome · Sky Blue /499 · Auto,Kade Anderson 1st Bowman Chrome AUTO REFRACTOR #463/499 Mint
+Kade Anderson,250,Chrome · Auto · Blue /150,Kade Anderson Blue Mojo Auto #BMA-KA 86/150 + PP Mojo
+Kade Anderson,275,Chrome · Auto · Sky Blue /499,Kade Anderson 1st Bowman Chrome AUTO REFRACTOR #463/499 Mint
 Kade Anderson,290,Chrome · Orange /25,Kade Anderson 1st Bowman Orange Parallel /25 BD-3
 Kade Anderson,300,Image Variations · Auto,KADE ANDERSON IMAGE VARIATION AUTO 03/99 SP MARINERS
-Kade Anderson,320,Bowman Draft Night · Orange /25 · Auto,Kade Anderson Draft Night Auto Orange /25 #BDNA-KA Mariners
+Kade Anderson,320,Bowman Draft Night · Auto · Orange /25,Kade Anderson Draft Night Auto Orange /25 #BDNA-KA Mariners
 Kade Anderson,325,Chrome · Gold /50,Sapphire 1st Kade Anderson RC Gold Sapphire /50 Mariners
-Kade Anderson,350,Chrome · Fuchsia Reptilian /199 · Auto,Sapphire Kade Anderson Rookie RC Auto /199 Seattle Mariners
-Kade Anderson,400,Chrome · Aqua /125 · Auto,Chrome Prospect Auto Kade Anderson Aqua Colormatch /199!
-Kade Anderson,449,Chrome · Gold /50 · Auto,Kade Anderson Gold Achromatic Auto 50/50 #AA-KA Mariners SP
-Kade Anderson,450,Chrome · Green /99 · Auto,Kade Anderson 1st AUTO Green Lava Refractor #D 40/99
-Kade Anderson,500,Chrome · Green /99 · Auto,1st Kade Anderson Green 88/99 IP Auto #BDC-3
+Kade Anderson,350,Chrome · Auto · Fuchsia Reptilian /199,Sapphire Kade Anderson Rookie RC Auto /199 Seattle Mariners
+Kade Anderson,400,Chrome · Auto · Aqua /125,Chrome Prospect Auto Kade Anderson Aqua Colormatch /199!
+Kade Anderson,449,Chrome · Auto · Gold /50,Kade Anderson Gold Achromatic Auto 50/50 #AA-KA Mariners SP
+Kade Anderson,450,Chrome · Auto · Green /99,Kade Anderson 1st AUTO Green Lava Refractor #D 40/99
+Kade Anderson,500,Chrome · Auto · Green /99,1st Kade Anderson Green 88/99 IP Auto #BDC-3
 Kade Anderson,550,Chrome · Auto,Chrome Prospect Autographs Kade Anderson #CPA-KA Blue...
-Kade Anderson,795,Chrome · Orange /25 · Auto,Mega Kade Anderson Auto Orange 17/25 Seattle Mariners
-Kade Anderson,1750,Chrome · Gold /50 · Auto,Sapphire 1st Kade Anderson Rookie RC Gold Auto /50 Mariners
+Kade Anderson,795,Chrome · Auto · Orange /25,Mega Kade Anderson Auto Orange 17/25 Seattle Mariners
+Kade Anderson,1750,Chrome · Auto · Gold /50,Sapphire 1st Kade Anderson Rookie RC Gold Auto /50 Mariners
 Kade Anderson,2999,Chrome · Red /5,Kade Anderson Red Wave Refractor/5 SSP Mariners Prospect
-Kade Anderson,3200,Chrome · Orange /25 · Auto,Kade Anderson 1st Orange Wave Refractor Auto 13/25 Seattle
-Kade Anderson,24999,Chrome · Parallel · Auto,🔥 Kade Anderson Ping Pong Ball Auto 1/1 MLB Draft Lottery🔥
+Kade Anderson,3200,Chrome · Auto · Orange /25,Kade Anderson 1st Orange Wave Refractor Auto 13/25 Seattle
+Kade Anderson,24999,Chrome · Auto · Parallel,🔥 Kade Anderson Ping Pong Ball Auto 1/1 MLB Draft Lottery🔥
 Gage Wood,1,Pick / set builder,⚾(pick) Philadelphia Phillies (Gage Wood)🔴⚪
 Gage Wood,1,Pick / set builder,⚾(pick) Philadelphia Phillies (Gage Wood)🔴⚪
 Gage Wood,2,Pick / set builder,⚾(pick) Philadelphia Phillies (Gage Wood)🔴⚪
 Gage Wood,2,Pick / set builder,⚾(pick) Philadelphia Phillies (Gage Wood)🔴⚪
-Gage Wood,115,Chrome · Purple /250 · Auto,Gage Wood 1st Chrome Auto Purple #/250 Phillies #CPA-GW
+Gage Wood,115,Chrome · Auto · Purple /250,Gage Wood 1st Chrome Auto Purple #/250 Phillies #CPA-GW
 JoJo Parker,1,Base-Paper,JoJo Parker 1st Bowman Base #BD-8 - Blue Jays
 JoJo Parker,2,Base-Paper,Paper JoJo Parker 1st #BD-8 Toronto Blue Jays Prospect
 JoJo Parker,2,Base-Paper,Paper JoJo Parker 1st #BD-8 Toronto Blue Jays Prospect
@@ -879,7 +879,7 @@ JoJo Parker,20,Base-Paper,1st JoJo Parker #BD-8
 JoJo Parker,20,Chrome · Blue /150,Jojo Parker 1st Bowman Refractor #BDC-8 Blue Jays
 JoJo Parker,20,Chrome · Refractor,2025 JoJo Parker Chrome 1st Bowman Refractor #BDC-8
 JoJo Parker,25,Bowman In Action,Refractor In Action JOJO PARKER #BIA-23
-JoJo Parker,25,Prized Prospects /250,JOJO PARKER Prized Prospects/250 SP BLUE JAYS
+JoJo Parker,25,Prized Prospects · Purple /250,JOJO PARKER Prized Prospects/250 SP BLUE JAYS
 JoJo Parker,25,Chrome · Refractor,Baseball Jojo Parker 1st Refractor
 JoJo Parker,25,Chrome · Refractor,2025 JoJo Parker Chrome 1st Bowman Refractor #BDC-8
 JoJo Parker,25,Chrome · Base,Jojo Parker - My 1st Bowman
@@ -889,11 +889,11 @@ JoJo Parker,30,Chrome · Refractor,#BDC-8 JoJo Parker Chrome Refractor
 JoJo Parker,30,Chrome · Refractor,1st Refractor Jojo Parker BDC-8
 JoJo Parker,30,Bowman In Action · Gold /50,Jojo Parker In Action Gold Refractor /50
 JoJo Parker,30,Chrome · Sky Blue /499,"JoJo Parker, Toronto Blue Jays, 2025 1st Chrome Sky Blue BDC-8"
-JoJo Parker,30,Prized Prospects /250,Jojo Parker Prized Prospects PP-9 Refractor /250 Blue Jays
+JoJo Parker,30,Prized Prospects · Purple /250,Jojo Parker Prized Prospects PP-9 Refractor /250 Blue Jays
 JoJo Parker,30,Bowman Axis · Green,JoJo Parker Axis Green Refractor /99 Toronto Blue Jays
 JoJo Parker,40,Chrome · Sky Blue /499,JoJo Parker Sky Blue /499 Blue Jays #BD-8 Rookie RC 1st Bowman
 JoJo Parker,40,Chrome · Sky Blue /499,JoJo Parker 1st Sky Blue /499
-JoJo Parker,49,Bowman In Action /150,JOJO PARKER #BIA-23 In Action Insert Blue Jays /150 Diamonds
+JoJo Parker,49,Bowman In Action · Mini Diamond /150,JOJO PARKER #BIA-23 In Action Insert Blue Jays /150 Diamonds
 JoJo Parker,50,Chrome · Sky Blue /499,Jojo Parker Light Blue Paper /499
 JoJo Parker,50,Chrome · Sky Blue /499,2025 1st Sky Blue Paper Jojo Parker 101/499 RC SP Jays Pack Fresh
 JoJo Parker,50,Bowman In Action · Gold /50,Jojo Parker In Action Gold Refractor /50 SSP Top Prospect
@@ -925,19 +925,19 @@ JoJo Parker,250,Chrome · Auto,JoJo Parker 1st Auto CPA-JP Toronto Blue Jays
 JoJo Parker,250,Chrome · Auto,Jojo Parker #CPA-JP 1st Bowman Chrome Auto Blue Jays
 JoJo Parker,300,Final Draft,Jojo Parker #FD-14 Final Draft SSP
 JoJo Parker,300,Etched in Glass,Jojo Parker 1st🚨Etched In Glass Variation SSp🚨Blue Jays
-JoJo Parker,405,Chrome · Fuchsia Reptilian /199 · Auto,JoJo Parker Autograph Aqua Lava /199 Top Prospect
-JoJo Parker,420,Chrome · Sky Blue /499 · Auto,JoJo Parker Refractor Auto /499 #CPA-JP Blue Jays
-JoJo Parker,425,Chrome · Sky Blue /499 · Auto,Jojo Parker Refractor Auto /499 Bowman 1st
+JoJo Parker,405,Chrome · Auto · Fuchsia Reptilian /199,JoJo Parker Autograph Aqua Lava /199 Top Prospect
+JoJo Parker,420,Chrome · Auto · Sky Blue /499,JoJo Parker Refractor Auto /499 #CPA-JP Blue Jays
+JoJo Parker,425,Chrome · Auto · Sky Blue /499,Jojo Parker Refractor Auto /499 Bowman 1st
 JoJo Parker,450,Crystallized,Jojo Parker Crystallized 1st SSP
 JoJo Parker,450,Crystallized,JOJO PARKER Crystallized SSP CASE HIT Blue Jays 1st Rounder
-JoJo Parker,700,Chrome · Purple /250 · Auto,Jojo Parker 1st Bowman Auto Purple /250
-JoJo Parker,850,Chrome · Yellow /75 · Auto,JoJo Parker 1st Bowman Chrome True Yellow Auto #/75 Blue Jays
-JoJo Parker,850,Chrome · Green /99 · Auto,Jojo Parker /99 auto Chrome
+JoJo Parker,700,Chrome · Auto · Purple /250,Jojo Parker 1st Bowman Auto Purple /250
+JoJo Parker,850,Chrome · Auto · Yellow /75,JoJo Parker 1st Bowman Chrome True Yellow Auto #/75 Blue Jays
+JoJo Parker,850,Chrome · Auto · Green /99,Jojo Parker /99 auto Chrome
 JoJo Parker,900,Chrome · Gold /50,Jojo Parker 1st Chrome Gold Refractor 09/50
 JoJo Parker,1200,Bowman Spotlight · Red /5,JOJO PARKER Bowman Spotlight Red Refractor /5 #BS-6 Blue Jays
-JoJo Parker,1299,Image Variations · Green · Auto,Jojo Parker Image Variation Auto CPA-JP #41/99
-JoJo Parker,2000,Chrome · Gold /50 · Auto,JOJO PARKER 1st RC Auto Gold Wave Refractor /50 BIN1
-JoJo Parker,6000,Chrome · Parallel · Auto,JOJO PARKER Draft Prospect Portrait Auto 10/10 Inscription
+JoJo Parker,1299,Image Variations · Auto · Green,Jojo Parker Image Variation Auto CPA-JP #41/99
+JoJo Parker,2000,Chrome · Auto · Gold /50,JOJO PARKER 1st RC Auto Gold Wave Refractor /50 BIN1
+JoJo Parker,6000,Chrome · Auto · Parallel,JOJO PARKER Draft Prospect Portrait Auto 10/10 Inscription
 Spencer Jones,1,Base-Paper,Spencer Jones
 Spencer Jones,1,Base-Paper,BD-9 Spencer Jones - New York Yankees
 Spencer Jones,1,Chrome · Base,Spencer Jones #BDC-9 New York Yankees Chrome
@@ -1068,7 +1068,7 @@ Billy Carlson,9,Chrome · Refractor,1st Mega Mojo Refractor #BDC-10 Billy Carlso
 Billy Carlson,10,Chrome · Refractor,BILLY CARLSON - SP 1st Chrome Refractor White Sox🔥
 Billy Carlson,10,Chrome · Refractor,BILLY CARLSON - SP 1st Chrome Refractor White Sox 🔥
 Billy Carlson,10,Chrome · Refractor,BILLY CARLSON Refractor #BDC-10 | White Sox
-Billy Carlson,10,Prized Prospects /250,🔥 Prized Prospects Refractor /250 #PP-6 Billy Carlson CHISOX🔥
+Billy Carlson,10,Prized Prospects · Purple /250,🔥 Prized Prospects Refractor /250 #PP-6 Billy Carlson CHISOX🔥
 Billy Carlson,10,Chrome · Refractor,2025 Billy Carlson Chrome 1st Bowman Refractor #BDC-10
 Billy Carlson,10,Chrome · Refractor,Billy Carlson 1st Refractor #BDC-10
 Billy Carlson,10,Chrome · Refractor,Refractor Billy Carlson BDC-10 1st Bowman White Sox
@@ -1126,7 +1126,7 @@ Billy Carlson,109,Final Draft,Billy Carlson Final Draft SSP Case Hit #FD-16
 Billy Carlson,110,Chrome · Auto,1st Billy Carlson Auto Chrome Chicago White Sox 🔥🔥⚫️⚪️
 Billy Carlson,110,Chrome · Auto,Billy Carlson 1st Chrome AUTO #CPA-BC Chicago White Sox
 Billy Carlson,111,Final Draft,Billy Carlson Final Draft SSP Case Hit #FD-16
-Billy Carlson,115,Bowman In Action /75 · Auto,Billy Carlson In Action Refractor Auto #/75
+Billy Carlson,115,Bowman In Action · Auto · Yellow /75,Billy Carlson In Action Refractor Auto #/75
 Billy Carlson,120,Final Draft,BILLY CARLSON Final Draft Chicago White Sox #FD-16 SSP
 Billy Carlson,120,Chrome · Auto,Billy Carlson Chrome 1st Bowman Auto #CPA-BC White Sox
 Billy Carlson,120,Chrome · Auto,Billy Carlson 1st Chrome AUTO #CPA-BC Chicago White Sox
@@ -1139,39 +1139,39 @@ Billy Carlson,150,Image Variations,Billy Carlson BDC-10 White Sox Image Variatio
 Billy Carlson,158,Chrome · Auto,BILLY CARLSON #CPA-BC 1st Chrome Auto
 Billy Carlson,165,Image Variations,Billy Carlson Image Variation BDC-10 White Sox
 Billy Carlson,165,Bowman In Action · Gold /50,In Action Gold 39/50 Billy Carlson
-Billy Carlson,167,Chrome · Green /99 · Auto,Billy Carlson Brady Ebel Dual Auto /99 #PDA-CE
-Billy Carlson,175,Prized Prospects /99 · Auto,Billy Carlson Prized Prospects Auto /99 RC Chicago White Sox
+Billy Carlson,167,Chrome · Auto · Green /99,Billy Carlson Brady Ebel Dual Auto /99 #PDA-CE
+Billy Carlson,175,Prized Prospects · Auto · Green /99,Billy Carlson Prized Prospects Auto /99 RC Chicago White Sox
 Billy Carlson,180,Chrome · Logo Refractor /35,Billy Carlson - 1st Chrome Logofractor SSP #d 35/35 White Sox
-Billy Carlson,190,Chrome · Purple /250 · Auto,BILLY CARLSON 1ST PURPLE REFRACTOR AUTO /250 White Sox
+Billy Carlson,190,Chrome · Auto · Purple /250,BILLY CARLSON 1ST PURPLE REFRACTOR AUTO /250 White Sox
 Billy Carlson,199,Etched in Glass,🔥 Billy Carlson Etch Glass 💎Case Hit 💥 #BDC-10
 Billy Carlson,200,Chrome · Orange /25,Billy Carlson 1st Bowman Orange MOJO Refractor 2/25
-Billy Carlson,225,Chrome · Sky Blue /499 · Auto,Billy Carlson Refractor AUTO 474/499 1st Bowman Chrome #CPA-BC
+Billy Carlson,225,Chrome · Auto · Sky Blue /499,Billy Carlson Refractor AUTO 474/499 1st Bowman Chrome #CPA-BC
 Billy Carlson,225,Etched in Glass,Billy Carlson ETCHED IN GLASS SSP Case Hit #BDC-10
 Billy Carlson,230,Etched in Glass,Etched In Glass Variations - Billy Carlson SSP
 Billy Carlson,230,Bowman Spotlight,Billy Carlson Spotlights Case Hit (SSP) BS-8 Chicago White Sox
-Billy Carlson,240,Chrome · Sky Blue /499 · Auto,Billy Carlson Chrome Auto Refractor 1st # /499
-Billy Carlson,250,Bowman In Action /75 · Auto,Billy Carlson In Action Die-Cut Auto /75 White Sox
+Billy Carlson,240,Chrome · Auto · Sky Blue /499,Billy Carlson Chrome Auto Refractor 1st # /499
+Billy Carlson,250,Bowman In Action · Auto · Yellow /75,Billy Carlson In Action Die-Cut Auto /75 White Sox
 Billy Carlson,250,Bowman In Action · Red /5,Billy Carlson In Action Red Refractor 3/5 Chicago White Sox
-Billy Carlson,250,Chrome · Purple /250 · Auto,Billy Carlson Chrome Auto Purple Refractor 1st #/250 White Sox
+Billy Carlson,250,Chrome · Auto · Purple /250,Billy Carlson Chrome Auto Purple Refractor 1st #/250 White Sox
 Billy Carlson,250,Bowman Spotlight,#BS-8 Spotlights Case Hit SSP Billy Carlson
 Billy Carlson,255,Chrome · Orange /25,Billy Carlson 1st Bowman #BDC-10 Orange Refractor /25
 Billy Carlson,260,Etched in Glass,Billy Carlson ETCHED IN GLASS SP Variation Card #BDC-10
 Billy Carlson,262,Bowman Spotlight,Billy Carlson Spotlight SSP Chicago White Sox
-Billy Carlson,265,Chrome · Sky Blue /499 · Auto,Billy Carlson #CPA-BC Refractor Auto /499 Chicago White Sox
-Billy Carlson,300,Chrome · Purple /250 · Auto,Billy Carlson - 1st Purple Refractor SP #140/250 Auto Rookie
+Billy Carlson,265,Chrome · Auto · Sky Blue /499,Billy Carlson #CPA-BC Refractor Auto /499 Chicago White Sox
+Billy Carlson,300,Chrome · Auto · Purple /250,Billy Carlson - 1st Purple Refractor SP #140/250 Auto Rookie
 Billy Carlson,300,Prized Prospects · Auto,Billy Carlson Prized Prospects Auto #'d To 99
-Billy Carlson,300,Chrome · Purple /250 · Auto,BILLY CARLSON CPA-BC True Purple Auto 162/250 White Sox
-Billy Carlson,320,Chrome · Sky Blue /499 · Auto,Billy Carlson Prospect Auto 1st Refractor CPA-BC /499
-Billy Carlson,320,Chrome · Green /99 · Auto,2025 1st Billy Carlson True Green Refractor Auto /99 White Sox
-Billy Carlson,350,Chrome · Sky Blue /499 · Auto,Billy Carlson Refractor AUTO /499 1st Bowman Chrome #CPA-BC
-Billy Carlson,395,Chrome · Aqua /125 · Auto,Billy Carlson Aqua Lava Refractor Auto /199 1st
-Billy Carlson,399,Chrome · Green /99 · Auto,#CPA-BC Billy Carlson Chrome 1st Auto Green Refractor #/99
+Billy Carlson,300,Chrome · Auto · Purple /250,BILLY CARLSON CPA-BC True Purple Auto 162/250 White Sox
+Billy Carlson,320,Chrome · Auto · Sky Blue /499,Billy Carlson Prospect Auto 1st Refractor CPA-BC /499
+Billy Carlson,320,Chrome · Auto · Green /99,2025 1st Billy Carlson True Green Refractor Auto /99 White Sox
+Billy Carlson,350,Chrome · Auto · Sky Blue /499,Billy Carlson Refractor AUTO /499 1st Bowman Chrome #CPA-BC
+Billy Carlson,395,Chrome · Auto · Aqua /125,Billy Carlson Aqua Lava Refractor Auto /199 1st
+Billy Carlson,399,Chrome · Auto · Green /99,#CPA-BC Billy Carlson Chrome 1st Auto Green Refractor #/99
 Billy Carlson,399,Crystallized,Billy Carlson Crystallized SSP Case Hit #C-11 CWS
-Billy Carlson,400,Chrome · Blue /150 · Auto,Billy Carlson 1st Bowman Mojo Autograph /150
-Billy Carlson,650,Chrome · Blue /150 · Auto,2025 Billy Carlson 1st Chrome Auto True Blue /150 White Sox
-Billy Carlson,650,Chrome · Yellow /75 · Auto,Billy Carlson 1st Bowman Chrome Yellow Refractor Auto /75
-Billy Carlson,695,Image Variations · Green · Auto,Billy Carlson 1st Chrome Image Variation Auto 72/99 CPA-BC
-Billy Carlson,750,Chrome · Gold /50 · Auto,Billy Carlson Brady Ebel Auto Dual Gold Refractor
-Billy Carlson,1100,Chrome · Gold /50 · Auto,Billy Carlson 1st Gold Shimmer Auto /50
-Billy Carlson,1500,Chrome · Sparkle · Auto,Billy Carlson Sparkle Refractor Auto /71
-Billy Carlson,2099,Chrome · Orange /25 · Auto,Billy Carlson #CPA-BC - Orange Wave Refractor /25 Auto - 1st
+Billy Carlson,400,Chrome · Auto · Blue /150,Billy Carlson 1st Bowman Mojo Autograph /150
+Billy Carlson,650,Chrome · Auto · Blue /150,2025 Billy Carlson 1st Chrome Auto True Blue /150 White Sox
+Billy Carlson,650,Chrome · Auto · Yellow /75,Billy Carlson 1st Bowman Chrome Yellow Refractor Auto /75
+Billy Carlson,695,Image Variations · Auto · Green,Billy Carlson 1st Chrome Image Variation Auto 72/99 CPA-BC
+Billy Carlson,750,Chrome · Auto · Gold /50,Billy Carlson Brady Ebel Auto Dual Gold Refractor
+Billy Carlson,1100,Chrome · Auto · Gold /50,Billy Carlson 1st Gold Shimmer Auto /50
+Billy Carlson,1500,Chrome · Auto · Sparkle,Billy Carlson Sparkle Refractor Auto /71
+Billy Carlson,2099,Chrome · Auto · Orange /25,Billy Carlson #CPA-BC - Orange Wave Refractor /25 Auto - 1st

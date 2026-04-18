@@ -1,0 +1,54 @@
+How to combine rows in card_type_display_order.csv and flow the change through the repo
+======================================================================================
+
+Goal: several listings today resolve to different primary card_type strings, but you want ONE
+canonical label and ONE ladder row. The CSV alone is not enough — listings must emit that label.
+
+1) Pick the single canonical card_type string
+   - Example: merge "Chrome · Auto · Printing Plate" and "Chrome · Auto · Yellow Printing Plate"
+     only if you truly want one bucket; often they stay separate parallels.
+
+2) Taxonomy / primary type (cardmatch/taxonomy.py, cardmatch/card_type.py)
+   - build_composite_card_type, finalize_bdc_composite_string, insert_line_card_type_collapsed_for_display,
+     and classifier-driven paths must map all merged variants to the SAME row_primary_card_type().
+   - If old strings still appear in pilot data, listing counts and UI will still show two types.
+
+3) Pairwise price ladder (data/.../bowman_pairwise_card_type_rankings_with_listings.csv)
+   - Ranks are keyed by card_type in that export. After taxonomy merge, re-run whatever pipeline
+     produces that CSV from bowman_title_price triples, OR hand-edit so one row exists per merged
+     type with the rank you want.
+   - regenerate_card_type_display_order_csv.py unions pairwise keys with listing_counts types; missing
+     pairwise rows become runtime fallback (omit from committed CSV if fallback is skipped).
+
+4) card_type_display_order.csv
+   - Remove duplicate rows for merged-away types; keep one row per canonical card_type.
+   - Set display_order for ladder position; use:
+       python3 scripts/cardmatch/dense_renumber_card_type_display_order_csv.py
+     to renumber 1..n without reordering rows (no --sort-like-regen).
+   - Optional snapshot:
+       python3 scripts/cardmatch/log_card_type_display_order.py
+   - Optional: cardmatch/card_type_display_order_overrides.json for display_order without editing CSV.
+
+5) Tests (cardmatch/tests/test_card_type*.py, test_card_type_display_order.py)
+   - Assert row_primary_card_type and resolve_display_order for merged titles.
+
+6) Pilot / committed diagnostics (mandatory after cardmatch/ changes)
+   From repo root:
+       bash scripts/cardmatch/rescore_cardmatch_committed_pilot.sh
+   Confirms pilot_scored_full.csv, review_*.csv, listing_counts_*.csv, run_summary.md match current
+   taxonomy + display order. Check review_focus.csv line count vs run_summary.md.
+
+7) Downstream consumers (reload CSV at process start)
+   - load_merged_display_order / resolve_display_order / display_order_for_card_type in
+     cardmatch/card_type_display_order.py
+   - scripts/cardmatch/bowman_title_price_api.py (card_type_display_order on API payload)
+
+8) Regenerate CSV from data (optional; can reorder if --no-preserve-display-order)
+       python3 scripts/cardmatch/regenerate_card_type_display_order_csv.py
+   Default preserve mode keeps existing line order for types still present, appends new types, then
+   dense-renumbers display_order. Use only after pairwise + listing_counts reflect your merge.
+
+Order of operations in practice
+--------------------------------
+  Taxonomy + classifier  ->  recompute pairwise export  ->  regenerate display_order CSV
+  (or hand-edit CSV + overrides only if types already match)  ->  tests  ->  rescore pilots.

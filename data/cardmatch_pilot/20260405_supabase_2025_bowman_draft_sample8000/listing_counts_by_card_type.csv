@@ -10,26 +10,22 @@ Bowman Axis · Green,2
 Bowman Axis · Red,1
 Bowman Draft Night,58
 Bowman Draft Night · Gold /50,8
-Bowman Draft Night · Green /99,3
+Bowman Draft Night · Purple /250,5
+Bowman Draft Night · Green /99,4
 Bowman Draft Night · Mini Diamond /150,3
-Bowman Draft Night · Purple /250,1
-Bowman Draft Night · Gold /50 · Mini Diamond · Auto,2
-Bowman Draft Night · Orange /25 · Auto,1
-Bowman Draft Night /250,4
-Bowman Draft Night /99,1
-Bowman Draft Night /99 · Auto,2
+Bowman Draft Night · Auto · Green /99,2
+Bowman Draft Night · Auto · Gold /50 · Mini Diamond,2
+Bowman Draft Night · Auto · Orange /25,1
 Bowman In Action,55
 Bowman In Action · Orange /25,5
+Bowman In Action · Mini Diamond /150,5
 Bowman In Action · Gold /50,5
-Bowman In Action · Mini Diamond /150,3
+Bowman In Action · Green /99,4
 Bowman In Action · Blue /150,3
-Bowman In Action · Green /99,3
 Bowman In Action · Purple /250,1
+Bowman In Action · Fuchsia Reptilian /199,1
 Bowman In Action · Red /5,1
-Bowman In Action /150,2
-Bowman In Action /199,1
-Bowman In Action /75 · Auto,3
-Bowman In Action /99,1
+Bowman In Action · Auto · Yellow /75,3
 Bowman Spotlight,10
 Bowman Spotlight · Red /5,1
 Chrome · Refractor,819
@@ -57,26 +53,26 @@ Chrome · Parallel,2
 Chrome · True Black /10,2
 Chrome · Black /73,1
 Chrome · Auto,430
-Chrome · Sky Blue /499 · Auto,94
-Chrome · Blue /150 · Auto,78
-Chrome · Purple /250 · Auto,77
-Chrome · Green /99 · Auto,69
-Chrome · Gold /50 · Auto,27
-Chrome · Aqua /125 · Auto,27
-Chrome · Yellow /75 · Auto,23
-Chrome · Fuchsia Reptilian /199 · Auto,16
-Chrome · Orange /25 · Auto,16
-Chrome · Parallel · Auto,9
-Chrome · Sparkle · Auto,8
-Chrome · Black /73 · Auto,5
-Chrome · Speckle Refractor · Auto,5
-Chrome · Red /5 · Auto,3
-Chrome · X-Fractor · Auto,3
-Chrome · Printing Plate /1 · Auto,1
-Chrome · Refractor · Auto,1
-Chrome · Speckle /71 · Auto,1
-Chrome · True Black /10 · Auto,1
-Chrome · Superfractor · Auto,1
+Chrome · Auto · Sky Blue /499,94
+Chrome · Auto · Blue /150,78
+Chrome · Auto · Purple /250,77
+Chrome · Auto · Green /99,69
+Chrome · Auto · Gold /50,27
+Chrome · Auto · Aqua /125,27
+Chrome · Auto · Yellow /75,23
+Chrome · Auto · Fuchsia Reptilian /199,16
+Chrome · Auto · Orange /25,16
+Chrome · Auto · Parallel,9
+Chrome · Auto · Sparkle,8
+Chrome · Auto · Black /73,5
+Chrome · Auto · Speckle Refractor,5
+Chrome · Auto · Red /5,3
+Chrome · Auto · X-Fractor,3
+Chrome · Auto · Printing Plate /1,1
+Chrome · Auto · Refractor,1
+Chrome · Auto · Speckle /71,1
+Chrome · Auto · True Black /10,1
+Chrome · Auto · Superfractor,1
 Chrome Prospect College Variations,2
 Chrome Prospect College Variations · Red /5,1
 Crystallized,3
@@ -86,20 +82,19 @@ Crystallized · Red /5,1
 Etched in Glass,34
 Final Draft,16
 Image Variations,25
-Image Variations · Green · Auto,3
+Image Variations · Auto · Green,3
 Image Variations · Auto,1
-Image Variations · Purple · Auto,1
+Image Variations · Auto · Purple,1
 Prized Prospects,143
+Prized Prospects · Purple /250,12
 Prized Prospects · Orange /25,4
 Prized Prospects · Gold /50,4
 Prized Prospects · Mini Diamond /150,4
 Prized Prospects · Green /99,4
-Prized Prospects · Purple /250,1
+Prized Prospects · Fuchsia Reptilian /199,2
 Prized Prospects · Blue /150,1
 Prized Prospects · Red /5,1
+Prized Prospects · Auto · Green /99,3
 Prized Prospects · Auto,1
-Prized Prospects /199,2
-Prized Prospects /250,11
-Prized Prospects /99 · Auto,3
 Sapphire,5
 Snack-Pack,36

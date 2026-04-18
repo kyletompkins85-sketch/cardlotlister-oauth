@@ -45,6 +45,30 @@ def _strip_trailing_auto_suffixes(ct: str) -> str:
     return out
 
 
+def _strip_mid_auto_segment(ct: str) -> str:
+    """``Family · Auto · Rest`` → ``Family · Rest`` (single pass; repeat callers may loop)."""
+    m = re.match(r"^(.+?) · Auto · (.+)$", ct)
+    if not m:
+        return ct
+    return f"{m.group(1)} · {m.group(2)}".strip()
+
+
+def _strip_all_auto_markers(ct: str) -> str:
+    """Remove **Auto** token (mid-string or trailing stacks) for comparing to excluded bucket labels."""
+    out = ct
+    changed = True
+    while changed:
+        changed = False
+        nxt = _strip_mid_auto_segment(out)
+        if nxt != out:
+            out = nxt
+            changed = True
+        while out.endswith(" · Auto"):
+            out = out[: -len(" · Auto")]
+            changed = True
+    return out
+
+
 def _card_group_from_type(ct: str) -> str:
     """First segment of card_type (product family), e.g. Chrome · Green /99 → Chrome."""
     if " · " in ct:
@@ -53,7 +77,12 @@ def _card_group_from_type(ct: str) -> str:
 
 
 def _card_type_has_auto_suffix(ct: str) -> bool:
-    """True when the label includes a trailing **· Auto** (possibly stacked)."""
+    """True when the label includes an **Auto** tier (after the product line or legacy trailing)."""
+    if " · Auto · " in ct:
+        return True
+    parts = ct.split(" · ")
+    if len(parts) >= 2 and parts[1] == "Auto":
+        return True
     return _strip_trailing_auto_suffixes(ct) != ct
 
 
@@ -91,7 +120,7 @@ def row_excluded_from_listing_counts(row: Dict[str, Any], ct: Optional[str] = No
     primary = ct if ct is not None else row_primary_card_type(row)
     if primary in LISTING_COUNT_EXCLUDED_CARD_TYPES:
         return True
-    base = _strip_trailing_auto_suffixes(primary)
+    base = _strip_all_auto_markers(primary)
     if base in LISTING_COUNT_EXCLUDED_CARD_TYPES:
         return True
     return False
@@ -139,7 +168,7 @@ _NB_LABEL: Dict[str, str] = {
     "nb_speckle": f"{BDC_PRIMARY_FAMILY} · Speckle Refractor",
     "nb_wave": f"{BDC_PRIMARY_FAMILY} · Wave",
     "nb_lava": f"{BDC_PRIMARY_FAMILY} · Lava",
-    "nb_printing_plate": f"{BDC_PRIMARY_FAMILY} · Printing Plate",
+    "nb_printing_plate": f"{BDC_PRIMARY_FAMILY} · Printing Plate /1",
     "nb_numbered_serial": f"{BDC_PRIMARY_FAMILY} · Parallel",
 }
 
@@ -242,7 +271,7 @@ def _orange_border_bdc_card_type(flags: Dict[str, Any]) -> str:
     """
     parts = f"{BDC_PRIMARY_FAMILY} · Orange /25"
     if flags.get("WF_auto"):
-        parts = f"{parts} · Auto"
+        parts = f"{BDC_PRIMARY_FAMILY} · Auto · Orange /25"
     return finalize_bdc_composite_string(parts)
 
 
@@ -273,6 +302,21 @@ def _legacy_from_title_flags(row: Dict[str, Any], flags: Dict[str, Any]) -> Opti
     return None
 
 
+def _want_autograph_token_for_legacy_chain(flags: Dict[str, Any], nb_codes: List[str]) -> bool:
+    """
+    Whether ``nb_auto`` / ``WF_auto`` should add **Auto** to chrome composites in the legacy nb_* chain.
+
+    ``nb_auto`` sometimes appears next to ``nb_printing_plate`` without ``WF_auto`` (not an on-card
+    autograph). Printing plates are parallels first — require ``WF_auto`` before emitting **Auto**.
+    """
+    if not (bool(flags.get("WF_auto")) or ("nb_auto" in nb_codes)):
+        return False
+    plate = bool(flags.get("WF_printing_plate")) or ("nb_printing_plate" in nb_codes)
+    if plate and not flags.get("WF_auto"):
+        return False
+    return True
+
+
 def _augment_label_with_auto(
     base: str, row: Dict[str, Any], flags: Dict[str, Any], want_auto: bool
 ) -> str:
@@ -286,14 +330,27 @@ def _augment_label_with_auto(
     if base.startswith("axis ") or base == "axis plain":
         return format_axis_card_type(row)
     if base.startswith("Chrome Prospect College Variations"):
-        if " · Auto" in base:
+        if " · Auto · " in base or base.endswith(" · Auto"):
             return finalize_bdc_composite_string(base)
+        parts = base.split(" · ")
+        if len(parts) >= 1:
+            return finalize_bdc_composite_string(
+                parts[0] + " · Auto · " + " · ".join(parts[1:])
+            )
         return finalize_bdc_composite_string(f"{base} · Auto")
     if _is_bdc_chrome_primary_base(base):
-        if " · Auto" in base:
+        if " · Auto · " in base or base.endswith(" · Auto"):
             return finalize_bdc_composite_string(base)
+        parts = base.split(" · ")
+        if len(parts) >= 1:
+            return finalize_bdc_composite_string(
+                parts[0] + " · Auto · " + " · ".join(parts[1:])
+            )
         return finalize_bdc_composite_string(f"{base} · Auto")
-    if " · Auto" not in base:
+    if " · Auto · " not in base and not base.endswith(" · Auto"):
+        parts = base.split(" · ")
+        if len(parts) >= 2:
+            return f"{parts[0]} · Auto · " + " · ".join(parts[1:])
         return f"{base} · Auto"
     return base
 
@@ -433,8 +490,8 @@ def _parse_reason_codes(row: Dict[str, Any]) -> List[str]:
 
 def row_primary_card_type(row: Dict[str, Any]) -> str:
     """
-    Composite card type: product group · stock · color · finish · Auto (when applicable).
-    Falls back to legacy nb_* / BDC string labels when taxonomy does not apply.
+    Composite card type: product group, **Auto** (immediately after the product line when present),
+    then color / finish / print-run; falls back to legacy nb_* / BDC string labels when taxonomy does not apply.
     """
     if (row.get("pilot_is_snack_pack") or "") == "1":
         return "Snack-Pack"
@@ -464,7 +521,7 @@ def row_primary_card_type(row: Dict[str, Any]) -> str:
     if (row.get("pilot_is_likely_base") or "") == "1":
         codes_lb = _parse_reason_codes(row)
         nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
-        want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
+        want_auto_lb = _want_autograph_token_for_legacy_chain(flags, nb_lb)
         if want_auto_lb:
             return finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto")
         return "Base-Paper"
@@ -513,14 +570,14 @@ def _legacy_primary_card_type_impl(row: Dict[str, Any]) -> Tuple[str, bool]:
     if (row.get("pilot_is_likely_base") or "") == "1":
         codes_lb = _parse_reason_codes(row)
         nb_lb = [c for c in codes_lb if isinstance(c, str) and c.startswith("nb_")]
-        want_auto_lb = bool(flags.get("WF_auto")) or ("nb_auto" in nb_lb)
+        want_auto_lb = _want_autograph_token_for_legacy_chain(flags, nb_lb)
         if want_auto_lb:
             return (finalize_bdc_composite_string(f"{BDC_PRIMARY_FAMILY} · Auto"), False)
         return ("Base-Paper", False)
 
     codes = _parse_reason_codes(row)
     nb_codes = [c for c in codes if isinstance(c, str) and c.startswith("nb_")]
-    want_auto = bool(flags.get("WF_auto")) or ("nb_auto" in nb_codes)
+    want_auto = _want_autograph_token_for_legacy_chain(flags, nb_codes)
     product_codes = [c for c in nb_codes if c != "nb_auto"]
 
     p = _legacy_from_title_flags(row, flags)

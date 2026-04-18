@@ -1,0 +1,136 @@
+# snapshot 2026-04-18T05:13:44Z /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/cardmatch/card_type_display_order.csv
+file_row	display_order	pairwise_rank	rank_match	card_type
+1	1	156	exact	Base-Paper
+2	2	155	exact	Bowman Draft Night
+3	3	154	exact	Prized Prospects
+4	4	153	exact	Bowman Axis · Base
+5	5	147	exact	Bowman In Action
+6	6	151	exact	Chrome · Base
+7	7	148	exact	Chrome · Refractor
+8	8	130	exact	Chrome · X-Fractor
+9	9	149	exact	Prized Prospects · Purple /250
+10	10	128	exact	Prized Prospects · Mini Diamond /150
+11	11	120	exact	Prized Prospects · Green /99
+12	12	106	exact	Prized Prospects · Gold /50
+13	13	97	exact	Prized Prospects · Orange /25
+14	14	9	exact	Prized Prospects · Red /5
+15	16	114	exact	Bowman Axis · Parallel
+16	17	131	exact	Bowman Axis · Mini Diamond
+17	18	103	exact	Bowman Axis · Green
+18	19	90	exact	Bowman Axis · Gold
+19	20	83	exact	Bowman Axis · Orange
+20	21	68	exact	Bowman Axis · Red
+21	22	8	exact	Bowman Axis · Superfractor
+22	23	145	exact	Bowman Draft Night · Purple /250
+23	24	135	exact	Bowman Draft Night · Mini Diamond /150
+24	25	134	exact	Bowman Draft Night · Green /99
+25	26	108	exact	Bowman Draft Night · Gold /50
+26	27	92	exact	Bowman Draft Night · Orange /25
+27	29	25	exact	Bowman Draft Night · Red /5
+28	30	146	exact	Bowman In Action · Purple /250
+29	31	113	exact	Bowman In Action · Mini Diamond /150
+30	32	126	exact	Bowman In Action · Green /99
+31	33	48	exact	Bowman In Action · Black /73
+32	34	111	exact	Bowman In Action · Gold /50
+33	35	101	exact	Bowman In Action · Orange /25
+34	36	17	exact	Bowman In Action /10
+35	37	117	exact	Bowman In Action · Red /5
+36	38	11	exact	Bowman In Action · Superfractor /1
+37	39	98	exact	Image Variations
+38	40	32	exact	Image Variations · Auto
+39	41	45	exact	Image Variations · Orange
+40	52	125	exact	Chrome · Speckle Refractor
+41	53	124	exact	Chrome · Mini Diamond
+42	54	116	exact	Chrome · Sparkle
+43	50	137	exact	Chrome · Sky Blue /499
+44	51	115	exact	Chrome · Purple /250
+45	58	109	exact	Chrome · Fuchsia Reptilian /199
+46	55	112	exact	Chrome · Blue /150
+47	56	110	exact	Chrome · Aqua /125
+48	57	93	exact	Chrome · Aqua Reptilian
+49	59	104	exact	Chrome · Sapphire
+50	60	88	exact	Chrome · Steel Metal /100
+51	61	99	exact	Chrome · Green /99
+52	62	95	exact	Chrome · Parallel
+53	63	81	exact	Chrome · Yellow /75
+54	64	38	exact	Chrome · Black /73
+55	65	76	exact	Chrome · Gold /50
+56	66	50	exact	Chrome · Logo Refractor /35
+57	67	69	exact	Chrome · Orange /25
+58	68	44	exact	Chrome · True Black /10
+59	72	74	exact	Base-Paper · Black Border
+60	70	27	exact	Chrome · Black Geometric /10
+61	71	59	exact	Chrome · Red /5
+62	74	46	exact	Chrome · Printing Plate
+63	75	43	exact	Chrome · Magenta Printing Plate
+64	76	41	exact	Chrome · Black Printing Plate
+65	77	15	exact	Chrome · Yellow Printing Plate
+66	78	10	exact	Chrome · Superfractor
+67	83	87	exact	Bowman Spotlight
+68	84	24	exact	Bowman Spotlight /5
+69	85	75	exact	Bowman Draft Night · Auto · Orange /25
+70	86	58	exact	Bowman Spotlight · Red /5
+71	87	14	exact	Crystallized · Black /73
+72	90	52	exact	Crystallized · Gold /50
+73	91	39	exact	Crystallized · Orange /25
+74	88	22	exact	Crystallized /25
+75	93	34	exact	Crystallized · Red /5
+76	94	63	exact	Crystallized
+77	95	82	exact	Etched in Glass
+78	79	123	exact	Chrome · Auto
+79	28	129	exact	Chrome · Auto · Refractor
+80	102	60	exact	Chrome · Auto · Speckle Refractor
+81	122	21	exact	Chrome · Auto · X-Fractor
+82	105	56	exact	Chrome · Auto · Mini Diamond
+83	117	36	exact	Chrome · Auto · Parallel
+84	108	64	exact	Chrome · Auto · Wave
+85	112	51	exact	Chrome · Auto · Sparkle
+86	73	86	exact	Chrome · Auto · Sky Blue /499
+87	81	79	exact	Chrome · Auto · Purple /250
+88	92	70	exact	Chrome · Auto · Fuchsia Reptilian /199
+89	104	102	exact	Chrome · Auto · Fuchsia Reptilian · Wave /199
+90	97	66	exact	Chrome · Auto · Blue /150
+91	89	72	exact	Chrome · Auto · Aqua /125
+92	127	5	exact	Chrome · Auto · Steel Metal /100
+93	101	61	exact	Chrome · Auto · Green /99
+94	113	49	exact	Chrome · Auto · Yellow /75
+95	126	13	exact	Chrome · Auto · Black /73
+96	114	47	exact	Chrome · Auto · Sparkle /71
+97	106	31	exact	Chrome · Auto · Speckle /71
+98	121	23	exact	Chrome · Auto · Mini Diamond /71
+99	118	35	exact	Chrome · Auto · Gold /50
+100	116	37	exact	Chrome · Auto · Orange /25
+101	115	42	exact	Chrome · Auto · Black Geometric /10
+102	125	16	exact	Chrome · Auto · True Black /10
+103	80	6	exact	Chrome · Auto /10
+104	107	55	exact	Chrome · Auto · Red /5
+105	123	19	exact	Chrome · Auto · Yellow Printing Plate
+106	124	18	exact	Chrome · Auto · Printing Plate
+107	120	26	exact	Chrome · Auto · Black Printing Plate
+108	109	54	exact	Chrome · Auto · Printing Plate /1
+109	82	7	exact	Chrome · Auto /1
+110	128	4	exact	Chrome · Auto · Superfractor
+111	96	80	exact	Final Draft
+112	98	3	exact	Final Draft · Red /5
+113	99	33	exact	Snack-Pack
+114	100	12	exact	Bowman Draft Night · Auto · Superfractor /1
+115	103	57	exact	Bowman In Action · Auto · Gold /50
+116	129	1	exact	Bowman In Action · Auto · Orange /25
+117	119	29	exact	Bowman In Action · Auto · Red /5
+118	110	40	exact	Image Variations · Auto · Green
+119	111	100	exact	Image Variations · Auto · Purple
+120	49	139	exact	Sapphire
+121	42	119	exact	Chrome Prospect College Variations
+122	43	142	exact	Chrome Prospect College Variations · Purple /250
+123	44	30	exact	Chrome Prospect College Variations · Black /73
+124	45	73	exact	Chrome Prospect College Variations · Gold /50
+125	46	67	exact	Chrome Prospect College Variations · Orange /25
+126	47	20	exact	Chrome Prospect College Variations · Red /5
+127	48	94	exact	Chrome Prospect College Variations · Auto
+128	15	84	exact	Prized Prospects · Auto
+129	69	89	exact	Prized Prospects · Auto · Green /99
+130	999	107	exact	Prized Prospects · Blue /150
+131	999	28	exact	Bowman Draft Night · Auto · Gold /50 · Mini Diamond
+132	999	143	exact	Bowman In Action · Blue /150
+133	999	140	exact	Bowman In Action · Speckle /150
+

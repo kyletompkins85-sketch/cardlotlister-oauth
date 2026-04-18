@@ -1,5 +1,6 @@
 """
-Structured card taxonomy: product group, color, finish, auto → composite card_type string.
+Structured card taxonomy: product group, **Auto** (immediately after the product line when present),
+then color / finish / print-run → composite ``card_type`` string.
 
 The word **Refractor** appears only in **Chrome · Refractor** (plain silver parallel vs
 chrome base). Elsewhere—insert lines, Axis, CPA, colors—do not use *Refractor*; colored parallels
@@ -122,6 +123,263 @@ def bdc_serial_denominator_color_map() -> Dict[int, str]:
     Same ladder as `_BDC_COLOR_SERIAL` plus 100 → Steel Metal. Used for titles with 1/5, /99, etc.
     """
     return dict(_SERIAL_DENOM_TO_BDC_COLOR)
+
+
+def insert_parallel_token_from_bdc_serial(so: int) -> Optional[str]:
+    """
+    Full parallel slice for a Bowman hobby denominator (e.g. ``Green /99``), excluding insert-only
+    quirks (PP/BDN ``/150`` → :func:`prized_prospects_parallel_token_from_serial_denominator`).
+    """
+    c = _SERIAL_DENOM_TO_BDC_COLOR.get(so)
+    if not c:
+        return None
+    if c == "Steel Metal":
+        return "Steel Metal /100"
+    if c == "Fuchsia Reptilian":
+        return "Fuchsia Reptilian /199"
+    if c == "Logo Refractor":
+        return "Logo Refractor /35"
+    suf = _BDC_COLOR_SERIAL.get(c)
+    if suf:
+        return f"{c} {suf}".replace("  ", " ").strip()
+    return None
+
+
+def prized_prospects_parallel_token_from_serial_denominator(so: int) -> Optional[str]:
+    """Prized Prospects insert: ``/150`` is **Mini Diamond /150**, not Blue /150."""
+    if so == 150:
+        return "Mini Diamond /150"
+    return insert_parallel_token_from_bdc_serial(so)
+
+
+def bowman_draft_night_parallel_token_from_serial_denominator(so: int) -> Optional[str]:
+    """Bowman Draft Night insert: same ``/150`` rule as PP."""
+    if so == 150:
+        return "Mini Diamond /150"
+    return insert_parallel_token_from_bdc_serial(so)
+
+
+def bowman_in_action_parallel_token_from_serial_denominator(so: int) -> Optional[str]:
+    """Bowman In Action insert: same ladder as Bowman Draft Night (``/150`` → Mini Diamond, etc.)."""
+    return bowman_draft_night_parallel_token_from_serial_denominator(so)
+
+
+def _parallel_token_leading_segment(token: str) -> str:
+    """``Green /99`` → ``Green``; ``Mini Diamond /150`` → ``Mini Diamond``."""
+    return token.rsplit("/", 1)[0].strip()
+
+
+def _serial_int_for_insert_color(flags: Dict[str, Any]) -> Optional[int]:
+    so = flags.get("serial_out_of")
+    if so is None:
+        return None
+    try:
+        n = int(so)
+    except (TypeError, ValueError):
+        return None
+    if n <= 0 or 2000 <= n <= 2035:
+        return None
+    return n
+
+
+def canonical_prized_prospects_bare_slash_n_label(norm_card_type: str) -> Optional[str]:
+    """
+    Map legacy bare **Prized Prospects /N** (or **… /N · Auto**) to the explicit ladder label.
+
+    ``norm_card_type`` must already be whitespace-normalized (same as
+    :func:`cardmatch.pairwise_price_rankings._norm`). Returns a normalized string or ``None``.
+    """
+    k = (norm_card_type or "").strip()
+    if not k:
+        return None
+    auto = k.endswith(" · Auto")
+    core = k[: -len(" · Auto")].strip() if auto else k
+    m = re.match(r"^Prized Prospects /(\d+)\s*$", core, re.I)
+    if not m:
+        return None
+    try:
+        n = int(m.group(1))
+    except ValueError:
+        return None
+    tok = prized_prospects_parallel_token_from_serial_denominator(n)
+    if not tok:
+        return None
+    out = f"Prized Prospects · {tok}"
+    if auto:
+        out = f"Prized Prospects · Auto · {tok}"
+    return " ".join(out.split())
+
+
+def canonical_bowman_draft_night_bare_slash_n_label(norm_card_type: str) -> Optional[str]:
+    """Bare **Bowman Draft Night /N** (or **… · Auto**) → explicit insert ladder label."""
+    k = (norm_card_type or "").strip()
+    if not k:
+        return None
+    auto = k.endswith(" · Auto")
+    core = k[: -len(" · Auto")].strip() if auto else k
+    m = re.match(r"^Bowman Draft Night /(\d+)\s*$", core, re.I)
+    if not m:
+        return None
+    try:
+        n = int(m.group(1))
+    except ValueError:
+        return None
+    tok = bowman_draft_night_parallel_token_from_serial_denominator(n)
+    if not tok:
+        return None
+    out = f"Bowman Draft Night · {tok}"
+    if auto:
+        out = f"Bowman Draft Night · Auto · {tok}"
+    return " ".join(out.split())
+
+
+def canonical_bowman_in_action_bare_slash_n_label(norm_card_type: str) -> Optional[str]:
+    """Bare **Bowman In Action /N** (or **… · Auto**) → explicit insert ladder label."""
+    k = (norm_card_type or "").strip()
+    if not k:
+        return None
+    auto = k.endswith(" · Auto")
+    core = k[: -len(" · Auto")].strip() if auto else k
+    m = re.match(r"^Bowman In Action /(\d+)\s*$", core, re.I)
+    if not m:
+        return None
+    try:
+        n = int(m.group(1))
+    except ValueError:
+        return None
+    tok = bowman_in_action_parallel_token_from_serial_denominator(n)
+    if not tok:
+        return None
+    out = f"Bowman In Action · {tok}"
+    if auto:
+        out = f"Bowman In Action · Auto · {tok}"
+    return " ".join(out.split())
+
+
+_INSERT_LINES_SPARKLE_MINI_DIAMOND_NORMALIZE: Tuple[str, ...] = (
+    "Prized Prospects",
+    "Bowman Draft Night",
+    "Bowman In Action",
+)
+
+
+def _canonical_insert_sparkle_150_or_plain_mini_diamond(
+    norm_card_type: str, *, insert_display: str
+) -> Optional[str]:
+    """
+    **Sparkle /150** and plain **Mini Diamond** (no ``/150``) collapse to **Mini Diamond /150**
+    for PP / Bowman Draft Night / Bowman In Action inserts.
+    """
+    k = " ".join((norm_card_type or "").strip().split())
+    esc = re.escape(insert_display)
+    m = re.match(rf"^{esc} · Sparkle /150(\s*·\s*Auto)?$", k, re.I)
+    if m:
+        suf = m.group(1) or ""
+        if suf and "Auto" in suf:
+            return f"{insert_display} · Auto · Mini Diamond /150"
+        return " ".join(f"{insert_display} · Mini Diamond /150{suf}".split())
+    m = re.match(rf"^{esc} · Auto · Sparkle /150$", k, re.I)
+    if m:
+        return f"{insert_display} · Auto · Mini Diamond /150"
+    m = re.match(rf"^{esc} · Mini Diamond(\s*·\s*Auto)?$", k, re.I)
+    if m and "/150" not in k:
+        suf = m.group(1) or ""
+        if suf and "Auto" in suf:
+            return f"{insert_display} · Auto · Mini Diamond /150"
+        return " ".join(f"{insert_display} · Mini Diamond /150{suf}".split())
+    m = re.match(rf"^{esc} · Auto · Mini Diamond$", k, re.I)
+    if m:
+        return f"{insert_display} · Auto · Mini Diamond /150"
+    return None
+
+
+def _strip_redundant_sparkle_after_mini_diamond_150(s: str) -> str:
+    """``… · Mini Diamond /150 · Sparkle`` → ``… · Mini Diamond /150`` (same physical parallel)."""
+    k = s
+    for pre in _INSERT_LINES_SPARKLE_MINI_DIAMOND_NORMALIZE:
+        esc = re.escape(pre)
+        k = re.sub(
+            rf"^({esc} · (?:Auto · )?Mini Diamond /150) · Sparkle(\s*·\s*Auto)?$",
+            r"\1\2",
+            k,
+            flags=re.I,
+        )
+    return k
+
+
+def _dedupe_repeated_mini_diamond_150_segment(s: str) -> str:
+    """Collapse doubled **Mini Diamond /150** mid-segments (color + finish both mini-diamond)."""
+    k = s
+    for pre in _INSERT_LINES_SPARKLE_MINI_DIAMOND_NORMALIZE:
+        esc = re.escape(pre)
+        k = re.sub(
+            rf"^({esc} · (?:Auto · )?Mini Diamond /150)(?: · Mini Diamond /150)+( · Auto)?$",
+            r"\1\2",
+            k,
+            flags=re.I,
+        )
+    return k
+
+
+def _rewrite_trailing_insert_line_auto_after_product(norm_card_type: str) -> str:
+    """``Insert · … · Auto`` → ``Insert · Auto · …`` for PP / Bowman Draft Night / Bowman In Action."""
+    k = " ".join((norm_card_type or "").strip().split())
+    for ins in _INSERT_LINES_SPARKLE_MINI_DIAMOND_NORMALIZE:
+        pl = ins.lower() + " ·"
+        if not k.lower().startswith(pl):
+            continue
+        if not k.endswith(" · Auto"):
+            continue
+        core = k[: -len(" · Auto")].strip()
+        if core.lower() == ins.lower():
+            return f"{ins} · Auto"
+        pref = f"{ins} · "
+        if core.lower().startswith(pref.lower()):
+            rest = core[len(pref) :].strip()
+            return f"{ins} · Auto · {rest}" if rest else f"{ins} · Auto"
+    return k
+
+
+def insert_line_card_type_collapsed_for_display(norm_card_type: str) -> str:
+    """
+    Normalize redundant insert-line ``card_type`` strings for display-order CSV / lookup.
+
+    Chains bare ``/N`` → explicit ladder tokens and Sparkle/plain Mini Diamond → **Mini Diamond /150**.
+    """
+    k = " ".join((norm_card_type or "").strip().split())
+    for _ in range(8):
+        prev = k
+        t = canonical_prized_prospects_bare_slash_n_label(k)
+        if t:
+            k = t
+            continue
+        t = canonical_bowman_draft_night_bare_slash_n_label(k)
+        if t:
+            k = t
+            continue
+        t = canonical_bowman_in_action_bare_slash_n_label(k)
+        if t:
+            k = t
+            continue
+        for ins in _INSERT_LINES_SPARKLE_MINI_DIAMOND_NORMALIZE:
+            t = _canonical_insert_sparkle_150_or_plain_mini_diamond(k, insert_display=ins)
+            if t:
+                k = t
+                break
+        else:
+            t = None
+        if t:
+            continue
+        if k == prev:
+            break
+    k = _strip_redundant_sparkle_after_mini_diamond_150(k)
+    k = _dedupe_repeated_mini_diamond_150_segment(k)
+    return _rewrite_trailing_insert_line_auto_after_product(k)
+
+
+def _normalize_insert_line_sparkle_and_plain_mini_diamond(composite: str) -> str:
+    """Apply :func:`insert_line_card_type_collapsed_for_display` to a freshly built composite string."""
+    return insert_line_card_type_collapsed_for_display(composite)
 
 
 def _bdc_parallel_detail_from_serial_denominator(so: int) -> Optional[str]:
@@ -266,6 +524,21 @@ def _infer_color(title: str, flags: Dict[str, Any]) -> Optional[str]:
     for label, rx in _COLOR_PATTERNS:
         if rx.search(tl):
             return label
+    # Insert lines: serial-only titles use insert-specific ladders (PP/BDN/BIA ``/150`` → Mini Diamond).
+    n_ins = _serial_int_for_insert_color(flags)
+    if n_ins is not None and flags.get("WF_prized_prospect"):
+        tok = prized_prospects_parallel_token_from_serial_denominator(n_ins)
+        if tok:
+            return _parallel_token_leading_segment(tok)
+    if n_ins is not None and flags.get("WF_draft_night"):
+        tok = bowman_draft_night_parallel_token_from_serial_denominator(n_ins)
+        if tok:
+            return _parallel_token_leading_segment(tok)
+    if n_ins is not None and flags.get("WF_bowman_in_action"):
+        tok = bowman_in_action_parallel_token_from_serial_denominator(n_ins)
+        if tok:
+            return _parallel_token_leading_segment(tok)
+
     # Number-only denominators (e.g. "/499" = Sky Blue, "1/5" → /5 = Red) when BDC/CPA context applies.
     so = flags.get("serial_out_of")
     if so is not None and (
@@ -527,6 +800,9 @@ def _apply_color_ladder_serial_from_flags(parts: List[str], flags: Dict[str, Any
             if m and int(m.group(1)) == so:
                 out.append(f"{seg} {suf}")
                 continue
+        if seg == "Mini Diamond" and so == 150:
+            out.append("Mini Diamond /150")
+            continue
         out.append(seg)
     if has_auto:
         out.append("Auto")
@@ -540,8 +816,21 @@ def _finalize_product_group_parallel_parts(
     Product-group insert lines: reuse BDC aqua + colored collapse on a temporary BDC prefix, then
     apply ladder serial to color segments, then generic suffix for lines without a color (e.g. bare ``… /99``).
     """
+
+    def _auto_to_end_for_collapse(p: List[str]) -> List[str]:
+        if len(p) >= 2 and p[1] == "Auto":
+            return [p[0]] + p[2:] + ["Auto"]
+        return p
+
+    def _auto_immediately_after_product(p: List[str]) -> List[str]:
+        if p and p[-1] == "Auto":
+            return [p[0], "Auto"] + p[1:-1]
+        return p
+
     if slug not in _insert_line_parallel_taxonomy_slugs() or len(parts) < 2:
-        return _append_serial_suffix_to_product_group_parts(parts, flags)
+        out = _append_serial_suffix_to_product_group_parts(parts, flags)
+        return _auto_immediately_after_product(out)
+    parts = _auto_to_end_for_collapse(parts)
     orig = parts[0]
     fake = [BDC_PRIMARY_FAMILY] + parts[1:]
     fake = _collapse_bdc_aqua_parallel_parts(fake)
@@ -549,7 +838,8 @@ def _finalize_product_group_parallel_parts(
     fake[0] = orig
     parts = fake
     parts = _apply_color_ladder_serial_from_flags(parts, flags)
-    return _append_serial_suffix_to_product_group_parts(parts, flags)
+    parts = _append_serial_suffix_to_product_group_parts(parts, flags)
+    return _auto_immediately_after_product(parts)
 
 
 def _collapse_bdc_colored_parallel_parts(parts: List[str]) -> List[str]:
@@ -626,6 +916,17 @@ def _collapse_bdc_aqua_parallel_parts(parts: List[str]) -> List[str]:
     return out
 
 
+def _finalize_chrome_family_composite_parts(parts: List[str]) -> List[str]:
+    """Run BDC aqua + color collapse; **Auto** sits immediately after the chrome family prefix."""
+    if len(parts) >= 2 and parts[1] == "Auto":
+        parts = [parts[0]] + parts[2:] + ["Auto"]
+    parts = _collapse_bdc_aqua_parallel_parts(parts)
+    parts = _collapse_bdc_colored_parallel_parts(parts)
+    if parts and parts[-1] == "Auto":
+        parts = [parts[0], "Auto"] + parts[1:-1]
+    return parts
+
+
 def finalize_bdc_composite_string(s: str) -> str:
     """
     Normalize Bowman Draft **Chrome** (BDC stock) labels: aqua /125 family, then standard color + print-run buckets
@@ -637,17 +938,49 @@ def finalize_bdc_composite_string(s: str) -> str:
         s = BDC_PRIMARY_FAMILY + s[len(_LEGACY_BDC_PRIMARY_PREFIX) :]
     if s.startswith("Chrome Prospect College Variations"):
         parts = s.split(" · ")
-        parts = _collapse_bdc_aqua_parallel_parts(parts)
-        parts = _collapse_bdc_colored_parallel_parts(parts)
+        parts = _finalize_chrome_family_composite_parts(parts)
         return _join_parts(parts)
     if s == BDC_PRIMARY_FAMILY or s.startswith(f"{BDC_PRIMARY_FAMILY} · ") or s.startswith(
         f"{BDC_PRIMARY_FAMILY} /"
     ):
         parts = s.split(" · ")
-        parts = _collapse_bdc_aqua_parallel_parts(parts)
-        parts = _collapse_bdc_colored_parallel_parts(parts)
+        parts = _finalize_chrome_family_composite_parts(parts)
         return _join_parts(parts)
     return s
+
+
+def relocate_trailing_auto_immediately_after_first_segment(s: str) -> str:
+    """
+    ``First · … · Auto`` → ``First · Auto · …`` (legacy trailing autograph token).
+
+    Idempotent when **Auto** is already the second segment. Leaves bare ``First · Auto`` unchanged.
+    Also normalizes ``Chrome /N · Auto`` → ``Chrome · Auto /N`` (slash print run without `` · ``).
+    """
+    k = " ".join((s or "").strip().split())
+    m_slash = re.match(r"^(Chrome) (/\d+)\s*·\s*Auto$", k, re.I)
+    if m_slash:
+        return f"{m_slash.group(1)} · Auto {m_slash.group(2)}".replace("  ", " ").strip()
+    if not k.endswith(" · Auto"):
+        return k
+    core = k[: -len(" · Auto")].strip()
+    if " · " not in core:
+        return k
+    first, rest = core.split(" · ", 1)
+    if first == "Auto":
+        return k
+    return f"{first} · Auto · {rest}".strip()
+
+
+def canonical_display_order_lookup_key(card_type: str) -> str:
+    """
+    Same normalization as the display-order CSV regen: insert-line collapse, BDC finalize, then
+    legacy trailing-**Auto** relocation so pairwise keys stay aligned with listing taxonomy.
+    """
+    k = " ".join((card_type or "").strip().split())
+    k = insert_line_card_type_collapsed_for_display(k)
+    k = finalize_bdc_composite_string(k)
+    k = relocate_trailing_auto_immediately_after_first_segment(k)
+    return " ".join(k.split())
 
 
 def format_axis_card_type(row: Dict[str, Any]) -> str:
@@ -656,6 +989,8 @@ def format_axis_card_type(row: Dict[str, Any]) -> str:
     flags = flags_for_title(title)
     is_auto = bool(flags.get("WF_auto"))
     parts: List[str] = ["Bowman Axis"]
+    if is_auto:
+        parts.append("Auto")
 
     if flags.get("WF_superfractor"):
         parts.append("Superfractor")
@@ -684,8 +1019,6 @@ def format_axis_card_type(row: Dict[str, Any]) -> str:
         else:
             parts.append("Base")
 
-    if is_auto:
-        parts.append("Auto")
     return _join_parts(parts)
 
 
@@ -710,44 +1043,50 @@ def build_composite_card_type(row: Dict[str, Any]) -> Optional[str]:
         if _RE_BD_CARD_NUMBER.search(title) or (
             flags.get("WF_paper") and "bowman" in tl0
         ):
-            parts = ["Base-Paper", "Black Border"]
+            parts = ["Base-Paper"]
             if is_auto:
                 parts.append("Auto")
+            parts.append("Black Border")
             return _join_parts(parts)
 
     # Title-only overrides (classifier gaps).
     if _RE_ETCHED_IN_GLASS.search(title):
         c = _infer_color(title, flags)
         fin = _infer_finish(flags, title)
-        parts = ["Etched in Glass", c, fin]
+        parts = ["Etched in Glass"]
         if is_auto:
             parts.append("Auto")
+        parts.extend([p for p in (c, fin) if p])
         return _join_parts([p for p in parts if p])
 
     if _RE_IMAGE_VARIATION.search(title):
         c = _infer_color(title, flags)
         fin = _infer_finish(flags, title)
-        parts = ["Image Variations", c, fin]
+        parts = ["Image Variations"]
         if is_auto:
             parts.append("Auto")
+        parts.extend([p for p in (c, fin) if p])
         return _join_parts([p for p in parts if p])
 
     if _RE_X_FRACTOR_PHRASE.search(title) and not flags.get("WF_axis"):
-        parts = [BDC_PRIMARY_FAMILY, "X-Fractor"]
+        parts = [BDC_PRIMARY_FAMILY]
         if is_auto:
             parts.append("Auto")
+        parts.append("X-Fractor")
         return _join_parts(parts)
 
     tl = title.lower()
     if _RE_SPECKLE_REFRACTOR.search(tl):
-        parts = [BDC_PRIMARY_FAMILY, "Speckle Refractor"]
+        parts = [BDC_PRIMARY_FAMILY]
         if is_auto:
             parts.append("Auto")
+        parts.append("Speckle Refractor")
         return _join_parts(parts)
     if _RE_SPARKLE_REFRACTOR.search(tl):
-        parts = [BDC_PRIMARY_FAMILY, "Sparkle"]
+        parts = [BDC_PRIMARY_FAMILY]
         if is_auto:
             parts.append("Auto")
+        parts.append("Sparkle")
         return _join_parts(parts)
 
     group = _pick_product_group(flags)
@@ -756,26 +1095,29 @@ def build_composite_card_type(row: Dict[str, Any]) -> Optional[str]:
     if group:
         slug, gdisp = group
         parts = [gdisp]
+        if is_auto:
+            parts.append("Auto")
         if color:
             parts.append(color)
         fin = _infer_finish(flags, title)
         if slug == "crystallized" and fin == "Crystallized":
             fin = None
-        if fin:
+        if fin and fin != color:
             parts.append(fin)
-        if is_auto:
-            parts.append("Auto")
         parts = _finalize_product_group_parallel_parts(parts, slug, flags)
-        return _join_parts(parts)
+        out = _join_parts(parts)
+        if slug in ("prized_prospects", "bowman_draft_night", "bowman_in_action"):
+            out = _normalize_insert_line_sparkle_and_plain_mini_diamond(out)
+        return out
 
     # No insert line matched: BDC chrome parallels (colors / refractor ladder — stock omitted).
     if _should_apply_chrome_bdc_parallel_taxonomy(row, flags):
         detail = _bdc_parallel_detail(row, flags)
         parts = [BDC_PRIMARY_FAMILY]
-        if detail:
-            parts.append(detail)
         if is_auto:
             parts.append("Auto")
+        if detail:
+            parts.append(detail)
         return _join_parts(parts)
 
     return None

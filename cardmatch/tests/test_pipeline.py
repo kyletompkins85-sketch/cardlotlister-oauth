@@ -283,7 +283,7 @@ class TestReviewSliceRow(unittest.TestCase):
             "pilot_reason_codes": '["not_likely_base", "nb_chrome", "nb_bdc", "nb_refractor", "nb_auto"]',
             "title": "2025 Bowman Draft #BDC-1 Eli Willits Chrome Refractor Auto",
         }
-        self.assertEqual(row_primary_card_type(r_ref_auto), "Chrome · Refractor · Auto")
+        self.assertEqual(row_primary_card_type(r_ref_auto), "Chrome · Auto · Refractor")
         self.assertFalse(row_matches_classification_focus(r_ref_auto, "chrome_refractor_plain"))
         r_spot = {
             "pilot_is_snack_pack": "0",

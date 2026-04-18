@@ -28,7 +28,8 @@ def short_card_type_display_for_api(card_type: str) -> str:
 
     - ``Base-Paper`` → ``base``; ``Base-Paper · …`` → ``base · …``
     - ``Bowman Draft Night · …`` → ``Draft Night …`` (drops redundant **Bowman**)
-    - ``Chrome · Base`` → ``Chrome``; `` · Auto`` → ``Chrome Auto``; other parallels → ``Chrome …``
+    - ``Chrome · Base`` → ``Chrome``; ``Chrome · Auto`` / ``Chrome · Auto · …`` → ``Chrome Auto`` /
+      ``Chrome Auto …``; other parallels → ``Chrome …``
     """
     t = (card_type or "").strip()
     if not t:
@@ -59,6 +60,9 @@ def short_card_type_display_for_api(card_type: str) -> str:
         return "Chrome"
     if rest == "Auto":
         return "Chrome Auto"
+    if rest.startswith("Auto · "):
+        tail = rest[len("Auto · ") :].lstrip()
+        return f"Chrome Auto {tail}" if tail else "Chrome Auto"
     if rest.startswith("Auto "):
         return "Chrome Auto " + rest[len("Auto ") :].lstrip()
     return f"Chrome {rest}"

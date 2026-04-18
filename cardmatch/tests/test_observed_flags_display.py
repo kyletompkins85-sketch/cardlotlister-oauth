@@ -46,8 +46,10 @@ class TestShortCardTypeDisplay(unittest.TestCase):
 
     def test_bowman_draft_night_gold_stack(self) -> None:
         self.assertEqual(
-            short_card_type_display_for_api("Bowman Draft Night · Gold · Mini Diamond · Auto"),
-            "Draft Night Gold · Mini Diamond · Auto",
+            short_card_type_display_for_api(
+                "Bowman Draft Night · Auto · Gold /50 · Mini Diamond"
+            ),
+            "Draft Night Auto · Gold /50 · Mini Diamond",
         )
 
     def test_other_types_unchanged(self) -> None:
