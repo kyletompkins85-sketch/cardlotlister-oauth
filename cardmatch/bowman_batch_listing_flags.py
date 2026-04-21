@@ -1,5 +1,5 @@
 """
-Batch observed-price flags: spread ratio (2nd cheapest / 1st cheapest per card type) and
+Batch observed-price flags: spread ratios (2nd/1st and 3rd/1st cheapest per card type) and
 inversion vs strictly worse card types (pairwise rank).
 """
 
@@ -23,6 +23,19 @@ def spread_ratio_second_over_first(prices: Sequence[float]) -> Optional[float]:
     if len(good) < 2:
         return None
     return good[1] / good[0]
+
+
+def spread_ratio_third_over_first(prices: Sequence[float]) -> Optional[float]:
+    """
+    Third-smallest / smallest among positive finite prices (same card type group).
+
+    Uses the same sorted multiset as :func:`spread_ratio_second_over_first` (duplicates count
+    toward 2nd and 3rd order statistics). Returns ``None`` if fewer than three such prices.
+    """
+    good = sorted(p for p in prices if p > 0 and math.isfinite(p))
+    if len(good) < 3:
+        return None
+    return good[2] / good[0]
 
 
 def _price_is_min_for_card_type(
@@ -81,6 +94,7 @@ class BatchFlagRow:
     """Per-index output from :func:`analyze_batch_observed_flags`."""
 
     spread_ratio: Optional[float]
+    spread_ratio_third: Optional[float]
     cheaper_than_worse_tier: Optional[bool]
     price_skip_reason: Optional[str]
 
@@ -110,14 +124,16 @@ def analyze_batch_observed_flags(
     is_serial_listing: Sequence[Optional[bool]],
 ) -> List[BatchFlagRow]:
     """
-    Compute spread ratio and inversion flag for each row index.
+    Compute spread ratios (2nd/1st, 3rd/1st) and inversion flag for each row index.
 
-    Rows with classification excluded or batch processing error get ``None`` for both fields.
-    Rows with invalid/missing price get ``None`` for both fields and a ``price_skip_reason``.
+    Rows with classification excluded or batch processing error get ``None`` for spread fields.
+    Rows with invalid/missing price get ``None`` for spread fields and a ``price_skip_reason``.
 
-    **Spread ratio:** the group ratio (2nd / 1st listing price for that card type) is returned
-    **only on rows whose observed price equals the batch minimum** for that card type; higher-
-    priced duplicates of the same type get ``spread_ratio`` ``None``.
+    **Spread ratios:** for each card type, 2nd/1st and 3rd/1st (order statistics of the price
+    multiset) are computed. Each is returned **only on rows whose observed price equals the batch
+    minimum** for that card type; higher-priced duplicates get ``None`` for that ratio. If there
+    are fewer than two (resp. three) valid prices for the type, ``spread_ratio`` (resp.
+    ``spread_ratio_third``) is ``None`` on min-price rows.
 
     **Inversion (``cheaper_than_worse_tier``):** only computed when ``is_serial_listing[i]``
     is ``True``. If ``False`` or ``None`` (unknown / not serial), the inversion field is ``None``
@@ -146,6 +162,7 @@ def analyze_batch_observed_flags(
         by_ct.setdefault(ct, []).append(float(listing_prices[i]))
 
     ratio_by_ct: Dict[str, Optional[float]] = {ct: spread_ratio_second_over_first(vals) for ct, vals in by_ct.items()}
+    ratio3_by_ct: Dict[str, Optional[float]] = {ct: spread_ratio_third_over_first(vals) for ct, vals in by_ct.items()}
 
     min_price_by_ct: Dict[str, float] = {ct: min(vals) for ct, vals in by_ct.items()}
 
@@ -155,6 +172,7 @@ def analyze_batch_observed_flags(
             out.append(
                 BatchFlagRow(
                     spread_ratio=None,
+                    spread_ratio_third=None,
                     cheaper_than_worse_tier=None,
                     price_skip_reason=None,
                 )
@@ -164,6 +182,7 @@ def analyze_batch_observed_flags(
             out.append(
                 BatchFlagRow(
                     spread_ratio=None,
+                    spread_ratio_third=None,
                     cheaper_than_worse_tier=None,
                     price_skip_reason=None,
                 )
@@ -175,6 +194,7 @@ def analyze_batch_observed_flags(
             out.append(
                 BatchFlagRow(
                     spread_ratio=None,
+                    spread_ratio_third=None,
                     cheaper_than_worse_tier=None,
                     price_skip_reason=price_reason,
                 )
@@ -188,6 +208,11 @@ def analyze_batch_observed_flags(
             sr = raw_ratio
         else:
             sr = None
+        raw_ratio3 = ratio3_by_ct.get(ct)
+        if raw_ratio3 is not None and _price_is_min_for_card_type(price, ct, min_price_by_ct):
+            sr3 = raw_ratio3
+        else:
+            sr3 = None
         if is_serial_listing[i] is True:
             inv: Optional[bool] = cheaper_than_worse_tier_in_batch(
                 price,
@@ -201,6 +226,7 @@ def analyze_batch_observed_flags(
         out.append(
             BatchFlagRow(
                 spread_ratio=sr,
+                spread_ratio_third=sr3,
                 cheaper_than_worse_tier=inv,
                 price_skip_reason=None,
             )

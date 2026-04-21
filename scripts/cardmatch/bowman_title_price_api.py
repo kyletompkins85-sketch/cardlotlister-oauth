@@ -14,7 +14,9 @@ Install: ``pip install -r requirements.txt`` (repo root) or ``pip install fastap
 
 Railway: Nixpacks uses root ``requirements.txt`` and ``Procfile`` ``web`` process. ``PORT`` is set automatically; bind uses ``0.0.0.0``. If ``agModels`` is missing, the process still starts; ``GET /health`` succeeds and ``POST /predict`` / ``POST /predict/batch`` return 503 until ``BOWMAN_AUTOGLUON_DIR`` points at a valid directory.
 
-``POST /batch/observed-flags`` uses observed prices and pairwise card-type ranks only (no AutoGluon). Max batch size defaults to 200 (``BOWMAN_OBSERVED_BATCH_MAX``).
+``POST /batch/observed-flags`` uses observed prices and pairwise card-type ranks only (no AutoGluon).
+For mixed-player payloads, comparisons are computed per player cohort (optional ``player_key`` can override
+title-derived player grouping). Max batch size defaults to 200 (``BOWMAN_OBSERVED_BATCH_MAX``).
 """
 from __future__ import annotations
 
@@ -59,6 +61,10 @@ class ObservedFlagsItemRequest(BaseModel):
     title: str = Field(..., min_length=1, description="eBay listing title")
     price: float = Field(..., description="Observed listing price (required for batch flags)")
     id: Optional[str] = Field(default=None, description="Optional client id echoed in the response")
+    player_key: Optional[str] = Field(
+        default=None,
+        description="Optional explicit player grouping key for observed-flags batch comparisons",
+    )
     year: Optional[int] = Field(default=None, description="Optional product year, e.g. 2025")
     set_name: Optional[str] = Field(
         default=None,
@@ -89,7 +95,7 @@ def main() -> None:
             "Install fastapi uvicorn pydantic: pip install fastapi uvicorn pydantic\n" + str(e)
         ) from e
 
-    from cardmatch.bowman_batch_listing_flags import analyze_batch_observed_flags
+    from cardmatch.bowman_batch_listing_flags import BatchFlagRow, analyze_batch_observed_flags
     from cardmatch.card_type_display_order import display_order_for_card_type, load_merged_display_order
     from cardmatch.observed_flags_display import short_card_type_display_for_api
     from cardmatch.serial_scarcity import is_serial_listing_from_bowman_flags
@@ -245,37 +251,48 @@ def main() -> None:
                     is_serial_seq.append(
                         is_serial_listing_from_bowman_flags(c.pilot_result.bowman_flags, title=c.title)
                     )
-            flags = analyze_batch_observed_flags(
-                card_type_norm_by_index=[c.card_type_norm for c in classified],
-                classification_excluded=[c.excluded for c in classified],
-                classification_batch_error=batch_err,
-                listing_prices=prices,
-                ct_map=ct_map,
-                ct_median=ct_med,
-                is_serial_listing=is_serial_seq,
-            )
+            # Compute observed-price flags within each player cohort so mixed-player batches
+            # do not cross-contaminate spread floors or inversion checks.
+            by_group: dict[str, list[int]] = {}
+            for i, (c, req) in enumerate(zip(classified, payload.items)):
+                explicit_group = _norm_player(req.player_key or "")
+                if explicit_group:
+                    gk = f"explicit:{explicit_group}"
+                else:
+                    inferred_group = _norm_player(c.player)
+                    gk = f"classified:{inferred_group}" if inferred_group else f"unknown:{i}"
+                by_group.setdefault(gk, []).append(i)
+
+            flags: list[Optional[BatchFlagRow]] = [None] * len(classified)
+            for idxs in by_group.values():
+                group_flags = analyze_batch_observed_flags(
+                    card_type_norm_by_index=[classified[i].card_type_norm for i in idxs],
+                    classification_excluded=[classified[i].excluded for i in idxs],
+                    classification_batch_error=[batch_err[i] for i in idxs],
+                    listing_prices=[prices[i] for i in idxs],
+                    ct_map=ct_map,
+                    ct_median=ct_med,
+                    is_serial_listing=[is_serial_seq[i] for i in idxs],
+                )
+                for i, fr in zip(idxs, group_flags):
+                    flags[i] = fr
+
+            if any(fr is None for fr in flags):
+                raise RuntimeError("internal: missing observed flags output")
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e)) from e
 
-        players_norm: set[str] = set()
-        for c in classified:
-            if c.batch_item_error or c.excluded:
-                continue
-            pn = _norm_player(c.player)
-            if pn:
-                players_norm.add(pn)
-        warnings: list[str] = []
-        if len(players_norm) > 1:
-            warnings.append("multiple_players_in_batch")
-
         results: list[dict] = []
         for c, req, fr in zip(classified, payload.items, flags):
+            if fr is None:  # pragma: no cover - defensive (should be impossible)
+                raise HTTPException(status_code=500, detail="internal: missing observed flags row")
             diag: dict = {
                 "title": c.title,
                 "excluded": c.excluded,
                 "exclude_reason": c.exclude_reason,
                 "matcher_version": c.matcher_version,
                 "listing_price": req.price,
+                "player_group_key": req.player_key if (req.player_key or "").strip() else None,
                 "year": req.year,
                 "set_name": req.set_name,
             }
@@ -292,6 +309,7 @@ def main() -> None:
             row: dict = {
                 "card_type": short_card_type_display_for_api(c.card_type),
                 "spread_ratio": fr.spread_ratio,
+                "spread_ratio_third": fr.spread_ratio_third,
                 "cheaper_than_worse_tier": fr.cheaper_than_worse_tier,
                 "confidence": {
                     "player_score": c.player_score,
@@ -306,10 +324,7 @@ def main() -> None:
                 row["id"] = req.id
             results.append(row)
 
-        out: dict = {"results": results}
-        if warnings:
-            out["warnings"] = warnings
-        return out
+        return {"results": results}
 
     # Cmd+F: GH_ANCHOR_BOWMAN_TITLE_PRICE_API_UVICORN_BIND
     # Railway sets PORT; bind 0.0.0.0 unless BOWMAN_API_HOST overrides.
