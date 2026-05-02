@@ -1,0 +1,5 @@
+{
+  "source": "supabase latest comp batch export via MCP execute_sql",
+  "rows_exported": 17169,
+  "output_csv": "/Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/term_search_items_export.csv"
+}

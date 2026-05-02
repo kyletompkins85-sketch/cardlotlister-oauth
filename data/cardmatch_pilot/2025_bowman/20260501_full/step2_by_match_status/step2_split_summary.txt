@@ -1,0 +1,9 @@
+source: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/listings_steps12.csv
+output_dir: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/step2_by_match_status
+
+7720	matched
+5420	unmatched_no_code
+2093	excluded
+1625	matched_player_weak
+308	unmatched_code_not_on_checklist
+3	matched_low_confidence
