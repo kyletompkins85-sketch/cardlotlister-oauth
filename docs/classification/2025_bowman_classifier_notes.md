@@ -8,7 +8,8 @@ Goal: capture nuance first, structure later.
 
 - Dataset snapshot: `data/cardmatch_pilot/2025_bowman/20260501_full/term_search_items_export.csv`
 - Checklists: full normalized rows in `data/checklists/normalized/2025_Bowman_Normalized.csv`; compact number → player → `card_type` line in `data/checklists/normalized/2025_Bowman_card_number_lookup.csv` (same idea as `bowman_cards.csv`, kept for classifier alignment).
-- Steps 1–2 (exclude + checklist code match): `scripts/cardmatch/run_2025_bowman_retail_steps12.py` → writes full `listings_steps12.csv` next to the input export, then one **review** CSV per `match_status` under `step2_by_match_status/` with columns only `card_number`, `player_name`, `card_type`, `listing` (logic in `cardmatch/bowman_2025_retail_steps.py`). Re-split only: `scripts/cardmatch/split_listings_steps12_by_match_status.py`.
+- Steps 1–2 (exclude + checklist code match): `scripts/cardmatch/run_2025_bowman_retail_steps12.py` → writes full `listings_steps12.csv` next to the input export (includes `step2_pass`: **1** only when `match_status` is `matched`, i.e. title↔checklist player score ≥ 80). Then one **review** CSV per `match_status` under `step2_by_match_status/` with columns only `card_number`, `player_name`, `card_type`, `listing` (logic in `cardmatch/bowman_2025_retail_steps.py`). Re-split only: `scripts/cardmatch/split_listings_steps12_by_match_status.py`.
+- **Word flags / groups**: `cardmatch/bowman_2025_retail_flags.py` — `WF_*` flags are grounded in **this notes doc** (exclusions, paper/chrome clues, card-vs-modifier keywords, insert **phrases** from the set-distinction list). **`grp_*`** are reserved placeholders (all false) until retail-specific combination rules are defined; they are **not** copied from Bowman Draft. Step-1 exclusions use the same `WF_*` definitions.
 - This file is intentionally lightweight and iterative.
 - Prefer recording reasoning over rushing implementation.
 
@@ -219,6 +220,10 @@ Current explicit heuristics (from working notes):
 - If title includes `Chrome`, classify as `Chrome` (not Base/Paper).
 - If title includes `Paper`, classify as `Base/Paper` (not Chrome).
 - If title includes `true blue`, `true red`, etc., classify as `Base/Paper` (not Chrome).
+
+Implementation note (``WF_chrome`` / ``WF_paper`` in ``cardmatch/bowman_2025_retail_flags.py``): ``WF_chrome`` is also set by chrome-line checklist codes **BCP**, **CPA**, **CRA** (strict hyphen or glued digits); ``WF_paper`` is also set by **BP**, **BPA**, **PRV** the same way.
+
+Word flags for matching help: ``WF_rookie_of_the_year`` (phrase *rookie of the year* or strict ``ROY-`` / ``#ROY-`` codes), ``WF_auto`` (auto / autograph / a/u / on-card / signed / signature), plus ``WF_insert_roy_favorites`` for the insert line name *Rookie of the Year Favorites* only.
 
 Card-number and prefix clues (high-signal):
 

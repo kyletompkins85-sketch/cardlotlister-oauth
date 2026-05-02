@@ -1,0 +1,11 @@
+source: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/listings_steps12.csv
+output_dir: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/step23_by_match_status
+
+7711	matched
+4079	excluded
+3782	unmatched_no_code
+1109	rejected_player_mismatch
+299	unmatched_code_not_on_checklist
+189	matched_step3_insert
+
+5190	still_unmatched_after_both (union of non-excluded, non-matched buckets)
