@@ -5,9 +5,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from cardmatch.bowman_2025_listing_display import listing_display_from_title
 from cardmatch.bowman_2025_retail_flags import word_flags_for_title
 from cardmatch.bowman_2025_retail_steps import (
     MATCHED_STEP3_INSERT_STATUS,
+    STEP3_MATCHED_REVIEW_COLUMNS,
     btp_checklist_rows,
     checklist_code_prefixes,
     exclusion_reason,
@@ -17,16 +19,30 @@ from cardmatch.bowman_2025_retail_steps import (
     load_card_lookup,
     match_listing_to_checklist,
     match_status_after_step3,
+    player_name_for_review_csv,
     process_title,
     roy_checklist_subsets,
     rr_checklist_subsets,
     step23_pass,
     write_listings_step23_split_by_match_status,
+    write_listings_step3_matched_with_serial,
     write_listings_steps12_split_by_match_status,
 )
 
 
 class TestBowman2025RetailSteps(unittest.TestCase):
+    def test_player_name_for_review_csv(self):
+        self.assertEqual(player_name_for_review_csv("Jackson Humphries"), "Ja Humphries")
+        self.assertEqual(player_name_for_review_csv("Mike Trout"), "Mi Trout")
+        self.assertEqual(player_name_for_review_csv("JJ"), "JJ")
+        self.assertEqual(player_name_for_review_csv(""), "")
+
+    def test_load_lookup_has_card_type_display_for_bcp(self):
+        row = self.by_key.get("BCP-1")
+        self.assertIsNotNone(row)
+        self.assertEqual(row.card_type, "Bowman Chrome Prospects")
+        self.assertEqual(row.card_type_display, "BCP")
+
     @classmethod
     def setUpClass(cls):
         by_key, names = load_card_lookup()
@@ -91,6 +107,13 @@ class TestBowman2025RetailSteps(unittest.TestCase):
 
         t2 = "#99 2025 Bowman Aaron Judge Yankees"
         self.assertIn("99", extract_checklist_codes(t2, self.prefixes))
+
+    def test_extract_chrome_title_omits_paper_base_hash_slots(self):
+        p = self.prefixes
+        self.assertNotIn(
+            "7",
+            extract_checklist_codes("2025 Bowman Chrome - Bobby Witt Jr Mojo #7", p),
+        )
 
     def test_extract_hash_base_not_serial_fraction(self):
         p = self.prefixes
@@ -359,7 +382,10 @@ class TestBowman2025RetailSteps(unittest.TestCase):
             self.assertTrue(p_m.is_file())
             with p_m.open(newline="", encoding="utf-8") as f:
                 r = csv.DictReader(f)
-                self.assertEqual(r.fieldnames, ["card_number", "player_name", "card_type", "listing"])
+                self.assertEqual(
+                    r.fieldnames,
+                    ["card_number", "player_name", "card_type", "listing_display", "listing"],
+                )
                 rows = list(r)
             self.assertEqual(len(rows), 3)
             self.assertEqual([x["card_number"] for x in rows], ["HS-1", "HS-2", "HS-11"])
@@ -369,10 +395,47 @@ class TestBowman2025RetailSteps(unittest.TestCase):
                     "card_number": "HS-1",
                     "player_name": "P1",
                     "card_type": "CT1",
+                    "listing_display": listing_display_from_title("T2", card_number="HS-1"),
                     "listing": "T2",
                 },
             )
             self.assertTrue((out_dir / "step2_split_summary.txt").is_file())
+
+    def test_write_step3_matched_with_serial_columns_and_sort(self):
+        with tempfile.TemporaryDirectory() as td:
+            merged = Path(td) / "listings_steps12.csv"
+            merged.write_text(
+                "item_id,title,excluded,match_status,matched_card_number,matched_checklist_player,"
+                "matched_card_type,extracted_codes,serial_out_of,step3_inferred_card_number,"
+                "match_status_after_step3\n"
+                "1,BCP-2 /499,0,matched,BCP-2,Player Two,BCP,,499,,matched\n"
+                "2,BCP-2 base,0,matched,BCP-2,Player Two,BCP,,,,matched\n"
+                "3,BCP-2 Yellow /250,0,matched,BCP-2,Player Two,BCP,,,,matched\n"
+                "4,BCP-10 green,0,matched,BCP-10,Player Ten,BCP,,,,matched\n"
+                "5,ROY-1,0,unmatched_no_code,,,,,,ROY-1,matched_step3_insert\n",
+                encoding="utf-8",
+            )
+            out_dir = Path(td) / "s3"
+            n = write_listings_step3_matched_with_serial(merged, out_dir=out_dir)
+            self.assertEqual(n, 4)
+            p = out_dir / "listings_step3_matched.csv"
+            with p.open(newline="", encoding="utf-8") as f:
+                dr = csv.DictReader(f)
+                self.assertEqual(tuple(dr.fieldnames or ()), STEP3_MATCHED_REVIEW_COLUMNS)
+                rows = list(dr)
+            self.assertEqual(len(rows), 4)
+            self.assertEqual(
+                [(x["card_number"], x["serial"]) for x in rows],
+                [
+                    ("BCP-2", "-1"),
+                    ("BCP-2", "499"),
+                    ("BCP-2", "250"),
+                    ("BCP-10", "-1"),
+                ],
+            )
+            self.assertEqual(rows[1]["player_name"], "Pl Two")
+            self.assertEqual(rows[1]["card_type"], "BCP")
+            self.assertTrue((out_dir / "step3_matched_summary.txt").is_file())
 
 
 if __name__ == "__main__":

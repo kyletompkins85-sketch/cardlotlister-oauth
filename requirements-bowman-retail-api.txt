@@ -1,0 +1,7 @@
+# Slim stack for scripts/cardmatch/bowman_retail_deals_api.py (Railway POC / local).
+# Install: pip install -r requirements-bowman-retail-api.txt
+# Repo root must be on PYTHONPATH (run from repo root).
+
+fastapi>=0.110.0,<1
+uvicorn[standard]>=0.27.0,<1
+pydantic>=2.0.0,<3

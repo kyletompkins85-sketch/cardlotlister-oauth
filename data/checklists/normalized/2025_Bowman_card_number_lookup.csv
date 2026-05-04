@@ -1,902 +1,902 @@
-card_number,player,card_type
-1,Mike Trout,Base
-2,Gunnar Henderson,Base
-3,Bryce Harper,Base
-4,Adrian Del Castillo,Base
-5,Freddie Freeman,Base
-6,Rhett Lowder,Base
-7,Bobby Witt Jr.,Base
-8,Drew Thorpe,Base
-9,Jacob Wilson,Base
-10,Rafael Devers,Base
-11,Jackson Chourio,Base
-12,Roki Sasaki,Base
-13,Junior Caminero,Base
-14,Lawrence Butler,Base
-15,Emmanuel Clase,Base
-16,Mookie Betts,Base
-17,Shohei Ohtani,Base
-18,Yoshinobu Yamamoto,Base
-19,Randy Arozarena,Base
-20,Tarik Skubal,Base
-21,Ronald Acuña Jr.,Base
-22,Juan Soto,Base
-23,Fernando Tatis Jr.,Base
-24,Marcus Semien,Base
-25,Yordan Alvarez,Base
-26,Manny Machado,Base
-27,Vladimir Guerrero Jr.,Base
-28,Jacob deGrom,Base
-29,James Wood,Base
-30,Paul Skenes,Base
-31,Adael Amador,Base
-32,Austin Riley,Base
-33,Wyatt Langford,Base
-34,Salvador Perez,Base
-35,Adley Rutschman,Base
-36,Triston Casas,Base
-37,Coby Mayo,Base
-38,Corey Seager,Base
-39,Eury Pérez,Base
-40,Cole Ragans,Base
-41,Tomoyuki Sugano,Base
-42,Dylan Crews,Base
-43,Kyle Tucker,Base
-44,Elly De La Cruz,Base
-45,Zack Wheeler,Base
-46,Connor Norby,Base
-47,Shay Whitcomb,Base
-48,Shane McClanahan,Base
-49,CJ Abrams,Base
-50,Jackson Jobe,Base
-51,Shota Imanaga,Base
-52,Cody Bellinger,Base
-53,Ceddanne Rafaela,Base
-54,David Festa,Base
-55,Zach Neto,Base
-56,Pete Alonso,Base
-57,Thomas Saggese,Base
-58,Riley Greene,Base
-59,Jace Jung,Base
-60,Willy Adames,Base
-61,Hurston Waldrep,Base
-62,Will Smith,Base
-63,Jose Altuve,Base
-64,Jackson Merrill,Base
-65,Trea Turner,Base
-66,Bryan Reynolds,Base
-67,Christian Yelich,Base
-68,Nolan Arenado,Base
-69,River Ryan,Base
-70,William Contreras,Base
-71,Ozzie Albies,Base
-72,Brooks Lee,Base
-73,Carlos Correa,Base
-74,Matt Chapman,Base
-75,Orelvis Martinez,Base
-76,Ketel Marte,Base
-77,Jackson Holliday,Base
-78,Spencer Schwellenbach,Base
-79,Julio Rodríguez,Base
-80,Kumar Rocker,Base
-81,Jhonkensy Noel,Base
-82,Chris Sale,Base
-83,Luisangel Acuña,Base
-84,Ezequiel Tovar,Base
-85,Ben Rice,Base
-86,Francisco Lindor,Base
-87,Logan Gilbert,Base
-88,Luis Robert Jr.,Base
-89,José Ramírez,Base
-90,Jung Hoo Lee,Base
-91,Hyeseong Kim,Base
-92,Bo Bichette,Base
-93,Tyler Locklear,Base
-94,Caden Dana,Base
-95,Kevin Alcántara,Base
-96,Corbin Carroll,Base
-97,Nick Yorke,Base
-98,Matt Olson,Base
-99,Aaron Judge,Base
-100,Masyn Winn,Base
-BP-1,Walker Jenkins,Bowman Prospects
-BP-2,Zyhir Hope,Bowman Prospects
-BP-3,Romeo Sanabria,Bowman Prospects
-BP-4,Asbel Gonzalez,Bowman Prospects
-BP-5,Franyerber Montilla,Bowman Prospects
-BP-6,Wen-Hui Pan,Bowman Prospects
-BP-7,Gregory Barrios,Bowman Prospects
-BP-8,Dawel Joseph,Bowman Prospects
-BP-9,Esteban Mejia,Bowman Prospects
-BP-10,Cade Horton,Bowman Prospects
-BP-11,Jackson Humphries,Bowman Prospects
-BP-12,Hayden Alvarez,Bowman Prospects
-BP-13,Josue Briceno,Bowman Prospects
-BP-14,Owen Wild,Bowman Prospects
-BP-15,Walker Janek,Bowman Prospects
-BP-16,Engelth Urena,Bowman Prospects
-BP-17,Colt Emerson,Bowman Prospects
-BP-18,Ichiro Cano Hernandez,Bowman Prospects
-BP-19,Fabian Lopez,Bowman Prospects
-BP-20,Ashly Andujar,Bowman Prospects
-BP-21,Slade Caldwell,Bowman Prospects
-BP-22,JJ Wetherholt,Bowman Prospects
-BP-23,Lazaro Montes,Bowman Prospects
-BP-24,Max Clark,Bowman Prospects
-BP-25,Quinn Mathews,Bowman Prospects
-BP-26,Jancel Villarroel,Bowman Prospects
-BP-27,Yu-Min Lin,Bowman Prospects
-BP-28,Carlos Tavares,Bowman Prospects
-BP-29,David Ortiz Jr.,Bowman Prospects
-BP-30,Bishop Letson,Bowman Prospects
-BP-31,Ricardo Yan,Bowman Prospects
-BP-32,Cole Fontenelle,Bowman Prospects
-BP-33,Aron Estrada,Bowman Prospects
-BP-34,Rafael Flores,Bowman Prospects
-BP-35,Will Simpson,Bowman Prospects
-BP-36,Yophery Rodriguez,Bowman Prospects
-BP-37,Esmith Pineda,Bowman Prospects
-BP-38,Luis Pena,Bowman Prospects
-BP-39,James Tibbs III,Bowman Prospects
-BP-40,Robert Calaz,Bowman Prospects
-BP-41,Mitch Jebb,Bowman Prospects
-BP-42,Kristian Campbell,Bowman Prospects
-BP-43,Jhostynxon Garcia,Bowman Prospects
-BP-44,Hagen Smith,Bowman Prospects
-BP-45,Victor Rodrigues,Bowman Prospects
-BP-46,Cam Caminiti,Bowman Prospects
-BP-47,Dylan Fien,Bowman Prospects
-BP-48,Cam Smith,Bowman Prospects
-BP-49,Bryce Rainer,Bowman Prospects
-BP-50,Sammy Hernandez,Bowman Prospects
-BP-51,Hyun-Seok Jang,Bowman Prospects
-BP-52,Ismael Javier,Bowman Prospects
-BP-53,Jacob Bresnahan,Bowman Prospects
-BP-54,Aidan Miller,Bowman Prospects
-BP-55,Gary Gill Hill,Bowman Prospects
-BP-56,Chase Mobley,Bowman Prospects
-BP-57,Chase Hampton,Bowman Prospects
-BP-58,Jonathon Long,Bowman Prospects
-BP-59,Leo De Vries,Bowman Prospects
-BP-60,Jack Penney,Bowman Prospects
-BP-61,D'Angelo Ortiz,Bowman Prospects
-BP-62,Luke Sinnard,Bowman Prospects
-BP-63,George Klassen,Bowman Prospects
-BP-64,Jack Lines,Bowman Prospects
-BP-65,Aroon Escobar,Bowman Prospects
-BP-66,Jesus Made,Bowman Prospects
-BP-67,Franklin Arias,Bowman Prospects
-BP-68,Javier Mogollon,Bowman Prospects
-BP-69,Thomas White,Bowman Prospects
-BP-70,Esteban Gonzalez,Bowman Prospects
-BP-71,Richard Matic,Bowman Prospects
-BP-72,Paulino Santana,Bowman Prospects
-BP-73,Steven Echavarria,Bowman Prospects
-BP-74,Zack Showalter,Bowman Prospects
-BP-75,Charlie Condon,Bowman Prospects
-BP-76,Blake Wolters,Bowman Prospects
-BP-77,Khadim Diaw,Bowman Prospects
-BP-78,Payton Eeles,Bowman Prospects
-BP-79,Kevin McGonigle,Bowman Prospects
-BP-80,Edgleen Perez,Bowman Prospects
-BP-81,Aidan Smith,Bowman Prospects
-BP-82,Kevyn Castillo,Bowman Prospects
-BP-83,Émilien Pitre,Bowman Prospects
-BP-84,Jansel Luis,Bowman Prospects
-BP-85,Jared Sundstrom,Bowman Prospects
-BP-86,Konnor Griffin,Bowman Prospects
-BP-87,Didier Fuentes,Bowman Prospects
-BP-88,Jesus Lopez,Bowman Prospects
-BP-89,Sean Keys,Bowman Prospects
-BP-90,Andrew Morris,Bowman Prospects
-BP-91,PJ Morlando,Bowman Prospects
-BP-92,Bo Walker,Bowman Prospects
-BP-93,Seaver King,Bowman Prospects
-BP-94,Marcos Torres,Bowman Prospects
-BP-95,Tsung-Che Cheng,Bowman Prospects
-BP-96,Humberto Cruz,Bowman Prospects
-BP-97,Cameron Sullivan,Bowman Prospects
-BP-98,Anderson Brito,Bowman Prospects
-BP-99,Naibel Mariano,Bowman Prospects
-BP-100,Sammy Stafura,Bowman Prospects
-BP-101,Tink Hence,Bowman Prospects
-BP-102,Nate Nankil,Bowman Prospects
-BP-103,Jac Caglianone,Bowman Prospects
-BP-104,Cobb Hightower,Bowman Prospects
-BP-105,Jonah Tong,Bowman Prospects
-BP-106,Jose Perdomo,Bowman Prospects
-BP-107,Christian Moore,Bowman Prospects
-BP-108,Carson Benge,Bowman Prospects
-BP-109,Samuel Basallo,Bowman Prospects
-BP-110,Fernando Cruz,Bowman Prospects
-BP-111,Jose Pirela,Bowman Prospects
-BP-112,Cody Freeman,Bowman Prospects
-BP-113,Caden Kendle,Bowman Prospects
-BP-114,Nick Kurtz,Bowman Prospects
-BP-115,Eduardo Quintero,Bowman Prospects
-BP-116,Andrew Painter,Bowman Prospects
-BP-117,Jesus Tillero,Bowman Prospects
-BP-118,Kyle Teel,Bowman Prospects
-BP-119,Hyungchan Um,Bowman Prospects
-BP-120,Caleb Lomavita,Bowman Prospects
-BP-121,Winston Santos,Bowman Prospects
-BP-122,Chase Burns,Bowman Prospects
-BP-123,Jhonayker Ugarte,Bowman Prospects
-BP-124,Elvin Garcia,Bowman Prospects
-BP-125,Alejandro Rosario,Bowman Prospects
-BP-126,Jhancarlos Lara,Bowman Prospects
-BP-127,Emil Morales,Bowman Prospects
-BP-128,Cory Lewis,Bowman Prospects
-BP-129,Malcolm Moore,Bowman Prospects
-BP-130,Conrad Cason,Bowman Prospects
-BP-131,Travis Bazzana,Bowman Prospects
-BP-132,Braden Montgomery,Bowman Prospects
-BP-133,Sebastian Walcott,Bowman Prospects
-BP-134,Onil Perez,Bowman Prospects
-BP-135,Lucas Ramirez,Bowman Prospects
-BP-136,Josh Knoth,Bowman Prospects
-BP-137,Kellon Lindsey,Bowman Prospects
-BP-138,Druw Jones,Bowman Prospects
-BP-139,Kyle DeBarge,Bowman Prospects
-BP-140,Luis Merejo,Bowman Prospects
-BP-141,Chen-Wei Lin,Bowman Prospects
-BP-142,Santiago Suarez,Bowman Prospects
-BP-143,Jakob Wright,Bowman Prospects
-BP-144,Pablo Guerrero,Bowman Prospects
-BP-145,Matt Wilkinson,Bowman Prospects
-BP-146,Yeremi Cabrera,Bowman Prospects
-BP-147,Jhonny Level,Bowman Prospects
-BP-148,Braylon Payne,Bowman Prospects
-BP-149,Alex Mooney,Bowman Prospects
-BP-150,Charles McAdoo,Bowman Prospects
-BCP-1,Walker Jenkins,Bowman Chrome Prospects
-BCP-2,Zyhir Hope,Bowman Chrome Prospects
-BCP-3,Romeo Sanabria,Bowman Chrome Prospects
-BCP-4,Asbel Gonzalez,Bowman Chrome Prospects
-BCP-5,Franyerber Montilla,Bowman Chrome Prospects
-BCP-6,Wen-Hui Pan,Bowman Chrome Prospects
-BCP-7,Gregory Barrios,Bowman Chrome Prospects
-BCP-8,Dawel Joseph,Bowman Chrome Prospects
-BCP-9,Esteban Mejia,Bowman Chrome Prospects
-BCP-10,Cade Horton,Bowman Chrome Prospects
-BCP-11,Jackson Humphries,Bowman Chrome Prospects
-BCP-12,Hayden Alvarez,Bowman Chrome Prospects
-BCP-13,Josue Briceno,Bowman Chrome Prospects
-BCP-14,Owen Wild,Bowman Chrome Prospects
-BCP-15,Walker Janek,Bowman Chrome Prospects
-BCP-16,Engelth Urena,Bowman Chrome Prospects
-BCP-17,Colt Emerson,Bowman Chrome Prospects
-BCP-18,Ichiro Cano Hernandez,Bowman Chrome Prospects
-BCP-19,Fabian Lopez,Bowman Chrome Prospects
-BCP-20,Ashly Andujar,Bowman Chrome Prospects
-BCP-21,Slade Caldwell,Bowman Chrome Prospects
-BCP-22,JJ Wetherholt,Bowman Chrome Prospects
-BCP-23,Lazaro Montes,Bowman Chrome Prospects
-BCP-24,Max Clark,Bowman Chrome Prospects
-BCP-25,Quinn Mathews,Bowman Chrome Prospects
-BCP-26,Jancel Villarroel,Bowman Chrome Prospects
-BCP-27,Yu-Min Lin,Bowman Chrome Prospects
-BCP-28,Carlos Tavares,Bowman Chrome Prospects
-BCP-29,David Ortiz Jr.,Bowman Chrome Prospects
-BCP-30,Bishop Letson,Bowman Chrome Prospects
-BCP-31,Ricardo Yan,Bowman Chrome Prospects
-BCP-32,Cole Fontenelle,Bowman Chrome Prospects
-BCP-33,Aron Estrada,Bowman Chrome Prospects
-BCP-34,Rafael Flores,Bowman Chrome Prospects
-BCP-35,Will Simpson,Bowman Chrome Prospects
-BCP-36,Yophery Rodriguez,Bowman Chrome Prospects
-BCP-37,Esmith Pineda,Bowman Chrome Prospects
-BCP-38,Luis Pena,Bowman Chrome Prospects
-BCP-39,James Tibbs III,Bowman Chrome Prospects
-BCP-40,Robert Calaz,Bowman Chrome Prospects
-BCP-41,Mitch Jebb,Bowman Chrome Prospects
-BCP-42,Kristian Campbell,Bowman Chrome Prospects
-BCP-43,Jhostynxon Garcia,Bowman Chrome Prospects
-BCP-44,Hagen Smith,Bowman Chrome Prospects
-BCP-45,Victor Rodrigues,Bowman Chrome Prospects
-BCP-46,Cam Caminiti,Bowman Chrome Prospects
-BCP-47,Dylan Fien,Bowman Chrome Prospects
-BCP-48,Cam Smith,Bowman Chrome Prospects
-BCP-49,Bryce Rainer,Bowman Chrome Prospects
-BCP-50,Jesus Made,Bowman Chrome Prospects
-BCP-51,Hyun-Seok Jang,Bowman Chrome Prospects
-BCP-52,Ismael Javier,Bowman Chrome Prospects
-BCP-53,Jacob Bresnahan,Bowman Chrome Prospects
-BCP-54,Aidan Miller,Bowman Chrome Prospects
-BCP-55,Gary Gill Hill,Bowman Chrome Prospects
-BCP-56,Chase Mobley,Bowman Chrome Prospects
-BCP-57,Chase Hampton,Bowman Chrome Prospects
-BCP-58,Jonathon Long,Bowman Chrome Prospects
-BCP-59,Leo De Vries,Bowman Chrome Prospects
-BCP-60,Jack Penney,Bowman Chrome Prospects
-BCP-61,D'Angelo Ortiz,Bowman Chrome Prospects
-BCP-62,Luke Sinnard,Bowman Chrome Prospects
-BCP-63,George Klassen,Bowman Chrome Prospects
-BCP-64,Jack Lines,Bowman Chrome Prospects
-BCP-65,Aroon Escobar,Bowman Chrome Prospects
-BCP-66,Sammy Hernandez,Bowman Chrome Prospects
-BCP-67,Franklin Arias,Bowman Chrome Prospects
-BCP-68,Javier Mogollon,Bowman Chrome Prospects
-BCP-69,Thomas White,Bowman Chrome Prospects
-BCP-70,Esteban Gonzalez,Bowman Chrome Prospects
-BCP-71,Richard Matic,Bowman Chrome Prospects
-BCP-72,Paulino Santana,Bowman Chrome Prospects
-BCP-73,Steven Echavarria,Bowman Chrome Prospects
-BCP-74,Zack Showalter,Bowman Chrome Prospects
-BCP-75,Charlie Condon,Bowman Chrome Prospects
-BCP-76,Blake Wolters,Bowman Chrome Prospects
-BCP-77,Khadim Diaw,Bowman Chrome Prospects
-BCP-78,Payton Eeles,Bowman Chrome Prospects
-BCP-79,Kevin McGonigle,Bowman Chrome Prospects
-BCP-80,Edgleen Perez,Bowman Chrome Prospects
-BCP-81,Aidan Smith,Bowman Chrome Prospects
-BCP-82,Kevyn Castillo,Bowman Chrome Prospects
-BCP-83,Émilien Pitre,Bowman Chrome Prospects
-BCP-84,Jansel Luis,Bowman Chrome Prospects
-BCP-85,Jared Sundstrom,Bowman Chrome Prospects
-BCP-86,Konnor Griffin,Bowman Chrome Prospects
-BCP-87,Didier Fuentes,Bowman Chrome Prospects
-BCP-88,Jesus Lopez,Bowman Chrome Prospects
-BCP-89,Sean Keys,Bowman Chrome Prospects
-BCP-90,Andrew Morris,Bowman Chrome Prospects
-BCP-91,PJ Morlando,Bowman Chrome Prospects
-BCP-92,Bo Walker,Bowman Chrome Prospects
-BCP-93,Seaver King,Bowman Chrome Prospects
-BCP-94,Marcos Torres,Bowman Chrome Prospects
-BCP-95,Tsung-Che Cheng,Bowman Chrome Prospects
-BCP-96,Humberto Cruz,Bowman Chrome Prospects
-BCP-97,Cameron Sullivan,Bowman Chrome Prospects
-BCP-98,Anderson Brito,Bowman Chrome Prospects
-BCP-99,Naibel Mariano,Bowman Chrome Prospects
-BCP-100,Sammy Stafura,Bowman Chrome Prospects
-BCP-101,Tink Hence,Bowman Chrome Prospects
-BCP-102,Nate Nankil,Bowman Chrome Prospects
-BCP-103,Jac Caglianone,Bowman Chrome Prospects
-BCP-104,Cobb Hightower,Bowman Chrome Prospects
-BCP-105,Jonah Tong,Bowman Chrome Prospects
-BCP-106,Jose Perdomo,Bowman Chrome Prospects
-BCP-107,Christian Moore,Bowman Chrome Prospects
-BCP-108,Carson Benge,Bowman Chrome Prospects
-BCP-109,Samuel Basallo,Bowman Chrome Prospects
-BCP-110,Fernando Cruz,Bowman Chrome Prospects
-BCP-111,Jose Pirela,Bowman Chrome Prospects
-BCP-112,Cody Freeman,Bowman Chrome Prospects
-BCP-113,Caden Kendle,Bowman Chrome Prospects
-BCP-114,Nick Kurtz,Bowman Chrome Prospects
-BCP-115,Eduardo Quintero,Bowman Chrome Prospects
-BCP-116,Andrew Painter,Bowman Chrome Prospects
-BCP-117,Jesus Tillero,Bowman Chrome Prospects
-BCP-118,Kyle Teel,Bowman Chrome Prospects
-BCP-119,Hyungchan Um,Bowman Chrome Prospects
-BCP-120,Caleb Lomavita,Bowman Chrome Prospects
-BCP-121,Winston Santos,Bowman Chrome Prospects
-BCP-122,Chase Burns,Bowman Chrome Prospects
-BCP-123,Jhonayker Ugarte,Bowman Chrome Prospects
-BCP-124,Elvin Garcia,Bowman Chrome Prospects
-BCP-125,Alejandro Rosario,Bowman Chrome Prospects
-BCP-126,Jhancarlos Lara,Bowman Chrome Prospects
-BCP-127,Emil Morales,Bowman Chrome Prospects
-BCP-128,Cory Lewis,Bowman Chrome Prospects
-BCP-129,Malcolm Moore,Bowman Chrome Prospects
-BCP-130,Conrad Cason,Bowman Chrome Prospects
-BCP-131,Travis Bazzana,Bowman Chrome Prospects
-BCP-132,Braden Montgomery,Bowman Chrome Prospects
-BCP-133,Sebastian Walcott,Bowman Chrome Prospects
-BCP-134,Onil Perez,Bowman Chrome Prospects
-BCP-135,Lucas Ramirez,Bowman Chrome Prospects
-BCP-136,Josh Knoth,Bowman Chrome Prospects
-BCP-137,Kellon Lindsey,Bowman Chrome Prospects
-BCP-138,Druw Jones,Bowman Chrome Prospects
-BCP-139,Kyle DeBarge,Bowman Chrome Prospects
-BCP-140,Luis Merejo,Bowman Chrome Prospects
-BCP-141,Chen-Wei Lin,Bowman Chrome Prospects
-BCP-142,Santiago Suarez,Bowman Chrome Prospects
-BCP-143,Jakob Wright,Bowman Chrome Prospects
-BCP-144,Pablo Guerrero,Bowman Chrome Prospects
-BCP-145,Matt Wilkinson,Bowman Chrome Prospects
-BCP-146,Yeremi Cabrera,Bowman Chrome Prospects
-BCP-147,Jhonny Level,Bowman Chrome Prospects
-BCP-148,Braylon Payne,Bowman Chrome Prospects
-BCP-149,Alex Mooney,Bowman Chrome Prospects
-BCP-150,Charles McAdoo,Bowman Chrome Prospects
-BA-1,Mike Trout,Anime
-BA-2,Coby Mayo,Anime
-BA-3,Charlie Condon,Anime
-BA-4,Bobby Witt Jr.,Anime
-BA-5,Mookie Betts,Anime
-BA-6,Aaron Judge,Anime
-BA-7,Bryce Harper,Anime
-BA-8,Leo De Vries,Anime
-BA-9,JJ Wetherholt,Anime
-BA-10,James Wood,Anime
-BA-11,Walker Jenkins,Anime
-BA-12,Max Clark,Anime
-BA-13,George Brett,Anime
-BA-14,Ichiro,Anime
-BA-15,Derek Jeter,Anime
-BA-16,Jac Caglianone,Anime
-BA-17,Travis Bazzana,Anime
-BA-18,Konnor Griffin,Anime
-BA-19,Christian Moore,Anime
-BA-20,Roki Sasaki,Anime
-BA-21,Hyeseong Kim,Anime
-BA-22,Albert Pujols,Anime
-BA-23,Juan Soto,Anime
-BA-24,Hideki Matsui,Anime
-BA-25,Dylan Crews,Anime
-BA-26,Luisangel Acuña,Anime
-BA-27,Shohei Ohtani,Anime
-BA-28,Fernando Tatis Jr.,Anime
-BA-29,Rafael Devers,Anime
-BA-30,Vladimir Guerrero Jr.,Anime
-BA-14,Ichiro,Anime Kanji Variations
-BA-20,Roki Sasaki,Anime Kanji Variations
-BA-24,Hideki Matsui,Anime Kanji Variations
-BA-27,Shohei Ohtani,Anime Kanji Variations
-BDA-JB,Bobby Witt Jr. / Jac Caglianone,Bowman Dual Autographs
-BPA-AP,Andrew Painter,Bowman Prospect Autographs
-BPA-BA,Blake Aita,Bowman Prospect Autographs
-BPA-CB,Chase Burns,Bowman Prospect Autographs
-BPA-CC,Charlie Condon,Bowman Prospect Autographs
-BPA-CHC,Chris Campos,Bowman Prospect Autographs
-BPA-CHO,Cade Horton,Bowman Prospect Autographs
-BPA-CM,Charles McAdoo,Bowman Prospect Autographs
-BPA-CW,Chandler Welch,Bowman Prospect Autographs
-BPA-DH,David Hagaman,Bowman Prospect Autographs
-BPA-DJ,Druw Jones,Bowman Prospect Autographs
-BPA-EQ,Eduardo Quintero,Bowman Prospect Autographs
-BPA-GH,Garrett Horn,Bowman Prospect Autographs
-BPA-GK,Grant Knipp,Bowman Prospect Autographs
-BPA-HS,Hagen Smith,Bowman Prospect Autographs
-BPA-JC,Jac Caglianone,Bowman Prospect Autographs
-BPA-JH,Josh Hartle,Bowman Prospect Autographs
-BPA-JM,Jesus Made,Bowman Prospect Autographs
-BPA-JR,Jeremy Rodriguez,Bowman Prospect Autographs
-BPA-JW,JJ Wetherholt,Bowman Prospect Autographs
-BPA-KD,Kyle DeBarge,Bowman Prospect Autographs
-BPA-KE,Konner Eaton,Bowman Prospect Autographs
-BPA-KT,Kyle Teel,Bowman Prospect Autographs
-BPA-LA,Luis Almeyda,Bowman Prospect Autographs
-BPA-LD,Leo De Vries,Bowman Prospect Autographs
-BPA-MA,Mick Abel,Bowman Prospect Autographs
-BPA-NK,Nick Kurtz,Bowman Prospect Autographs
-BPA-PM,PJ Morlando,Bowman Prospect Autographs
-BPA-PO,Peyton Olejnik,Bowman Prospect Autographs
-BPA-SC,Slade Caldwell,Bowman Prospect Autographs
-BPA-SS,Sam Stuhr,Bowman Prospect Autographs
-BPA-TB,Travis Bazzana,Bowman Prospect Autographs
-BPA-TH,Tink Hence,Bowman Prospect Autographs
-BPA-TT,Tommy Troy,Bowman Prospect Autographs
-BPA-WJ,Walker Jenkins,Bowman Prospect Autographs
-PRV-AP,Andy Pages,Bowman Rookies and Veterans Autographs
-PRV-BB,Brett Baty,Bowman Rookies and Veterans Autographs
-PRV-BD,Brenton Doyle,Bowman Rookies and Veterans Autographs
-PRV-BR,Brayan Rocchio,Bowman Rookies and Veterans Autographs
-PRV-CC,Corbin Carroll,Bowman Rookies and Veterans Autographs
-PRV-CCO,Colton Cowser,Bowman Rookies and Veterans Autographs
-PRV-CM,Coby Mayo,Bowman Rookies and Veterans Autographs
-PRV-CR,Ceddanne Rafaela,Bowman Rookies and Veterans Autographs
-PRV-DT,Drew Thorpe,Bowman Rookies and Veterans Autographs
-PRV-EC,Evan Carter,Bowman Rookies and Veterans Autographs
-PRV-HW,Hurston Waldrep,Bowman Rookies and Veterans Autographs
-PRV-JB,Jake Bloss,Bowman Rookies and Veterans Autographs
-PRV-JD,Jasson Domínguez,Bowman Rookies and Veterans Autographs
-PRV-JH,Jackson Holliday,Bowman Rookies and Veterans Autographs
-PRV-JJ,Josh Jung,Bowman Rookies and Veterans Autographs
-PRV-JJO,Jackson Jobe,Bowman Rookies and Veterans Autographs
-PRV-JL,Jordan Lawlar,Bowman Rookies and Veterans Autographs
-PRV-JM,J.D. Martinez,Bowman Rookies and Veterans Autographs
-PRV-JW,Jordan Westburg,Bowman Rookies and Veterans Autographs
-PRV-KB,Kris Bryant,Bowman Rookies and Veterans Autographs
-PRV-KR,Kumar Rocker,Bowman Rookies and Veterans Autographs
-PRV-LA,Luisangel Acuña,Bowman Rookies and Veterans Autographs
-PRV-MO,Matt Olson,Bowman Rookies and Veterans Autographs
-PRV-MV,Mark Vientos,Bowman Rookies and Veterans Autographs
-PRV-OP,Oswald Peraza,Bowman Rookies and Veterans Autographs
-PRV-RA,Ronald Acuña Jr.,Bowman Rookies and Veterans Autographs
-PRV-SL,Seth Lugo,Bowman Rookies and Veterans Autographs
-PRV-SS,Spencer Strider,Bowman Rookies and Veterans Autographs
-PRV-TB,Tyler Black,Bowman Rookies and Veterans Autographs
-PRV-TE,Tommy Edman,Bowman Rookies and Veterans Autographs
-PRV-TS,Thomas Saggese,Bowman Rookies and Veterans Autographs
-PRV-TSA,Trey Sweeney,Bowman Rookies and Veterans Autographs
-PRV-VG,Vladimir Guerrero Jr.,Bowman Rookies and Veterans Autographs
-PRV-VS,Victor Scott II,Bowman Rookies and Veterans Autographs
-PRV-XE,Xavier Edwards,Bowman Rookies and Veterans Autographs
-BTP-1,Roman Anthony,Bowman Scouts' Top 100
-BTP-2,Walker Jenkins,Bowman Scouts' Top 100
-BTP-3,Carson Williams,Bowman Scouts' Top 100
-BTP-4,Marcelo Mayer,Bowman Scouts' Top 100
-BTP-5,Samuel Basallo,Bowman Scouts' Top 100
-BTP-6,Max Clark,Bowman Scouts' Top 100
-BTP-7,Charlie Condon,Bowman Scouts' Top 100
-BTP-8,Travis Bazzana,Bowman Scouts' Top 100
-BTP-9,Ethan Salas,Bowman Scouts' Top 100
-BTP-10,Jesus Made,Bowman Scouts' Top 100
-BTP-11,Bubba Chandler,Bowman Scouts' Top 100
-BTP-12,Colt Emerson,Bowman Scouts' Top 100
-BTP-13,Kristian Campbell,Bowman Scouts' Top 100
-BTP-14,Jac Caglianone,Bowman Scouts' Top 100
-BTP-15,JJ Wetherholt,Bowman Scouts' Top 100
-BTP-16,Noah Schultz,Bowman Scouts' Top 100
-BTP-17,Chase Burns,Bowman Scouts' Top 100
-BTP-18,Sebastian Walcott,Bowman Scouts' Top 100
-BTP-19,Andrew Painter,Bowman Scouts' Top 100
-BTP-20,Leo De Vries,Bowman Scouts' Top 100
-BTP-21,Josue De Paula,Bowman Scouts' Top 100
-BTP-22,Kyle Teel,Bowman Scouts' Top 100
-BTP-23,Aidan Miller,Bowman Scouts' Top 100
-BTP-24,Matt Shaw,Bowman Scouts' Top 100
-BTP-25,Kevin McGonigle,Bowman Scouts' Top 100
-BTP-26,Emmanuel Rodriguez,Bowman Scouts' Top 100
-BTP-27,Bryce Eldridge,Bowman Scouts' Top 100
-BTP-28,Robert Calaz,Bowman Scouts' Top 100
-BTP-29,Colson Montgomery,Bowman Scouts' Top 100
-BTP-30,Xavier Isaac,Bowman Scouts' Top 100
-BTP-31,Chase DeLauter,Bowman Scouts' Top 100
-BTP-32,Nick Kurtz,Bowman Scouts' Top 100
-BTP-33,Hagen Smith,Bowman Scouts' Top 100
-BTP-34,Thomas White,Bowman Scouts' Top 100
-BTP-35,Brandon Sproat,Bowman Scouts' Top 100
-BTP-36,Emil Morales,Bowman Scouts' Top 100
-BTP-37,Jacob Misiorowski,Bowman Scouts' Top 100
-BTP-38,Tink Hence,Bowman Scouts' Top 100
-BTP-39,Owen Caissie,Bowman Scouts' Top 100
-BTP-40,Cole Young,Bowman Scouts' Top 100
-BTP-41,Dalton Rushing,Bowman Scouts' Top 100
-BTP-42,Alejandro Rosario,Bowman Scouts' Top 100
-BTP-43,Jeferson Quero,Bowman Scouts' Top 100
-BTP-44,Lazaro Montes,Bowman Scouts' Top 100
-BTP-45,Konnor Griffin,Bowman Scouts' Top 100
-BTP-46,Christian Moore,Bowman Scouts' Top 100
-BTP-47,Justin Crawford,Bowman Scouts' Top 100
-BTP-48,Harry Ford,Bowman Scouts' Top 100
-BTP-49,Cade Horton,Bowman Scouts' Top 100
-BTP-50,Braden Montgomery,Bowman Scouts' Top 100
-BTP-51,Zyhir Hope,Bowman Scouts' Top 100
-BTP-52,Edgar Quero,Bowman Scouts' Top 100
-BTP-53,Bryce Rainer,Bowman Scouts' Top 100
-BTP-54,Blake Mitchell,Bowman Scouts' Top 100
-BTP-55,Moises Ballesteros,Bowman Scouts' Top 100
-BTP-56,Cam Smith,Bowman Scouts' Top 100
-BTP-57,Franklin Arias,Bowman Scouts' Top 100
-BTP-58,Jett Williams,Bowman Scouts' Top 100
-BTP-59,Spencer Jones,Bowman Scouts' Top 100
-BTP-60,Drew Gilbert,Bowman Scouts' Top 100
-BTP-61,Noble Meyer,Bowman Scouts' Top 100
-BTP-62,Eduardo Quintero,Bowman Scouts' Top 100
-BTP-63,Thayron Liranzo,Bowman Scouts' Top 100
-BTP-64,Cooper Pratt,Bowman Scouts' Top 100
-BTP-65,Drake Baldwin,Bowman Scouts' Top 100
-BTP-66,Luke Keaschall,Bowman Scouts' Top 100
-BTP-67,Termarr Johnson,Bowman Scouts' Top 100
-BTP-68,Jacob Melton,Bowman Scouts' Top 100
-BTP-69,Jaison Chourio,Bowman Scouts' Top 100
-BTP-70,Agustin Ramirez,Bowman Scouts' Top 100
-BTP-71,Jonny Farmelo,Bowman Scouts' Top 100
-BTP-72,Slade Caldwell,Bowman Scouts' Top 100
-BTP-73,Seaver King,Bowman Scouts' Top 100
-BTP-74,PJ Morlando,Bowman Scouts' Top 100
-BTP-75,Tommy Troy,Bowman Scouts' Top 100
-BTP-76,Theo Gillen,Bowman Scouts' Top 100
-BTP-77,Angel Genao,Bowman Scouts' Top 100
-BTP-78,James Tibbs III,Bowman Scouts' Top 100
-BTP-79,Brayden Taylor,Bowman Scouts' Top 100
-BTP-80,Felnin Celesten,Bowman Scouts' Top 100
-BTP-81,Kyle DeBarge,Bowman Scouts' Top 100
-BTP-82,Josue Briceno,Bowman Scouts' Top 100
-BTP-83,Joendry Vargas,Bowman Scouts' Top 100
-BTP-84,Welbyn Francisca,Bowman Scouts' Top 100
-BTP-85,Cam Caminiti,Bowman Scouts' Top 100
-BTP-86,Ryan Clifford,Bowman Scouts' Top 100
-BTP-87,Trey Yesavage,Bowman Scouts' Top 100
-BTP-88,George Klassen,Bowman Scouts' Top 100
-BTP-89,Jose Perdomo,Bowman Scouts' Top 100
-BTP-90,Jefferson Rojas,Bowman Scouts' Top 100
-BTP-91,Alex Freeland,Bowman Scouts' Top 100
-BTP-92,Ralphy Velazquez,Bowman Scouts' Top 100
-BTP-93,Paulino Santana,Bowman Scouts' Top 100
-BTP-94,James Triantos,Bowman Scouts' Top 100
-BTP-95,Cam Collier,Bowman Scouts' Top 100
-BTP-96,Druw Jones,Bowman Scouts' Top 100
-BTP-97,Travis Sykora,Bowman Scouts' Top 100
-BTP-98,Yophery Rodriguez,Bowman Scouts' Top 100
-BTP-99,Gary Gill Hill,Bowman Scouts' Top 100
-BTP-100,Carson Benge,Bowman Scouts' Top 100
-BS-1,Dylan Crews,Bowman Spotlights
-BS-2,Jacob Wilson,Bowman Spotlights
-BS-3,Bobby Witt Jr.,Bowman Spotlights
-BS-4,Jesus Made,Bowman Spotlights
-BS-5,Roki Sasaki,Bowman Spotlights
-BS-6,Hyeseong Kim,Bowman Spotlights
-BS-7,PJ Morlando,Bowman Spotlights
-BS-8,Luisangel Acuña,Bowman Spotlights
-BS-9,Shohei Ohtani,Bowman Spotlights
-BS-10,JJ Wetherholt,Bowman Spotlights
-BS-11,James Wood,Bowman Spotlights
-BS-12,Charlie Condon,Bowman Spotlights
-BS-13,Coby Mayo,Bowman Spotlights
-BS-14,Ronald Acuña Jr.,Bowman Spotlights
-BS-15,Kumar Rocker,Bowman Spotlights
-CPA-AA,Ashly Andujar,Chrome Prospect Autographs
-CPA-AE,Aroon Escobar,Chrome Prospect Autographs
-CPA-AES,Aron Estrada,Chrome Prospect Autographs
-CPA-AM,Alex Mooney,Chrome Prospect Autographs
-CPA-AMO,Andrew Morris,Chrome Prospect Autographs
-CPA-BH,Brody Hopkins,Chrome Prospect Autographs
-CPA-BM,Braden Montgomery,Chrome Prospect Autographs
-CPA-BWA,Bo Walker,Chrome Prospect Autographs
-CPA-CB,Chase Burns,Chrome Prospect Autographs
-CPA-CC,Charlie Condon,Chrome Prospect Autographs
-CPA-CCN,Conrad Cason,Chrome Prospect Autographs
-CPA-CF,Cole Fontenelle,Chrome Prospect Autographs
-CPA-CFR,Cody Freeman,Chrome Prospect Autographs
-CPA-CHI,Cobb Hightower,Chrome Prospect Autographs
-CPA-CKE,Caden Kendle,Chrome Prospect Autographs
-CPA-CL,Chen-Wei Lin,Chrome Prospect Autographs
-CPA-CLE,Cory Lewis,Chrome Prospect Autographs
-CPA-CLO,Caleb Lomavita,Chrome Prospect Autographs
-CPA-CMA,Charles McAdoo,Chrome Prospect Autographs
-CPA-CMO,Christian Moore,Chrome Prospect Autographs
-CPA-CMY,Chase Mobley,Chrome Prospect Autographs
-CPA-CS,Cameron Sullivan,Chrome Prospect Autographs
-CPA-CSM,Cam Smith,Chrome Prospect Autographs
-CPA-DF,Dylan Fien,Chrome Prospect Autographs
-CPA-DFU,Didier Fuentes,Chrome Prospect Autographs
-CPA-DO,D'Angelo Ortiz,Chrome Prospect Autographs
-CPA-EGO,Esteban Gonzalez,Chrome Prospect Autographs
-CPA-EM,Esteban Mejia,Chrome Prospect Autographs
-CPA-EP,Esmith Pineda,Chrome Prospect Autographs
-CPA-EPI,Émilien Pitre,Chrome Prospect Autographs
-CPA-EPZ,Edgleen Perez,Chrome Prospect Autographs
-CPA-EQ,Eduardo Quintero,Chrome Prospect Autographs
-CPA-EU,Engelth Urena,Chrome Prospect Autographs
-CPA-FA,Franklin Arias,Chrome Prospect Autographs
-CPA-FL,Fabian Lopez,Chrome Prospect Autographs
-CPA-FM,Franyerber Montilla,Chrome Prospect Autographs
-CPA-GB,Gregory Barrios,Chrome Prospect Autographs
-CPA-GG,Gary Gill Hill,Chrome Prospect Autographs
-CPA-GK,George Klassen,Chrome Prospect Autographs
-CPA-HA,Hayden Alvarez,Chrome Prospect Autographs
-CPA-HC,Humberto Cruz,Chrome Prospect Autographs
-CPA-HJ,Hyun-Seok Jang,Chrome Prospect Autographs
-CPA-HU,Hyungchan Um,Chrome Prospect Autographs
-CPA-IC,Ichiro Cano Hernandez,Chrome Prospect Autographs
-CPA-JB,Josue Briceno,Chrome Prospect Autographs
-CPA-JBR,Jacob Bresnahan,Chrome Prospect Autographs
-CPA-JCA,Jac Caglianone,Chrome Prospect Autographs
-CPA-JF,Jadyn Fielder,Chrome Prospect Autographs
-CPA-JGA,Jhostynxon Garcia,Chrome Prospect Autographs
-CPA-JHU,Jackson Humphries,Chrome Prospect Autographs
-CPA-JL,Jhonny Level,Chrome Prospect Autographs
-CPA-JLG,Jonathon Long,Chrome Prospect Autographs
-CPA-JLI,Jack Lines,Chrome Prospect Autographs
-CPA-JLO,Jesus Lopez,Chrome Prospect Autographs
-CPA-JLU,Jansel Luis,Chrome Prospect Autographs
-CPA-JM,Jesus Made,Chrome Prospect Autographs
-CPA-JMO,Javier Mogollon,Chrome Prospect Autographs
-CPA-JP,Jose Pirela,Chrome Prospect Autographs
-CPA-JPY,Jack Penney,Chrome Prospect Autographs
-CPA-JSU,Jared Sundstrom,Chrome Prospect Autographs
-CPA-JT,Jesus Tillero,Chrome Prospect Autographs
-CPA-JTO,Jonah Tong,Chrome Prospect Autographs
-CPA-JU,Jhonayker Ugarte,Chrome Prospect Autographs
-CPA-JV,Jancel Villarroel,Chrome Prospect Autographs
-CPA-JVA,Javier Vaz,Chrome Prospect Autographs
-CPA-JW,JJ Wetherholt,Chrome Prospect Autographs
-CPA-KC,Kevyn Castillo,Chrome Prospect Autographs
-CPA-KD,Kyle DeBarge,Chrome Prospect Autographs
-CPA-KDW,Khadim Diaw,Chrome Prospect Autographs
-CPA-KG,Konnor Griffin,Chrome Prospect Autographs
-CPA-KM,Kevin McGonigle,Chrome Prospect Autographs
-CPA-LD,Leo De Vries,Chrome Prospect Autographs
-CPA-LM,Luis Merejo,Chrome Prospect Autographs
-CPA-LP,Luis Pena,Chrome Prospect Autographs
-CPA-LR,Lucas Ramirez,Chrome Prospect Autographs
-CPA-MJ,Mitch Jebb,Chrome Prospect Autographs
-CPA-MMO,Malcolm Moore,Chrome Prospect Autographs
-CPA-MV,Mike Vasil,Chrome Prospect Autographs
-CPA-MW,Matt Wilkinson,Chrome Prospect Autographs
-CPA-NK,Nick Kurtz,Chrome Prospect Autographs
-CPA-NM,Naibel Mariano,Chrome Prospect Autographs
-CPA-NN,Nate Nankil,Chrome Prospect Autographs
-CPA-PE,Payton Eeles,Chrome Prospect Autographs
-CPA-PM,PJ Morlando,Chrome Prospect Autographs
-CPA-QM,Quinn Mathews,Chrome Prospect Autographs
-CPA-RF,Rafael Flores,Chrome Prospect Autographs
-CPA-RM,Richard Matic,Chrome Prospect Autographs
-CPA-RY,Ricardo Yan,Chrome Prospect Autographs
-CPA-SC,Slade Caldwell,Chrome Prospect Autographs
-CPA-SE,Steven Echavarria,Chrome Prospect Autographs
-CPA-SK,Sean Keys,Chrome Prospect Autographs
-CPA-SS,Sammy Stafura,Chrome Prospect Autographs
-CPA-SW,Sebastian Walcott,Chrome Prospect Autographs
-CPA-TB,Travis Bazzana,Chrome Prospect Autographs
-CPA-TC,Tsung-Che Cheng,Chrome Prospect Autographs
-CPA-TW,Thomas White,Chrome Prospect Autographs
-CPA-VR,Victor Rodrigues,Chrome Prospect Autographs
-CPA-WJ,Walker Jenkins,Chrome Prospect Autographs
-CPA-WJA,Walker Janek,Chrome Prospect Autographs
-CPA-WP,Wen-Hui Pan,Chrome Prospect Autographs
-CPA-WS,Winston Santos,Chrome Prospect Autographs
-CPA-WSI,Will Simpson,Chrome Prospect Autographs
-CPA-YC,Yeremi Cabrera,Chrome Prospect Autographs
-CPA-YR,Yophery Rodriguez,Chrome Prospect Autographs
-CPA-ZH,Zyhir Hope,Chrome Prospect Autographs
-CRA-CM,Coby Mayo,Chrome Rookie Autographs
-CRA-DC,Dylan Crews,Chrome Rookie Autographs
-CRA-JO,Jackson Jobe,Chrome Rookie Autographs
-CRA-JW,James Wood,Chrome Rookie Autographs
-CRA-KA,Kevin Alcántara,Chrome Rookie Autographs
-CRA-KR,Kumar Rocker,Chrome Rookie Autographs
-CRA-LA,Luisangel Acuña,Chrome Rookie Autographs
-CRA-RL,Rhett Lowder,Chrome Rookie Autographs
-CRA-RS,Roki Sasaki,Chrome Rookie Autographs
-CRA-SS,Spencer Schwellenbach,Chrome Rookie Autographs
-CRA-SW,Shay Whitcomb,Chrome Rookie Autographs
-BWC-1,Jesus Made,Crystalized
-BWC-2,Jac Caglianone,Crystalized
-BWC-3,Jacob Wilson,Crystalized
-BWC-4,Travis Bazzana,Crystalized
-BWC-5,Hagen Smith,Crystalized
-BWC-6,Coby Mayo,Crystalized
-BWC-7,Charlie Condon,Crystalized
-BWC-8,Walker Jenkins,Crystalized
-BWC-9,Roki Sasaki,Crystalized
-BWC-10,Marcelo Mayer,Crystalized
-BWC-11,Luisangel Acuña,Crystalized
-BWC-12,Dylan Crews,Crystalized
-BWC-13,JJ Wetherholt,Crystalized
-BWC-14,Carson Williams,Crystalized
-BWC-15,James Wood,Crystalized
-GL-1,Lazaro Montes,Greatness Loading
-GL-2,Coby Mayo,Greatness Loading
-GL-3,Kevin Alcántara,Greatness Loading
-GL-4,Cam Smith,Greatness Loading
-GL-5,Bryce Rainer,Greatness Loading
-GL-6,Hagen Smith,Greatness Loading
-GL-7,Charlie Condon,Greatness Loading
-GL-8,Travis Bazzana,Greatness Loading
-GL-9,Kevin McGonigle,Greatness Loading
-GL-10,Spencer Schwellenbach,Greatness Loading
-GL-11,Luisangel Acuña,Greatness Loading
-GL-12,Leo De Vries,Greatness Loading
-GL-13,Konnor Griffin,Greatness Loading
-GL-14,Brooks Lee,Greatness Loading
-GL-15,Kyle Teel,Greatness Loading
-GL-16,Jacob Wilson,Greatness Loading
-GL-17,JJ Wetherholt,Greatness Loading
-GL-18,Dylan Crews,Greatness Loading
-GL-19,Christian Moore,Greatness Loading
-GL-20,James Wood,Greatness Loading
-GL-21,Jac Caglianone,Greatness Loading
-GL-22,Thomas Saggese,Greatness Loading
-GL-23,Roki Sasaki,Greatness Loading
-GL-24,Walker Jenkins,Greatness Loading
-GL-25,Bryce Eldridge,Greatness Loading
-HS-1,JJ Wetherholt,Hobby Stars
-HS-2,Jackson Holliday,Hobby Stars
-HS-3,Jackson Chourio,Hobby Stars
-HS-4,Shohei Ohtani,Hobby Stars
-HS-5,James Wood,Hobby Stars
-HS-6,Mike Trout,Hobby Stars
-HS-7,Travis Bazzana,Hobby Stars
-HS-8,Bobby Witt Jr.,Hobby Stars
-HS-9,Roki Sasaki,Hobby Stars
-HS-10,Ronald Acuña Jr.,Hobby Stars
-HS-11,Aaron Judge,Hobby Stars
-HS-12,Dylan Crews,Hobby Stars
-HS-13,Paul Skenes,Hobby Stars
-HS-14,Charlie Condon,Hobby Stars
-HS-15,Elly De La Cruz,Hobby Stars
-HSA-BW,Bobby Witt Jr.,Hobby Stars Autographs
-HSA-CC,Charlie Condon,Hobby Stars Autographs
-HSA-DC,Dylan Crews,Hobby Stars Autographs
-HSA-ED,Elly De La Cruz,Hobby Stars Autographs
-HSA-JC,Jackson Chourio,Hobby Stars Autographs
-HSA-JH,Jackson Holliday,Hobby Stars Autographs
-HSA-JJW,JJ Wetherholt,Hobby Stars Autographs
-HSA-JW,James Wood,Hobby Stars Autographs
-HSA-MT,Mike Trout,Hobby Stars Autographs
-HSA-PS,Paul Skenes,Hobby Stars Autographs
-HSA-RA,Ronald Acuña Jr.,Hobby Stars Autographs
-HSA-TB,Travis Bazzana,Hobby Stars Autographs
-CPR-SC,Steve Carlton,Retrofractor Autographs
-BCP-151,Brooks Robinson,Retrofractors
-BCP-152,Steve Carlton,Retrofractors
-RR-1,Adael Amador,Rockstar Rookies
-RR-2,Trey Sweeney,Rockstar Rookies
-RR-3,Hyeseong Kim,Rockstar Rookies
-RR-4,Rhett Lowder,Rockstar Rookies
-RR-5,Jace Jung,Rockstar Rookies
-RR-6,Kumar Rocker,Rockstar Rookies
-RR-7,Coby Mayo,Rockstar Rookies
-RR-8,Rece Hinds,Rockstar Rookies
-RR-9,Brooks Lee,Rockstar Rookies
-RR-10,Jackson Jobe,Rockstar Rookies
-RR-11,James Wood,Rockstar Rookies
-RR-12,Jhonkensy Noel,Rockstar Rookies
-RR-13,Connor Norby,Rockstar Rookies
-RR-14,Drew Thorpe,Rockstar Rookies
-RR-15,Dylan Crews,Rockstar Rookies
-RR-16,Jacob Wilson,Rockstar Rookies
-RR-17,Thomas Saggese,Rockstar Rookies
-RR-18,Luisangel Acuña,Rockstar Rookies
-RR-19,Spencer Schwellenbach,Rockstar Rookies
-RR-20,Roki Sasaki,Rockstar Rookies
-RRA-AA,Adael Amador,Rockstar Rookies Autographs
-RRA-BL,Brooks Lee,Rockstar Rookies Autographs
-RRA-CM,Coby Mayo,Rockstar Rookies Autographs
-RRA-CN,Connor Norby,Rockstar Rookies Autographs
-RRA-DC,Dylan Crews,Rockstar Rookies Autographs
-RRA-JJ,Jackson Jobe,Rockstar Rookies Autographs
-RRA-JW,James Wood,Rockstar Rookies Autographs
-RRA-JWI,Jacob Wilson,Rockstar Rookies Autographs
-RRA-KR,Kumar Rocker,Rockstar Rookies Autographs
-RRA-LA,Luisangel Acuña,Rockstar Rookies Autographs
-RRA-RL,Rhett Lowder,Rockstar Rookies Autographs
-RRA-SS,Spencer Schwellenbach,Rockstar Rookies Autographs
-RRA-TS,Thomas Saggese,Rockstar Rookies Autographs
-ROY-1,Dylan Crews,Rookie of the Year Favorites
-ROY-2,Coby Mayo,Rookie of the Year Favorites
-ROY-3,Jackson Jobe,Rookie of the Year Favorites
-ROY-4,Luisangel Acuña,Rookie of the Year Favorites
-ROY-5,Kumar Rocker,Rookie of the Year Favorites
-ROY-6,Thomas Saggese,Rookie of the Year Favorites
-ROY-7,Caden Dana,Rookie of the Year Favorites
-ROY-8,Jace Jung,Rookie of the Year Favorites
-ROY-9,Drew Romo,Rookie of the Year Favorites
-ROY-10,Roki Sasaki,Rookie of the Year Favorites
-ROY-11,Rhett Lowder,Rookie of the Year Favorites
-ROY-12,Trey Sweeney,Rookie of the Year Favorites
-ROY-13,Adael Amador,Rookie of the Year Favorites
-ROY-14,Nick Yorke,Rookie of the Year Favorites
-ROY-15,Kevin Alcántara,Rookie of the Year Favorites
-ROY-AA,Adael Amador,Rookie of the Year Favorites Autographs
-ROY-CD,Caden Dana,Rookie of the Year Favorites Autographs
-ROY-CM,Coby Mayo,Rookie of the Year Favorites Autographs
-ROY-DC,Dylan Crews,Rookie of the Year Favorites Autographs
-ROY-DR,Drew Romo,Rookie of the Year Favorites Autographs
-ROY-JJ,Jackson Jobe,Rookie of the Year Favorites Autographs
-ROY-JJU,Jace Jung,Rookie of the Year Favorites Autographs
-ROY-KA,Kevin Alcántara,Rookie of the Year Favorites Autographs
-ROY-KR,Kumar Rocker,Rookie of the Year Favorites Autographs
-ROY-LA,Luisangel Acuña,Rookie of the Year Favorites Autographs
-ROY-RL,Rhett Lowder,Rookie of the Year Favorites Autographs
-ROY-RS,Roki Sasaki,Rookie of the Year Favorites Autographs
-ROY-TS,Thomas Saggese,Rookie of the Year Favorites Autographs
-VIP-1,Carson Williams,Very Important Prospects
-VIP-2,Nick Kurtz,Very Important Prospects
-VIP-3,Sebastian Walcott,Very Important Prospects
-VIP-4,Samuel Basallo,Very Important Prospects
-VIP-5,Bryce Eldridge,Very Important Prospects
-VIP-6,Matt Shaw,Very Important Prospects
-VIP-7,Chase Burns,Very Important Prospects
-VIP-8,Travis Bazzana,Very Important Prospects
-VIP-9,Charlie Condon,Very Important Prospects
-VIP-10,Max Clark,Very Important Prospects
-VIP-11,Jac Caglianone,Very Important Prospects
-VIP-12,Christian Moore,Very Important Prospects
-VIP-13,Colt Emerson,Very Important Prospects
-VIP-14,Leo De Vries,Very Important Prospects
-VIP-15,Cooper Pratt,Very Important Prospects
-VIP-16,Walker Jenkins,Very Important Prospects
-VIP-17,Carson Benge,Very Important Prospects
-VIP-18,JJ Wetherholt,Very Important Prospects
-VIP-19,Aidan Miller,Very Important Prospects
-VIP-20,Konnor Griffin,Very Important Prospects
-VIP-CB,Chase Burns,Very Important Prospects Autographs
-VIP-CC,Cam Caminiti,Very Important Prospects Autographs
-VIP-CCO,Charlie Condon,Very Important Prospects Autographs
-VIP-CE,Colt Emerson,Very Important Prospects Autographs
-VIP-CM,Christian Moore,Very Important Prospects Autographs
-VIP-CP,Cooper Pratt,Very Important Prospects Autographs
-VIP-JC,Jac Caglianone,Very Important Prospects Autographs
-VIP-JW,JJ Wetherholt,Very Important Prospects Autographs
-VIP-KG,Konnor Griffin,Very Important Prospects Autographs
-VIP-LD,Leo De Vries,Very Important Prospects Autographs
-VIP-MS,Matt Shaw,Very Important Prospects Autographs
-VIP-NK,Nick Kurtz,Very Important Prospects Autographs
-VIP-SB,Samuel Basallo,Very Important Prospects Autographs
-VIP-TB,Travis Bazzana,Very Important Prospects Autographs
-VIP-TW,Thomas White,Very Important Prospects Autographs
+card_number,player,card_type,card_type_display
+1,Mike Trout,Base,Base
+2,Gunnar Henderson,Base,Base
+3,Bryce Harper,Base,Base
+4,Adrian Del Castillo,Base,Base
+5,Freddie Freeman,Base,Base
+6,Rhett Lowder,Base,Base
+7,Bobby Witt Jr.,Base,Base
+8,Drew Thorpe,Base,Base
+9,Jacob Wilson,Base,Base
+10,Rafael Devers,Base,Base
+11,Jackson Chourio,Base,Base
+12,Roki Sasaki,Base,Base
+13,Junior Caminero,Base,Base
+14,Lawrence Butler,Base,Base
+15,Emmanuel Clase,Base,Base
+16,Mookie Betts,Base,Base
+17,Shohei Ohtani,Base,Base
+18,Yoshinobu Yamamoto,Base,Base
+19,Randy Arozarena,Base,Base
+20,Tarik Skubal,Base,Base
+21,Ronald Acuña Jr.,Base,Base
+22,Juan Soto,Base,Base
+23,Fernando Tatis Jr.,Base,Base
+24,Marcus Semien,Base,Base
+25,Yordan Alvarez,Base,Base
+26,Manny Machado,Base,Base
+27,Vladimir Guerrero Jr.,Base,Base
+28,Jacob deGrom,Base,Base
+29,James Wood,Base,Base
+30,Paul Skenes,Base,Base
+31,Adael Amador,Base,Base
+32,Austin Riley,Base,Base
+33,Wyatt Langford,Base,Base
+34,Salvador Perez,Base,Base
+35,Adley Rutschman,Base,Base
+36,Triston Casas,Base,Base
+37,Coby Mayo,Base,Base
+38,Corey Seager,Base,Base
+39,Eury Pérez,Base,Base
+40,Cole Ragans,Base,Base
+41,Tomoyuki Sugano,Base,Base
+42,Dylan Crews,Base,Base
+43,Kyle Tucker,Base,Base
+44,Elly De La Cruz,Base,Base
+45,Zack Wheeler,Base,Base
+46,Connor Norby,Base,Base
+47,Shay Whitcomb,Base,Base
+48,Shane McClanahan,Base,Base
+49,CJ Abrams,Base,Base
+50,Jackson Jobe,Base,Base
+51,Shota Imanaga,Base,Base
+52,Cody Bellinger,Base,Base
+53,Ceddanne Rafaela,Base,Base
+54,David Festa,Base,Base
+55,Zach Neto,Base,Base
+56,Pete Alonso,Base,Base
+57,Thomas Saggese,Base,Base
+58,Riley Greene,Base,Base
+59,Jace Jung,Base,Base
+60,Willy Adames,Base,Base
+61,Hurston Waldrep,Base,Base
+62,Will Smith,Base,Base
+63,Jose Altuve,Base,Base
+64,Jackson Merrill,Base,Base
+65,Trea Turner,Base,Base
+66,Bryan Reynolds,Base,Base
+67,Christian Yelich,Base,Base
+68,Nolan Arenado,Base,Base
+69,River Ryan,Base,Base
+70,William Contreras,Base,Base
+71,Ozzie Albies,Base,Base
+72,Brooks Lee,Base,Base
+73,Carlos Correa,Base,Base
+74,Matt Chapman,Base,Base
+75,Orelvis Martinez,Base,Base
+76,Ketel Marte,Base,Base
+77,Jackson Holliday,Base,Base
+78,Spencer Schwellenbach,Base,Base
+79,Julio Rodríguez,Base,Base
+80,Kumar Rocker,Base,Base
+81,Jhonkensy Noel,Base,Base
+82,Chris Sale,Base,Base
+83,Luisangel Acuña,Base,Base
+84,Ezequiel Tovar,Base,Base
+85,Ben Rice,Base,Base
+86,Francisco Lindor,Base,Base
+87,Logan Gilbert,Base,Base
+88,Luis Robert Jr.,Base,Base
+89,José Ramírez,Base,Base
+90,Jung Hoo Lee,Base,Base
+91,Hyeseong Kim,Base,Base
+92,Bo Bichette,Base,Base
+93,Tyler Locklear,Base,Base
+94,Caden Dana,Base,Base
+95,Kevin Alcántara,Base,Base
+96,Corbin Carroll,Base,Base
+97,Nick Yorke,Base,Base
+98,Matt Olson,Base,Base
+99,Aaron Judge,Base,Base
+100,Masyn Winn,Base,Base
+BP-1,Walker Jenkins,Bowman Prospects,BP
+BP-2,Zyhir Hope,Bowman Prospects,BP
+BP-3,Romeo Sanabria,Bowman Prospects,BP
+BP-4,Asbel Gonzalez,Bowman Prospects,BP
+BP-5,Franyerber Montilla,Bowman Prospects,BP
+BP-6,Wen-Hui Pan,Bowman Prospects,BP
+BP-7,Gregory Barrios,Bowman Prospects,BP
+BP-8,Dawel Joseph,Bowman Prospects,BP
+BP-9,Esteban Mejia,Bowman Prospects,BP
+BP-10,Cade Horton,Bowman Prospects,BP
+BP-11,Jackson Humphries,Bowman Prospects,BP
+BP-12,Hayden Alvarez,Bowman Prospects,BP
+BP-13,Josue Briceno,Bowman Prospects,BP
+BP-14,Owen Wild,Bowman Prospects,BP
+BP-15,Walker Janek,Bowman Prospects,BP
+BP-16,Engelth Urena,Bowman Prospects,BP
+BP-17,Colt Emerson,Bowman Prospects,BP
+BP-18,Ichiro Cano Hernandez,Bowman Prospects,BP
+BP-19,Fabian Lopez,Bowman Prospects,BP
+BP-20,Ashly Andujar,Bowman Prospects,BP
+BP-21,Slade Caldwell,Bowman Prospects,BP
+BP-22,JJ Wetherholt,Bowman Prospects,BP
+BP-23,Lazaro Montes,Bowman Prospects,BP
+BP-24,Max Clark,Bowman Prospects,BP
+BP-25,Quinn Mathews,Bowman Prospects,BP
+BP-26,Jancel Villarroel,Bowman Prospects,BP
+BP-27,Yu-Min Lin,Bowman Prospects,BP
+BP-28,Carlos Tavares,Bowman Prospects,BP
+BP-29,David Ortiz Jr.,Bowman Prospects,BP
+BP-30,Bishop Letson,Bowman Prospects,BP
+BP-31,Ricardo Yan,Bowman Prospects,BP
+BP-32,Cole Fontenelle,Bowman Prospects,BP
+BP-33,Aron Estrada,Bowman Prospects,BP
+BP-34,Rafael Flores,Bowman Prospects,BP
+BP-35,Will Simpson,Bowman Prospects,BP
+BP-36,Yophery Rodriguez,Bowman Prospects,BP
+BP-37,Esmith Pineda,Bowman Prospects,BP
+BP-38,Luis Pena,Bowman Prospects,BP
+BP-39,James Tibbs III,Bowman Prospects,BP
+BP-40,Robert Calaz,Bowman Prospects,BP
+BP-41,Mitch Jebb,Bowman Prospects,BP
+BP-42,Kristian Campbell,Bowman Prospects,BP
+BP-43,Jhostynxon Garcia,Bowman Prospects,BP
+BP-44,Hagen Smith,Bowman Prospects,BP
+BP-45,Victor Rodrigues,Bowman Prospects,BP
+BP-46,Cam Caminiti,Bowman Prospects,BP
+BP-47,Dylan Fien,Bowman Prospects,BP
+BP-48,Cam Smith,Bowman Prospects,BP
+BP-49,Bryce Rainer,Bowman Prospects,BP
+BP-50,Sammy Hernandez,Bowman Prospects,BP
+BP-51,Hyun-Seok Jang,Bowman Prospects,BP
+BP-52,Ismael Javier,Bowman Prospects,BP
+BP-53,Jacob Bresnahan,Bowman Prospects,BP
+BP-54,Aidan Miller,Bowman Prospects,BP
+BP-55,Gary Gill Hill,Bowman Prospects,BP
+BP-56,Chase Mobley,Bowman Prospects,BP
+BP-57,Chase Hampton,Bowman Prospects,BP
+BP-58,Jonathon Long,Bowman Prospects,BP
+BP-59,Leo De Vries,Bowman Prospects,BP
+BP-60,Jack Penney,Bowman Prospects,BP
+BP-61,D'Angelo Ortiz,Bowman Prospects,BP
+BP-62,Luke Sinnard,Bowman Prospects,BP
+BP-63,George Klassen,Bowman Prospects,BP
+BP-64,Jack Lines,Bowman Prospects,BP
+BP-65,Aroon Escobar,Bowman Prospects,BP
+BP-66,Jesus Made,Bowman Prospects,BP
+BP-67,Franklin Arias,Bowman Prospects,BP
+BP-68,Javier Mogollon,Bowman Prospects,BP
+BP-69,Thomas White,Bowman Prospects,BP
+BP-70,Esteban Gonzalez,Bowman Prospects,BP
+BP-71,Richard Matic,Bowman Prospects,BP
+BP-72,Paulino Santana,Bowman Prospects,BP
+BP-73,Steven Echavarria,Bowman Prospects,BP
+BP-74,Zack Showalter,Bowman Prospects,BP
+BP-75,Charlie Condon,Bowman Prospects,BP
+BP-76,Blake Wolters,Bowman Prospects,BP
+BP-77,Khadim Diaw,Bowman Prospects,BP
+BP-78,Payton Eeles,Bowman Prospects,BP
+BP-79,Kevin McGonigle,Bowman Prospects,BP
+BP-80,Edgleen Perez,Bowman Prospects,BP
+BP-81,Aidan Smith,Bowman Prospects,BP
+BP-82,Kevyn Castillo,Bowman Prospects,BP
+BP-83,Émilien Pitre,Bowman Prospects,BP
+BP-84,Jansel Luis,Bowman Prospects,BP
+BP-85,Jared Sundstrom,Bowman Prospects,BP
+BP-86,Konnor Griffin,Bowman Prospects,BP
+BP-87,Didier Fuentes,Bowman Prospects,BP
+BP-88,Jesus Lopez,Bowman Prospects,BP
+BP-89,Sean Keys,Bowman Prospects,BP
+BP-90,Andrew Morris,Bowman Prospects,BP
+BP-91,PJ Morlando,Bowman Prospects,BP
+BP-92,Bo Walker,Bowman Prospects,BP
+BP-93,Seaver King,Bowman Prospects,BP
+BP-94,Marcos Torres,Bowman Prospects,BP
+BP-95,Tsung-Che Cheng,Bowman Prospects,BP
+BP-96,Humberto Cruz,Bowman Prospects,BP
+BP-97,Cameron Sullivan,Bowman Prospects,BP
+BP-98,Anderson Brito,Bowman Prospects,BP
+BP-99,Naibel Mariano,Bowman Prospects,BP
+BP-100,Sammy Stafura,Bowman Prospects,BP
+BP-101,Tink Hence,Bowman Prospects,BP
+BP-102,Nate Nankil,Bowman Prospects,BP
+BP-103,Jac Caglianone,Bowman Prospects,BP
+BP-104,Cobb Hightower,Bowman Prospects,BP
+BP-105,Jonah Tong,Bowman Prospects,BP
+BP-106,Jose Perdomo,Bowman Prospects,BP
+BP-107,Christian Moore,Bowman Prospects,BP
+BP-108,Carson Benge,Bowman Prospects,BP
+BP-109,Samuel Basallo,Bowman Prospects,BP
+BP-110,Fernando Cruz,Bowman Prospects,BP
+BP-111,Jose Pirela,Bowman Prospects,BP
+BP-112,Cody Freeman,Bowman Prospects,BP
+BP-113,Caden Kendle,Bowman Prospects,BP
+BP-114,Nick Kurtz,Bowman Prospects,BP
+BP-115,Eduardo Quintero,Bowman Prospects,BP
+BP-116,Andrew Painter,Bowman Prospects,BP
+BP-117,Jesus Tillero,Bowman Prospects,BP
+BP-118,Kyle Teel,Bowman Prospects,BP
+BP-119,Hyungchan Um,Bowman Prospects,BP
+BP-120,Caleb Lomavita,Bowman Prospects,BP
+BP-121,Winston Santos,Bowman Prospects,BP
+BP-122,Chase Burns,Bowman Prospects,BP
+BP-123,Jhonayker Ugarte,Bowman Prospects,BP
+BP-124,Elvin Garcia,Bowman Prospects,BP
+BP-125,Alejandro Rosario,Bowman Prospects,BP
+BP-126,Jhancarlos Lara,Bowman Prospects,BP
+BP-127,Emil Morales,Bowman Prospects,BP
+BP-128,Cory Lewis,Bowman Prospects,BP
+BP-129,Malcolm Moore,Bowman Prospects,BP
+BP-130,Conrad Cason,Bowman Prospects,BP
+BP-131,Travis Bazzana,Bowman Prospects,BP
+BP-132,Braden Montgomery,Bowman Prospects,BP
+BP-133,Sebastian Walcott,Bowman Prospects,BP
+BP-134,Onil Perez,Bowman Prospects,BP
+BP-135,Lucas Ramirez,Bowman Prospects,BP
+BP-136,Josh Knoth,Bowman Prospects,BP
+BP-137,Kellon Lindsey,Bowman Prospects,BP
+BP-138,Druw Jones,Bowman Prospects,BP
+BP-139,Kyle DeBarge,Bowman Prospects,BP
+BP-140,Luis Merejo,Bowman Prospects,BP
+BP-141,Chen-Wei Lin,Bowman Prospects,BP
+BP-142,Santiago Suarez,Bowman Prospects,BP
+BP-143,Jakob Wright,Bowman Prospects,BP
+BP-144,Pablo Guerrero,Bowman Prospects,BP
+BP-145,Matt Wilkinson,Bowman Prospects,BP
+BP-146,Yeremi Cabrera,Bowman Prospects,BP
+BP-147,Jhonny Level,Bowman Prospects,BP
+BP-148,Braylon Payne,Bowman Prospects,BP
+BP-149,Alex Mooney,Bowman Prospects,BP
+BP-150,Charles McAdoo,Bowman Prospects,BP
+BCP-1,Walker Jenkins,Bowman Chrome Prospects,BCP
+BCP-2,Zyhir Hope,Bowman Chrome Prospects,BCP
+BCP-3,Romeo Sanabria,Bowman Chrome Prospects,BCP
+BCP-4,Asbel Gonzalez,Bowman Chrome Prospects,BCP
+BCP-5,Franyerber Montilla,Bowman Chrome Prospects,BCP
+BCP-6,Wen-Hui Pan,Bowman Chrome Prospects,BCP
+BCP-7,Gregory Barrios,Bowman Chrome Prospects,BCP
+BCP-8,Dawel Joseph,Bowman Chrome Prospects,BCP
+BCP-9,Esteban Mejia,Bowman Chrome Prospects,BCP
+BCP-10,Cade Horton,Bowman Chrome Prospects,BCP
+BCP-11,Jackson Humphries,Bowman Chrome Prospects,BCP
+BCP-12,Hayden Alvarez,Bowman Chrome Prospects,BCP
+BCP-13,Josue Briceno,Bowman Chrome Prospects,BCP
+BCP-14,Owen Wild,Bowman Chrome Prospects,BCP
+BCP-15,Walker Janek,Bowman Chrome Prospects,BCP
+BCP-16,Engelth Urena,Bowman Chrome Prospects,BCP
+BCP-17,Colt Emerson,Bowman Chrome Prospects,BCP
+BCP-18,Ichiro Cano Hernandez,Bowman Chrome Prospects,BCP
+BCP-19,Fabian Lopez,Bowman Chrome Prospects,BCP
+BCP-20,Ashly Andujar,Bowman Chrome Prospects,BCP
+BCP-21,Slade Caldwell,Bowman Chrome Prospects,BCP
+BCP-22,JJ Wetherholt,Bowman Chrome Prospects,BCP
+BCP-23,Lazaro Montes,Bowman Chrome Prospects,BCP
+BCP-24,Max Clark,Bowman Chrome Prospects,BCP
+BCP-25,Quinn Mathews,Bowman Chrome Prospects,BCP
+BCP-26,Jancel Villarroel,Bowman Chrome Prospects,BCP
+BCP-27,Yu-Min Lin,Bowman Chrome Prospects,BCP
+BCP-28,Carlos Tavares,Bowman Chrome Prospects,BCP
+BCP-29,David Ortiz Jr.,Bowman Chrome Prospects,BCP
+BCP-30,Bishop Letson,Bowman Chrome Prospects,BCP
+BCP-31,Ricardo Yan,Bowman Chrome Prospects,BCP
+BCP-32,Cole Fontenelle,Bowman Chrome Prospects,BCP
+BCP-33,Aron Estrada,Bowman Chrome Prospects,BCP
+BCP-34,Rafael Flores,Bowman Chrome Prospects,BCP
+BCP-35,Will Simpson,Bowman Chrome Prospects,BCP
+BCP-36,Yophery Rodriguez,Bowman Chrome Prospects,BCP
+BCP-37,Esmith Pineda,Bowman Chrome Prospects,BCP
+BCP-38,Luis Pena,Bowman Chrome Prospects,BCP
+BCP-39,James Tibbs III,Bowman Chrome Prospects,BCP
+BCP-40,Robert Calaz,Bowman Chrome Prospects,BCP
+BCP-41,Mitch Jebb,Bowman Chrome Prospects,BCP
+BCP-42,Kristian Campbell,Bowman Chrome Prospects,BCP
+BCP-43,Jhostynxon Garcia,Bowman Chrome Prospects,BCP
+BCP-44,Hagen Smith,Bowman Chrome Prospects,BCP
+BCP-45,Victor Rodrigues,Bowman Chrome Prospects,BCP
+BCP-46,Cam Caminiti,Bowman Chrome Prospects,BCP
+BCP-47,Dylan Fien,Bowman Chrome Prospects,BCP
+BCP-48,Cam Smith,Bowman Chrome Prospects,BCP
+BCP-49,Bryce Rainer,Bowman Chrome Prospects,BCP
+BCP-50,Jesus Made,Bowman Chrome Prospects,BCP
+BCP-51,Hyun-Seok Jang,Bowman Chrome Prospects,BCP
+BCP-52,Ismael Javier,Bowman Chrome Prospects,BCP
+BCP-53,Jacob Bresnahan,Bowman Chrome Prospects,BCP
+BCP-54,Aidan Miller,Bowman Chrome Prospects,BCP
+BCP-55,Gary Gill Hill,Bowman Chrome Prospects,BCP
+BCP-56,Chase Mobley,Bowman Chrome Prospects,BCP
+BCP-57,Chase Hampton,Bowman Chrome Prospects,BCP
+BCP-58,Jonathon Long,Bowman Chrome Prospects,BCP
+BCP-59,Leo De Vries,Bowman Chrome Prospects,BCP
+BCP-60,Jack Penney,Bowman Chrome Prospects,BCP
+BCP-61,D'Angelo Ortiz,Bowman Chrome Prospects,BCP
+BCP-62,Luke Sinnard,Bowman Chrome Prospects,BCP
+BCP-63,George Klassen,Bowman Chrome Prospects,BCP
+BCP-64,Jack Lines,Bowman Chrome Prospects,BCP
+BCP-65,Aroon Escobar,Bowman Chrome Prospects,BCP
+BCP-66,Sammy Hernandez,Bowman Chrome Prospects,BCP
+BCP-67,Franklin Arias,Bowman Chrome Prospects,BCP
+BCP-68,Javier Mogollon,Bowman Chrome Prospects,BCP
+BCP-69,Thomas White,Bowman Chrome Prospects,BCP
+BCP-70,Esteban Gonzalez,Bowman Chrome Prospects,BCP
+BCP-71,Richard Matic,Bowman Chrome Prospects,BCP
+BCP-72,Paulino Santana,Bowman Chrome Prospects,BCP
+BCP-73,Steven Echavarria,Bowman Chrome Prospects,BCP
+BCP-74,Zack Showalter,Bowman Chrome Prospects,BCP
+BCP-75,Charlie Condon,Bowman Chrome Prospects,BCP
+BCP-76,Blake Wolters,Bowman Chrome Prospects,BCP
+BCP-77,Khadim Diaw,Bowman Chrome Prospects,BCP
+BCP-78,Payton Eeles,Bowman Chrome Prospects,BCP
+BCP-79,Kevin McGonigle,Bowman Chrome Prospects,BCP
+BCP-80,Edgleen Perez,Bowman Chrome Prospects,BCP
+BCP-81,Aidan Smith,Bowman Chrome Prospects,BCP
+BCP-82,Kevyn Castillo,Bowman Chrome Prospects,BCP
+BCP-83,Émilien Pitre,Bowman Chrome Prospects,BCP
+BCP-84,Jansel Luis,Bowman Chrome Prospects,BCP
+BCP-85,Jared Sundstrom,Bowman Chrome Prospects,BCP
+BCP-86,Konnor Griffin,Bowman Chrome Prospects,BCP
+BCP-87,Didier Fuentes,Bowman Chrome Prospects,BCP
+BCP-88,Jesus Lopez,Bowman Chrome Prospects,BCP
+BCP-89,Sean Keys,Bowman Chrome Prospects,BCP
+BCP-90,Andrew Morris,Bowman Chrome Prospects,BCP
+BCP-91,PJ Morlando,Bowman Chrome Prospects,BCP
+BCP-92,Bo Walker,Bowman Chrome Prospects,BCP
+BCP-93,Seaver King,Bowman Chrome Prospects,BCP
+BCP-94,Marcos Torres,Bowman Chrome Prospects,BCP
+BCP-95,Tsung-Che Cheng,Bowman Chrome Prospects,BCP
+BCP-96,Humberto Cruz,Bowman Chrome Prospects,BCP
+BCP-97,Cameron Sullivan,Bowman Chrome Prospects,BCP
+BCP-98,Anderson Brito,Bowman Chrome Prospects,BCP
+BCP-99,Naibel Mariano,Bowman Chrome Prospects,BCP
+BCP-100,Sammy Stafura,Bowman Chrome Prospects,BCP
+BCP-101,Tink Hence,Bowman Chrome Prospects,BCP
+BCP-102,Nate Nankil,Bowman Chrome Prospects,BCP
+BCP-103,Jac Caglianone,Bowman Chrome Prospects,BCP
+BCP-104,Cobb Hightower,Bowman Chrome Prospects,BCP
+BCP-105,Jonah Tong,Bowman Chrome Prospects,BCP
+BCP-106,Jose Perdomo,Bowman Chrome Prospects,BCP
+BCP-107,Christian Moore,Bowman Chrome Prospects,BCP
+BCP-108,Carson Benge,Bowman Chrome Prospects,BCP
+BCP-109,Samuel Basallo,Bowman Chrome Prospects,BCP
+BCP-110,Fernando Cruz,Bowman Chrome Prospects,BCP
+BCP-111,Jose Pirela,Bowman Chrome Prospects,BCP
+BCP-112,Cody Freeman,Bowman Chrome Prospects,BCP
+BCP-113,Caden Kendle,Bowman Chrome Prospects,BCP
+BCP-114,Nick Kurtz,Bowman Chrome Prospects,BCP
+BCP-115,Eduardo Quintero,Bowman Chrome Prospects,BCP
+BCP-116,Andrew Painter,Bowman Chrome Prospects,BCP
+BCP-117,Jesus Tillero,Bowman Chrome Prospects,BCP
+BCP-118,Kyle Teel,Bowman Chrome Prospects,BCP
+BCP-119,Hyungchan Um,Bowman Chrome Prospects,BCP
+BCP-120,Caleb Lomavita,Bowman Chrome Prospects,BCP
+BCP-121,Winston Santos,Bowman Chrome Prospects,BCP
+BCP-122,Chase Burns,Bowman Chrome Prospects,BCP
+BCP-123,Jhonayker Ugarte,Bowman Chrome Prospects,BCP
+BCP-124,Elvin Garcia,Bowman Chrome Prospects,BCP
+BCP-125,Alejandro Rosario,Bowman Chrome Prospects,BCP
+BCP-126,Jhancarlos Lara,Bowman Chrome Prospects,BCP
+BCP-127,Emil Morales,Bowman Chrome Prospects,BCP
+BCP-128,Cory Lewis,Bowman Chrome Prospects,BCP
+BCP-129,Malcolm Moore,Bowman Chrome Prospects,BCP
+BCP-130,Conrad Cason,Bowman Chrome Prospects,BCP
+BCP-131,Travis Bazzana,Bowman Chrome Prospects,BCP
+BCP-132,Braden Montgomery,Bowman Chrome Prospects,BCP
+BCP-133,Sebastian Walcott,Bowman Chrome Prospects,BCP
+BCP-134,Onil Perez,Bowman Chrome Prospects,BCP
+BCP-135,Lucas Ramirez,Bowman Chrome Prospects,BCP
+BCP-136,Josh Knoth,Bowman Chrome Prospects,BCP
+BCP-137,Kellon Lindsey,Bowman Chrome Prospects,BCP
+BCP-138,Druw Jones,Bowman Chrome Prospects,BCP
+BCP-139,Kyle DeBarge,Bowman Chrome Prospects,BCP
+BCP-140,Luis Merejo,Bowman Chrome Prospects,BCP
+BCP-141,Chen-Wei Lin,Bowman Chrome Prospects,BCP
+BCP-142,Santiago Suarez,Bowman Chrome Prospects,BCP
+BCP-143,Jakob Wright,Bowman Chrome Prospects,BCP
+BCP-144,Pablo Guerrero,Bowman Chrome Prospects,BCP
+BCP-145,Matt Wilkinson,Bowman Chrome Prospects,BCP
+BCP-146,Yeremi Cabrera,Bowman Chrome Prospects,BCP
+BCP-147,Jhonny Level,Bowman Chrome Prospects,BCP
+BCP-148,Braylon Payne,Bowman Chrome Prospects,BCP
+BCP-149,Alex Mooney,Bowman Chrome Prospects,BCP
+BCP-150,Charles McAdoo,Bowman Chrome Prospects,BCP
+BA-1,Mike Trout,Anime,BA
+BA-2,Coby Mayo,Anime,BA
+BA-3,Charlie Condon,Anime,BA
+BA-4,Bobby Witt Jr.,Anime,BA
+BA-5,Mookie Betts,Anime,BA
+BA-6,Aaron Judge,Anime,BA
+BA-7,Bryce Harper,Anime,BA
+BA-8,Leo De Vries,Anime,BA
+BA-9,JJ Wetherholt,Anime,BA
+BA-10,James Wood,Anime,BA
+BA-11,Walker Jenkins,Anime,BA
+BA-12,Max Clark,Anime,BA
+BA-13,George Brett,Anime,BA
+BA-14,Ichiro,Anime,BA
+BA-15,Derek Jeter,Anime,BA
+BA-16,Jac Caglianone,Anime,BA
+BA-17,Travis Bazzana,Anime,BA
+BA-18,Konnor Griffin,Anime,BA
+BA-19,Christian Moore,Anime,BA
+BA-20,Roki Sasaki,Anime,BA
+BA-21,Hyeseong Kim,Anime,BA
+BA-22,Albert Pujols,Anime,BA
+BA-23,Juan Soto,Anime,BA
+BA-24,Hideki Matsui,Anime,BA
+BA-25,Dylan Crews,Anime,BA
+BA-26,Luisangel Acuña,Anime,BA
+BA-27,Shohei Ohtani,Anime,BA
+BA-28,Fernando Tatis Jr.,Anime,BA
+BA-29,Rafael Devers,Anime,BA
+BA-30,Vladimir Guerrero Jr.,Anime,BA
+BA-14,Ichiro,Anime Kanji Variations,BA-K
+BA-20,Roki Sasaki,Anime Kanji Variations,BA-K
+BA-24,Hideki Matsui,Anime Kanji Variations,BA-K
+BA-27,Shohei Ohtani,Anime Kanji Variations,BA-K
+BDA-JB,Bobby Witt Jr. / Jac Caglianone,Bowman Dual Autographs,BDA
+BPA-AP,Andrew Painter,Bowman Prospect Autographs,BPA
+BPA-BA,Blake Aita,Bowman Prospect Autographs,BPA
+BPA-CB,Chase Burns,Bowman Prospect Autographs,BPA
+BPA-CC,Charlie Condon,Bowman Prospect Autographs,BPA
+BPA-CHC,Chris Campos,Bowman Prospect Autographs,BPA
+BPA-CHO,Cade Horton,Bowman Prospect Autographs,BPA
+BPA-CM,Charles McAdoo,Bowman Prospect Autographs,BPA
+BPA-CW,Chandler Welch,Bowman Prospect Autographs,BPA
+BPA-DH,David Hagaman,Bowman Prospect Autographs,BPA
+BPA-DJ,Druw Jones,Bowman Prospect Autographs,BPA
+BPA-EQ,Eduardo Quintero,Bowman Prospect Autographs,BPA
+BPA-GH,Garrett Horn,Bowman Prospect Autographs,BPA
+BPA-GK,Grant Knipp,Bowman Prospect Autographs,BPA
+BPA-HS,Hagen Smith,Bowman Prospect Autographs,BPA
+BPA-JC,Jac Caglianone,Bowman Prospect Autographs,BPA
+BPA-JH,Josh Hartle,Bowman Prospect Autographs,BPA
+BPA-JM,Jesus Made,Bowman Prospect Autographs,BPA
+BPA-JR,Jeremy Rodriguez,Bowman Prospect Autographs,BPA
+BPA-JW,JJ Wetherholt,Bowman Prospect Autographs,BPA
+BPA-KD,Kyle DeBarge,Bowman Prospect Autographs,BPA
+BPA-KE,Konner Eaton,Bowman Prospect Autographs,BPA
+BPA-KT,Kyle Teel,Bowman Prospect Autographs,BPA
+BPA-LA,Luis Almeyda,Bowman Prospect Autographs,BPA
+BPA-LD,Leo De Vries,Bowman Prospect Autographs,BPA
+BPA-MA,Mick Abel,Bowman Prospect Autographs,BPA
+BPA-NK,Nick Kurtz,Bowman Prospect Autographs,BPA
+BPA-PM,PJ Morlando,Bowman Prospect Autographs,BPA
+BPA-PO,Peyton Olejnik,Bowman Prospect Autographs,BPA
+BPA-SC,Slade Caldwell,Bowman Prospect Autographs,BPA
+BPA-SS,Sam Stuhr,Bowman Prospect Autographs,BPA
+BPA-TB,Travis Bazzana,Bowman Prospect Autographs,BPA
+BPA-TH,Tink Hence,Bowman Prospect Autographs,BPA
+BPA-TT,Tommy Troy,Bowman Prospect Autographs,BPA
+BPA-WJ,Walker Jenkins,Bowman Prospect Autographs,BPA
+PRV-AP,Andy Pages,Bowman Rookies and Veterans Autographs,PRV
+PRV-BB,Brett Baty,Bowman Rookies and Veterans Autographs,PRV
+PRV-BD,Brenton Doyle,Bowman Rookies and Veterans Autographs,PRV
+PRV-BR,Brayan Rocchio,Bowman Rookies and Veterans Autographs,PRV
+PRV-CC,Corbin Carroll,Bowman Rookies and Veterans Autographs,PRV
+PRV-CCO,Colton Cowser,Bowman Rookies and Veterans Autographs,PRV
+PRV-CM,Coby Mayo,Bowman Rookies and Veterans Autographs,PRV
+PRV-CR,Ceddanne Rafaela,Bowman Rookies and Veterans Autographs,PRV
+PRV-DT,Drew Thorpe,Bowman Rookies and Veterans Autographs,PRV
+PRV-EC,Evan Carter,Bowman Rookies and Veterans Autographs,PRV
+PRV-HW,Hurston Waldrep,Bowman Rookies and Veterans Autographs,PRV
+PRV-JB,Jake Bloss,Bowman Rookies and Veterans Autographs,PRV
+PRV-JD,Jasson Domínguez,Bowman Rookies and Veterans Autographs,PRV
+PRV-JH,Jackson Holliday,Bowman Rookies and Veterans Autographs,PRV
+PRV-JJ,Josh Jung,Bowman Rookies and Veterans Autographs,PRV
+PRV-JJO,Jackson Jobe,Bowman Rookies and Veterans Autographs,PRV
+PRV-JL,Jordan Lawlar,Bowman Rookies and Veterans Autographs,PRV
+PRV-JM,J.D. Martinez,Bowman Rookies and Veterans Autographs,PRV
+PRV-JW,Jordan Westburg,Bowman Rookies and Veterans Autographs,PRV
+PRV-KB,Kris Bryant,Bowman Rookies and Veterans Autographs,PRV
+PRV-KR,Kumar Rocker,Bowman Rookies and Veterans Autographs,PRV
+PRV-LA,Luisangel Acuña,Bowman Rookies and Veterans Autographs,PRV
+PRV-MO,Matt Olson,Bowman Rookies and Veterans Autographs,PRV
+PRV-MV,Mark Vientos,Bowman Rookies and Veterans Autographs,PRV
+PRV-OP,Oswald Peraza,Bowman Rookies and Veterans Autographs,PRV
+PRV-RA,Ronald Acuña Jr.,Bowman Rookies and Veterans Autographs,PRV
+PRV-SL,Seth Lugo,Bowman Rookies and Veterans Autographs,PRV
+PRV-SS,Spencer Strider,Bowman Rookies and Veterans Autographs,PRV
+PRV-TB,Tyler Black,Bowman Rookies and Veterans Autographs,PRV
+PRV-TE,Tommy Edman,Bowman Rookies and Veterans Autographs,PRV
+PRV-TS,Thomas Saggese,Bowman Rookies and Veterans Autographs,PRV
+PRV-TSA,Trey Sweeney,Bowman Rookies and Veterans Autographs,PRV
+PRV-VG,Vladimir Guerrero Jr.,Bowman Rookies and Veterans Autographs,PRV
+PRV-VS,Victor Scott II,Bowman Rookies and Veterans Autographs,PRV
+PRV-XE,Xavier Edwards,Bowman Rookies and Veterans Autographs,PRV
+BTP-1,Roman Anthony,Bowman Scouts' Top 100,BTP
+BTP-2,Walker Jenkins,Bowman Scouts' Top 100,BTP
+BTP-3,Carson Williams,Bowman Scouts' Top 100,BTP
+BTP-4,Marcelo Mayer,Bowman Scouts' Top 100,BTP
+BTP-5,Samuel Basallo,Bowman Scouts' Top 100,BTP
+BTP-6,Max Clark,Bowman Scouts' Top 100,BTP
+BTP-7,Charlie Condon,Bowman Scouts' Top 100,BTP
+BTP-8,Travis Bazzana,Bowman Scouts' Top 100,BTP
+BTP-9,Ethan Salas,Bowman Scouts' Top 100,BTP
+BTP-10,Jesus Made,Bowman Scouts' Top 100,BTP
+BTP-11,Bubba Chandler,Bowman Scouts' Top 100,BTP
+BTP-12,Colt Emerson,Bowman Scouts' Top 100,BTP
+BTP-13,Kristian Campbell,Bowman Scouts' Top 100,BTP
+BTP-14,Jac Caglianone,Bowman Scouts' Top 100,BTP
+BTP-15,JJ Wetherholt,Bowman Scouts' Top 100,BTP
+BTP-16,Noah Schultz,Bowman Scouts' Top 100,BTP
+BTP-17,Chase Burns,Bowman Scouts' Top 100,BTP
+BTP-18,Sebastian Walcott,Bowman Scouts' Top 100,BTP
+BTP-19,Andrew Painter,Bowman Scouts' Top 100,BTP
+BTP-20,Leo De Vries,Bowman Scouts' Top 100,BTP
+BTP-21,Josue De Paula,Bowman Scouts' Top 100,BTP
+BTP-22,Kyle Teel,Bowman Scouts' Top 100,BTP
+BTP-23,Aidan Miller,Bowman Scouts' Top 100,BTP
+BTP-24,Matt Shaw,Bowman Scouts' Top 100,BTP
+BTP-25,Kevin McGonigle,Bowman Scouts' Top 100,BTP
+BTP-26,Emmanuel Rodriguez,Bowman Scouts' Top 100,BTP
+BTP-27,Bryce Eldridge,Bowman Scouts' Top 100,BTP
+BTP-28,Robert Calaz,Bowman Scouts' Top 100,BTP
+BTP-29,Colson Montgomery,Bowman Scouts' Top 100,BTP
+BTP-30,Xavier Isaac,Bowman Scouts' Top 100,BTP
+BTP-31,Chase DeLauter,Bowman Scouts' Top 100,BTP
+BTP-32,Nick Kurtz,Bowman Scouts' Top 100,BTP
+BTP-33,Hagen Smith,Bowman Scouts' Top 100,BTP
+BTP-34,Thomas White,Bowman Scouts' Top 100,BTP
+BTP-35,Brandon Sproat,Bowman Scouts' Top 100,BTP
+BTP-36,Emil Morales,Bowman Scouts' Top 100,BTP
+BTP-37,Jacob Misiorowski,Bowman Scouts' Top 100,BTP
+BTP-38,Tink Hence,Bowman Scouts' Top 100,BTP
+BTP-39,Owen Caissie,Bowman Scouts' Top 100,BTP
+BTP-40,Cole Young,Bowman Scouts' Top 100,BTP
+BTP-41,Dalton Rushing,Bowman Scouts' Top 100,BTP
+BTP-42,Alejandro Rosario,Bowman Scouts' Top 100,BTP
+BTP-43,Jeferson Quero,Bowman Scouts' Top 100,BTP
+BTP-44,Lazaro Montes,Bowman Scouts' Top 100,BTP
+BTP-45,Konnor Griffin,Bowman Scouts' Top 100,BTP
+BTP-46,Christian Moore,Bowman Scouts' Top 100,BTP
+BTP-47,Justin Crawford,Bowman Scouts' Top 100,BTP
+BTP-48,Harry Ford,Bowman Scouts' Top 100,BTP
+BTP-49,Cade Horton,Bowman Scouts' Top 100,BTP
+BTP-50,Braden Montgomery,Bowman Scouts' Top 100,BTP
+BTP-51,Zyhir Hope,Bowman Scouts' Top 100,BTP
+BTP-52,Edgar Quero,Bowman Scouts' Top 100,BTP
+BTP-53,Bryce Rainer,Bowman Scouts' Top 100,BTP
+BTP-54,Blake Mitchell,Bowman Scouts' Top 100,BTP
+BTP-55,Moises Ballesteros,Bowman Scouts' Top 100,BTP
+BTP-56,Cam Smith,Bowman Scouts' Top 100,BTP
+BTP-57,Franklin Arias,Bowman Scouts' Top 100,BTP
+BTP-58,Jett Williams,Bowman Scouts' Top 100,BTP
+BTP-59,Spencer Jones,Bowman Scouts' Top 100,BTP
+BTP-60,Drew Gilbert,Bowman Scouts' Top 100,BTP
+BTP-61,Noble Meyer,Bowman Scouts' Top 100,BTP
+BTP-62,Eduardo Quintero,Bowman Scouts' Top 100,BTP
+BTP-63,Thayron Liranzo,Bowman Scouts' Top 100,BTP
+BTP-64,Cooper Pratt,Bowman Scouts' Top 100,BTP
+BTP-65,Drake Baldwin,Bowman Scouts' Top 100,BTP
+BTP-66,Luke Keaschall,Bowman Scouts' Top 100,BTP
+BTP-67,Termarr Johnson,Bowman Scouts' Top 100,BTP
+BTP-68,Jacob Melton,Bowman Scouts' Top 100,BTP
+BTP-69,Jaison Chourio,Bowman Scouts' Top 100,BTP
+BTP-70,Agustin Ramirez,Bowman Scouts' Top 100,BTP
+BTP-71,Jonny Farmelo,Bowman Scouts' Top 100,BTP
+BTP-72,Slade Caldwell,Bowman Scouts' Top 100,BTP
+BTP-73,Seaver King,Bowman Scouts' Top 100,BTP
+BTP-74,PJ Morlando,Bowman Scouts' Top 100,BTP
+BTP-75,Tommy Troy,Bowman Scouts' Top 100,BTP
+BTP-76,Theo Gillen,Bowman Scouts' Top 100,BTP
+BTP-77,Angel Genao,Bowman Scouts' Top 100,BTP
+BTP-78,James Tibbs III,Bowman Scouts' Top 100,BTP
+BTP-79,Brayden Taylor,Bowman Scouts' Top 100,BTP
+BTP-80,Felnin Celesten,Bowman Scouts' Top 100,BTP
+BTP-81,Kyle DeBarge,Bowman Scouts' Top 100,BTP
+BTP-82,Josue Briceno,Bowman Scouts' Top 100,BTP
+BTP-83,Joendry Vargas,Bowman Scouts' Top 100,BTP
+BTP-84,Welbyn Francisca,Bowman Scouts' Top 100,BTP
+BTP-85,Cam Caminiti,Bowman Scouts' Top 100,BTP
+BTP-86,Ryan Clifford,Bowman Scouts' Top 100,BTP
+BTP-87,Trey Yesavage,Bowman Scouts' Top 100,BTP
+BTP-88,George Klassen,Bowman Scouts' Top 100,BTP
+BTP-89,Jose Perdomo,Bowman Scouts' Top 100,BTP
+BTP-90,Jefferson Rojas,Bowman Scouts' Top 100,BTP
+BTP-91,Alex Freeland,Bowman Scouts' Top 100,BTP
+BTP-92,Ralphy Velazquez,Bowman Scouts' Top 100,BTP
+BTP-93,Paulino Santana,Bowman Scouts' Top 100,BTP
+BTP-94,James Triantos,Bowman Scouts' Top 100,BTP
+BTP-95,Cam Collier,Bowman Scouts' Top 100,BTP
+BTP-96,Druw Jones,Bowman Scouts' Top 100,BTP
+BTP-97,Travis Sykora,Bowman Scouts' Top 100,BTP
+BTP-98,Yophery Rodriguez,Bowman Scouts' Top 100,BTP
+BTP-99,Gary Gill Hill,Bowman Scouts' Top 100,BTP
+BTP-100,Carson Benge,Bowman Scouts' Top 100,BTP
+BS-1,Dylan Crews,Bowman Spotlights,BS
+BS-2,Jacob Wilson,Bowman Spotlights,BS
+BS-3,Bobby Witt Jr.,Bowman Spotlights,BS
+BS-4,Jesus Made,Bowman Spotlights,BS
+BS-5,Roki Sasaki,Bowman Spotlights,BS
+BS-6,Hyeseong Kim,Bowman Spotlights,BS
+BS-7,PJ Morlando,Bowman Spotlights,BS
+BS-8,Luisangel Acuña,Bowman Spotlights,BS
+BS-9,Shohei Ohtani,Bowman Spotlights,BS
+BS-10,JJ Wetherholt,Bowman Spotlights,BS
+BS-11,James Wood,Bowman Spotlights,BS
+BS-12,Charlie Condon,Bowman Spotlights,BS
+BS-13,Coby Mayo,Bowman Spotlights,BS
+BS-14,Ronald Acuña Jr.,Bowman Spotlights,BS
+BS-15,Kumar Rocker,Bowman Spotlights,BS
+CPA-AA,Ashly Andujar,Chrome Prospect Autographs,CPA
+CPA-AE,Aroon Escobar,Chrome Prospect Autographs,CPA
+CPA-AES,Aron Estrada,Chrome Prospect Autographs,CPA
+CPA-AM,Alex Mooney,Chrome Prospect Autographs,CPA
+CPA-AMO,Andrew Morris,Chrome Prospect Autographs,CPA
+CPA-BH,Brody Hopkins,Chrome Prospect Autographs,CPA
+CPA-BM,Braden Montgomery,Chrome Prospect Autographs,CPA
+CPA-BWA,Bo Walker,Chrome Prospect Autographs,CPA
+CPA-CB,Chase Burns,Chrome Prospect Autographs,CPA
+CPA-CC,Charlie Condon,Chrome Prospect Autographs,CPA
+CPA-CCN,Conrad Cason,Chrome Prospect Autographs,CPA
+CPA-CF,Cole Fontenelle,Chrome Prospect Autographs,CPA
+CPA-CFR,Cody Freeman,Chrome Prospect Autographs,CPA
+CPA-CHI,Cobb Hightower,Chrome Prospect Autographs,CPA
+CPA-CKE,Caden Kendle,Chrome Prospect Autographs,CPA
+CPA-CL,Chen-Wei Lin,Chrome Prospect Autographs,CPA
+CPA-CLE,Cory Lewis,Chrome Prospect Autographs,CPA
+CPA-CLO,Caleb Lomavita,Chrome Prospect Autographs,CPA
+CPA-CMA,Charles McAdoo,Chrome Prospect Autographs,CPA
+CPA-CMO,Christian Moore,Chrome Prospect Autographs,CPA
+CPA-CMY,Chase Mobley,Chrome Prospect Autographs,CPA
+CPA-CS,Cameron Sullivan,Chrome Prospect Autographs,CPA
+CPA-CSM,Cam Smith,Chrome Prospect Autographs,CPA
+CPA-DF,Dylan Fien,Chrome Prospect Autographs,CPA
+CPA-DFU,Didier Fuentes,Chrome Prospect Autographs,CPA
+CPA-DO,D'Angelo Ortiz,Chrome Prospect Autographs,CPA
+CPA-EGO,Esteban Gonzalez,Chrome Prospect Autographs,CPA
+CPA-EM,Esteban Mejia,Chrome Prospect Autographs,CPA
+CPA-EP,Esmith Pineda,Chrome Prospect Autographs,CPA
+CPA-EPI,Émilien Pitre,Chrome Prospect Autographs,CPA
+CPA-EPZ,Edgleen Perez,Chrome Prospect Autographs,CPA
+CPA-EQ,Eduardo Quintero,Chrome Prospect Autographs,CPA
+CPA-EU,Engelth Urena,Chrome Prospect Autographs,CPA
+CPA-FA,Franklin Arias,Chrome Prospect Autographs,CPA
+CPA-FL,Fabian Lopez,Chrome Prospect Autographs,CPA
+CPA-FM,Franyerber Montilla,Chrome Prospect Autographs,CPA
+CPA-GB,Gregory Barrios,Chrome Prospect Autographs,CPA
+CPA-GG,Gary Gill Hill,Chrome Prospect Autographs,CPA
+CPA-GK,George Klassen,Chrome Prospect Autographs,CPA
+CPA-HA,Hayden Alvarez,Chrome Prospect Autographs,CPA
+CPA-HC,Humberto Cruz,Chrome Prospect Autographs,CPA
+CPA-HJ,Hyun-Seok Jang,Chrome Prospect Autographs,CPA
+CPA-HU,Hyungchan Um,Chrome Prospect Autographs,CPA
+CPA-IC,Ichiro Cano Hernandez,Chrome Prospect Autographs,CPA
+CPA-JB,Josue Briceno,Chrome Prospect Autographs,CPA
+CPA-JBR,Jacob Bresnahan,Chrome Prospect Autographs,CPA
+CPA-JCA,Jac Caglianone,Chrome Prospect Autographs,CPA
+CPA-JF,Jadyn Fielder,Chrome Prospect Autographs,CPA
+CPA-JGA,Jhostynxon Garcia,Chrome Prospect Autographs,CPA
+CPA-JHU,Jackson Humphries,Chrome Prospect Autographs,CPA
+CPA-JL,Jhonny Level,Chrome Prospect Autographs,CPA
+CPA-JLG,Jonathon Long,Chrome Prospect Autographs,CPA
+CPA-JLI,Jack Lines,Chrome Prospect Autographs,CPA
+CPA-JLO,Jesus Lopez,Chrome Prospect Autographs,CPA
+CPA-JLU,Jansel Luis,Chrome Prospect Autographs,CPA
+CPA-JM,Jesus Made,Chrome Prospect Autographs,CPA
+CPA-JMO,Javier Mogollon,Chrome Prospect Autographs,CPA
+CPA-JP,Jose Pirela,Chrome Prospect Autographs,CPA
+CPA-JPY,Jack Penney,Chrome Prospect Autographs,CPA
+CPA-JSU,Jared Sundstrom,Chrome Prospect Autographs,CPA
+CPA-JT,Jesus Tillero,Chrome Prospect Autographs,CPA
+CPA-JTO,Jonah Tong,Chrome Prospect Autographs,CPA
+CPA-JU,Jhonayker Ugarte,Chrome Prospect Autographs,CPA
+CPA-JV,Jancel Villarroel,Chrome Prospect Autographs,CPA
+CPA-JVA,Javier Vaz,Chrome Prospect Autographs,CPA
+CPA-JW,JJ Wetherholt,Chrome Prospect Autographs,CPA
+CPA-KC,Kevyn Castillo,Chrome Prospect Autographs,CPA
+CPA-KD,Kyle DeBarge,Chrome Prospect Autographs,CPA
+CPA-KDW,Khadim Diaw,Chrome Prospect Autographs,CPA
+CPA-KG,Konnor Griffin,Chrome Prospect Autographs,CPA
+CPA-KM,Kevin McGonigle,Chrome Prospect Autographs,CPA
+CPA-LD,Leo De Vries,Chrome Prospect Autographs,CPA
+CPA-LM,Luis Merejo,Chrome Prospect Autographs,CPA
+CPA-LP,Luis Pena,Chrome Prospect Autographs,CPA
+CPA-LR,Lucas Ramirez,Chrome Prospect Autographs,CPA
+CPA-MJ,Mitch Jebb,Chrome Prospect Autographs,CPA
+CPA-MMO,Malcolm Moore,Chrome Prospect Autographs,CPA
+CPA-MV,Mike Vasil,Chrome Prospect Autographs,CPA
+CPA-MW,Matt Wilkinson,Chrome Prospect Autographs,CPA
+CPA-NK,Nick Kurtz,Chrome Prospect Autographs,CPA
+CPA-NM,Naibel Mariano,Chrome Prospect Autographs,CPA
+CPA-NN,Nate Nankil,Chrome Prospect Autographs,CPA
+CPA-PE,Payton Eeles,Chrome Prospect Autographs,CPA
+CPA-PM,PJ Morlando,Chrome Prospect Autographs,CPA
+CPA-QM,Quinn Mathews,Chrome Prospect Autographs,CPA
+CPA-RF,Rafael Flores,Chrome Prospect Autographs,CPA
+CPA-RM,Richard Matic,Chrome Prospect Autographs,CPA
+CPA-RY,Ricardo Yan,Chrome Prospect Autographs,CPA
+CPA-SC,Slade Caldwell,Chrome Prospect Autographs,CPA
+CPA-SE,Steven Echavarria,Chrome Prospect Autographs,CPA
+CPA-SK,Sean Keys,Chrome Prospect Autographs,CPA
+CPA-SS,Sammy Stafura,Chrome Prospect Autographs,CPA
+CPA-SW,Sebastian Walcott,Chrome Prospect Autographs,CPA
+CPA-TB,Travis Bazzana,Chrome Prospect Autographs,CPA
+CPA-TC,Tsung-Che Cheng,Chrome Prospect Autographs,CPA
+CPA-TW,Thomas White,Chrome Prospect Autographs,CPA
+CPA-VR,Victor Rodrigues,Chrome Prospect Autographs,CPA
+CPA-WJ,Walker Jenkins,Chrome Prospect Autographs,CPA
+CPA-WJA,Walker Janek,Chrome Prospect Autographs,CPA
+CPA-WP,Wen-Hui Pan,Chrome Prospect Autographs,CPA
+CPA-WS,Winston Santos,Chrome Prospect Autographs,CPA
+CPA-WSI,Will Simpson,Chrome Prospect Autographs,CPA
+CPA-YC,Yeremi Cabrera,Chrome Prospect Autographs,CPA
+CPA-YR,Yophery Rodriguez,Chrome Prospect Autographs,CPA
+CPA-ZH,Zyhir Hope,Chrome Prospect Autographs,CPA
+CRA-CM,Coby Mayo,Chrome Rookie Autographs,CRA
+CRA-DC,Dylan Crews,Chrome Rookie Autographs,CRA
+CRA-JO,Jackson Jobe,Chrome Rookie Autographs,CRA
+CRA-JW,James Wood,Chrome Rookie Autographs,CRA
+CRA-KA,Kevin Alcántara,Chrome Rookie Autographs,CRA
+CRA-KR,Kumar Rocker,Chrome Rookie Autographs,CRA
+CRA-LA,Luisangel Acuña,Chrome Rookie Autographs,CRA
+CRA-RL,Rhett Lowder,Chrome Rookie Autographs,CRA
+CRA-RS,Roki Sasaki,Chrome Rookie Autographs,CRA
+CRA-SS,Spencer Schwellenbach,Chrome Rookie Autographs,CRA
+CRA-SW,Shay Whitcomb,Chrome Rookie Autographs,CRA
+BWC-1,Jesus Made,Crystalized,BWC
+BWC-2,Jac Caglianone,Crystalized,BWC
+BWC-3,Jacob Wilson,Crystalized,BWC
+BWC-4,Travis Bazzana,Crystalized,BWC
+BWC-5,Hagen Smith,Crystalized,BWC
+BWC-6,Coby Mayo,Crystalized,BWC
+BWC-7,Charlie Condon,Crystalized,BWC
+BWC-8,Walker Jenkins,Crystalized,BWC
+BWC-9,Roki Sasaki,Crystalized,BWC
+BWC-10,Marcelo Mayer,Crystalized,BWC
+BWC-11,Luisangel Acuña,Crystalized,BWC
+BWC-12,Dylan Crews,Crystalized,BWC
+BWC-13,JJ Wetherholt,Crystalized,BWC
+BWC-14,Carson Williams,Crystalized,BWC
+BWC-15,James Wood,Crystalized,BWC
+GL-1,Lazaro Montes,Greatness Loading,GL
+GL-2,Coby Mayo,Greatness Loading,GL
+GL-3,Kevin Alcántara,Greatness Loading,GL
+GL-4,Cam Smith,Greatness Loading,GL
+GL-5,Bryce Rainer,Greatness Loading,GL
+GL-6,Hagen Smith,Greatness Loading,GL
+GL-7,Charlie Condon,Greatness Loading,GL
+GL-8,Travis Bazzana,Greatness Loading,GL
+GL-9,Kevin McGonigle,Greatness Loading,GL
+GL-10,Spencer Schwellenbach,Greatness Loading,GL
+GL-11,Luisangel Acuña,Greatness Loading,GL
+GL-12,Leo De Vries,Greatness Loading,GL
+GL-13,Konnor Griffin,Greatness Loading,GL
+GL-14,Brooks Lee,Greatness Loading,GL
+GL-15,Kyle Teel,Greatness Loading,GL
+GL-16,Jacob Wilson,Greatness Loading,GL
+GL-17,JJ Wetherholt,Greatness Loading,GL
+GL-18,Dylan Crews,Greatness Loading,GL
+GL-19,Christian Moore,Greatness Loading,GL
+GL-20,James Wood,Greatness Loading,GL
+GL-21,Jac Caglianone,Greatness Loading,GL
+GL-22,Thomas Saggese,Greatness Loading,GL
+GL-23,Roki Sasaki,Greatness Loading,GL
+GL-24,Walker Jenkins,Greatness Loading,GL
+GL-25,Bryce Eldridge,Greatness Loading,GL
+HS-1,JJ Wetherholt,Hobby Stars,HS
+HS-2,Jackson Holliday,Hobby Stars,HS
+HS-3,Jackson Chourio,Hobby Stars,HS
+HS-4,Shohei Ohtani,Hobby Stars,HS
+HS-5,James Wood,Hobby Stars,HS
+HS-6,Mike Trout,Hobby Stars,HS
+HS-7,Travis Bazzana,Hobby Stars,HS
+HS-8,Bobby Witt Jr.,Hobby Stars,HS
+HS-9,Roki Sasaki,Hobby Stars,HS
+HS-10,Ronald Acuña Jr.,Hobby Stars,HS
+HS-11,Aaron Judge,Hobby Stars,HS
+HS-12,Dylan Crews,Hobby Stars,HS
+HS-13,Paul Skenes,Hobby Stars,HS
+HS-14,Charlie Condon,Hobby Stars,HS
+HS-15,Elly De La Cruz,Hobby Stars,HS
+HSA-BW,Bobby Witt Jr.,Hobby Stars Autographs,HSA
+HSA-CC,Charlie Condon,Hobby Stars Autographs,HSA
+HSA-DC,Dylan Crews,Hobby Stars Autographs,HSA
+HSA-ED,Elly De La Cruz,Hobby Stars Autographs,HSA
+HSA-JC,Jackson Chourio,Hobby Stars Autographs,HSA
+HSA-JH,Jackson Holliday,Hobby Stars Autographs,HSA
+HSA-JJW,JJ Wetherholt,Hobby Stars Autographs,HSA
+HSA-JW,James Wood,Hobby Stars Autographs,HSA
+HSA-MT,Mike Trout,Hobby Stars Autographs,HSA
+HSA-PS,Paul Skenes,Hobby Stars Autographs,HSA
+HSA-RA,Ronald Acuña Jr.,Hobby Stars Autographs,HSA
+HSA-TB,Travis Bazzana,Hobby Stars Autographs,HSA
+CPR-SC,Steve Carlton,Retrofractor Autographs,CPR
+BCP-151,Brooks Robinson,Retrofractors,Retro
+BCP-152,Steve Carlton,Retrofractors,Retro
+RR-1,Adael Amador,Rockstar Rookies,RR
+RR-2,Trey Sweeney,Rockstar Rookies,RR
+RR-3,Hyeseong Kim,Rockstar Rookies,RR
+RR-4,Rhett Lowder,Rockstar Rookies,RR
+RR-5,Jace Jung,Rockstar Rookies,RR
+RR-6,Kumar Rocker,Rockstar Rookies,RR
+RR-7,Coby Mayo,Rockstar Rookies,RR
+RR-8,Rece Hinds,Rockstar Rookies,RR
+RR-9,Brooks Lee,Rockstar Rookies,RR
+RR-10,Jackson Jobe,Rockstar Rookies,RR
+RR-11,James Wood,Rockstar Rookies,RR
+RR-12,Jhonkensy Noel,Rockstar Rookies,RR
+RR-13,Connor Norby,Rockstar Rookies,RR
+RR-14,Drew Thorpe,Rockstar Rookies,RR
+RR-15,Dylan Crews,Rockstar Rookies,RR
+RR-16,Jacob Wilson,Rockstar Rookies,RR
+RR-17,Thomas Saggese,Rockstar Rookies,RR
+RR-18,Luisangel Acuña,Rockstar Rookies,RR
+RR-19,Spencer Schwellenbach,Rockstar Rookies,RR
+RR-20,Roki Sasaki,Rockstar Rookies,RR
+RRA-AA,Adael Amador,Rockstar Rookies Autographs,RRA
+RRA-BL,Brooks Lee,Rockstar Rookies Autographs,RRA
+RRA-CM,Coby Mayo,Rockstar Rookies Autographs,RRA
+RRA-CN,Connor Norby,Rockstar Rookies Autographs,RRA
+RRA-DC,Dylan Crews,Rockstar Rookies Autographs,RRA
+RRA-JJ,Jackson Jobe,Rockstar Rookies Autographs,RRA
+RRA-JW,James Wood,Rockstar Rookies Autographs,RRA
+RRA-JWI,Jacob Wilson,Rockstar Rookies Autographs,RRA
+RRA-KR,Kumar Rocker,Rockstar Rookies Autographs,RRA
+RRA-LA,Luisangel Acuña,Rockstar Rookies Autographs,RRA
+RRA-RL,Rhett Lowder,Rockstar Rookies Autographs,RRA
+RRA-SS,Spencer Schwellenbach,Rockstar Rookies Autographs,RRA
+RRA-TS,Thomas Saggese,Rockstar Rookies Autographs,RRA
+ROY-1,Dylan Crews,Rookie of the Year Favorites,ROY
+ROY-2,Coby Mayo,Rookie of the Year Favorites,ROY
+ROY-3,Jackson Jobe,Rookie of the Year Favorites,ROY
+ROY-4,Luisangel Acuña,Rookie of the Year Favorites,ROY
+ROY-5,Kumar Rocker,Rookie of the Year Favorites,ROY
+ROY-6,Thomas Saggese,Rookie of the Year Favorites,ROY
+ROY-7,Caden Dana,Rookie of the Year Favorites,ROY
+ROY-8,Jace Jung,Rookie of the Year Favorites,ROY
+ROY-9,Drew Romo,Rookie of the Year Favorites,ROY
+ROY-10,Roki Sasaki,Rookie of the Year Favorites,ROY
+ROY-11,Rhett Lowder,Rookie of the Year Favorites,ROY
+ROY-12,Trey Sweeney,Rookie of the Year Favorites,ROY
+ROY-13,Adael Amador,Rookie of the Year Favorites,ROY
+ROY-14,Nick Yorke,Rookie of the Year Favorites,ROY
+ROY-15,Kevin Alcántara,Rookie of the Year Favorites,ROY
+ROY-AA,Adael Amador,Rookie of the Year Favorites Autographs,ROY-A
+ROY-CD,Caden Dana,Rookie of the Year Favorites Autographs,ROY-A
+ROY-CM,Coby Mayo,Rookie of the Year Favorites Autographs,ROY-A
+ROY-DC,Dylan Crews,Rookie of the Year Favorites Autographs,ROY-A
+ROY-DR,Drew Romo,Rookie of the Year Favorites Autographs,ROY-A
+ROY-JJ,Jackson Jobe,Rookie of the Year Favorites Autographs,ROY-A
+ROY-JJU,Jace Jung,Rookie of the Year Favorites Autographs,ROY-A
+ROY-KA,Kevin Alcántara,Rookie of the Year Favorites Autographs,ROY-A
+ROY-KR,Kumar Rocker,Rookie of the Year Favorites Autographs,ROY-A
+ROY-LA,Luisangel Acuña,Rookie of the Year Favorites Autographs,ROY-A
+ROY-RL,Rhett Lowder,Rookie of the Year Favorites Autographs,ROY-A
+ROY-RS,Roki Sasaki,Rookie of the Year Favorites Autographs,ROY-A
+ROY-TS,Thomas Saggese,Rookie of the Year Favorites Autographs,ROY-A
+VIP-1,Carson Williams,Very Important Prospects,VIP
+VIP-2,Nick Kurtz,Very Important Prospects,VIP
+VIP-3,Sebastian Walcott,Very Important Prospects,VIP
+VIP-4,Samuel Basallo,Very Important Prospects,VIP
+VIP-5,Bryce Eldridge,Very Important Prospects,VIP
+VIP-6,Matt Shaw,Very Important Prospects,VIP
+VIP-7,Chase Burns,Very Important Prospects,VIP
+VIP-8,Travis Bazzana,Very Important Prospects,VIP
+VIP-9,Charlie Condon,Very Important Prospects,VIP
+VIP-10,Max Clark,Very Important Prospects,VIP
+VIP-11,Jac Caglianone,Very Important Prospects,VIP
+VIP-12,Christian Moore,Very Important Prospects,VIP
+VIP-13,Colt Emerson,Very Important Prospects,VIP
+VIP-14,Leo De Vries,Very Important Prospects,VIP
+VIP-15,Cooper Pratt,Very Important Prospects,VIP
+VIP-16,Walker Jenkins,Very Important Prospects,VIP
+VIP-17,Carson Benge,Very Important Prospects,VIP
+VIP-18,JJ Wetherholt,Very Important Prospects,VIP
+VIP-19,Aidan Miller,Very Important Prospects,VIP
+VIP-20,Konnor Griffin,Very Important Prospects,VIP
+VIP-CB,Chase Burns,Very Important Prospects Autographs,VIP-A
+VIP-CC,Cam Caminiti,Very Important Prospects Autographs,VIP-A
+VIP-CCO,Charlie Condon,Very Important Prospects Autographs,VIP-A
+VIP-CE,Colt Emerson,Very Important Prospects Autographs,VIP-A
+VIP-CM,Christian Moore,Very Important Prospects Autographs,VIP-A
+VIP-CP,Cooper Pratt,Very Important Prospects Autographs,VIP-A
+VIP-JC,Jac Caglianone,Very Important Prospects Autographs,VIP-A
+VIP-JW,JJ Wetherholt,Very Important Prospects Autographs,VIP-A
+VIP-KG,Konnor Griffin,Very Important Prospects Autographs,VIP-A
+VIP-LD,Leo De Vries,Very Important Prospects Autographs,VIP-A
+VIP-MS,Matt Shaw,Very Important Prospects Autographs,VIP-A
+VIP-NK,Nick Kurtz,Very Important Prospects Autographs,VIP-A
+VIP-SB,Samuel Basallo,Very Important Prospects Autographs,VIP-A
+VIP-TB,Travis Bazzana,Very Important Prospects Autographs,VIP-A
+VIP-TW,Thomas White,Very Important Prospects Autographs,VIP-A

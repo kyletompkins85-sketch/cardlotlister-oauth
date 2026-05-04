@@ -7,8 +7,9 @@ Goal: capture nuance first, structure later.
 ## Context
 
 - Dataset snapshot: `data/cardmatch_pilot/2025_bowman/20260501_full/term_search_items_export.csv`
-- Checklists: full normalized rows in `data/checklists/normalized/2025_Bowman_Normalized.csv`; compact number → player → `card_type` line in `data/checklists/normalized/2025_Bowman_card_number_lookup.csv` (same idea as `bowman_cards.csv`, kept for classifier alignment).
-- Steps 1–2 (exclude + checklist code match): `scripts/cardmatch/run_2025_bowman_retail_steps12.py` → writes full `listings_steps12.csv` next to the input export (includes `step2_pass`: **1** only when `match_status` is `matched`, i.e. title↔checklist player score ≥ 80). Then one **review** CSV per `match_status` under `step2_by_match_status/` with columns only `card_number`, `player_name`, `card_type`, `listing` (logic in `cardmatch/bowman_2025_retail_steps.py`). Re-split only: `scripts/cardmatch/split_listings_steps12_by_match_status.py`.
+- Checklists: full normalized rows in `data/checklists/normalized/2025_Bowman_Normalized.csv`; compact number → player → `card_type` + **`card_type_display`** (short label, e.g. BCP) in `data/checklists/normalized/2025_Bowman_card_number_lookup.csv` (same idea as `bowman_cards.csv`, kept for classifier alignment). Matched review CSVs show **`card_type_display`** in the `card_type` column and abbreviated **`player_name`** (first name → two letters).
+- Steps 1–2 (exclude + checklist code match): `scripts/cardmatch/run_2025_bowman_retail_steps12.py` → writes full `listings_steps12.csv` next to the input export (includes `step2_pass`: **1** only when `match_status` is `matched`, i.e. title↔checklist player score ≥ 80). Then one **review** CSV per `match_status` under `step2_by_match_status/` with columns `card_number`, `player_name`, `card_type`, **`listing_display`**, `listing` (logic in `cardmatch/bowman_2025_retail_steps.py`). ``listing_display`` uses the same title cleanup and **code + /serial prefix** rules as step 3 whenever ``card_number`` is present on the row. Re-split only: `scripts/cardmatch/split_listings_steps12_by_match_status.py`.
+- **Matched + serial (review):** `step3_by_match_status/listings_step3_matched.csv` — only rows with `match_status_after_step3` = **matched** (step-2 checklist match), columns `card_number`, `serial`, `player_name`, `card_type`, **`listing_display`**, `listing`. ``listing_display`` strips team/city phrasing, ``RC`` / ``Rookie Card`` / ``1st Bowman``, drops whole words ``2025``, ``Bowman`` / ``Bowman's``, ``Prospects`` / ``Prospect``, standalone ``1st``, ``baseball``, ``shipping``, ``edition``, ``Topps``, removes ``!`` and spaced-hyphen glue (`` - ``), keeps ``Chrome``, then when the row has a checklist ``card_number`` prefixes **that code**, then a **Chrome** cue (``Chrome`` plus optional **product** follow-ons Mega/Mojo/Anime only — not parallel modifiers like Sapphire), then **``/serial``** parsed from the raw title (same slot-aware rules as the ``serial`` column), then the cleaned remainder without duplicating code, Chrome span, or serial (see ``cardmatch/bowman_2025_listing_display.py``). `serial` is recomputed from the title with the matched card slot so lone `/N` does not echo the checklist number (e.g. `/15` vs `BP-15`); use **`/499`**, **`#/99`**, or **`a/b`** fractions for print runs. Missing serial → **`-1`**. Sort: `card_number`, then `serial` with **`-1` first**, then denominators **descending**. Written by the same runner (or `scripts/cardmatch/split_listings_step3_matched_serial.py` on an existing `listings_steps12.csv`).
 - **Word flags / groups**: `cardmatch/bowman_2025_retail_flags.py` — `WF_*` flags are grounded in **this notes doc** (exclusions, paper/chrome clues, card-vs-modifier keywords, insert **phrases** from the set-distinction list). **`grp_*`** are reserved placeholders (all false) until retail-specific combination rules are defined; they are **not** copied from Bowman Draft. Step-1 exclusions use the same `WF_*` definitions.
 - This file is intentionally lightweight and iterative.
 - Prefer recording reasoning over rushing implementation.
@@ -47,6 +48,38 @@ Helpful framing for classification (and for rules later):
 - **Modifiers** — everything layered on top of that card: parallels (colors), patterns, serials, print types, grade, lot language, etc. Examples for the same card slot: sky blue, neon green, black, orange, pattern, refractor, `/99`, printing plate, etc.
 
 Splitting the problem this way keeps “which card line / code” separate from “which parallel or variant,” and makes it easier to reason about conflicts (e.g. team color words vs parallel colors) and precedence.
+
+For a **fixed stacking order** of modifiers on top of the checklist slot, see **Hierarchical listing identity** below (serial → color → pattern).
+
+## Hierarchical listing identity (four levels)
+
+Use this when you need a **single ladder** from checklist row to full variant wording. Each step **extends** the previous (nested / finer granularity); later steps assume earlier ones are resolved.
+
+### Step 1 — Card (checklist `card_number`)
+
+- **Anchors to:** the checklist key (`card_number` in `2025_Bowman_card_number_lookup.csv` and the full normalized checklist).
+- **Captures:** product line + slot + player identity for that row (no serial, no parallel color, no pattern).
+- **Example:** `BCP-149`
+
+### Step 2 — Card + serial number
+
+- **Adds:** the finite print run from the title (e.g. `/50`, `/499`, `#/50`, `x/50` — normalize conventions in implementation).
+- **Example:** `BCP-149` + `/50`
+
+### Step 3 — Card + serial number + color
+
+- **Adds:** parallel / ink **color** (gold, purple, neon green, etc. — use the set-line color lists later in this doc for Base vs Chrome).
+- **Example:** `BCP-149` + `/50` + gold
+
+### Step 4 — Card + serial number + color + pattern
+
+- **Adds:** **pattern** / texture (shimmer, reptilian, geometric, etc. — Chrome pattern list lives under **Chrome variation details** below).
+- **Example:** `BCP-149` + `/50` + gold + shimmer
+
+**Notes**
+
+- This hierarchy is **orthogonal** to the **Prediction pipeline (hypothesis)** section: that section is about *processing order* (exclude → player → card slot → modifiers). Here, “Step 1–4” is about *how much of the variant stack* you record on a listing once the card line is known.
+- Steps 2–4 are all **modifiers** in the mental model above; Step 1 is the **card** slot only.
 
 ## Prediction pipeline (hypothesis)
 

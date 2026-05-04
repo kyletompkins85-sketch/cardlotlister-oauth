@@ -3,7 +3,8 @@
 First-pass 2025 Bowman (retail) listing pipeline: exclusions + checklist code match + insert inference.
 
 Step 1 aligns with docs/classification/2025_bowman_classifier_notes.md (Excluded listings).
-Step 2 matches extracted checklist codes to data/checklists/normalized/2025_Bowman_card_number_lookup.csv
+Step 2 matches extracted checklist codes to ``data/checklists/normalized/2025_Bowman_card_number_lookup.csv``
+(``card_type`` + ``card_type_display`` for short labels in pipeline / review CSVs)
 and scores player alignment using cardmatch.player_match.
 Step 3 infers missing insert codes by title word flags + checklist name match (same pass threshold as
 step 2): ``ROY-*`` (rookie of the year + auto split), ``RRA-*`` / ``RR-*`` (rockstar rookies + auto),
@@ -17,9 +18,15 @@ import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from collections import defaultdict
-from typing import Dict, List, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 
-from cardmatch.bowman_2025_retail_flags import word_flags_for_title
+from cardmatch.bowman_2025_listing_display import listing_display_from_title
+from cardmatch.bowman_2025_retail_combo_catalog import load_card_type_lookup_maps
+from cardmatch.bowman_2025_retail_flags import (
+    checklist_slot_int,
+    serial_out_of_for_title,
+    word_flags_for_title,
+)
 from cardmatch.player_match import build_last_index, guess_player_from_title
 
 _DEFAULT_LOOKUP = (
@@ -29,6 +36,49 @@ _DEFAULT_LOOKUP = (
     / "normalized"
     / "2025_Bowman_card_number_lookup.csv"
 )
+
+# Fallback when CSV omits ``card_type_display`` (must match normalized checklist ``card_type`` strings).
+_CARD_TYPE_DISPLAY_DEFAULTS: Dict[str, str] = {
+    "Base": "Base",
+    "Anime": "BA",
+    "Anime Kanji Variations": "BA-K",
+    "Bowman Chrome Prospects": "BCP",
+    "Bowman Dual Autographs": "BDA",
+    "Bowman Prospect Autographs": "BPA",
+    "Bowman Prospects": "BP",
+    "Bowman Rookies and Veterans Autographs": "PRV",
+    "Bowman Scouts' Top 100": "BTP",
+    "Bowman Spotlights": "BS",
+    "Chrome Prospect Autographs": "CPA",
+    "Chrome Rookie Autographs": "CRA",
+    "Crystalized": "BWC",
+    "Greatness Loading": "GL",
+    "Hobby Stars": "HS",
+    "Hobby Stars Autographs": "HSA",
+    "Retrofractor Autographs": "CPR",
+    "Retrofractors": "Retro",
+    "Rockstar Rookies": "RR",
+    "Rockstar Rookies Autographs": "RRA",
+    "Rookie of the Year Favorites": "ROY",
+    "Rookie of the Year Favorites Autographs": "ROY-A",
+    "Very Important Prospects": "VIP",
+    "Very Important Prospects Autographs": "VIP-A",
+}
+
+
+def player_name_for_review_csv(full_name: str) -> str:
+    """
+    Matched review CSVs only: first token truncated to two letters, rest unchanged
+    (``Jackson Humphries`` → ``Ja Humphries``).
+    """
+    s = (full_name or "").strip()
+    if not s:
+        return ""
+    parts = s.split()
+    if len(parts) == 1:
+        w = parts[0]
+        return w if len(w) <= 2 else w[:2]
+    return f"{parts[0][:2]} {' '.join(parts[1:])}".strip()
 
 
 def _re(pat: str) -> re.Pattern[str]:
@@ -92,10 +142,16 @@ class ChecklistRow:
     card_number: str
     player: str
     card_type: str
+    card_type_display: str
 
 
 def load_card_lookup(path: Path | None = None) -> Tuple[Dict[str, ChecklistRow], List[str]]:
-    """Returns lookup by normalized card_number and parallel list of player names (checklist order)."""
+    """
+    Returns lookup by normalized ``card_number`` and parallel list of player names (checklist order).
+
+    Expects ``card_type_display`` on the CSV when present; otherwise derives from ``card_type`` via
+    :data:`_CARD_TYPE_DISPLAY_DEFAULTS`.
+    """
     p = path or _DEFAULT_LOOKUP
     by_key: Dict[str, ChecklistRow] = {}
     names: List[str] = []
@@ -105,9 +161,11 @@ def load_card_lookup(path: Path | None = None) -> Tuple[Dict[str, ChecklistRow],
             cn = (row.get("card_number") or "").strip()
             pl = (row.get("player") or "").strip()
             ct = (row.get("card_type") or "").strip()
+            ctd_raw = (row.get("card_type_display") or "").strip()
+            ctd = ctd_raw if ctd_raw else _CARD_TYPE_DISPLAY_DEFAULTS.get(ct, ct)
             if not cn:
                 continue
-            by_key[cn] = ChecklistRow(cn, pl, ct)
+            by_key[cn] = ChecklistRow(cn, pl, ct, ctd)
             names.append(pl)
     return by_key, names
 
@@ -146,6 +204,8 @@ def extract_checklist_codes(title: str, prefixes: Sequence[str]) -> List[str]:
     - Base slot: ``#`` + 1–3 digits for **veteran/rookie base** checklist slots **1–100** only.
       Not followed by a serial fraction (``#116/199`` is serial, not card 116). Matches
       ``#99``, ``# 99``, not ``#11/25`` as card 11 (ambiguous; skipped).
+    - **Not** applied when ``WF_chrome`` is true: bare ``#1``–``#100`` in Chrome listings are out of
+      scope for paper base slots (use ``BCP-`` / ``CPA-`` / etc.); avoids Mojo ``#7`` → paper base 7.
     """
     s = _clean(title)
     if not s or not prefixes:
@@ -178,17 +238,19 @@ def extract_checklist_codes(title: str, prefixes: Sequence[str]) -> List[str]:
             seen.add(key)
             found.append(key)
 
-    # Base #1–#100 only (2025 Bowman retail checklist); never treat #116/199 as card 116.
-    rx_hash_base = re.compile(
-        r"#\s*(\d{1,3})(?!\s*[\/／⁄]\s*\d)\b",
-    )
-    for m in rx_hash_base.finditer(s):
-        n = int(m.group(1))
-        if 1 <= n <= 100:
-            key = str(n)
-            if key not in seen:
-                seen.add(key)
-                found.append(key)
+    # Paper retail base #1–#100 only; never treat #116/199 as card 116. Skip entirely for Chrome-stock
+    # titles so parallel copy (e.g. Mojo #7) does not map to paper base slot 7.
+    if not word_flags_for_title(s).get("WF_chrome"):
+        rx_hash_base = re.compile(
+            r"#\s*(\d{1,3})(?!\s*[\/／⁄]\s*\d)\b",
+        )
+        for m in rx_hash_base.finditer(s):
+            n = int(m.group(1))
+            if 1 <= n <= 100:
+                key = str(n)
+                if key not in seen:
+                    seen.add(key)
+                    found.append(key)
 
     return found
 
@@ -403,7 +465,7 @@ def match_listing_to_checklist(
     if not codes:
         return MatchResult("unmatched_no_code", "", "", "", 0.0, "")
 
-    best: Tuple[float, ChecklistRow, str] = (-1.0, ChecklistRow("", "", ""), "")
+    best: Tuple[float, ChecklistRow, str] = (-1.0, ChecklistRow("", "", "", ""), "")
 
     for code in codes:
         row = by_key.get(code)
@@ -424,7 +486,7 @@ def match_listing_to_checklist(
             "matched",
             row.card_number,
             row.player,
-            row.card_type,
+            row.card_type_display,
             score,
             codes_joined,
         )
@@ -486,11 +548,116 @@ def step23_pass(excluded: str, match_status: str, step3_inferred_card: str) -> b
     return bool((step3_inferred_card or "").strip())
 
 
+@dataclass(frozen=True)
+class RetailApiContext:
+    """Checklist + step-3 inference inputs for :func:`retail_steps_row_extensions` / HTTP APIs."""
+
+    by_key: Dict[str, ChecklistRow]
+    prefixes: List[str]
+    roy_numeric: List[ChecklistRow]
+    roy_auto: List[ChecklistRow]
+    rr_numeric: List[ChecklistRow]
+    rr_auto: List[ChecklistRow]
+    btp_rows: List[ChecklistRow]
+    ct_to_disp: Dict[str, str]
+    disp_to_ct: Dict[str, str]
+
+
+def load_retail_api_context(checklist: Path | None = None) -> RetailApiContext:
+    """Load lookup, code prefixes, step-3 pools, and card-type display maps (same paths as CSV runner)."""
+    p = (checklist or _DEFAULT_LOOKUP).resolve()
+    by_key, _ = load_card_lookup(p)
+    ct_to_disp, disp_to_ct = load_card_type_lookup_maps(p)
+    roy_numeric, roy_auto = roy_checklist_subsets(by_key)
+    rr_numeric, rr_auto = rr_checklist_subsets(by_key)
+    btp_rows = btp_checklist_rows(by_key)
+    prefixes = checklist_code_prefixes(by_key)
+    return RetailApiContext(
+        by_key=by_key,
+        prefixes=prefixes,
+        roy_numeric=roy_numeric,
+        roy_auto=roy_auto,
+        rr_numeric=rr_numeric,
+        rr_auto=rr_auto,
+        btp_rows=btp_rows,
+        ct_to_disp=ct_to_disp,
+        disp_to_ct=disp_to_ct,
+    )
+
+
+def retail_steps_row_extensions(title: str, ctx: RetailApiContext) -> Dict[str, str]:
+    """
+    Run retail steps 1–3 for one title; return the same string fields written to ``listings_steps12.csv``
+    augmentation columns (no input CSV columns).
+    """
+    ex, mr = process_title(title, ctx.by_key, ctx.prefixes)
+    slot = None if ex else checklist_slot_int(mr.matched_card_number)
+    so = serial_out_of_for_title(title, slot)
+    out: Dict[str, str] = {
+        "WF_serial_out_of": "1" if so is not None else "0",
+        "serial_out_of": "-1" if so is None else str(so),
+        "exclusion_reason": ex,
+        "excluded": "1" if ex else "0",
+        "match_status": mr.match_status,
+        "step2_pass": "1" if (not ex and mr.match_status == "matched") else "0",
+        "matched_card_number": mr.matched_card_number,
+        "matched_checklist_player": mr.matched_player,
+        "matched_card_type": mr.matched_card_type,
+        "player_match_score": f"{mr.player_match_score:.2f}" if mr.player_match_score else "",
+        "extracted_codes": mr.extracted_codes,
+    }
+    if ex:
+        out["step3_inferred_card_number"] = ""
+        out["step3_inference_kind"] = ""
+        out["step3_inference_score"] = ""
+        out["step3_matched_checklist_player"] = ""
+        out["step3_matched_card_type"] = ""
+        out["match_status_after_step3"] = "excluded"
+        out["step23_pass"] = "0"
+        return out
+
+    wf = word_flags_for_title(title, slot)
+    inf_cn, inf_kind, inf_sc = infer_step3_insert_by_name(
+        title,
+        wf,
+        mr.extracted_codes,
+        ctx.roy_numeric,
+        ctx.roy_auto,
+        ctx.rr_numeric,
+        ctx.rr_auto,
+        ctx.btp_rows,
+    )
+    out["step3_inferred_card_number"] = inf_cn
+    out["step3_inference_kind"] = inf_kind
+    out["step3_inference_score"] = f"{inf_sc:.2f}" if inf_kind else ""
+    ck_inf = ctx.by_key.get(inf_cn) if inf_cn else None
+    out["step3_matched_checklist_player"] = ck_inf.player if ck_inf else ""
+    out["step3_matched_card_type"] = ck_inf.card_type_display if ck_inf else ""
+    out["match_status_after_step3"] = match_status_after_step3(
+        out["excluded"], mr.match_status, inf_cn
+    )
+    out["step23_pass"] = (
+        "1" if step23_pass(out["excluded"], mr.match_status, inf_cn) else "0"
+    )
+    return out
+
+
 # Columns written by ``write_listings_steps12_split_by_match_status`` (human review only).
-STEP2_REVIEW_COLUMNS: Tuple[str, str, str, str] = (
+STEP2_REVIEW_COLUMNS: Tuple[str, str, str, str, str] = (
     "card_number",
     "player_name",
     "card_type",
+    "listing_display",
+    "listing",
+)
+
+# Step-2 ``matched`` review export + parsed serial (see classifier notes — hierarchical identity).
+STEP3_MATCHED_REVIEW_COLUMNS: Tuple[str, str, str, str, str, str] = (
+    "card_number",
+    "serial",
+    "player_name",
+    "card_type",
+    "listing_display",
     "listing",
 )
 
@@ -518,8 +685,32 @@ def _sort_matched_review_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]
     return sorted(rows, key=lambda r: _card_number_sort_key(r.get("card_number") or ""))
 
 
+def _step3_serial_sort_key(serial_cell: str) -> Tuple[int, int]:
+    """Missing serial ``-1`` sorts before positive denominators; those sort descending (499 before 99)."""
+    t = (serial_cell or "").strip()
+    if t in ("", "-1"):
+        return (0, 0)
+    try:
+        n = int(t)
+    except ValueError:
+        return (2, 0)
+    if n < 0:
+        return (2, 0)
+    return (1, -n)
+
+
+def _sort_step3_matched_review_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    return sorted(
+        rows,
+        key=lambda r: (
+            _card_number_sort_key(r.get("card_number") or ""),
+            _step3_serial_sort_key(r.get("serial") or ""),
+        ),
+    )
+
+
 def _merged_row_to_step2_review_row(row: Dict[str, str]) -> Dict[str, str]:
-    """Map a listings_steps12 row to the four review columns."""
+    """Map a listings_steps12 row to the review columns (``listing`` = raw title; ``listing_display`` cleaned)."""
     title = (row.get("title") or "").strip()
     num = (row.get("matched_card_number") or "").strip()
     if not num:
@@ -528,9 +719,46 @@ def _merged_row_to_step2_review_row(row: Dict[str, str]) -> Dict[str, str]:
             num = codes.split("|", 1)[0].strip()
     return {
         "card_number": num,
-        "player_name": (row.get("matched_checklist_player") or "").strip(),
+        "player_name": player_name_for_review_csv((row.get("matched_checklist_player") or "").strip()),
         "card_type": (row.get("matched_card_type") or "").strip(),
+        "listing_display": listing_display_from_title(title, card_number=num or None),
         "listing": title,
+    }
+
+
+def _serial_cell_for_step3_row(row: Dict[str, str]) -> str:
+    """Re-parse serial from ``listing`` + ``card_number`` so slot echo rules apply; ``-1`` = none."""
+    r2 = _merged_row_to_step2_review_row(row)
+    slot = checklist_slot_int(r2["card_number"])
+    so = serial_out_of_for_title(r2["listing"], slot)
+    return "-1" if so is None else str(so)
+
+
+def _resolved_match_status_after_step3(row: Dict[str, str]) -> str:
+    """Same ``match_status_after_step3`` value as step-23 split logic (handles blank + legacy ROY bucket)."""
+    step3_inf = (row.get("step3_inferred_card_number") or "").strip()
+    ms23 = (row.get("match_status_after_step3") or "").strip()
+    if not ms23:
+        ms23 = match_status_after_step3(
+            row.get("excluded") or "",
+            row.get("match_status") or "",
+            step3_inf,
+        )
+    elif ms23 == "matched_step3_roy":
+        ms23 = MATCHED_STEP3_INSERT_STATUS
+    return ms23
+
+
+def _merged_row_to_step3_matched_review_row(row: Dict[str, str]) -> Dict[str, str]:
+    """Step-2 ``matched`` rows only: review columns including ``serial`` (``-1`` = no print run)."""
+    r2 = _merged_row_to_step2_review_row(row)
+    return {
+        "card_number": r2["card_number"],
+        "serial": _serial_cell_for_step3_row(row),
+        "player_name": r2["player_name"],
+        "card_type": r2["card_type"],
+        "listing_display": r2["listing_display"],
+        "listing": r2["listing"],
     }
 
 
@@ -552,8 +780,9 @@ def _merged_row_to_step23_review_row(row: Dict[str, str]) -> Dict[str, str]:
             num = codes.split("|", 1)[0].strip()
     return {
         "card_number": num,
-        "player_name": pl,
+        "player_name": player_name_for_review_csv(pl),
         "card_type": ct,
+        "listing_display": listing_display_from_title(title, card_number=num or None),
         "listing": title,
     }
 
@@ -569,7 +798,9 @@ def write_listings_step23_split_by_match_status(
     contain only listings **still** in that state after step 3.
 
     Output dir default: ``<merged_csv.parent>/step23_by_match_status/``.
-    Filenames: ``listings_step23_<status>.csv`` with the same four review columns as step-2 splits.
+    Filenames: ``listings_step23_<status>.csv`` with the same review columns as step-2 splits
+    (``card_type`` is the short ``card_type_display`` from the checklist when the merge row carries it;
+    ``player_name`` uses two-letter first-name truncation).
     The ``matched`` file is sorted by ``card_number`` (numeric-aware for ``PREFIX-123`` slots).
     """
     merged_csv = merged_csv.resolve()
@@ -588,16 +819,7 @@ def write_listings_step23_split_by_match_status(
             if col not in fieldnames:
                 raise ValueError(f"CSV missing {col} column: {merged_csv}")
         for row in r:
-            step3_inf = (row.get("step3_inferred_card_number") or "").strip()
-            ms23 = (row.get("match_status_after_step3") or "").strip()
-            if not ms23:
-                ms23 = match_status_after_step3(
-                    row.get("excluded") or "",
-                    row.get("match_status") or "",
-                    step3_inf,
-                )
-            elif ms23 == "matched_step3_roy":
-                ms23 = MATCHED_STEP3_INSERT_STATUS
+            ms23 = _resolved_match_status_after_step3(dict(row))
             buckets[ms23].append(_merged_row_to_step23_review_row(dict(row)))
 
     out_fields = list(STEP2_REVIEW_COLUMNS)
@@ -636,6 +858,62 @@ def write_listings_step23_split_by_match_status(
     return counts
 
 
+def write_listings_step3_matched_with_serial(
+    merged_csv: Path,
+    out_dir: Path | None = None,
+) -> int:
+    """
+    Write ``step3_by_match_status/listings_step3_matched.csv``: rows whose resolved
+    ``match_status_after_step3`` is **matched** (step-2 checklist + player pass), with columns
+    ``card_number``, ``serial``, ``player_name``, ``card_type``, ``listing_display``, ``listing``.
+
+    This is a **review** export (serial ladder on the checklist slot), not the pipeline’s
+    insert-inference “step 3” in :func:`infer_step3_insert_by_name`.
+
+    ``serial`` is always recomputed from ``title`` + ``matched_card_number`` (``-1`` when none),
+    sorted by ``card_number`` then ``serial`` (``-1`` rows first, then denominators descending).
+    ``player_name`` / ``card_type`` use the same review formatting as step-2 splits.
+
+    Returns the number of rows written (excluding header).
+    """
+    merged_csv = merged_csv.resolve()
+    if out_dir is None:
+        out_dir = merged_csv.parent / "step3_by_match_status"
+    else:
+        out_dir = out_dir.resolve()
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    rows: List[Dict[str, str]] = []
+    with merged_csv.open(newline="", encoding="utf-8") as f:
+        r = csv.DictReader(f)
+        fieldnames = list(r.fieldnames or [])
+        for col in ("excluded", "match_status"):
+            if col not in fieldnames:
+                raise ValueError(f"CSV missing {col} column: {merged_csv}")
+        for row in r:
+            if _resolved_match_status_after_step3(dict(row)) != "matched":
+                continue
+            rows.append(_merged_row_to_step3_matched_review_row(dict(row)))
+
+    out_path = out_dir / "listings_step3_matched.csv"
+    out_rows = _sort_step3_matched_review_rows(rows)
+    out_fields = list(STEP3_MATCHED_REVIEW_COLUMNS)
+    with out_path.open("w", newline="", encoding="utf-8") as fout:
+        w = csv.DictWriter(fout, fieldnames=out_fields, extrasaction="ignore")
+        w.writeheader()
+        for rr in out_rows:
+            w.writerow(rr)
+
+    summary_path = out_dir / "step3_matched_summary.txt"
+    summary_path.write_text(
+        f"source: {merged_csv}\n"
+        f"output: {out_path}\n"
+        f"rows: {len(out_rows)}\n",
+        encoding="utf-8",
+    )
+    return len(out_rows)
+
+
 def write_listings_steps12_split_by_match_status(
     merged_csv: Path,
     out_dir: Path | None = None,
@@ -644,8 +922,12 @@ def write_listings_steps12_split_by_match_status(
     Read ``listings_steps12.csv`` (or any CSV with ``match_status`` and the step-2 columns)
     and write one CSV per status under ``out_dir`` (default: ``<merged_csv.parent>/step2_by_match_status/``).
 
-    Each output file has exactly: ``card_number``, ``player_name``, ``card_type``, ``listing``
-    (listing text is the eBay ``title``).
+    Each output file has exactly: ``card_number``, ``player_name``, ``card_type``, ``listing_display``,
+    ``listing`` (``listing`` is the raw eBay ``title``; ``listing_display`` drops team/city noise, RC
+    / rookie fluff, product noise words, then prefixes ``card_number``, optional ``Chrome`` (+ Mega/Mojo/Anime product line only), and parsed ``/serial`` when known).
+    ``card_type`` echoes ``matched_card_type`` from the merge
+    (short ``card_type_display`` when the pipeline wrote it). ``player_name`` is abbreviated
+    (first word → two letters, e.g. ``Ja Humphries``).
 
     ``card_number`` uses ``matched_card_number`` when present; otherwise the first value in
     ``extracted_codes`` (pipe-separated), if any.

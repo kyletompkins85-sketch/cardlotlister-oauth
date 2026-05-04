@@ -1,0 +1,149 @@
+sort_order,card_type,card_type_display,serial,display_name
+1,Base,Base,-1,Paper
+2,Base,Base,499,Paper
+3,Base,Base,399,Paper
+4,Base,Base,299,Paper
+5,Base,Base,275,Paper
+6,Base,Base,250,Paper
+7,Base,Base,199,Paper
+8,Base,Base,175,Paper
+9,Base,Base,150,Paper
+10,Base,Base,125,Paper
+11,Base,Base,99,Paper
+12,Base,Base,75,Paper
+13,Base,Base,50,Paper
+14,Base,Base,49,Paper
+15,Base,Base,25,Paper
+16,Base,Base,10,Paper
+17,Base,Base,5,Paper
+18,Base,Base,4,Paper
+19,Base,Base,1,Paper
+20,Bowman Prospects,BP,-1,Paper
+21,Bowman Prospects,BP,499,Paper
+22,Bowman Prospects,BP,399,Paper
+23,Bowman Prospects,BP,299,Paper
+24,Bowman Prospects,BP,250,Paper
+25,Bowman Prospects,BP,199,Paper
+26,Bowman Prospects,BP,175,Paper
+27,Bowman Prospects,BP,150,Paper
+28,Bowman Prospects,BP,125,Paper
+29,Bowman Prospects,BP,99,Paper
+30,Bowman Prospects,BP,75,Paper
+31,Bowman Prospects,BP,50,Paper
+32,Bowman Prospects,BP,25,Paper
+33,Bowman Prospects,BP,10,Paper
+34,Bowman Prospects,BP,5,Paper
+35,Bowman Prospects,BP,4,Paper
+36,Bowman Prospects,BP,1,Paper
+37,Bowman Chrome Prospects,BCP,-1,Chrome
+38,Bowman Chrome Prospects,BCP,499,Chrome
+39,Bowman Chrome Prospects,BCP,399,Chrome
+40,Bowman Chrome Prospects,BCP,350,Chrome
+41,Bowman Chrome Prospects,BCP,299,Chrome
+42,Bowman Chrome Prospects,BCP,275,Chrome
+43,Bowman Chrome Prospects,BCP,250,Chrome
+44,Bowman Chrome Prospects,BCP,199,Chrome
+45,Bowman Chrome Prospects,BCP,175,Chrome
+46,Bowman Chrome Prospects,BCP,150,Chrome
+47,Bowman Chrome Prospects,BCP,125,Chrome
+48,Bowman Chrome Prospects,BCP,100,Chrome
+49,Bowman Chrome Prospects,BCP,99,Chrome
+50,Bowman Chrome Prospects,BCP,75,Chrome
+51,Bowman Chrome Prospects,BCP,50,Chrome
+52,Bowman Chrome Prospects,BCP,25,Chrome
+53,Bowman Chrome Prospects,BCP,15,Chrome
+54,Bowman Chrome Prospects,BCP,10,Chrome
+55,Bowman Chrome Prospects,BCP,5,Chrome
+56,Bowman Chrome Prospects,BCP,4,Chrome
+57,Bowman Chrome Prospects,BCP,2,Chrome
+58,Bowman Prospect Autographs,BPA,-1,Paper Auto
+59,Bowman Prospect Autographs,BPA,250,Paper Auto
+60,Bowman Prospect Autographs,BPA,150,Paper Auto
+61,Bowman Prospect Autographs,BPA,99,Paper Auto
+62,Bowman Prospect Autographs,BPA,50,Paper Auto
+63,Bowman Prospect Autographs,BPA,25,Paper Auto
+64,Bowman Prospect Autographs,BPA,5,Paper Auto
+65,Bowman Prospect Autographs,BPA,4,Paper Auto
+66,Bowman Rookies and Veterans Autographs,PRV,-1,Paper Auto
+67,Bowman Rookies and Veterans Autographs,PRV,250,Paper Auto
+68,Bowman Rookies and Veterans Autographs,PRV,150,Paper Auto
+69,Bowman Rookies and Veterans Autographs,PRV,140,Paper Auto
+70,Bowman Rookies and Veterans Autographs,PRV,99,Paper Auto
+71,Bowman Rookies and Veterans Autographs,PRV,50,Paper Auto
+72,Bowman Rookies and Veterans Autographs,PRV,25,Paper Auto
+73,Bowman Rookies and Veterans Autographs,PRV,5,Paper Auto
+74,Bowman Rookies and Veterans Autographs,PRV,1,Paper Auto
+75,Chrome Prospect Autographs,CPA,-1,Chrome Auto
+76,Chrome Prospect Autographs,CPA,499,Chrome Auto
+77,Chrome Prospect Autographs,CPA,299,Chrome Auto
+78,Chrome Prospect Autographs,CPA,250,Chrome Auto
+79,Chrome Prospect Autographs,CPA,199,Chrome Auto
+80,Chrome Prospect Autographs,CPA,150,Chrome Auto
+81,Chrome Prospect Autographs,CPA,100,Chrome Auto
+82,Chrome Prospect Autographs,CPA,99,Chrome Auto
+83,Chrome Prospect Autographs,CPA,75,Chrome Auto
+84,Chrome Prospect Autographs,CPA,50,Chrome Auto
+85,Chrome Prospect Autographs,CPA,25,Chrome Auto
+86,Chrome Prospect Autographs,CPA,10,Chrome Auto
+87,Chrome Prospect Autographs,CPA,5,Chrome Auto
+88,Chrome Prospect Autographs,CPA,4,Chrome Auto
+89,Chrome Prospect Autographs,CPA,1,Chrome Auto
+90,Chrome Rookie Autographs,CRA,499,Chrome Auto
+91,Chrome Rookie Autographs,CRA,150,Chrome Auto
+92,Chrome Rookie Autographs,CRA,100,Chrome Auto
+93,Chrome Rookie Autographs,CRA,99,Chrome Auto
+94,Chrome Rookie Autographs,CRA,50,Chrome Auto
+95,Anime,BA,-1,Anime
+96,Anime,BA,10,Anime
+97,Anime Kanji Variations,BA-K,-1,Anime Kanji
+98,Bowman Scouts' Top 100,BTP,-1,Top 100
+99,Bowman Scouts' Top 100,BTP,150,Top 100
+100,Bowman Scouts' Top 100,BTP,125,Top 100
+101,Bowman Scouts' Top 100,BTP,99,Top 100
+102,Bowman Scouts' Top 100,BTP,50,Top 100
+103,Bowman Scouts' Top 100,BTP,25,Top 100
+104,Bowman Scouts' Top 100,BTP,5,Top 100
+105,Bowman Scouts' Top 100,BTP,4,Top 100
+106,Crystalized,BWC,-1,Crystalized
+107,Crystalized,BWC,50,Crystalized
+108,Greatness Loading,GL,-1,Greatness Loading
+109,Greatness Loading,GL,150,Greatness Loading
+110,Greatness Loading,GL,125,Greatness Loading
+111,Greatness Loading,GL,50,Greatness Loading
+112,Greatness Loading,GL,25,Greatness Loading
+113,Hobby Stars,HS,-1,Hobby Stars
+114,Hobby Stars,HS,150,Hobby Stars
+115,Hobby Stars,HS,99,Hobby Stars
+116,Hobby Stars,HS,50,Hobby Stars
+117,Hobby Stars Autographs,HSA,99,Hobby Stars Auto
+118,Hobby Stars Autographs,HSA,50,Hobby Stars Auto
+119,Retrofractor Autographs,CPR,50,Retrofractor Auto
+120,Retrofractors,Retro,-1,Retrofractors
+121,Rockstar Rookies,RR,-1,Rockstar Rookies
+122,Rockstar Rookies,RR,150,Rockstar Rookies
+123,Rockstar Rookies,RR,125,Rockstar Rookies
+124,Rockstar Rookies,RR,99,Rockstar Rookies
+125,Rockstar Rookies,RR,50,Rockstar Rookies
+126,Rockstar Rookies,RR,25,Rockstar Rookies
+127,Rockstar Rookies,RR,5,Rockstar Rookies
+128,Rockstar Rookies Autographs,RRA,25,Rockstar Rookies Auto
+129,Rookie of the Year Favorites,ROY,-1,ROY
+130,Rookie of the Year Favorites,ROY,250,ROY
+131,Rookie of the Year Favorites,ROY,199,ROY
+132,Rookie of the Year Favorites,ROY,175,ROY
+133,Rookie of the Year Favorites,ROY,150,ROY
+134,Rookie of the Year Favorites,ROY,125,ROY
+135,Rookie of the Year Favorites,ROY,99,ROY
+136,Rookie of the Year Favorites,ROY,50,ROY
+137,Rookie of the Year Favorites,ROY,25,ROY
+138,Rookie of the Year Favorites,ROY,10,ROY
+139,Rookie of the Year Favorites Autographs,ROY-A,150,ROY Auto
+140,Very Important Prospects,VIP,-1,VIP
+141,Very Important Prospects,VIP,275,VIP
+142,Very Important Prospects,VIP,199,VIP
+143,Very Important Prospects,VIP,150,VIP
+144,Very Important Prospects,VIP,125,VIP
+145,Very Important Prospects,VIP,99,VIP
+146,Very Important Prospects,VIP,50,VIP
+147,Very Important Prospects,VIP,25,VIP
+148,Very Important Prospects Autographs,VIP-A,99,VIP Auto

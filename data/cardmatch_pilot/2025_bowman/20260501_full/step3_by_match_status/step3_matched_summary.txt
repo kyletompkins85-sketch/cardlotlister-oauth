@@ -1,0 +1,3 @@
+source: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/listings_steps12.csv
+output: /Users/kyletompkins/Documents/GitHub/cardlotlister-oauth/data/cardmatch_pilot/2025_bowman/20260501_full/step3_by_match_status/listings_step3_matched.csv
+rows: 7271

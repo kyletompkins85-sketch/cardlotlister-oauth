@@ -52,3 +52,41 @@ Root [`requirements.txt`](../requirements.txt) installs FastAPI, uvicorn, pandas
 - API: [`scripts/cardmatch/bowman_title_price_api.py`](../scripts/cardmatch/bowman_title_price_api.py)
 - Predict logic: [`cardmatch/bowman_title_price_predict.py`](../cardmatch/bowman_title_price_predict.py)
 - Batch observed flags (spread ratio + inversion vs worse card types): [`cardmatch/bowman_batch_listing_flags.py`](../cardmatch/bowman_batch_listing_flags.py)
+
+---
+
+## 2025 Bowman retail POC (no AutoGluon / no pairwise ranks)
+
+Separate FastAPI app: [`scripts/cardmatch/bowman_retail_deals_api.py`](../scripts/cardmatch/bowman_retail_deals_api.py). Use a **second Railway service** (or override the service **Start Command**) so the Draft `Procfile` `web` process stays unchanged.
+
+**Install (slim):** [`requirements-bowman-retail-api.txt`](../requirements-bowman-retail-api.txt) — `fastapi`, `uvicorn`, `pydantic` only. Set Nixpacks/custom install to `pip install -r requirements-bowman-retail-api.txt` for this service.
+
+**Start command:**
+
+```bash
+python scripts/cardmatch/bowman_retail_deals_api.py
+```
+
+### Endpoints
+
+| Method | Path | Notes |
+|--------|------|-------|
+| GET | `/health` | `{"status":"ok"}`. |
+| POST | `/batch/deals` | JSON `{"items":[{"title","price","id"?,"player_key"?}, ...]}` (min 1 item). **Price required.** Response: `results` (per item: classification, `canonical_card_type`, `serial`, `sort_order` from [`2025_Bowman_retail_card_type_serial_combos_observed.csv`](../data/checklists/normalized/2025_Bowman_retail_card_type_serial_combos_observed.csv), `spread_ratio` / `spread_ratio_third` on **bucket-min** rows only, same min-price gate as Draft observed-flags) and `groups` (per player cohort + `(card_type, serial)` cluster aggregates). |
+
+### Environment variables
+
+| Variable | Purpose |
+|----------|---------|
+| `PORT` | Railway sets this; app listens on `0.0.0.0` when `PORT` is set. |
+| `BOWMAN_RETAIL_API_HOST` | Optional bind host override (default `0.0.0.0` if `PORT` set). |
+| `BOWMAN_RETAIL_API_PORT` | Local override if `PORT` unset (default **8766**). |
+| `BOWMAN_RETAIL_CHECKLIST_CSV` | Default [`data/checklists/normalized/2025_Bowman_card_number_lookup.csv`](../data/checklists/normalized/2025_Bowman_card_number_lookup.csv). |
+| `BOWMAN_RETAIL_COMBO_SORT_CSV` | Default [`data/checklists/normalized/2025_Bowman_retail_card_type_serial_combos_observed.csv`](../data/checklists/normalized/2025_Bowman_retail_card_type_serial_combos_observed.csv). |
+| `BOWMAN_RETAIL_BATCH_MAX` | Max `items` length (default **200**). |
+
+### Related code
+
+- Retail classification (shared with CSV runner): [`cardmatch/bowman_2025_retail_steps.py`](../cardmatch/bowman_2025_retail_steps.py) (`load_retail_api_context`, `retail_steps_row_extensions`)
+- Batch deals + grouping: [`cardmatch/bowman_2025_retail_batch_deals.py`](../cardmatch/bowman_2025_retail_batch_deals.py)
+- Combo sort / display map: [`cardmatch/bowman_2025_retail_combo_catalog.py`](../cardmatch/bowman_2025_retail_combo_catalog.py)

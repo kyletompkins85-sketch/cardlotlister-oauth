@@ -5,7 +5,9 @@ import unittest
 from cardmatch.bowman_2025_retail_flags import (
     GROUP_FLAG_KEYS,
     WF_FLAG_KEYS,
+    checklist_slot_int,
     group_flags_for_word_flags,
+    serial_out_of_for_title,
     word_and_group_flags_for_title,
     word_flags_for_title,
     wf_grp_as_flat_str_dict,
@@ -14,7 +16,7 @@ from cardmatch.bowman_2025_retail_flags import (
 
 class TestBowman2025RetailFlags(unittest.TestCase):
     def test_wf_count_slim_not_draft_dump(self):
-        self.assertLessEqual(len(WF_FLAG_KEYS), 50)
+        self.assertLessEqual(len(WF_FLAG_KEYS), 120)
         self.assertGreaterEqual(len(WF_FLAG_KEYS), 25)
         self.assertEqual(len(GROUP_FLAG_KEYS), 20)
 
@@ -79,6 +81,66 @@ class TestBowman2025RetailFlags(unittest.TestCase):
     def test_serial_fraction_wf(self):
         wf = word_flags_for_title("Aaron Judge Neon Green 116/199 2025 Bowman")
         self.assertTrue(wf["WF_serial_fraction"])
+        self.assertTrue(wf["WF_serial_out_of"])
+        self.assertEqual(serial_out_of_for_title("Aaron Judge Neon Green 116/199 2025 Bowman"), 199)
+        self.assertTrue(wf["WF_color_neon_green"])
+        self.assertTrue(wf["WF_color_green"])
+
+    def test_serial_slash_only_and_serial_out_of_column_value(self):
+        self.assertTrue(word_flags_for_title("2025 Bowman Sky Blue /499")["WF_serial_out_of"])
+        self.assertFalse(word_flags_for_title("2025 Bowman Sky Blue /499")["WF_serial_fraction"])
+        self.assertEqual(serial_out_of_for_title("2025 Bowman Sky Blue /499"), 499)
+
+    def test_serial_plain_hash_not_print_run(self):
+        self.assertIsNone(serial_out_of_for_title("2025 Bowman Aaron Judge #99 Neon Green"))
+        self.assertFalse(word_flags_for_title("2025 Bowman Aaron Judge #99 Neon Green")["WF_serial_out_of"])
+
+    def test_serial_hash_slash_form(self):
+        self.assertEqual(serial_out_of_for_title("Bowman Refractor #/99 SSP"), 99)
+
+    def test_serial_slash_suppressed_when_matches_checklist_slot(self):
+        self.assertIsNone(
+            serial_out_of_for_title("2025 Bowman Emmanuel Clase #15 Purple /15", 15),
+        )
+        self.assertEqual(
+            serial_out_of_for_title("2025 Bowman Emmanuel Clase BP-15 Purple /99", 15),
+            99,
+        )
+
+    def test_serial_fraction_kept_when_denominator_equals_slot(self):
+        self.assertEqual(serial_out_of_for_title("2025 Bowman BP-15 3/15 parallel", 15), 15)
+
+    def test_checklist_slot_int(self):
+        self.assertEqual(checklist_slot_int("15"), 15)
+        self.assertEqual(checklist_slot_int("BP-15"), 15)
+        self.assertIsNone(checklist_slot_int("CPA-JW"))
+        self.assertEqual(checklist_slot_int("HS-11"), 11)
+
+    def test_serial_out_of_skips_year_after_slash(self):
+        self.assertEqual(serial_out_of_for_title("/250/2025 Bowman Chrome"), 250)
+        wf = word_flags_for_title("/250/2025 Bowman Chrome")
+        self.assertTrue(wf["WF_serial_out_of"])
+
+    def test_parallel_color_and_pattern_flags_from_notes(self):
+        wf = word_flags_for_title("2025 Bowman Chrome Rose Gold Raywave /250")
+        self.assertTrue(wf["WF_color_rose_gold"])
+        self.assertTrue(wf["WF_color_gold"])
+        self.assertTrue(wf["WF_pattern_raywave"])
+        wf2 = word_flags_for_title("Sky Blue Pattern BCP-1 mini diamond shimmer")
+        self.assertTrue(wf2["WF_color_sky_blue"])
+        self.assertTrue(wf2["WF_pattern"])
+        self.assertTrue(wf2["WF_pattern_mini_diamond"])
+        self.assertTrue(wf2["WF_pattern_shimmer"])
+
+    def test_named_print_flags_from_notes(self):
+        self.assertTrue(
+            word_flags_for_title("2025 Bowman retro logo foil #1")["WF_print_retro_logo_foil"]
+        )
+        self.assertTrue(word_flags_for_title("X-Fractor Juan Soto")["WF_print_xfractor"])
+        self.assertTrue(word_flags_for_title("steel metal refractor")["WF_print_steel_metal"])
+        self.assertTrue(word_flags_for_title("Superfractor 1/1")["WF_print_superfractor"])
+        self.assertTrue(word_flags_for_title("FireFractors SSP")["WF_print_firefractor"])
+        self.assertTrue(word_flags_for_title("Bowman popcorn parallel")["WF_print_snackpack"])
 
     def test_wf_non_bowman_retail_insert_flags(self):
         t = (

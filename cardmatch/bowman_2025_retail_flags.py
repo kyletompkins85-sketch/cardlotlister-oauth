@@ -3,8 +3,12 @@
 2025 Bowman **retail** listing word flags (``WF_*``) and group placeholders (``grp_*``).
 
 **Source of truth:** ``docs/classification/2025_bowman_classifier_notes.md`` only — exclusions,
-paper vs chrome clues, the card vs modifiers mental model, and insert **names** from the set
-distinction section. This module does **not** mirror Bowman Draft (``z10_bowman_listing_classifier``)
+paper vs chrome clues, the card vs modifiers mental model, **serials** (``WF_serial_fraction`` for
+``a/b``; ``WF_serial_out_of`` + ``serial_out_of_for_title()`` for parsed denominators; lone ``/N`` is
+ignored when ``N`` equals the checklist slot from ``checklist_slot_int`` (avoids ``/15`` vs card ``#15``).
+Print-run hash style requires ``#/`` (e.g. ``#/99``), not plain ``#99``. Parallel **colors** (``WF_color_*``), named **patterns** (``WF_pattern_*`` vs
+generic ``WF_pattern`` for the word *pattern*), named **prints** (``WF_print_*`` plus ``WF_refractor``
+/ ``WF_printing_plate``), and insert **names** from the set distinction section. This module does **not** mirror Bowman Draft (``z10_bowman_listing_classifier``)
 parallel taxonomy or old CT-style groupings.
 
 ``grp_*`` keys exist as **reserved slots** (all false) until retail-specific combination rules
@@ -14,7 +18,7 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from typing import Dict, Mapping, Sequence
+from typing import Dict, Mapping, Optional, Sequence
 
 # ---------------------------------------------------------------------------
 # Regex helpers
@@ -104,6 +108,124 @@ _RX_REFRACTOR = _re(r"\brefractor\b")
 _RX_PRINTING_PLATE = _re(r"\bprinting\s*plates?\b")
 _RX_PATTERN = _re(r"\bpattern\b")
 _RX_SERIAL_FRACTION = _re(r"(?<!\d)\d{1,4}\s*[\/／⁄]\s*\d{1,4}(?:,\d{3})?(?!\d)")
+# Serial denominator extraction (``serial_out_of_for_title``): ``a/b`` then ``#/N`` (slash required)
+# then lone ``/N`` (same year skip as ``cardmatch.serial_scarcity`` for ``/2025``-style titles).
+_RX_SERIAL_PAIR = _re(r"(?:^|[^\d/])(\d{1,6})\s*[\/／⁄]\s*(\d{1,6})(?:,\d{3})?(?!\d)")
+_RX_SERIAL_SLASH_DENOM = _re(r"[\/／⁄]\s*(\d{1,6})(?:,\d{3})?(?!\d)")
+_RX_SERIAL_HASH = _re(r"#\s*/\s*(\d{2,6})\b")
+
+_SLASH_TRANSLATION = str.maketrans({"\uFF0F": "/", "\u2044": "/"})
+
+
+def _title_for_serial_scan(title: str) -> str:
+    s = _norm_title(title).translate(_SLASH_TRANSLATION)
+    return s
+
+
+def checklist_slot_int(card_number: Optional[str]) -> Optional[int]:
+    """
+    Numeric roster slot from a checklist key when unambiguous: plain ``99``, or hyphen suffix
+    ``HS-11`` → ``11``, ``BP-15`` → ``15``. Letter-only auto codes (``CPA-JW``) → ``None``.
+    """
+    cn = (card_number or "").strip().upper()
+    if not cn:
+        return None
+    if cn.isdigit():
+        return int(cn)
+    m = re.match(r"^[A-Z]{1,12}-(\d+)$", cn)
+    if m:
+        return int(m.group(1))
+    return None
+
+
+def serial_out_of_for_title(title: str, checklist_slot: Optional[int] = None) -> Optional[int]:
+    """
+    Best-effort print-run / serial **denominator** from the title (e.g. ``/499`` → ``499``,
+    ``116/199`` → ``199``, ``#/99`` → ``99``).
+
+    When ``checklist_slot`` is set, a **lone** ``/N`` (not from an ``a/b`` fraction) matching that
+    slot is ignored so ``/15`` is not read as serial ``15`` for card ``BP-15``.
+
+    Skips ``/N`` when ``N`` is in ``2000..2035`` (year noise). Returns ``None`` when nothing matches.
+    """
+    s = _title_for_serial_scan(title)
+    if not s:
+        return None
+    m_pair = _RX_SERIAL_PAIR.search(s)
+    if m_pair:
+        try:
+            return int(m_pair.group(2).replace(",", ""))
+        except ValueError:
+            pass
+    m_hash = _RX_SERIAL_HASH.search(s)
+    if m_hash:
+        try:
+            v = int(m_hash.group(1).replace(",", ""))
+        except ValueError:
+            pass
+        else:
+            if checklist_slot is None or v != checklist_slot:
+                return v
+    for m in _RX_SERIAL_SLASH_DENOM.finditer(s):
+        try:
+            n = int(m.group(1).replace(",", ""))
+        except ValueError:
+            continue
+        if 2000 <= n <= 2035:
+            continue
+        if checklist_slot is not None and n == checklist_slot:
+            continue
+        return n
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Parallel colors (notes §Base card parallel — colors, §Paper/base auto, §Chrome — colors)
+# ---------------------------------------------------------------------------
+
+_RX_COLOR_SKY_BLUE = _re(r"\bsky\s+blue\b")
+_RX_COLOR_NEON_GREEN = _re(r"\bneon\s+green\b")
+_RX_COLOR_FUCHSIA = _re(r"\bfuchsia\b")
+_RX_COLOR_PURPLE = _re(r"\bpurple\b")
+_RX_COLOR_PINK = _re(r"\bpink\b")
+_RX_COLOR_BLUE = _re(r"\bblue\b")
+_RX_COLOR_GREEN = _re(r"\bgreen\b")
+_RX_COLOR_YELLOW = _re(r"\byellow\b")
+_RX_COLOR_GOLD = _re(r"\bgold\b")
+_RX_COLOR_ORANGE = _re(r"\borange\b")
+_RX_COLOR_BLACK = _re(r"\bblack\b")
+_RX_COLOR_RED = _re(r"\bred\b")
+_RX_COLOR_PLATINUM = _re(r"\bplatinum\b")
+_RX_COLOR_AQUA = _re(r"\baqua\b")
+_RX_COLOR_ROSE_GOLD = _re(r"\brose\s+gold\b")
+
+# ---------------------------------------------------------------------------
+# Named parallel patterns (notes §Chrome variation — patterns; ``WF_pattern`` = word "pattern")
+# ---------------------------------------------------------------------------
+
+_RX_PATTERN_GEOMETRIC = _re(r"\bgeometric\b")
+_RX_PATTERN_LAVA = _re(r"\blava\b")
+_RX_PATTERN_REPTILIAN = _re(r"\breptilian\b")
+_RX_PATTERN_SHIMMER = _re(r"\bshimmer\b")
+_RX_PATTERN_GRASS = _re(r"\bgrass\b")
+_RX_PATTERN_RAYWAVE = _re(r"\braywave\b")
+_RX_PATTERN_WAVE = _re(r"\bwave\b")
+_RX_PATTERN_MINI_DIAMOND = _re(r"\bmini\s+diamond\b")
+
+# ---------------------------------------------------------------------------
+# Named prints (notes §Base unique prints + §Chrome — unique prints; excludes generic refractor / plate)
+# ---------------------------------------------------------------------------
+
+_RX_PRINT_RETRO_LOGO_FOIL = _re(r"\bretro\s+logo\s+foil\b")
+_RX_PRINT_XFRACTOR = _re(r"\bx[\s-]?fractor\b")
+_RX_PRINT_SPECKLE = _re(r"\bspeckle\b")
+_RX_PRINT_STEEL_METAL = _re(r"\bsteel\s+metal\b")
+_RX_PRINT_PEARL = _re(r"\bpearl\b")
+_RX_PRINT_SNACKPACK = _re(
+    r"\bsnack\s*pack\b|\bgumball\b|\bpopcorn\b|\bpeanuts?\b|\bsunflower\s+seeds?\b"
+)
+_RX_PRINT_FIREFRACTOR = _re(r"\bfire\s*fractors?\b")
+_RX_PRINT_SUPERFRACTOR = _re(r"\bsuper\s*fractors?\b")
 
 # ---------------------------------------------------------------------------
 # Auto language + CPA sticker example from notes (CPA-JW)
@@ -190,6 +312,41 @@ WF_FLAG_KEYS: Sequence[str] = (
     "WF_printing_plate",
     "WF_pattern",
     "WF_serial_fraction",
+    "WF_serial_out_of",
+    # Parallel colors (notes — base + chrome + auto color lists)
+    "WF_color_aqua",
+    "WF_color_black",
+    "WF_color_blue",
+    "WF_color_fuchsia",
+    "WF_color_gold",
+    "WF_color_green",
+    "WF_color_neon_green",
+    "WF_color_orange",
+    "WF_color_pink",
+    "WF_color_platinum",
+    "WF_color_purple",
+    "WF_color_red",
+    "WF_color_rose_gold",
+    "WF_color_sky_blue",
+    "WF_color_yellow",
+    # Named parallel patterns (notes §Chrome — patterns)
+    "WF_pattern_geometric",
+    "WF_pattern_grass",
+    "WF_pattern_lava",
+    "WF_pattern_mini_diamond",
+    "WF_pattern_raywave",
+    "WF_pattern_reptilian",
+    "WF_pattern_shimmer",
+    "WF_pattern_wave",
+    # Named prints (notes — retro logo foil, xfractor, speckle, steel metal, pearl, snackpack, fire/super)
+    "WF_print_firefractor",
+    "WF_print_pearl",
+    "WF_print_retro_logo_foil",
+    "WF_print_snackpack",
+    "WF_print_speckle",
+    "WF_print_steel_metal",
+    "WF_print_superfractor",
+    "WF_print_xfractor",
     # Auto (notes §Auto vs non-auto + CPA example)
     "WF_auto",
     "WF_cpa_sticker",
@@ -223,13 +380,18 @@ WF_FLAG_KEYS: Sequence[str] = (
 GROUP_FLAG_KEYS: Sequence[str] = tuple(f"grp_reserved_{i:02d}" for i in range(1, 21))
 
 
-def word_flags_for_title(title: str) -> Dict[str, bool]:
-    """Return every ``WF_*`` flag for ``title`` (NFKC-normalized)."""
+def word_flags_for_title(title: str, checklist_slot: Optional[int] = None) -> Dict[str, bool]:
+    """Return every ``WF_*`` flag for ``title`` (NFKC-normalized).
+
+    Pass ``checklist_slot`` when the matched roster slot is known so ``WF_serial_out_of`` ignores
+    lone ``/N`` that only echo the card number (see :func:`serial_out_of_for_title`).
+    """
     s = _norm_title(title)
     out: Dict[str, bool] = {k: False for k in WF_FLAG_KEYS}
     if not s:
         return out
 
+    _so = serial_out_of_for_title(title, checklist_slot)
     out.update(
         {
             "WF_complete_set": _has(_RX_COMPLETE_SET, s),
@@ -250,6 +412,38 @@ def word_flags_for_title(title: str) -> Dict[str, bool]:
             "WF_printing_plate": _has(_RX_PRINTING_PLATE, s),
             "WF_pattern": _has(_RX_PATTERN, s),
             "WF_serial_fraction": _has(_RX_SERIAL_FRACTION, s),
+            "WF_serial_out_of": _so is not None,
+            "WF_color_aqua": _has(_RX_COLOR_AQUA, s),
+            "WF_color_black": _has(_RX_COLOR_BLACK, s),
+            "WF_color_blue": _has(_RX_COLOR_BLUE, s),
+            "WF_color_fuchsia": _has(_RX_COLOR_FUCHSIA, s),
+            "WF_color_gold": _has(_RX_COLOR_GOLD, s),
+            "WF_color_green": _has(_RX_COLOR_GREEN, s),
+            "WF_color_neon_green": _has(_RX_COLOR_NEON_GREEN, s),
+            "WF_color_orange": _has(_RX_COLOR_ORANGE, s),
+            "WF_color_pink": _has(_RX_COLOR_PINK, s),
+            "WF_color_platinum": _has(_RX_COLOR_PLATINUM, s),
+            "WF_color_purple": _has(_RX_COLOR_PURPLE, s),
+            "WF_color_red": _has(_RX_COLOR_RED, s),
+            "WF_color_rose_gold": _has(_RX_COLOR_ROSE_GOLD, s),
+            "WF_color_sky_blue": _has(_RX_COLOR_SKY_BLUE, s),
+            "WF_color_yellow": _has(_RX_COLOR_YELLOW, s),
+            "WF_pattern_geometric": _has(_RX_PATTERN_GEOMETRIC, s),
+            "WF_pattern_grass": _has(_RX_PATTERN_GRASS, s),
+            "WF_pattern_lava": _has(_RX_PATTERN_LAVA, s),
+            "WF_pattern_mini_diamond": _has(_RX_PATTERN_MINI_DIAMOND, s),
+            "WF_pattern_raywave": _has(_RX_PATTERN_RAYWAVE, s),
+            "WF_pattern_reptilian": _has(_RX_PATTERN_REPTILIAN, s),
+            "WF_pattern_shimmer": _has(_RX_PATTERN_SHIMMER, s),
+            "WF_pattern_wave": _has(_RX_PATTERN_WAVE, s),
+            "WF_print_firefractor": _has(_RX_PRINT_FIREFRACTOR, s),
+            "WF_print_pearl": _has(_RX_PRINT_PEARL, s),
+            "WF_print_retro_logo_foil": _has(_RX_PRINT_RETRO_LOGO_FOIL, s),
+            "WF_print_snackpack": _has(_RX_PRINT_SNACKPACK, s),
+            "WF_print_speckle": _has(_RX_PRINT_SPECKLE, s),
+            "WF_print_steel_metal": _has(_RX_PRINT_STEEL_METAL, s),
+            "WF_print_superfractor": _has(_RX_PRINT_SUPERFRACTOR, s),
+            "WF_print_xfractor": _has(_RX_PRINT_XFRACTOR, s),
             "WF_auto": _has(_RX_AUTO, s),
             "WF_cpa_sticker": _has(_RX_CPA_STICKER, s),
             "WF_rookie_of_the_year": _has(_RX_ROOKIE_OF_THE_YEAR, s),
@@ -287,8 +481,10 @@ def group_flags_for_word_flags(wf: Mapping[str, bool]) -> Dict[str, bool]:
     return {k: False for k in GROUP_FLAG_KEYS}
 
 
-def word_and_group_flags_for_title(title: str) -> tuple[Dict[str, bool], Dict[str, bool]]:
-    wf = word_flags_for_title(title)
+def word_and_group_flags_for_title(
+    title: str, checklist_slot: Optional[int] = None
+) -> tuple[Dict[str, bool], Dict[str, bool]]:
+    wf = word_flags_for_title(title, checklist_slot)
     return wf, group_flags_for_word_flags(wf)
 
 

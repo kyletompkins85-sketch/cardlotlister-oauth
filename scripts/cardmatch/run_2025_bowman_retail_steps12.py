@@ -17,18 +17,11 @@ _REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from cardmatch.bowman_2025_retail_flags import word_flags_for_title  # noqa: E402
 from cardmatch.bowman_2025_retail_steps import (  # noqa: E402
-    btp_checklist_rows,
-    checklist_code_prefixes,
-    infer_step3_insert_by_name,
-    load_card_lookup,
-    match_status_after_step3,
-    process_title,
-    roy_checklist_subsets,
-    rr_checklist_subsets,
-    step23_pass,
+    load_retail_api_context,
+    retail_steps_row_extensions,
     write_listings_step23_split_by_match_status,
+    write_listings_step3_matched_with_serial,
     write_listings_steps12_split_by_match_status,
 )
 
@@ -76,6 +69,17 @@ def main() -> int:
         default=None,
         help="Override directory for step-23 split CSVs (default: <output_parent>/step23_by_match_status)",
     )
+    ap.add_argument(
+        "--no-step3-matched-split",
+        action="store_true",
+        help="Do not write step3_by_match_status/listings_step3_matched.csv (matched + serial review)",
+    )
+    ap.add_argument(
+        "--step3-matched-dir",
+        type=Path,
+        default=None,
+        help="Override directory for step-3 matched+serial CSV (default: <output_parent>/step3_by_match_status)",
+    )
     args = ap.parse_args()
 
     inp = args.input.resolve()
@@ -85,16 +89,14 @@ def main() -> int:
     else:
         out = out.resolve()
 
-    by_key, _names = load_card_lookup(args.checklist)
-    prefixes = checklist_code_prefixes(by_key)
-    roy_numeric, roy_auto = roy_checklist_subsets(by_key)
-    rr_numeric, rr_auto = rr_checklist_subsets(by_key)
-    btp_rows = btp_checklist_rows(by_key)
+    ctx = load_retail_api_context(args.checklist)
 
     with inp.open(newline="", encoding="utf-8") as fin:
         r = csv.DictReader(fin)
         fieldnames = list(r.fieldnames or [])
         extra = [
+            "WF_serial_out_of",
+            "serial_out_of",
             "exclusion_reason",
             "excluded",
             "match_status",
@@ -120,48 +122,8 @@ def main() -> int:
             n = 0
             for row in r:
                 title = row.get("title") or ""
-                ex, mr = process_title(title, by_key, prefixes)
-                row["exclusion_reason"] = ex
-                row["excluded"] = "1" if ex else "0"
-                row["match_status"] = mr.match_status
-                row["step2_pass"] = "1" if (not ex and mr.match_status == "matched") else "0"
-                row["matched_card_number"] = mr.matched_card_number
-                row["matched_checklist_player"] = mr.matched_player
-                row["matched_card_type"] = mr.matched_card_type
-                row["player_match_score"] = f"{mr.player_match_score:.2f}" if mr.player_match_score else ""
-                row["extracted_codes"] = mr.extracted_codes
-                if ex:
-                    row["step3_inferred_card_number"] = ""
-                    row["step3_inference_kind"] = ""
-                    row["step3_inference_score"] = ""
-                    row["step3_matched_checklist_player"] = ""
-                    row["step3_matched_card_type"] = ""
-                    row["match_status_after_step3"] = "excluded"
-                    row["step23_pass"] = "0"
-                else:
-                    wf = word_flags_for_title(title)
-                    inf_cn, inf_kind, inf_sc = infer_step3_insert_by_name(
-                        title,
-                        wf,
-                        mr.extracted_codes,
-                        roy_numeric,
-                        roy_auto,
-                        rr_numeric,
-                        rr_auto,
-                        btp_rows,
-                    )
-                    row["step3_inferred_card_number"] = inf_cn
-                    row["step3_inference_kind"] = inf_kind
-                    row["step3_inference_score"] = f"{inf_sc:.2f}" if inf_kind else ""
-                    ck_inf = by_key.get(inf_cn) if inf_cn else None
-                    row["step3_matched_checklist_player"] = ck_inf.player if ck_inf else ""
-                    row["step3_matched_card_type"] = ck_inf.card_type if ck_inf else ""
-                    row["match_status_after_step3"] = match_status_after_step3(
-                        row["excluded"], row["match_status"], inf_cn
-                    )
-                    row["step23_pass"] = (
-                        "1" if step23_pass(row["excluded"], row["match_status"], inf_cn) else "0"
-                    )
+                ext = retail_steps_row_extensions(title, ctx)
+                row.update(ext)
                 w.writerow(row)
                 n += 1
 
@@ -180,6 +142,14 @@ def main() -> int:
         print(
             f"Wrote step-2+3 split CSVs under {d23} ({len(c23)} status buckets + "
             f"listings_step23_still_unmatched_after_both.csv + step23_split_summary.txt)"
+        )
+
+    if not args.no_step3_matched_split:
+        s3 = args.step3_matched_dir.resolve() if args.step3_matched_dir else None
+        n_matched_serial = write_listings_step3_matched_with_serial(out, out_dir=s3)
+        d3 = s3 or (out.parent / "step3_by_match_status")
+        print(
+            f"Wrote step-3 matched+serial under {d3} ({n_matched_serial} rows in listings_step3_matched.csv)"
         )
 
     return 0
