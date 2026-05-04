@@ -72,7 +72,7 @@ python scripts/cardmatch/bowman_retail_deals_api.py
 | Method | Path | Notes |
 |--------|------|-------|
 | GET | `/health` | `{"status":"ok"}`. |
-| POST | `/batch/deals` | JSON `{"items":[{"title","price","id"?,"player_key"?}, ...]}` (min 1 item). **Price required.** Response: `results` (per item: classification, `canonical_card_type`, `serial`, `sort_order` from [`2025_Bowman_retail_card_type_serial_combos_observed.csv`](../data/checklists/normalized/2025_Bowman_retail_card_type_serial_combos_observed.csv), `spread_ratio` / `spread_ratio_third` on **bucket-min** rows only, same min-price gate as Draft observed-flags) and `groups` (per player cohort + `(card_type, serial)` cluster aggregates). |
+| POST | `/batch/deals` | JSON `{"items":[{"title","price","id"?,"player_key"?}, ...]}` (min 1 item). **Price required.** Response: `results` and `groups`. **Draft parity:** each row/cluster includes **`card_type`** (client groups by this string — append ` /{serial}` when `serial != -1`, e.g. `Paper` vs `Paper /399`) and **`card_type_display_order`** (same value as combo `sort_order` when known). Also: classification fields, `spread_ratio` / `spread_ratio_third` on bucket-min rows (same min-price gate as Draft observed-flags). |
 
 ### Environment variables
 

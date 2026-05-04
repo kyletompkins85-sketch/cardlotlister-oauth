@@ -42,6 +42,9 @@ class TestRetailBatchDeals(unittest.TestCase):
         self.assertAlmostEqual(mins[0]["savings_vs_second_listing_pct"], (12.0 - 10.0) / 12.0, places=6)
         hi = [r for r in results if r["listing_price"] == 15.0][0]
         self.assertIsNone(hi["spread_ratio"])
+        # Draft-style grouping string: same display_name but serial in key when not -1
+        self.assertEqual(results[0]["card_type"], "Paper")
+        self.assertEqual(results[0]["card_type_display_order"], 1)
 
     def test_excluded_no_spread(self):
         items = [
@@ -51,6 +54,18 @@ class TestRetailBatchDeals(unittest.TestCase):
         self.assertTrue(results[0]["excluded"])
         self.assertIsNone(results[0]["spread_ratio"])
         self.assertIsNone(results[0]["canonical_card_type"])
+
+    def test_card_type_includes_serial_for_distinct_groups(self):
+        """Mirrors Draft: client groups by `card_type` — must embed /serial when not -1."""
+        t99 = "2025 Bowman #99 Aaron Judge Yankees"
+        t399 = "2025 Bowman - Mike Trout #1 Green /399"
+        items = [
+            RetailBatchInputItem(title=t99, price=5.0),
+            RetailBatchInputItem(title=t399, price=50.0),
+        ]
+        results, groups = analyze_retail_batch_deals(items, self.ctx, self.combo)
+        self.assertNotEqual(results[0]["card_type"], results[1]["card_type"])
+        self.assertIn("/399", results[1]["card_type"])
 
     def test_player_key_splits_cohorts(self):
         t = "2025 Bowman #99 Aaron Judge Yankees"

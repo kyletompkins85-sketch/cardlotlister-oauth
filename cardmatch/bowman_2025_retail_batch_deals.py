@@ -55,6 +55,39 @@ def _cluster_key(canonical_ct: str, serial: int) -> str:
     return f"{canonical_ct}\x1f{serial}"
 
 
+def retail_card_type_for_api_grouping(
+    eligible: bool,
+    display_name: str,
+    card_type_display: str,
+    canonical_card_type: str,
+    serial: int,
+    matched_card_type_short: str,
+) -> str:
+    """
+    Single string aligned with Draft ``POST /batch/observed-flags`` ``card_type`` usage: the app
+    groups rows with ``Dictionary(grouping:by: \\.cardType)``. For retail, **serial** must be part
+    of this string whenever it is not ``-1``, so ``Paper`` and ``Paper /399`` become distinct keys.
+    """
+    if not eligible:
+        s = (matched_card_type_short or "").strip()
+        if s:
+            return s
+        s = (display_name or "").strip() or (card_type_display or "").strip() or (canonical_card_type or "").strip()
+        return s
+    base = (
+        (display_name or "").strip()
+        or (card_type_display or "").strip()
+        or (canonical_card_type or "").strip()
+    )
+    if not base:
+        base = (matched_card_type_short or "").strip()
+    if serial == -1:
+        return base
+    if serial > 0 and base:
+        return f"{base} /{serial}"
+    return base
+
+
 def _eligible_for_spread(ext: Dict[str, str]) -> bool:
     if (ext.get("excluded") or "").strip() == "1":
         return False
@@ -122,11 +155,24 @@ def analyze_retail_batch_deals(
         else:
             hint = None
 
+        short_mt = (ext.get("matched_card_type") or "").strip()
+        ct_api = retail_card_type_for_api_grouping(
+            eligible[i],
+            dn,
+            ctd,
+            cct,
+            ser_i,
+            short_mt,
+        )
+
         row: dict[str, Any] = {
             "title": it.title,
             "listing_price": it.price,
             "id": it.id,
             "player_key": it.player_key,
+            # Draft observed-flags parity: one string the client groups/sorts by (includes /serial).
+            "card_type": ct_api,
+            "card_type_display_order": sort_o,
             "excluded": (ext.get("excluded") or "").strip() == "1",
             "exclusion_reason": ext.get("exclusion_reason") or None,
             "match_status": ext.get("match_status"),
@@ -184,6 +230,8 @@ def analyze_retail_batch_deals(
             j0 = c_idxs[0]
             cct, ser_i = canonical_cts[j0], serials[j0]
             sort_o, dn, ctd = combo_meta_for_cluster(cct, ser_i, combo_index, ctx.ct_to_disp)
+            short0 = (extensions[j0].get("matched_card_type") or "").strip()
+            ct_grp = retail_card_type_for_api_grouping(True, dn, ctd, cct, ser_i, short0)
 
             group_summaries.append(
                 {
@@ -192,6 +240,8 @@ def analyze_retail_batch_deals(
                     "canonical_card_type": cct,
                     "serial": ser_i,
                     "sort_order": sort_o,
+                    "card_type": ct_grp,
+                    "card_type_display_order": sort_o,
                     "display_name": dn,
                     "card_type_display": ctd,
                     "item_indices": list(c_idxs),
