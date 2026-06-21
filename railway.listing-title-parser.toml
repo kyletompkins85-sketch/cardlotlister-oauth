@@ -1,0 +1,12 @@
+# Config-as-code for the listing-title-parser Railway service only.
+# In that service's Settings → Config file path: railway.listing-title-parser.toml
+
+[build]
+builder = "RAILPACK"
+buildCommand = "pip install -r requirements-parse-api.txt"
+
+[deploy]
+startCommand = "python scripts/parse_listing_title_api.py"
+healthcheckPath = "/health"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"
