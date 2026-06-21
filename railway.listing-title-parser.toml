@@ -1,9 +1,15 @@
-# Config-as-code for the listing-title-parser Railway service only.
-# In that service's Settings → Config file path: railway.listing-title-parser.toml
+# listing-title-parser Railway service ONLY.
+# Linked via service setting railwayConfigFile=/railway.listing-title-parser.toml
 
 [build]
 builder = "RAILPACK"
 buildCommand = "pip install -r requirements-parse-api.txt"
+watchPatterns = [
+  "scripts/parse_listing_title.py",
+  "scripts/parse_listing_title_api.py",
+  "requirements-parse-api.txt",
+  "railway.listing-title-parser.toml",
+]
 
 [deploy]
 startCommand = "python scripts/parse_listing_title_api.py"
