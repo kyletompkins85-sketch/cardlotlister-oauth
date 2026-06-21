@@ -1,0 +1,5 @@
+# Slim stack for scripts/parse_listing_title_api.py (Railway / local).
+# Install: pip install -r requirements-parse-api.txt
+
+fastapi>=0.110.0,<1
+uvicorn[standard]>=0.27.0,<1
