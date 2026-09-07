@@ -38,6 +38,7 @@ jobs:
         run: python scripts/topps_football_2026/run_listing_search_queue.py
 
       - name: Commit queue status
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -33,62 +33,88 @@ def _user_key() -> str:
 
 
 def _search_term(base: str, key: str, user_key: str, query: str) -> dict:
-    body = {"query": query, "limit": PAGE_SIZE, "offset": 0}
-    if user_key:
-        body["userKey"] = user_key
+    if not user_key:
+        return _search_via_batch(base, key, query)
+    body = {"query": query, "limit": PAGE_SIZE, "offset": 0, "userKey": user_key}
+    url = f"{base}/comps/searchTerm"
+    delays = [5, 15, 30]
+    last = (0, {})
+    for attempt, wait in enumerate([0, *delays], start=1):
+        if wait:
+            print(f"  retry {attempt - 1} after {wait}s")
+            time.sleep(wait)
+        status, data = _post_json(url, key, body)
+        last = (status, data)
+        print(f"  searchTerm status={status} query={query}")
+        if status == 401 and (data.get("error") or "") == "missing_userKey":
+            return _search_via_batch(base, key, query)
+        if status in (429, 502, 503):
+            continue
+        if status >= 400:
+            raise RuntimeError(f"HTTP {status}: {data}")
+        if not data.get("ok"):
+            continue
+        if (data.get("query") or "").strip() != query:
+            raise RuntimeError(f"Worker query mismatch: {data.get('query')!r} != {query!r}")
+        return data
+    raise RuntimeError(f"HTTP {last[0]} after retries: {last[1]}")
+
+
+def _post_json(url: str, key: str, body: dict) -> tuple[int, dict]:
     resp = requests.post(
-        f"{base}/comps/searchTerm",
+        url,
         headers={"x-internal-key": key, "Content-Type": "application/json"},
         json=body,
         timeout=180,
     )
-    data = {}
     try:
         data = resp.json()
     except Exception:
         data = {"raw": resp.text}
-    if resp.status_code == 401 and (data.get("error") or "") == "missing_userKey":
-        return _search_via_batch(base, key, query)
-    print(f"  searchTerm status={resp.status_code} query={query}")
-    resp.raise_for_status()
-    if not data.get("ok"):
-        raise RuntimeError(data)
-    if (data.get("query") or "").strip() != query:
-        raise RuntimeError(f"Worker query mismatch: {data.get('query')!r} != {query!r}")
-    return data
+    return resp.status_code, data
 
 
 def _search_via_batch(base: str, key: str, query: str) -> dict:
     # batchPlayers does (prefix || "2025 Bowman Draft").trim()
     # A space is truthy, then trims to empty, so eBay q == playerName.
-    resp = requests.post(
-        f"{base}/comps/batchPlayers",
-        headers={"x-internal-key": key, "Content-Type": "application/json"},
-        json={
-            "prefix": " ",
-            "max_players": 1,
-            "limit": PAGE_SIZE,
-            "offset": 0,
-            "players": [query],
-        },
-        timeout=180,
-    )
-    print(f"  batchPlayers(space prefix) status={resp.status_code} query={query}")
-    resp.raise_for_status()
-    data = resp.json()
-    if not data.get("ok"):
-        raise RuntimeError(data)
-    processed = (data.get("processed") or [None])[0] or {}
-    name = (processed.get("playerName") or "").strip()
-    if name != query:
-        raise RuntimeError(f"batchPlayers name mismatch: {name!r} != {query!r}")
-    return {
-        "ok": True,
-        "query": query,
-        "run_id": processed.get("run_id"),
-        "returned": processed.get("returned"),
-        "inserted_items": processed.get("inserted_items"),
+    url = f"{base}/comps/batchPlayers"
+    body = {
+        "prefix": " ",
+        "max_players": 1,
+        "limit": PAGE_SIZE,
+        "offset": 0,
+        "players": [query],
     }
+    delays = [5, 15, 30]
+    last = (0, {})
+    for attempt, wait in enumerate([0, *delays], start=1):
+        if wait:
+            print(f"  retry {attempt - 1} after {wait}s")
+            time.sleep(wait)
+        status, data = _post_json(url, key, body)
+        last = (status, data)
+        print(f"  batchPlayers(space prefix) status={status} query={query}")
+        if status in (429, 502, 503):
+            continue
+        if status >= 400:
+            raise RuntimeError(f"HTTP {status}: {data}")
+        if not data.get("ok"):
+            err = str(data.get("error") or data)
+            if "502" in err or "timeout" in err.lower() or "fetch" in err.lower():
+                continue
+            raise RuntimeError(data)
+        processed = (data.get("processed") or [None])[0] or {}
+        name = (processed.get("playerName") or "").strip()
+        if name != query:
+            raise RuntimeError(f"batchPlayers name mismatch: {name!r} != {query!r}")
+        return {
+            "ok": True,
+            "query": query,
+            "run_id": processed.get("run_id"),
+            "returned": processed.get("returned"),
+            "inserted_items": processed.get("inserted_items"),
+        }
+    raise RuntimeError(f"HTTP {last[0]} after retries: {last[1]}")
 
 
 def main() -> None:
@@ -115,6 +141,12 @@ def main() -> None:
         print("No pending listing searches.")
         return
 
+    def _write() -> None:
+        with QUEUE.open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(rows)
+
     print(f"Searching {len(pending)} listings x 1 page (pause {PAUSE_S:.1f}s)")
     for row in pending:
         query = (row.get("proposed_search") or "").strip()
@@ -130,12 +162,8 @@ def main() -> None:
             f"  returned={data.get('returned')} "
             f"inserted={data.get('inserted_items')} run={data.get('run_id')}"
         )
+        _write()
         time.sleep(PAUSE_S)
-
-    with QUEUE.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
-        w.writeheader()
-        w.writerows(rows)
 
     done = [r for r in pending if r.get("status") == "done"]
     print(f"Marked done: {len(done)}/{len(pending)}")
