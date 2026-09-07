@@ -1,9 +1,9 @@
 seq,status,search_name,player,is_rc,card_count,type_count,types,teams
-1,pending,Aaron Rodgers,Aaron Rodgers,,2,2,Base Cards I|Pressure Cookers,Pittsburgh Steelers
-2,pending,Adam Randall,Adam Randall,Yes,3,3,Base Cards I|1991 Topps Rookies Football|1991 Topps Rookies Football Chrome,Baltimore Ravens
-3,pending,Adrian Peterson,Adrian Peterson,,1,1,Greats Of The Game,Minnesota Vikings
-4,pending,Akheem Mesidor,Akheem Mesidor,Yes,1,1,Base Cards I,Los Angeles Chargers
-5,pending,Alohi Gilman,Alohi Gilman,,1,1,25 Greatest Hits,Baltimore Ravens
+1,done,Aaron Rodgers,Aaron Rodgers,,2,2,Base Cards I|Pressure Cookers,Pittsburgh Steelers
+2,done,Adam Randall,Adam Randall,Yes,3,3,Base Cards I|1991 Topps Rookies Football|1991 Topps Rookies Football Chrome,Baltimore Ravens
+3,done,Adrian Peterson,Adrian Peterson,,1,1,Greats Of The Game,Minnesota Vikings
+4,done,Akheem Mesidor,Akheem Mesidor,Yes,1,1,Base Cards I,Los Angeles Chargers
+5,done,Alohi Gilman,Alohi Gilman,,1,1,25 Greatest Hits,Baltimore Ravens
 6,pending,Alvin Kamara,Alvin Kamara,,2,2,Base Cards I|Big Ticket Players,New Orleans Saints
 7,pending,Amon-Ra St. Brown,Amon-Ra St. Brown,,6,6,Base Cards I|25 All Topps Team|1991 Topps Football|1991 Topps Football Chrome|Big Ticket Players|NFL Stars,Detroit Lions
 8,pending,Anthony Hill Jr.,Anthony Hill Jr.,Yes,1,1,Base Cards I,Tennessee Titans
