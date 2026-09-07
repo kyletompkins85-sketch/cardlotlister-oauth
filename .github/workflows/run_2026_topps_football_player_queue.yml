@@ -1,0 +1,44 @@
+name: Run 2026 Topps Football player queue
+
+on:
+  workflow_dispatch:
+    inputs:
+      player_limit:
+        description: "How many pending players to search (from the sequenced CSV)"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+      INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+      PLAYER_LIMIT: ${{ github.event.inputs.player_limit }}
+      PREFIX: "2026 Topps Football"
+      PAGE_OFFSETS: "0,200"
+      MAX_PLAYERS_PER_CALL: "5"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Search next pending players
+        run: python scripts/topps_football_2026/run_player_queue.py
+
+      - name: Commit queue status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/topps_football_2026/players_non_base_plus_rookies.csv
+          git commit -m "Mark 2026 Topps Football player queue rows done" || echo "No queue changes"
+          git push
