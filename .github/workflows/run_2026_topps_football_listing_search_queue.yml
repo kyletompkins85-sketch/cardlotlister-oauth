@@ -1,0 +1,44 @@
+name: Run 2026 Topps Football listing search queue
+
+on:
+  workflow_dispatch:
+    inputs:
+      search_limit:
+        description: "How many pending listing searches to run (1 page each)"
+        required: false
+        default: "10"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
+      INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+      SEARCH_LIMIT: ${{ github.event.inputs.search_limit }}
+      EBAY_LIMIT: "200"
+      MAX_SEARCHES_PER_CALL: "5"
+      EBAY_PAUSE_MS: "250"
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Search next pending listings
+        run: python scripts/topps_football_2026/run_listing_search_queue.py
+
+      - name: Commit queue status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/topps_football_2026/014_dad_non_insert_search_draft.csv
+          git commit -m "Mark 2026 Topps Football listing search queue rows done" || echo "No queue changes"
+          git push
