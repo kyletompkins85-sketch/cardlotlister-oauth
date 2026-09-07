@@ -18,9 +18,11 @@ jobs:
       WORKER_BASE_URL: ${{ secrets.WORKER_BASE_URL }}
       INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
       SEARCH_LIMIT: ${{ github.event.inputs.search_limit }}
+      USER_KEY: ${{ secrets.USER_KEY }}
+      SYNC_USERKEY: ${{ secrets.SYNC_USERKEY }}
+      COMPS_USER_KEY: ${{ secrets.COMPS_USER_KEY }}
       EBAY_LIMIT: "200"
-      MAX_SEARCHES_PER_CALL: "5"
-      EBAY_PAUSE_MS: "250"
+      EBAY_PAUSE_MS: "2000"
 
     steps:
       - uses: actions/checkout@v5
